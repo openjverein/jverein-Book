@@ -1,0 +1,6 @@
+# Eigenschaften-Gruppen
+
+
+
+
+

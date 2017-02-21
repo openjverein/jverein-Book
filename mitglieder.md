@@ -99,7 +99,7 @@ Bei Mitglieder von Beitragsgruppen der Beitragsart Familie: Angehöriger können
 
 ## Sekundäre Beitragsgruppen
 
-Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration \| Einstellungen \| Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration \| Beitragsgruppen muss für mindestens eine Beitragsgruppe das Höschen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden. 
+Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration \| Einstellungen \| Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration \| Beitragsgruppen muss für mindestens eine Beitragsgruppe das Höschen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden.
 
 ![](/assets/Mitgliedsekundärebeitragsgruppen.png)
 
@@ -121,9 +121,109 @@ Das Datum des Mandats muss angegeben werden.
 
 Die SEPA-Sequenz wird automatisch ermittelt.
 
-Zusätzlich kann ein abweichender Kontoinhaber angegeben werden:
+Zusätzlich kann ein abweichender Kontoinhaber angegeben werden:![](/assets/MitgliedZahlung2.png)Mit dem Button "Mitglied-Daten übernehmen" werden einige der Daten des Mitglieds übertragen. Hinweis: Es werden nicht alle Daten übertragen, da es sich um einen abweichenden Kontoinhaber handelt. Z. B. der Vorname wird nicht übertragen.
 
-## 
+## Zusatzbeträge
+
+Zusätzliche Zahlungen \(z. B. Eigenanteile für Fahrten, Strafgelder ...\) können über Zusatzbeträge verarbeitet werden.
+
+![](/assets/MitgliedZusatzbetraege.png)
+
+Ein Klick auf Neu öffnet folgendes Fenster:![](/assets/MitgliedZusatzbetraegeneu.png)
+
+Weitere Informationen dazu: [/zusatzbetrage.md](/zusatzbetrage.md)
+
+## Vermerke
+
+Vermerke über das Mitglied \(z. B. Funktionen ...\) können in zwei Datenfeldern hinterlegt werden.
+
+![](/assets/MitgliedVermerke.png)
+
+## Wiedervorlage
+
+![](/assets/MitgliedWiedervorlage.png)
+
+Mit einem Rechtsklick auf einen Wiedervorlagetermin kann entweder ein Erledigungsdatum gesetzt oder zurückgesetzt werden. Mit einem Klick auf Neu öffnet sich folgendes Fenster:![](/assets/MitgliedWiedervorlageNeu.png)Zusätzlich werden die Daten unter Jameica \| Termine in einem Kalenderformat angezeigt.
+
+## Eigenschaften
+
+![](/assets/MitgliedEigenschaften.png)
+
+Die Eigenschaften des Mitgliedes können angehakt werden, bzw. das Häkchen kann entfernt werden. Die Änderungen werden bei Druck auf den Speichern-Knopf in die Datenbank geschrieben.
+
+[/eigenschaften.md](/eigenschaften.md) und [/eigenschaften-gruppen.md](/eigenschaften-gruppen.md) sind in der Administration einzurichten.
+
+## Zusatzfelder
+
+![](/assets/MitgliedZusatzfelder.png)
+
+Durch [/felddefinition.md](/felddefinition.md) die können zusätzliche Datenfelder erfasst werden.
+
+## Lehrgangsübersicht
+
+Zur Nutzung ist in den [/einstellungen.md](/einstellungen.md) das entsprechende Häkchen zu setzen und die Lehrgänge sind in der Plugins&gt;JVerein&gt;Lehrgangsarten einzurichten.
+
+### Lehrgang beim Mitglied anlegen
+
+![](/assets/Mitgliedlehrgang.jpg)
+
+## Lesefelder
+
+Zur Nutzung ist in den [/einstellungen.md](/einstellungen.md) das entsprechende Häkchen zu setzen und die Lesefelder sind unter JVerein&gt;Administration&gt;Lesefelder einzurichten.
+
+![](/assets/Lesefelder-Mitgliedansicht.png)
+
+Vorschau der definierten [/lesefelder.md](/lesefelder.md) für das aktuelle Mitglied.
+
+## Arbeitseinsatz
+
+In dieser Ansicht sehen Sie die geleisteten Arbeitsstunden, die diesem Mitglied zu gebucht wurden.
+
+Drücken Sie den Schalter "Neu" der oberhalb der Liste angeordnet ist so öffnet sich ein Dialog, in dem Sie neue Stunden für das Mitglied erfassen können. Sie geben das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
+
+In den Einstellungen von JVerein auf der Ansicht Beiträge können Sie ab der Version 2.5 ein Arbeitsstunden Modell ändern und negative Stunden erlaubt einstellen.
+
+Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negativer Wert eingetragen und damit die Sollstunden des Mitglieds erhöht werden. Damit kann man Dienstleistungen des Vereins, die mit Arbeitsstunden gegengerechnet werden können, einfach erfassen und abrechnen.
+
+Im Dialog Arbeitseinsätze prüfen können Sie sich jederzeit die Abrechnung aller Mitglieder anzeigen lassen. Es werden allerdings nur solche Mitglieder dort aufgeführt, die einer Beitragsgruppe angehören, in der zu leistende Arbeitsstunden eingetragen sind.
+
+## Kontextmenu
+
+### bearbeiten
+
+Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied
+
+### duplizieren
+
+Es wird ein neuer Datensatz mit den Daten des Mitgliedes angelegt. Dieser kann dann vor der Speicherung verändert werden.
+
+### Mail senden...
+
+Es wird eine Mail an das Mitglied versandt. Dabei wird eine Auswahl von Mailvorlagen zur Verfügung gestellt.
+
+### Eigenschaften
+
+Für alle markierten Mitglieder werden die angeklickten Eigenschaften gesetzt. Dabei stehen nur die Eigenschaftengruppen ohne Pflichteintrag oder ohne die Kennzeichnung "maximal 1" zur Verfügung,
+
+### Kontoauszug
+
+Für einen vorgegebenen Zeitraum werden alle Buchungen des Mitgliedskontos ausgegeben.
+
+### Spendenbescheinigung
+
+Erstellung einer Spendenbescheinigung, die direkt dem Mitglied zugeordnet ist.
+
+### Personalbogen
+
+Ausgabe aller zu einem Mitglied gespeicherten Daten \(Ausnahme: Ggfls. gespeicherte Dokumente\)
+
+### Manuelle Lastschrift...
+
+Generierung einer manuellen Lastschrift in Hibiscus.
+
+### Freie Formulare
+
+Alle definierten freien Formulare werden als Menüpunkt angeboten.
 
 
 

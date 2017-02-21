@@ -7,4 +7,9 @@
 * [Einstellungen](einstellungen.md)
 * Beitragsgruppen
 * [Beitragsmodelle](beitragsmodelle.md)
+* [Zusatzbeträge](zusatzbetrage.md)
+* [Eigenschaften](eigenschaften.md)
+* [Eigenschaften-Gruppen](eigenschaften-gruppen.md)
+* [Felddefinition](felddefinition.md)
+* [Lesefelder](lesefelder.md)
 
