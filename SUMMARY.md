@@ -5,4 +5,6 @@
 * [Suchprofil](suchprofil.md)
 * [Spendenbescheinigung](spendenbescheinigung.md)
 * [Einstellungen](einstellungen.md)
+* Beitragsgruppen
+* [Beitragsmodelle](beitragsmodelle.md)
 
