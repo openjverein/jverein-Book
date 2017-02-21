@@ -5,7 +5,7 @@
 * [Suchprofil](suchprofil.md)
 * [Spendenbescheinigung](spendenbescheinigung.md)
 * [Einstellungen](einstellungen.md)
-* Beitragsgruppen
+* [Beitragsgruppen](beitragsgruppen.md)
 * [Beitragsmodelle](beitragsmodelle.md)
 * [Zusatzbeträge](zusatzbetrage.md)
 * [Eigenschaften](eigenschaften.md)
@@ -14,4 +14,5 @@
 * [Lesefelder](lesefelder.md)
 * [Abhängigkeiten](abhangigkeiten.md)
 * [Abrechnung](abrechnung.md)
+* [Kursteilnehmer](kursteilnehmer.md)
 

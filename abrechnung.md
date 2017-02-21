@@ -23,3 +23,25 @@ Die Abrechnung wird mit dem untenstehenden Bildschirm initiiert. Es können
 
 verarbeitet werden.
 
+![](/assets/Abrechnung.png)
+
+Sofern als Modus nicht 'keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhytmus eingezogen.
+
+Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die Beiträge eingezogen werden. Dazu wird das Eingabedatum eingetragen, ab dem die Beiträge für nachträglich eingetretene Mitglieder abgebucht werden sollen.
+
+Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
+
+### Parameter
+
+#### Abrechnungsmodus
+
+##### keine Beitragsabrechnung
+
+Es werden keine Beiträge abgerechnet. Dieser Parameter ist zu setzen, wenn ausschließlich Kursteilnehmer oder Zusatzbeträge abgerechnet werden sollen.
+
+##### Alle
+
+Es werden alle Mitglieder entsprechend des eingestellten [/beitragsmodelle.md](/beitragsmodelle.md "Beitragsmodell") abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [/beitragsgruppen.md](/beitragsgruppen.md) und Zahlungsrhythmus sowie ggfls. individuelle Beiträge berücksichtigt.
+
+
+
