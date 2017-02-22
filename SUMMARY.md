@@ -30,4 +30,5 @@
 * [Konten](konten.md)
 * [Buchungsklasse](buchungsklasse.md)
 * [Buchungsart](buchungsart.md)
+* [Anfangsbestand](anfangsbestand.md)
 
