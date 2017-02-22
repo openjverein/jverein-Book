@@ -33,7 +33,7 @@ Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
 
 ### Parameter
 
-#### Abrechnungsmodus
+#### Abrechnungsmodus {#abrechnungsmodus}
 
 ##### keine Beitragsabrechnung
 
@@ -59,7 +59,45 @@ Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 [/bankarbe
 
 Analog zum Fälligkeitsdatum für Erst-/Einzellastschriften mit 2 [/bankarbeitstage.md](/bankarbeitstage.md)n.
 
+##### Stichtag
 
+Stichtag für die Berechnung der Mitgliedschaft und der Fälligkeit von Zusatzbeträgen.
 
+##### Zahlungsgrund für Beiträge
 
+Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird auf [/rechnungen.md](/rechnungen.md), [/mahnungen.md](/mahnungen.md) und bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [/beitragsgruppen.md](/beitragsgruppen.md) und dem Betrag\) ausgegeben.
+
+Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [/zusatzbetrage.md](/zusatzbetrage.md)\).
+
+##### Zusatzbeträge
+
+Mit dieser Option werden die [/Zusatzbeträgen](/Zusatzbeträgen) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
+
+##### Kursteilnehmer
+
+Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [/zusatzbetrage.md](/zusatzbetrage.md) an.
+
+##### Kompakte Abbuchung
+
+Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Abbuchung zusammengefasst.
+
+##### SEPA-Datei drucken
+
+Optional können die SEPA-Daten in zwei PDF-Dokumente \(FRST \(Erste\) + RCUR \(Folgelastschrift\)\) zum Ausdruck ausgegeben werden.
+
+Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben. Die IBAN in den Stammdaten \(siehe \[\[Einstellungen\]\]\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
+
+### Weitere Informationen
+
+Verwandte Themen: 
+
+[/abrechnungslauf.md](/abrechnungslauf.md)
+
+[ ](/abrechnungslauf.md),[/pre-notification.md](/pre-notification.md) 
+
+ [/rucklastschrift.md](/rucklastschrift.md), 
+
+[/rechnungen.md](/rechnungen.md)
+
+[/mitgliedskonto.md](/mitgliedskonto.md) 
 
