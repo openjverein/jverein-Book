@@ -15,4 +15,5 @@
 * [Abhängigkeiten](abhangigkeiten.md)
 * [Abrechnung](abrechnung.md)
 * [Kursteilnehmer](kursteilnehmer.md)
+* [Bankarbeitstage](bankarbeitstage.md)
 

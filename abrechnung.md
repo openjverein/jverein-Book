@@ -43,5 +43,15 @@ Es werden keine Beiträge abgerechnet. Dieser Parameter ist zu setzen, wenn auss
 
 Es werden alle Mitglieder entsprechend des eingestellten [/beitragsmodelle.md](/beitragsmodelle.md "Beitragsmodell") abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [/beitragsgruppen.md](/beitragsgruppen.md) und Zahlungsrhythmus sowie ggfls. individuelle Beiträge berücksichtigt.
 
+##### Eingetretene Mitglieder
 
+Es werden die neu eingetretenen Mitglieder abgerechnet. JVerein verwendet das Eingabedatum zur Selektion der eingetretenen Mitglieder.
+
+Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eingabedatum den Tag nach der letzten Abrechnung für eingetretene Miglieder \(ersatzweise den Tag nach der letzten Abrechnung für Alle\) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
+
+Hinweis: Das Eingabedatum wird beim Import von Mitgliedern nicht gesetzt.
+
+##### Fälligkeit SEPA \(Erst-/Einzel-Lastschrift\)
+
+Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 [/bankarbeitstage.md](/bankarbeitstage.md) nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
 
