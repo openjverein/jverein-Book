@@ -24,4 +24,5 @@
 * [Mitgliedskonto](mitgliedskonto.md)
 * [Abrechnung technisch](abrechnung-technisch.md)
 * [Adressen](adressen.md)
+* [Adresstypen](adresstypen.md)
 
