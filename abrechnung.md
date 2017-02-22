@@ -89,15 +89,15 @@ Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschriebe
 
 ### Weitere Informationen
 
-Verwandte Themen: 
+Verwandte Themen:
 
 [/abrechnungslauf.md](/abrechnungslauf.md)
 
-[ ](/abrechnungslauf.md),[/pre-notification.md](/pre-notification.md) 
+[ ](/abrechnungslauf.md)[/pre-notification.md](/pre-notification.md)
 
- [/rucklastschrift.md](/rucklastschrift.md), 
+[/rucklastschrift.md](/rucklastschrift.md),
 
 [/rechnungen.md](/rechnungen.md)
 
-[/mitgliedskonto.md](/mitgliedskonto.md) 
+[/mitgliedskonto.md](/mitgliedskonto.md)
 
