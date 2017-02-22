@@ -55,3 +55,11 @@ Hinweis: Das Eingabedatum wird beim Import von Mitgliedern nicht gesetzt.
 
 Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 [/bankarbeitstage.md](/bankarbeitstage.md) nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
 
+##### Fälligkeit SEPA \(Folge-/Letzte-Lastschrift\)
+
+Analog zum Fälligkeitsdatum für Erst-/Einzellastschriften mit 2 [/bankarbeitstage.md](/bankarbeitstage.md)n.
+
+
+
+
+
