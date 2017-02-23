@@ -26,7 +26,6 @@
 * [Mitgliedskonto](mitgliedskonto.md)
 * [Automatisches Backup](automatisches-backup.md)
 * [Abrechnung technisch](abrechnung-technisch.md)
-* [Allgemeine Funktionen](allgemeine-funktionen.md)
 * [Mitglieder](mitglieder.md)
 
 ## Kapitel Administration
@@ -43,9 +42,9 @@
 * [Adressen](adressen.md)
 * [Kursteilnehmer](kursteilnehmer.md)
 * [Familienbeitrag](familienbeitrag.md)
-* [Arbeitseinsatz](arbeitseinsatz.md)
 * [Auswertungen](auswertungen.md)
   * [Auswertung Kursteilnehmer](auswertungen/auswertung-kursteilnehmer.md)
   * [Auswertung Mitglieder](auswertungen/auswertung-mitglieder.md)
   * [Jubiläumsliste](auswertungen/jubilaumsliste.md)
+* [Arbeitseinsatz](arbeitseinsatz.md)
 
