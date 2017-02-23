@@ -2,13 +2,12 @@
 
 ## Kapitel Installation
 
-* [Anleitung Jameica Portable](anleitung-jameica-portable.md)
 * [Installation](installation.md)
+* [Anleitung Jameica Portable](anleitung-jameica-portable.md)
+* [Aller Anfang](aller-anfang.md)
 * [Einführung](README.md)
-* [Mitglieder](mitglieder.md)
 * [Suchprofil](suchprofil.md)
 * [Spendenbescheinigung](spendenbescheinigung.md)
-* [Einstellungen](einstellungen.md)
 * [Beitragsgruppen](beitragsgruppen.md)
 * [Beitragsmodelle](beitragsmodelle.md)
 * [Zusatzbeträge](zusatzbetrage.md)
@@ -18,7 +17,6 @@
 * [Lesefelder](lesefelder.md)
 * [Abhängigkeiten](abhangigkeiten.md)
 * [Abrechnung](abrechnung.md)
-* [Kursteilnehmer](kursteilnehmer.md)
 * [Bankarbeitstage](bankarbeitstage.md)
 * [Rechnungen](rechnungen.md)
 * [Mahnungen](mahnungen.md)
@@ -27,16 +25,23 @@
 * [Rücklastschrift](rucklastschrift.md)
 * [Mitgliedskonto](mitgliedskonto.md)
 * [Abrechnung technisch](abrechnung-technisch.md)
-* [Adressen](adressen.md)
-* [Adresstypen](adresstypen.md)
-* [Aller Anfang](aller-anfang.md)
 
 ## Kapitel Administration
 
+* [Einstellungen](einstellungen.md)
 * [Buchungsklasse](buchungsklasse.md)
+* [Adresstypen](adresstypen.md)
 * [Anfangsbestand](anfangsbestand.md)
 * [Konten](konten.md)
 * [Buchungsart](buchungsart.md)
 
-## Installation
+## Allgemeine Funktionen
+
+* [Mitglieder](mitglieder.md)
+* [Adressen](adressen.md)
+* [Kursteilnehmer](kursteilnehmer.md)
+* [Familienbeitrag](familienbeitrag.md)
+* [Arbeitseinsatz](arbeitseinsatz.md)
+
+## Abrechnung
 
