@@ -27,8 +27,7 @@
   * [Pre-Notification](pre-notification.md)
   * [Rücklastschrift](rucklastschrift.md)
   * [Mitgliedskonto](mitgliedskonto.md)
-
-* [Administration]
+* [Administration](administration.md)
   * [Einstellungen](einstellungen.md)
   * [Buchungsklasse](buchungsklasse.md)
   * [Adresstypen](adresstypen.md)
