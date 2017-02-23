@@ -2,6 +2,7 @@
 
 ## Kapitel Installation
 
+* [Anleitung Jameica Portable](anleitung-jameica-portable.md)
 * [Installation](installation.md)
 * [Einführung](README.md)
 * [Mitglieder](mitglieder.md)
@@ -29,12 +30,13 @@
 * [Adressen](adressen.md)
 * [Adresstypen](adresstypen.md)
 * [Aller Anfang](aller-anfang.md)
-* [Konten](konten.md)
+
+## Kapitel Administration
+
 * [Buchungsklasse](buchungsklasse.md)
-* [Buchungsart](buchungsart.md)
 * [Anfangsbestand](anfangsbestand.md)
+* [Konten](konten.md)
+* [Buchungsart](buchungsart.md)
 
 ## Installation
-
-* [Anleitung Jameica Portable](anleitung-jameica-portable.md)
 
