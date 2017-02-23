@@ -1,0 +1,6 @@
+# Buchungsvariable
+
+
+
+
+
