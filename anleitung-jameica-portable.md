@@ -20,5 +20,17 @@ Nachfolgend beschreibe ich die portable Installation auf einem USB-Stick, welche
 
 Auf dem Stick habe ich ein Verzeichnis E:\Portable angelegt, worunter meine portablen Anwendungen, als auch Daten liegen sollen. Unterhalb dieses Verzeichnisses, habe ich ein Verzeichnis „Data“ angelegt, also E:\Portable\Data. Hier sollen künftig die Daten meiner portablen Anwendungen liegen. Zur Unterscheidung der Daten pro Anwendungen, habe ich hierunter nochmals einen Ordner „jameica“ angelegt. In diesem Ordner E:\Portable\Data\jameica sollen also künftig die Daten von Jameica mit den Plugins liegen. Das ganze sieht dann so aus:
 
+![](/assets/Jamport01.png)
+
+Nun werden Jameica und die Plugins auf den Stick entpackt, hierzu verwende ich bei mir das Programm 7zip. Natürlich kann jedes andere Packprogramm dafür verwendet werden.
+
+Das Java Framework Jameica, entpacke ich dann direkt nach E:\Portable:
+
+![](/assets/Jamport02.png)
+
+Ergebnis:
+
+![](/assets/Jamport03.png)
+
 
 
