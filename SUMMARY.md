@@ -31,4 +31,5 @@
 * [Buchungsklasse](buchungsklasse.md)
 * [Buchungsart](buchungsart.md)
 * [Anfangsbestand](anfangsbestand.md)
+* [Anleitung Jameica Portable](anleitung-jameica-portable.md)
 
