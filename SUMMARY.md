@@ -46,6 +46,7 @@
   * [Felddefinition](felddefinition.md)
   * [Lesefelder](lesefelder.md)
   * [Familientarife](familientarife.md)
+  * [Buchungsübernahme](buchungsubernahme.md)
 * [Jahresabschluss](jahresabschluss.md)
 * [Buchungsvariable](buchungsvariable.md)
 * [Buchungsimport](buchungsimport.md)
