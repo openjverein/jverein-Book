@@ -42,6 +42,8 @@
 * [Kursteilnehmer](kursteilnehmer.md)
 * [Familienbeitrag](familienbeitrag.md)
 * [Arbeitseinsatz](arbeitseinsatz.md)
+* [Auswertungen](auswertungen.md)
+  * [Auswertung Kursteilnehmer](auswertungen/auswertung-kursteilnehmer.md)
 
 ## Abrechnung
 
