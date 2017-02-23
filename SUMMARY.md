@@ -50,4 +50,7 @@
 * [Jahresabschluss](jahresabschluss.md)
 * [Buchungsvariable](buchungsvariable.md)
 * [Buchungsimport](buchungsimport.md)
+* [Datenbank öffnen](datenbank-offnen.md)
+* [OpenOfficeDB](openofficedb.md)
+* [LibreOfficeDB](libreofficedb.md)
 
