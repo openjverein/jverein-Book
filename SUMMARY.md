@@ -6,6 +6,18 @@
 * [Installation](installation.md)
 * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
 * [Aller Anfang](aller-anfang.md)
+
+
+## Allgemeine Funktionen
+
+* [Adressen](adressen.md)
+* [Kursteilnehmer](kursteilnehmer.md)
+* [Familienbeitrag](familienbeitrag.md)
+* [Auswertungen](auswertungen.md)
+  * [Auswertung Kursteilnehmer](auswertungen/auswertung-kursteilnehmer.md)
+  * [Auswertung Mitglieder](auswertungen/auswertung-mitglieder.md)
+  * [Jubiläumsliste](auswertungen/jubilaumsliste.md)
+* [Arbeitseinsatz](arbeitseinsatz.md)
 * [Suchprofil](suchprofil.md)
 * [Spendenbescheinigung](spendenbescheinigung.md)
 * [Beitragsgruppen](beitragsgruppen.md)
@@ -28,16 +40,6 @@
 * [Abrechnung technisch](abrechnung-technisch.md)
 * [Mitglieder](mitglieder.md)
 
-## Allgemeine Funktionen
-
-* [Adressen](adressen.md)
-* [Kursteilnehmer](kursteilnehmer.md)
-* [Familienbeitrag](familienbeitrag.md)
-* [Auswertungen](auswertungen.md)
-  * [Auswertung Kursteilnehmer](auswertungen/auswertung-kursteilnehmer.md)
-  * [Auswertung Mitglieder](auswertungen/auswertung-mitglieder.md)
-  * [Jubiläumsliste](auswertungen/jubilaumsliste.md)
-* [Arbeitseinsatz](arbeitseinsatz.md)
 
 ## Kapitel Administration
 
