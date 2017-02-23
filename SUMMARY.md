@@ -28,6 +28,7 @@
   * [Rücklastschrift](rucklastschrift.md)
   * [Mitgliedskonto](mitgliedskonto.md)
   * [Buchführung Zusammenhänge](buchfuhrung-zusammenhange.md)
+  * [Buchungen](buchungen.md)
 * [Administration](administration.md)
   * [Einstellungen](einstellungen.md)
   * [Buchungsklasse](buchungsklasse.md)
@@ -44,4 +45,6 @@
   * [Felddefinition](felddefinition.md)
   * [Lesefelder](lesefelder.md)
   * [Familientarife](familientarife.md)
+* [Jahresabschluss](jahresabschluss.md)
+* [Buchungsimport](buchungsimport.md)
 
