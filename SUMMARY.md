@@ -5,8 +5,7 @@
   * [Installation](installation.md)
   * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
   * [Aller Anfang](aller-anfang.md)
-
-* [Allgemeine Funktionen]
+* [Allgemeine Funktionen](allgemeine-funktionen.md)
   * [Adressen](adressen.md)
   * [Kursteilnehmer](kursteilnehmer.md)
   * [Familienbeitrag](familienbeitrag.md)
@@ -14,6 +13,7 @@
     * [Auswertung Kursteilnehmer](auswertungen/auswertung-kursteilnehmer.md)
     * [Auswertung Mitglieder](auswertungen/auswertung-mitglieder.md)
     * [Jubiläumsliste](auswertungen/jubilaumsliste.md)
+* [Mitglieder](mitglieder.md)
 * [Arbeitseinsatz](arbeitseinsatz.md)
 * [Suchprofil](suchprofil.md)
 * [Spendenbescheinigung](spendenbescheinigung.md)
@@ -34,7 +34,6 @@
 * [Rücklastschrift](rucklastschrift.md)
 * [Mitgliedskonto](mitgliedskonto.md)
 * [Automatisches Backup](automatisches-backup.md)
-* [Abrechnung technisch](abrechnung-technisch.md)
 * [Mitglieder](mitglieder.md)
 
 ## Kapitel Administration
