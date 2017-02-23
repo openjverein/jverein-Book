@@ -1,6 +1,6 @@
 # Summary
 
-* Inst
+* [Installation](inst.md)
   * [Einführung](README.md)
   * [Installation](installation.md)
   * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
