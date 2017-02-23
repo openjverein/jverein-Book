@@ -53,4 +53,5 @@
 * [Datenbank öffnen](datenbank-offnen.md)
 * [OpenOfficeDB](openofficedb.md)
 * [LibreOfficeDB](libreofficedb.md)
+* [Diagnose-Backup](diagnose-backup.md)
 
