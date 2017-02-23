@@ -107,5 +107,81 @@ Ich nutze an der Stelle die 32bit-Version.
 
 ![](/assets/Jamport10.png)
 
+Zunächst lädt man sich die Batch-Datei über den entsprechenden Suchbutton. Der Dateiname für die EXE wird automatisch gesetzt kann aber natürlich geändert werden.
+
+Die Optionen auf diesem Reiter können so belassen werden. Wir wechseln nun noch auf den Reiter „Versionsinformation“:
+
+![](/assets/Jamport11.png)
+
+Das Hibiscus-Icon befindet sich im Pfad E:\Portable\jameica\plugins\hibiscus\icons.
+
+Die Versionsinformationen füge ich an der Stelle beispielhaft an, für den eigenen Bedarf braucht man diese Informationen wohl eher nicht.
+
+Mit „Kompilieren“ erstellt man nun die portable EXE-Datei mit Programm-Icon.
+
+Analog kann man das gleiche noch für die 64bit-Version durchführen.
+
+Im Verzeichnis E:\Portable\jameica befinden sich nun die portablen Starter im EXE-Format:
+
+![](/assets/Jamport12.png)
+
+## Wie lautet der Startbefehl im Ordner E:\Portable?
+
+Möchte man die portablen Startdateien außerhalb des Jameica-Verzeichnisses legen, dann lautet der Aufruf in der jeweiligen Batchdatei wie folgt:
+
+### Windows 32bit
+
+```
+cd jameica
+start ..\CommonFiles\Java\bin\java.exe -jar jameica-win32.jar -f ..\Data\jameica
+```
+
+### Windows 64bit
+
+```
+cd jameica
+start ..\CommonFiles\Java\bin\java.exe -jar jameica-win64.jar -f ..\Data\jameica
+```
+
+## Hinweise zur portablen Version unter Linux, MacOS etc.
+
+Eine richtig portable Version unter Linux, MacOS etc. kann es nicht geben, zumal es keine portable Java-Version hierfür gibt.
+
+Die Nutzung der „portablen“ Version setzt unter den genannten Betriebssystemen eine vorinstallierte Java Runtime ab Version 6 voraus.
+
+Eventuell werden ich diese Anleitung noch um die mehr oder minder portable Nutzung unter den genannten Betriebssystemen erweitern.
+
+## Update der portablen Version
+
+Ein Update muss immer von Version zu Version erfolgen. Wenn man versehentlich eine Version überspringt, kann dies zu Problemen führen.
+
+Updates gibt es aktuell ca. 2x jährlich, diese sollte man auch in aller Regel einspielen.
+
+Zur Einspielung einfach wie folgt vorgehen:
+
+1. Die portablen Startdateien vorher sichern, zumindest wenn Nutzung unter E:\Portable\jameica erfolgt.
+2. Den Ordner E:\Portable\jameica löschen
+3. Neue Versionen von Jameica und Plugins entsprechend dieser Anleitung in die gleichen Pfade installieren/entpacken.
+4. Das portable Java \(jPortable\) kann über die bestehende Version installiert bzw. upgedatet werden.
+5. Die portablen Startdateien wieder an den richtigen Ort kopieren.
+
+Sofern man versehentlich die portablen Startdateien nicht gesichert hat, kann man diese auch schnell gemäß dieser Anleitung anlegen.
+
+## Download einer so vorgefertigten Version?
+
+Da Updates sowieso manuell durchgeführt werden müssen/sollten, macht eine vorgefertigte Version nur bedingt Sinn. Gleiches gilt auch dann, wenn andere Pfade verwendet werden, wie ich sie hier verwendet habe.
+
+## Wie erstelle ich eine portable Version gemäß den Spezifikationen von [http://portableapps.com](http://portableapps.com)
+
+Im Wesentlichen muss man hier die gleichen Schritte wie erläutert machen, vor allem muss man sich aber an deren Spezifikationen halten, insbesondere die Verzeichnisstruktur betreffend:
+
+[http://portableapps.com/development/portableapps.com\_format](http://portableapps.com/development/portableapps.com_format)
+
+Hat man die Dateien entsprechend den Spezifikationen in die vorgegebenen Verzeichnisse entpackt/kopiert, und die portablen Starter gemäß dieser Anleitung erstellt bzw. evtl. auch angepasst, so kann man mit dem PortableApps.com Installer, daraus ein Installationspaket der Form MeineAnwendung.paf.exe erstellen:
+
+[http://portableapps.com/apps/development/portableapps.com\_installer](http://portableapps.com/apps/development/portableapps.com_installer)
+
+Viel Erfolg dabei!
+
 
 
