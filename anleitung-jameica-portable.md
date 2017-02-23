@@ -105,9 +105,7 @@ Das Programm ist portabel, und es gibt eine 32bit und eine 64bit-Version. Prinzi
 
 Ich nutze an der Stelle die 32bit-Version.
 
-
-
-
+![](/assets/Jamport10.png)
 
 
 

@@ -1,6 +1,6 @@
 # Summary
 
-## Installation
+## Kapitel Installation
 
 * [Installation](installation.md)
 * [Einführung](README.md)
