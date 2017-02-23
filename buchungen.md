@@ -19,7 +19,31 @@ Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie
 
 ## Import
 
+Siehe [Buchungsimport](/buchungsimport.md)
 
+## CSV-Export
 
+Die über die Suchkriterien ausgewählten Buchungen können mit einem Klick auf CSV-Export als CSV-Datei ausgegeben werden. Dabei werden bei Nutzung des Mitgliedskontos ggfls. auch die Daten des Mitgliedes ausgegeben.
 
+## PDF-Ausgaben
+
+Die nachfolgenden PDF-Auswertungen sind hier abrufbar. Ausführlich beschrieben werden sie im Artikel [Buchführung Zusammenhänge](/buchfuhrung-zusammenhange.md).
+
+### PDF-Buchungsjournal
+
+Auflistung aller Buchungen nach verschiedenen Sortierungen.
+
+### PDF-Einzelbuchungen
+
+Auflistung aller Buchungen nach Buchungsarten.
+
+### PDF-Summen
+
+Ausgabe der Summen pro Buchungsart.
+
+## Buchungen
+
+![](/assets/Buchung.png)
+
+Siehe auch [Mitgliedskonto, ](/mitgliedskonto.md)[Splittbuchungen](/buchungen/splittbuchungen.md)
 

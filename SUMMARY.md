@@ -28,6 +28,7 @@
   * [Rücklastschrift](rucklastschrift.md)
   * [Mitgliedskonto](mitgliedskonto.md)
   * [Buchführung Zusammenhänge](buchfuhrung-zusammenhange.md)
+  * [Splittbuchungen](buchungen/splittbuchungen.md)
   * [Buchungen](buchungen.md)
 * [Administration](administration.md)
   * [Einstellungen](einstellungen.md)
