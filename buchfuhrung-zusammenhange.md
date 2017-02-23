@@ -83,5 +83,51 @@ Die Sortierung erfolgt grundsätzlich nach Datum, da die Belege im Belegordner n
 
 Für die Nachvollziehbarkeit und sachlicher Zuordnung \(die die Kassenprüfer normalerweise auch überprüfen sollten\) sind folgende Felder im Buchungsjournal enthalten:
 
+Buchungsnummer \(Nr\)	Dient zur Zuordnung der Belege zur Buchung indem jeder Beleg mit der entsprechenden Buchungsnummer beschriftet wird \(= Belegnummer\).
+
+Hinweis: Gerade die Kassenprüfer sind dankbar, wenn sie anhand einer eindeutigen Nummer den relevanten Beleg im Ordner schnell finden können.
+
+| Datum | Ist das Sortierkriterium |
+| :--- | :--- |
+| Konto und Auszug | Damit kann schnell die Transaktion auf dem entsprechenden Kontoauszug gefunden werden |
+| Name und Zahlungsgrund | Beschreiben inhaltlich die Buchung |
+| Buchungsart | Stellt die sachliche Zuordnung der Buchung zu einer übergeordneten Gruppe dar \(z.B. dürfen Einnahmen aus einer Tombola nicht plötzlich als Spenden gebucht werden\). Dies ist auch für die Nachvollziehbarkeit fürs Finanzamt wichtig \(siehe Kapitel "Buchungsklassen"\). |
+| Betrag | Der Betrag wird nach Ausgaben und Einnahmen unterschieden, um die Salden ermitteln zu können. |
+
+Am Ende der Liste stehen die Summen für Einnahmen, Ausgaben und Umbuchungen. Diese Summen müssen exakt mit den Werten für Einnahmen, Ausgaben und Umbuchungen im Jahressaldo übereinstimmen. Somit wird die Vollständigkeit der Buchungen und damit auch der Belege gewährleistet, da alle Transaktionen im Geschäftsjahr nachgewiesen werden.
+
+### Buchungsartenliste \(Summen\)
+
+Die "Buchungsartenliste-Summen" \(Navigation: Buchführung =&gt; Buchungen =&gt; PDF Summen\) dient dazu einen Gesamtüberblick über die finanzielle Situation zu erhalten, um z.B. einen Kassenbericht anzufertigen.
+
+Entsprechend wird auch am Ende dieser Liste die Summen getrennt nach Einnahmen, Ausgaben und Umbuchungen aufgeführt.	![](/assets/640px-Bf-listebuchungsartensummen.png)
+
+### Buchungsartenliste \(Einzelbuchungen\)
+
+Die "Buchungsartenliste-Einzelbuchungen" \(Navigation: Buchführung =&gt; Buchungen =&gt; PDF Einzelbuchungen\) dient für die Klärung einer Detailfrage, z.B. "Wer hat dieses Jahr schon alles gespendet?" oder "Welche Sportgeräte wurden dieses Jahr schon gekauft?"\).
+
+Deshalb werden entsprechend der Selektion nur die relevanten Buchungen gruppiert nach den Kostenarten und mit den gesamten Informationen \(Name, Zahlungsgrund, Zahlungsgrund2\) dargestellt.
+
+![](/assets/640px-Bf-listebuchungen.png)
+
+### Buchungsklassenliste
+
+Die Buchungsklassen dienen dazu die einzelnen Buchungen entsprechend den steuerlichen Vorgaben zu gruppieren. Diese Klassen können in JVerein unter "Administration =&gt; Buchungsklasse" angelegt und gepflegt werden.
+
+Für Vereine würde sich folgende Aufteilung anbieten, da diese Gruppierung vom Finanzamt angefragt werden kann, da z.B. für die Steuerbefreiung bestimmte Grenzwerte in diesen Gruppen nicht überschritten werden dürfen:
+
+* Ideeller Bereich
+* Vermögensverwaltung
+* Zweckbetrieb
+* Wirtschaftlicher Geschäftsbetrieb
+
+Unter Administration =&gt; Buchungsart werden die Buchungsarten angelegt und gepflegt. Dort können die Buchungsarten auch den einzelnen Buchungsklassen zugeordnet werden. Wichtig dabei ist natürlich, die Buchungsarten so zu definieren, dass diese auch eindeutig zu einer Buchungsklasse zugeordnet werden können.
+
+Die "Buchungsklassenliste" \(Navigation: Buchführung =&gt; Buchungsklassen\) zeigt nun das Ergebnis dieser Aufteilung für ein Geschäftsjahr an.
+
+Die Vollständigkeit der Liste wird dadurch gewährleistet dass zum einen die Gesamtsummen für Einnahmen und Ausgaben \("Gesamtsaldo" in der zweitletzten Zeile\) exakt den Gesamtsummen im Jahressaldo entsprechen müssen und zweitens eventuelle Buchungen die keiner Kostenart bzw. Kostenarten die keiner Kostenklasse zugeordnet sind \(was nicht sein sollte\) auf dieser Liste gesondert aufgeführt werden.
+
+Die Nachvollziehbarkeit wird dadurch gewährleistet, dass jede Buchung genau einer Kostenart zugeordnet ist und dies im Buchungsjournal aufgeführt wird \(und von den Kassenprüfern hoffentlich kontrolliert wurde\). Somit kann für jede Zeile in der "Buchungsklassenliste" nachvollzogen werden, welche Buchungen im einzelnen zu diesem Wert geführt haben.	
+
 
 
