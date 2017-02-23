@@ -6,7 +6,7 @@
 * [Installation](installation.md)
 * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
 * [Aller Anfang](aller-anfang.md)
-
+* Inst
 
 ## Allgemeine Funktionen
 
@@ -39,7 +39,6 @@
 * [Automatisches Backup](automatisches-backup.md)
 * [Abrechnung technisch](abrechnung-technisch.md)
 * [Mitglieder](mitglieder.md)
-
 
 ## Kapitel Administration
 
