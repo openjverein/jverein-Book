@@ -2,10 +2,10 @@
 
 ## Kapitel Installation
 
+* [Einführung](README.md)
 * [Installation](installation.md)
 * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
 * [Aller Anfang](aller-anfang.md)
-* [Einführung](README.md)
 * [Suchprofil](suchprofil.md)
 * [Spendenbescheinigung](spendenbescheinigung.md)
 * [Beitragsgruppen](beitragsgruppen.md)
@@ -28,15 +28,6 @@
 * [Abrechnung technisch](abrechnung-technisch.md)
 * [Mitglieder](mitglieder.md)
 
-## Kapitel Administration
-
-* [Einstellungen](einstellungen.md)
-* [Buchungsklasse](buchungsklasse.md)
-* [Adresstypen](adresstypen.md)
-* [Anfangsbestand](anfangsbestand.md)
-* [Konten](konten.md)
-* [Buchungsart](buchungsart.md)
-
 ## Allgemeine Funktionen
 
 * [Adressen](adressen.md)
@@ -47,4 +38,13 @@
   * [Auswertung Mitglieder](auswertungen/auswertung-mitglieder.md)
   * [Jubiläumsliste](auswertungen/jubilaumsliste.md)
 * [Arbeitseinsatz](arbeitseinsatz.md)
+
+## Kapitel Administration
+
+* [Einstellungen](einstellungen.md)
+* [Buchungsklasse](buchungsklasse.md)
+* [Adresstypen](adresstypen.md)
+* [Anfangsbestand](anfangsbestand.md)
+* [Konten](konten.md)
+* [Buchungsart](buchungsart.md)
 
