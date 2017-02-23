@@ -24,6 +24,7 @@
 * [Pre-Notification](pre-notification.md)
 * [Rücklastschrift](rucklastschrift.md)
 * [Mitgliedskonto](mitgliedskonto.md)
+* [Automatisches Backup](automatisches-backup.md)
 * [Abrechnung technisch](abrechnung-technisch.md)
 
 ## Kapitel Administration
