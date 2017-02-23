@@ -91,5 +91,23 @@ Der Inhalt der Datei ist dann analog der Datei für Windows 32bit, nur eben mit 
 start ..\CommonFiles\Java\bin\java.exe -jar jameica-win64.jar -f ..\Data\jameica
 ```
 
+**Beachte:**
+
+**Auch unter Windows 64bit, kann die 32bit-Version problemlos genutzt werden! Es muss also nicht zwingend eine portable 64bit Startdatei angelegt werden!**
+
+## Umwandeln der Batch-Dateien in eine EXE mit schönem Icon?
+
+Wer nun noch möchte, kann die portablen Startdateien auch als EXE-Datei mit einem schönen Programm-Icon speichern.
+
+Hierzu lädt man sich das Tool „Bat to Exe“ von folgender Seite herunter:[http://www.f2ko.de/programs.php?lang=de&pid=b2e](http://www.f2ko.de/programs.php?lang=de&pid=b2e)
+
+Das Programm ist portabel, und es gibt eine 32bit und eine 64bit-Version. Prinzipiell dürfte es keine Rolle spielen, mit welcher Version man die Umwandlung zu einer EXE vollzieht.
+
+Ich nutze an der Stelle die 32bit-Version.
+
+
+
+
+
 
 

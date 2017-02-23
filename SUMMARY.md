@@ -1,5 +1,8 @@
 # Summary
 
+## Installation
+
+* [Installation](installation.md)
 * [Einführung](README.md)
 * [Mitglieder](mitglieder.md)
 * [Suchprofil](suchprofil.md)
@@ -26,10 +29,11 @@
 * [Adressen](adressen.md)
 * [Adresstypen](adresstypen.md)
 * [Aller Anfang](aller-anfang.md)
-* [Installation](installation.md)
 * [Konten](konten.md)
 * [Buchungsklasse](buchungsklasse.md)
 * [Buchungsart](buchungsart.md)
 * [Anfangsbestand](anfangsbestand.md)
 * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
+
+## Installation
 
