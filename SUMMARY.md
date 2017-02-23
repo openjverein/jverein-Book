@@ -27,6 +27,7 @@
   * [Pre-Notification](pre-notification.md)
   * [Rücklastschrift](rucklastschrift.md)
   * [Mitgliedskonto](mitgliedskonto.md)
+  * [Buchführung Zusammenhänge](buchfuhrung-zusammenhange.md)
 * [Administration](administration.md)
   * [Einstellungen](einstellungen.md)
   * [Buchungsklasse](buchungsklasse.md)
