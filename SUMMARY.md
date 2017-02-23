@@ -1,12 +1,10 @@
 # Summary
 
-## Kapitel Installation
-
-* [Einführung](README.md)
-* [Installation](installation.md)
-* [Anleitung Jameica Portable](anleitung-jameica-portable.md)
-* [Aller Anfang](aller-anfang.md)
 * Inst
+  * [Einführung](README.md)
+  * [Installation](installation.md)
+  * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
+  * [Aller Anfang](aller-anfang.md)
 
 ## Allgemeine Funktionen
 
