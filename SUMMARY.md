@@ -38,6 +38,7 @@
   * [Beitragsmodelle](beitragsmodelle.md)
   * [Automatisches Backup](automatisches-backup.md)
   * [Eigenschaften](eigenschaften.md)
+  * [Buchführung Grundsätze](buchfuhrung-grundsatze.md)
   * [Eigenschaften-Gruppen](eigenschaften-gruppen.md)
   * [Felddefinition](felddefinition.md)
   * [Lesefelder](lesefelder.md)
