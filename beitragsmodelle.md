@@ -39,5 +39,5 @@ Mit diesem Modell kann sehr individuell abgerechnet werden. Bei den Beitragsarte
 
 Bei der Abrechnung wird der Abrechnungsmonat angegeben. Alle Mitglieder, die einen entsprechenden Zahlungstermin zum Abrechnungsmonat haben, werden berücksichtigt.
 
-Siehe auch Familientarife
+Siehe auch [Familientarife](/familientarife.md)
 
