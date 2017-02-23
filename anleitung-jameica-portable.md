@@ -32,5 +32,64 @@ Ergebnis:
 
 ![](/assets/Jamport03.png)
 
+Anschließend werden die Plugins auf gleichem Wege nach E:\Portable\jameica\plugins entpackt. Beispielhaft anhand der Plugins Hibiscus \(Onlinebanking\) und JVerein \(Vereinsverwaltung\), sieht das dann so aus:
+
+![](/assets/Jamport04.png)
+
+Zur Installation der portablen Java-Version bitte die entsprechende Datei starten. Bei der Pfadauswahl dann den Pfad E:\Portable\CommonFiles\Java wählen wie hier:
+
+![](/assets/Jamport05.png)
+
+Da noch einige Dateien aus dem Internet heruntergeladen werden müssen, kann die Installation je nach Internetverbindung einige Minuten dauern.
+
+Nach Fertigstellung der Java-Installation wären die Vorbereitungen abgeschlossen, und es geht an den portablen Starter für Jameica.
+
+Die Startdateien die wir zur Erstellung der portablen Starter benötigen, liegen im Verzeichnis E:\Portable\jameica, und lauten wie folgt:
+
+* jameica-win32.jar \(für Windows 32bit\)
+* jameica-win64.jar \(für Windows 64bit\)
+
+Die ebenfalls vorhandenen EXE-Files können an der Stelle nicht genutzt werden, da wir für die volle Portabilität natürlich das portable Java nutzen wollen.
+
+## Wo sollen die portablen Starter angelegt werden?
+
+Zunächst einmal sollte festgelegt werden, in welchem Verzeichnis die portablen Startdateien abegelegt werden sollen. Denkbar wäre das Programmverzeichnis von Jameica \(E:\Portable\jameica\), denkbar aber auch das übergeordnete Verzeichnis E:\Portable.
+
+Ich beschreibe das ganze zunächst auf Basis des Verzeichnisses E:\Portable\jameica.
+
+Zunächst legen wir uns per rechter Maustaste ein neues Textdokument im Ordner E:\Portable\jameica an:
+
+![](/assets/Jamport06.png)
+
+Das Textdokument bitte gleich umbenennen nach „JameicaPortableWin32.bat“ wie folgt:
+
+![](/assets/Jamport07.png)
+
+Die erscheinende Meldung bzgl. der Umbenennung mit „Ja“ bestätigen.
+
+Nun per rechter Maustaste die so erstellte Datei bearbeiten:
+
+![](/assets/Jamport08.png)
+
+Es öffnet sich der normale Windows Editor \(Notepad\) und wir können nun den Startbefehl in diese Datei eingeben, der Da lautet:
+
+![](/assets/Jamport09.png)
+
+...oder zum kopieren&einfügen:
+
+```
+start ..\CommonFiles\Java\bin\java.exe -jar jameica-win32.jar -f ..\Data\jameica
+```
+
+Die Datei noch über Datei → Speichern sichern, und wir wären an der Stelle schon fertig und könn\(t\)en den Startvorgang mit dieser Datei testen.
+
+Wer Windows 64bit einsetzen möchte, kann analog eine neue Textdatei „JameicaPortableWin64.bat“ anlegen und diese anschließend bearbeiten.
+
+Der Inhalt der Datei ist dann analog der Datei für Windows 32bit, nur eben mit dem Aufruf der Jameica-Version für 64bit:
+
+```
+start ..\CommonFiles\Java\bin\java.exe -jar jameica-win64.jar -f ..\Data\jameica
+```
+
 
 
