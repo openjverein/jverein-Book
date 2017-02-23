@@ -44,6 +44,8 @@
 * [Arbeitseinsatz](arbeitseinsatz.md)
 * [Auswertungen](auswertungen.md)
   * [Auswertung Kursteilnehmer](auswertungen/auswertung-kursteilnehmer.md)
+  * [Auswertung Mitglieder](auswertungen/auswertung-mitglieder.md)
+  * [Jubiläumsliste](auswertungen/jubilaumsliste.md)
 
 ## Abrechnung
 
