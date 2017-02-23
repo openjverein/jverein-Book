@@ -14,8 +14,6 @@ Die Mitglieder können ihren Zahlungsrhythmus monatlich, viertel-, halb- oder j�
 
 Mit diesem Modell kann sehr individuell abgerechnet werden. Bei den Beitragsarten stehen Eingabefelder für monatliche, vierteljährliche, halbjährliche und jährliche Beträge zu Verfügung. Bei den Mitgliedern steht ein zusätzliches Datenfeld "Zahlungstermin" zur Verfügung. Folgende Zahlungstermine existieren
 
-
-
 1. Monatlich
 2. Vierteljährlich \(Jan./Apr./Juli/Okt\)
 3. Vierteljährlich \(Feb./Mai /Aug./Nov.\)
@@ -41,5 +39,5 @@ Mit diesem Modell kann sehr individuell abgerechnet werden. Bei den Beitragsarte
 
 Bei der Abrechnung wird der Abrechnungsmonat angegeben. Alle Mitglieder, die einen entsprechenden Zahlungstermin zum Abrechnungsmonat haben, werden berücksichtigt.
 
-
+Siehe auch Familientarife
 
