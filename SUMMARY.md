@@ -44,7 +44,7 @@
   * [Eigenschaften](eigenschaften.md)
   * [Eigenschaften-Gruppen](eigenschaften-gruppen.md)
   * [Buchführung Grundsätze](buchfuhrung-grundsatze.md)
-  * [Felddefinition](felddefinition.md)
+  * [Felddefinitionen](felddefinition.md)
   * [Lesefelder](lesefelder.md)
   * [Familientarife](familientarife.md)
   * [Buchungsübernahme](buchungsubernahme.md)
