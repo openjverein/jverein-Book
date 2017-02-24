@@ -86,5 +86,45 @@ Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit de
     * mit dem Entnahmewert \(ggf. mit dem niedrigeren gemeinen Wert\) bewertet."
 * spendenbescheinigung\_unterlagenwertermittlung: Wenn das Kennzeichen in der Spendenbescheinigung gesetzt ist, der Festtext: "Geeignete Unterlagen, die zur Wertermittlung gedient haben, z. B. Rechnung, Gutachten, liegen vor."
 
+### Formularfelder für Rechnungen
 
+Folgende Formularfelder stehen für Rechnungen zur Verfügung:
+
+* tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
+* Empfänger: Empfänger der Rechnung. Formatiert für ein Adressfeld
+* Zahlungsgrund: Multipel. Es können mehrere Positionen für ein Mitglied in Rechnung gestellt werden. Zur korrekten Darstellung ist "Zahlungsgrund" zu verwenden.
+* Zahlungsgrund1:	Sollte ab Version 1.4 nicht mehr verwendet werden
+* Zahlungsgrund2:	Sollte ab Version 1.4 nicht mehr verwendet werden.
+* Buchungsdatum:	Multipel
+* Betrag: Multipel
+* sowie alle Felder des Mitgliedsdatensatzes
+
+### Formularfelder für SEPA-PreNotification
+
+Folgende Formularfelder stehen für die PreNotification zur Verfügung:
+
+* tagesdatum:	Enthält das aktuelle Datum im Format TT.MM.JJJJ
+* lastschrift\_empfaenger: Empfänger der PreNotification \(=Kontoinhaber\), formatiert für ein Adressfeld.
+* lastschrift\_verwendungszweck: Der Verwendungszweck wie per SEPA ausgegeben.
+* lastschrift\_mandatid:	Die Mandatsreferenz
+* lastschrift\_mandatdatum: Datum des SEPA-Lastschrift-Mandats
+* lastschrift\_bic: Der BIC.
+* lastschrift\_iban: Die IBAN
+* lastschrift\_betrag: Der Abbuchungsbetrag
+* lastschrift\_abrechnungslauf\_nr: Datum des Abrechnungslaufs.
+* lastschrift\_abrechnungslauf\_datum: Datum des Abrechnungslaufs.
+* lastschrift\_abrechnungslauf\_faelligkeit: Das Buchungsdatum der Lastschrift.
+* sowie alle Felder des Zahlungspflichtigen \(=Kontoinhaber\) aus dem Mitgliedsdatensatz mit jeweils vorangestellten lastschrift\_...
+
+## Beispiele
+
+![](/assets/Formularroh.jpg)
+
+![](/assets/Formularausgefuellt.jpg)
+
+## Freie Formulare
+
+Freie Formulare haben keinen speziellen Zweck und können mit den verfügbaren Variablen belegt werden. Zuerst wird mit einem beliebigen Programm eine Vorlage erstellt im Format .pdf. Die zu füllenden Bereiche werden frei gelassen. Im Bereich Administration/Formulare. Mit "neu" wird ein neues Formular eingepflegt und in der Datenbank verankert. Nachträgliche Änderungen an der Datei haben damit keine Auswirkungen, solange die Datei nicht neu in jVerein eingepflegt wird. In der Liste der Formulare wird das neu angelegte Formular angezeigt. Mit Rechtsklick auf den Eintrag kann man anwählen, ob man Formularfelder auswählen und platzieren will, die Datei mit Dummydaten anzeigen, duplizieren oder löschen will. Um das noch leere Formular mit Feldern zu füllen wählen wir "Formularfelder". Mit "neu" können nun Felder eingefügt werden. Die Variablen werden aus einer Liste ausgewählt und dann durch Abstand zum linken und unteren Seitenrand platziert. Schriftgröße und -art sind wählbar. Mit "anzeigen" kann die korrekte Platzierung geprüft werden. Es werden Dummy-Daten angezeigt.
+
+Die Ausgabe mit echten Daten erfolgt aus der Mitgliederliste. Man filtert geeignet und markiert alle Zeilen, mit dessen Daten das Formular gefüllt werden soll. Ein Rechtsklick mit Auswahl des Formulars erzeugt dann eine PDF-Datei mit entsprechend vielen Seiten.
 
