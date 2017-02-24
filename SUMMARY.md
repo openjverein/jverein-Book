@@ -6,6 +6,7 @@
   * [Anleitung Jameica Portable](anleitung-jameica-portable.md)
   * [Aller Anfang](aller-anfang.md)
   * [Abhängigkeiten](abhangigkeiten.md)
+  * [Erster Start](erster-start.md)
 * [Allgemeine Funktionen](allgemeine-funktionen.md)
   * [Mitglieder](mitglieder.md)
   * [Suchprofil](suchprofil.md)
