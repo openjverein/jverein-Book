@@ -60,4 +60,5 @@
 * [Formulare](formulare.md)
 * [Für Entwickler](fur-entwickler.md)
 * [Import](import.md)
+* [MySQL-Support](mysql-support.md)
 
