@@ -59,4 +59,5 @@
 * [FAQ](faq.md)
 * [Formulare](formulare.md)
 * [Für Entwickler](fur-entwickler.md)
+* [Import](import.md)
 
