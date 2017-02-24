@@ -14,8 +14,6 @@ Die Pflichtfelder werden von der Abrechnung für die Erstellung der Lastschrifte
 
 Nach Änderungen der mit Stern gekennzeichneten Werte ist ein Neustart von Jameica erforderlich.
 
-
-
 Folgende Einstellungen können vorgenommen werden:
 
 ### Geburtsdatum Pflichtfeld
@@ -81,7 +79,7 @@ Beim Mitglied kann zusätzlich der Wohnsitz-Staat gespeichert werden
 
 ### Arbeitseinsatz
 
-Beim Mitglied können Arbeitseinsätze erfasst werden. 
+Beim Mitglied können Arbeitseinsätze erfasst werden.
 
 In einem eigenen Dialog können Buchungen von Arbeitsstunden angezeigt und geprüft werden.
 
@@ -157,6 +155,75 @@ Folgende Variable stehen zur Verfügung:
 * v$ : Vorname des Mitglieds
 
 Verzeichnis für CSV-Vorlagen.
+
+## Spendenbescheinigungen
+
+![](/assets/Einstellungenspendenbescheinigungen.png)
+
+Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
+
+Mindestbetrag: Es werden nur Spendenbescheinigungen für Einzelspenden ausgestellt, die diesen Betrag übersteigen.
+
+Verzeichnis: In einem Durchlauf können mehrere Spendenbescheinigungen erstellt werden. Jede Spendenbescheinigung wird in ein eigenes Dokument ausgegeben und in das angegebene Verzeichnis gespeichert.
+
+Buchungsart drucken: Im Normalfall wird der Verwendungszweck aus der Buchung in die Spendenbescheinigung übernommen. Sofern diese Option aktiviert wurde, wird der Text aus der Buchungsart genommen.
+
+## Buchführung
+
+![](/assets/Einstellungenbuchfuehrung.png)
+
+Hier sind folgende Eingaben nötig bzw. möglich:
+
+Beginn des Geschäftsjahres in der Form TT.MM.
+
+Automatische Übernahme von Buchungen aus Hibiscus \(Standard: aktiviert\).
+
+Unterdrückung nicht bebuchter Buchungsarten in Listen/Auswertungen \(Standard: nicht aktiviert\).
+
+## Rechnungen
+
+![](/assets/Einstellungenrechnungen.png)
+
+Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID} ${Konto} und ${BLZ} eingemischt werden.
+
+## Tabellen
+
+![](/assets/Einstellungentabellen.png)
+
+Festlegung der Spalten, die in Tabellen angezeigt werden sollen.
+
+## Mail
+
+![](/assets/Mail-einstellungen-screenshot.png)
+
+Alternativ zur EMail-Adresse kann auch der Name zur Absenderadresse hinzugefügt werden: "Mein Name &lt;vorstand@verein.de&gt;" Wichtig ist dabei das Format: \(Name\) \(Spitze Klammer auf\) \(Email\) \(Spitze Klammer zu\)
+
+Hinweis: Die Passwörter werden aber JVerein 2.6.1 verschlüsselt in einer Jameica-Wallet-Datei abgelegt \(im Jameica Datenordner, Unterordner "cfg"\), und sind mit dem Jameica-Masterpasswort gesichert, das beim Starten von JVerein eingegeben wird.
+
+Um versendete EMails auch im EMail-Postfach \(und nicht nur in JVerein\) abzulegen, gibt es zwei Möglichkeiten:
+
+1. Eine Kopie \(Cc\) oder Blindkopie \(Bcc\) der EMail verschicken. Dazu das Feld "Immer Cc an Adresse" oder "Immer Bcc an Adresse" mit einer EMailadresse ausfüllen.
+2. Die EMail in den "Gesendete"-Ordner eines ggf. vorhandenen IMAP-Kontos ablegen. Dazu den Bereich "IMAP 'Gesendete'-Ordner mit den IMAP-Zugangsdaten ausfüllen und "Kopie in 'Gesendete'-Ordner IMAP ablegen" anklicken. Der technische Name des "Gesendete"-Ordners kann variieren, ist aber meist "Sent".
+
+Beide Möglichkeiten können auch kombiniert werden.
+
+## Statistik
+
+![](/assets/Einstellungenstatistik.png)
+
+Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel 
+
+1-5,6-10,11-17,18-25,26-50,50-100
+
+Zur Ausgabe einer Jubiläumsliste werden die Jubeljahre durch Komma getrennt eingetragen. Ohne Eingabe werden die Standardwerte 10,25,40,50 verwendet.
+
+Es kann eine Liste der Altersjubilare ausgegeben werden. Ohne Eingabe werden die Standardwerte 50,60,65,70,75,80,85,90,95 verwendet.
+
+Ab Version 2.5 gibt es das Feld Mindestalter f. Mitgliedschaftsjubiläum
+
+Geben Sie hier eine Zahl ein, dann werden Mitgliedsjahre, die vor diesem Alter liegen beim Errechnen eines Mitglieds-Jubiläums nicht mit gerechnet.
+
+Für weitere technische Details siehe: Informationen für Entwickler //TODO
 
 
 
