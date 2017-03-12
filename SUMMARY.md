@@ -67,4 +67,5 @@
 * [Kontenrahmen Import Export](kontenrahmen-import-export.md)
 * [Kontoauszug](kontoauszug.md)
 * [Lehrgänge](lehrgange.md)
+* [Lesefelder](lesefelder.md)
 
