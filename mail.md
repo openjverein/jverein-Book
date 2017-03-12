@@ -61,9 +61,7 @@ Im Betreff und im Text können Variable eingefügt werden, die beim Mailversand 
 
 siehe auch Mitglieder und Allgemeine Variable
 
-//TODO Links zu Mitglied und Allgemeine Variable einbauen.
-
-
+> //TODO Links zu Mitglied und Allgemeine Variable einbauen.
 
 
 
