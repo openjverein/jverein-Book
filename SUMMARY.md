@@ -68,4 +68,5 @@
 * [Kontoauszug](kontoauszug.md)
 * [Lehrgänge](lehrgange.md)
 * [Lesefelder](lesefelder.md)
+* [Mail](mail.md)
 
