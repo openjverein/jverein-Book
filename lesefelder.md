@@ -10,9 +10,13 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Lesefelder nutzen
 
-Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration \| Einstellungen \| Anzeige \| Lesefelder anzeigen
+Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration \| Einstellungen \| Anzeige \| Lesefelder anzeigen.![](/assets/Lesefelder-Definitionen.png)
 
-.
+![](/assets/Lesefelder-Definitionen.png)
 
+![](/assets/Lesefelder-Definitionen.png)
 
+![](/assets/Lesefelder-Definitionen.png)
+
+![](/assets/Lesefelder-Definitionen.png)
 
