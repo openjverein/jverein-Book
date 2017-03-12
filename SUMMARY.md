@@ -62,4 +62,5 @@
 * [Import](import.md)
 * [MySQL-Support](mysql-support.md)
 * [Jahressaldo](jahressaldo.md)
+* [Jubiläen](jubilaen.md)
 
