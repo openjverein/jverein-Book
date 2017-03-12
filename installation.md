@@ -66,5 +66,5 @@ Die Installation muss immer auf dem oben beschriebenen Weg erfolgen. Das direkte
 
 ## MySQL
 
-JVerein unterstützt seit dem 29.1.2008 auch MySQL. Zur Installation siehe [MySQL-Support](/mysql-support.md).
+JVerein unterstützt seit dem 29.1.2008 auch MySQL. Zur Installation siehe [MySQL-Support.](/mysql-support.md)
 
