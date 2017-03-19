@@ -2,7 +2,5 @@
 
 In diesem Benutzerhandbuch werden alle Funktionen von JVerein beschrieben.
 
-
-
-Weiter mit Mitgliedskonto
+Weiter mit Pre-Notification
 
