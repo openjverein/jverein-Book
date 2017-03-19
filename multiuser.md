@@ -111,5 +111,137 @@ Nur einzelne SVN-Benutzer dürfen hochladen/committen.
 
 Benutzer mit unterschiedlichen Rechten unterstützen Jameica und JVerein nicht. Damit ist es auch nicht möglich Teilberechtigungen abzubilden \(bspw. einzelnen Benutzern die Anzeige der Buchungen vorenthalten\).
 
+#### Mit der H2-Datenbank
 
+Mit dem Rezept aus "Datenweitergabe ohne Schreibrecht für alle" und "Cloud-Computing ohne Schreibrecht für alle" lassen sich zwei Benutzergruppen realisieren: die einen haben Schreibrechte und arbeiten auf einer 'Master'-Kopie der Daten, die Benutzer der zweiten Gruppe arbeiten mit einer Benutzer-Kopie der Daten.
+
+Nach jeder Änderung an der Master-Kopie der Daten wird die Benutzerkopie anschließend überschrieben, damit sind Änderungen, die die Benutzer der zweiten Gruppe eventuell gemacht haben stets flüchtig und de facto ist es damit ein reiner Lese-Zugriff.
+
+Änderungen an den Daten müssen den Benutzern der ersten Gruppe "zugerufen" werden damit diese sie in die Master-Kopie der Daten eintragen können.
+
+* Vorteile: immerhin so etwas ein kleine Benutzerverwaltung
+* Nachteile: Die Daten der Benutzerkopie können durch Änderungen der zweiten Benutzergruppe verfälscht werden \(bis sie das nächste mal durch die Master-Kopie überschrieben werden\) und die ständige Kopiererei von Master- auf Benutzer-Kopie der Daten ist lästig und kann auch mal vergessen werden.
+
+#### Mit einer MySQL-Datenbank
+
+Wird eine MySQL-Datenbank verwendet, dann kann man einen separaten MySQL-Benutzer anlegen und diesem nur Leserechte geben. Bei den Jameica+JVerein-Installation von Benutzern, die nur Lesen können sollen, muss dann dieser entsprechend beschränkte MySQL-Benutzer verwendet werden. \[Danke dl7bmg für diesen Hinweis\]
+
+Sofern zeitgleich maximal ein \(MySQL-\)Benutzer mit Schreibrechten zugreift, sehe ich keinen Hinderungsgrund warum nicht weitere Benutzer mit Nur-Lese-Rechten gleichzeitig zugreifen können sollten. Denkbar wäre auch -mit ähnlicher Methode wie in \#Der Nacheinander-MultiUser-Zugriff beim ersten Benutzer Jameica mit einer Konfiguration mit Schreibrecht in der MySQL-Datenbank zu starten und \(solange der erste Benutzer online ist\) alle folgenden Benutzer mit einer Nur-Lese-Konfiguration zu starten. Beides ist aber weder offiziell unterstützt noch von mir getestet, vielleicht postet jemand im Forum mal seine Erfahrungen dazu.
+
+### Der Nacheinander-MultiUser-Zugriff
+
+Denkbar ist es zwar die Nutzung von Jameica+JVerein beim gemeinsamen Datezugriff \(siehe \#Gemeinsamer Datenzugriff\) durch Absprachen so festzulegen, dass stets maximal ein Benutzer Jameica+JVerein geöffnet hat \(z.B. Person A nutzt nur tagsüber, Person B darf nur abends ran\), das ist aber sowohl fehleranfällig als auch unflexibel.
+
+Eine technische Lösung ist folgende: Jameica wird mittels eines Batch \(Windows, bzw. Shell-Script unter Linux & Co.\) gestartet. Dieser Batch legt ein "Lockfile" an, startet Jameica und löscht das Lockfile anschließend wieder. Sollte jedoch das Lockfile existieren, so ist Jameica von einem anderen Benutzer bereits gestartet und es soll ein entsprechender Hinweis ausgegeben werden.
+
+* Vorteile: Simple Lösung um eine SingleUser-Nutzung in einer beliebigen MultiUser-Umgebung \(einschließlich CloudComputing\) sicherzustellen.
+* Nachteile: Durch \(unbeabsichtigten\) Batch-Abbruch oder einen Systemabsturz kann das Lockfile bestehen bleiben obwohl tatsächlich keiner \(mehr\) Jameica+JVerein nutzt. Nach einer kleinen Rückfrage beim Mitbenutzer kann das Lockfile ggf. händisch gelöscht werden und alles läuft wieder.
+* Variante: Anstelle ein eigenes "Lockfile" anzulegen \(wie im Beispiel unten\) kann auch gegen das Jameica-Lockfile jameica.lock getestet werden. Das ist womöglich zuverlässiger als ein eigenes Lockfile, kann aber keine Informationen zum aktiven Rechner+Benutzer zur Verfügung stellen. Näheres dazu, sowie auch Olaf Willuhns Meinung zum Vorgehen an sich, hier: [https://github.com/willuhn/jameica/pull/8](https://github.com/willuhn/jameica/pull/8)
+
+Beispiele für so einen Batch bzw. Shell-Skript:
+
+Für Windows:
+
+```
+@echo off
+ rem Nachfolgende drei set-Zeilen bitte anpassen
+ rem JAMEICA_DATADIR muss angegeben werden, selbst wenn der Standard-Pfad verwendet wird
+ rem JAMEICA_3264 muss -je nach eigener Umgebung- auf 32 oder 64 eingestellt werden
+ set JAMEICA_PROGDIR=C:\Program Files (x86)\jameica\
+ set JAMEICA_DATADIR=C:\Users\<DeinBenutzername>\Documents\jameica\
+ set JAMEICA_3264=32
+ rem
+ rem Ab hier keine Änderungen mehr nötig
+ set JAMEICA_BIN=jameica-win32.exe
+ set JAMEICA_JAR=jameica-win32.jar
+ if %JAMEICA_3264%==64 (
+   set JAMEICA_BIN=jameica-win64.exe
+   set JAMEICA_JAR=jameica-win64.jar
+ )
+ set LOCKFILE_MY="%JAMEICA_DATADIR%\my.lock"
+ rem Prüfen ob Lockfile exitiert
+ if exist %LOCKFILE_MY% goto jameica_in_use
+   goto jameica_start
+ :jameica_start
+ echo **********
+ echo * Jameica wird gestartet
+ echo **********
+ echo * ACHTUNG:
+ echo *    Dieses Fenster NICHT schliessen, es wird
+ echo *    automatisch geschlossen sobald Jameica
+ echo *    beendet wurde.
+ echo **********
+ echo %USERNAME%@%COMPUTERNAME% > %LOCKFILE_MY%
+ rem Jameica nicht mit der Starter-EXE aufrufen sondern mit javaw das JAR-Archiv aufrufen
+ rem da sonst der Batch gleich weiterläuft und nicht wartet bis Jameica beendet wurde.
+ cd %JAMEICA_PROGDIR%
+ javaw -jar "%JAMEICA_PROGDIR%\%JAMEICA_JAR%" -f "%JAMEICA_DATADIR%"
+ del %LOCKFILE_MY%
+ goto ende
+ :jameica_in_use
+ echo %LOCKFILE_MY%
+ set /p JAMEICA_USER=<%LOCKFILE_MY%
+ echo **********
+ echo * Jameica wird gerade benutzt von
+ echo *      %JAMEICA_USER%
+ echo **********
+ echo * Jameica kann erst gestartet
+ echo * werden wenn obiger Benutzer das
+ echo * Programm beendet hat.
+ echo **********
+ pause
+ goto ende
+ :ende
+
+```
+
+Für MacOS \(\(leicht für Linux anpassbar\), von phfeustel \([http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553](http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553)\)
+
+```
+ #!/bin/sh
+ # Nachfolgende drei Zeilen bitte anpassen
+ # JAMEICA_DATADIR muss angegeben werden, selbst wenn der Standard-Pfad verwendet wird. 
+ #    Es reicht dabei den Pfad bis zur jameica.app anzupassen, falls notwendig.
+ JAMEICA_APP_PATH="/Applications/jameica.app/"
+ # Pfad zu dem Ort, an dem der jameica-Benutzerordner liegt. Ersetze <DeinUserName> durch Deinen Mac-Benutzernamen. 
+ #    Eine Liste aller Benutzer kann man sehen, wenn man unter /Users bzw. 
+ #    /Benutzer sich die dort liegenden Ordner ansieht.
+ JAMEICA_DATADIR="/Users/<DeinUserName>/Desktop/jameica/"
+ # Kopiert aus dem Original jameica-Startskript. Entspricht dem Standard aus OSX 10.10
+ JAVACMD="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java"
+ 
+ ######################################### Ab hier keine Änderungen mehr notwendig
+ LOCKFILE_MY="${JAMEICA_DATADIR}/my.lock"
+ # Prüfen, ob Lockfile existiert
+ if [ -f "$LOCKFILE_MY" ];then #Jameica in Verwendung, da Lock-File existiert
+    JAMEICA_USER=$(cat $LOCKFILE_MY)
+    echo "**********"
+    echo "* Jameica wird gerade benutzt von"
+    echo "*      $JAMEICA_USER"
+    echo "**********"
+    echo "* Jameica kann erst gestartet"
+    echo "* werden, wenn obiger Benutzer das"
+    echo "* Programm beendet hat."
+    echo "**********"
+ else #Jameica nicht in Verwendung, da das Lock-File nicht existiert
+    echo "**********"
+    echo "* Jameica wird gestartet"
+    echo "**********"
+    echo "* ACHTUNG:"
+    echo "*    Dieses Fenster NICHT schließen, es wird"
+    echo "*    automatisch geschlossen sobald Jameica"
+    echo "*    beendet wurde."
+    echo "**********"
+    echo "${USER}@${HOSTNAME}\r\n" > $LOCKFILE_MY
+    # In das .app-Verzeichnis wechseln
+    cd $JAMEICA_APP_PATH
+    # Jameica nicht über die jameica.app aufrufen sondern mit java das JAR-Archiv aufrufen
+    # da sonst der Batch gleich weiterläuft und nicht wartet bis Jameica beendet wurde.
+    $("${JAVACMD}" -Xdock:name="Jameica" -Xmx256m -XstartOnFirstThread -jar "${JAMEICA_APP_PATH}/jameica-macos64.jar" -f "${JAMEICA_DATADIR}" -o "$@" > /dev/null) > /dev/null
+    rm -f $LOCKFILE_MY
+ fi
+
+```
+
+Ein automatisches Kopieren gemäß \#Lese- und Schreibrecht in den obigen Batch zu integriert ist nicht schwierig.
 
