@@ -24,7 +24,7 @@ Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ei
 
 Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](/formulare.md "Formular") dafür angelegt werden.![](/assets/SEPA_Pre-Notification_E-Mail_Erstellung.png)In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-## Schriftliche Pre-Notification an alle Mitglieder
+### Schriftliche Pre-Notification an alle Mitglieder
 
 Im Block Parameter bei Ausgabe muss PDF \(alle\) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
 
@@ -34,7 +34,7 @@ Sollen separate Dateien erzeugt werden, so wird der ausgewählte Dateiname vor d
 
 Die direkte Erzeugung einzelner PDF-Dateien ist hilfreich, wenn für das Versenden der Briefe ein Online-Dienstleister herangezogen werden soll.
 
-## E-Mail-Pre-Notification an Mitglieder mit E-Mail-Adresse
+### E-Mail-Pre-Notification an Mitglieder mit E-Mail-Adresse
 
 Im Block Parameter bei Ausgabe muss EMail eingestellt werden.
 
@@ -44,7 +44,7 @@ Hinweis: Für die Pre-Notification-Mail gibt es keine E-Mail Vorlage\(n\). Der I
 
 Die versendeten Pre-Notification-E-Mails werden nach dem Versand beim jeweiligen Mitglied in der Mail-Historie gespeichert.
 
-### Beispiel für eine Pre-Notification Mail
+#### Beispiel für eine Pre-Notification Mail
 
 ```
 NAME_DES_VEREINS___  - SEPA  Ankündigung
@@ -70,6 +70,43 @@ Fragen und Korrekturen bitte an: EMAILADRESSE___
 Mit freundlichen Grüßen
 die Verwaltung
 ```
+
+### Schriftliche Pre-Notification an Mitglieder ohne E-Mail-Adresse
+
+Nachdem die Pre-Notifications per E-Mail versendet wurden müssen die übrigen Mitglieder diese Nachricht noch schriftlich erhalten.
+
+Im Block Parameter bei Ausgabe muss nun PDF \(Lastschriften ohne Mailadresse\) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
+
+Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-Notification an alle Mitglieder.
+
+## 1ct-Überweisung Pre-Notification
+
+Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.![](/assets/SEPA_Pre-Notification_1ct_Erstellung.png)
+
+Auf der Karte 1ct-Überweisung müssen die Ausgabeart \(Datei oder Hibiscus\) und das Ausführungsdatum eingestellt werden.
+
+Für den Verwendungszweck stehen alle unten aufgeführten $lastschrift\_\*-Variablen zur Verfügung.
+
+### Beispiel für einen Verwendungszweck
+
+```
+Lastschriftankündigung/Betrag:$lastschrift_betrag/Datum:$lastschrift_abrechnungslauf_faelligkeit/Mandat-ID:$lastschrift_mandatid/Gläubiger-ID:DE....
+```
+
+In der Mail können im Betreff und im Text, bei der 1ct-Überweisung im Verwendungszweck die Lastschriftvariable verwendet werden. Diese Daten werden aus dem Abrechnungslauf genommen. Änderungen in den Mitgliederdaten nach dem Abrechnungslauf werden NICHT berücksichtigt.
+
+## Besonderheiten - zusammengefasst
+
+* Änderungen der Mitgliederdaten nach einem Buchungslauf werden für diesen Buchungslauf NICHT mehr berücksichtigt. Der Buchungslauf stellt eine eigenen Datensatz dar.
+  * So werden z.B. E-Mailadresseänderungen für die Pre-Notification außer acht gelassen.
+  * Teilt ein Mitglied z.B. aufgrund der Pre-Notification eine neue Bankverbindung mit, so ändert man sie in den Mitgliederdaten nur für künftige Abrechnungen.
+    * Wurde die entsprechende Lastschrift der aktuellen Abrechnung jedoch noch nicht zur Bank übertragen, so kann man zusätzlich in Hibiscus \(oder in der XML-Datei\) für diese Abrechnung noch die Bankverbindung ändern \(Achtung: evtl. neue Mandatsreferenz und geänderte Erst-/Folgelastschrift beachten\).
+    * Wurde die Lastschrift aber bereits zur Bank übertragen, dann sind für diese Abrechnung keine Änderungen mehr möglich. Die Lastschrift wird wahrscheinlich zurückkommen, zum Handling siehe Rücklastschrift.
+* Das E-Mailformular wird mit ausgeführtem E-Mailversand gespeichert.
+* Es gibt keine Pre-Notification E-Mailformulare.
+* Die Variablen in der Pre-Notification Mail sind NICHT identisch mit den Variablen eines "normalen" E-Mailversandes.
+
+
 
 
 
