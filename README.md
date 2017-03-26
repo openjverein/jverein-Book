@@ -2,5 +2,5 @@
 
 In diesem Benutzerhandbuch werden alle Funktionen von JVerein beschrieben.
 
-Weiter mit Pre-Notification
+Weiter mit Splitbuchungen
 
