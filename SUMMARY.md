@@ -76,4 +76,5 @@
 * [QIF-Import](qif-import.md)
 * [Rücklastschrift](rucklastschrift.md)
 * [Spende](spende.md)
+* [Spendenbescheinigung](spendenbescheinigung.md)
 
