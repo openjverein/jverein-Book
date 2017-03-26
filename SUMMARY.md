@@ -74,4 +74,5 @@
 * [Pre-Notification](pre-notification.md)
 * [Projekte](projekte.md)
 * [QIF-Import](qif-import.md)
+* [Rücklastschrift](rucklastschrift.md)
 
