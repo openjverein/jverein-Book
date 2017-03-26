@@ -77,4 +77,5 @@
 * [Rücklastschrift](rucklastschrift.md)
 * [Spende](spende.md)
 * [Spendenbescheinigung](spendenbescheinigung.md)
+* Splitbuchungen
 
