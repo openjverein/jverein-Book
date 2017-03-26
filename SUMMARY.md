@@ -75,4 +75,5 @@
 * [Projekte](projekte.md)
 * [QIF-Import](qif-import.md)
 * [Rücklastschrift](rucklastschrift.md)
+* [Spende](spende.md)
 
