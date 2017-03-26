@@ -79,4 +79,5 @@
 * [Spendenbescheinigung](spendenbescheinigung.md)
 * Splitbuchungen
 * [Statistik](statistik.md)
+* [Suchprofil](suchprofil.md)
 
