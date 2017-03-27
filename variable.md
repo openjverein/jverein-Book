@@ -4,7 +4,7 @@ Für diverse Zwecke \(z. B. Formulare, Mails, Pre-Notification ...\) gibt es Var
 
 ## Allgemeine Variable
 
-### aktuellermonat	
+### aktuellermonat
 
 Aktueller Monat im Format mm.jjjj
 
@@ -32,23 +32,23 @@ Vormonat im Format mm.jjjj
 
 ### buchung\_auszugsnummer
 
-optional	
+optional
 
 ### buchung\_betrag
 
-Pflicht	
+Pflicht
 
 ### buchung\_blattnummer
 
-optional	
+optional
 
 ### buchung\_buchungsart\_nummer
 
-optional	
+optional
 
 ### buchung\_buchungsklasse\_nummer
 
-optional	
+optional
 
 ### buchung\_datum
 
@@ -58,15 +58,15 @@ Format TT.MM.JJJJ
 
 ### buchung\_kommentar
 
-optional	
+optional
 
 ### buchung\_kontonummer
 
-Pflicht	
+Pflicht
 
 ### buchung\_name
 
-Pflicht	
+Pflicht
 
 buchung\_zweck1
 
@@ -150,7 +150,7 @@ Förmliche Anrede. Z. B. "Sehr geehrter Herr Dr. Wichtig,".
 
 ### lastschrift\_anrede\_du
 
-Informelle Anrede. Z. B. "Hallo Willi,". 
+Informelle Anrede. Z. B. "Hallo Willi,".
 
 ## Mitglied
 
@@ -364,7 +364,7 @@ Titel
 
 ### mitglied\_vermerk2
 
-2. Vermerk
+1. Vermerk
 
 ### mitglied\_vorname
 
@@ -408,89 +408,129 @@ Statt ???? steht der Name des Lesefeldes.
 
 ## Mitgliedskonto
 
-Spaltenname	Beschreibung
+### mitgliedskonto\_betrag
 
-mitgliedskonto\_betrag	Betrag dieser Buchung der bezahlt werden muss
+Betrag dieser Buchung der bezahlt werden muss
 
-mitgliedskonto\_zahlungsgrund	Ein Grund warum bezahlt werden muss z.B. Mitgliedsbeitrag oder Arbeitsstunden
+### mitgliedskonto\_zahlungsgrund
 
-mitgliedskonto\_zahlungsgrund1	Noch eine Begründung für diese Buchung
+Ein Grund warum bezahlt werden muss z.B. Mitgliedsbeitrag oder Arbeitsstunden
 
-mitgliedskonto\_ist	Betrag dieser Buchung der bereits bezahlt wurde
+### mitgliedskonto\_zahlungsgrund1
 
-mitgliedskonto\_differenz	mitgliedskonto\_betrag - mitgliedskonto\_ist, also was noch zu zahlen ist.
+Noch eine Begründung für diese Buchung
 
-mitgliedskonto\_buchungsdatum	Datum der Buchung
+### mitgliedskonto\_ist
 
-Spendenbescheinigung\[Bearbeiten\]
+Betrag dieser Buchung der bereits bezahlt wurde
 
-wird noch ergänzt.
+### mitgliedskonto\_differenz
 
+mitgliedskonto\_betrag - mitgliedskonto\_ist, also was noch zu zahlen ist.
 
+### mitgliedskonto\_buchungsdatum
 
-Spaltenname	Beschreibung
+Datum der Buchung
 
-spendenbescheinigung\_empfaenger	Aufbereitetes Adressfeld des Spenders
+# Spendenbescheinigung
 
-spendenbescheinigung\_betrag	Betrag
+### spendenbescheinigung\_empfaenger
 
-spendenbescheinigung\_betraginworten	Betrag in Worten
+Aufbereitetes Adressfeld des Spenders
 
-spendenbescheinigung\_datum	Datum der Spendenbescheinigung
+### spendenbescheinigung\_betrag
 
-spendenbescheinigung\_spendenart	Art der Spendenbescheinigung
+Betrag
 
-spendenbescheinigung\_spendedatum	Datum der Spende
+### spendenbescheinigung\_betraginworten
 
-spendenbescheinigung\_spendenzeitraum	Sammelspendenbescheinigungen: Zeitraum der Spende
+Betrag in Worten
 
-spendenbescheinigung\_ersatzaufwendungen	Ersatz für Aufwendungen
+### spendenbescheinigung\_datum
 
-spendenbescheinigung\_ersatzaufwendungen\_ja	Ersatz für Aufwendungen
+Datum der Spendenbescheinigung
 
-spendenbescheinigung\_ersatzaufwendungen\_nein	Ersatz für Aufwendungen
+### spendenbescheinigung\_spendenart
 
-spendenbescheinigung\_buchungsliste	Liste der Buchungen
+Art der Spendenbescheinigung
 
-spendenbescheinigung\_bezeichnungsachzuwendung	Bezeichnung der Sachzuwendung
+### spendenbescheinigung\_spendedatum
 
-spendenbescheinigung\_herkunftsachzuwendung	Herkunft der Sachzuwendung
+Datum der Spende
 
-spendenbescheinigung\_unterlagenwertermittlung"	Unterlagen zur Wertermittlung
+### spendenbescheinigung\_spendenzeitraum
 
+Sammelspendenbescheinigungen: Zeitraum der Spende
 
+### spendenbescheinigung\_ersatzaufwendungen
 
-Abrechnungsparameter\[Bearbeiten\]
+Ersatz für Aufwendungen
+
+### spendenbescheinigung\_ersatzaufwendungen\_ja
+
+Ersatz für Aufwendungen
+
+### spendenbescheinigung\_ersatzaufwendungen\_nein
+
+Ersatz für Aufwendungen
+
+### spendenbescheinigung\_buchungsliste
+
+Liste der Buchungen
+
+### spendenbescheinigung\_bezeichnungsachzuwendung
+
+Bezeichnung der Sachzuwendung
+
+### spendenbescheinigung\_herkunftsachzuwendung
+
+Herkunft der Sachzuwendung
+
+### spendenbescheinigung\_unterlagenwertermittlung
+
+Unterlagen zur Wertermittlung
+
+## Abrechnungsparameter
 
 Diese Parameter stehen nur beim Abrechnungslauf zur Verfügung. Die Variablen können im Verwendungszweck und im Verwendungszweck des Zusatzbetrages benutzt werden.
 
+### abrechnungsparameter\_abrechnungsmodus
 
+Text des Abrechnungsmodus
 
-Spaltenname	Beschreibung
+### abrechnungsparameter\_abrechnungsmonat
 
-abrechnungsparameter\_abrechnungsmodus	Text des Abrechnungsmodus
+Abrechnungsmonat \(nur bei entsprechendem Beitragsmodell\)
 
-abrechnungsparameter\_abrechnungsmonat	Abrechnungsmonat \(nur bei entsprechendem Beitragsmodell\)
+### abrechnungsparameter\_faelligkeit1
 
-abrechnungsparameter\_faelligkeit1	Fälligkeit bei Erstlastschriften
+Fälligkeit bei Erstlastschriften
 
-abrechnungsparameter\_faelligkeit2	Fälligkeit bei Folgelastschriften
+### abrechnungsparameter\_faelligkeit2
 
-abrechnungsparameter\_stichtag	Stichtag
+Fälligkeit bei Folgelastschriften
 
-abrechnungsparameter\_vondatum	Von-Datum bei Abrechnung von neu eingetretenen Mitgliedern
+### abrechnungsparameter\_stichtag
 
-abrechnungsparameter\_zusatzbetraege	Merkmal, ob Zusatzbeträge abgerechnet werden sollen
+Stichtag
 
-abrechnungsparameter\_kursteilnehmer	Merkmal, ob Kursteilnehmer abgerechnet werden sollen
+### abrechnungsparameter\_vondatum
 
-abrechnungsparameter\_kompakteabbuchung	Merkmal, ob die Abbuchung von gleichen Konten zusammengefasst werden sollen
+Von-Datum bei Abrechnung von neu eingetretenen Mitgliedern
 
-abrechnungsparameter\_sepaprint	Merkmal, ob die SEPA-Listen gedruckt werden sollen
+### abrechnungsparameter\_zusatzbetraege
 
+Merkmal, ob Zusatzbeträge abgerechnet werden sollen
 
+### abrechnungsparameter\_kursteilnehmer
 
+Merkmal, ob Kursteilnehmer abgerechnet werden sollen
 
+### abrechnungsparameter\_kompakteabbuchung
 
+Merkmal, ob die Abbuchung von gleichen Konten zusammengefasst werden sollen
 
+### abrechnungsparameter\_sepaprint
+
+Merkmal, ob die SEPA-Listen gedruckt werden sollen
 
