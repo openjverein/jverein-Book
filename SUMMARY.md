@@ -80,4 +80,5 @@
 * Splitbuchungen
 * [Statistik](statistik.md)
 * [Suchprofil](suchprofil.md)
+* [Variable](variable.md)
 
