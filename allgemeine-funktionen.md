@@ -1,6 +1,4 @@
-# Allgemeine Funktionen
-
-
+# Programmfunktionen
 
 
 
