@@ -18,9 +18,9 @@ Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter \(oben\) und Mi
 
 Jeweils beim Verlassen eines Feldes wird die Suche ausgelöst.
 
-Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [/spendenbescheinigung.md](/spendenbescheinigung.md) möglich.
+Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](/spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [/suchprofil.md](/suchprofil.md)  gespeichert werden.![](/assets/MitgliedSuche.png)
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](/suchprofil.md) gespeichert werden.![](/assets/MitgliedSuche.png)
 
 ### Filterung nach Eigenschaften
 
@@ -42,7 +42,7 @@ Im oberen Teil sind die allgemeinen Daten des Mitgliedes zu finden. Wird eine Po
 
 Hinweis zur E-Mail-Adresse: In JVerein kann aktuell je Mitglied nur eine E-Mail-Adresse gespeichert werden. Hat ein Mitglied aber mehrere E-Mail-Adressen, kann man sich derzeit mit der 'Group'-Notation behelfen, Details dazu im [http://www.jverein.de/forum](http://www.jverein.de/forum).
 
-Sofern in den [/einstellungen.md](/einstellungen.md) der Parameter "Juristische Personen erlaubt" gesetzt ist, wird bei der Neuaufnahme von Mitgliedern folgender Dialog eingeblendet:
+Sofern in den [Einstellungen](/einstellungen.md) der Parameter "Juristische Personen erlaubt" gesetzt ist, wird bei der Neuaufnahme von Mitgliedern folgender Dialog eingeblendet:
 
 ![](/assets/MitgliedPersonenart.png)
 
@@ -57,7 +57,7 @@ handelt. Sofern "juristische Person" ausgewählt wird, sieht der Bildschirm so a
 
 ## Mitgliedschaft
 
-Eintrittsdatum und Beitragsgruppe sind Pflichtfelder. Die Beitragsgruppen können unter [/Beitragsgruppen](/Beitragsgruppen) für jeden Verein individuell konfiguriert werden. Siehe auch [/beitragsmodelle.md](/beitragsmodelle.md) und [/einstellungen.md](/einstellungen.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts \(z. B. der 31.12. des jeweiligen Jahres\) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
+Eintrittsdatum und Beitragsgruppe sind Pflichtfelder. Die Beitragsgruppen können unter [Beitragsgruppen](/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](/beitragsmodelle.md) und [Einstellungen](/einstellungen.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts \(z. B. der 31.12. des jeweiligen Jahres\) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
 
 Standardaussehen des Formulars:
 
@@ -67,9 +67,7 @@ Sofern eine Beitragsgruppe ausgewählt wurde, die mit "Familie: Zahler" gekennze
 
 ![](/assets/MitgliedmitgliedschaftZahler.png)
 
-Die Person \(ebenfalls ein Mitglied\), die für das Mitglied zahlt, kann aus einer Liste ausgewählt werden. Hinweis: Dieser Person muss eine Beitragsgruppe der Art "Familie: Zahler" zugewiesen sein, ansonsten taucht sie in der Auswahl-Box nicht auf.
-
-Bei einer Beitragsgruppe, die mit "Familie: Angehöriger" gekennzeichnet ist, sieht das Formular so aus:
+Die Person \(ebenfalls ein Mitglied\), die für das Mitglied zahlt, kann aus einer Liste ausgewählt werden. Hinweis: Dieser Person muss eine Beitragsgruppe der Art "Familie: Zahler" zugewiesen sein, ansonsten taucht sie in der Auswahl-Box nicht auf. Bei einer Beitragsgruppe, die mit "Familie: Angehöriger" gekennzeichnet ist, sieht das Formular so aus:
 
 ![](/assets/MitgliedMitgliedschaftFamilienverband.png)
 
@@ -113,7 +111,7 @@ Als Zahlungswege stehen
 
 zur Verfügung. Die Standardwerte können unter Administration\|Einstellungen\|Beiträge festgelegt werden.
 
-Beim Zahlungsweg Basislastschrift sind BIC und IBAN anzugeben. Bis 2.8.11: Mit Hilfe des Zauberstabes können BLZ und Kontonummer in BIC und IBAN konvertiert werden. Ab 2.8.12: Durch die Eingabe einer BLZ gefolgt von einem Leerzeichen und der anschließenden Kontonummer wird der SEPA-Konverter angestoßen und die IBAN und die BIC ermittelt.
+Beim Zahlungsweg Basislastschrift sind BIC und IBAN anzugeben. Durch die Eingabe einer BLZ gefolgt von einem Leerzeichen und der anschließenden Kontonummer wird der SEPA-Konverter angestoßen und die IBAN und die BIC ermittelt.
 
 Die Mandats-ID wird automatisch aus der Mitgliedsnummer oder optional aus der externen Mitgliedsnummer \(siehe Einstellungen\) gebildet. Zusätzlich wird ein Versionszähler geführt, der das 1., 2., 3. .... Mandat referenziert.
 
@@ -151,17 +149,17 @@ Mit einem Rechtsklick auf einen Wiedervorlagetermin kann entweder ein Erledigung
 
 Die Eigenschaften des Mitgliedes können angehakt werden, bzw. das Häkchen kann entfernt werden. Die Änderungen werden bei Druck auf den Speichern-Knopf in die Datenbank geschrieben.
 
-[/eigenschaften.md](/eigenschaften.md) und [/eigenschaften-gruppen.md](/eigenschaften-gruppen.md) sind in der Administration einzurichten.
+[Eigenschaften](/eigenschaften.md) und [Eigenschaften-Gruppen](/eigenschaften-gruppen.md) sind in der Administration einzurichten.
 
 ## Zusatzfelder
 
 ![](/assets/MitgliedZusatzfelder.png)
 
-Durch [/felddefinition.md](/felddefinition.md) die können zusätzliche Datenfelder erfasst werden.
+Durch [Felddefinitionen](/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
 
 ## Lehrgangsübersicht
 
-Zur Nutzung ist in den [/einstellungen.md](/einstellungen.md) das entsprechende Häkchen zu setzen und die Lehrgänge sind in der Plugins&gt;JVerein&gt;Lehrgangsarten einzurichten.
+Zur Nutzung ist in den [Einstellungen](/einstellungen.md) das entsprechende Häkchen zu setzen und die [Lehrgänge](/lehrgange.md) sind in der Administration&gt;Lehrgangsarten einzurichten.
 
 ### Lehrgang beim Mitglied anlegen
 
@@ -169,11 +167,11 @@ Zur Nutzung ist in den [/einstellungen.md](/einstellungen.md) das entsprechende 
 
 ## Lesefelder
 
-Zur Nutzung ist in den [/einstellungen.md](/einstellungen.md) das entsprechende Häkchen zu setzen und die Lesefelder sind unter JVerein&gt;Administration&gt;Lesefelder einzurichten.
+Zur Nutzung ist in den [Einstellungen](/einstellungen.md) das entsprechende Häkchen zu setzen und die Lesefelder sind unter Administration&gt;Lesefelder einzurichten.
 
 ![](/assets/Lesefelder-Mitgliedansicht.png)
 
-Vorschau der definierten [/lesefelder.md](/lesefelder.md) für das aktuelle Mitglied.
+Vorschau der definierten [Lesefelder](/lesefelder.md) für das aktuelle Mitglied.
 
 ## Arbeitseinsatz
 
@@ -224,6 +222,4 @@ Generierung einer manuellen Lastschrift in Hibiscus.
 ### Freie Formulare
 
 Alle definierten freien Formulare werden als Menüpunkt angeboten.
-
-
 
