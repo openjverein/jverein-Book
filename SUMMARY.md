@@ -82,4 +82,5 @@
   * [FAQ](faq.md)
   * [Für Entwickler](fur-entwickler.md)
   * [Variable](variable.md)
+  * Lizenzen
 
