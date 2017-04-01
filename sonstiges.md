@@ -718,8 +718,6 @@ JVerein steht unter der GPL V3:
     >
     .
 
-
-
 ## Nutzung von Komponenten durch JVerein
 
 | Name | Typ | URL | Lizenz |
@@ -727,11 +725,20 @@ JVerein steht unter der GPL V3:
 | Jameica | Framework | [https://www.willuhn.de/products/jameica/download.php](https://www.willuhn.de/products/jameica/download.php) | GPL V2 |
 | Hibiscus | Onlinebankingtool | Download über Jameica | GPL V2 |
 | activation.jar | Java Beans Activation Framework | [http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-plat-419418.html\#jaf-1.1-fr-oth-JPR](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-plat-419418.html#jaf-1.1-fr-oth-JPR) | Oracle Binary Code License Agreement for Java SE and JavaFX Technologies |
-| bsh-core-2.0b4.jar | Lightweight Scripting für Java | http://www.beanshell.org/download.html | Sun public license / Gnu Lesser Public License |
+| bsh-core-2.0b4.jar | Lightweight Scripting für Java | [http://www.beanshell.org/download.html](http://www.beanshell.org/download.html) | Sun public license / Gnu Lesser Public License |
+| commons-validator-1.5.1.jar |  |  |  |
+| core-3.1.0.jar |  |  |  |
+| csvjdbc.jar | CSV file JDBC driver |  | GPL V2 |
+| ez-vcard-0.9.5.jar | ez-vcard is a vCard library written in Java |  | BSD 3-Clause License |
+| javase-3.1.0.jar |  |  |  |
+| jodatime-2.3.jar |  |  |  |
+| jollyday-0.4.7.jar |  |  |  |
+| junit-4.8.1.jar |  |  |  |
+| mail.jar |  |  |  |
+| nc.jar |  |  |  |
+| snakejaml-1.13.jar |  |  |  |
 
-
-
-## **`Oracle Binary Code License Agreement for Java SE and JavaFX Technologies`**
+## `Oracle Binary Code License Agreement for Java SE and JavaFX Technologies`
 
 `ORACLE AMERICA, INC. ("ORACLE"), FOR AND ON BEHALF OF ITSELF AND ITS SUBSIDIARIES AND AFFILIATES UNDER COMMON CONTROL, IS WILLING TO LICENSE THE SOFTWARE TO YOU ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS BINARY CODE LICENSE AGREEMENT AND SUPPLEMENTAL LICENSE TERMS (COLLECTIVELY "AGREEMENT"). PLEASE READ THE AGREEMENT CAREFULLY. BY SELECTING THE "ACCEPT LICENSE AGREEMENT" (OR THE EQUIVALENT) BUTTON AND/OR BY USING THE SOFTWARE YOU ACKNOWLEDGE THAT YOU HAVE READ THE TERMS AND AGREE TO THEM. IF YOU ARE AGREEING TO THESE TERMS ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE LEGAL AUTHORITY TO BIND THE LEGAL ENTITY TO THESE TERMS. IF YOU DO NOT HAVE SUCH AUTHORITY, OR IF YOU DO NOT WISH TO BE BOUND BY THE TERMS, THEN SELECT THE "DECLINE LICENSE AGREEMENT" (OR THE EQUIVALENT) BUTTON AND YOU MUST NOT USE THE SOFTWARE ON THIS SITE OR ANY OTHER MEDIA ON WHICH THE SOFTWARE IS CONTAINED.`
 
@@ -771,8 +778,6 @@ JVerein steht unter der GPL V3:
 
 `D. JAVA TECHNOLOGY RESTRICTIONS. You may not create, modify, or change the behavior of, or authorize your licensees to create, modify, or change the behavior of, classes, interfaces, or subpackages that are in any way identified as "java", "javax", "javafx", "sun", “oracle” or similar convention as specified by Oracle in any naming convention designation. You shall not redistribute the Software listed on Schedule 1.`
 
-
-
 `E. SOURCE CODE. Software may contain source code that, unless expressly licensed for other purposes, is provided solely for reference purposes pursuant to the terms of this Agreement. Source code may not be redistributed unless expressly provided for in this Agreement.`
 
 `F. THIRD PARTY CODE. Additional copyright notices and license terms applicable to portions of the Software are set forth in the THIRDPARTYLICENSEREADME file set forth in the Software or otherwise available from Oracle at or through the following URL: http://www.oracle.com/technetwork/java/javase/documentation/index.html. In addition to any terms and conditions of any third party opensource/freeware license identified in the THIRDPARTYLICENSEREADME file, the disclaimer of warranty and limitation of liability provisions in paragraphs 4 and 5 of the Binary Code License Agreement shall apply to all Software in this distribution.`
@@ -787,12 +792,9 @@ JVerein steht unter der GPL V3:
 
 `License for Archived Java SE Technologies; last updated 02 April 2013`
 
-`  
-Schedule 1 to Supplemental Terms`
+`Schedule 1 to Supplemental Terms`
 
 `Non-redistributable Java Technologies`
-
-
 
 `JavaFX Runtime versions prior to version 2.0.2, except for version 1.3.1`
 
@@ -979,6 +981,34 @@ whether future versions of the GNU Lesser General Public License shall
 apply, that proxy's public statement of acceptance of any version is
 permanent authorization for you to choose that version for the
 Library.
+```
+
+```
+Note: This license has also been called the "New BSD License" or "Modified BSD License". See also the 
+2-clause BSD License.
+
+Copyright <YEAR> <COPYRIGHT HOLDER>
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that 
+the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the 
+following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and
+ the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or
+ promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED 
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A 
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR 
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED 
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGE.
 ```
 
 
