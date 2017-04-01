@@ -1,4 +1,5 @@
 # Summary
+
 * [Einführung](README.md)
 * [Allgemein](allgemein.md)
   * [Installation](installation.md)
@@ -17,8 +18,8 @@
 * [Programmfunktionen](allgemeine-funktionen.md)
   * [Navigation](navigation.md)
   * [Mitglieder](mitglieder.md)
-  * [Wiedervorlage](wiedervorlage.md)
   * [Suchprofil](suchprofil.md)
+  * [Wiedervorlage](wiedervorlage.md)
   * [Adressen](adressen.md)
   * [Kursteilnehmer](kursteilnehmer.md)
   * [Familienbeitrag](familienbeitrag.md)
@@ -81,3 +82,4 @@
   * [FAQ](faq.md)
   * [Für Entwickler](fur-entwickler.md)
   * [Variable](variable.md)
+

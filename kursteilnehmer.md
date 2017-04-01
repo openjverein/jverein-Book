@@ -4,11 +4,7 @@ Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, 
 
 ![](/assets/Kursteilnehmerliste.jpg)
 
-Eingabe eines neuen Kursteilnehmers:  
-
-> //TODO Neuen Screenshot
-
-![](/assets/Kursteilnehmerneu.jpg)
+Eingabe eines neuen Kursteilnehmers:![](/assets/KursteilnehmerNeu.png)
 
 
 
