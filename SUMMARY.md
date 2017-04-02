@@ -85,4 +85,6 @@
   * [Lizenzen](lizenzen.md)
     * [Mozilla Public License](lizenzen/mozilla-public-license.md)
     * [ez-card-Lizenz](lizenzen/ez-card-lizenz.md)
+    * [Gnu Lesser General Public License](lizenzen/gnu-lesser-public-license.md)
+    * [Apache License 2.0](lizenzen/apache-license-20.md)
 
