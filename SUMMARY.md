@@ -89,4 +89,5 @@
     * [GPL V2](lizenzen/gpl-v2.md)
     * [Mozilla Public License](lizenzen/mozilla-public-license.md)
     * [Oracle Binary Code License Agreement for Java SE and JavaFX Technologies](lizenzen/oracle-binary-code-license-agreement-for-java-se-and-javafx-technologies.md)
+    * [GPL V3](lizenzen/gpl-v3.md)
 
