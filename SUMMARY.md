@@ -83,4 +83,5 @@
   * [Für Entwickler](fur-entwickler.md)
   * [Variable](variable.md)
   * [Lizenzen](lizenzen.md)
+    * [Mozilla Public License](lizenzen/mozilla-public-license.md)
 
