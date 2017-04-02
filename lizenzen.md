@@ -12,6 +12,34 @@ Framework, Download: [https://www.willuhn.de/products/jameica/download.php](http
 
 Onlinebanking, Download: Intern über Jameica, Lizenz: [GPL V2](#gpl-v2)
 
+### activation.jar
+
+### bsh-core-2.0b4.jar
+
+### commons-validator-1.5.1.jar
+
+### core-3.1.0.jar
+
+### csvjdbc.jar
+
+### ez-vcard-0.9.5.jar
+
+### text-hyph-xml.jar
+
+### javase-3.1.0.jar
+
+### jodatime-2.3.jar
+
+### jollyday-0.4.7.jar
+
+### junit-4.8.1.jar
+
+### mail.jar
+
+### nc.jar
+
+### snakeyaml-1.13.jar
+
 ## GPL V3
 
     GNU GENERAL PUBLIC LICENSE
