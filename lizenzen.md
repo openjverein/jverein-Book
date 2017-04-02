@@ -26,7 +26,11 @@ Valididierung, Download: [https://commons.apache.org/proper/commons-validator/do
 
 ### core-3.1.0.jar
 
+Core barcode encoding/decoding library, Download: [https://github.com/zxing/zxing](https://github.com/zxing/zxing), Lizenz: [Apache License 2.0](#apache-license-20)
+
 ### csvjdbc.jar
+
+CSV file JDBC driver, Download: [https://sourceforge.net/projects/csvjdbc/](https://sourceforge.net/projects/csvjdbc/), Lizenz: [Gnu Lesser General Public License](#gnu-lesser-general-public-license)
 
 ### ez-vcard-0.9.5.jar
 
