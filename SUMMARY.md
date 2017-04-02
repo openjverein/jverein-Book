@@ -84,4 +84,5 @@
   * [Variable](variable.md)
   * [Lizenzen](lizenzen.md)
     * [Mozilla Public License](lizenzen/mozilla-public-license.md)
+    * [ez-card-Lizenz](lizenzen/ez-card-lizenz.md)
 
