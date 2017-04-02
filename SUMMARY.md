@@ -83,8 +83,9 @@
   * [Für Entwickler](fur-entwickler.md)
   * [Variable](variable.md)
   * [Lizenzen](lizenzen.md)
-    * [Mozilla Public License](lizenzen/mozilla-public-license.md)
+    * [Apache License 2.0](lizenzen/apache-license-20.md)
     * [ez-card-Lizenz](lizenzen/ez-card-lizenz.md)
     * [Gnu Lesser General Public License](lizenzen/gnu-lesser-public-license.md)
-    * [Apache License 2.0](lizenzen/apache-license-20.md)
+    * [Mozilla Public License](lizenzen/mozilla-public-license.md)
+    * [Oracle Binary Code License Agreement for Java SE and JavaFX Technologies](lizenzen/oracle-binary-code-license-agreement-for-java-se-and-javafx-technologies.md)
 
