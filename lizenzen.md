@@ -54,7 +54,7 @@ This API calculates the holidays for a given year, country and region, Download:
 
 ### junit-4.8.1.jar
 
-JUnit is a simple framework to write repeatable tests, Download: [https://github.com/junit-team/junit4/wiki/Download-and-Install](https://github.com/junit-team/junit4/wiki/Download-and-Install), Lizenz: 
+JUnit is a simple framework to write repeatable tests, Download: [https://github.com/junit-team/junit4/wiki/Download-and-Install](https://github.com/junit-team/junit4/wiki/Download-and-Install), Lizenz:[Eclipse Public License 1.0](/lizenzen/eclipse-public-license-10.md)
 
 ### mail.jar
 
