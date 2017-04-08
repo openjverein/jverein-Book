@@ -92,5 +92,4 @@
     * [Java-Mail License](lizenzen/java-mail-license.md)
     * [LGPL](lizenzen/lgpl.md)
     * [Mozilla Public License](lizenzen/mozilla-public-license.md)
-    * Java-Mail License
 
