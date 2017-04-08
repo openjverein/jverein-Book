@@ -58,6 +58,8 @@ JUnit is a simple framework to write repeatable tests, Download: [https://github
 
 ### mail.jar
 
+Java-Mail, Download: https://java.net/projects/javamail/pages/Home, Lizenz: 
+
 ### nc.jar
 
 ### snakeyaml-1.13.jar
