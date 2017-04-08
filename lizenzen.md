@@ -62,7 +62,7 @@ Java-Mail, Download: [https://java.net/projects/javamail/pages/Home](https://jav
 
 ### nc.jar
 
-Umrechnung von Einheiten, Download: http://numericalchameleon.net/de/download.html, Lizenz: [GPL V3](/lizenzen/gpl-v3.md)
+Umrechnung von Einheiten, Download: [http://numericalchameleon.net/de/download.html](http://numericalchameleon.net/de/download.html), Lizenz: [GPL V3](/lizenzen/gpl-v3.md)
 
 ### snakeyaml-1.13.jar
 
