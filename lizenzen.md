@@ -58,11 +58,15 @@ JUnit is a simple framework to write repeatable tests, Download: [https://github
 
 ### mail.jar
 
-Java-Mail, Download: https://java.net/projects/javamail/pages/Home, Lizenz: 
+Java-Mail, Download: [https://java.net/projects/javamail/pages/Home](https://java.net/projects/javamail/pages/Home), Lizenz: [Java-Mail License](/lizenzen/java-mail-license.md)
 
 ### nc.jar
 
+Umrechnung von Einheiten, Download: http://numericalchameleon.net/de/download.html, Lizenz: [GPL V3](/lizenzen/gpl-v3.md)
+
 ### snakeyaml-1.13.jar
+
+SnakeYAML is a YAML processor for the Java Virtual Machine, Download: [https://bitbucket.org/asomov/snakeyaml/downloads/](https://bitbucket.org/asomov/snakeyaml/downloads/) , Lizenz: [Apache License 2.0](/lizenzen/apache-license-20.md)
 
 ## 
 
