@@ -38,6 +38,8 @@ ez-vcard is a vCard library written in Java, Download: [https://github.com/mangs
 
 ### text-hyph-xml.jar
 
+Silbentrennung für iText, Download: Die alte Version steht nicht mehr zum Download zur Verfügung, Lizenz: [LGPL](/lizenzen/lgpl.md)
+
 ### javase-3.1.0.jar
 
 ### jodatime-2.3.jar
