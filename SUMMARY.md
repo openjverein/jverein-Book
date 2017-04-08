@@ -84,6 +84,7 @@
   * [Variable](variable.md)
   * [Lizenzen](lizenzen.md)
     * [Apache License 2.0](lizenzen/apache-license-20.md)
+    * [Eclipse Public License 1.0](lizenzen/eclipse-public-license-10.md)
     * [ez-card-Lizenz](lizenzen/ez-card-lizenz.md)
     * [Gnu Lesser General Public License](lizenzen/gnu-lesser-public-license.md)
     * [GPL V2](lizenzen/gpl-v2.md)
