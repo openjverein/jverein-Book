@@ -42,9 +42,15 @@ Silbentrennung für iText, Download: Die alte Version steht nicht mehr zum Downl
 
 ### javase-3.1.0.jar
 
+Java SE-specific extensions to core ZXing library, Download: https://github.com/zxing/zxing/wiki/Getting-Started-Developing, Lizenz: [Apache License 2.0](/lizenzen/apache-license-20.md)
+
 ### jodatime-2.3.jar
 
+Joda-Time provides a quality replacement for the Java date and time classes, Download: https://github.com/JodaOrg/joda-time/releases, Lizenz: [Apache License 2.0](/lizenzen/apache-license-20.md)
+
 ### jollyday-0.4.7.jar
+
+This API calculates the holidays for a given year, country and region, Download: https://sourceforge.net/projects/jollyday/files/releases/, Lizenz: [Apache License 2.0](/lizenzen/apache-license-20.md)
 
 ### junit-4.8.1.jar
 
