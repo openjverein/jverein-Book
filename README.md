@@ -12,5 +12,5 @@ beschrieben.
 
 Die Lizenz für dieses Dokument wurde noch nicht festgelegt. Jede Nutzung bedarf der Genehmigung des Autors.
 
-Splittbuchungen
+
 
