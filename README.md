@@ -1,4 +1,4 @@
-# ![](/assets/Deckblatt.jpg)Einführung
+# Einführung
 
 In diesem Benutzerhandbuch werden
 
