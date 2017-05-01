@@ -80,6 +80,10 @@ Das Feld kann mehrzeilig sein. Gesamtlänge 500 Stellen. Mehrzeilige Verwendungs
 
 Anrede
 
+### lastschrift\_geschlecht
+
+Geschlecht
+
 ### lastschrift\_titel
 
 Titel
