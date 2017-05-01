@@ -192,7 +192,7 @@ Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur A
 
 Festlegung der Spalten, die in Tabellen angezeigt werden sollen.
 
-## Mail {#mail}
+## Mail {#einstellungenmail}
 
 ![](/assets/Mail-einstellungen-screenshot.png)
 
