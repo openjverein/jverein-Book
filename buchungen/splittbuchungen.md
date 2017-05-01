@@ -47,7 +47,7 @@ Die Splitbuchungen werden in der Liste der Buchungen "normal" angezeigt. Ein Dop
 
 Mit einem Klick auf Sammelüberweisung erscheint folgendes Fenster:
 
-[![](http://www.jverein.de/wiki/images/3/39/Splitbuchung07.png "Splitbuchung07.png")](http://www.jverein.de/wiki/index.php?title=Datei:Splitbuchung07.png)
+[![](/assets/Splitbuchung07.png "Splitbuchung07.png")](http://www.jverein.de/wiki/index.php?title=Datei:Splitbuchung07.png)
 
 Es werden die in Hibiscus vorhandenen Sammelüberweisungen angezeigt. Mit einem Doppelklick auf eine Sammelüberweisung werden die Einzelposten der Sammelüberweisung in die Splitbuchungen übernommen.
 
