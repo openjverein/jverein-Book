@@ -2,7 +2,7 @@
 
 Mit Neu kann eine neue Beitragsgruppe eingerichtet werden.
 
-![](/assets/Beitragsgruppenübersicht.png)
+![](/assets/Beitragsgruppenübersicht.PNG)
 
 Durch einen Doppelklick wird die Bearbeitung einer Beitragsgruppe eingeleitet.
 
@@ -35,7 +35,7 @@ Siehe Familientarife
 
 Sollen für Mitglieder die Beiträge aus mehr als einer Beitragsgruppe abgerechnet werden, können sekundäre Beitragsgruppen eingerichtet werden. Dazu muss unter Administration \| Einstellungen \| Anzeige das Häkchen "sekundäre Beitragsgruppen anzeigen" gesetzt werden. Anschließend ist es möglich, Beitragsgruppen als sekundäre Beitragsgruppen zu kennzeichnen.
 
-![](/assets/SekundäreBeitragsgruppe.png)
+![](/assets/SekundäreBeitragsgruppe.png)
 
 Die so gekennzeichneten Beitragsgruppen können den Mitgliedern als sekundäre Beitragsgruppe zugewiesen werden.
 

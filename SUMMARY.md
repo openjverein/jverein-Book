@@ -53,7 +53,6 @@
     * [Buchungsklasse](buchungsklasse.md)
     * [Jahressaldo](jahressaldo.md)
     * [Jahresabschluss](jahresabschluss.md)
-    * [Buchungsvariable](buchungsvariable.md)
   * [Administration](administration.md)
     * [Einstellungen](einstellungen.md)
     * [Beitragsgruppen](beitragsgruppen.md)
