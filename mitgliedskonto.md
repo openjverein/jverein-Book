@@ -42,7 +42,7 @@ Mit einem rechten Mausklick auf eine Mitgliedskonto-Soll-Buchung öffnet sich ei
 
 ## Buchungen dem Mitgliedskonto zuordnen
 
-> Unter Buchführung&gt;Buchungen //TODO Link  ist eine Buchung auszuwählen und doppelt anzuklicken:
+> Unter Buchführung&gt;[Buchungen](/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
 
 ![](/assets/MitgliedskontoBuchungen.png)
 
@@ -95,6 +95,4 @@ Sollen die Mahnungsdaten exportiert werden, so drücken Sie im Dialog Mahnung de
 ## Spalten im Export
 
 Exportieren Sie Rechnungsdaten oder Mahnungsdaten so haben Sie in der CSV Datei die Spalten des Mitglieds und des Mitgliedskontos
-
-
 
