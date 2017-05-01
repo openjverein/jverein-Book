@@ -8,7 +8,7 @@ Die Verwendung von Projekten ist dann sinnvoll, wenn die Informationen, die die 
 
 Indem bei einer Buchung ein Projekt hinterlegt wird, können zusammengehörige Buchungen über das Projekt ausgewertet werden.
 
-## Einstellungen\[Bearbeiten\]
+## Einstellungen
 
 Unter Administration\|Buchführung\|Projekte werden die Projekte angelegt bzw. bearbeitet.
 
