@@ -82,7 +82,7 @@ Anrede
 
 ### lastschrift\_geschlecht
 
-Geschlecht
+Geschlecht \(ab Version 2.8.16\)
 
 ### lastschrift\_titel
 
