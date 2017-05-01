@@ -10,7 +10,5 @@ beschrieben.
 
 ## Hinweis!
 
-Die Lizenz für dieses Dokument wurde noch nicht festgelegt. Jede Nutzung bedarf der Genehmigung des Autors.
-
-
+Dieses Handbuch steht, wie JVerein, unter [GPL V3](/lizenzen/gpl-v3.md).
 
