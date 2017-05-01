@@ -53,11 +53,11 @@ Hinweis: Das Eingabedatum wird beim Import von Mitgliedern nicht gesetzt.
 
 ##### Fälligkeit SEPA \(Erst-/Einzel-Lastschrift\)
 
-Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 [Bankarbeitstage ](/bankarbeitstage.md)nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
+Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 Bankarbeitstage[ ](/bankarbeitstage.md)nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
 
 ##### Fälligkeit SEPA \(Folge-/Letzte-Lastschrift\)
 
-Analog zum Fälligkeitsdatum für Erst-/Einzellastschriften mit 2 [Bankarbeitstage](/bankarbeitstage.md)n.
+Analog zum Fälligkeitsdatum für Erst-/Einzellastschriften mit 2 Bankarbeitstagen.
 
 ##### Stichtag
 
@@ -91,5 +91,5 @@ Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschriebe
 
 Verwandte Themen: [Abrechnungslauf](/abrechnungslauf.md), [Pre-Notification, ](/pre-notification.md)[Rücklastschrift](/rucklastschrift.md), [Rechnungen, ](/rechnungen.md)[Mitgliedskonto](/mitgliedskonto.md)
 
-
+[https://de.wikipedia.org/wiki/Bankarbeitstag](https://de.wikipedia.org/wiki/Bankarbeitstag)
 

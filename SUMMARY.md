@@ -27,7 +27,6 @@
     * [Abrechnungslauf](abrechnungslauf.md)
     * [Pre-Notification](pre-notification.md)
     * [Rücklastschrift](rucklastschrift.md)
-    * [Bankarbeitstage](bankarbeitstage.md)
   * [Mitgliedskonto](mitgliedskonto.md)
   * [Rechnungen](rechnungen.md)
   * [Mahnungen](mahnungen.md)
