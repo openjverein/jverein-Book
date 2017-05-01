@@ -41,7 +41,7 @@ Es werden keine Beiträge abgerechnet. Dieser Parameter ist zu setzen, wenn auss
 
 ##### Alle
 
-Es werden alle Mitglieder entsprechend des eingestellten [/beitragsmodelle.md](/beitragsmodelle.md "Beitragsmodell") abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [/beitragsgruppen.md](/beitragsgruppen.md) und Zahlungsrhythmus sowie ggfls. individuelle Beiträge berücksichtigt.
+Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](/beitragsmodelle.md) abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [Beitragsgruppen](/beitragsgruppen.md) und Zahlungsrhythmus sowie ggfls. individuelle Beiträge berücksichtigt.
 
 ##### Eingetretene Mitglieder
 
@@ -53,11 +53,11 @@ Hinweis: Das Eingabedatum wird beim Import von Mitgliedern nicht gesetzt.
 
 ##### Fälligkeit SEPA \(Erst-/Einzel-Lastschrift\)
 
-Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 [/bankarbeitstage.md](/bankarbeitstage.md) nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
+Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 [Bankarbeitstage ](/bankarbeitstage.md)nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
 
 ##### Fälligkeit SEPA \(Folge-/Letzte-Lastschrift\)
 
-Analog zum Fälligkeitsdatum für Erst-/Einzellastschriften mit 2 [/bankarbeitstage.md](/bankarbeitstage.md)n.
+Analog zum Fälligkeitsdatum für Erst-/Einzellastschriften mit 2 [Bankarbeitstage](/bankarbeitstage.md)n.
 
 ##### Stichtag
 
@@ -65,13 +65,13 @@ Stichtag für die Berechnung der Mitgliedschaft und der Fälligkeit von Zusatzbe
 
 ##### Zahlungsgrund für Beiträge
 
-Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird auf [/rechnungen.md](/rechnungen.md), [/mahnungen.md](/mahnungen.md) und bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [/beitragsgruppen.md](/beitragsgruppen.md) und dem Betrag\) ausgegeben.
+Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird auf [Rechnungen](/rechnungen.md), [Mahnungen](/mahnungen.md) und bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [Beitragsgruppen](/beitragsgruppen.md) und dem Betrag\) ausgegeben.
 
-Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [/zusatzbetrage.md](/zusatzbetrage.md)\).
+Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](/zusatzbetrage.md)\).
 
 ##### Zusatzbeträge
 
-Mit dieser Option werden die [/Zusatzbeträgen](/Zusatzbeträgen) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
+Mit dieser Option werden die [Zusatzbeträge](/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
 
 ##### Kursteilnehmer
 
@@ -89,15 +89,7 @@ Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschriebe
 
 ### Weitere Informationen
 
-Verwandte Themen:
+Verwandte Themen: [Abrechnungslauf](/abrechnungslauf.md), [Pre-Notification, ](/pre-notification.md)[Rücklastschrift](/rucklastschrift.md), [Rechnungen, ](/rechnungen.md)[Mitgliedskonto](/mitgliedskonto.md)
 
-[/abrechnungslauf.md](/abrechnungslauf.md)
 
-[ ](/abrechnungslauf.md)[/pre-notification.md](/pre-notification.md)
-
-[/rucklastschrift.md](/rucklastschrift.md),
-
-[/rechnungen.md](/rechnungen.md)
-
-[/mitgliedskonto.md](/mitgliedskonto.md)
 
