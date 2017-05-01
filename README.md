@@ -1,4 +1,4 @@
-# Einführung
+# ![](/assets/Deckblatt.jpg)Einführung
 
 In diesem Benutzerhandbuch werden
 
@@ -11,12 +11,6 @@ beschrieben.
 ## Hinweis!
 
 Die Lizenz für dieses Dokument wurde noch nicht festgelegt. Jede Nutzung bedarf der Genehmigung des Autors.
-
-
-
-
-
-
 
 Splittbuchungen
 
