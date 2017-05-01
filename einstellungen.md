@@ -1,4 +1,4 @@
-# Einstellungen
+# Einstellungen {#einstellungen}
 
 ## Allgemein
 
@@ -192,7 +192,7 @@ Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur A
 
 Festlegung der Spalten, die in Tabellen angezeigt werden sollen.
 
-## Mail
+## Mail {#mail}
 
 ![](/assets/Mail-einstellungen-screenshot.png)
 
@@ -211,7 +211,7 @@ Beide Möglichkeiten können auch kombiniert werden.
 
 ![](/assets/Einstellungenstatistik.png)
 
-Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel 
+Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel
 
 1-5,6-10,11-17,18-25,26-50,50-100
 
@@ -224,6 +224,4 @@ Ab Version 2.5 gibt es das Feld Mindestalter f. Mitgliedschaftsjubiläum
 Geben Sie hier eine Zahl ein, dann werden Mitgliedsjahre, die vor diesem Alter liegen beim Errechnen eines Mitglieds-Jubiläums nicht mit gerechnet.
 
 Für weitere technische Details siehe: Informationen für Entwickler //TODO
-
-
 

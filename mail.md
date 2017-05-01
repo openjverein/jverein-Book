@@ -6,9 +6,7 @@ Der Empfang von Mails ist nicht vorgesehen.
 
 ## Konfiguration
 
-Die Konfiguration ist unter Einstellungen beschrieben.
-
-> //TODO Link für Einstellungen einfügen
+Die Konfiguration ist unter Einstellungen beschrieben. Siehe 
 
 ## Mail-Vorlagen
 
