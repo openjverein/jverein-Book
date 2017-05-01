@@ -4,13 +4,9 @@ Der Kontoauszug ist eine Liste \(PDF-Ausgabe\) sämtlicher Buchungen auf einem M
 
 Einen Kontoauszug kann in der Anzeige des Mitglieds \(bzw. eine weiteren Adresse\) abgerufen werden und auf einen Zeitraum eingegrenzt werden.
 
-Die jüngsten Positionen des Kontoauszugs werden auch auf dem //TODO Personalbogen ausgegeben.
+Die jüngsten Positionen des Kontoauszugs werden auch auf dem Personalbogen ausgegeben.
 
 ![](/assets/Kontoauszug-Filter.png)
 
 ![](/assets/Kontoauszug.jpg)
-
-
-
-
 
