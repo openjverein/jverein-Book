@@ -40,7 +40,7 @@ Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü. Dami
 
 Mit einem rechten Mausklick auf eine Mitgliedskonto-Soll-Buchung öffnet sich ein Kontextmenü. Damit kann die Sollbuchung bearbeitet, oder, sofern keine Istbuchung zugeordnet ist, auch gelöscht werden.
 
-## Buchungen dem Mitgliedskonto zuordnen
+## Buchungen dem Mitgliedskonto zuordnen {#mitgliedskontozuordnen}
 
 > Unter Buchführung&gt;[Buchungen](/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
 
