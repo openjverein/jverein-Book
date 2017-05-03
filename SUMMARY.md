@@ -27,6 +27,7 @@
     * [Abrechnungslauf](abrechnungslauf.md)
     * [Pre-Notification](pre-notification.md)
     * [Rücklastschrift](rucklastschrift.md)
+    * [SEPA-Bugs](sepa-bugs.md)
   * [Mitgliedskonto](mitgliedskonto.md)
   * [Rechnungen](rechnungen.md)
   * [Mahnungen](mahnungen.md)
