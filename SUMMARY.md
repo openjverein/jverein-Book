@@ -41,6 +41,7 @@
     * [Jubiläen](jubilaen.md)
     * [Jubiläumsliste](auswertungen/jubilaumsliste.md)
     * [Statistik](statistik.md)
+    * [Statistik Jahrgänge](auswertungen/statistik-jahrgange.md)
   * [Mail](mail.md)
   * [Buchführung](buchf.md)
     * [Konten](konten.md)
