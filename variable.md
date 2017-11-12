@@ -246,6 +246,10 @@ Handy
 
 IBAN
 
+### mitglied\_ibanmaskiert
+
+IBAN, die in dieser Lastschrift verwendet wird, in maskierter Form
+
 ### mitglied\_id
 
 Interne Mitgliedsnummer
