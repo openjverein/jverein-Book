@@ -95,7 +95,12 @@ Die JVerein-H2-Datenbank \(jverein.h2.db\) kann in einem zentralen Subversion-Re
 * Vorteile: Änderungshistorie \(Datenbankstände werden archiviert, welcher SVN-Benutzer hat wann geändert\), Datenbankdatei kann mit einen Schreib-Lock belegt werden \(d.h. nur ein schreibener Benutzer gleichzeitig / Lock-Modify-Write-Workflow\)
 * Nachteile: SVN/Subversion erforderlich, Disziplin beim Ablauf absolut notwendig \(SVN-Jameica-SVN\).
 
-Dieses Verfahren hat phfeustel implementiert und im Forum ausführlich beschrieben.
+Dieses Verfahren hat phfeustel \([http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553](http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553 "phfeustel")\) implementiert und im Forum \([http://www.jverein.de/forum/viewtopic.php?f=4&t=2717](http://www.jverein.de/forum/viewtopic.php?f=4&t=2717)\) ausführlich beschrieben.
+
+Weitere Anleitungen von phfeustel:
+
+* Für Admins: https://it.jungeverlagsmenschen.de/images/b/b8/20171222\_Admin\_Jameica\_JVerein\_Hibiscus\_Setup\_it.jungeverlagsmenschen.de.pdf
+* Für Benutzer: https://it.jungeverlagsmenschen.de/images/d/de/20171222\_Benutzer\_JVerein\_Installationsanleitung\_it.jungeverlagsmenschen.de.pdf, https://it.jungeverlagsmenschen.de/images/6/6b/20171222\_Benutzer\_JVM\_JVerein\_Benutzerhandbuch\_it.jungeverlagsmenschen.de.pdf, https://it.jungeverlagsmenschen.de/images/2/22/20171222\_Benutzer\_Exkurs\_zu\_SVN-Begriffen\_it.jungeverlagsmenschen.de.pdf
 
 #### Mit Schreibrecht für alle
 
@@ -192,7 +197,6 @@ Für Windows:
  pause
  goto ende
  :ende
-
 ```
 
 Für MacOS \(\(leicht für Linux anpassbar\), von phfeustel \([http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553](http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553)\)
@@ -209,7 +213,7 @@ Für MacOS \(\(leicht für Linux anpassbar\), von phfeustel \([http://www.jverei
  JAMEICA_DATADIR="/Users/<DeinUserName>/Desktop/jameica/"
  # Kopiert aus dem Original jameica-Startskript. Entspricht dem Standard aus OSX 10.10
  JAVACMD="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java"
- 
+
  ######################################### Ab hier keine Änderungen mehr notwendig
  LOCKFILE_MY="${JAMEICA_DATADIR}/my.lock"
  # Prüfen, ob Lockfile existiert
@@ -240,7 +244,6 @@ Für MacOS \(\(leicht für Linux anpassbar\), von phfeustel \([http://www.jverei
     $("${JAVACMD}" -Xdock:name="Jameica" -Xmx256m -XstartOnFirstThread -jar "${JAMEICA_APP_PATH}/jameica-macos64.jar" -f "${JAMEICA_DATADIR}" -o "$@" > /dev/null) > /dev/null
     rm -f $LOCKFILE_MY
  fi
-
 ```
 
 Ein automatisches Kopieren gemäß \#Lese- und Schreibrecht in den obigen Batch zu integriert ist nicht schwierig.
