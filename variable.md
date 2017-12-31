@@ -526,6 +526,10 @@ Stichtag
 
 Von-Datum bei Abrechnung von neu eingetretenen Mitgliedern
 
+### abrechnungsparameter\_bisdatum
+
+Bis-Datum bei Abrechnung von neu eingetretenen Mitgliedern
+
 ### abrechnungsparameter\_zusatzbetraege
 
 Merkmal, ob Zusatzbeträge abgerechnet werden sollen
