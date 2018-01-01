@@ -24,6 +24,14 @@ Folgemonat im Format mm.jjjj
 
 Aktuelles Datum in der Form tt.mm.jjjj
 
+### tagesdatumtt
+
+Aktuelles Datum in der Form tt
+
+### tagesdatummm
+
+Aktuelles Datum in der Form mm
+
 ### vormonat
 
 Vormonat im Format mm.jjjj
