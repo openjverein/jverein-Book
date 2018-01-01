@@ -14,7 +14,7 @@ Aktuelles Jahr im Format jjjj
 
 ### folgejahr
 
-Folgejahr
+Folgejahr im Format jjj
 
 ### folgemonat
 
