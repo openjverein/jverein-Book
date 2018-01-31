@@ -254,7 +254,7 @@ Handy
 
 IBAN
 
-### mitglied\_ibanmaskiert
+### mitglied\_iban\_maskiert
 
 IBAN, die in dieser Lastschrift verwendet wird, in maskierter Form
 
