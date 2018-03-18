@@ -2,7 +2,7 @@
 
 Buchungen können im CSV-Format importiert werden. Der Dateiname muss eine Endung haben. Z. B. .csv oder .txt. Es kann jede beliebige Endung verwendet werden. Die Datenfelder werden durch Semikolon getrennt. Das Encoding kann ausgewählt werden.
 
-Als Spaltennamen stehen die [Variablen](/variable.md "Buchungsvariablen") zur Verfügung.
+Als Spaltennamen stehen die [Variablen](/variable.md "Buchungsvariablen") aus dem Bereich "Buchungen" zur Verfügung.
 
 ```
 buchung_betrag;buchung_buchungsart_nummer;buchung_datum;buchung_kontonummer;buchung_name;buchung_zweck1
