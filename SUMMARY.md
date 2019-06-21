@@ -3,6 +3,7 @@
 * [Einführung](README.md)
 * [Allgemein](allgemein/README.md)
   * [Installation](allgemein/installation.md)
+  * [Changelog](allgemein/changelog.md)
   * [Erster Start](allgemein/erster-start.md)
   * [Beitragsmodelle](allgemein/beitragsmodelle.md)
   * [Familientarife](allgemein/familientarife.md)
