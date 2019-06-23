@@ -1,5 +1,11 @@
 # Changelog
 
+[Version 2.8.18](https://github.com/jverein/jverein/milestone/2?closed=1) vom 23.6.2019
+
+[Version 2.8.17](https://github.com/jverein/jverein/milestone/1?closed=1) vom 18.02.2018
+
+[Version 2.8.17](https://sourceforge.net/p/jverein/tickets/search/?q=status%3Aclosed+%26%26+labels%3A2.8.16) vom 31.12.2017
+
 [Version 2.8.15](https://sourceforge.net/p/jverein/tickets/search/?q=status%3Aclosed+%26%26+labels%3A2.8.15) vom 21.02.2017
 
 [Version 2.8.14](https://sourceforge.net/p/jverein/tickets/search/?q=status%3Aclosed+%26%26+labels%3A2.8.14) vom 02.02.2016
