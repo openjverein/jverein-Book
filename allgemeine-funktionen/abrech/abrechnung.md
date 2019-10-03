@@ -18,7 +18,7 @@ Die Abrechnung wird mit dem untenstehenden Bildschirm initiiert. Es können
 
 * Mitgliedsbeiträge je nach Beitragsmodell
 * Beiträge für im laufenden Jahr eingetretene Mitglieder
-* Beiträge für abgemeldete Mitglieder \(ab Version 2.8.16\)
+* Beiträge für abgemeldete Mitglieder
 * Zusatzbeträge
 * Kursgebühren
 
@@ -30,7 +30,7 @@ Sofern als Modus nicht 'keine Beitragsabrechnung' ausgewählt wurde, werden für
 
 Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die Beiträge eingezogen werden. Dazu wird das Eingabedatum eingetragen, ab dem die Beiträge für nachträglich eingetretene Mitglieder abgebucht werden sollen.
 
-Um nur Mitglieder abzurechnen, die sich schon abgemeldet haben, wird das maximale Austrittsdatum eingetragen. Dann werden Beiträge nur für die Mitglieder abgebucht, die bis dahin ausgetreten sind \(ab Version 2.8.16\).
+Um nur Mitglieder abzurechnen, die sich schon abgemeldet haben, wird das maximale Austrittsdatum eingetragen. Dann werden Beiträge nur für die Mitglieder abgebucht, die bis dahin ausgetreten sind.
 
 Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
 
@@ -54,17 +54,13 @@ Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung ma
 
 Hinweis: Das Eingabedatum wird beim Import von Mitgliedern nicht gesetzt.
 
-**Abgemeldete Mitglieder \(ab Version 2.8.16\)**
+**Abgemeldete Mitglieder**
 
 Es werden nur Mitglieder abgerechnet, die sich schon abgemeldet haben.
 
-**Fälligkeit SEPA \(Erst-/Einzel-Lastschrift\)**
+**Fälligkeit SEPA**
 
-Die Fälligkeit von Erst- bzw. Einzel-Lastschriften muss mindestens 5 Bankarbeitstage[ ](https://github.com/jverein/jverein-handbuch/tree/7a7b5a645186b65a634bbe865664632876fb43ca/bankarbeitstage.md)nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
-
-**Fälligkeit SEPA \(Folge-/Letzte-Lastschrift\)**
-
-Analog zum Fälligkeitsdatum für Erst-/Einzellastschriften mit 2 Bankarbeitstagen.
+Die Fälligkeit von Lastschriften muss mindestens einen Bankarbeitstag nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
 
 **Stichtag**
 
@@ -90,7 +86,7 @@ Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine
 
 **SEPA-Datei drucken**
 
-Optional können die SEPA-Daten in zwei PDF-Dokumente \(FRST \(Erste\) + RCUR \(Folgelastschrift\)\) zum Ausdruck ausgegeben werden.
+Optional können die SEPA-Daten in ein PDF-Dokument zum Ausdruck ausgegeben werden.
 
 Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben. Die IBAN in den Stammdaten \(siehe \[\[Einstellungen\]\]\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
 

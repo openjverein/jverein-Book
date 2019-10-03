@@ -520,13 +520,9 @@ Text des Abrechnungsmodus
 
 Abrechnungsmonat \(nur bei entsprechendem Beitragsmodell\)
 
-#### abrechnungsparameter\_faelligkeit1
+#### abrechnungsparameter\_faelligkeit
 
-Fälligkeit bei Erstlastschriften
-
-#### abrechnungsparameter\_faelligkeit2
-
-Fälligkeit bei Folgelastschriften
+Fälligkeit
 
 #### abrechnungsparameter\_stichtag
 
@@ -538,7 +534,7 @@ Von-Datum bei Abrechnung von neu eingetretenen Mitgliedern
 
 #### abrechnungsparameter\_bisdatum
 
-Bis-Datum bei Abrechnung von neu eingetretenen Mitgliedern
+Bis-Datum bei Abrechnung von ausgetretenen Mitgliedern
 
 #### abrechnungsparameter\_zusatzbetraege
 
