@@ -1,6 +1,6 @@
 # Abrechnungslauf
 
-Auflistung aller Abrechnungsläufe.Mit einem Rechtsklick kann ein Lauf gelöscht werden oder es können [Pre-Notification](pre-notification.md) ausgeben werden.
+Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelöscht werden oder es können [Pre-Notification](pre-notification.md) ausgeben werden.
 
 ![](../../assets/abrechnungslauf.png)
 
