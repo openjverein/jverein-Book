@@ -77,7 +77,7 @@ In der folgenden Grafik ist auf die Scrollpfeile hingewiesen, mit denen man bei 
 Folgende Einstellungen müssen noch vorgenommen werden, um JVerein produktiv zu machen:
 
 * [Konten](../allgemeine-funktionen/buchf/konten.md) aus Hibiscus "importieren" / übernehmen
-* [Buchungsklasse]() - hier mindestens den "Ideellen Bereich" einrichten
+* [Buchungsklasse](../allgemeine-funktionen/buchf/buchungsklasse.md) - hier mindestens den "Ideellen Bereich" einrichten
 * [Buchungsart](../allgemeine-funktionen/administration/admbuchf/buchungsart.md) - hier mindestens "Mitgliedsbeitrag" einrichten
 * [Beitragsgruppen](../allgemeine-funktionen/administration/beitragsgruppen.md) - hier mindesten eine Beitragsgruppe einrichten
 
