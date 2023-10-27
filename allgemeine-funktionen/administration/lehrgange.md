@@ -6,19 +6,19 @@ Zur Nutzung der Lehrgänge ist die Option in den Einstellungen \(Administration 
 
 ### Übersicht über die Lehrgangsarten
 
-![](../../.gitbook/assets/lehrgangsarten.jpg)
+![](../../assets/lehrgangsarten.jpg)
 
 ### Lehrgangsart neu anlegen oder bearbeiten
 
-![](../../.gitbook/assets/lehrgangsart.jpg)
+![](../../assets/lehrgangsart.jpg)
 
 Die Bezeichnung des Lehrgangs muss ausgefüllt werden. Die restlichen Daten können leer gelassen werden. Diese Daten sind dann einzugeben, wenn beim Mitglied der Lehrgang angelegt wird.
 
 ## Lehrgangsübersicht beim Mitglied
 
-![](../../.gitbook/assets/mitgliedlehrgaenge.jpg)
+![](../../assets/mitgliedlehrgaenge.jpg)
 
 ## Lehrgang beim Mitglied anlegen
 
-![](../../.gitbook/assets/mitgliedlehrgang-2.jpg)
+![](../../assets/mitgliedlehrgang-2.jpg)
 

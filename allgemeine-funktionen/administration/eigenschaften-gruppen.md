@@ -10,7 +10,7 @@ Beispiel einer nicht-Pflichtgrupe: Ein Mitglied gehört dem Vorstand an
 
 Beispiel einer Eigenschaft Max. 1: Zahlungsart Abbuchung, Überweisung, Dauerauftrag, ggfs. dann in Verbindung mit dem Pflicht-Flag.
 
-![](../../.gitbook/assets/eigenschaftengruppeuebersicht.png)
+![](../../assets/eigenschaftengruppeuebersicht.png)
 
-![](../../.gitbook/assets/eigenschaftengruppe.png)
+![](../../assets/eigenschaftengruppe.png)
 

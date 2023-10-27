@@ -4,5 +4,5 @@ Das Navigationsmenü kann je nach aktivierten Programmfunktionen mehr oder wenig
 
 Beispiel für die Navigation:
 
-![](../.gitbook/assets/navigationjverein.png)
+![](../assets/navigationjverein.png)
 

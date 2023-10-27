@@ -21,7 +21,7 @@ Sofern vor dem Import Zusatzfelder definiert wurden, können diese auch importie
 
 Die Eingabedatei muss ISO-8859-1-codiert sein.
 
-![](../../.gitbook/assets/einstellungenimport.png)
+![](../../assets/einstellungenimport.png)
 
 Vor jedem Import sollten Sie sich im klaren sein, welche Einstellungen sie vorgenommen haben. Z.B. wenn sie Eintrittsdatum als Pflichtfeld definieren, dann muss für jedes Mitglied das Eintrittsdatum auch definiert sein. Außerdem sollten sie die, in der Tabelle definierte, maximale Länge, die jeder Eintrag haben darf, berücksichtigen. Wenn Sie dann noch die unterstützten Formate berücksichtigen sollte einem Import nicht mehr viel im Weg stehen.
 
@@ -98,25 +98,25 @@ Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Stra�
 
 n LibreOffice/OpenOffice/Excel müssen in der ersten Zeile die Feld- bzw- Spaltenbezeichnungen stehen und zwar genau in der oben angegebenen Schreibweise. Auf jeden Fall müssen Spalten für alle Pflichtfelder angelegt werden. Es können aber auch für alle Felder Spalten vorhanden sein, die dann leer bleiben.
 
-![](../../.gitbook/assets/datei_aufbau.png)
+![](../../assets/datei_aufbau.png)
 
 Standardmäßig müssen "Geburtsdatum" und "Eintritt" \(Eintrittsdatum\) angegeben werden. Unter "Administration" -&gt; "Einstellungen" -&gt; "Anzeige" kann dies vorab geändert werden. Speichern nicht vergessen.
 
-![](../../.gitbook/assets/geburtsdatum_eintrittsdatum_einstellung.png)
+![](../../assets/geburtsdatum_eintrittsdatum_einstellung.png)
 
 In der Spalte "Beitragsart\_1" muss die Bezeichnung einer vorhandenen Beitragsgruppe eingetragen werden. Man kann sie unter "Administration" -&gt; "Einstellungen" -&gt; "Beitragsguppen" nachschauen oder eine neue anlegen.
 
-![](../../.gitbook/assets/beitragsart.png)
+![](../../assets/beitragsart.png)
 
 Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisung oder l für Lastschrift oder Abbuchung oder Bankeinzug. b,u oder l müssen klein geschrieben sein. Wenn l angegeben wird muss auch die IBAN angegeben werden. Ein Feld kann auch leer bleiben, dann wird vom Programm "Barzahlung" angenommen. Keins der Felder darf einen Zeilenumbruch beinhalten. Dies führt zu einer nicht importierbaren CSV Datei.
 
 Beim speichern als CSV Datei \(Comma Seperated Values\) muss man zumindest in LibreOffice einen Haken bei "Edit filter settings" machen, um weitere Einstellungen vornehmen zu können.
 
-![](../../.gitbook/assets/save_dialog.png)
+![](../../assets/save_dialog.png)
 
 Die Einstellungen sind wie folgt:
 
-![](../../.gitbook/assets/mitgliederimport_einstellungen_fuer_csv.png)
+![](../../assets/mitgliederimport_einstellungen_fuer_csv.png)
 
 ## Anfängerfehler beim Importieren
 

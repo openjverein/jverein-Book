@@ -6,7 +6,7 @@ Einen Kontoauszug kann in der Anzeige des Mitglieds \(bzw. eine weiteren Adresse
 
 Die jüngsten Positionen des Kontoauszugs werden auch auf dem Personalbogen ausgegeben.
 
-![](../../.gitbook/assets/kontoauszug-filter.png)
+![](../../assets/kontoauszug-filter.png)
 
-![](../../.gitbook/assets/kontoauszug.jpg)
+![](../../assets/kontoauszug.jpg)
 

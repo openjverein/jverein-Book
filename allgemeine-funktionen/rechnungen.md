@@ -2,7 +2,7 @@
 
 ## Allgemeines
 
-![](../.gitbook/assets/mitgliedrechnung.png)
+![](../assets/mitgliedrechnung.png)
 
 Für alle Buchungen in den Mitgliedskonten können Rechnungen erstellt werden. Dabei hat man die Möglichkeit eine Rechnung für ein bestimmtes Mitglied, für eine Auswahl von Mitglieder oder für alle Mitglieder zu erstellen.
 

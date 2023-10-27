@@ -1,5 +1,7 @@
 # Changelog
 
+[Versionen ab 2.8.19](https://github.com/openjverein/jverein/releases)
+
 [Version 2.8.18](https://github.com/jverein/jverein/milestone/2?closed=1) vom 23.6.2019
 
 [Version 2.8.17](https://github.com/jverein/jverein/milestone/1?closed=1) vom 18.02.2018

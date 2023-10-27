@@ -12,25 +12,25 @@ Hansi Müller"
 35;2004;08.04.2012;1;Shop;zweck1
 ```
 
-In OpenOffice/LibreOffice/Excel muss die Datei wie folgt aufgebaut sein:![](../../.gitbook/assets/tabellen_ansicht.png)
+In OpenOffice/LibreOffice/Excel muss die Datei wie folgt aufgebaut sein:![](../../assets/tabellen_ansicht.png)
 
 Die oberste Zeile dient der Zuordnung. Der Inhalt dieser Zeile muss exakt so geschrieben werden. Hinweis: Das Hinzufügen der Felder "buchung\_buchungsart\_nummer" oder "buchung\_buchungsklasse\_nummer" hat dazu geführt, dass der Import nicht klappt. In die Spalte "buchung\_kontonummer" kommt die \(JVerein\) Kontonummer zu der die Buchung zugeordnet werden soll. Bei einem Hibiskuskonto ist das die Bankkontonummer. Bei einem reinen JVereinkonto die entsprechende Nummer des Kontos. Man kann sie hier nachschauen bzw. vorab ein Konto anlegen. In diesem Beispiel hat das JVerein interne Konto die Bezeichung "manuell" und die Nummer 2.
 
-![](../../.gitbook/assets/konto_navi.png)
+![](../../assets/konto_navi.png)
 
 In LibreOffice "Datei" -&gt; "Speichern unter" wählen und als Dateityp "CSV" auswählen. Zusätzlich den Haken bei "Edit filter settings" setzen.
 
-![](../../.gitbook/assets/tabellen_save.png)
+![](../../assets/tabellen_save.png)
 
 Die Einstellungen für den Export sind wie folgt:
 
-![](../../.gitbook/assets/export_text_file.png)
+![](../../assets/export_text_file.png)
 
-![](../../.gitbook/assets/buchungen_ansicht.png)
+![](../../assets/buchungen_ansicht.png)
 
 Der Import Button ist in JVerein unter "Buchführung" -&gt; "Buchungen" -&gt; "Import"
 
 Zumindest beim Mac muss man nach dem Import die Ansicht wechseln, erst dann erscheinen die importierten Buchungen in der Liste.
 
-![](../../.gitbook/assets/import_ergebnis.png)
+![](../../assets/import_ergebnis.png)
 

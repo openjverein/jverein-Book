@@ -12,31 +12,31 @@ Die Konfiguration ist unter Einstellungen beschrieben.
 
 Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit durch Mailvorlagen minimiert werden.
 
-![](../.gitbook/assets/mailvorlagen.jpg)
+![](../assets/mailvorlagen.jpg)
 
 Durch einen Doppelklick auf den Betreff oder durch einen Klick auf neu öffnet sich das Bearbeitungsfenster.
 
-![](../.gitbook/assets/mailvorlage.jpg)
+![](../assets/mailvorlage.jpg)
 
 ## Mails
 
 In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatum angezeigt.
 
-![](../.gitbook/assets/mails-2.jpg)
+![](../assets/mails-2.jpg)
 
 Durch einen Klick auf neu öffnet sich ein Mail-Vorlagen-Auswahlfenster:
 
-![](../.gitbook/assets/mailvorlagenauswahl.jpg)
+![](../assets/mailvorlagenauswahl.jpg)
 
 Entweder wird eine Mailvorlage ausgewählt oder es geht ohne Vorlage weiter.
 
 Ein Doppelklick auf eine Mail öffnet das Bearbeitungsfenster.
 
-![](../.gitbook/assets/mail.jpg)
+![](../assets/mail.jpg)
 
 Durch einen Klick auf Hinzufügen öffnet sich folgendes Auswahlfenster:
 
-![](../.gitbook/assets/mailempfaengerauswahl.png)
+![](../assets/mailempfaengerauswahl.png)
 
 In diesem Fenster sind zunächst alle an- und abgemeldeten Mitglieder sowie alle weiteren Adressen aufgelistet, bei denen eine E-Mail-Adresse hinterlegt ist. Mail-Empfänger können nun einzeln durch Setzen des Häckchens vor der E-Mail-Adresse ausgewählt werden. Ferner stehen \(ab Version 2.8.4\) folgende Filter bzw. Selektoren zur Verfügung:
 
@@ -51,7 +51,7 @@ Die obigen Filter/Selektoren wirken additiv, mit keinen wird die komplette Auswa
 
 Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst werden:
 
-![](../.gitbook/assets/mitgliedmailversand.jpg)
+![](../assets/mitgliedmailversand.jpg)
 
 ## Variablen
 

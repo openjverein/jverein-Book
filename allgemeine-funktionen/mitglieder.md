@@ -20,23 +20,23 @@ Jeweils beim Verlassen eines Feldes wird die Suche ausgelöst.
 
 Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.![](../.gitbook/assets/mitgliedsuche.png)
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.![](../assets/mitgliedsuche.png)
 
 ### Filterung nach Eigenschaften
 
 Es können eine oder mehrere Eigenschaften ausgewählt werden \(STRG-Taste beim Mausklick gedrückt halten\). Die Eigenschaften sind "und-verknüpft". D. h. es werden die Mitglieder angezeigt, die alle Eigenschaften haben.
 
-![](../.gitbook/assets/mitgliedsucheeigenschaften13.jpg)
+![](../assets/mitgliedsucheeigenschaften13.jpg)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % \(0...n beliebige Zeichen\) und \_ \(genau 1 beliebiges Zeichen\) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](../.gitbook/assets/mitgliedsuchezusatzfelder.jpg)
+![](../assets/mitgliedsuchezusatzfelder.jpg)
 
 ## Grunddaten des Mitglieds
 
-![](../.gitbook/assets/mitgliedgrunddaten.png)
+![](../assets/mitgliedgrunddaten.png)
 
 Im oberen Teil sind die allgemeinen Daten des Mitgliedes zu finden. Wird eine Postleitzahl eingegeben, für die bereits ein Mitglied gespeichert ist, wird der entsprechende Ort übernommen.
 
@@ -44,7 +44,7 @@ Hinweis zur E-Mail-Adresse: In JVerein kann aktuell je Mitglied nur eine E-Mail-
 
 Sofern in den [Einstellungen](administration/einstellungen.md) der Parameter "Juristische Personen erlaubt" gesetzt ist, wird bei der Neuaufnahme von Mitgliedern folgender Dialog eingeblendet:
 
-![](../.gitbook/assets/mitgliedpersonenart.png)
+![](../assets/mitgliedpersonenart.png)
 
 Hier kann ausgewählt werden ob es sich um eine
 
@@ -53,7 +53,7 @@ Hier kann ausgewählt werden ob es sich um eine
 
 handelt. Sofern "juristische Person" ausgewählt wird, sieht der Bildschirm so aus:
 
-![](../.gitbook/assets/mitgliedjuristischeperson.png)
+![](../assets/mitgliedjuristischeperson.png)
 
 ## Mitgliedschaft
 
@@ -61,15 +61,15 @@ Eintrittsdatum und Beitragsgruppe sind Pflichtfelder. Die Beitragsgruppen könne
 
 Standardaussehen des Formulars:
 
-![](../.gitbook/assets/mitgliedmitgliedschaft.png)
+![](../assets/mitgliedmitgliedschaft.png)
 
 Sofern eine Beitragsgruppe ausgewählt wurde, die mit "Familie: Zahler" gekennzeichnet ist, verändert sich das Formular wie folgt:
 
-![](../.gitbook/assets/mitgliedmitgliedschaftzahler.png)
+![](../assets/mitgliedmitgliedschaftzahler.png)
 
 Die Person \(ebenfalls ein Mitglied\), die für das Mitglied zahlt, kann aus einer Liste ausgewählt werden. Hinweis: Dieser Person muss eine Beitragsgruppe der Art "Familie: Zahler" zugewiesen sein, ansonsten taucht sie in der Auswahl-Box nicht auf. Bei einer Beitragsgruppe, die mit "Familie: Angehöriger" gekennzeichnet ist, sieht das Formular so aus:
 
-![](../.gitbook/assets/mitgliedmitgliedschaftfamilienverband.png)
+![](../assets/mitgliedmitgliedschaftfamilienverband.png)
 
 Hier werden die Personen angezeigt, für die das Mitglied die Beiträge zahlt.
 
@@ -77,13 +77,13 @@ Sinn und Zweck dieser Familienverknüpfung ist es, die Voraussetzungen für die 
 
 ## Zukünftige Beitragsgruppen
 
-![](../.gitbook/assets/mitgliednextbeitragsgruppe.jpg)
+![](../assets/mitgliednextbeitragsgruppe.jpg)
 
 Hier kann man Beitragsgruppen eintragen die für dieses Mitglied ab einem definierten Datum gültig sein soll. Hat man z.B. im ersten Jahr einen vergünstigten Probebeitrag, trägt man diesen oben unter Beitragsgruppe ein. Die Beitragsgruppe für den normalen Beitrag, der gültig werden soll sobald die Probezeit beendet ist, kann man sofort in dieser Tabelle zukünftige Beitragsgruppen eintragen.
 
 Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgruppe erreicht wurde. Alle zu ändernden Mitglieder werden in einer Liste angezeigt und es können die neuen Beitragsgruppen für ausgewählte Mitglieder oder alle angezeigten übernommen werden. Damit die Daten angezeigt werden, ist einmal die Box "künftige Beitragsgruppen" zu aktivieren:
 
-![](../.gitbook/assets/boxactivate.png)
+![](../assets/boxactivate.png)
 
 Hinweis: Die Box ist nur sichtbar, wenn im Menü "Jameica" ausgewählt wurde.
 
@@ -101,7 +101,7 @@ Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechne
 
 ![](https://github.com/jverein/jverein-handbuch/tree/7a7b5a645186b65a634bbe865664632876fb43ca/assets/Mitgliedsekundärebeitragsgruppen.png)
 
-## Zahlung![](../.gitbook/assets/mitgliedzahlung.png)
+## Zahlung![](../assets/mitgliedzahlung.png)
 
 Als Zahlungswege stehen
 
@@ -119,15 +119,15 @@ Das Datum des Mandats muss angegeben werden.
 
 Die SEPA-Sequenz wird automatisch ermittelt.
 
-Zusätzlich kann ein abweichender Kontoinhaber angegeben werden:![](../.gitbook/assets/mitgliedzahlung2.png)Mit dem Button "Mitglied-Daten übernehmen" werden einige der Daten des Mitglieds übertragen. Hinweis: Es werden nicht alle Daten übertragen, da es sich um einen abweichenden Kontoinhaber handelt. Z. B. der Vorname wird nicht übertragen.
+Zusätzlich kann ein abweichender Kontoinhaber angegeben werden:![](../assets/mitgliedzahlung2.png)Mit dem Button "Mitglied-Daten übernehmen" werden einige der Daten des Mitglieds übertragen. Hinweis: Es werden nicht alle Daten übertragen, da es sich um einen abweichenden Kontoinhaber handelt. Z. B. der Vorname wird nicht übertragen.
 
 ## Zusatzbeträge
 
 Zusätzliche Zahlungen \(z. B. Eigenanteile für Fahrten, Strafgelder ...\) können über Zusatzbeträge verarbeitet werden.
 
-![](../.gitbook/assets/mitgliedzusatzbetraege.png)
+![](../assets/mitgliedzusatzbetraege.png)
 
-Ein Klick auf Neu öffnet folgendes Fenster:![](../.gitbook/assets/mitgliedzusatzbetraegeneu.png)
+Ein Klick auf Neu öffnet folgendes Fenster:![](../assets/mitgliedzusatzbetraegeneu.png)
 
 Weitere Informationen dazu: [/zusatzbetrage.md](zusatzbetrage.md)
 
@@ -135,17 +135,17 @@ Weitere Informationen dazu: [/zusatzbetrage.md](zusatzbetrage.md)
 
 Vermerke über das Mitglied \(z. B. Funktionen ...\) können in zwei Datenfeldern hinterlegt werden.
 
-![](../.gitbook/assets/mitgliedvermerke.png)
+![](../assets/mitgliedvermerke.png)
 
 ## Wiedervorlage
 
-![](../.gitbook/assets/mitgliedwiedervorlage.png)
+![](../assets/mitgliedwiedervorlage.png)
 
-Mit einem Rechtsklick auf einen Wiedervorlagetermin kann entweder ein Erledigungsdatum gesetzt oder zurückgesetzt werden. Mit einem Klick auf Neu öffnet sich folgendes Fenster:![](../.gitbook/assets/mitgliedwiedervorlageneu.png)Zusätzlich werden die Daten unter Jameica \| Termine in einem Kalenderformat angezeigt.
+Mit einem Rechtsklick auf einen Wiedervorlagetermin kann entweder ein Erledigungsdatum gesetzt oder zurückgesetzt werden. Mit einem Klick auf Neu öffnet sich folgendes Fenster:![](../assets/mitgliedwiedervorlageneu.png)Zusätzlich werden die Daten unter Jameica \| Termine in einem Kalenderformat angezeigt.
 
 ## Eigenschaften
 
-![](../.gitbook/assets/mitgliedeigenschaften.png)
+![](../assets/mitgliedeigenschaften.png)
 
 Die Eigenschaften des Mitgliedes können angehakt werden, bzw. das Häkchen kann entfernt werden. Die Änderungen werden bei Druck auf den Speichern-Knopf in die Datenbank geschrieben.
 
@@ -153,7 +153,7 @@ Die Eigenschaften des Mitgliedes können angehakt werden, bzw. das Häkchen kann
 
 ## Zusatzfelder
 
-![](../.gitbook/assets/mitgliedzusatzfelder%20%281%29.png)
+![](../assets/mitgliedzusatzfelder%20%281%29.png)
 
 Durch [Felddefinitionen](administration/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
 
@@ -163,13 +163,13 @@ Zur Nutzung ist in den [Einstellungen](administration/einstellungen.md) das ents
 
 ### Lehrgang beim Mitglied anlegen
 
-![](../.gitbook/assets/mitgliedlehrgang.jpg)
+![](../assets/mitgliedlehrgang.jpg)
 
 ## Lesefelder
 
 Zur Nutzung ist in den [Einstellungen](administration/einstellungen.md) das entsprechende Häkchen zu setzen und die Lesefelder sind unter Administration&gt;Lesefelder einzurichten.
 
-![](../.gitbook/assets/lesefelder-mitgliedansicht.png)
+![](../assets/lesefelder-mitgliedansicht.png)
 
 Vorschau der definierten [Lesefelder](administration/lesefelder.md) für das aktuelle Mitglied.
 

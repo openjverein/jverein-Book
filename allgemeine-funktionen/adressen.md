@@ -6,7 +6,7 @@ Neben den Mitgliedern können Spender/innen und weitere Adressen gespeichert wer
 
 Eine weitere Adresse kann bei Bedarf später in eine Mitgliedsadresse umgewandelt werden: In der Liste rechte Maustaste und dann "zu Mitglied umwandeln".
 
-![](../.gitbook/assets/adresssuche.png)
+![](../assets/adresssuche.png)
 
-![](../.gitbook/assets/adressen.png)
+![](../assets/adressen.png)
 

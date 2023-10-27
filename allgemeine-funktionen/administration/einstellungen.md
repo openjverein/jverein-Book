@@ -6,11 +6,11 @@ Name und Anschrift des Vereins sowie die Bankverbindung und Gläubiger-ID für d
 
 Die Pflichtfelder werden von der Abrechnung für die Erstellung der Lastschriften zwingend benötigt. Die weiteren Angaben werden überwiegend bei Spendenbescheinigungen eingesetzt.
 
-![](../../.gitbook/assets/einstellungenallgemein.png)
+![](../../assets/einstellungenallgemein.png)
 
 ## Anzeige
 
-![](../../.gitbook/assets/einstellungenanzeige.png)Durch die Einstellungen kann das Verhalten von JVerein beeinflußt werden.
+![](../../assets/einstellungenanzeige.png)Durch die Einstellungen kann das Verhalten von JVerein beeinflußt werden.
 
 Nach Änderungen der mit Stern gekennzeichneten Werte ist ein Neustart von Jameica erforderlich.
 
@@ -117,7 +117,7 @@ Wie sollen die Buchungsarten sortiert werden: nach Bezeichnung, nach Nummer oder
 
 ## Beiträge
 
-![](../../.gitbook/assets/einstellungenbeitraege.png)
+![](../../assets/einstellungenbeitraege.png)
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../allgemein/beitragsmodelle.md)
 
@@ -141,7 +141,7 @@ Beim Erfassen der Arbeitsstunden vom Mitgliedern können im Stundenfeld positive
 
 ## Dateinamenmuster
 
-![](../../.gitbook/assets/einstellungendateinamen.png)
+![](../../assets/einstellungendateinamen.png)
 
 Bei der Ausgabe von Dateien \(Abbuchung, Auswertungen...\) werden die Dateinamen nach dem vorgegebenen Muster aufgebaut. Es können zusätzliche, vom Betriebssystem unterstützte Zeichen, in das Muster aufgenommen werden. Bleibt das Muster leer, wird kein Vorschlag für den Dateinnamen angezeigt. Spendenbescheinigungen werden jeweils für den einzelnen Spender ausgestellt. Daher sollten zur leichteren Identifizierung Name und Vorname in den Dateinamen aufgenommen werden.
 
@@ -158,7 +158,7 @@ Verzeichnis für CSV-Vorlagen.
 
 ## Spendenbescheinigungen
 
-![](../../.gitbook/assets/einstellungenspendenbescheinigungen.png)
+![](../../assets/einstellungenspendenbescheinigungen.png)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 
@@ -170,7 +170,7 @@ Buchungsart drucken: Im Normalfall wird der Verwendungszweck aus der Buchung in 
 
 ## Buchführung
 
-![](../../.gitbook/assets/einstellungenbuchfuehrung.png)
+![](../../assets/einstellungenbuchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 
@@ -182,19 +182,19 @@ Unterdrückung nicht bebuchter Buchungsarten in Listen/Auswertungen \(Standard: 
 
 ## Rechnungen
 
-![](../../.gitbook/assets/einstellungenrechnungen.png)
+![](../../assets/einstellungenrechnungen.png)
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID} ${Konto} und ${BLZ} eingemischt werden.
 
 ## Tabellen
 
-![](../../.gitbook/assets/einstellungentabellen.png)
+![](../../assets/einstellungentabellen.png)
 
 Festlegung der Spalten, die in Tabellen angezeigt werden sollen.
 
 ## Mail <a id="einstellungenmail"></a>
 
-![](../../.gitbook/assets/mail-einstellungen-screenshot.png)
+![](../../assets/mail-einstellungen-screenshot.png)
 
 Alternativ zur EMail-Adresse kann auch der Name zur Absenderadresse hinzugefügt werden: "Mein Name &lt;vorstand@verein.de&gt;" Wichtig ist dabei das Format: \(Name\) \(Spitze Klammer auf\) \(Email\) \(Spitze Klammer zu\)
 
@@ -209,7 +209,7 @@ Beide Möglichkeiten können auch kombiniert werden.
 
 ## Statistik
 
-![](../../.gitbook/assets/einstellungenstatistik.png)
+![](../../assets/einstellungenstatistik.png)
 
 Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel
 

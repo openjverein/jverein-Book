@@ -42,7 +42,7 @@ Für jedes Dokument kann jede beliebige Größe \(DIN A4 hoch, quer, A5 oder A6 
 
 Liste der Formularfelder:
 
-![](../../.gitbook/assets/formularfelder.png)
+![](../../assets/formularfelder.png)
 
 Im Menü Formularfelder öffnet sich durch einen Klick auf neu bzw. mit einem Doppelklick auf ein bestehendes Formularfeld der Dialog zur Bearbeitung des Formularfelds - im zweiten Fall bereits gefüllt mit den vorhandenen Werten \(siehe unten\). Mit einem Rechtsklick auf ein bestehendes Formularfeld öffnet sich ein Kontextmenü, über das das Formularfeld gelöscht werden kann.
 
@@ -50,7 +50,7 @@ Die Definition eines Formularfeldes besteht aus dem Inhalt, der über ein vordef
 
 Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit dem aktuellen Formular überprüft und angepasst werden. Gehe hierzu in das Menü "Formulare", markiere das aktuell bearbeitete Formular und gehe über das Kontext-Menü \(rechter Mausklick\) auf "anzeigen". Prüfe das Aussehen des generierten Formulars anhand der Testdaten und korrigiere gegebenenfalls noch einmal die Positionen der Formularfelder und die Schriftgrößen bis das Gesamtbild passt.
 
-![](../../.gitbook/assets/formularfeld.png)
+![](../../assets/formularfeld.png)
 
 ### Formularfelder für Spendenbescheinigungen
 
@@ -118,9 +118,9 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
 ## Beispiele
 
-![](../../.gitbook/assets/formularroh.jpg)
+![](../../assets/formularroh.jpg)
 
-![](../../.gitbook/assets/formularausgefuellt.jpg)
+![](../../assets/formularausgefuellt.jpg)
 
 ## Freie Formulare
 

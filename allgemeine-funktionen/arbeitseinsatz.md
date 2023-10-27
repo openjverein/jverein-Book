@@ -12,11 +12,11 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeits
 
 Die Arbeitseinsätze werden direkt beim Mitglied gebucht dafür ist der Tab "Arbeitseinsatz" zu öffnen:
 
-![](../.gitbook/assets/arbeitseinsatzmitglied.png)
+![](../assets/arbeitseinsatzmitglied.png)
 
 Mit einem Klick auf Neu öffnet sich folgendes Formular:
 
-![](../.gitbook/assets/arbeitseinsatzneu.png)
+![](../assets/arbeitseinsatzneu.png)
 
 Geben Sie das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
 
@@ -28,7 +28,7 @@ Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negat
 
 Die Arbeitseinsätze können ausgewertet werden. Dabei werden Minder-, Normal- und Mehrleistungen überprüft:
 
-![](../.gitbook/assets/arbeitseinsaetzepruefen.png)
+![](../assets/arbeitseinsaetzepruefen.png)
 
 Die Daten in der Liste können entweder im PDF- oder CSV-Format ausgegeben werden. Die CSV-Daten können als Serienbriefdatenquelle mit beliebigen Textverarbeitungen z. B. zur Erzeugung von Mahnungen zur Erledigung der Arbeit verwendet werden. Weiterhin ist die Generierung von Zusatzbeträgen zur weiteren Abrechnung möglich.
 

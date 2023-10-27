@@ -12,17 +12,17 @@ In JVerein stehen folgende Alternativen für die Pre-Notifications zur Verfügun
 
 Die Pre-Notification Funktion ist etwas versteckt und kann nur über folgenden Weg aufgerufen werden:
 
-![](../../.gitbook/assets/sepa_pre-notification_abrechnungsverlauf_menu.png)
+![](../../assets/sepa_pre-notification_abrechnungsverlauf_menu.png)
 
 Klick auf Abrechnungslauf.
 
 Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notification Mail erstellen kann.
 
-![](../../.gitbook/assets/sepa_pre-notification_abrechnungsverlauf_knopf_zur_e-mail.png)
+![](../../assets/sepa_pre-notification_abrechnungsverlauf_knopf_zur_e-mail.png)
 
 ## Pre-Notification schriftlich und per E-Mail
 
-Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](../administration/formulare.md) dafür angelegt werden.![](../../.gitbook/assets/sepa_pre-notification_e-mail_erstellung.png)In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
+Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](../administration/formulare.md) dafür angelegt werden.![](../../assets/sepa_pre-notification_e-mail_erstellung.png)In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
@@ -81,7 +81,7 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 ## 1ct-Überweisung Pre-Notification
 
-Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.![](../../.gitbook/assets/sepa_pre-notification_1ct_erstellung.png)
+Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.![](../../assets/sepa_pre-notification_1ct_erstellung.png)
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart \(Datei oder Hibiscus\) und das Ausführungsdatum eingestellt werden.
 
