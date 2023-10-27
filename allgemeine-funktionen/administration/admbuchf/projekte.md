@@ -12,11 +12,11 @@ Indem bei einer Buchung ein Projekt hinterlegt wird, können zusammengehörige B
 
 Unter Administration\|Buchführung\|Projekte werden die Projekte angelegt bzw. bearbeitet.
 
-![](../../../.gitbook/assets/projekteliste.png)
+![](../../../assets/projekteliste.png)
 
 Mit neu kann ein neues Projekt eingerichtet werden.
 
-![](../../../.gitbook/assets/projekt.png)
+![](../../../assets/projekt.png)
 
 ## Auswertung
 
@@ -26,7 +26,7 @@ Informationen zu Projekten liefert die Funktion Projekt-Saldo \(zu finden unter 
 
 In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Auch die Salden aller Einnahmen und Ausgaben je Projekt sowie der jeweilige Projektgewinn werden ermittelt.
 
-![](../../../.gitbook/assets/projekte-saldo.png)
+![](../../../assets/projekte-saldo.png)
 
 Die Berechnung kann auf einen Datumsbereich eingegrenzt werden.
 

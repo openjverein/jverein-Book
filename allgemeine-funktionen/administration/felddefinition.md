@@ -2,15 +2,15 @@
 
 Der Benutzer kann zusätzliche Datenfelder \(=Zusatzfelder\) definieren. Diese erscheinen beim Mitglied unter Reiter dem "Zusatzfelder".
 
-![](../../.gitbook/assets/mitgliedzusatzfelder.png)
+![](../../assets/mitgliedzusatzfelder.png)
 
 Eingerichtet werden solche Zusatzfelder unter JVerein -&gt; Administration -&gt; Felddefinitionen
 
-![](../../.gitbook/assets/felddefinitionen.png)
+![](../../assets/felddefinitionen.png)
 
 Durch einen Klick auf neu öffnet sich folgendes Fenster:
 
-![](../../.gitbook/assets/felddefinition.png)
+![](../../assets/felddefinition.png)
 
 Der Names des Feldes kann auch den Zeichen a-z und 0-9 und \_ \(Unterstrich\) bestehen. Er darf keine Leerzeichen enthalten und sich nicht mit existierenden Feldnamen überschneiden. Als Label kann ein beliebiger Begriff verwendet werden, der bei der Eingabe der Daten den Feld vorangestellt wird.
 

@@ -6,15 +6,15 @@ Die Abrechnung schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnun
 
 Fehlerhafte oder Test-Abrechnungen können rückgängig gemacht werden. In dem Abrechnungsformular kann durch klick auf _Rückgängig._
 
-![](../.gitbook/assets/mitgliedskontorueckgaengig.png)
+![](../assets/mitgliedskontorueckgaengig.png)
 
 eine Übersicht der Abrechnungsläufe geöffnet werden:
 
-![](../.gitbook/assets/mitgliedskontoabrechnungslaeufe.png)
+![](../assets/mitgliedskontoabrechnungslaeufe.png)
 
 Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü mit der Option löschen:
 
-![](../.gitbook/assets/mitgliedskontoabrechnungslaeufeloeschen.png)
+![](../assets/mitgliedskontoabrechnungslaeufeloeschen.png)
 
 Nach einer Bestätigung werden die verknüpften Datensätze aus der Mitgliedskontotabelle und der Buchungstabelle gelöscht.
 
@@ -22,21 +22,21 @@ Nach einer Bestätigung werden die verknüpften Datensätze aus der Mitgliedskon
 
 Es gibt eine zentrale Übersicht über alle Buchungen der Mitgliedskonten-Tabelle. Die Buchungen können über einen Zeitraum oder über einen Namen, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Mitgliedskonten mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
 
-![](../.gitbook/assets/mitgliedskontenuebersicht.png)
+![](../assets/mitgliedskontenuebersicht.png)
 
 Durch einen Doppelklick auf die Buchung erscheint das Mitglied.
 
-![](../.gitbook/assets/mitgliedskontomitglied.png)
+![](../assets/mitgliedskontomitglied.png)
 
 ## Mitgliedskonto beim Mitglied
 
-![](../.gitbook/assets/mitgliedskontomitglied-2.png)
+![](../assets/mitgliedskontomitglied-2.png)
 
 In der Baumansicht werden die Summen pro Mitglied, die einzelnen Mitgliedskonten-Sollbuchungen \(Soll und zugeordnetes Ist, Rechnersymbol\), sowie die einzelnen zugeordneten Istbuchungen \(Geldscheine-Symbol\) angezeigt.
 
 Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü. Damit können neue Sollbuchungen aufgenommen werden.
 
-![](../.gitbook/assets/mitgliedskontoneu.png)
+![](../assets/mitgliedskontoneu.png)
 
 Mit einem rechten Mausklick auf eine Mitgliedskonto-Soll-Buchung öffnet sich ein Kontextmenü. Damit kann die Sollbuchung bearbeitet, oder, sofern keine Istbuchung zugeordnet ist, auch gelöscht werden.
 
@@ -44,15 +44,15 @@ Mit einem rechten Mausklick auf eine Mitgliedskonto-Soll-Buchung öffnet sich ei
 
 > Unter Buchführung&gt;[Buchungen](buchf/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
 
-![](../.gitbook/assets/mitgliedskontobuchungen.png)
+![](../assets/mitgliedskontobuchungen.png)
 
-Durch einen Klick auf ... neben Mitgliedskonto erscheint folgender Dialog:![](../.gitbook/assets/mitgliedskonto-zuordnung-ist.png)
+Durch einen Klick auf ... neben Mitgliedskonto erscheint folgender Dialog:![](../assets/mitgliedskonto-zuordnung-ist.png)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name, Vorname und Verwendungszweck 1 gesucht.
 
 Zur Filterung des Buchungen steht weiterhin Egal \(= eine beliebige Differenz\), Fehlbetrag oder Überzahlung zur Verfügung. Durch einen Klick auf entfernen wird die Mitgliedskontoinformation aus der Buchung entfernt. Damit können Fehleingaben korrigiert werden.
 
-![](../.gitbook/assets/mitgliedskonto-zuordnung-soll+ist.png)
+![](../assets/mitgliedskonto-zuordnung-soll+ist.png)
 
 Der obige Dialog hat zwei Registerkarten: nur Ist und Soll u. Ist.
 

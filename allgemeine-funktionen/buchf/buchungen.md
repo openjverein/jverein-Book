@@ -11,7 +11,7 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 * bis Datum
 * enthaltener Text
 
-![](../../.gitbook/assets/buchungen.png)
+![](../../assets/buchungen.png)
 
 Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können neue Buchungen aufgenommen werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF-Format wird durch einen Klick auf PDF angestoßen.
 
@@ -43,7 +43,7 @@ Ausgabe der Summen pro Buchungsart.
 
 ## Buchungen
 
-![](../../.gitbook/assets/buchung.png)
+![](../../assets/buchung.png)
 
 Siehe auch [Mitgliedskonto, ](../mitgliedskonto.md)[Splittbuchungen](splittbuchungen.md)
 

@@ -2,5 +2,5 @@
 
 ## Auflistung der Konten
 
-![](../../.gitbook/assets/kontoauswahl.jpg)
+![](../../assets/kontoauswahl.jpg)
 

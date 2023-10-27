@@ -4,7 +4,7 @@ Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. V
 
 ## Übersicht
 
-![](../.gitbook/assets/spendenbescheinigungen.jpg)
+![](../assets/spendenbescheinigungen.jpg)
 
 Durch einen Klick auf neu öffnet sich das Spendenbescheinigungs-Bearbeitungsfenster \(siehe unten\). Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitungsfenster \(siehe unten\). Mit einem Rechtsklick öffnet sich ein Kontextmenü. Damit können Spendenbescheinigungen gelöscht werden. Durch einen Klick auf PDF wird die Spendenbescheinigung im PDF-Format ausgegeben.
 
@@ -18,7 +18,7 @@ Voraussetzungen für die automatische Generierung:
 * Administration\|Buchungsarten mindestens eine Buchungsart hat ein Häkchen im Feld Spende
 * Buchung wurde dem Mitgliedskonto und einer Buchungsart mit dem Merkmal Spende zugeordnet.
 
-![](../.gitbook/assets/spendenbescheinigung.png)
+![](../assets/spendenbescheinigung.png)
 
 ## Einzel- oder Sammelbestätigungen
 

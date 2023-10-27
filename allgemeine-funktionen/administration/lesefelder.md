@@ -10,7 +10,7 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Lesefelder nutzen
 
-Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration \| Einstellungen \| Anzeige \| Lesefelder anzeigen.![](../../.gitbook/assets/lesefelder-definitionen.png)
+Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration \| Einstellungen \| Anzeige \| Lesefelder anzeigen.![](../../assets/lesefelder-definitionen.png)
 
 Beim nächsten Start von Jameica erscheint unter Administration die neue Option Lesefelder. Außerdem wird sofort auf der Mitglieder-Details-Seite ein neuer Tab Lesefelder angezeigt. Über den Bearbeiten-Knopf erhält man die Möglichkeit neue Lesefelder anzulegen und vorhandene zu editieren bzw. zu löschen.
 

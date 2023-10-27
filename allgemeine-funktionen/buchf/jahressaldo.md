@@ -4,7 +4,7 @@ Hier können für alle Konten die Salden eines Geschäftsjahres angezeigt werden
 
 Sofern kein [Anfangsbestand](anfangsbestand.md) vorhanden ist, wird ein entsprechender Hinweis ausgegeben.
 
-![](../../.gitbook/assets/jahressaldo.jpg)
+![](../../assets/jahressaldo.jpg)
 
 Die Daten können im PDF-Format ausgegeben werden.
 

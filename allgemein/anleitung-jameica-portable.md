@@ -20,25 +20,25 @@ Nachfolgend beschreibe ich die portable Installation auf einem USB-Stick, welche
 
 Auf dem Stick habe ich ein Verzeichnis E:\Portable angelegt, worunter meine portablen Anwendungen, als auch Daten liegen sollen. Unterhalb dieses Verzeichnisses, habe ich ein Verzeichnis „Data“ angelegt, also E:\Portable\Data. Hier sollen künftig die Daten meiner portablen Anwendungen liegen. Zur Unterscheidung der Daten pro Anwendungen, habe ich hierunter nochmals einen Ordner „jameica“ angelegt. In diesem Ordner E:\Portable\Data\jameica sollen also künftig die Daten von Jameica mit den Plugins liegen. Das ganze sieht dann so aus:
 
-![](../.gitbook/assets/jamport01.png)
+![](../assets/jamport01.png)
 
 Nun werden Jameica und die Plugins auf den Stick entpackt, hierzu verwende ich bei mir das Programm 7zip. Natürlich kann jedes andere Packprogramm dafür verwendet werden.
 
 Das Java Framework Jameica, entpacke ich dann direkt nach E:\Portable:
 
-![](../.gitbook/assets/jamport02.png)
+![](../assets/jamport02.png)
 
 Ergebnis:
 
-![](../.gitbook/assets/jamport03.png)
+![](../assets/jamport03.png)
 
 Anschließend werden die Plugins auf gleichem Wege nach E:\Portable\jameica\plugins entpackt. Beispielhaft anhand der Plugins Hibiscus \(Onlinebanking\) und JVerein \(Vereinsverwaltung\), sieht das dann so aus:
 
-![](../.gitbook/assets/jamport04.png)
+![](../assets/jamport04.png)
 
 Zur Installation der portablen Java-Version bitte die entsprechende Datei starten. Bei der Pfadauswahl dann den Pfad E:\Portable\CommonFiles\Java wählen wie hier:
 
-![](../.gitbook/assets/jamport05.png)
+![](../assets/jamport05.png)
 
 Da noch einige Dateien aus dem Internet heruntergeladen werden müssen, kann die Installation je nach Internetverbindung einige Minuten dauern.
 
@@ -59,21 +59,21 @@ Ich beschreibe das ganze zunächst auf Basis des Verzeichnisses E:\Portable\jame
 
 Zunächst legen wir uns per rechter Maustaste ein neues Textdokument im Ordner E:\Portable\jameica an:
 
-![](../.gitbook/assets/jamport06.png)
+![](../assets/jamport06.png)
 
 Das Textdokument bitte gleich umbenennen nach „JameicaPortableWin32.bat“ wie folgt:
 
-![](../.gitbook/assets/jamport07.png)
+![](../assets/jamport07.png)
 
 Die erscheinende Meldung bzgl. der Umbenennung mit „Ja“ bestätigen.
 
 Nun per rechter Maustaste die so erstellte Datei bearbeiten:
 
-![](../.gitbook/assets/jamport08.png)
+![](../assets/jamport08.png)
 
 Es öffnet sich der normale Windows Editor \(Notepad\) und wir können nun den Startbefehl in diese Datei eingeben, der Da lautet:
 
-![](../.gitbook/assets/jamport09.png)
+![](../assets/jamport09.png)
 
 ...oder zum kopieren&einfügen:
 
@@ -105,13 +105,13 @@ Das Programm ist portabel, und es gibt eine 32bit und eine 64bit-Version. Prinzi
 
 Ich nutze an der Stelle die 32bit-Version.
 
-![](../.gitbook/assets/jamport10.png)
+![](../assets/jamport10.png)
 
 Zunächst lädt man sich die Batch-Datei über den entsprechenden Suchbutton. Der Dateiname für die EXE wird automatisch gesetzt kann aber natürlich geändert werden.
 
 Die Optionen auf diesem Reiter können so belassen werden. Wir wechseln nun noch auf den Reiter „Versionsinformation“:
 
-![](../.gitbook/assets/jamport11.png)
+![](../assets/jamport11.png)
 
 Das Hibiscus-Icon befindet sich im Pfad E:\Portable\jameica\plugins\hibiscus\icons.
 
@@ -123,7 +123,7 @@ Analog kann man das gleiche noch für die 64bit-Version durchführen.
 
 Im Verzeichnis E:\Portable\jameica befinden sich nun die portablen Starter im EXE-Format:
 
-![](../.gitbook/assets/jamport12.png)
+![](../assets/jamport12.png)
 
 ## Wie lautet der Startbefehl im Ordner E:\Portable?
 

@@ -8,7 +8,7 @@ Durch einen Doppelklick wird die Bearbeitung einer Beitragsgruppe eingeleitet.
 
 Durch die Markierung einer Beitragsgruppe und Löschen wird die Löschung eingeleitet. Alternativ kann mit einem rechten Mausklick auf eine Beitragsgruppe ein Kontext-Menü geöffnet werden. Damit kann eine Beitragsgruppe, die keinem Mitglied zugeordnet ist, gelöscht werden. Bei zugeordneten Beitragsgruppen erscheint eine Fehlermeldung
 
-![](../../.gitbook/assets/beitragsgruppe.png)
+![](../../assets/beitragsgruppe.png)
 
 Es muss mindestens eine Beitragsgruppe erfasst werden. Jeder Beitragsgruppe ist eine der folgenden Arten zuzuordnen:
 
@@ -35,7 +35,7 @@ Siehe Familientarife
 
 Sollen für Mitglieder die Beiträge aus mehr als einer Beitragsgruppe abgerechnet werden, können sekundäre Beitragsgruppen eingerichtet werden. Dazu muss unter Administration \| Einstellungen \| Anzeige das Häkchen "sekundäre Beitragsgruppen anzeigen" gesetzt werden. Anschließend ist es möglich, Beitragsgruppen als sekundäre Beitragsgruppen zu kennzeichnen.
 
-![](../../.gitbook/assets/sekundaerebeitragsgruppe.png)
+![](../../assets/sekundaerebeitragsgruppe.png)
 
 Die so gekennzeichneten Beitragsgruppen können den Mitgliedern als sekundäre Beitragsgruppe zugewiesen werden.
 

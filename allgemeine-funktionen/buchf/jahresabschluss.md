@@ -2,7 +2,7 @@
 
 Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
-![](../../.gitbook/assets/jahresabschluesse.jpg)
+![](../../assets/jahresabschluesse.jpg)
 
 In der Liste der Jahresabschlüsse kann mit einem Linksklick auf einen Abschluss ein Kontext-Menü geöffnet werden. Hiermit wird die Löschung eines Jahresabschlusses erledigt.
 
@@ -16,5 +16,5 @@ Es kann jeweils nur der neuste Jahresabschluss gelöscht werden.
 
 Durch eine Klick auf neu kann ein neuer Jahresabschluss vorgenommen werden:
 
-![](../../.gitbook/assets/jahresabschluss.jpg)
+![](../../assets/jahresabschluss.jpg)
 

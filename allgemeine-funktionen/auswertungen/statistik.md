@@ -8,11 +8,11 @@ Für die Erstellung einer Statistik gibt es generell drei Möglichkeiten:
 
 ## Statistik-Funktion in JVerein
 
-![](../../.gitbook/assets/statistikbeispiel.jpg)
+![](../../assets/statistikbeispiel.jpg)
 
 Für die Statistik ist ein Stichtag vorzugeben. Standardmässig wird der 31.12. des aktuellen Jahres vorgegeben.
 
-![](../../.gitbook/assets/statistik.jpg)
+![](../../assets/statistik.jpg)
 
 ### Altersgruppen
 

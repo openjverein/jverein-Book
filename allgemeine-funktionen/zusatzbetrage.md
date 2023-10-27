@@ -26,9 +26,9 @@ Durch einen Doppelklick auf einen Zusatzbetrag wird der Bildschirm für die Bear
 * das Ausführungsdatum gelöscht werden
 * der Zusatzbetrag werden
 
-![](../.gitbook/assets/zusatzabbuchungenuebersicht-2.jpg)
+![](../assets/zusatzabbuchungenuebersicht-2.jpg)
 
-![](../.gitbook/assets/mitgliedzusatzabbuchungneu.jpg)
+![](../assets/mitgliedzusatzabbuchungneu.jpg)
 
 Bei der Abrechnung finden folgende Prüfungen statt:
 
