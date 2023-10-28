@@ -20,7 +20,9 @@ Jeweils beim Verlassen eines Feldes wird die Suche ausgelöst.
 
 Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.![](../assets/mitgliedsuche.png)
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
+
+![](../assets/mitgliedsuche.png)
 
 ### Filterung nach Eigenschaften
 
@@ -79,7 +81,7 @@ Sinn und Zweck dieser Familienverknüpfung ist es, die Voraussetzungen für die 
 
 ![](../assets/mitgliednextbeitragsgruppe.jpg)
 
-Hier kann man Beitragsgruppen eintragen die für dieses Mitglied ab einem definierten Datum gültig sein soll. Hat man z.B. im ersten Jahr einen vergünstigten Probebeitrag, trägt man diesen oben unter Beitragsgruppe ein. Die Beitragsgruppe für den normalen Beitrag, der gültig werden soll sobald die Probezeit beendet ist, kann man sofort in dieser Tabelle zukünftige Beitragsgruppen eintragen.
+Hier kann man Beitragsgruppen eintragen, die für dieses Mitglied ab einem definierten Datum gültig sein soll. Hat man z.B. im ersten Jahr einen vergünstigten Probebeitrag, trägt man diesen oben unter Beitragsgruppe ein. Die Beitragsgruppe für den normalen Beitrag, der gültig werden soll, sobald die Probezeit beendet ist, kann man sofort in dieser Tabelle zukünftige Beitragsgruppen eintragen.
 
 Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgruppe erreicht wurde. Alle zu ändernden Mitglieder werden in einer Liste angezeigt und es können die neuen Beitragsgruppen für ausgewählte Mitglieder oder alle angezeigten übernommen werden. Damit die Daten angezeigt werden, ist einmal die Box "künftige Beitragsgruppen" zu aktivieren:
 
@@ -87,13 +89,13 @@ Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgr
 
 Hinweis: Die Box ist nur sichtbar, wenn im Menü "Jameica" ausgewählt wurde.
 
-Zum Erfassen einer zukünftigen Beitragsgruppe klicken Sie mit der rechten Maustaste in die Tabelle. Im Kontextmenü wählen Sie den Punkt Beitragsgruppe hinzufügen. Es öffnet sich eine Ansicht in der Sie die neue Beitragsgruppe auswählen und das Datum erfassen ab dem diese Gruppe gültig werden soll. Sie können in einem Bemerkungsfeld noch hinterlegen warum diese Änderung durchgeführt werden sollte.
+Zum Erfassen einer zukünftigen Beitragsgruppe klicken Sie mit der rechten Maustaste in die Tabelle. Im Kontextmenü wählen Sie den Punkt Beitragsgruppe hinzufügen. Es öffnet sich eine Ansicht, in der Sie die neue Beitragsgruppe auswählen und das Datum erfassen, ab dem diese Gruppe gültig werden soll. Sie können in einem Bemerkungsfeld noch hinterlegen, warum diese Änderung durchgeführt werden sollte.
 
-Bei Mitglieder von Beitragsgruppen der Beitragsart Familie: Zahler können Sie nur andere Beitragsgruppen mit der Beitragsart Familie: Zahler als zukünftige Beitragsgruppe eintragen.
+Bei Mitgliedern von Beitragsgruppen der Beitragsart Familie: Zahler können Sie nur andere Beitragsgruppen mit der Beitragsart Familie: Zahler als zukünftige Beitragsgruppe eintragen.
 
-Bei Mitglieder von Beitragsgruppen der Beitragsart Normal können Sie nur andere Beitragsgruppen mit der Beitragsart Normal als zukünftige Beitragsgruppe eintragen.
+Bei Mitgliedern von Beitragsgruppen der Beitragsart Normal können Sie nur andere Beitragsgruppen mit der Beitragsart Normal als zukünftige Beitragsgruppe eintragen.
 
-Bei Mitglieder von Beitragsgruppen der Beitragsart Familie: Angehöriger können Sie keine zukünftigen Beitragsgruppen hinterlegen, weil hier u.U. Zahlungsdaten fehlen.
+Bei Mitgliedern von Beitragsgruppen der Beitragsart Familie: Angehöriger können Sie keine zukünftigen Beitragsgruppen hinterlegen, weil hier u.U. Zahlungsdaten fehlen.
 
 ## Sekundäre Beitragsgruppen
 
@@ -101,7 +103,9 @@ Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechne
 
 ![](https://github.com/jverein/jverein-handbuch/tree/7a7b5a645186b65a634bbe865664632876fb43ca/assets/Mitgliedsekundärebeitragsgruppen.png)
 
-## Zahlung![](../assets/mitgliedzahlung.png)
+## Zahlung
+
+![](../assets/mitgliedzahlung.png)
 
 Als Zahlungswege stehen
 
@@ -117,7 +121,11 @@ Die Mandats-ID wird automatisch aus der Mitgliedsnummer oder optional aus der ex
 
 Das Datum des Mandats muss angegeben werden.
 
-Zusätzlich kann ein abweichender Kontoinhaber angegeben werden:![](../assets/mitgliedzahlung2.png)Mit dem Button "Mitglied-Daten übernehmen" werden einige der Daten des Mitglieds übertragen. Hinweis: Es werden nicht alle Daten übertragen, da es sich um einen abweichenden Kontoinhaber handelt. Z. B. der Vorname wird nicht übertragen.
+Zusätzlich kann ein abweichender Kontoinhaber angegeben werden:
+
+![](../assets/mitgliedzahlung2.png)
+
+Mit dem Button "Mitglied-Daten übernehmen" werden einige der Daten des Mitglieds übertragen. Hinweis: Es werden nicht alle Daten übertragen, da es sich um einen abweichenden Kontoinhaber handelt. Z. B. der Vorname wird nicht übertragen.
 
 ## Zusatzbeträge
 
@@ -125,7 +133,9 @@ Zusätzliche Zahlungen \(z. B. Eigenanteile für Fahrten, Strafgelder ...\) kön
 
 ![](../assets/mitgliedzusatzbetraege.png)
 
-Ein Klick auf Neu öffnet folgendes Fenster:![](../assets/mitgliedzusatzbetraegeneu.png)
+Ein Klick auf Neu öffnet folgendes Fenster:
+
+![](../assets/mitgliedzusatzbetraegeneu.png)
 
 Weitere Informationen dazu: [/zusatzbetrage.md](zusatzbetrage.md)
 
@@ -139,7 +149,11 @@ Vermerke über das Mitglied \(z. B. Funktionen ...\) können in zwei Datenfelder
 
 ![](../assets/mitgliedwiedervorlage.png)
 
-Mit einem Rechtsklick auf einen Wiedervorlagetermin kann entweder ein Erledigungsdatum gesetzt oder zurückgesetzt werden. Mit einem Klick auf Neu öffnet sich folgendes Fenster:![](../assets/mitgliedwiedervorlageneu.png)Zusätzlich werden die Daten unter Jameica \| Termine in einem Kalenderformat angezeigt.
+Mit einem Rechtsklick auf einen Wiedervorlagetermin kann entweder ein Erledigungsdatum gesetzt oder zurückgesetzt werden. Mit einem Klick auf Neu öffnet sich folgendes Fenster:
+
+![](../assets/mitgliedwiedervorlageneu.png)
+
+Zusätzlich werden die Daten unter Jameica \| Termine in einem Kalenderformat angezeigt.
 
 ## Eigenschaften
 
