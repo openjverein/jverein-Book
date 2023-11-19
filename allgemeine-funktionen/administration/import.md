@@ -372,7 +372,11 @@ l (Kleinbuchstabe L) oder Lastschrift oder Abbuchung oder Bankeinzug für Lastsc
 <summary>Zahlungsrythmus</summary>
 
 **Inhalt:**\
-1 monatlich, 3 vierteljährlich, 6 halbjährlich, 12 jährlich, wenn keine Angabe erfolgt, wird jährlich angenommen.
+1 = monatlich\
+3 = vierteljährlich\
+6 = halbjährlich\
+12 = jährlich\
+wenn keine Angabe erfolgt, wird jährlich angenommen.
 
 **Max. Länge**\
 2
