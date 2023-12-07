@@ -793,12 +793,16 @@ Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Straße;Plz;Ort;Geburtsdatum;Geschlec
 22;Herrn;Dr.;Meier;Hans;Ackerstr.1;12345;Testenhausen;22.02.1970;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;l;01234-56789;;hans.meier@web.de;01.01.2000;Erwachsene;22,00;;;
 ```
 
+{% file src="../../.gitbook/assets/ImportNurPflichtfelder.csv" %}
+
 ### Mit allen Feldern (außer Eigenschaften)
 
 ```
 Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Straße;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Sequence;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;KtoiPersonenart;KtoiAnrede;KtoiTitel;KtoiName;KtoiVorname;KtoiStrasse;KtoiAdressierungszusatz;KtoiPlz;KtoiOrt;KtoiStaat;KtoiEMail;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kündigung;Vermerk1;Vermerk2
 22;Herrn;n;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;1;l;12;1201;;;;;;;;;;;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
 ```
+
+{% file src="../../.gitbook/assets/ImportAlleFelder.csv" %}
 
 ## Vorbereiten einer Mitgliederdatei in Office
 
@@ -818,11 +822,11 @@ Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisun
 
 Beim speichern als CSV Datei (Comma Seperated Values) muss man zumindest in LibreOffice einen Haken bei "Edit filter settings" machen, um weitere Einstellungen vornehmen zu können.
 
-![](../../assets/save\_dialog.png)
+<figure><img src="../../.gitbook/assets/ImportSpeichernUnterLibreOffice.JPG" alt=""><figcaption></figcaption></figure>
 
 Die Einstellungen sind wie folgt:
 
-![](../../assets/mitgliederimport\_einstellungen\_fuer\_csv.png)
+<figure><img src="../../.gitbook/assets/ImportEinstellungenLibreOffice.JPG" alt=""><figcaption></figcaption></figure>
 
 ## Anfängerfehler beim Importieren
 
