@@ -21,7 +21,9 @@ Sofern vor dem Import Zusatzfelder definiert wurden, können diese auch importie
 
 Die Eingabedatei muss ISO-8859-1-codiert sein.
 
-![](../../assets/einstellungenimport.png)
+
+
+<figure><img src="../../.gitbook/assets/ImportMenüpunkt.JPG" alt=""><figcaption><p>Der Menüpunkt Import</p></figcaption></figure>
 
 Vor jedem Import sollten Sie sich im klaren sein, welche Einstellungen sie vorgenommen haben. Z.B. wenn sie Eintrittsdatum als Pflichtfeld definieren, dann muss für jedes Mitglied das Eintrittsdatum auch definiert sein. Außerdem sollten sie die, in der Tabelle definierte, maximale Länge, die jeder Eintrag haben darf, berücksichtigen. Wenn Sie dann noch die unterstützten Formate berücksichtigen sollte einem Import nicht mehr viel im Weg stehen.
 
@@ -794,15 +796,19 @@ Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Straße;Plz;Ort;Geburtsdatum;Geschlec
 ```
 
 {% file src="../../.gitbook/assets/ImportNurPflichtfelder.csv" %}
+CSV-Datei welche nur die Pflichtfelder enthält
+{% endfile %}
 
 ### Mit allen Feldern (außer Eigenschaften)
 
 ```
-Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Straße;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Sequence;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;KtoiPersonenart;KtoiAnrede;KtoiTitel;KtoiName;KtoiVorname;KtoiStrasse;KtoiAdressierungszusatz;KtoiPlz;KtoiOrt;KtoiStaat;KtoiEMail;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kündigung;Vermerk1;Vermerk2
+Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Straße;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;KtoiPersonenart;KtoiAnrede;KtoiTitel;KtoiName;KtoiVorname;KtoiStrasse;KtoiAdressierungszusatz;KtoiPlz;KtoiOrt;KtoiStaat;KtoiEMail;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kündigung;Vermerk1;Vermerk2
 22;Herrn;n;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;1;l;12;1201;;;;;;;;;;;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
 ```
 
 {% file src="../../.gitbook/assets/ImportAlleFelder.csv" %}
+CSV-Datei welche alle Felder außer Eigenschaften enthält
+{% endfile %}
 
 ## Vorbereiten einer Mitgliederdatei in Office
 
@@ -822,11 +828,11 @@ Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisun
 
 Beim speichern als CSV Datei (Comma Seperated Values) muss man zumindest in LibreOffice einen Haken bei "Edit filter settings" machen, um weitere Einstellungen vornehmen zu können.
 
-<figure><img src="../../.gitbook/assets/ImportSpeichernUnterLibreOffice.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ImportSpeichernUnterLibreOffice.JPG" alt=""><figcaption><p>Einstellungen für den "Speichern unter" Dialog</p></figcaption></figure>
 
 Die Einstellungen sind wie folgt:
 
-<figure><img src="../../.gitbook/assets/ImportEinstellungenLibreOffice.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ImportEinstellungenLibreOffice.JPG" alt=""><figcaption><p>Einstellungen für den Export</p></figcaption></figure>
 
 ## Anfängerfehler beim Importieren
 
