@@ -52,6 +52,15 @@ Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit de
 
 ![](../../assets/formularfeld.png)
 
+### Allgemeine Formularfelder
+
+* zaehler: Eine fortlaufende natürliche Zahl die bei jeder Verwendung des Formulares um 1 hochgezählt wird (z.B. für Rechnungsnummern).
+  * Der Zähler hat eine Mindestlänge. Die Länge wird unter Administration > Einstellungen > Rechnungen > Zählerlänge festgelegt. Die Standard-Zählerlänge ist 5.
+  * Der Zähler wird mit Nullen (0) als Präfix aufgefüllt bis die Mindestlänge erreicht ist.
+  * Der Zähler wird als Spalte "Fortlaufende Nr." in der Formularübersicht ausgegeben.
+  * Der Zähler wird beim Anzeigen (Vorschau) von Formularen hochgezählt aber nicht gespeichert.
+  * Der Wert kann in der Detailansicht des Formulares überschrieben werden.
+
 ### Formularfelder für Spendenbescheinigungen
 
 * tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
@@ -93,9 +102,9 @@ Folgende Formularfelder stehen für Rechnungen zur Verfügung:
 * tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
 * Empfänger: Empfänger der Rechnung. Formatiert für ein Adressfeld
 * Zahlungsgrund: Multipel. Es können mehrere Positionen für ein Mitglied in Rechnung gestellt werden. Zur korrekten Darstellung ist "Zahlungsgrund" zu verwenden.
-* Zahlungsgrund1:    Sollte ab Version 1.4 nicht mehr verwendet werden
-* Zahlungsgrund2:    Sollte ab Version 1.4 nicht mehr verwendet werden.
-* Buchungsdatum:    Multipel
+* Zahlungsgrund1: Sollte ab Version 1.4 nicht mehr verwendet werden
+* Zahlungsgrund2: Sollte ab Version 1.4 nicht mehr verwendet werden.
+* Buchungsdatum: Multipel
 * Betrag: Multipel
 * sowie alle Felder des Mitgliedsdatensatzes
 
@@ -103,10 +112,10 @@ Folgende Formularfelder stehen für Rechnungen zur Verfügung:
 
 Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
-* tagesdatum:    Enthält das aktuelle Datum im Format TT.MM.JJJJ
+* tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
 * lastschrift\_empfaenger: Empfänger der PreNotification \(=Kontoinhaber\), formatiert für ein Adressfeld.
 * lastschrift\_verwendungszweck: Der Verwendungszweck wie per SEPA ausgegeben.
-* lastschrift\_mandatid:    Die Mandatsreferenz
+* lastschrift\_mandatid: Die Mandatsreferenz
 * lastschrift\_mandatdatum: Datum des SEPA-Lastschrift-Mandats
 * lastschrift\_bic: Der BIC.
 * lastschrift\_iban: Die IBAN
@@ -128,3 +137,10 @@ Freie Formulare haben keinen speziellen Zweck und können mit den verfügbaren V
 
 Die Ausgabe mit echten Daten erfolgt aus der Mitgliederliste. Man filtert geeignet und markiert alle Zeilen, mit dessen Daten das Formular gefüllt werden soll. Ein Rechtsklick mit Auswahl des Formulars erzeugt dann eine PDF-Datei mit entsprechend vielen Seiten.
 
+## Formularverknüpfungen
+
+Formulare können verknüpft werden um Abhängigkeiten untereinander aufzubauen. Die Spalte "Verknüpft mit" in der Formular-Übersicht zeigt die Abhängigkeiten an. Bei verknüpften Formularen werden die fortlaufenden Nummern (Formularfeld "zaehler") gleichgesetzt und untereinander aktualisiert. Eine Vererbung der Verknüpfung ist nicht implementiert. Formulare können nicht mit sich selbst verknüpft werden. Ein verknüpftes Formular kann nicht gelöscht werden, bis die Abhängigkeiten entfernt wurden.
+
+![](../../assets/formular-verknuepft-mit.png)
+![](../../assets/formularverknuepfung.png)
+![](../../assets/formular-master.png)
