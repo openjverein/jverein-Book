@@ -500,6 +500,22 @@ Ersatz für Aufwendungen
 
 Liste der Buchungen
 
+### spendenbescheinigung\_buchungsliste_art
+
+Liste der Buchungsarten
+
+### spendenbescheinigung\_buchungsliste_betrag
+
+Liste der Spendenbeträge
+
+### spendenbescheinigung\_buchungsliste_daten
+
+Liste der Spendendaten
+
+### spendenbescheinigung\_buchungsliste_verzicht
+
+Liste der Verzichtserklärungen
+
 #### spendenbescheinigung\_bezeichnungsachzuwendung
 
 Bezeichnung der Sachzuwendung
