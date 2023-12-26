@@ -66,6 +66,10 @@ Pflicht
 
 Format TT.MM.JJJJ
 
+#### buchung\_iban
+
+optional
+
 #### buchung\_kommentar
 
 optional
@@ -84,59 +88,51 @@ Pflicht
 
 Das Feld kann mehrzeilig sein. Gesamtlänge 500 Stellen. Mehrzeilige Verwendungszwecke sind in Anführungszeichen zu setzen.
 
-#### buchung\_iban
-
-optional
-
 ## Lastschrift
+
+#### lastschrift\_abrechnungslauf\_faelligkeit
+
+Datum der Fälligkeit
 
 #### lastschrift\_anrede
 
 Anrede
 
-#### lastschrift\_geschlecht
+#### lastschrift\_anrede\_foermlich
 
-Geschlecht \(ab Version 2.8.16\)
+Förmliche Anrede. Z. B. "Sehr geehrter Herr Dr. Wichtig,".
 
-#### lastschrift\_titel
+#### lastschrift\_anrede\_du
 
-Titel
+Informelle Anrede. Z. B. "Hallo Willi,".
 
-#### lastschrift\_strasse
+#### lastschrift\_betrag EUR
 
-Straße
+Betrag der eingezogen wird
 
-#### lastschrift\_name
+#### lastschrift\_bic
 
-Name
-
-#### lastschrift\_vorname
-
-Vorname
-
-#### lastschrift\_plz
-
-PLZ
-
-#### lastschrift\_ort
-
-Ort
+Bic, die in dieser Lastschrift verwendet wird
 
 #### lastschrift\_email
 
 E-Mail
 
-#### lastschrift\_mandatid
+#### lastschrift\_geschlecht
 
-Mandatsnummer
+Geschlecht \(ab Version 2.8.16\)
 
 #### lastschrift\_mandatdatum
 
 Datum des Mandates \(Ausstellungsdatum\)
 
-#### lastschrift\_bic
+#### lastschrift\_mandatid
 
-Bic, die in dieser Lastschrift verwendet wird
+Mandatsnummer
+
+#### lastschrift\_mandatsequence
+
+Mandatssequence - Erste / Wiederholung
 
 #### lastschrift\_iban
 
@@ -146,29 +142,33 @@ vollständige IBAN, die in dieser Lastschrift verwendet wird
 
 IBAN, die in dieser Lastschrift verwendet wird, in maskierter Form
 
-#### lastschrift\_abrechnungslauf\_faelligkeit
+#### lastschrift\_name
 
-Datum der Fälligkeit
+Name
+
+#### lastschrift\_ort
+
+Ort
+
+#### lastschrift\_plz
+
+PLZ
+
+#### lastschrift\_strasse
+
+Straße
+
+#### lastschrift\_titel
+
+Titel
+
+#### lastschrift\_vorname
+
+Vorname
 
 #### lastschrift\_verwendungszweck
 
 Verwendungszweck
-
-#### lastschrift\_betrag EUR
-
-Betrag der eingezogen wird
-
-#### lastschrift\_mandatsequence
-
-Mandatssequence - Erste / Wiederholung
-
-#### lastschrift\_anrede\_foermlich
-
-Förmliche Anrede. Z. B. "Sehr geehrter Herr Dr. Wichtig,".
-
-#### lastschrift\_anrede\_du
-
-Informelle Anrede. Z. B. "Hallo Willi,".
 
 ### Mitglied
 
@@ -434,6 +434,18 @@ Statt ???? steht der Name des Lesefeldes.
 
 Betrag dieser Buchung der bezahlt werden muss
 
+#### mitgliedskonto\_buchungsdatum
+
+Datum der Buchung
+
+#### mitgliedskonto\_differenz
+
+mitgliedskonto\_betrag - mitgliedskonto\_ist, also was noch zu zahlen ist.
+
+#### mitgliedskonto\_ist
+
+Betrag dieser Buchung der bereits bezahlt wurde
+
 #### mitgliedskonto\_zahlungsgrund
 
 Ein Grund warum bezahlt werden muss z.B. Mitgliedsbeitrag oder Arbeitsstunden
@@ -442,23 +454,7 @@ Ein Grund warum bezahlt werden muss z.B. Mitgliedsbeitrag oder Arbeitsstunden
 
 Noch eine Begründung für diese Buchung
 
-#### mitgliedskonto\_ist
-
-Betrag dieser Buchung der bereits bezahlt wurde
-
-#### mitgliedskonto\_differenz
-
-mitgliedskonto\_betrag - mitgliedskonto\_ist, also was noch zu zahlen ist.
-
-#### mitgliedskonto\_buchungsdatum
-
-Datum der Buchung
-
 ## Spendenbescheinigung
-
-#### spendenbescheinigung\_empfaenger
-
-Aufbereitetes Adressfeld des Spenders
 
 #### spendenbescheinigung\_betrag
 
@@ -472,17 +468,33 @@ Betrag in Worten
 
 Datum der Spendenbescheinigung
 
-#### spendenbescheinigung\_spendenart
+#### spendenbescheinigung\_bezeichnungsachzuwendung
 
-Art der Spendenbescheinigung
+Bezeichnung der Sachzuwendung
 
-#### spendenbescheinigung\_spendedatum
+#### spendenbescheinigung\_buchungsliste
 
-Datum der Spende
+Liste der Buchungen
 
-#### spendenbescheinigung\_spendenzeitraum
+### spendenbescheinigung\_buchungsliste\_art
 
-Sammelspendenbescheinigungen: Zeitraum der Spende
+Liste der Buchungsarten
+
+### spendenbescheinigung\_buchungsliste\_betrag
+
+Liste der Spendenbeträge
+
+### spendenbescheinigung\_buchungsliste\_daten
+
+Liste der Spendendaten
+
+### spendenbescheinigung\_buchungsliste\_verzicht
+
+Liste der Verzichtserklärungen
+
+#### spendenbescheinigung\_empfaenger
+
+Aufbereitetes Adressfeld des Spenders
 
 #### spendenbescheinigung\_ersatzaufwendungen
 
@@ -496,17 +508,21 @@ Ersatz für Aufwendungen
 
 Ersatz für Aufwendungen
 
-#### spendenbescheinigung\_buchungsliste
-
-Liste der Buchungen
-
-#### spendenbescheinigung\_bezeichnungsachzuwendung
-
-Bezeichnung der Sachzuwendung
-
 #### spendenbescheinigung\_herkunftsachzuwendung
 
 Herkunft der Sachzuwendung
+
+#### spendenbescheinigung\_spendenart
+
+Art der Spendenbescheinigung
+
+#### spendenbescheinigung\_spendedatum
+
+Datum der Spende
+
+#### spendenbescheinigung\_spendenzeitraum
+
+Sammelspendenbescheinigungen: Zeitraum der Spende
 
 #### spendenbescheinigung\_unterlagenwertermittlung
 
@@ -524,9 +540,25 @@ Text des Abrechnungsmodus
 
 Abrechnungsmonat \(nur bei entsprechendem Beitragsmodell\)
 
+#### abrechnungsparameter\_bisdatum
+
+Bis-Datum bei Abrechnung von ausgetretenen Mitgliedern
+
 #### abrechnungsparameter\_faelligkeit
 
 Fälligkeit
+
+#### abrechnungsparameter\_kompakteabbuchung
+
+Merkmal, ob die Abbuchung von gleichen Konten zusammengefasst werden sollen
+
+#### abrechnungsparameter\_kursteilnehmer
+
+Merkmal, ob Kursteilnehmer abgerechnet werden sollen
+
+#### abrechnungsparameter\_sepaprint
+
+Merkmal, ob die SEPA-Listen gedruckt werden sollen
 
 #### abrechnungsparameter\_stichtag
 
@@ -536,23 +568,7 @@ Stichtag
 
 Von-Datum bei Abrechnung von neu eingetretenen Mitgliedern
 
-#### abrechnungsparameter\_bisdatum
-
-Bis-Datum bei Abrechnung von ausgetretenen Mitgliedern
-
 #### abrechnungsparameter\_zusatzbetraege
 
 Merkmal, ob Zusatzbeträge abgerechnet werden sollen
-
-#### abrechnungsparameter\_kursteilnehmer
-
-Merkmal, ob Kursteilnehmer abgerechnet werden sollen
-
-#### abrechnungsparameter\_kompakteabbuchung
-
-Merkmal, ob die Abbuchung von gleichen Konten zusammengefasst werden sollen
-
-#### abrechnungsparameter\_sepaprint
-
-Merkmal, ob die SEPA-Listen gedruckt werden sollen
 
