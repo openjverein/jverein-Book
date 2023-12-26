@@ -95,7 +95,7 @@ Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit de
     * bei Betriebsvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Betriebsvermögen und ist
     * mit dem Entnahmewert \(ggf. mit dem niedrigeren gemeinen Wert\) bewertet."
 * spendenbescheinigung\_unterlagenwertermittlung: Wenn das Kennzeichen in der Spendenbescheinigung gesetzt ist, der Festtext: "Geeignete Unterlagen, die zur Wertermittlung gedient haben, z. B. Rechnung, Gutachten, liegen vor."
-* zeile1 bis zeile7: Wert der entsprechenden Zeile
+* spendenbescheinigung_zeile1 - spendenbescheinigung_zeile7: Wert der entsprechenden Zeile
 
 ### Formularfelder für Rechnungen
 
