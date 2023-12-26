@@ -5,11 +5,11 @@ Buchungen können im CSV-Format importiert werden. Der Dateiname muss eine Endun
 Als Spaltennamen stehen die [Variablen](../../sonstiges/variable.md) aus dem Bereich "Buchungen" zur Verfügung.
 
 ```text
-buchung_betrag;buchung_buchungsart_nummer;buchung_datum;buchung_kontonummer;buchung_name;buchung_zweck1
+buchung_betrag;buchung_buchungsart_nummer;buchung_datum;buchung_kontonummer;buchung_name;buchung_zweck1;buchung_iban
 80;2004;08.04.2012;1;Shop;"Mitgliedsbeitrag
 1. Halbjahr
-Hansi Müller"
-35;2004;08.04.2012;1;Shop;zweck1
+Hansi Müller";DE02100100100006820101
+35;2004;08.04.2012;1;Shop;zweck1;DE02100100100006820101
 ```
 
 In OpenOffice/LibreOffice/Excel muss die Datei wie folgt aufgebaut sein:![](../../assets/tabellen_ansicht.png)

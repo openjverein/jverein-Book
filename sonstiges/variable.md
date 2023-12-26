@@ -78,11 +78,15 @@ Pflicht
 
 Pflicht
 
-buchung\_zweck1
+#### buchung\_zweck1
 
 Pflicht
 
 Das Feld kann mehrzeilig sein. Gesamtlänge 500 Stellen. Mehrzeilige Verwendungszwecke sind in Anführungszeichen zu setzen.
+
+#### buchung\_iban
+
+optional
 
 ## Lastschrift
 
