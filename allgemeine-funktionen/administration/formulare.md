@@ -64,6 +64,7 @@ Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit de
 ### Formularfelder für Spendenbescheinigungen
 
 * tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
+* spendenbescheinigung\_anrede: Zusammengesetzer Wert aus Zeile 1 und 2
 * spendenbescheinigung\_empfaenger: Zusammengesetzt aus den Empfängerzeilen der Spendenbescheinigung
 * spendenbescheinigung\_datum: Datum der Spendenbescheinigung. Dieses Datum wird verwendet, um zwischen den Formularen zu unterscheiden:
   * Bis 31.12.2012 altes Formular
@@ -94,6 +95,7 @@ Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit de
     * bei Betriebsvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Betriebsvermögen und ist
     * mit dem Entnahmewert \(ggf. mit dem niedrigeren gemeinen Wert\) bewertet."
 * spendenbescheinigung\_unterlagenwertermittlung: Wenn das Kennzeichen in der Spendenbescheinigung gesetzt ist, der Festtext: "Geeignete Unterlagen, die zur Wertermittlung gedient haben, z. B. Rechnung, Gutachten, liegen vor."
+* spendenbescheinigung_zeile1 - spendenbescheinigung_zeile7: Wert der entsprechenden Zeile
 
 ### Formularfelder für Rechnungen
 
