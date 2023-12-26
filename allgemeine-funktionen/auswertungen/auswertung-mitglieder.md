@@ -11,6 +11,8 @@ Der Mitgliederbestand kann nach verschiedenen Kriterien ausgewertet und das Erge
 
 Die Ausgabe erfolgt entweder im PDF- oder im CSV-Format. Nach der Erzeugung der Datei wird ein entsprechendes Anzeigeprogramm aufgerufen.
 
+![](../../assets/Auswertung.png)
+
 ## Sortierung
 
 Die Sortierung erfolgt wahlweise nach
@@ -20,7 +22,7 @@ Die Sortierung erfolgt wahlweise nach
 * Geburtsdatum
 * Geburtsmonat und -jahr \(Geburtstagliste\).
 
-Hinweis: Runde Geburtstage können in der [Jubiläumsliste](http://www.jverein.de/wiki/index.php?title=Jubiläen) ausgegeben werden.
+Hinweis: Runde Geburtstage können in der [Jubiläumsliste](jubilaumsliste.md) ausgegeben werden.
 
 ## Ausgabe im PDF-Format
 
@@ -44,19 +46,19 @@ Für die Ausgabe als CSV-Format gibt es 3 verschiedene Möglichkeiten:
 * Addressbuchexport CSV
 * eigene Vorlagen für CSV \(ab Version 2.5\)
 
-Bei derMitgliederliste CSVwerden sämtliche vorhandenen Mitglieder-Eigenschaften inklusive selbst definierte[Zusatzfelder](http://www.jverein.de/wiki/index.php?title=Felddefinitionen)in die CSV-Datei exportiert.
+Bei der Mitgliederliste CSV werden sämtliche vorhandenen Mitglieder-Eigenschaften inklusive selbst definierte[Zusatzfelder](../administration/felddefinition)in die CSV-Datei exportiert.
 
-DerAddressbuchexport CSVeignet sich u.a. für die Weiterverarbeitung in Mailprogrammen \(z. B. Thunderbird, Outlook Express\).
+DerAddressbuchexport CSV eignet sich u.a. für die Weiterverarbeitung in Mailprogrammen \(z. B. Thunderbird, Outlook Express\).
 
 ### Vorlagen für eigene CSV-Formate
 
 Ab Version 2.5 kann man eigene Vorlagen für den CSV-Export erstellen.
 
-Dazu ist zunächst unter[Einstellungen-&gt;Dateinamenmuster](http://www.jverein.de/wiki/index.php?title=Einstellungen#Dateinamenmuster)ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
+Dazu ist zunächst unter [Einstellungen- &gt; Dateinamenmuster](../administration/einstellungen#Dateinamenmuster)ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
 
 Jede der selbst erstellten Vorlagen ist ebenfalls eine CSV-Datei. Diese Dateien müssen mit einem externen Programm erstellt werden, also mit einem Texteditor oder mit einem Tabellenkalkulationsprogramm. Damit JVerein diese Vorlagendateien erkennt, müssen diese im gewählten Vorlagenverzeichnis gespeichert werden.
 
-[![](http://www.jverein.de/wiki/images/0/09/VorlagenCSVAuswahl.jpg)](http://www.jverein.de/wiki/index.php?title=Datei:VorlagenCSVAuswahl.jpg)
+![](../../assets/VorlagenCSVAuswahl.jpg)
 
 Die Vorlagen kann man direkt in der Liste Ausgabe auswählen
 
@@ -88,7 +90,7 @@ mitglied_name;mitglied_vorname;mitglied_eintritt
 
    eine CSV-Datei die alle möglichen Datenfelder beinhaltet.
 
-2. Dann öffnet man diese mit einem Tabellenkalkulationsprogramm, z.B. Excel oder OpenOffic-Calc. Hier sieht man nun die exportierten Datensätze, wobei die JVerein-Feldnamen in der ersten Zeile stehen
+2. Dann öffnet man diese mit einem Tabellenkalkulationsprogramm, z.B. Excel oder OpenOffic-Calc. Hier sieht man nun die exportierten Datensätze, wobei die JVerein-Feldnamen in der ersten Zeile stehen.
 3. Durch Löschen und Umsortieren von Spalten wird jetzt die gewünschte Spaltenreihenfolge definiert. Es sollten nur noch die Spalten übrig bleiben die man wirklich in der Ausgabe haben möchte.
 4. Nun dupliziert man die erste Zeile und benennt in der ersten Zeile die Spalten so um wie man sie haben möchte
 5. Zum Schluss löscht man noch alle Datensätze ab Zeile 3, da die Daten in der Vorlage ja nicht benötigt werden
