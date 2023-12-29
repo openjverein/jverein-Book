@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-Name und Anschrift des Vereins sowie die Bankverbindung und Gläubiger-ID für die Abbuchung müssen hier eingegeben werden \(Pflichtangaben\).
+Name und Anschrift des Vereins müssen hier eingegeben werden \(Pflichtangaben\). Für die Abbuchung sind die Bankverbindung und Gläubiger-ID einzugeben.
 
 Die Pflichtfelder werden von der Abrechnung für die Erstellung der Lastschriften zwingend benötigt. Die weiteren Angaben werden überwiegend bei Spendenbescheinigungen eingesetzt.
 
@@ -184,7 +184,7 @@ Unterdrückung nicht bebuchter Buchungsarten in Listen/Auswertungen \(Standard: 
 
 ![](../../assets/einstellungenrechnungen.png)
 
-Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID} ${Konto} und ${BLZ} eingemischt werden.
+Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden.
 
 ## Tabellen
 
@@ -223,5 +223,5 @@ Ab Version 2.5 gibt es das Feld Mindestalter f. Mitgliedschaftsjubiläum
 
 Geben Sie hier eine Zahl ein, dann werden Mitgliedsjahre, die vor diesem Alter liegen beim Errechnen eines Mitglieds-Jubiläums nicht mit gerechnet.
 
-Für weitere technische Details siehe: Informationen für Entwickler //TODO
+Für weitere technische Details siehe: [Für Entwickler](../../sonstiges/fur-entwickler.md)
 
