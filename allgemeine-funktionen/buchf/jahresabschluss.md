@@ -18,11 +18,11 @@ Um die Buchführung eines Geschäftsjahres abzuschließen wird ein Jahresabschlu
 
 Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
-<figure><img src="../../.gitbook/assets/JahresabschlussÜbersicht.png" alt=""><figcaption><p>Übersicht über die bereits getätigten Jahresabschlüsse</p></figcaption></figure>
+<figure><img src="../../assets/JahresabschlussÜbersicht.png" alt=""><figcaption><p>Übersicht über die bereits getätigten Jahresabschlüsse</p></figcaption></figure>
 
 Durch eine Klick auf neu kann ein neuer Jahresabschluss erstellt werden.
 
-<figure><img src="../../.gitbook/assets/JahresabschlussNeu.png" alt=""><figcaption><p>Erstellen eines neuen Jahresabschlusses</p></figcaption></figure>
+<figure><img src="../../gitbook/assets/JahresabschlussNeu.png" alt=""><figcaption><p>Erstellen eines neuen Jahresabschlusses</p></figcaption></figure>
 
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
