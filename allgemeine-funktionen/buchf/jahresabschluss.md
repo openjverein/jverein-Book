@@ -22,7 +22,7 @@ Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
 Durch eine Klick auf neu kann ein neuer Jahresabschluss erstellt werden.
 
-<figure><img src="../../gitbook/assets/JahresabschlussNeu.png" alt=""><figcaption><p>Erstellen eines neuen Jahresabschlusses</p></figcaption></figure>
+<figure><img src="../../assets/JahresabschlussNeu.png" alt=""><figcaption><p>Erstellen eines neuen Jahresabschlusses</p></figcaption></figure>
 
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
