@@ -115,15 +115,21 @@ Anzeige der kompletten Liste stellt eine Drop-Down-Liste mit allen Buchungsarten
 
 Wie sollen die Buchungsarten sortiert werden: nach Bezeichnung, nach Nummer oder nach Bezeichnung/Nummer.
 
-## Beiträge
+## Abrechnung
 
-![](../../assets/einstellungenbeitraege.png)
+![](../../assets/einstellungenabrechnung.png)
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../allgemein/beitragsmodelle.md)
 
 Die Standardwerte für den Zahlungsrhytmus und den Zahlungsweg bei der Speicherung neuer Mitglieder kann eingestellt werden.
 
 Für die SEPA-Konvertierung ist das SEPA-Land auszuwählen.
+
+### SEPA XML-Version
+
+XML-Version welche für die Generierung einer XML Lastschrift Datei verwendet wird.
+
+Die aktuelle bis 11/2025 gültige Version ist die main.008.001.02. Ab 17.03.2024 gültig ist die main.008.001.08.
 
 ### Arbeitsstundenmodell
 
