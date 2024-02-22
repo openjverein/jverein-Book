@@ -7,15 +7,31 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 * Konto
 * Buchungsart
 * Projekt
-* von Datum
-* bis Datum
-* enthaltener Text
+* Von Datum
+* Bis Datum
+* Betrag
+* Enthaltener Text
+* Mitglied zugeordnet
 
 ![](../../assets/buchungen.png)
 
 Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können neue Buchungen aufgenommen werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF-Format wird durch einen Klick auf PDF angestoßen.
 
 Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
+
+Folgende Menu Einträge sind vorhanden:
+
+* Neue Buchung: Öffnet die Detailansicht für eine neue Buchung.
+* Bearbeiten: Öffnet die Detailansicht für die selektierte Buchung.
+* Duplizieren: Öffnet die Detailansicht für eine neue Buchung mit den Daten der selektierten Buchung.
+* Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegebuchung zur selektierten Buchung zu erstellen. Der Menüpunkt ist nur verfügbar wenn die Buchungart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).
+* Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md).
+* Auflösen: Löst eine oder mehrere selektierte Splitbuchungen auf. Es werden die Gegenbuchung und die enthaltenen Buchungen gelöscht.
+* Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart.
+* Mitgliedkonto zuordnen: Es öffnet ein Dialog zur Zuordnung eines Mitgliedkontos. 
+* Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts.
+* Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs. 
+* Löschen: Löscht die Buchung.
 
 ## Automatische Zuordnung von Buchungen zu einem Mitgliedskonto
 
@@ -59,7 +75,7 @@ Auflistung aller Buchungen nach Buchungsarten.
 
 Ausgabe der Summen pro Buchungsart.
 
-## Buchungen
+## Buchung
 
 ![](../../assets/buchung.png)
 

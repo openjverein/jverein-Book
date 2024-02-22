@@ -4,5 +4,5 @@ Das Navigationsmenü kann je nach aktivierten Programmfunktionen mehr oder wenig
 
 Beispiel für die Navigation:
 
-![](../assets/navigationjverein.png)
+![](../assets/navigationjverein01.png) ![](../assets/navigationjverein02.png)
 
