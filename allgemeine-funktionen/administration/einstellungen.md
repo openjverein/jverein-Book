@@ -10,7 +10,9 @@ Die Pflichtfelder werden von der Abrechnung für die Erstellung der Lastschrifte
 
 ## Anzeige
 
-![](../../assets/einstellungenanzeige.png)Durch die Einstellungen kann das Verhalten von JVerein beeinflußt werden.
+![](../../assets/einstellungenanzeige.png)
+
+Durch die Einstellungen kann das Verhalten von JVerein beeinflußt werden.
 
 Nach Änderungen der mit Stern gekennzeichneten Werte ist ein Neustart von Jameica erforderlich.
 
@@ -87,11 +89,11 @@ In einem eigenen Dialog können Buchungen von Arbeitsstunden angezeigt und gepr�
 
 Speicherung von Dokumenten zu Mitgliedern und Buchungen. Wird diese Einstellung aktiviert muss das Plugin jameica.messaging installiert sein.
 
-### individuelle Beiträge
+### Individuelle Beiträge
 
 Grundsätzlich zahlt das Mitglied den Beitrag, der in der Beitragsgruppe angegeben wurde. Sofern diese Option aktiviert wurde, kann bei jedem Mitglied ein abweichender individueller Beitrag angegeben werden.
 
-### externe Mitgliedsnummer
+### Externe Mitgliedsnummer
 
 Vereine, die auf Bundes- oder Landesebene organisiert sind und eine durchgängige Mitgliedsnummer verwalten möchten, können in JVerein eine externe Mitgliedsnummer speichern.
 
@@ -184,9 +186,17 @@ Hier sind folgende Eingaben nötig bzw. möglich:
 
 Beginn des Geschäftsjahres in der Form TT.MM.
 
+Buchungsarten die seit x Monaten nicht benutzt werden unterdrücken in der Form Monate.
+
 Automatische Übernahme von Buchungen aus Hibiscus \(Standard: aktiviert\).
 
+Automatische Korrektur der Verwendungszwecke aus Hibiscus Buchungen.
+
 Unterdrückung nicht bebuchter Buchungsarten in Listen/Auswertungen \(Standard: nicht aktiviert\).
+
+Zeige Kontonummer in der Buchungsliste.
+
+Umsatzsteueroption.
 
 ## Rechnungen
 
@@ -194,11 +204,17 @@ Unterdrückung nicht bebuchter Buchungsarten in Listen/Auswertungen \(Standard: 
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden.
 
-## Tabellen
+## Mitglieder Spalten
 
-![](../../assets/einstellungentabellen.png)
+![](../../assets/einstellungenmitgliederspalten.png)
 
-Festlegung der Spalten, die in Tabellen angezeigt werden sollen.
+Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
+
+## Mitglieder Ansicht
+
+![](../../assets/einstellungenmitgliederansicht.png)
+
+Festlegung der Ansicht der Mitglieder Daten. Es kann ausgewählt werden welche Daten direkt angezeigt werden oder innerhalb der Tabs.
 
 ## Mail <a id="einstellungenmail"></a>
 

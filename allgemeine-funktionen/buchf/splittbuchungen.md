@@ -12,9 +12,11 @@ Beispiele:
 
 ## Splitbuchung erzeugen
 
-Rechtsklick auf die Buchung, dann Splitbuchung auswählen:
+Rechtsklick auf die Buchung(en), dann Splitbuchung auswählen:
 
 ![](../../assets/splitbuchung01.png)
+
+Es können auch mehrere Buchungen gleichzeitig ausgewählt werden. Sie müssen allerdings den gleichen Betrag haben. Anschliesend wird ein Buchungeintrag bearbeitet. Beim Speichern wird eine analoge Aufteilung der Beträge auch auf alle anderen selektierten Buchungen angewendet. 
 
 Es erscheint dann:
 
@@ -49,5 +51,5 @@ Es werden die in Hibiscus vorhandenen Sammelüberweisungen angezeigt. Mit einem 
 
 ## Splitbuchungen auflösen
 
-Sollte versehentlich eine Splitbuchung erzeugt worden sein, kann sie über den Knopf "auflösen" wieder aufgelöst werden. Die Gegen- und Splitbuchungen werden gelöscht. Bei der Hauptbuchung wird das Splitbuchungsmerkmal entfernt.
+Sollte versehentlich eine Splitbuchung erzeugt worden sein, kann sie über den Knopf "Auflösen" wieder aufgelöst werden. Die Gegen- und Splitbuchungen werden gelöscht. Bei der Hauptbuchung wird das Splitbuchungsmerkmal entfernt.
 

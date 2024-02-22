@@ -10,9 +10,9 @@ Anfangsbestände, die durch einen Jahresabschluss erfasst sind, können nicht me
 
 ## Auflistung Anfangsbestände
 
-![](../../assets/anfangsbestandsliste.jpg)
+![](../../assets/anfangsbestandsliste.png)
 
 Durch neu werden neue Anfangsbestände aufgenommen. Mit einem Doppelklick auf einen Anfangsbestand kann der Bestand bearbeitet werden. Ein Rechtsklick auf einen Anfangsbestand öffnet ein Kontextmenü. Damit kann ein Anfangsbestand gelöscht werden.
 
-![](../../assets/anfangsbestand.jpg)
+![](../../assets/anfangsbestand.png)
 

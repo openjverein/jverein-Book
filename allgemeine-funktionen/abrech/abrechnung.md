@@ -26,7 +26,7 @@ verarbeitet werden.
 
 ![](../../assets/abrechnung.png)
 
-Sofern als Modus nicht 'keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhytmus eingezogen.
+Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhytmus eingezogen.
 
 Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die Beiträge eingezogen werden. Dazu wird das Eingabedatum eingetragen, ab dem die Beiträge für nachträglich eingetretene Mitglieder abgebucht werden sollen.
 
@@ -38,7 +38,7 @@ Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
 
 #### Abrechnungsmodus <a id="abrechnungsmodus"></a>
 
-**keine Beitragsabrechnung**
+**Keine Beitragsabrechnung**
 
 Es werden keine Beiträge abgerechnet. Dieser Parameter ist zu setzen, wenn ausschließlich Kursteilnehmer oder Zusatzbeträge abgerechnet werden sollen.
 
@@ -88,11 +88,14 @@ Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine
 
 Optional können die SEPA-Daten in ein PDF-Dokument zum Ausdruck ausgegeben werden.
 
+**Abbuchungsausgabe**
+
 Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben. Die IBAN in den Stammdaten \(siehe \[\[Einstellungen\]\]\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
+
+Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
 
 ### Weitere Informationen
 
 Verwandte Themen: [Abrechnungslauf](abrechnungslauf.md), [Pre-Notification, ](pre-notification.md)[Rücklastschrift](rucklastschrift.md), [Rechnungen, ](../rechnungen.md)[Mitgliedskonto](../mitgliedskonto.md)
 
 [https://de.wikipedia.org/wiki/Bankarbeitstag](https://de.wikipedia.org/wiki/Bankarbeitstag)
-
