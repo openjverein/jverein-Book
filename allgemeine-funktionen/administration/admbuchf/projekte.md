@@ -24,17 +24,8 @@ Informationen zu Projekten liefert die Funktion Projekt-Saldo \(zu finden unter 
 
 ### Projekte-Saldo
 
-In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Auch die Salden aller Einnahmen und Ausgaben je Projekt sowie der jeweilige Projektgewinn werden ermittelt.
+In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Siehe [Projekte](../../buchf/projekte.md)
 
-![](../../../assets/projekte-saldo.png)
-
-Die Berechnung kann auf einen Datumsbereich eingegrenzt werden.
-
-Um sich wiederholende Projekte z.B. jahresweise vergleichen zu können, kann entweder für jedes Jahr ein neues Projekt mit Jahreszahl \(z.B. "St. Martin 2013", "St. Martin 2014" usw.\) verwendet werden. Dann erhält man bei einem mehrjährigen Datumsbereich die einzelnen Projekte in einer Liste \(wie im Beispiel des obigen Screenshots\).
-
-Alternativ kann man aber auch stets dasselbe Projekt verwenden \(z.B. "St. Martin"\) und dann für einen Mehrjahresvergleich die Auswertung mit unterschiedlichen Datumsbereichen \(je Jahr\) mehrmals abrufen.
-
-Die Tabelle kann als PDF-Datei ausgegeben werden.
 
 ### Buchungen
 

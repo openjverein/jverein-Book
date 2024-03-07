@@ -58,17 +58,17 @@ Die vorzunehmenden Einstellungen sind selbsterklärend. Man sollte jeden Reiter 
 
 1. Allgemein: alles ausfüllen
 2. Anzeige: externe Mitgliedsnummer? \(hier sei schon darauf hingewiesen, die Mitgliedsnummer können nur Zahlen sein\)
-3. Beiträge: Entscheidung! Externe oder von JVerein vergebene Mitgliedsnummern für die Mandatsreferenznummer! Diese kann und sollte im Nachhinein nicht geändert werden.
-4. Dateinamen: zum aktuellen Zeitpunkt weniger von Interesse
-5. Spendenbescheinigung: alles ausfüllen
-6. Buchführung: kann so bleiben
-7. Rechnungen: kann so bleiben
-8. Tabellen: kann so bleiben
-9. Mail: alles ausfüllen - Tipp: die IMAP Funktion zur Speicherung von ausgehenden E-Mails ist hilfreich. Dies ist jedoch auch mit der "Immer Bcc an Adresse" ausreichend 'protokolliert'.
-10. Statistik: kann so bleiben \(vorerst\)
-11. Mitglied: kann so bleiben
+3. Mitglieder Spalten: kann so bleiben
+4. Mitglieder Ansicht: kann so bleiben
+5. Abrechnung: Entscheidung! Externe oder von JVerein vergebene Mitgliedsnummern für die Mandatsreferenznummer! Diese kann und sollte im Nachhinein nicht geändert werden.
+6. Dateinamen: zum aktuellen Zeitpunkt weniger von Interesse
+7. Spendenbescheinigung: alles ausfüllen
+8. Buchführung: kann so bleiben
+9. Rechnungen: kann so bleiben
+10. Tabellen: kann so bleiben
+11. Mail: alles ausfüllen - Tipp: die IMAP Funktion zur Speicherung von ausgehenden E-Mails ist hilfreich. Dies ist jedoch auch mit der "Immer Bcc an Adresse" ausreichend 'protokolliert'.
+12. Statistik: kann so bleiben \(vorerst\)
 
-In der folgenden Grafik ist auf die Scrollpfeile hingewiesen, mit denen man bei einem kleineren Fenster die hinteren 'Reiter' erreichen kann.
 
 ![](../assets/aller_anfang_-_erster_start_-_jverein_-_1_einstellungen.png)
 

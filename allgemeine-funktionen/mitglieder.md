@@ -11,7 +11,7 @@ Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter \(oben\) und Mi
 * Externe Mitgliedsnummer \(optional\)
 * Eigenschaften
 * Beitragsgruppe
-* Zusatzfelder
+* Zusatzfelder \(optional\)
 * Geburtsdatum
 * Geschlecht
 * Eintritts- und Austrittsdatum
