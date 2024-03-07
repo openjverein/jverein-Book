@@ -199,17 +199,33 @@ Im Dialog Arbeitseinsätze prüfen können Sie sich jederzeit die Abrechnung all
 
 ## Kontextmenu
 
-### bearbeiten
+### Bearbeiten
 
 Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied
 
-### duplizieren
+### Duplizieren
 
 Es wird ein neuer Datensatz mit den Daten des Mitgliedes angelegt. Dieser kann dann vor der Speicherung verändert werden.
+
+### In Zwischenablage kopieren
+
+Es wird ein  Datensatz mit den Daten des Mitgliedes in die Zwischenablage kopiert.
+
+### Löschen
+
+Löscht das Mitglied.
 
 ### Mail senden...
 
 Es wird eine Mail an das Mitglied versandt. Dabei wird eine Auswahl von Mailvorlagen zur Verfügung gestellt.
+
+### vCard-Datei
+
+Die Daten des Mitgliedes lassen sich als vCard exportieren.
+
+### vCard-QR-Code
+
+Zeigt eine QR-Code mit den Daten des Mitgliedes an.
 
 ### Eigenschaften
 
@@ -219,9 +235,13 @@ Für alle markierten Mitglieder werden die angeklickten Eigenschaften gesetzt. D
 
 Für einen vorgegebenen Zeitraum werden alle Buchungen des Mitgliedskontos ausgegeben.
 
-### Spendenbescheinigung
+### Geldpendenbescheinigung
 
-Erstellung einer Spendenbescheinigung, die direkt dem Mitglied zugeordnet ist.
+Erstellung einer Geldpendenbescheinigung, die direkt dem Mitglied zugeordnet ist.
+
+### Sachspendenbescheinigung
+
+Erstellung einer Sachspendenbescheinigung, die direkt dem Mitglied zugeordnet ist.
 
 ### Personalbogen
 
@@ -231,7 +251,4 @@ Ausgabe aller zu einem Mitglied gespeicherten Daten \(Ausnahme: Ggfls. gespeiche
 
 Generierung einer manuellen Lastschrift in Hibiscus.
 
-### Freie Formulare
-
-Alle definierten freien Formulare werden als Menüpunkt angeboten.
 
