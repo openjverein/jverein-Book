@@ -6,7 +6,7 @@ Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. V
 
 ![](../assets/spendenbescheinigungen.jpg)
 
-Durch einen Klick auf neu öffnet sich das Spendenbescheinigungs-Bearbeitungsfenster \(siehe unten\). Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitungsfenster \(siehe unten\). Mit einem Rechtsklick öffnet sich ein Kontextmenü. Damit können Spendenbescheinigungen gelöscht werden. Durch einen Klick auf PDF wird die Spendenbescheinigung im PDF-Format ausgegeben.
+Durch einen Klick auf \"Neu \(Sachspende\)\" öffnet sich das Spendenbescheinigungs-Bearbeitungsfenster \(siehe unten\). Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitungsfenster \(siehe unten\). Mit einem Rechtsklick öffnet sich ein Kontextmenü. Damit können Spendenbescheinigungen gelöscht werden. Durch einen Klick auf PDF wird die Spendenbescheinigung im PDF-Format ausgegeben.
 
 Tipp: In der Mitgliedersuche kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Spendenbescheinigung auswählen. Dann wird das Spendenbescheinigungsformular mit den Daten des Mitglieds gefüllt.
 
@@ -41,7 +41,7 @@ Sammelbestätigungen können auf zwei Arten erzeugt werden:
 
 ### Automatische Generierung von Spendenbescheinigungen
 
-In der Übersicht über Spendenbescheinigungen können über den Button \_neu \(automatisch\) \_Spendenbescheinigungen generiert werden. Hier kommen die Einstellungen zum Tragen. Es werden nur für die Mitglieder oder Spender Spendenbescheinigungen erzeugt, die eine vollständige Adresse \(Straße und PLZ und Ort\) eingetragen haben. Außerdem werden nur die Mitglieder oder Spender erfasst, deren Spendenbetrag &gt;= dem Mindestbetrag in den Einstellungen ist.
+In der Übersicht über Spendenbescheinigungen können über den Button \"Neu \(automatisch\)\" Spendenbescheinigungen generiert werden. Hier kommen die Einstellungen zum Tragen. Es werden nur für die Mitglieder oder Spender Spendenbescheinigungen erzeugt, die eine vollständige Adresse \(Straße und PLZ und Ort\) eingetragen haben. Außerdem werden nur die Mitglieder oder Spender erfasst, deren Spendenbetrag &gt;= dem Mindestbetrag in den Einstellungen ist.
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen \(Einzel / Sammel\) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 

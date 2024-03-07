@@ -186,6 +186,8 @@ Hier sind folgende Eingaben nötig bzw. möglich:
 
 Beginn des Geschäftsjahres in der Form TT.MM.
 
+Intervall für aktive Konten. Aktive Konten sind die, deren Auflösung um mehr als die ausgewählte Anzahl von Jahren zurück liegt. Diese können im Kontoauswahl Dialog ausgeblendet werden.
+
 Buchungsarten die seit x Monaten nicht benutzt werden unterdrücken in der Form Monate.
 
 Automatische Übernahme von Buchungen aus Hibiscus \(Standard: aktiviert\).
