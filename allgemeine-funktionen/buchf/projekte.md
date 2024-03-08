@@ -32,7 +32,7 @@ Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswä
 
 Der aktuell ausgewählte Zeiraum wird angezeigt.
 
-Über die Suchen Funktion lassen sich beliebige Zeiträume auswählen. Wird beispielsweise ein Monat ausgewählt, lassen sich die Saldenstände mit den Kontoauszügen der Bank vergleichen.
+Über die Suchen Funktion lassen sich beliebige Zeiträume auswählen.
 
 Mit den den Navigations Pfeilen lässt sich der ausgewählte Bereich nach vorne oder hinten verschieben.
 
