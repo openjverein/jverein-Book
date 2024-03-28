@@ -211,6 +211,10 @@ Es wird ein neuer Datensatz mit den Daten des Mitgliedes angelegt. Dieser kann d
 
 Es wird ein  Datensatz mit den Daten des Mitgliedes in die Zwischenablage kopiert.
 
+### Zu Nicht-Mitglied umwandeln
+
+Ein Mitglied in ein Nicht-Mitglied umwandeln.
+
 ### Löschen
 
 Löscht das Mitglied.

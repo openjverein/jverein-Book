@@ -28,16 +28,16 @@ Folgende Menu Einträge sind vorhanden:
 * Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md).
 * Auflösen: Löst eine oder mehrere selektierte Splitbuchungen auf. Es werden die Gegenbuchung und die enthaltenen Buchungen gelöscht.
 * Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart.
-* Mitgliedkonto zuordnen: Es öffnet ein Dialog zur Zuordnung eines Mitgliedkontos. 
+* Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung. 
 * Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts.
 * Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs. 
 * Löschen: Löscht die Buchung.
 
-## Automatische Zuordnung von Buchungen zu einem Mitgliedskonto
+## Automatische Zuordnung von Buchungen zu Sollbuchungen
 
-In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Mitgliedskonten vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Mitgliedskonten eingeschränkt werden.
+In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Sollbuchungen vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Sollbuchungen eingeschränkt werden.
 
-![](../../assets/automatische-buchungszuordnung-mitglied.png)
+![](../../assets/automatische-sollbuchung-zuordnung.png)
 
 Folgende Zuordnungsregeln bestehen:
 
@@ -45,7 +45,7 @@ Folgende Zuordnungsregeln bestehen:
 * Wurden mehrere Zuordnungsarten auf einmal angegeben (IBAN, Mitgliedsnummer, Vor- und Nachname) wird eine Zuordnung in der genau dieser Reihenfolge versucht.
 * Wurde unter Administration -> Einstellungen -> Anzeige „externe Mitgliedsnummer“ angegeben, wird anstatt der Mitgliedsnummer mit der externe Mitgliedsnummer im Verwendungszweck gesucht, falls diese Zuordnungsart gewählt wurde eine Zuordnung findet nur statt, wenn sowohl das Mitglied als auch das Mitgliedskonto den Zahlungsweg Überweisung aufweist.
 * Der Betrag der Buchung muss genau mit dem offenen Betrag des Mitgliedskontos übereinstimmen, damit eine Zuordnung erfolgt.
-* Gibt es mehrere Buchungen und Mitgliedskonten, die in den angegebenen Zeitraum passen würden, erfolgt die Zuordnung mit dem jeweils ältesten zuerst.
+* Gibt es mehrere Buchungen und Sollbuchungen, die in den angegebenen Zeitraum passen würden, erfolgt die Zuordnung mit dem jeweils ältesten zuerst.
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 

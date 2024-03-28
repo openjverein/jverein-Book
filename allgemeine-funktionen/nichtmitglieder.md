@@ -8,5 +8,5 @@ Ein Nicht-Mitglied kann bei Bedarf später in ein Mitglied umgewandelt werden: I
 
 ![](../assets/nichtmitgliedsuche.png)
 
-![](../assets/adressen.png)
+![](../assets/nichtmitglieder.png)
 
