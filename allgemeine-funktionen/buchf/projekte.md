@@ -22,7 +22,7 @@ Mit neu kann ein neues Projekt eingerichtet werden.
 
 Informationen zu Projekten liefert die Funktion Projekt-Saldo \(zu finden unter Buchführung\|Projekte\), Detailinformation filtert man unter Buchführung\|Buchungen.
 
-### Projekte-Saldo
+### Projekt-Saldo
 
 In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Auch die Salden aller Einnahmen und Ausgaben je Projekt sowie der jeweilige Projektgewinn werden ermittelt.
 

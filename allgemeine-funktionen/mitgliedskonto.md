@@ -2,7 +2,7 @@
 
 ## Abrechnung
 
-Die Abrechnung schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle Mitgliedskonto \(Soll\). Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Ist\) in die Buchungstabelle der Buchführung geschrieben.
+Die Abrechnung schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle Mitgliedskonto \(Sollbuchung\). Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
 
 Fehlerhafte oder Test-Abrechnungen können rückgängig gemacht werden. In dem Abrechnungsformular kann durch klick auf _Rückgängig._
 
@@ -18,27 +18,27 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 
 Nach einer Bestätigung werden die verknüpften Datensätze aus der Mitgliedskontotabelle und der Buchungstabelle gelöscht.
 
-## Mitgliedskontenübersicht <a id="mitgliedskontouebersicht"></a>
+## Sollbuchungenübersicht <a id="mitgliedskontouebersicht"></a>
 
-Es gibt eine zentrale Übersicht über alle Buchungen der Mitgliedskonten-Tabelle. Die Buchungen können über einen Zeitraum oder über einen Namen, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Mitgliedskonten mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
+Es gibt eine zentrale Übersicht über alle Sollbuchungen der Mitgliedskonten-Tabelle. Die Buchungen können über einen Zeitraum oder über einen Namen, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
 
-![](../assets/mitgliedskontenuebersicht.png)
+![](../assets/sollbuchungenliste.png)
 
-Durch einen Doppelklick auf die Buchung erscheint das Mitglied.
-
-![](../assets/mitgliedskontomitglied.png)
+Durch einen Doppelklick auf die Sollbuchung erscheint das Mitglied.
 
 ## Mitgliedskonto beim Mitglied
 
-![](../assets/mitgliedskontomitglied-2.png)
+![](../assets/mitgliedskontomitglied.png)
 
-In der Baumansicht werden die Summen pro Mitglied, die einzelnen Mitgliedskonten-Sollbuchungen \(Soll und zugeordnetes Ist, Rechnersymbol\), sowie die einzelnen zugeordneten Istbuchungen \(Geldscheine-Symbol\) angezeigt.
+In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen \(Rechnersymbol\), sowie die einzelnen zugeordneten Istbuchungen \(Euro-Symbol\) angezeigt.
 
 Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü. Damit können neue Sollbuchungen aufgenommen werden.
 
-![](../assets/mitgliedskontoneu.png)
+![](../assets/sollbuchungneu.png)
 
-Mit einem rechten Mausklick auf eine Mitgliedskonto-Soll-Buchung öffnet sich ein Kontextmenü. Damit kann die Sollbuchung bearbeitet, oder, sofern keine Istbuchung zugeordnet ist, auch gelöscht werden.
+Mit einem rechten Mausklick auf eine Sollbuchung öffnet sich ein Kontextmenü. Damit kann die Sollbuchung bearbeitet, oder, sofern keine Istbuchung zugeordnet ist, auch gelöscht werden.
+
+Mit einem rechten Mausklick auf eine Istbuchung öffnet sich ein Kontextmenü. Damit kann die Istbuchung von der Sollbuchung gelöst werden.
 
 ## Buchungen dem Mitgliedskonto zuordnen <a id="mitgliedskontozuordnen"></a>
 
@@ -46,23 +46,27 @@ Mit einem rechten Mausklick auf eine Mitgliedskonto-Soll-Buchung öffnet sich ei
 
 ![](../assets/mitgliedskontobuchungen.png)
 
-Durch einen Klick auf ... neben Mitgliedskonto erscheint folgender Dialog:![](../assets/mitgliedskonto-zuordnung-ist.png)
+Durch einen Klick auf ... neben Sollbuchung erscheint folgender Dialog:
 
-Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name, Vorname und Verwendungszweck 1 gesucht.
+![](../assets/sollbuchung-zuordnung-ist.png)
+
+Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
 Zur Filterung des Buchungen steht weiterhin Egal \(= eine beliebige Differenz\), Fehlbetrag oder Überzahlung zur Verfügung. Durch einen Klick auf entfernen wird die Mitgliedskontoinformation aus der Buchung entfernt. Damit können Fehleingaben korrigiert werden.
 
-![](../assets/mitgliedskonto-zuordnung-soll+ist.png)
+![](../assets/sollbuchung-zuordnung-soll+ist.png)
 
-Der obige Dialog hat zwei Registerkarten: nur Ist und Soll u. Ist.
+Der obige Dialog hat zwei Registerkarten:
+- Istbuchung einer Sollbuchung zuordnen
+- Sollbuchung erzeugen und Istbuchung zuordnen
 
-Die erste Karte nur Ist dient der Zuordnung einer vorhandenen Soll-Buchung auf einem Mitgliedskonto \(z.B. aus einem Abrechnungslauf\).
+Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuchung \(z.B. aus einem Abrechnungslauf\).
 
-Mitgliegskonto-Auswahl -&gt; Soll u. Ist
+Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \(neue\) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-Auf der zweiten Karte Soll u. Ist kann alternativ in einem Schritt bei der Zuordnung einer Adresse automatisch zuerst eine \(neue\) Soll-Buchung erzeugt und diese dann sogleich darauf zugeordnet werden. So können z.B. Spenden bequem verbucht bei einem Mitglied oder einer weiteren Adresse verbucht werden.
+Hier kann nur nach dem Namen gefiltert werden
 
-Hier kann nur nach dem Namen gefiltert werden, dabei kann aber zusätzlich "Spezial-Suche" angehakt werden. Mit der Spezial-Suche werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
+Bei beiden Karten kann zusätzlich "Erlaube Teilstring Vergleich" angehakt werden. Mit dieser Option werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
 
 ## Rechnungen
 

@@ -71,9 +71,9 @@ zu jedem Mitglied kann ein Foto gespeichert werden.
 
 Tab Lesefelder beim Mitglied anzeigen. Lesefelder können unter Administration - Lesefelder definiert werden
 
-### Zusätzliche Adressen
+### Nicht-Mitglieder anzeigen
 
-In einem eigenen Dialog können weiteren Adressen von z.B. Spender, Lieferanten, Trainer gespeichert werden.
+In einem eigenen Dialog können Nicht-Mitglieder von z.B. Spender, Lieferanten, Trainer gespeichert werden.
 
 ### Auslandsadressen
 
