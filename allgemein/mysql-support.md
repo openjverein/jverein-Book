@@ -24,7 +24,11 @@ Damit JVerein auf eine MySQL-Datenbank zugreifen kann, muss eine Konfigurationda
 
 `database.driver=de.jost_net.JVerein.server.DBSupportMySqlImpl`
 
+bei MySql:
 `database.driver.mysql.jdbcurl=jdbc\:mysql\://<Server-IP>\:<port>/<datenbankname>?useUnicode\=Yes&characterEncoding\=ISO8859_1`
+
+bei MariaDB:
+`database.driver.mysql.jdbcurl=jdbc\:mariadb\://<Server-IP>\:<port>/<datenbankname>?useUnicode\=Yes&characterEncoding\=ISO8859_1`
 
 `database.driver.mysql.username=<Username des MySQL-Users>`
 
