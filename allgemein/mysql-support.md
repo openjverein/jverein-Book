@@ -32,6 +32,10 @@ Damit JVerein auf eine MySQL-Datenbank zugreifen kann, muss eine Konfigurationda
 
 `database.driver.mysql.scriptprefix=mysql-`
 
+* Bei Verwendung von MariaDB zus&auml;tzlich folgene Zeile eintragen:
+
+`database.driver.mysql.jdbcdriver=org.mariadb.jdbc.Driver`
+
 * Ersetzen Sie die Werte &lt;datenbankname&gt;, &lt;port&gt;, &lt;Username des MySQL-Users&gt;, &lt;Server-IP&gt; und &lt;Passwort des MySQL-Users&gt; durch den Datenbanknamen, den Hostnamenoder die IP-Adresse des MySQL-Servers, den Port \(Standard: 3306\), sowie Username und Passwort des MySQL-Benutzers. \(Siehe folgender Schritt für die Einrichtung der Datenbank\).
 * Erstellen Sie auf der MySQL-Datenbank auf dem Server einen neuen Benutzer sowie eine Datenbank mit einem beliebigen Namen. Der angelegte Benutzer muss Lese- und Schreibrechte in dieser Datenbank besitzen.
 
