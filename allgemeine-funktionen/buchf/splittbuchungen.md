@@ -24,7 +24,13 @@ Es erscheint dann:
 
 Die angeklickte Buchung erscheint in der ersten Zeile. In der zweiten Zeile erscheint die Gegenbuchung mit umgekehrtem Vorzeichen beim Betrag.
 
-Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:![](../../assets/splitbuchung03.png)![](../../assets/splitbuchung04.png)Die Splitbuchungen können nur gespeichert werden, wenn
+Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:
+
+![](../../assets/splitbuchung03.png)
+
+![](../../assets/splitbuchung04.png)
+
+Die Splitbuchungen können nur gespeichert werden, wenn
 
 * Haupt- und Gegenbuchung den gleichen Betrag haben, unabhängig vom Vorzeichen.
 * Die Summe der Splitbuchungen muss identisch mit dem Betrag der Hauptbuchung übereinstimmen.

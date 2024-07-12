@@ -26,15 +26,19 @@ Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](
 
 ### Filterung nach Eigenschaften
 
-Es können eine oder mehrere Eigenschaften ausgewählt werden \(STRG-Taste beim Mausklick gedrückt halten\). Die Eigenschaften sind "und-verknüpft". D. h. es werden die Mitglieder angezeigt, die alle Eigenschaften haben.
+Es können eine oder mehrere Eigenschaften ausgewählt werden \(STRG-Taste beim Mausklick gedrückt halten\).
 
-![](../assets/mitgliedsucheeigenschaften13.jpg)
+Folgende Eigenschaften-verknüpfungen sind möglich:
+* "und": D.h. es werden nur die Mitglieder angezeigt, die alle Eigenschaften haben.
+* "oder": D.h. es werden die Mitglieder angezeigt, die mindestens eine der ausgewählten Eigenschaften haben.
+
+![](../assets/mitgliedsucheeigenschaften13.png)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % \(0...n beliebige Zeichen\) und \_ \(genau 1 beliebiges Zeichen\) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](../assets/mitgliedsuchezusatzfelder.jpg)
+![](../assets/mitgliedsuchezusatzfelder.png)
 
 ## Grunddaten des Mitglieds
 
@@ -175,7 +179,7 @@ Zur Nutzung ist in den [Einstellungen](administration/einstellungen.md) das ents
 
 ### Lehrgang beim Mitglied anlegen
 
-![](../assets/mitgliedlehrgang.jpg)
+![](../assets/mitgliedlehrgang.png)
 
 ## Lesefelder
 
@@ -198,6 +202,8 @@ Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negat
 Im Dialog Arbeitseinsätze prüfen können Sie sich jederzeit die Abrechnung aller Mitglieder anzeigen lassen. Es werden allerdings nur solche Mitglieder dort aufgeführt, die einer Beitragsgruppe angehören, in der zu leistende Arbeitsstunden eingetragen sind.
 
 ## Kontextmenu
+
+![](../assets/spendenbescheinigung_menu1.png)
 
 ### Bearbeiten
 
@@ -233,7 +239,15 @@ Zeigt eine QR-Code mit den Daten des Mitgliedes an.
 
 ### Eigenschaften
 
-Für alle markierten Mitglieder werden die angeklickten Eigenschaften gesetzt. Dabei stehen nur die Eigenschaftengruppen ohne Pflichteintrag oder ohne die Kennzeichnung "maximal 1" zur Verfügung,
+Für alle markierten Mitglieder werden die angeklickten Eigenschaften gesetzt. Dabei stehen nur die Eigenschaftengruppen ohne Pflichteintrag oder ohne die Kennzeichnung "maximal 1" zur Verfügung.
+
+### Arbeitseinsätze zuweisen
+
+Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
+
+### Zusatzbeiträge zuweisen
+
+Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
 ### Kontoauszug
 

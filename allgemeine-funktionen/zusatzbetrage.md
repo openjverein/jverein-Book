@@ -12,23 +12,26 @@ Als Wiederholungs-Intervall stehen zur Auswahl:
 
 Beim Buchungstext können die allgemeinen Variablen verwendet werden.
 
-Die Zusatzbeträge können sowohl bei jedem Mitglied auf dem entsprechenden Reiter angesehen werden, als auch in einer Übersicht für alle Mitglieder \(Unter Jameica/JVerein/Zusatzbeträge\). Dabei kann die Anzeige eingeschränkt werden auf
+Die Zusatzbeträge können sowohl bei jedem Mitglied auf dem entsprechenden Reiter angesehen werden, als auch in einer Übersicht für alle Mitglieder \(Unter Jameica/JVerein/Mitglieder/Zusatzbeträge\). Dabei kann die Anzeige eingeschränkt werden auf
 
 * alle Mitglieder
 * aktive
 * noch nicht ausgeführte Beträge
 * nach den verschieden Ausführungsterminen.
 
-Durch einen Doppelklick auf einen Zusatzbetrag wird der Bildschirm für die Bearbeitung geöffnet. Mit einem Rechtsklick öffnet sich ein Menü. Damit kann
+![](../assets/zusatzabbuchungenuebersicht-2.png)
+
+Durch einen Doppelklick auf einen Zusatzbetrag wird der Bildschirm für die Bearbeitung geöffnet. 
+
+![](../assets/mitgliedzusatzabbuchungneu.png)
+
+Mit einem Rechtsklick öffnet sich ein Menü. Damit kann
 
 * der nächste Fälligkeitstermin gesetzt werden
 * der vorherige Fälligkeitstermin gesetzt werden
-* das Ausführungsdatum gelöscht werden
-* der Zusatzbetrag werden
+* dar Zusatzbeitrag erneut ausgeführt werden
+* der Zusatzbetrag gelöscht werden
 
-![](../assets/zusatzabbuchungenuebersicht-2.jpg)
-
-![](../assets/mitgliedzusatzabbuchungneu.jpg)
 
 Bei der Abrechnung finden folgende Prüfungen statt:
 
