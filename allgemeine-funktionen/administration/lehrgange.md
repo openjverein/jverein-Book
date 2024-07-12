@@ -6,11 +6,11 @@ Zur Nutzung der Lehrgänge ist die Option in den Einstellungen \(Administration 
 
 ### Übersicht über die Lehrgangsarten
 
-![](../../assets/lehrgangsarten.jpg)
+![](../../assets/lehrgangsarten.png)
 
 ### Lehrgangsart neu anlegen oder bearbeiten
 
-![](../../assets/lehrgangsart.jpg)
+![](../../assets/lehrgangsart.png)
 
 Die Bezeichnung des Lehrgangs muss ausgefüllt werden. Die restlichen Daten können leer gelassen werden. Diese Daten sind dann einzugeben, wenn beim Mitglied der Lehrgang angelegt wird.
 
@@ -22,7 +22,7 @@ Die Bezeichnung des Lehrgangs muss ausgefüllt werden. Die restlichen Daten kön
 
 Über den Button "Neuer Lehrgang" lässt sich ein neuer Lehrgang anlegen.
 
-![](../../assets/mitgliedlehrgang-2.jpg)
+![](../../assets/mitgliedlehrgang-2.png)
 
 ## Lehrgangsübersicht
 

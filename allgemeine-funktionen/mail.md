@@ -12,27 +12,29 @@ Die Konfiguration ist unter Einstellungen beschrieben.
 
 Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit durch Mailvorlagen minimiert werden.
 
-![](../assets/mailvorlagen.jpg)
+![](../assets/mailvorlagen.png)
 
 Durch einen Doppelklick auf den Betreff oder durch einen Klick auf neu öffnet sich das Bearbeitungsfenster.
 
-![](../assets/mailvorlage.jpg)
+![](../assets/mailvorlage.png)
 
 ## Mails
 
 In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatum angezeigt.
 
-![](../assets/mails-2.jpg)
+Über den Filter kann nach verschiedenen Kriterien gefiltert werden z.B. nach "Mail Empfänger" um zu sehen welche Mails an jemanden versendet wurden.
+
+![](../assets/mails-2.png)
 
 Durch einen Klick auf neu öffnet sich ein Mail-Vorlagen-Auswahlfenster:
 
-![](../assets/mailvorlagenauswahl.jpg)
+![](../assets/mailvorlagenauswahl.png)
 
 Entweder wird eine Mailvorlage ausgewählt oder es geht ohne Vorlage weiter.
 
 Ein Doppelklick auf eine Mail öffnet das Bearbeitungsfenster.
 
-![](../assets/mail.jpg)
+![](../assets/mail.png)
 
 Durch einen Klick auf Hinzufügen öffnet sich folgendes Auswahlfenster:
 

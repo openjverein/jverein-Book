@@ -2,7 +2,7 @@
 
 Mit Neu kann eine neue Beitragsgruppe eingerichtet werden.
 
-![](https://github.com/jverein/jverein-handbuch/tree/7a7b5a645186b65a634bbe865664632876fb43ca/assets/Beitragsgruppenübersicht.PNG)
+![](../../assets/Beitragsgruppenuebersicht.png)
 
 Durch einen Doppelklick wird die Bearbeitung einer Beitragsgruppe eingeleitet.
 

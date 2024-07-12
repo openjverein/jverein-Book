@@ -22,7 +22,12 @@ Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ei
 
 ## Pre-Notification schriftlich und per E-Mail
 
-Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](../administration/formulare.md) dafür angelegt werden.![](../../assets/sepa_pre-notification_e-mail_erstellung.png)In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
+Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](../administration/formulare.md) dafür angelegt werden.
+
+In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
+
+![](../../assets/sepa_pre-notification_e-mail_erstellung.png)
+
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
