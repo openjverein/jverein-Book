@@ -4,19 +4,19 @@
 
 Die Abrechnung schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle Mitgliedskonto \(Sollbuchung\). Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
 
-Fehlerhafte oder Test-Abrechnungen können rückgängig gemacht werden. In dem Abrechnungsformular kann durch klick auf _Rückgängig._
-
-![](../assets/mitgliedskontorueckgaengig.png)
-
-eine Übersicht der Abrechnungsläufe geöffnet werden:
+Fehlerhafte oder Test-Abrechnungen können im View "Abrechnungsläufe" rückgängig gemacht werden. Dieser zeigt eine Übersicht der Abrechnungsläufe an:
 
 ![](../assets/mitgliedskontoabrechnungslaeufe.png)
 
-Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü mit der Option löschen:
+Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü mit mehreren Optionen:
 
-![](../assets/mitgliedskontoabrechnungslaeufeloeschen.png)
+![](../assets/abrechnungslaufmenu.png)
 
-Nach einer Bestätigung werden die verknüpften Datensätze aus der Mitgliedskontotabelle und der Buchungstabelle gelöscht.
+
+* Bearbeiten: Bearbeiten des Abrechnungslaufes
+* Sollbuchungen: Zeigt die generierten Sollguchungen
+* Prenotification: Erstellen von Prenotifications
+* Löschen: Löschen des Abrechnungslaufes, löscht alle zugehörigen generierten Sollbuchungen und Buchungen
 
 ## Sollbuchungenübersicht <a id="mitgliedskontouebersicht"></a>
 
@@ -66,7 +66,7 @@ Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \
 
 Hier kann nur nach dem Namen gefiltert werden
 
-Bei beiden Karten kann zusätzlich "Erlaube Teilstring Vergleich" angehakt werden. Mit dieser Option werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
+In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" angehakt werden. Mit dieser Option werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
 
 ## Rechnungen
 

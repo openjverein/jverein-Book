@@ -6,6 +6,10 @@ Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. V
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
+Der Filterbereich erlaubt es nach verschidenen Kriterien zu filtern.
+
+Über den Filter "Mail" lassen sich z.B. Spendenbescheinigungen finden für deren Spender keine Mail Adressen hinterlegt sind. Diese können dann nicht per Mail verschickt werden sondern nur per Brief.
+
 ![](../assets/spendenbescheinigungen.png)
 
 Durch einen Klick auf \"Neu \(Sachspende\)\" öffnet sich das Spendenbescheinigungs-Bearbeitungsfenster \(siehe unten\).
@@ -20,10 +24,11 @@ Damit können Spendenbescheinigungen gelöscht oder als Vorlage gespeichert werd
 
 Es ist möglich eine Mail an den Spender zu schreiben oder die ausgewählten Spendenbescheinigungen per Mail an die Spender zu schicken (siehe weiter unten).
 
-Durch einen Klick auf Drucken wird die Spendenbescheinigung im PDF-Format ausgegeben. Dabei gibt es drei Möglichkeiten:
+Durch einen Klick auf Drucken wird die Spendenbescheinigung im PDF-Format ausgegeben. Dabei gibt es mehrere Möglichkeiten:
 * Drucken (Standard, Briefversand). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Brief versand werden soll. Entsprechend den Einstellungen für Briefversand wird eine Anschrift auf der zweiten Seite ausgedruckt welche in das Brieffenster passt.
 * Drucken (Standard, Mailersand). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Mail versand werden soll. Entsprechend den Einstellungen für Mailversand wird optional eine Anschrift auf der zweiten Seite ausgedruckt welche in ein Brieffenster passt.
-* Drucken (Individuell). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt.
+* Drucken (Individuell, Briefversand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Briefversand wird eine Anschrift auf der zweiten Seite ausgedruckt welche in das Brieffenster passt.
+* Drucken (Individuell, Mailersand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Mailversand wird optional eine Anschrift auf der zweiten Seite ausgedruckt welche in ein Brieffenster passt.
 
 Tipp:
 
@@ -68,7 +73,7 @@ Sammelbestätigungen für Geldspenden können auf zwei Arten erzeugt werden:
 
 ### Automatische Generierung von Spendenbescheinigungen
 
-In der Übersicht über Spendenbescheinigungen können über den Button \"Neu \(automatisch\)\" Geldspendenbescheinigungen generiert werden. Hier kommen die Einstellungen zum Tragen. Es werden nur für die Mitglieder oder Spender Spendenbescheinigungen erzeugt, die eine vollständige Adresse \(Straße und PLZ und Ort\) eingetragen haben. Außerdem werden nur die Mitglieder oder Spender erfasst, deren Spendenbetrag &gt;= dem Mindestbetrag in den Einstellungen ist.
+In der Übersicht über Spendenbescheinigungen können über den Button \"Neu \(Geldspenden\)\" Geldspendenbescheinigungen generiert werden. Hier kommen die Einstellungen zum Tragen. Es werden nur für die Mitglieder oder Spender Spendenbescheinigungen erzeugt, die eine vollständige Adresse \(Straße und PLZ und Ort\) eingetragen haben. Außerdem werden nur die Mitglieder oder Spender erfasst, deren Spendenbetrag &gt;= dem Mindestbetrag in den Einstellungen ist.
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen \(Einzel / Sammel\) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 
@@ -84,7 +89,7 @@ Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge a
 
 Über die Buttons in der Buttonleiste stehen die Erzeugung einer neuen bzw. die automatische Generierung \(siehe oben\) von Spendenbescheinigungen zur Verfügung.
 
-Alle Einstellungen bis auf die für die Adresse im Brieffenster \(siehe unten\) werden sowohl bei dem Standard-Dokument als auch dem individuellen Dokumenten berücksichtigt.
+Alle Einstellungen werden sowohl bei dem Standard-Dokument als auch dem individuellen Dokumenten berücksichtigt.
 
 ### Spendenbescheinigung \(Einzeldarstellung\)
 
