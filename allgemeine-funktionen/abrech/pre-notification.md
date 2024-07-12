@@ -18,7 +18,7 @@ Klick auf Abrechnungslauf.
 
 Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notification Mail erstellen kann.
 
-![](../../assets/sepa_pre-notification_abrechnungsverlauf_knopf_zur_e-mail.png)
+![](../../assets/abrechnungslauf.png)
 
 ## Pre-Notification schriftlich und per E-Mail
 

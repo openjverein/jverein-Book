@@ -16,9 +16,19 @@ Die Bezeichnung des Lehrgangs muss ausgefüllt werden. Die restlichen Daten kön
 
 ## Lehrgangsübersicht beim Mitglied
 
-![](../../assets/mitgliedlehrgaenge.jpg)
+![](../../assets/mitgliedlehrgaenge.png)
 
 ## Lehrgang beim Mitglied anlegen
 
+Über den Button "Neuer Lehrgang" lässt sich ein neuer Lehrgang anlegen.
+
 ![](../../assets/mitgliedlehrgang-2.jpg)
+
+## Lehrgangsübersicht
+
+Der Übersicht View für Lehrgänge zeigt alle vorhandenen Lehrgänge an.
+
+Über den Filterbereich lässt sich nach verschidenen Kriterien filtern.
+
+![](../../assets/lehrgaenge_liste.png)
 
