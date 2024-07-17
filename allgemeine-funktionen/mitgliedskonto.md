@@ -54,8 +54,6 @@ Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in 
 
 Zur Filterung des Buchungen steht weiterhin Egal \(= eine beliebige Differenz\), Fehlbetrag oder Überzahlung zur Verfügung. Durch einen Klick auf entfernen wird die Mitgliedskontoinformation aus der Buchung entfernt. Damit können Fehleingaben korrigiert werden.
 
-![](../assets/sollbuchung-zuordnung-soll+ist.png)
-
 Der obige Dialog hat zwei Registerkarten:
 - Istbuchung einer Sollbuchung zuordnen
 - Sollbuchung erzeugen und Istbuchung zuordnen
@@ -64,7 +62,9 @@ Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuc
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \(neue\) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-Hier kann nur nach dem Namen gefiltert werden
+![](../assets/sollbuchung-zuordnung-soll+ist.png)
+
+Hier kann nur nach dem Namen gefiltert werden.
 
 In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" angehakt werden. Mit dieser Option werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
 

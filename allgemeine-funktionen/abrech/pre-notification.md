@@ -86,7 +86,9 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 ## 1ct-Überweisung Pre-Notification
 
-Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.![](../../assets/sepa_pre-notification_1ct_erstellung.png)
+Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
+
+![](../../assets/sepa_pre-notification_1ct_erstellung.png)
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart \(Datei oder Hibiscus\) und das Ausführungsdatum eingestellt werden.
 

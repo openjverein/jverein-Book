@@ -15,12 +15,15 @@ Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter \(oben\) und Mi
 * Geburtsdatum
 * Geschlecht
 * Eintritts- und Austrittsdatum
+* Stichtag
 
-Jeweils beim Verlassen eines Feldes wird die Suche ausgelöst.
+Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
 Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](spendenbescheinigung.md) möglich.
 
 Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
+
+Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
 ![](../assets/mitgliedsuche.png)
 
@@ -63,7 +66,7 @@ handelt. Sofern "juristische Person" ausgewählt wird, sieht der Bildschirm so a
 
 ## Mitgliedschaft
 
-Eintrittsdatum und Beitragsgruppe sind Pflichtfelder. Die Beitragsgruppen können unter [Beitragsgruppen](administration/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../allgemein/beitragsmodelle.md) und [Einstellungen](administration/einstellungen.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts \(z. B. der 31.12. des jeweiligen Jahres\) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
+Eintrittsdatum und Geburtsdatum sind Pflichtfelder wenn es in den Einstellungen so konfiguriert wurde. Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](administration/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../allgemein/beitragsmodelle.md) und [Einstellungen](administration/einstellungen.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts \(z. B. der 31.12. des jeweiligen Jahres\) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
 
 Standardaussehen des Formulars:
 
@@ -91,7 +94,7 @@ Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgr
 
 ![](../assets/boxactivate.png)
 
-Hinweis: Die Box ist nur sichtbar, wenn im Menü "Jameica" ausgewählt wurde.
+Hinweis: Die Box ist nur sichtbar, wenn im Menü "Start" ausgewählt wurde.
 
 Zum Erfassen einer zukünftigen Beitragsgruppe klicken Sie mit der rechten Maustaste in die Tabelle. Im Kontextmenü wählen Sie den Punkt Beitragsgruppe hinzufügen. Es öffnet sich eine Ansicht, in der Sie die neue Beitragsgruppe auswählen und das Datum erfassen, ab dem diese Gruppe gültig werden soll. Sie können in einem Bemerkungsfeld noch hinterlegen, warum diese Änderung durchgeführt werden sollte.
 
