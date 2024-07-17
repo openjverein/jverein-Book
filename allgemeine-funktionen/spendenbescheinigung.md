@@ -6,7 +6,7 @@ Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. V
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
-Der Filterbereich erlaubt es nach verschidenen Kriterien zu filtern.
+Der Filterbereich erlaubt es nach verschiedenen Kriterien zu filtern.
 
 Über den Filter "Mail" lassen sich z.B. Spendenbescheinigungen finden für deren Spender keine Mail Adressen hinterlegt sind. Diese können dann nicht per Mail verschickt werden sondern nur per Brief.
 
@@ -27,8 +27,8 @@ Es ist möglich eine Mail an den Spender zu schreiben oder die ausgewählten Spe
 Durch einen Klick auf Drucken wird die Spendenbescheinigung im PDF-Format ausgegeben. Dabei gibt es mehrere Möglichkeiten:
 * Drucken (Standard, Briefversand). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Brief versand werden soll. Entsprechend den Einstellungen für Briefversand wird eine Anschrift auf der zweiten Seite ausgedruckt welche in das Brieffenster passt.
 * Drucken (Standard, Mailersand). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Mail versand werden soll. Entsprechend den Einstellungen für Mailversand wird optional eine Anschrift auf der zweiten Seite ausgedruckt welche in ein Brieffenster passt.
-* Drucken (Individuell, Briefversand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Briefversand wird eine Anschrift auf der zweiten Seite ausgedruckt welche in das Brieffenster passt.
-* Drucken (Individuell, Mailersand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Mailversand wird optional eine Anschrift auf der zweiten Seite ausgedruckt welche in ein Brieffenster passt.
+* Drucken (Individuell, Briefversand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Briefversand wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in das Brieffenster passt.
+* Drucken (Individuell, Mailersand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Mailversand wird optional eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
 
 Tipp:
 
@@ -40,15 +40,15 @@ Alternativ kann im Mitglieds View unter dem Tab Mitgliedskonto das Mitglied bzw.
 
 ![](../assets/spendenbescheinigung_menu2.png)
 
-Neben der manuellen Erstellung von Spendenbescheinigungen können sie auch automatisch aus dem Mitgliedskonto erzeugt werden.
+Neben der manuellen Erstellung von Spendenbescheinigungen können Geldspendenbescheinigungen auch automatisch aus dem Mitgliedskonto erzeugt werden.
 
-Voraussetzungen für die automatische Generierung:
+Voraussetzungen für die automatische Generierung von Geldspendenbescheinigungen:
 
 * Administration\|Allgemein Daten zum Verein und zu den Spendenbescheinigungen werden gespeichert.
 * Administration\|Buchungsarten mindestens eine Buchungsart hat ein Häkchen im Feld Spende
 * Buchung wurde dem Mitgliedskonto und einer Buchungsart mit dem Merkmal Spende zugeordnet.
 
-Im Spendenbescheinigung View lästt sich die Spendenbescheinigung bearbeiten. Ebenso lässt sich die Spendenbescheinigung über die Drucken Buttons ausdrucken bzw. eine Sachspende mit den Spender Daten der aktuellen Spendenbescheinigung erstellen.
+Im Spendenbescheinigung View lässt sich die Spendenbescheinigung bearbeiten. Ebenso lässt sich die Spendenbescheinigung über die Drucken Buttons ausdrucken bzw. eine Sachspende mit den Spender Daten der aktuellen Spendenbescheinigung erstellen.
 
 ![](../assets/spendenbescheinigung.png)
 
@@ -189,7 +189,7 @@ Ist das Häkchen gesetzt, wird beim Standard Druck eine Unterschrift in die Spen
 
 Hie lässt sich ein Bild der Unterschrift einfügen welche entsprechend der selektierten Option eingefügt wird.
 
-#### Spendenbescheinigung Anhan bei Mail Versand in DB spechern
+#### Spendenbescheinigung Anhang bei Mail Versand in DB spechern
 
 Ist das Häkchen gesetzt, wird die Spendenbescheingung bei Mailversand zusammen mit der Mail in der Datenbank gespeichert. Öffnet man die Mail erneut wird der Anhang mit angezeigt.
 

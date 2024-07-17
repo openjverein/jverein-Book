@@ -4,7 +4,7 @@ Hier können für alle Konten die Salden eines Geschäftsjahres angezeigt werden
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 
-Der aktuell ausgewählte Zeiraum wird angezeigt.
+Der aktuell ausgewählte Zeitraum wird angezeigt.
 
 Über die Suchen Funktion lassen sich beliebige Zeiträume auswählen. Wird beispielsweise ein Monat ausgewählt, lassen sich die Saldenstände mit den Kontoauszügen der Bank vergleichen.
 
