@@ -1,73 +1,79 @@
-# MySQL-Support
+# MySQL/MariaDB Support
 
 ## Vorbemerkungen
 
-JVerein verwendet standardmäßig eine embedded Datenbank \(H2\), die beim ersten Start automatisch eingerichtet wird. Seit JVerein 1.0 wird auch MySQL unterstützt.
+JVerein verwendet standardmäßig eine embedded Datenbank \(H2\), die beim ersten Start automatisch eingerichtet wird. Es wird auch MySQL/MariaDB unterstützt.
 
 ## Erstellung der MySQL-Datenbank
 
-Verwenden Sie Ihr bevorzugtes Administrationswerkzeug \(z.Bsp. PhpMyAdmin \[[http://www.phpmyadmin.net/](http://www.phpmyadmin.net/)\] oder MySQL-Administrator\[[http://dev.mysql.com/downloads/gui-tools/5.0.html](http://dev.mysql.com/downloads/gui-tools/5.0.html)\]\), um eine Datenbank mit dem Namen "jverein" sowie einen Benutzer anzulegen oder führen Sie folgende Kommandos aus, um Datenbank und Benutzer mit dem Kommandozeilen-Werkzeug "mysql" \("mysql.exe" unter Windows\) anzulegen. Der angelegte Benutzer muss Lese- und Schreibrechte in dieser Datenbank besitzen.
+Verwenden Sie Ihr bevorzugtes Administrationswerkzeug \(z.B. [PhpMyAdmin](https://www.phpmyadmin.net/) oder [MySQL-Workbench](https://dev.mysql.com/downloads/workbench/)\), um eine Datenbank mit dem Namen "jverein" sowie einen Benutzer anzulegen. Der angelegte Benutzer muss Lese- und Schreibrechte in dieser Datenbank besitzen. Sie können auch der nachfolgenden Anleitung für die Kommandozeile folgen, um Datenbank und Benutzer mit dem Linux Kommandozeilen-Werkzeug "mysql" \("mysql.exe" unter Windows\) anzulegen. 
 
-* Als Benutzer root auf der Datenbank anmelden: `mysql -u root -p`\(girls. mit Pfadangabe vor mysql oder Anpassung von PATH\)
-* Datenbank anlegen: `mysql> create database jverein;`
-* Benutzer anlegen: Wenn die Datenbank im ganzen Intranet erreichbar sein soll, verwenden Sie statt "localhost" beispielsweise "192.168.1.%", wenn die IP-Adressen aller PCs in Ihrem LAN mit "192.168.1." beginnen oder "%", wenn keine Einschränkungen gelten sollen.
-  * `mysql> CREATE USER 'jverein'@'localhost' IDENTIFIED BY '<passwort>';`
-  * `mysql> GRANT ALL PRIVILEGES ON jverein.* TO 'jverein'@'localhost';`
+- Als Benutzer "root" auf dem Datenbanksystem anmelden.
+- Datenbank anlegen.
+- Benutzer "jverein" anlegen und Passwort vergeben. Esetzen Sie "\<passwort\>" mit dem persönlichen Kennwort für den Benutzer "jverein".
+- Benutzerrechte vergeben. Wenn die Datenbank im ganzen Intranet erreichbar sein soll, verwenden Sie statt "localhost" beispielsweise "192.168.1.%", wenn die IP-Adressen aller PCs in Ihrem LAN mit "192.168.1." beginnen. Sie können auch "%" verwenden, wenn keine IP-Einschränkung gelten soll. 
+<!-- -->
+    mysql -u root -p
+    mysql> create database jverein;
+    mysql> CREATE USER 'jverein'@'localhost' IDENTIFIED BY '<passwort>';
+    mysql> GRANT ALL PRIVILEGES ON jverein.* TO 'jverein'@'localhost';
 
 ## Erstellung eines Install-Bundles und der Datenbank
 
-Damit JVerein auf eine MySQL-Datenbank zugreifen kann, muss eine Konfigurationdatei angepasst werden. Da diese beim ersten Start noch nicht existiert, würde JVerein auf jedem Arbeitsplatz unnötig eine Embedded H2-Datenbank anlegen, die anschliessend nicht gebraucht wird. Bereiten Sie daher mit den folgenden Schritten ein vorkonfiguriertes Bundle vor, welches anschließend einfach 1:1 auf alle Arbeitsplatz-PCs kopiert werden kann.
+Damit JVerein auf eine MySQL/MariaDB-Datenbank zugreifen kann, muss eine Konfigurationdatei erstellt werden. Da diese beim ersten Start noch nicht existiert, würde JVerein auf jedem Arbeitsplatz eine H2-Datenbank anlegen, die anschliessend nicht gebraucht wird. Bereiten Sie daher mit den folgenden Schritten ein vorkonfiguriertes Install-Bundle vor, welches anschließend auf alle Arbeitsplatz-PCs kopiert wird.
 
-* Installieren sie wie beschrieben. Falls sie ein "heterogenes" Netz mit Windows- und Linux-Arbeitsplätzen nutzen, dann verwenden Sie die All-In-One-Version von Jameica, welche unter beiden Betriebssystemen lauffähig ist. Andernfalls können Sie die Windows- oder Linux-Version verwenden.
-* Erstellen Sie nun manuell ein Verzeichnis "cfg" im Programm-Verzeichnis von Jameica.
-* Erstellen Sie in diesem Verzeichnis eine Datei mit dem Namen "de.jost\_net.JVerein.rmi.JVereinDBService.properties". Öffnen Sie diese mit einem Texteditor und tragen Sie folgenden Inhalt ein:
+- Installieren sie wie beschrieben. Falls sie ein "heterogenes" Netz mit Windows- und Linux-Arbeitsplätzen nutzen, dann verwenden Sie die All-In-One-Version von Jameica, welche unter beiden Betriebssystemen lauffähig ist. Andernfalls können Sie die Windows- oder Linux-Version verwenden.
+- Erstellen Sie ein Verzeichnis "cfg" im Programm-Verzeichnis von Jameica (Ordner ".jameica").
+- Erstellen Sie im cfg-Verzeichnis eine Datei mit dem Namen "de.jost\_net.JVerein.rmi.JVereinDBService.properties". 
+- Öffnen Sie die Datei "de.jost\_net.JVerein.rmi.JVereinDBService.properties" mit einem Texteditor und tragen Sie folgende Inhalte ein:
+<!-- -->
+    database.driver=de.jost_net.JVerein.server.DBSupportMySqlImpl
+    database.driver.mysql.username=<username>
+    database.driver.mysql.password=<password>
+    database.driver.mysql.scriptprefix=mysql-
 
-`database.driver=de.jost_net.JVerein.server.DBSupportMySqlImpl`
+für MySQL:
 
-bei MySql:
-`database.driver.mysql.jdbcurl=jdbc\:mysql\://<Server-IP>\:<port>/<datenbankname>?useUnicode\=Yes&characterEncoding\=ISO8859_1`
+    database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=ISO8859_1
 
-bei MariaDB:
-`database.driver.mysql.jdbcurl=jdbc\:mariadb\://<Server-IP>\:<port>/<datenbankname>?useUnicode\=Yes&characterEncoding\=ISO8859_1`
+für MariaDB:
 
-`database.driver.mysql.username=<Username des MySQL-Users>`
+    database.driver.mysql.jdbcurl=jdbc:mariadb://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=ISO8859_1
 
-`database.driver.mysql.password=<Passwort des MySQL-Users>`
+für Jameica ab Version 2.11 (aktuell in Entwicklung)
 
-`database.driver.mysql.scriptprefix=mysql-`
+    database.driver.mysql.jdbcdriver=org.mariadb.jdbc.Driver
 
-* Bei Verwendung von MariaDB zus&auml;tzlich folgene Zeile eintragen:
+- Ersetzen Sie die Werte &lt;username&gt;, &lt;password&gt;, &lt;ip&gt;, &lt;port&gt; und &lt;database&gt; durch den Benutzername und Passwort des MySQL-Benutzers, den Hostnamen/IP-Adresse des MySQL-Servers, den Port \(Standard: 3306\), sowie den Datenbanknamen. \(Siehe folgender Schritt für die Einrichtung der Datenbank\).
 
-`database.driver.mysql.jdbcdriver=org.mariadb.jdbc.Driver`
+Bei **Datenbanksystemen ohne Serverzertifikat** muss die Zertifikatsprüfung deaktiviert werden. Setzen Sie dafür die Parameter "&trustServerCertificate=true&allowPublicKeyRetrieval=true&useSSL=false" ans Ende der Zeile von "database.driver.mysql.jdbcurl=...".
 
-* Ersetzen Sie die Werte &lt;datenbankname&gt;, &lt;port&gt;, &lt;Username des MySQL-Users&gt;, &lt;Server-IP&gt; und &lt;Passwort des MySQL-Users&gt; durch den Datenbanknamen, den Hostnamenoder die IP-Adresse des MySQL-Servers, den Port \(Standard: 3306\), sowie Username und Passwort des MySQL-Benutzers. \(Siehe folgender Schritt für die Einrichtung der Datenbank\).
-* Erstellen Sie auf der MySQL-Datenbank auf dem Server einen neuen Benutzer sowie eine Datenbank mit einem beliebigen Namen. Der angelegte Benutzer muss Lese- und Schreibrechte in dieser Datenbank besitzen.
+Beispiel für MySQL:
 
-## Test und Verteilung auf die Arbeitsplätze
+    database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=ISO8859_1&trustServerCertificate=true&allowPublicKeyRetrieval=true&useSSL=false
 
-**Wichtig:** Die gerade manuell erstellte Konfigurations-Datei wird nur dann verwendet, wenn noch kein Jameica-Benutzerverzeichnis mit abweichenden Angaben existiert. Prüfen Sie also vor dem ersten Start, ob dieses existiert und benennen Sie es ggf. während des Tests um:
+## Test und Verteilung der Konfiguration auf die Arbeitsplätze
+
+**Wichtig:** Die soeben erstellte Konfigurationsdatei wird nur dann verwendet, wenn noch kein Jameica-Benutzerverzeichnis mit abweichenden Angaben existiert. Prüfen Sie also vor dem ersten Start, ob dieses existiert und benennen Sie es ggf. während des Tests um:
 
 ### Linux
 
-/home/&lt;username&gt;/.jameica
+    /home/<username>/.jameica
 
 ### Windows
 
-C:\Dokumente und Einstellungen\&lt;username&gt;.jameica
+    C:\Benutzer\<username>\.jameica
 
-* Starten Sie nun diese Jameica-Installation durch Aufruf von "jameica.sh" bzw. "jameica.bat". JVerein sollte nun keine eigene Datenbank erstellen sondern stattdessen direkt auf die MySQL-Datenbank zugreifen.
-* Verteilen Sie nun das vorkonfigurierte Install-Bundle \(im Beispiel also "C:\download\jameica"\) auf alle teilnehmenden Arbeitsplatz-PCs.
-* Beachten Sie, daß auch auf den anderen Arbeitsplatz-PCs noch kein Jameica-Benutzerverzeichnis existieren darf, da sonst die dort angegebene Datenbank-Konfiguration \(welche auf die interne H2-Datenbank verweist\) verwendet wird.
+- Verteilen Sie das vorkonfigurierte Install-Bundle samt Ordnerstruktur auf alle teilnehmenden Arbeitsplatz-PCs.
+- Starten Sie nun diese Jameica-Installation durch Aufruf von "jameica.sh" bzw. "jameica.bat". JVerein sollte nun keine H2-Datenbank erstellen sondern auf die MySQL/MariaDB Datenbank zugreifen.
+- Beachten Sie, dass auch auf den anderen Arbeitsplatz-PCs noch kein Jameica-Benutzerverzeichnis existieren darf, da sonst die dort angegebene Datenbank-Konfiguration \(welche auf die interne H2-Datenbank verweist\) verwendet wird.
 
-Hinweis: Auf allen Arbeitsplätzen muss die gleiche Version von JVerein im Einsatz sein. Durch neue Versionen wird u. U. die Datenbankstruktur so verändert, dass ältere Versionen damit nicht klar kommen.
+**Hinweis:** Auf allen Arbeitsplätzen muss die gleiche Version von JVerein im Einsatz sein. Durch neue Versionen wird unter Umständen die Datenbankstruktur so verändert, dass ältere Versionen damit nicht klar kommen.
 
 ## Sicherheitshinweise
 
-Nutzen Sie MySQL nur in gesicherten und vertrauenswürdigen Intranets, da die Datenübertragung von MySQL standardmäßig unverschlüsselt erfolgt. Lesen Sie alternativ die MySQL-Dokumentation zu Grundlegenden SSL-Konzepten sowie der Einrichtung von SSL für MySQL. Die manuelle Erstellung sowie der Import des Server-Zertifikats sollte auf den Arbeitsplätzen jedoch nicht nötig sein, da Jameica einen eigenen Keystore verwendet und den Benutzer automatisch bei Bedarf zum Import des Zertifikats auffordert.
+Nutzen Sie MySQL/MariaDB nur in gesicherten und vertrauenswürdigen Netzwerken, da die Datenübertragung von MySQL/MariaDB ggf. unverschlüsselt erfolgt. Lesen Sie alternativ die entsprechenden Dokumentation zu Grundlegenden SSL-Konzepten sowie der Einrichtung von SSL für MySQL/MariaDB. Die manuelle Erstellung sowie der Import des Server-Zertifikats sollte auf den Arbeitsplätzen jedoch nicht nötig sein, da Jameica einen eigenen Keystore verwendet und den Benutzer automatisch bei Bedarf zum Import des Zertifikats auffordert.
 
 ### Probleme
 
-Unter Ubuntu: Das Paket libmysql-java muss installiert sein.
-
-Außerdem gibt es bei 16.04 Xenial das Problem dass phpmyadmin eine missing gettext dependency hat, das Paket php-gettext muss manuell installiert werden. Siehe auch [https://bugs.launchpad.net/ubuntu/+source/phpmyadmin/+bug/1569128](https://bugs.launchpad.net/ubuntu/+source/phpmyadmin/+bug/1569128)
-
+Unter Debian/Ubuntu: Gegebenfalls muss das Paket libmariadb-java (für MariaDB und MySQL) oder libmysql-java (für MySQL) installiert werden.

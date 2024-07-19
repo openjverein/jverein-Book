@@ -6,11 +6,11 @@
 
 In diesem Benutzerhandbuch werden folgende Themen beschrieben:
 
-1. allgemeine Themen rund um die Installation und Konfiguration
-2. die einzelnen Menüpunkte von OpenJVerein
-3. sonstige Themen rund um OpenJVerein 
+1. Allgemeine Themen rund um die Installation und Konfiguration
+2. Die einzelnen Menüpunkte und Programmfunktionen
+3. Sonstige Themen
 
 ## Hinweise
 
-Dieses Handbuch steht, wie JVerein, unter [GPL V3](sonstiges/lizenzen/gpl-v3.md).
+Dieses Handbuch steht unter [GPL V3](sonstiges/lizenzen/gpl-v3.md).
 

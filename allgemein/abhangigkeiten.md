@@ -1,10 +1,11 @@
 # Abhängigkeiten
 
-JVerein ist abhängig von
+OpenJVerein ist abhängig von Jameica und Hibiscus
 
-| JVerein | Jameica | Hibiscus |
+| OpenJVerein | Jameica | Hibiscus |
 | :--- | :--- | :--- |
-| &gt;= 2.8.4 | &gt;= 2.6.\* | &gt;=2.6.11 |
+| &gt;= 2.8.17 | &gt;= 2.8.\* | &gt;=2.8.7 |
+| &gt;= 2.8.4 &lt; 2.8.17 | &gt;= 2.6.\* | &gt;=2.6.11 |
 | &gt;= 2.8.0 &lt;= 2.8.3 | 2.6.\* | 2.6.0 |
 | 2.6.\* | 2.6.\* | 2.6.0 |
 |  |  |  |
