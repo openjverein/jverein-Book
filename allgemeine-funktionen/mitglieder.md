@@ -108,7 +108,7 @@ Bei Mitgliedern von Beitragsgruppen der Beitragsart Familie: Angehöriger könne
 
 Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration \| Einstellungen \| Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration \| Beitragsgruppen muss für mindestens eine Beitragsgruppe das Höschen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden.
 
-![](https://github.com/jverein/jverein-handbuch/tree/7a7b5a645186b65a634bbe865664632876fb43ca/assets/Mitgliedsekundärebeitragsgruppen.png)
+![](../assets/mitgliedsekundaerebeitragsgruppen.png)
 
 ## Zahlung
 
@@ -172,7 +172,7 @@ Die Eigenschaften des Mitgliedes können angehakt werden, bzw. das Häkchen kann
 
 ## Zusatzfelder
 
-![](../assets/mitgliedzusatzfelder%20%281%29.png)
+![](../assets/mitgliedzusatzfelder.png)
 
 Durch [Felddefinitionen](administration/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
 

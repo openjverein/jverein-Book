@@ -109,7 +109,7 @@ Danach wird angezeigt für welche Mitglieder keine Mail Adresse konfiguriert ist
 
 Es wird ebenfalls angezeigt für welche Spendenbescheinigung kein Mitglied zugeordnet ist. In diesem Fall wird der Inhalt von Zeile 1..3 ausgegeben und keine Mail verschickt.
 
-In den Parametern lässt sich einstellen ob das Standard oder ein individueller Formatverwendet werden soll. Ebenso lässt sich einstellen ob eine extra Seite mit einer Anschrift ausgedruckt werden soll, welche in ein Brieffenster passt.
+In den Parametern lässt sich einstellen ob das Standard oder ein individuelles Format verwendet werden soll. Ebenso lässt sich einstellen ob eine extra Seite mit einer Anschrift ausgedruckt werden soll, welche in ein Brieffenster passt.
 
 Im Bereich Mail lässt sich der Betreff und der Mailtext eingeben.
 
