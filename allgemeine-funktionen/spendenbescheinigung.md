@@ -24,11 +24,11 @@ Damit können Spendenbescheinigungen gelöscht oder als Vorlage gespeichert werd
 
 Es ist möglich eine Mail an den Spender zu schreiben oder die ausgewählten Spendenbescheinigungen per Mail an die Spender zu schicken (siehe weiter unten).
 
-Durch einen Klick auf Drucken wird die Spendenbescheinigung im PDF-Format ausgegeben. Dabei gibt es mehrere Möglichkeiten:
-* Drucken (Standard, Briefversand). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Brief versand werden soll. Entsprechend den Einstellungen für Briefversand wird eine Anschrift auf der zweiten Seite ausgedruckt welche in das Brieffenster passt.
-* Drucken (Standard, Mailersand). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Mail versand werden soll. Entsprechend den Einstellungen für Mailversand wird optional eine Anschrift auf der zweiten Seite ausgedruckt welche in ein Brieffenster passt.
-* Drucken (Individuell, Briefversand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Briefversand wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in das Brieffenster passt.
-* Drucken (Individuell, Mailersand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars geruckt. Entsprechend den Einstellungen für Mailversand wird optional eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
+Durch einen Klick auf PDF wird die Spendenbescheinigung im PDF-Format ausgegeben. Dabei gibt es mehrere Möglichkeiten:
+* PDF (Standard). Dies benötigt kein Formular und benutzt einen festen Aufbau.
+* PDF (Standard, Mut Adressblatt). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Brief versand werden soll. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
+* PDF (Individuell). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt.
+* PDF (Individuell, Mailersand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
 
 Tipp:
 
@@ -99,13 +99,7 @@ Der Ausdruck über die Buttons funktioniert nur, wenn die Spendenbescheinigung b
 
 ## Spendenbescheinigung per Mail versenden
 
-Durch eine Klick auf den Menüpunkt Spendenbescheinigungen versenden öffnet sich zuerst folgender Dialog.
-
-![](../assets/spendenbescheinigung_dialog.png)
-
-Hier ist auszuwählen, ob die evtl. schon gerduckten PDF Dokumente verschickt werden sollen oder ob sie jetzt gedruckt werden sollen. Drucken Standard erfolgt mit der Option Mailversand.
-
-Nach einer Selektion wird der Spendenbescheinigung Mail View an gezeigt.
+Durch eine Klick auf den Menüpunkt Spendenbescheinigungen versenden wird der Spendenbescheinigung Mail View an gezeigt.
 
 ![](../assets/spendenbescheinigung_mail.png)
 
@@ -114,6 +108,8 @@ Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spenden
 Danach wird angezeigt für welche Mitglieder keine Mail Adresse konfiguriert ist und ihre Spendenbescheinigungen damit nicht verschickt werden.
 
 Es wird ebenfalls angezeigt für welche Spendenbescheinigung kein Mitglied zugeordnet ist. In diesem Fall wird der Inhalt von Zeile 1..3 ausgegeben und keine Mail verschickt.
+
+In den Parametern lässt sich einstellen ob das Standard oder ein individueller Formatverwendet werden soll. Ebenso lässt sich einstellen ob eine extra Seite mit einer Anschrift ausgedruckt werden soll, welche in ein Brieffenster passt.
 
 Im Bereich Mail lässt sich der Betreff und der Mailtext eingeben.
 
@@ -172,14 +168,6 @@ Um ein flüssiges Erzeugen von mehreren Dokumenten zu ermöglichen, kann hier da
 #### Drucke Buchungsart
 
 Ist das Häkchen gesetzt, wird in der Buchungsliste nicht der Zweck aus der Buchung, sondern die der Buchung zugewiesene Buchungsart verwendet. Bei sprechenden Namen eine einheitlichere Darstellung.
-
-#### Adressausgabe für Brieffenster (Briefversand)
-
-Ist das Häkchen gesetzt, wird beim Standard Druck für Briefversand eine extra Seite mit der Adresse erzeugt welche in das Brieffenster eines queren Briefes passt. Diese Option is per Default selektiert.
-
-#### Adressausgabe für Brieffenster (Mailversand)
-
-Ist das Häkchen gesetzt, wird beim Standard Druck für Mailversand eine extra Seite mit der Adresse erzeugt welche in das Brieffenster eines queren Briefes passt. Diese Option is per Default nicht selektiert.
 
 #### Unterschrift drucken
 

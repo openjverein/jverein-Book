@@ -29,6 +29,7 @@
     * [Pre-Notification](allgemeine-funktionen/abrech/pre-notification.md)
     * [Rücklastschrift](allgemeine-funktionen/abrech/rucklastschrift.md)
     * [SEPA-Bugs](allgemeine-funktionen/abrech/sepa-bugs.md)
+    * [Lastschriften](allgemeine-funktionen/abrech/lastschrift.md)
   * [Mitgliedskonto](allgemeine-funktionen/mitgliedskonto.md)
   * [Rechnungen](allgemeine-funktionen/rechnungen.md)
   * [Mahnungen](allgemeine-funktionen/mahnungen.md)
