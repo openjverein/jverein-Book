@@ -53,7 +53,7 @@ Die obigen Filter/Selektoren wirken additiv, mit keinen wird die komplette Auswa
 
 Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst werden:
 
-![](../assets/mitgliedmailversand.jpg)
+![](../assets/mitgliedmailversand.png)
 
 ## Variablen
 

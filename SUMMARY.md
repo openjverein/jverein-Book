@@ -75,7 +75,6 @@
     * [Mitgliedstypen](allgemeine-funktionen/administration/mitgliedstypen.md)
     * [Lesefelder](allgemeine-funktionen/administration/lesefelder.md)
     * [Lehrgänge](allgemeine-funktionen/administration/lehrgange.md)
-  * [Spende](allgemeine-funktionen/spende.md)
 * [Sonstiges](sonstiges/README.md)
   * [Buchführung Zusammenhänge](sonstiges/buchfuhrung-zusammenhange.md)
   * [Buchführung Grundsätze](sonstiges/buchfuhrung-grundsatze.md)
