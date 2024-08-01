@@ -78,7 +78,7 @@ Mit dieser Option werden die [Zusatzbeträge](../zusatzbetrage.md) abgerechnet. 
 
 **Kursteilnehmer**
 
-Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [/zusatzbetrage.md](../zusatzbetrage.md) an.
+Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [Zusatzbeträge](../zusatzbetrage.md) an.
 
 **Kompakte Abbuchung**
 

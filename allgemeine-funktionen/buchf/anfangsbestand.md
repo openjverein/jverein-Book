@@ -14,7 +14,11 @@ Anfangsbestände, die durch einen Jahresabschluss erfasst sind, können nicht me
 
 Der Filterbereich erlaubt es nach Anfangsbeständen in einem vorgegebenen Zeitraum zu filtern.
 
-Der Filterparameter "Konto" erlaubt es nach dem Kontonamen zu filtern. Der Name muss nicht vollständig eingegeben werden da auch nach teilweiser Übereinstimmung gefiltert wird.
+Der Filterparameter "Nummer" erlaubt es nach der Kontonummer zu filtern.
+
+Der Filterparameter "Bezeichnung" erlaubt es nach dem Kontonamen zu filtern.
+
+Der Werte müssen nicht vollständig eingegeben werden da auch nach teilweiser Übereinstimmung gefiltert wird.
 
 Über den Button Neu werden neue Anfangsbestände aufgenommen. Mit einem Doppelklick auf einen Anfangsbestand kann der Bestand bearbeitet werden. Ein Rechtsklick auf einen Anfangsbestand öffnet ein Kontextmenü. Damit kann ein Anfangsbestand gelöscht werden.
 
