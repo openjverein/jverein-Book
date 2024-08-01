@@ -16,6 +16,7 @@ Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter \(oben\) und Mi
 * Geschlecht
 * Eintritts- und Austrittsdatum
 * Stichtag
+* Mail
 
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 

@@ -4,6 +4,13 @@ Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, 
 
 ![](../assets/kursteilnehmerliste.png)
 
+Das Kursteilnehmer Menü hat folgende Einträge:
+
+* Abbuchungsdatum löschen...
+* Zum Mitglied machen
+* Löschen
+ 
+
 Eingabe eines neuen Kursteilnehmers:
 
 ![](../assets/kursteilnehmerneu.png)

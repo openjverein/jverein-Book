@@ -97,7 +97,7 @@ In der Einzeldarstellung wird der Ausdruck über Buttons ebenfalls angeboten. Im
 
 Der Ausdruck über die Buttons funktioniert nur, wenn die Spendenbescheinigung bereits einmal gespeichert wurde. Die Aktionen neu und drucken direkt hintereinander werden mit einer Fehlermeldung abgewiesen.
 
-## Spendenbescheinigung per Mail versenden
+## Spendenbescheinigung selektiv per Mail versenden
 
 Durch eine Klick auf den Menüpunkt Spendenbescheinigungen versenden wird der Spendenbescheinigung Mail View an gezeigt.
 
@@ -114,6 +114,17 @@ In den Parametern lässt sich einstellen ob das Standard oder ein individuelles 
 Im Bereich Mail lässt sich der Betreff und der Mailtext eingeben.
 
 Durch Klick auf den Senden Button werden die Spendenbescheinigungen an die Mitglieder versendet.
+
+## Spendenbescheinigung automatisch drucken oder per Mail versenden
+
+Neben der individuellen Auswahl für Drucken und Versenden über das Kontextmenü im Spendenbescheinigungen Dialog lässt sich dies auch über den Eintrag im Navigations Menü erreichen.
+
+Der Dialog enthält hier die Filter Optionen wie im Spendenbescheinigungen Dialog und zusätzlich die Auswahl der Ausgabe DRUCK/EMAIL.
+
+Es werden hier alle Spendenbescheinigungen gedruckt bzw. versendet die die Filterkriterien erfüllen. Eine individuelle Auswahl aus den gefilterten Einträgen ist hier nicht möglich.
+
+![](../assets/spendenbescheinigung_mail2.png)
+
 
 ## Weitere Anpassungen
 
