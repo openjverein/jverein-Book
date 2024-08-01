@@ -22,6 +22,8 @@ Es erscheint dann:
 
 ![](../../assets/splitbuchung02.png)
 
+Als Info wird angezeigt wie viele Buchungen selektiert wurden und damit wie viele Splitbuchungen erzeugt werden.
+
 Die angeklickte Buchung erscheint in der ersten Zeile. In der zweiten Zeile erscheint die Gegenbuchung mit umgekehrtem Vorzeichen beim Betrag.
 
 Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:

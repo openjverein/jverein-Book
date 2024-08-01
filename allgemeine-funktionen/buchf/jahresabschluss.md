@@ -18,3 +18,7 @@ Durch eine Klick auf neu kann ein neuer Jahresabschluss vorgenommen werden:
 
 ![](../../assets/jahresabschluss.png)
 
+Tip:
+
+Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit werden die Endstände in der Liste der Anfangsbestände abgespeichert und als Basis für das nächste Geschäftsjahr verwendet.
+

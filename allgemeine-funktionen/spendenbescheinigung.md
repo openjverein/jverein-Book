@@ -12,7 +12,11 @@ Der Filterbereich erlaubt es nach verschiedenen Kriterien zu filtern.
 
 ![](../assets/spendenbescheinigungen.png)
 
-Durch einen Klick auf \"Neu \(Sachspende\)\" öffnet sich das Spendenbescheinigungs-Bearbeitungsfenster \(siehe unten\).
+In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung:
+
+Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
+
+Über die Buttons in der Buttonleiste stehen die Erzeugung einer neuen bzw. die automatische Generierung \(siehe unten\) von Spendenbescheinigungen zur Verfügung.
 
 Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitungsfenster \(siehe unten\).
 
@@ -25,10 +29,10 @@ Damit können Spendenbescheinigungen gelöscht oder als Vorlage gespeichert werd
 Es ist möglich eine Mail an den Spender zu schreiben oder die ausgewählten Spendenbescheinigungen per Mail an die Spender zu schicken (siehe weiter unten).
 
 Durch einen Klick auf PDF wird die Spendenbescheinigung im PDF-Format ausgegeben. Dabei gibt es mehrere Möglichkeiten:
-* PDF (Standard). Dies benötigt kein Formular und benutzt einen festen Aufbau.
-* PDF (Standard, Mut Adressblatt). Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Brief versand werden soll. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
-* PDF (Individuell). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt.
-* PDF (Individuell, Mailersand). Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
+* PDF (Standard): Dies benötigt kein Formular und benutzt einen festen Aufbau.
+* PDF (Standard, Mit Adressblatt): Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Brief versand werden soll. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
+* PDF (Individuell): Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt.
+* PDF (Individuell, Mit Adressblatt)): Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
 
 Tipp:
 
@@ -46,7 +50,7 @@ Voraussetzungen für die automatische Generierung von Geldspendenbescheinigungen
 
 * Administration\|Allgemein Daten zum Verein und zu den Spendenbescheinigungen werden gespeichert.
 * Administration\|Buchungsarten mindestens eine Buchungsart hat ein Häkchen im Feld Spende
-* Buchung wurde dem Mitgliedskonto und einer Buchungsart mit dem Merkmal Spende zugeordnet.
+* Buchung wurde einer Sollbuchung und einer Buchungsart mit dem Merkmal Spende zugeordnet.
 
 Im Spendenbescheinigung View lässt sich die Spendenbescheinigung bearbeiten. Ebenso lässt sich die Spendenbescheinigung über die Drucken Buttons ausdrucken bzw. eine Sachspende mit den Spender Daten der aktuellen Spendenbescheinigung erstellen.
 
@@ -75,21 +79,11 @@ Sammelbestätigungen für Geldspenden können auf zwei Arten erzeugt werden:
 
 In der Übersicht über Spendenbescheinigungen können über den Button \"Neu \(Geldspenden\)\" Geldspendenbescheinigungen generiert werden. Hier kommen die Einstellungen zum Tragen. Es werden nur für die Mitglieder oder Spender Spendenbescheinigungen erzeugt, die eine vollständige Adresse \(Straße und PLZ und Ort\) eingetragen haben. Außerdem werden nur die Mitglieder oder Spender erfasst, deren Spendenbetrag &gt;= dem Mindestbetrag in den Einstellungen ist.
 
+![](../assets/spendenbescheinigung_auto.png)
+
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen \(Einzel / Sammel\) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 
 Über den Button _erstellen_ werden Spendenbescheinigungen erzeugt.
-
-### Spendenbescheinigungen \(Liste\)
-
-In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung:
-
-![](../assets/spendenbescheinigung_menu3.png)
-
-Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
-
-Über die Buttons in der Buttonleiste stehen die Erzeugung einer neuen bzw. die automatische Generierung \(siehe oben\) von Spendenbescheinigungen zur Verfügung.
-
-Alle Einstellungen werden sowohl bei dem Standard-Dokument als auch dem individuellen Dokumenten berücksichtigt.
 
 ### Spendenbescheinigung \(Einzeldarstellung\)
 

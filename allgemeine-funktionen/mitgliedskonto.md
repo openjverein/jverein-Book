@@ -2,21 +2,7 @@
 
 ## Abrechnung
 
-Die Abrechnung schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle Mitgliedskonto \(Sollbuchung\). Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
-
-Fehlerhafte oder Test-Abrechnungen können im View "Abrechnungsläufe" rückgängig gemacht werden. Dieser zeigt eine Übersicht der Abrechnungsläufe an:
-
-![](../assets/mitgliedskontoabrechnungslaeufe.png)
-
-Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü mit mehreren Optionen:
-
-![](../assets/abrechnungslaufmenu.png)
-
-
-* Bearbeiten: Bearbeiten des Abrechnungslaufes
-* Sollbuchungen: Zeigt die generierten Sollguchungen
-* Prenotification: Erstellen von Prenotifications
-* Löschen: Löschen des Abrechnungslaufes, löscht alle zugehörigen generierten Sollbuchungen und Buchungen
+Die [Abrechnung](abrech/abrechnung.md) schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle Mitgliedskonto \(Sollbuchung\). Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
 
 ## Sollbuchungenübersicht <a id="mitgliedskontouebersicht"></a>
 
@@ -31,7 +17,7 @@ Durch einen Doppelklick auf die Sollbuchung wird die Sollbuchung angezeugt.
 
 Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü mit mehreren Optionen:
 * Sollbuchung bearbeiten: Bearbeiten der Sollbuchung
-* Sollbuchunge löschen: Löschen der Sollguchungen
+* Sollbuchung löschen: Löschen der Sollguchungen
 * Mitglied anzeigen: Öffnet das Mitglied zur Sollbuchung
 * Rechnung erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen
 * Mahnung erstellen: Erstellt Mahnungen für die selektierten Sollbuchungen

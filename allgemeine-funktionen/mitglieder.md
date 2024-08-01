@@ -145,7 +145,7 @@ Ein Klick auf Neu öffnet folgendes Fenster:
 
 ![](../assets/mitgliedzusatzbetraegeneu.png)
 
-Weitere Informationen dazu: [/zusatzbetrage.md](zusatzbetrage.md)
+Weitere Informationen dazu: [Zusatzbeiträge](zusatzbetrage.md)
 
 ## Vermerke
 
@@ -211,7 +211,7 @@ Im Dialog Arbeitseinsätze prüfen können Sie sich jederzeit die Abrechnung all
 
 ### Bearbeiten
 
-Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied
+Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied.
 
 ### Duplizieren
 
