@@ -2,21 +2,37 @@
 
 ## Allgemeines
 
-![](../assets/mitgliedrechnung.png)
-
-Für alle Buchungen in den Mitgliedskonten können Rechnungen erstellt werden. Dabei hat man die Möglichkeit eine Rechnung für ein bestimmtes Mitglied, für eine Auswahl von Mitglieder oder für alle Mitglieder zu erstellen.
+Für alle Sollbuchungen können Rechnungen erstellt werden. Dabei hat man die Möglichkeit eine Rechnung selektiv oder automatisch zu erstellen.
 
 Möchten Sie Rechnungen direkt aus JVerein druckfertig generieren, so müssen Sie mindestens ein Rechnungsformular angelegt haben. Die Erstellung von Rechnungsformularen ist unter Administration\|Formulare beschrieben.
 
-Die Rechnungen können für den Druck in ein PDF-Dokument ausgegeben werden oder per Mail an die Mitglieder verwandt werden.
+Die Rechnungen können für den Druck in ein PDF-Dokument ausgegeben werden oder per Mail an die Mitglieder versandt werden.
 
-## Rechnung für ein Mitglied
+## Rechnungen selektiv erstellen
 
-Möchten Sie eine Rechnung für ein bestimmtes Mitglied erstellen, so öffnen Sie den Dialog Mitgliedskonten. Wählen Sie den Filter so, dass die gewünschten Daten dieses Mitglieds angezeigt werden. Selektieren Sie einen Datensatz des Mitglieds und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt Rechnung. Es öffnet sich hier der Dialog Rechnung der Sie bei der Erstellung der Rechnung unterstützt.
+Möchten Sie eine Rechnung selektiv erstellen, so öffnen Sie den Dialog Sollbuchungen. Wählen Sie den Filter so, dass die gewünschten Daten angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Rechnung erstellen". Es öffnet sich hier der Dialog Rechnung der Sie bei der Erstellung der Rechnung unterstützt.
 
-## Rechnung für viele Mitglieder
+Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
-Möchten Sie Rechnungen für alle Mitgliedern erstellen, so öffnen Sie den Dialog Rechnungen. Sie können nun Filter setzen und damit begrenzen, dass nur Buchungen in Mitgliedskonten berücksichtigt werden, die innerhalb der Datumsgrenzen liegen. Außerdem können Sie Mitglieder, deren Beitrag per Lastschrift eingezogen wird, aus dieser Liste ausschließen.
+Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
+
+![](../assets/mitgliedrechnung2.png)
+
+Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Rechnung exportieren.
+
+## Rechnungen automatisch erstellen 
+
+Um automatisch Rechnungen zu erstellen wählen Sie im Navigations Baum dem Menü Eintrag "Rechnungen" aus. Es öffnet sich ebenfalls der Dialog Rechnungen.
+
+Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Sollbuchungen Dialog. Es werden dann Rechnungen für alle Sollbuchungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
+
+![](../assets/mitgliedrechnung1.png)
+
+Tip:
+
+Falls Sie Rechnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe EMAIL. Damit versenden sie die Rechnung an alle Mitglieder die eine Mail Adresse haben.
+
+Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
 
 ## Rechnungen drucken
 

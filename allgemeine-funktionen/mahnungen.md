@@ -1,16 +1,36 @@
 # Mahnungen
 
-Für alle offenen Buchungen in den Mitgliedskonten können Mahnungen erstellt werden. Dabei hat man die Möglichkeit eine Mahnung für ein bestimmtes Mitglied, für eine Auswahl von Mitglieder oder für alle Mitglieder zu erstellen. Eine Buchung ist offen, wenn der Betrag der Spalte Zahlungseingang kleiner ist als der Wert in der Spalte Betrag.
+## Allgemeines
+
+Für alle offenen Sollbuchungen können Mahnungen erstellt werden. Dabei hat man die Möglichkeit eine Rechnung selektiv oder automatisch zu erstellen. Eine Buchung ist offen, wenn der Betrag der Spalte Zahlungseingang kleiner ist als der Wert in der Spalte Betrag.
 
 Ein Mahnung kann ein PDF Dokument sein das direkt aus JVerein erstellt wird oder Sie exportieren die Daten in eine CSV Datei und erstellen die Mahnung als Serienbrief mit z.B. Microsoft Office oder Open Office.
 
-## Mahnung für ein Mitglied
+## Mahnungen selektiv erstellen
 
-Möchten Sie eine Mahnung für ein bestimmtes Mitglied erstellen, so öffnen Sie den Dialog Mitgliedskonten. Wählen Sie den Filter so, dass die gewünschten Daten dieses Mitglieds angezeigt werden. Selektieren Sie einen Datensatz des Mitglieds und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt Mahnung. Es öffnet sich hier der Dialog Mahnungen der Sie bei der Erstellung der Mahnung unterstützt.
+Möchten Sie eine Mahnung selektiv erstellen, so öffnen Sie den Dialog Sollbuchungen. Wählen Sie den Filter so, dass die gewünschten Daten angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Mahnung erstellen". Es öffnet sich hier der Dialog Rechnung der Sie bei der Erstellung der Mahnung unterstützt.
 
-## Mahnungen für viele Mitglieder
+Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
-Möchten Sie Mahnungen für alle Mitgliedern erstellen, so öffnen Sie den Dialog Mahnungen. Sie können nun Filter setzen und damit begrenzen, dass nur Buchungen in Mitgliedskonten berücksichtigt werden, die innerhalb der Datumsgrenzen liegen.
+Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
+
+![](../assets/mitgliedmahnung2.png)
+
+Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Rechnung exportieren.
+
+## Mahnungen automatisch erstellen
+
+Um automatisch Mahnungen zu erstellen wählen Sie im Navigations Baum dem Menü Eintrag "Mahnungen" aus. Es öffnet sich ebenfalls der Dialog Mahnungen.
+
+Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Sollbuchungen Dialog. Es werden dann Mahnungen für alle Sollbuchungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
+
+![](../assets/mitgliedmahnung1.png)
+
+Tip:
+
+Falls Sie Mahnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe EMAIL. Damit versenden sie die Mahnung an alle Mitglieder die eine Mail Adresse haben.
+
+Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
 
 ## Mahnungen drucken
 
