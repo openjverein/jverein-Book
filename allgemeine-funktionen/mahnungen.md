@@ -1,4 +1,4 @@
-# Mahnungen
+# Mahnungen drucken/mailen
 
 ## Allgemeines
 

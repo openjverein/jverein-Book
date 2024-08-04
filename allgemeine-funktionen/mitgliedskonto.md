@@ -1,12 +1,12 @@
-# Mitgliedskonto
+# Sollbuchungen
 
 ## Abrechnung
 
-Die [Abrechnung](abrech/abrechnung.md) schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle Mitgliedskonto \(Sollbuchung\). Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
+Die [Abrechnung](abrech/abrechnung.md) schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle [Mitgliedskonto](mitglieder/mitgliedskonto.md) des Mitglieds. Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
 
 ## Sollbuchungenübersicht <a id="mitgliedskontouebersicht"></a>
 
-Es gibt eine zentrale Übersicht über alle Sollbuchungen der Mitgliedskonten-Tabelle. Die Buchungen können über einen Zeitraum oder über einen Namen, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
+Es gibt eine zentrale Übersicht über alle Sollbuchungen. Die Buchungen können über einen Zeitraum oder über einen Namen, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
 
 Zudem lässt sich filtern ob das Mitglied per Lastschift zahlt oder eine Mailadresse hat. Letzteres ist interessant wenn die Rechnungen bzw. Mahnungen per Mail versendet werden sollen.
 
@@ -22,20 +22,6 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 * Rechnung erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen
 * Mahnung erstellen: Erstellt Mahnungen für die selektierten Sollbuchungen
 
-
-## Mitgliedskonto beim Mitglied
-
-![](../assets/mitgliedskontomitglied.png)
-
-In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen \(Rechnersymbol\), sowie die einzelnen zugeordneten Istbuchungen \(Euro-Symbol\) angezeigt.
-
-Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü. Damit können neue Sollbuchungen aufgenommen werden.
-
-![](../assets/sollbuchungneu.png)
-
-Mit einem rechten Mausklick auf eine Sollbuchung öffnet sich ein Kontextmenü. Damit kann die Sollbuchung bearbeitet, oder, sofern keine Istbuchung zugeordnet ist, auch gelöscht werden.
-
-Mit einem rechten Mausklick auf eine Istbuchung öffnet sich ein Kontextmenü. Damit kann die Istbuchung von der Sollbuchung gelöst werden.
 
 ## Buchungen einer Sollbuchung zuordnen <a id="mitgliedskontozuordnen"></a>
 

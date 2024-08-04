@@ -1,4 +1,4 @@
-# Rechnungen
+# Rechnungen drucken/mailen
 
 ## Allgemeines
 
