@@ -19,7 +19,7 @@
 * [Programmfunktionen](allgemeine-funktionen/README.md)
   * [Navigation](allgemeine-funktionen/navigation.md)
   * [Mitglieder](allgemeine-funktionen/mitglieder/README.md)
-    * [Mitglieder](allgemeine-funktionen/mitglieder/README.md)
+    * [Mitglieder](allgemeine-funktionen/mitglieder/content/README.md)
       * [Suche](allgemeine-funktionen/mitglieder.md)
       * [Suchprofil](allgemeine-funktionen/suchprofil.md)
       * [Grunddaten](allgemeine-funktionen/mitglieder/grunddaten.md)
