@@ -96,6 +96,6 @@ Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglie
 
 ### Weitere Informationen
 
-Verwandte Themen: [Abrechnungslauf](abrechnungslauf.md), [Pre-Notification, ](pre-notification.md)[Rücklastschrift](rucklastschrift.md), [Rechnungen, ](../rechnungen.md)[Mitgliedskonto](../mitgliedskonto.md)
+Verwandte Themen: [Abrechnungslauf](abrechnungslauf.md), [Pre-Notification](pre-notification.md), [Rücklastschrift](rucklastschrift.md), [Rechnungen](../rechnungen.md), [Sollbuchungen](../mitgliedskonto.md)
 
 [https://de.wikipedia.org/wiki/Bankarbeitstag](https://de.wikipedia.org/wiki/Bankarbeitstag)
