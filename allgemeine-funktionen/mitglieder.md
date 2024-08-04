@@ -1,6 +1,5 @@
 # Mitglieder
 
-## Suche
 
 ### Allgemein
 

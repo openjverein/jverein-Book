@@ -19,8 +19,8 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 * Sollbuchung bearbeiten: Bearbeiten der Sollbuchung
 * Sollbuchung löschen: Löschen der Sollguchungen
 * Mitglied anzeigen: Öffnet das Mitglied zur Sollbuchung
-* Rechnung erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen
-* Mahnung erstellen: Erstellt Mahnungen für die selektierten Sollbuchungen
+* Rechnung erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen. Siehe [Rechnungen](rechnungen.md)
+* Mahnung erstellen: Erstellt Mahnungen für die selektierten Sollbuchungen. Siehe [Mahnungen](mahnungen.md)
 
 
 ## Buchungen einer Sollbuchung zuordnen <a id="mitgliedskontozuordnen"></a>
@@ -53,15 +53,7 @@ Hier kann nur nach dem Namen gefiltert werden.
 
 In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" angehakt werden. Mit dieser Option werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
 
-## Rechnungen
-
-Siehe [Rechnungen.](rechnungen.md)
-
-## Mahnungen
-
-Siehe [Mahnungen](mahnungen.md)
-
-Spalten im Export
+## Spalten im Export
 
 Exportieren Sie Rechnungsdaten oder Mahnungsdaten so haben Sie in der CSV Datei die Spalten des Mitglieds und des Mitgliedskontos
 

@@ -1,8 +1,8 @@
 # Mitgliedskonto
 
-![](../../assets/mitgliedskontomitglied.png)
-
 In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen \(Rechnersymbol\), sowie die einzelnen zugeordneten Istbuchungen \(Euro-Symbol\) angezeigt.
+
+![](../../assets/mitgliedskontomitglied.png)
 
 Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü. Damit können neue Sollbuchungen aufgenommen werden.
 

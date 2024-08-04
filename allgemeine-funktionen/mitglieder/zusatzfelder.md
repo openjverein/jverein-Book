@@ -2,4 +2,4 @@
 
 ![](../../assets/mitgliedzusatzfelder.png)
 
-Durch [Felddefinitionen](administration/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
+Durch [Felddefinitionen](../administration/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
