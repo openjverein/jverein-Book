@@ -1,26 +1,8 @@
-# Projekte
-
-## Einleitung
-
-Innerhalb der Buchführung können Buchungen zu Projekten zusammengefasst werden. Siehe auch [https://jverein-forum.de/viewtopic.php?f=4&t=646](https://jverein-forum.de/viewtopic.php?f=4&t=646)
-
-Die Verwendung von Projekten ist dann sinnvoll, wenn die Informationen, die die normalen Auswertungen liefern, für bestimmte Fragestellungen nicht genügen. Üblicherweise werden die Buchungsklassen und die Buchungsarten darin so angelegt wie es z.B. für steuerliche Gründe sinnvoll oder gar vorgegeben ist. Buchungen, die sachinhaltlich zusammengehören, müssen dann meist aber auf verschiedene Buchungsarten verteilt werden so dass sich der Sachzusammenhang alleine aus den Salden der Buchungsklasse u.U. nicht mehr ergibt.
-
-Indem bei einer Buchung ein Projekt hinterlegt wird, können zusammengehörige Buchungen über das Projekt ausgewertet werden.
+# Projekt-Saldo
 
 ## Einstellungen
 
 Unter Administration\|Buchführung\|Projekte werden die Projekte angelegt bzw. bearbeitet.
-
-![](../../assets/projekteliste.png)
-
-Mit neu kann ein neues Projekt eingerichtet werden.
-
-![](../../assets/projekt.png)
-
-## Auswertung
-
-Informationen zu Projekten liefert die Funktion Projekt-Saldo \(zu finden unter Buchführung\|Projekte\), Detailinformation filtert man unter Buchführung\|Buchungen.
 
 ## Projekt-Saldo
 

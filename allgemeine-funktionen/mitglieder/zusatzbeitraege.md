@@ -8,4 +8,4 @@ Ein Klick auf Neu öffnet folgendes Fenster:
 
 ![](../../assets/mitgliedzusatzbetraegeneu.png)
 
-Weitere Informationen dazu: [Zusatzbeiträge](zusatzbetrage.md)
+Weitere Informationen dazu: [Zusatzbeiträge](../zusatzbetrage.md)

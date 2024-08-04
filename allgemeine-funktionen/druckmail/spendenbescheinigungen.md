@@ -2,7 +2,7 @@
 
 ## Spendenbescheinigung selektiv per Mail versenden
 
-Durch eine Klick auf den Menüpunkt Spendenbescheinigungen versenden wird der Spendenbescheinigung Mail View an gezeigt.
+Möchten Sie eine Spendenbescheinigung selektiv erstellen, so öffnen Sie den Dialog für Spendenbescheinigungen. Wählen Sie den Filter so, dass die gewünschten Spendenbescheinigungen angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Spendenbescheinigungen versenden". Es öffnet sich hier der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
 ![](../../assets/spendenbescheinigung_mail.png)
 
@@ -16,7 +16,7 @@ In den Parametern lässt sich einstellen ob das Standard oder ein individuelles 
 
 Im Bereich Mail lässt sich der Betreff und der Mailtext eingeben.
 
-Durch Klick auf den Senden Button werden die Spendenbescheinigungen an die Mitglieder versendet.
+Durch Klick auf den Starten Button werden die Spendenbescheinigungen an die Mitglieder versendet.
 
 ## Spendenbescheinigung automatisch drucken oder per Mail versenden
 
