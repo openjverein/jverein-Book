@@ -79,5 +79,5 @@ Ausgabe der Summen pro Buchungsart.
 
 ![](../../assets/buchung.png)
 
-Siehe auch [Mitgliedskonto, ](../mitgliedskonto.md)[Splittbuchungen](splittbuchungen.md)
+Siehe auch [Sollbuchungen](../mitgliedskonto.md), [Splittbuchungen](splittbuchungen.md)
 

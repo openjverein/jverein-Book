@@ -6,5 +6,5 @@ Alle Mitglieder, für die der Familientarif gilt, sind einzeln einzugeben. Zur A
 
 ## Übersicht
 
-In der Übersicht "Familienbeitrag" werden alle Familienverbände in Form eines Baumes aufgelistet. Es werden jeweils der Zahler mit den Angehörigen dargestellt.
+In der Übersicht [Familienbeitrag](../allgemeine-funktionen/mitglieder/familienbeitrag.md) werden alle Familienverbände in Form eines Baumes aufgelistet. Es werden jeweils der Zahler mit den Angehörigen dargestellt.
 

@@ -1,6 +1,6 @@
 # Zahlung
 
-![](../../assets/mitgliedzahlung.png)
+![](../../../assets/mitgliedzahlung.png)
 
 Als Zahlungswege stehen
 
@@ -18,6 +18,6 @@ Das Datum des Mandats muss angegeben werden.
 
 Zusätzlich kann ein abweichender Kontoinhaber angegeben werden:
 
-![](../../assets/mitgliedzahlung2.png)
+![](../../../assets/mitgliedzahlung2.png)
 
 Mit dem Button "Mitglied-Daten übernehmen" werden einige der Daten des Mitglieds übertragen. Hinweis: Es werden nicht alle Daten übertragen, da es sich um einen abweichenden Kontoinhaber handelt. Z. B. der Vorname wird nicht übertragen.
