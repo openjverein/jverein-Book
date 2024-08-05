@@ -2,7 +2,7 @@
 
 ## Abrechnung
 
-Die [Abrechnung](abrech/abrechnung.md) schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle [Mitgliedskonto](mitglieder/content/mitgliedskonto.md) des Mitglieds. Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
+Die [Abrechnung](../abrech/abrechnung.md) schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds. Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
 
 ## Sollbuchungenübersicht <a id="mitgliedskontouebersicht"></a>
 
