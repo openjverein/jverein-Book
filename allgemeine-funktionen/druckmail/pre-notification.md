@@ -22,7 +22,7 @@ Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ei
 
 ## Pre-Notification schriftlich und per E-Mail
 
-Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](../administration/formulare.md) dafür angelegt werden.
+Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](../administration/mitglieder/formulare.md) dafür angelegt werden.
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 

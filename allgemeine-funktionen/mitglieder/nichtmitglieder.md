@@ -6,7 +6,7 @@ Neben den Mitgliedern können Spender/innen und weitere Nicht-Mitglieder gespeic
 
 Ein Nicht-Mitglied kann bei Bedarf später in ein Mitglied umgewandelt werden: In der Liste rechte Maustaste und dann "Zu Mitglied umwandeln".
 
-![](../assets/nichtmitgliedsuche.png)
+![](../../assets/nichtmitgliedsuche.png)
 
-![](../assets/adressen.png)
+![](../../assets/nichtmitglieder.png)
 

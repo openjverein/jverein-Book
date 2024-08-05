@@ -77,9 +77,9 @@ Die vorzunehmenden Einstellungen sind selbsterklärend. Man sollte jeden Reiter 
 Folgende Einstellungen müssen noch vorgenommen werden, um JVerein produktiv zu machen:
 
 * [Konten](../allgemeine-funktionen/buchf/konten.md) aus Hibiscus "importieren" / übernehmen
-* [Buchungsklasse](../allgemeine-funktionen/buchf/buchungsklasse.md) - hier mindestens den "Ideellen Bereich" einrichten
+* [Buchungsklasse](../allgemeine-funktionen/administration/admbuchf/buchungsklasse.md) - hier mindestens den "Ideellen Bereich" einrichten
 * [Buchungsart](../allgemeine-funktionen/administration/admbuchf/buchungsart.md) - hier mindestens "Mitgliedsbeitrag" einrichten
-* [Beitragsgruppen](../allgemeine-funktionen/administration/beitragsgruppen.md) - hier mindesten eine Beitragsgruppe einrichten
+* [Beitragsgruppen](../allgemeine-funktionen/administration/mitglieder/beitragsgruppen.md) - hier mindesten eine Beitragsgruppe einrichten
 
 An diesem Punkt sollte JVerein beendet werden um den Benutzerordner zu sichern. Der Sinn dahinter ist, dass das folgenden Ausprobieren Spuren in den Datenbanken hinterlässt. Einige Benutzer möchten mit einer "sauberen" Datenbank arbeiten. Sauber wird hierbei unter anderem so definiert, dass keine Testbuchungen oder Testkategorien existieren UND die Datenbankzähler \(stetig fortlaufende Nummern\) "richtig" bei 1 starten. Das Ausprobieren und Testen der Software treibt die Datenbankzähler jedoch in die Höhe. Funktionell dürfte sich bei der einen oder anderen Variante kein Unterschied ergeben.
 

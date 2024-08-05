@@ -11,7 +11,7 @@ Es gibt eine zentrale Übersicht über alle Sollbuchungen. Die Buchungen können
 Zudem lässt sich filtern ob das Mitglied per Lastschift zahlt oder eine Mailadresse hat. Letzteres ist interessant wenn die Rechnungen bzw. Mahnungen per Mail versendet werden sollen.
 
 
-![](../assets/sollbuchungenliste.png)
+![](../../assets/sollbuchungenliste.png)
 
 Durch einen Doppelklick auf die Sollbuchung wird die Sollbuchung angezeugt.
 
@@ -24,13 +24,13 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 
 ## Buchungen einer Sollbuchung zuordnen <a id="mitgliedskontozuordnen"></a>
 
-Unter Buchführung&gt;[Buchungen](buchf/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
+Unter Buchführung&gt;[Buchungen](../buchf/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
 
-![](../assets/mitgliedskontobuchungen.png)
+![](../../assets/mitgliedskontobuchungen.png)
 
 Durch einen Klick auf ... neben Sollbuchung erscheint folgender Dialog:
 
-![](../assets/sollbuchung-zuordnung-ist.png)
+![](../../assets/sollbuchung-zuordnung-ist.png)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
@@ -46,7 +46,7 @@ Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuc
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \(neue\) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-![](../assets/sollbuchung-zuordnung-soll+ist.png)
+![](../../assets/sollbuchung-zuordnung-soll+ist.png)
 
 Hier kann nur nach dem Namen gefiltert werden.
 

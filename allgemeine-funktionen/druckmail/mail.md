@@ -8,37 +8,27 @@ Der Empfang von Mails ist nicht vorgesehen.
 
 Die Konfiguration ist unter Einstellungen beschrieben.
 
-## Mail-Vorlagen
-
-Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit durch Mailvorlagen minimiert werden.
-
-![](../assets/mailvorlagen.png)
-
-Durch einen Doppelklick auf den Betreff oder durch einen Klick auf neu öffnet sich das Bearbeitungsfenster.
-
-![](../assets/mailvorlage.png)
-
 ## Mails
 
 In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatum angezeigt.
 
 Über den Filter kann nach verschiedenen Kriterien gefiltert werden z.B. nach "Mail Empfänger" um zu sehen welche Mails an jemanden versendet wurden.
 
-![](../assets/mails-2.png)
+![](../../assets/mails-2.png)
 
 Durch einen Klick auf neu öffnet sich ein Mail-Vorlagen-Auswahlfenster:
 
-![](../assets/mailvorlagenauswahl.png)
+![](../../assets/mailvorlagenauswahl.png)
 
 Entweder wird eine Mailvorlage ausgewählt oder es geht ohne Vorlage weiter.
 
 Ein Doppelklick auf eine Mail öffnet das Bearbeitungsfenster.
 
-![](../assets/mail.png)
+![](../../assets/mail.png)
 
 Durch einen Klick auf Hinzufügen öffnet sich folgendes Auswahlfenster:
 
-![](../assets/mailempfaengerauswahl.png)
+![](../../assets/mailempfaengerauswahl.png)
 
 In diesem Fenster sind zunächst alle an- und abgemeldeten Mitglieder sowie alle weiteren Adressen aufgelistet, bei denen eine E-Mail-Adresse hinterlegt ist. Mail-Empfänger können nun einzeln durch Setzen des Häckchens vor der E-Mail-Adresse ausgewählt werden. Ferner stehen \(ab Version 2.8.4\) folgende Filter bzw. Selektoren zur Verfügung:
 
@@ -53,11 +43,11 @@ Die obigen Filter/Selektoren wirken additiv, mit keinen wird die komplette Auswa
 
 Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst werden:
 
-![](../assets/mitgliedmailversand.png)
+![](../../assets/mitgliedmailversand.png)
 
 ## Variablen
 
 Im Betreff und im Text können Variable eingefügt werden, die beim Mailversand mit den konkreten Daten gefüllt werden. Mit Rechtsklick auf den Empfänger können die verfügbaren Variablen und ihre Belegung angezeigt werden.
 
-siehe auch [Mitglieder](mitglieder.md) und [Variable](../sonstiges/variable.md)
+siehe auch [Mitglieder](../mitglieder/content/mitglieder.md) und [Variable](../../sonstiges/variable.md)
 

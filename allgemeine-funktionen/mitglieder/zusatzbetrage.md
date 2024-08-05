@@ -19,11 +19,11 @@ Die Zusatzbeträge können sowohl bei jedem Mitglied auf dem entsprechenden Reit
 * noch nicht ausgeführte Beträge
 * nach den verschieden Ausführungsterminen.
 
-![](../assets/zusatzabbuchungenuebersicht-2.png)
+![](../../assets/zusatzabbuchungenuebersicht-2.png)
 
 Durch einen Doppelklick auf einen Zusatzbetrag wird der Bildschirm für die Bearbeitung geöffnet. 
 
-![](../assets/mitgliedzusatzabbuchungneu.png)
+![](../../assets/mitgliedzusatzabbuchungneu.png)
 
 Mit einem Rechtsklick öffnet sich ein Menü. Damit kann
 
