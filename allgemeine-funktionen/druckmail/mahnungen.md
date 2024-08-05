@@ -14,7 +14,7 @@ Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wähle
 
 Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](../assets/mitgliedmahnung2.png)
+![](../../assets/mitgliedmahnung2.png)
 
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Rechnung exportieren.
 
@@ -24,7 +24,7 @@ Um automatisch Mahnungen zu erstellen wählen Sie im Navigations Baum dem Menü 
 
 Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Sollbuchungen Dialog. Es werden dann Mahnungen für alle Sollbuchungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
 
-![](../assets/mitgliedmahnung1.png)
+![](../../assets/mitgliedmahnung1.png)
 
 Tip:
 

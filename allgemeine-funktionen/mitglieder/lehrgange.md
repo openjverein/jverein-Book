@@ -9,7 +9,7 @@ Der Übersicht View für Lehrgänge zeigt alle vorhandenen Lehrgänge an.
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../assets/lehrgaenge_liste.png)
+![](../../assets/lehrgaenge_liste.png)
 
 ## Lehrgang löschen
 

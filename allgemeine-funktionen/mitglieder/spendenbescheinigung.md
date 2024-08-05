@@ -1,6 +1,6 @@
 # Spendenbescheinigung
 
-Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](administration/formulare.md) für den individuellen Druck eingerichtet werden.
+Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
 
 ## Übersicht
 
@@ -10,7 +10,7 @@ Der Filterbereich erlaubt es nach verschiedenen Kriterien zu filtern.
 
 Über den Filter "Mail" lassen sich z.B. Spendenbescheinigungen finden für deren Spender keine Mail Adressen hinterlegt sind. Diese können dann nicht per Mail verschickt werden sondern nur per Brief.
 
-![](../assets/spendenbescheinigungen.png)
+![](../../assets/spendenbescheinigungen.png)
 
 In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung:
 
@@ -22,7 +22,7 @@ Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitung
 
 Mit einem Rechtsklick öffnet sich ein Kontextmenü.
 
-![](../assets/spendenbescheinigung_menu3.png)
+![](../../assets/spendenbescheinigung_menu3.png)
 
 Damit können Spendenbescheinigungen gelöscht oder als Vorlage gespeichert werden.
 
@@ -38,11 +38,11 @@ Tipp:
 
 In der Mitgliedersuche kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Geldpendenbescheinigung oder Sachspendenbescheinigung auswählen. Dann wird das Spendenbescheinigungsformular mit den Daten des Mitglieds gefüllt. Geldspendenbescheinigungen werden dabei automatisch erzeugt (siehe unten).
 
-![](../assets/spendenbescheinigung_menu1.png)
+![](../../assets/spendenbescheinigung_menu1.png)
 
 Alternativ kann im Mitglieds View unter dem Tab Mitgliedskonto das Mitglied bzw. eine Istbuchung ausgewählt werden. Mit einem Klick auf die rechte Maustaste ein Kontextmenü um die Spendenbescheinigungen zu erstellen.
 
-![](../assets/spendenbescheinigung_menu2.png)
+![](../../assets/spendenbescheinigung_menu2.png)
 
 Neben der manuellen Erstellung von Spendenbescheinigungen können Geldspendenbescheinigungen auch automatisch aus dem Mitgliedskonto erzeugt werden.
 
@@ -54,7 +54,7 @@ Voraussetzungen für die automatische Generierung von Geldspendenbescheinigungen
 
 Im Spendenbescheinigung View lässt sich die Spendenbescheinigung bearbeiten. Ebenso lässt sich die Spendenbescheinigung über die Drucken Buttons ausdrucken bzw. eine Sachspende mit den Spender Daten der aktuellen Spendenbescheinigung erstellen.
 
-![](../assets/spendenbescheinigung.png)
+![](../../assets/spendenbescheinigung.png)
 
 ## Einzel- oder Sammelbestätigungen
 
@@ -79,7 +79,7 @@ Sammelbestätigungen für Geldspenden können auf zwei Arten erzeugt werden:
 
 In der Übersicht über Spendenbescheinigungen können über den Button \"Neu \(Geldspenden\)\" Geldspendenbescheinigungen generiert werden. Hier kommen die Einstellungen zum Tragen. Es werden nur für die Mitglieder oder Spender Spendenbescheinigungen erzeugt, die eine vollständige Adresse \(Straße und PLZ und Ort\) eingetragen haben. Außerdem werden nur die Mitglieder oder Spender erfasst, deren Spendenbetrag &gt;= dem Mindestbetrag in den Einstellungen ist.
 
-![](../assets/spendenbescheinigung_auto.png)
+![](../../assets/spendenbescheinigung_auto.png)
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen \(Einzel / Sammel\) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 
@@ -96,7 +96,7 @@ Der Ausdruck über die Buttons funktioniert nur, wenn die Spendenbescheinigung b
 
 ### Formulare
 
-Vorlagen von [Formulare](administration/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden \(siehe auch Formularfelder\).
+Vorlagen von [Formulare](../administration/mitglieder/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden \(siehe auch Formularfelder\).
 
 ### Formularfelder
 
