@@ -44,7 +44,7 @@ Es werden keine Beiträge abgerechnet. Dieser Parameter ist zu setzen, wenn auss
 
 **Alle**
 
-Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../../allgemein/beitragsmodelle.md) abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [Beitragsgruppen](../administration/beitragsgruppen.md) und Zahlungsrhythmus sowie ggfls. individuelle Beiträge berücksichtigt.
+Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../../allgemein/beitragsmodelle.md) abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [Beitragsgruppen](../administration/admbuchf/beitragsgruppen.md) und Zahlungsrhythmus sowie ggfls. individuelle Beiträge berücksichtigt.
 
 **Eingetretene Mitglieder**
 
@@ -68,17 +68,17 @@ Stichtag für die Berechnung der Mitgliedschaft und der Fälligkeit von Zusatzbe
 
 **Zahlungsgrund für Beiträge**
 
-Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird auf [Rechnungen](../rechnungen.md), [Mahnungen](../mahnungen.md) und bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/beitragsgruppen.md) und dem Betrag\) ausgegeben.
+Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird auf [Rechnungen](../druckmail/rechnungen.md), [Mahnungen](../druckmail/mahnungen.md) und bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und dem Betrag\) ausgegeben.
 
-Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../zusatzbetrage.md)\).
+Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)\).
 
 **Zusatzbeträge**
 
-Mit dieser Option werden die [Zusatzbeträge](../zusatzbetrage.md) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
+Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
 
 **Kursteilnehmer**
 
-Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [Zusatzbeträge](../zusatzbetrage.md) an.
+Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) an.
 
 **Kompakte Abbuchung**
 
@@ -96,6 +96,6 @@ Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglie
 
 ### Weitere Informationen
 
-Verwandte Themen: [Abrechnungslauf](abrechnungslauf.md), [Pre-Notification](pre-notification.md), [Rücklastschrift](rucklastschrift.md), [Rechnungen](../rechnungen.md), [Sollbuchungen](../mitgliedskonto.md)
+Verwandte Themen: [Abrechnungslauf](abrechnungslauf.md), [Pre-Notification](../druckmail/pre-notification.md), [Rücklastschrift](rucklastschrift.md), [Rechnungen](../druckmail/rechnungen.md), [Sollbuchungen](../mitglieder/mitgliedskonto.md)
 
 [https://de.wikipedia.org/wiki/Bankarbeitstag](https://de.wikipedia.org/wiki/Bankarbeitstag)
