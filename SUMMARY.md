@@ -54,6 +54,7 @@
     * [Splittbuchungen](allgemeine-funktionen/buchf/splittbuchungen.md)
     * [Buchungsübernahme](allgemeine-funktionen/buchf/buchungsubernahme.md)
     * [Buchungsimport](allgemeine-funktionen/buchf/buchungsimport.md)
+    * [Buchungskorrektur](allgemeine-funktionen/buchf/buchungskorrektur.md)
     * [Buchungsklassensaldo](allgemeine-funktionen/buchf/buchungsklasse.md)
     * [Projektsaldo](allgemeine-funktionen/buchf/projekte.md)
     * [Kontensaldo](allgemeine-funktionen/buchf/kontensaldo.md)
