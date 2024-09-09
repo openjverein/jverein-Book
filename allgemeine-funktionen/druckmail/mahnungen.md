@@ -28,7 +28,7 @@ Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angez
 
 Tip:
 
-Falls Sie Mahnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe EMAIL. Damit versenden sie die Mahnung an alle Mitglieder die eine Mail Adresse haben.
+Falls Sie Mahnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe MAIL. Damit versenden sie die Mahnung an alle Mitglieder die eine Mail Adresse haben.
 
 Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
 
@@ -41,4 +41,3 @@ Wählen Sie in der Auswahlbox Formular dasjenige Formular, mit dem Sie die Mahnu
 ## Mahnungsdaten exportieren
 
 Sollen die Mahnungsdaten exportiert werden, so drücken Sie im Dialog Mahnung den Schalter Export. Es öffnet sich ein Dialog der den Speicherort und den Dateinamen der CSV abfragt. Bestätigen Sie diesen Dialog, werden die Mahnungsdaten in diese Dateien exportiert und können danach z.B. für einen Serienbrief verwendet werden.
-

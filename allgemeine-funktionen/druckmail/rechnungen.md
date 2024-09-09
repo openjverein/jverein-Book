@@ -20,7 +20,7 @@ Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zug
 
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Rechnung exportieren.
 
-## Rechnungen automatisch erstellen 
+## Rechnungen automatisch erstellen
 
 Um automatisch Rechnungen zu erstellen wählen Sie im Navigations Baum dem Menü Eintrag "Rechnungen" aus. Es öffnet sich ebenfalls der Dialog Rechnungen.
 
@@ -30,7 +30,7 @@ Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angez
 
 Tip:
 
-Falls Sie Rechnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe EMAIL. Damit versenden sie die Rechnung an alle Mitglieder die eine Mail Adresse haben.
+Falls Sie Rechnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe MAIL. Damit versenden sie die Rechnung an alle Mitglieder die eine Mail Adresse haben.
 
 Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
 
@@ -47,4 +47,3 @@ Rechnungen können per Mail versandt werden. Dazu muss die Mailkonfiguration abg
 Sollen die Rechnungsdaten exportiert werden, so drücken Sie im Dialog Rechnung den Schalter Export. Es öffnet sich ein Dialog der den Speicherort und den Dateinamen der CSV abfragt. Bestätigen Sie diesen Dialog, werden die Rechnungsdaten in diese Dateien exportiert und können danach z.B. für einen Serienbrief verwendet werden.
 
 Für die einzelnen Zahlungswege können Texte unter Administration\|Einstellungen\|Rechnungen hinterlegt werden.
-

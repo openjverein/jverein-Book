@@ -22,7 +22,7 @@ Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche kei
 
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
 
-## Kontoauszüge automatisch erstellen 
+## Kontoauszüge automatisch erstellen
 
 Um automatisch Kontoauszüge zu erstellen wählen Sie im Navigations Baum dem Menü Eintrag "Kontoauszüge" aus. Es öffnet sich ebenfalls der Dialog Kontoauszug.
 
@@ -36,6 +36,6 @@ Da der Filter hier eine Untermenge des Filters im Mitglied bzw. Nicht-Mitglied D
 
 Tip:
 
-Falls Sie Kontoauszüge per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe EMAIL. Damit versenden sie die Kontoauszüge an alle Mitglieder die eine Mail Adresse haben.
+Falls Sie Kontoauszüge per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe MAIL. Damit versenden sie die Kontoauszüge an alle Mitglieder die eine Mail Adresse haben.
 
 Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
