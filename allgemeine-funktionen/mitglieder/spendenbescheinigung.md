@@ -2,7 +2,11 @@
 
 Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
 
-## Übersicht
+## Allgemeines
+
+JVerein unterstützt das Erstellen von:
+* Sachspendenbescheinigungen
+* Geldspendenbescheinigungen
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
@@ -12,85 +16,75 @@ Der Filterbereich erlaubt es nach verschiedenen Kriterien zu filtern.
 
 ![](../../assets/spendenbescheinigungen.png)
 
-In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung:
-
-Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
-
-Über die Buttons in der Buttonleiste stehen die Erzeugung einer neuen bzw. die automatische Generierung \(siehe unten\) von Spendenbescheinigungen zur Verfügung.
-
-Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitungsfenster \(siehe unten\).
-
-Mit einem Rechtsklick öffnet sich ein Kontextmenü.
+In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung.
 
 ![](../../assets/spendenbescheinigung_menu3.png)
 
 Damit können Spendenbescheinigungen gelöscht oder als Vorlage gespeichert werden.
 
-Es ist möglich eine Mail an den Spender zu schreiben oder die ausgewählten Spendenbescheinigungen per Mail an die Spender zu schicken (siehe weiter unten).
+Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitungsfenster.
 
-Durch einen Klick auf PDF wird die Spendenbescheinigung im PDF-Format ausgegeben. Dabei gibt es mehrere Möglichkeiten:
-* PDF (Standard): Dies benötigt kein Formular und benutzt einen festen Aufbau.
-* PDF (Standard, Mit Adressblatt): Dies benötigt kein Formular und benutzt einen festen Aufbau. Drucken ist gedacht wenn die Spendenbescheinigung per Brief versand werden soll. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
-* PDF (Individuell): Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt.
-* PDF (Individuell, Mit Adressblatt)): Es wird eine Spendenbescheinigung unter Verwendung des für die Spendenbescheinigung konfigurierten Formulars erzeugt. Es wird eine Anschrift auf einer zusätzlichen Seite ausgedruckt welche in ein Brieffenster passt.
+Es ist möglich eine Mail an den Spender zu schreiben oder die ausgewählten Spendenbescheinigungen zu drucken oder per Mail an die Spender zu schicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md).
 
-Tipp:
+Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
 
-In der Mitgliedersuche kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Geldpendenbescheinigung oder Sachspendenbescheinigung auswählen. Dann wird das Spendenbescheinigungsformular mit den Daten des Mitglieds gefüllt. Geldspendenbescheinigungen werden dabei automatisch erzeugt (siehe unten).
+## Sachspendenbescheinigungen erstellen
 
-![](../../assets/spendenbescheinigung_menu1.png)
+Sachspendenbescheinigungen können auf verschiedene Art erzeugt werden:
 
-Alternativ kann im Mitglieds View unter dem Tab Mitgliedskonto das Mitglied bzw. eine Istbuchung ausgewählt werden. Mit einem Klick auf die rechte Maustaste ein Kontextmenü um die Spendenbescheinigungen zu erstellen.
+* In der Mitgliedersuche kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Sachspendenbescheinigung auswählen. Es wird das Spendenbescheinigungsformular mit den Daten des Mitglieds gefüllt.
 
-![](../../assets/spendenbescheinigung_menu2.png)
+  ![](../../assets/spendenbescheinigung_menu1.png)
 
-Neben der manuellen Erstellung von Spendenbescheinigungen können Geldspendenbescheinigungen auch automatisch aus dem Mitgliedskonto erzeugt werden.
+* Alternativ kann im Mitglieds View unter dem Tab Mitgliedskonto das Mitglied ausgewählt werden. Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigungen zu erstellen. Es wird das Spendenbescheinigungsformular mit den Daten des Mitglieds gefüllt.
+
+  ![](../../assets/spendenbescheinigung_menu2.png)
+
+* Als dritte Möglichkeit kann in der Liste Spendenbescheinigungen der Button "Neu \(Sachspende\)" gedrückt werden. Da hier kein Mitglied ausgewählt ist müssen die Daten des Spenders eingetragen werden.
+Es ist zu beachten, dass dabei kein Bezug zu einem Mitglied hergestellt wird und darum z.B. eine Versenden per Mail später nicht möglich ist da keine Mail Adresse hinterlegt ist.
+
+## Geldbescheinigungen erstellen
+
+### Voraussetzungen
+
+Um Geldspendenbescheinigungen erstellen zu können müssen verschiedene Voraussetzungen erfüllt sein:
+* Es muss eine Buchung \(Istbuchung\) in einem Konto existieren
+* Die Buchungsart der Buchung muss vom Typ Spende sein. Siehe Admimistration\|Buchführung\|Buchungsart Checkbox Spende.
+* Die Buchung muss einer Sollbuchung zugeordnet sein.
+
+Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiede Arten erzeugt werden.
+* Wird bei einem Abrechnungslauf bei Mitgliedern mit Lastschrift eine Sollbuchung erzeugt, wird automatisch auch eine Buchung ezeugt und diese der Sollbuchung zugeordnet.
+* Wird bei einem Abrechnungslauf bei Mitgliedern ohne Lastschrift eine Sollbuchung erzeugt muss die später erfolgte Buchung manuell der Sollbuchung zugeordnet werden. Siehe [Sollbuchungen](mitgliedskonto.md).
+* Wurde die Buchung ohne einen Abrechnungslauf erzeugt muss eine Sollbuchung erzeugt und die Buchung zugeordnet werden. Dies kann in einem Schritt erfolgen. Siehe zweite Option in [Sollbuchungen](mitgliedskonto.md).
+* Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen.
+
+### Geldspendenbescheinigung manuell erstellen
+
+Ähnlich einer Sachspendenbescheinigungen kann eine Geldspendenbescheinigung manuell erzeugt werden:
+
+* Im Mitglieds View unter dem Tab Mitgliedskonto eine Istbuchung auswählen \(Buchung mit Euro Symbol\). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Geldspendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum.
+
+### Geldspendenbescheinigung automatisch erstellen
 
 Voraussetzungen für die automatische Generierung von Geldspendenbescheinigungen:
 
-* Administration\|Allgemein Daten zum Verein und zu den Spendenbescheinigungen werden gespeichert.
-* Administration\|Buchungsarten mindestens eine Buchungsart hat ein Häkchen im Feld Spende
-* Buchung wurde einer Sollbuchung und einer Buchungsart mit dem Merkmal Spende zugeordnet.
+* Ein Mitglied wird nur berücksichtigt wenn Straße, Postleitzahl und Ort eingetragen ist.
+* Der Betrag der Bescheinigung muss größer sein als der Mindestbetrag der unter Administtration\|Einstellungen\|Spendenbescheinigungen eingetragen ist.
 
-Im Spendenbescheinigung View lässt sich die Spendenbescheinigung bearbeiten. Ebenso lässt sich die Spendenbescheinigung über die Drucken Buttons ausdrucken bzw. eine Sachspende mit den Spender Daten der aktuellen Spendenbescheinigung erstellen.
+Bei der automatischen Generierung werden nur die Buchungen erfasst, die noch keiner Spendenbescheinigung oder Sammelbestätigung zugewiesen wurden. Es werden niemals für eine Buchung mehrere Bescheinigungen generiert.
 
-![](../../assets/spendenbescheinigung.png)
+Geldspendenbescheiniguungen können automatisch auf mehrere Arten erzeugt werden:
 
-## Einzel- oder Sammelbestätigungen
+* In der Mitgliedersuche kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Geldspendenbescheinigung auswählen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die erste Buchung bestimmt das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen.
+* Alternativ kann im Mitglieds View unter dem Tab Mitgliedskonto das Mitglied ausgewählt werden. Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigungen zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die erste Buchung bestimmt das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen.
+* In der Übersicht über Spendenbescheinigungen können über den Button \"Neu \(Geldspenden\)\" Geldspendenbescheinigungen generiert werden.
 
-Spendenbescheinigungen können in Form von Einzelbestätigungen oder Sammelbestätigungen erzeugt werden. Es sind zwei Formular-Arten \(Spendenbescheinigung und Sammelbestätigung\) hierfür vorgesehen.
 
-### Einzelbestätigungen
-
-Einzelbestätigungen können auf drei Arten erzeugt werden:
-
-* manuell durch Eingabe aller Daten
-* aus einem Mitglied / Mitgliedskonto \(rechts Klick auf Istbuchung\) heraus für eine einzelne Buchung. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum.
-* Automatische Generierung \(siehe unten\)
-
-### Sammelbestätigungen
-
-Sammelbestätigungen für Geldspenden können auf zwei Arten erzeugt werden:
-
-* aus einem Mitglied oder einem Mitglied / Mitgliedskonto \(rechts Klick auf Mitgliedsname\) heraus für alle Buchungen im Mitgliedskonto. Es werden nur die Buchungen erfasst, die noch auf keiner Spendenbescheinigung oder Sammelbestätigung ausgewiesen wurden. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die erste Buchung bestimmt das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen.
-* Automatische Generierung \(siehe unten\)
-
-### Automatische Generierung von Spendenbescheinigungen
-
-In der Übersicht über Spendenbescheinigungen können über den Button \"Neu \(Geldspenden\)\" Geldspendenbescheinigungen generiert werden. Hier kommen die Einstellungen zum Tragen. Es werden nur für die Mitglieder oder Spender Spendenbescheinigungen erzeugt, die eine vollständige Adresse \(Straße und PLZ und Ort\) eingetragen haben. Außerdem werden nur die Mitglieder oder Spender erfasst, deren Spendenbetrag &gt;= dem Mindestbetrag in den Einstellungen ist.
-
-![](../../assets/spendenbescheinigung_auto.png)
+  ![](../../assets/spendenbescheinigung_auto.png)
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen \(Einzel / Sammel\) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 
-Über den Button _erstellen_ werden Spendenbescheinigungen erzeugt.
-
-### Spendenbescheinigung \(Einzeldarstellung\)
-
-In der Einzeldarstellung wird der Ausdruck über Buttons ebenfalls angeboten. Im Unterschied zum Druck aus der Liste heraus wird zunächst der Datei-Dialog mit der Voreinstellung des Spendenbescheinigungsverzeichnisses aus den Einstellungen und dem erzeugten Namen angeboten. Hier kann das Verzeichnis und der Name noch einmal korrigiert werden.
-
-Der Ausdruck über die Buttons funktioniert nur, wenn die Spendenbescheinigung bereits einmal gespeichert wurde. Die Aktionen neu und drucken direkt hintereinander werden mit einer Fehlermeldung abgewiesen.
-
+Über den Button _Erstellen_ werden die Spendenbescheinigungen erzeugt.
 
 ## Weitere Anpassungen
 
@@ -157,4 +151,3 @@ Hie lässt sich ein Bild der Unterschrift einfügen welche entsprechend der sele
 #### Spendenbescheinigung Anhang bei Mail Versand in DB spechern
 
 Ist das Häkchen gesetzt, wird die Spendenbescheingung bei Mailversand zusammen mit der Mail in der Datenbank gespeichert. Öffnet man die Mail erneut wird der Anhang mit angezeigt.
-

@@ -25,7 +25,7 @@ Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](
 
 Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
-![](../assets/mitgliedsuche.png)
+![](../../../assets/mitgliedsuche.png)
 
 ### Filterung nach Eigenschaften
 
@@ -35,17 +35,17 @@ Folgende Eigenschaften-verknüpfungen sind möglich:
 * "und": D.h. es werden nur die Mitglieder angezeigt, die alle Eigenschaften haben.
 * "oder": D.h. es werden die Mitglieder angezeigt, die mindestens eine der ausgewählten Eigenschaften haben.
 
-![](../assets/mitgliedsucheeigenschaften13.png)
+![](../../../assets/mitgliedsucheeigenschaften13.png)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % \(0...n beliebige Zeichen\) und \_ \(genau 1 beliebiges Zeichen\) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](../assets/mitgliedsuchezusatzfelder.png)
+![](../../../assets/mitgliedsuchezusatzfelder.png)
 
 ## Kontextmenu
 
-![](../assets/spendenbescheinigung_menu1.png)
+![](../../../assets/spendenbescheinigung_menu1.png)
 
 ### Bearbeiten
 
@@ -110,5 +110,3 @@ Ausgabe aller zu einem Mitglied gespeicherten Daten \(Ausnahme: Ggfls. gespeiche
 ### Manuelle Lastschrift...
 
 Generierung einer manuellen Lastschrift in Hibiscus.
-
-
