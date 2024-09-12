@@ -45,7 +45,9 @@ Im Block Parameter bei Ausgabe muss EMail eingestellt werden.
 
 Im Block Mail wird der Mail-Text eingegeben und schließlich der Startknopf gedrückt.
 
-Hinweis: Für die Pre-Notification-Mail gibt es keine E-Mail Vorlage\(n\). Der Inhalt des E-Mailformulars wird jedoch gespeichert und steht für zukünftige Versendungen zur Verfügung sobald der Startknopf gedrückt wurde. Dies löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/e-mails zu hantieren.
+Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
+
+Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/e-mails zu hantieren.
 
 Die versendeten Pre-Notification-E-Mails werden nach dem Versand beim jeweiligen Mitglied in der Mail-Historie gespeichert.
 
@@ -70,7 +72,7 @@ Das Fälligkeitsdatum: $lastschrift_abrechnungslauf_faelligkeit
 Der Verwendungszweck: $lastschrift_verwendungszweck
 Der Betrag: $lastschrift_betrag Euro
 
-Fragen und Korrekturen bitte an: EMAILADRESSE___ 
+Fragen und Korrekturen bitte an: EMAILADRESSE___
 
 Mit freundlichen Grüßen
 die Verwaltung
@@ -112,4 +114,3 @@ In der Mail können im Betreff und im Text, bei der 1ct-Überweisung im Verwendu
 * Das E-Mailformular wird mit ausgeführtem E-Mailversand gespeichert.
 * Es gibt keine Pre-Notification E-Mailformulare.
 * Die Variablen in der Pre-Notification Mail sind NICHT identisch mit den Variablen eines "normalen" E-Mailversandes.
-

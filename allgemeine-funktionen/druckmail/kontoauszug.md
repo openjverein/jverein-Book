@@ -16,11 +16,15 @@ Möchten Sie einen Kontoauszug selektiv erstellen, so öffnen Sie den Dialog Mit
 
 Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
+Alternativ kann in der Detailansicht eines Mitglieds über den Button "Kontoauszug" der Dialog für dieses Mitglied geöffnet werden.
+
 Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
 ![](../../assets/kontoauszug2.png)
 
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
+
+Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/e-mails zu hantieren.
 
 ## Kontoauszüge automatisch erstellen
 
