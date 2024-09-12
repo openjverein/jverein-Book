@@ -4,7 +4,11 @@ In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen \
 
 ![](../../../assets/mitgliedskontomitglied.png)
 
-Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü. Damit können neue Sollbuchungen aufgenommen werden.
+Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü.
+
+![](../../../assets/spendenbescheinigung_menu2.png)
+
+Über den Menüpunkt "Neue Sollbuchung" können neue Sollbuchungen aufgenommen werden.
 
 ![](../../../assets/sollbuchungneu.png)
 

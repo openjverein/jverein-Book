@@ -1,8 +1,14 @@
 # Sollbuchungen
 
-## Abrechnung
+## Sollbuchungen automatisch erzeugen durch Abrechnungslauf
 
-Die [Abrechnung](../abrech/abrechnung.md) schreibt Informationen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds. Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
+Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds.
+
+Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
+
+## Sollbuchung manuell erstellen
+
+Um Sollbuchungen manuell zu erzeugen siehe [Mitgliedskonto](content/mitgliedskonto.md).
 
 ## Sollbuchungenübersicht <a id="mitgliedskontouebersicht"></a>
 
@@ -39,8 +45,8 @@ PS: Alternativ erreicht man diesen Dialog auch mit einem rechten Mausklick auf e
 Zur Filterung des Buchungen steht weiterhin Egal \(= eine beliebige Differenz\), Fehlbetrag oder Überzahlung zur Verfügung. Durch einen Klick auf entfernen wird die Mitgliedskontoinformation aus der Buchung entfernt. Damit können Fehleingaben korrigiert werden.
 
 Der obige Dialog hat zwei Registerkarten:
-- Istbuchung einer Sollbuchung zuordnen
-- Sollbuchung erzeugen und Istbuchung zuordnen
+- Istbuchung einer Sollbuchung zuordnen \(Option 1\)
+- Sollbuchung erzeugen und Istbuchung zuordnen \(Option 2\)
 
 Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuchung \(z.B. aus einem Abrechnungslauf\).
 
@@ -55,4 +61,3 @@ In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" angehakt we
 ## Spalten im Export
 
 Exportieren Sie Rechnungsdaten oder Mahnungsdaten so haben Sie in der CSV Datei die Spalten des Mitglieds und des Mitgliedskontos
-

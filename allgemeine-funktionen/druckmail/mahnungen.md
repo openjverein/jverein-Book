@@ -16,7 +16,9 @@ Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zug
 
 ![](../../assets/mitgliedmahnung2.png)
 
-Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Rechnung exportieren.
+Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Mahnung exportieren.
+
+Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/e-mails zu hantieren.
 
 ## Mahnungen automatisch erstellen
 
