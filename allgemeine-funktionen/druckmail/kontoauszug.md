@@ -24,7 +24,7 @@ Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche kei
 
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
 
-Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/e-mails zu hantieren.
+Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/E-Mails zu hantieren.
 
 ## Kontoauszüge automatisch erstellen
 

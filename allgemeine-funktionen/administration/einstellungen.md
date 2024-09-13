@@ -8,6 +8,7 @@ Die Pflichtfelder werden von der Abrechnung für die Erstellung der Lastschrifte
 
 ![](../../assets/einstellungenallgemein.png)
 
+
 ## Anzeige
 
 ![](../../assets/einstellungenanzeige.png)
@@ -117,6 +118,21 @@ Anzeige der kompletten Liste stellt eine Drop-Down-Liste mit allen Buchungsarten
 
 Wie sollen die Buchungsarten sortiert werden: nach Bezeichnung, nach Nummer oder nach Bezeichnung/Nummer.
 
+
+## Mitglieder Spalten
+
+![](../../assets/einstellungenmitgliederspalten.png)
+
+Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
+
+
+## Mitglieder Ansicht
+
+![](../../assets/einstellungenmitgliederansicht.png)
+
+Festlegung der Ansicht der Mitglieder Daten. Es kann ausgewählt werden welche Daten direkt angezeigt werden oder innerhalb der Tabs.
+
+
 ## Abrechnung
 
 ![](../../assets/einstellungenabrechnung.png)
@@ -149,7 +165,7 @@ Es können beim Erfassen der Arbeitsstunden nur positive Werte im Stundenfeld ei
 
 Beim Erfassen der Arbeitsstunden vom Mitgliedern können im Stundenfeld positive und negative Werte eingetragen werden. Positive und negative Werte können sich gegenseitig aufheben. Negative Werte können die Gesamtschuld an Arbeitsstunden bei einem Mitglied erhöhen und zu einer höheren Buchung von Zusatzbeiträgen führen.
 
-## Dateinamenmuster
+## Dateinamen
 
 ![](../../assets/einstellungendateinamen.png)
 
@@ -166,17 +182,35 @@ Folgende Variable stehen zur Verfügung:
 
 Verzeichnis für CSV-Vorlagen.
 
+
 ## Spendenbescheinigungen
 
 ![](../../assets/einstellungenspendenbescheinigungen.png)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 
-Mindestbetrag: Es werden nur Spendenbescheinigungen für Einzelspenden ausgestellt, die diesen Betrag übersteigen.
+Neben den steuerlich relevanten Informationen können folgende Daten konfiguriert werden.
 
-Verzeichnis: In einem Durchlauf können mehrere Spendenbescheinigungen erstellt werden. Jede Spendenbescheinigung wird in ein eigenes Dokument ausgegeben und in das angegebene Verzeichnis gespeichert.
+#### Mindestbetrag für Spendenbescheinigungen
 
-Buchungsart drucken: Im Normalfall wird der Verwendungszweck aus der Buchung in die Spendenbescheinigung übernommen. Sofern diese Option aktiviert wurde, wird der Text aus der Buchungsart genommen.
+Allgemeine Einstellung ab welchem Betrag eine Spendenbescheinigung erstellt werden soll. Diese Einstellung kommt bei der automatischen Generierung von Spendebescheinigungen zum Tragen.
+
+#### Verzeichnis für Spendenbescheinigungen
+
+Um ein flüssiges Erzeugen von mehreren Dokumenten zu ermöglichen, kann hier das Verzeichnis für die PDF-Dateien festgelegt werden. Wenn aus der Liste der Spendenbescheinigungen heraus die Dokumente generiert werden, werden sie in diese Verzeichnis geschrieben. Das Verzeichnis wird auch vorbelegt, wenn eine Dokumentenerstellung aus der Detailansicht Spendenbescheinigung erfolgt. Hier wird jedoch der Dateidialog angeboten.
+
+#### Buchungsart drucken
+
+Ist das Häkchen gesetzt, wird in der Buchungsliste nicht der Zweck aus der Buchung, sondern die der Buchung zugewiesene Buchungsart verwendet. Bei sprechenden Namen eine einheitlichere Darstellung.
+
+#### Unterschrift drucken
+
+Ist das Häkchen gesetzt, wird beim Standard Druck eine Unterschrift in die Spendenbescheinigung eingefügt.
+
+#### Unterschrift
+
+Hier lässt sich ein Bild der Unterschrift einfügen welche entsprechend der selektierten Option eingefügt wird.
+
 
 ## Buchführung
 
@@ -200,27 +234,23 @@ Zeige Kontonummer in der Buchungsliste.
 
 Umsatzsteueroption.
 
+
 ## Rechnungen
 
 ![](../../assets/einstellungenrechnungen.png)
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden.
 
-## Mitglieder Spalten
+Es ist möglich einen QR Code mit den Rechnungsdaten auf die Rechnung zu plazieren. Dazu sind die entsprechenden Felder zu konfigurieren.
 
-![](../../assets/einstellungenmitgliederspalten.png)
-
-Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
-
-## Mitglieder Ansicht
-
-![](../../assets/einstellungenmitgliederansicht.png)
-
-Festlegung der Ansicht der Mitglieder Daten. Es kann ausgewählt werden welche Daten direkt angezeigt werden oder innerhalb der Tabs.
 
 ## Mail <a id="einstellungenmail"></a>
 
-![](../../assets/mail-einstellungen-screenshot.png)
+In diesem Dialog sind die Daten für den Mailzugang einzurichen.
+
+![](../../assets/einstellungenmail.png)
+
+Über die Option "Bei Mail Versand von Formularen Anhang in DB speichern" lässt sich einstellen, ob bei versendeten Formularen wie z.B. Rechnung, Mahnung etc. der Mailanhang zusammen mit der Mail in der Datenbank gespeichert werden sollen. Damit lässt sich später beim betrachten der Mail auch der Anhang sehen.
 
 Alternativ zur EMail-Adresse kann auch der Name zur Absenderadresse hinzugefügt werden: "Mein Name &lt;vorstand@verein.de&gt;" Wichtig ist dabei das Format: \(Name\) \(Spitze Klammer auf\) \(Email\) \(Spitze Klammer zu\)
 
@@ -232,6 +262,7 @@ Um versendete EMails auch im EMail-Postfach \(und nicht nur in JVerein\) abzuleg
 2. Die EMail in den "Gesendete"-Ordner eines ggf. vorhandenen IMAP-Kontos ablegen. Dazu den Bereich "IMAP 'Gesendete'-Ordner mit den IMAP-Zugangsdaten ausfüllen und "Kopie in 'Gesendete'-Ordner IMAP ablegen" anklicken. Der technische Name des "Gesendete"-Ordners kann variieren, ist aber meist "Sent".
 
 Beide Möglichkeiten können auch kombiniert werden.
+
 
 ## Statistik
 
@@ -250,4 +281,3 @@ Ab Version 2.5 gibt es das Feld Mindestalter f. Mitgliedschaftsjubiläum
 Geben Sie hier eine Zahl ein, dann werden Mitgliedsjahre, die vor diesem Alter liegen beim Errechnen eines Mitglieds-Jubiläums nicht mit gerechnet.
 
 Für weitere technische Details siehe: [Für Entwickler](../../sonstiges/fur-entwickler.md)
-
