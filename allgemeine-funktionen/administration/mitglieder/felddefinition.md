@@ -6,15 +6,15 @@ Diese erscheinen beim Mitglied unter Reiter dem "Zusatzfelder".
 
 Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu sind die entsprechenden Mitgliedern Spalten in den [Einstellungen](../einstellungen.md) zu aktivieren.
 
-![](../../assets/mitgliedzusatzfelder.png)
+![](../../../assets/mitgliedzusatzfelder.png)
 
 Eingerichtet werden solche Zusatzfelder unter JVerein -&gt; Administration -&gt; Felddefinitionen
 
-![](../../assets/felddefinitionen.png)
+![](../../../assets/felddefinitionen.png)
 
 Durch einen Klick auf neu öffnet sich folgendes Fenster:
 
-![](../../assets/felddefinition.png)
+![](../../../assets/felddefinition.png)
 
 Der Names des Feldes kann auch den Zeichen a-z und 0-9 und \_ \(Unterstrich\) bestehen. Er darf keine Leerzeichen enthalten und sich nicht mit existierenden Feldnamen überschneiden. Als Label kann ein beliebiger Begriff verwendet werden, der bei der Eingabe der Daten den Feld vorangestellt wird.
 

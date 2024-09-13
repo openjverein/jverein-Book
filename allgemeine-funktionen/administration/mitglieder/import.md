@@ -812,15 +812,15 @@ CSV-Datei welche alle Felder außer Eigenschaften enthält
 
 In LibreOffice/OpenOffice/Excel müssen in der ersten Zeile die Feld- bzw- Spaltenbezeichnungen stehen und zwar genau in der oben angegebenen Schreibweise. Auf jeden Fall müssen Spalten für alle Pflichtfelder angelegt werden. Es können aber auch für alle Felder Spalten vorhanden sein, die dann leer bleiben.
 
-![](../../assets/datei\_aufbau.png)
+![](../../../assets/datei\_aufbau.png)
 
 Standardmäßig müssen "Geburtsdatum" und "Eintritt" (Eintrittsdatum) angegeben werden. Unter "Administration" -> "Einstellungen" -> "Anzeige" kann dies vorab geändert werden. Speichern nicht vergessen.
 
-![](../../assets/geburtsdatum\_eintrittsdatum\_einstellung.png)
+![](../../../assets/geburtsdatum\_eintrittsdatum\_einstellung.png)
 
 In der Spalte "Beitragsart\_1" muss die Bezeichnung einer vorhandenen Beitragsgruppe eingetragen werden. Man kann sie unter "Administration" -> "Einstellungen" -> "Beitragsguppen" nachschauen oder eine neue anlegen.
 
-![](../../assets/beitragsart.png)
+![](../../../assets/beitragsart.png)
 
 Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisung oder l für Lastschrift oder Abbuchung oder Bankeinzug. b,u oder l müssen klein geschrieben sein. Wenn l angegeben wird muss auch die IBAN angegeben werden. Ein Feld kann auch leer bleiben, dann wird vom Programm "Barzahlung" angenommen. Keins der Felder darf einen Zeilenumbruch beinhalten. Dies führt zu einer nicht importierbaren CSV Datei.
 

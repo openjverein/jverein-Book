@@ -1,6 +1,6 @@
 # Formulare
 
-In JVerein werden für [Spendenbescheinigungen](../spendenbescheinigung.md), [Rechnungen](../rechnungen.md), [Pre-Notification](../abrech/pre-notification.md) und diverse Zwecke \(freie Formulare\) Formulare hinterlegt.
+In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke \(freie Formulare\) Formulare hinterlegt.
 
 Man erstelle ein einfaches Dokument/Formular in Word, Open-/LibreOffice oder was auch immer \(Dankeschönschreiben, Rundschreiben, whatsoever...\) und lasse an den entsprechenden Stellen im Schreiben einfach leeren Platz \(weisse unbeschriebene Stellen\) als Platzhalter für die später von JVerein einzufügenden Daten.
 
@@ -42,7 +42,7 @@ Für jedes Dokument kann jede beliebige Größe \(DIN A4 hoch, quer, A5 oder A6 
 
 Liste der Formularfelder:
 
-![](../../assets/formularfelder.png)
+![](../../../assets/formularfelder.png)
 
 Im Menü Formularfelder öffnet sich durch einen Klick auf neu bzw. mit einem Doppelklick auf ein bestehendes Formularfeld der Dialog zur Bearbeitung des Formularfelds - im zweiten Fall bereits gefüllt mit den vorhandenen Werten \(siehe unten\). Mit einem Rechtsklick auf ein bestehendes Formularfeld öffnet sich ein Kontextmenü, über das das Formularfeld gelöscht werden kann.
 
@@ -50,7 +50,7 @@ Die Definition eines Formularfeldes besteht aus dem Inhalt, der über ein vordef
 
 Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit dem aktuellen Formular überprüft und angepasst werden. Gehe hierzu in das Menü "Formulare", markiere das aktuell bearbeitete Formular und gehe über das Kontext-Menü \(rechter Mausklick\) auf "anzeigen". Prüfe das Aussehen des generierten Formulars anhand der Testdaten und korrigiere gegebenenfalls noch einmal die Positionen der Formularfelder und die Schriftgrößen bis das Gesamtbild passt.
 
-![](../../assets/formularfeld.png)
+![](../../../assets/formularfeld.png)
 
 ### Allgemeine Formularfelder
 
@@ -129,9 +129,9 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
 ## Beispiele
 
-![](../../assets/formularroh.jpg)
+![](../../../assets/formularroh.jpg)
 
-![](../../assets/formularausgefuellt.jpg)
+![](../../../assets/formularausgefuellt.jpg)
 
 ## Freie Formulare
 
@@ -143,6 +143,6 @@ Die Ausgabe mit echten Daten erfolgt aus der Mitgliederliste. Man filtert geeign
 
 Formulare können verknüpft werden um Abhängigkeiten untereinander aufzubauen. Die Spalte "Verknüpft mit" in der Formular-Übersicht zeigt die Abhängigkeiten an. Bei verknüpften Formularen werden die fortlaufenden Nummern (Formularfeld "zaehler") gleichgesetzt und untereinander aktualisiert. Eine Vererbung der Verknüpfung ist nicht implementiert. Formulare können nicht mit sich selbst verknüpft werden. Ein verknüpftes Formular kann nicht gelöscht werden, bis die Abhängigkeiten entfernt wurden.
 
-![](../../assets/formular-verknuepft-mit.png)
-![](../../assets/formularverknuepfung.png)
-![](../../assets/formular-master.png)
+![](../../../assets/formular-verknuepft-mit.png)
+![](../../../assets/formularverknuepfung.png)
+![](../../../assets/formular-master.png)

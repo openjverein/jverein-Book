@@ -4,4 +4,4 @@ Zur Nutzung ist in den [Einstellungen](../../administration/einstellungen.md) da
 
 ![](../../../assets/lesefelder-mitgliedansicht.png)
 
-Vorschau der definierten [Lesefelder](../../administration/lesefelder.md) für das aktuelle Mitglied.
+Vorschau der definierten [Lesefelder](../../administration/mitglieder/lesefelder.md) für das aktuelle Mitglied.
