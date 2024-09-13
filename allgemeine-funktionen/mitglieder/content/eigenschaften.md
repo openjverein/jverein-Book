@@ -4,4 +4,4 @@ Die Eigenschaften des Mitgliedes können angehakt werden, bzw. das Häkchen kann
 
 ![](../../../assets/mitgliedeigenschaften.png)
 
-[Eigenschaften](../../administration/eigenschaften.md) und [Eigenschaften-Gruppen](../../administration/eigenschaften-gruppen.md) sind in der Administration einzurichten.
+[Eigenschaften](../../administration/mitglieder/eigenschaften.md) und [Eigenschaften-Gruppen](../../administration/mitglieder/eigenschaften-gruppen.md) sind in der Administration einzurichten.

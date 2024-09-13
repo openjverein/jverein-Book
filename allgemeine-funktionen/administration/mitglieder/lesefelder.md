@@ -12,7 +12,7 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration \| Einstellungen \| Anzeige \| Lesefelder anzeigen.
 
-![](../../assets/lesefelder-definitionen.png)
+![](../../../assets/lesefelder-definitionen.png)
 
 Beim nächsten Start von Jameica erscheint unter Administration die neue Option Lesefelder. Außerdem wird sofort auf der Mitglieder-Details-Seite ein neuer Tab Lesefelder angezeigt. Über den Bearbeiten-Knopf erhält man die Möglichkeit neue Lesefelder anzulegen und vorhandene zu editieren bzw. zu löschen.
 
@@ -63,10 +63,10 @@ public int getAlter()
     int age = -1;
     DateFormat formatter = new SimpleDateFormat("dd.MM.yy");
     Date date = formatter.parse(mitglied_geburtsdatum);
-    Calendar dob = Calendar.getInstance();  
-    dob.setTime(date);  
-    Calendar today = Calendar.getInstance();  
-    age = today.get(Calendar.YEAR) - dob.get(Calendar.YEAR);  
+    Calendar dob = Calendar.getInstance();
+    dob.setTime(date);
+    Calendar today = Calendar.getInstance();
+    age = today.get(Calendar.YEAR) - dob.get(Calendar.YEAR);
     if (today.get(Calendar.DAY_OF_YEAR) < dob.get(Calendar.DAY_OF_YEAR)) age--;
     return age;
 }
@@ -109,4 +109,3 @@ calendar.add(Calendar.DAY_OF_YEAR, 14);
 DateFormat dateFormat = new SimpleDateFormat("dd. MMMM yyyy");
 return dateFormat.format(calendar.getTime());
 ```
-

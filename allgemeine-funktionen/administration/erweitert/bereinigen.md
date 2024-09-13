@@ -15,4 +15,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Lastschriften
 * Mails
 
-![](../../assets/bereinigen.png)
+![](../../../assets/bereinigen.png)
