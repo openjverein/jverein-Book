@@ -47,7 +47,7 @@ Im Block Mail wird der Mail-Text eingegeben und schließlich der Startknopf gedr
 
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
 
-Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/e-mails zu hantieren.
+Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/E-Mails zu hantieren.
 
 Die versendeten Pre-Notification-E-Mails werden nach dem Versand beim jeweiligen Mitglied in der Mail-Historie gespeichert.
 
