@@ -22,9 +22,17 @@ Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche kei
 
 ![](../../assets/kontoauszug2.png)
 
+Der Filter Bereich bietet folgende Optionen:
+* Differenz: Bei "Fehlbetrag" werden nur Kontoauszüge für Mitglieder erstellt wenn ein Fehlbetrag vorliegt und bei "Überzahlung" nur wenn überzahlt wurde. Bei "Egal" wird nicht auf den Betrag geprüft.
+* Datum von/bis: Es werden nur Mitgliedskonten Einträge im gewählten Zeitraum berücksichtigt.
+
+Im Parameter Feld "Ausgabe" lässt sich wählen ob die Kontoauszüge als PDF gedruckt oder per Mail verschickt werden sollen.
+
+Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
+
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
 
-Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/E-Mails zu hantieren.
+Das drücken des Startknopf löst im Fall der Mail Ausgabe bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.
 
 ## Kontoauszüge automatisch erstellen
 

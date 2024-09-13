@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-Die JVerein-Buchführung beruht auf \(könnte man auch als Konten bezeichnen\) und auf Buchungsklassen \(Kontenrahmen\). Für den Austausch von Kontenrahmen zwischen Vereinen gibt es den Export und Import im XML-Format.
+Die JVerein-Buchführung beruht auf Buchungsarten \(könnte man auch als Konten bezeichnen\) und auf Buchungsklassen \(Kontenrahmen\). Für den Austausch von Kontenrahmen zwischen Vereinen gibt es den Export und Import im XML-Format.
 
 Für den Austausch gibt es ein Forum unter [http://www.jverein.de/forum/viewforum.php?f=12](http://www.jverein.de/forum/viewforum.php?f=12). Sofern ihr einen allgemeingültigen Kontenrahmen für einen bestimmten Vereinstypen \(z. B. Schulfördervereine\) erstellt habt, bzw. in JVerein erfasst habt, könnt ihr ihn dort den Vereinskollegen zur Verfügung stellen.
 
@@ -29,10 +29,10 @@ Ein Import ist nur möglich, wenn weder Buchungsklassen noch Buchungsarten exist
          <buchungsart nummer="1005" bezeichnung="Anfängerschwimmen" art="0" spende="false"/>
          <buchungsart nummer="1010" bezeichnung="Allg. Spenden" art="0" spende="true"/>
       </buchungsarten>
-    </buchungsklasse> 
-    <buchungsklasse bezeichnung="Klasse 2000" nummer="2000"> 
-      <buchungsarten> 
-        <buchungsart nummer="2000" bezeichnung="Personalkosten" art="1" spende="false"/> 
+    </buchungsklasse>
+    <buchungsklasse bezeichnung="Klasse 2000" nummer="2000">
+      <buchungsarten>
+        <buchungsart nummer="2000" bezeichnung="Personalkosten" art="1" spende="false"/>
   :
   :
   :
@@ -42,4 +42,3 @@ Ein Import ist nur möglich, wenn weder Buchungsklassen noch Buchungsarten exist
 :
 
 :
-

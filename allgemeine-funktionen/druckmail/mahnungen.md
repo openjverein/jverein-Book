@@ -16,9 +16,15 @@ Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zug
 
 ![](../../assets/mitgliedmahnung2.png)
 
+Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
+
+Im Parameter Feld "Ausgabe" lässt sich wählen ob die Mahnungen als PDF gedruckt oder per Mail verschickt werden sollen.
+
+Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
+
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Mahnung exportieren.
 
-Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/E-Mails zu hantieren.
+Das drücken des Startknopf löst im Fall der Mail Ausgabe bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.
 
 ## Mahnungen automatisch erstellen
 
@@ -39,6 +45,10 @@ Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend be
 Möchten Sie Mahnungen direkt als JVerein druckfertig generieren, so müssen Sie mindestens ein Mahnungsformular angelegt haben. Die Erstellung von Mahnungsformularen ist unter Administration\|Formulare beschrieben.
 
 Wählen Sie in der Auswahlbox Formular dasjenige Formular, mit dem Sie die Mahnungen erstellen möchten und drücken Sie dann den Schalter starten. Es öffnet sich ein Dialog der den Speicherort und den Dateinamen der PDF Datei abfragt, in die alle Mahnungen erstellt werden. Mit Bestätigen dieser Eingaben werden die Mahnungen generiert und die fertige PDF geöffnet. Diese können Sie nun ausdrucken.
+
+## Mahnung per Mail versenden
+
+Mahnungen können per Mail versandt werden. Dazu muss die Mailkonfiguration abgeschlossen sein. Bei der Ausgabe wird zu Kontrollzwecken eine ZIP-Datei mit allen erstellten und versandten Mahnungen erstellt.
 
 ## Mahnungsdaten exportieren
 

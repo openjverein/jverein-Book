@@ -26,13 +26,25 @@ Hinweis: Runde Geburtstage können in der [Jubiläumsliste](jubilaumsliste.md) a
 
 ## Ausgabe im PDF-Format
 
-Das PDF-Format dient zur direkten Verwendung von Mitgliederdaten. Die Ausgabe erfolgt in 5 Spalten:
+### Mitgliederliste PDF
+
+Die Mitgliederliste listet alle Mitglieder und enthält 5 Spalten:
 
 * Name
 * Anschrift / Kommunikation
 * Geburtsdatum
 * Eintritt / Austritt / Kündigung
-* Beitragsgruppe / Eigenschaften
+* Beitragsgruppe / Eigenschaften / Mitgliedsnummer
+
+### Adressliste PDF
+
+Die Adressliste listet alle Mitglieder und enthält 5 Spalten:
+
+* Name
+* Adresse
+* Telefon
+* Email
+* Geburtsdatum
 
 ## Ausgabe im CSV-Format
 
@@ -96,4 +108,3 @@ mitglied_name;mitglied_vorname;mitglied_eintritt
 5. Zum Schluss löscht man noch alle Datensätze ab Zeile 3, da die Daten in der Vorlage ja nicht benötigt werden
 
 Das war's. Die Vorlagen braucht man ja nur einmalig zu erstellen und kann Sie bei jedem Export nutzen.
-

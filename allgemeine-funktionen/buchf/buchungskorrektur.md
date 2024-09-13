@@ -4,7 +4,7 @@
 
 Banken können bei Überweisungen zusätzliche Daten zum Zweck hinzufügen die der Benutzer nicht eingegeben hat. Diese sind mit Tags versehen. Typische Tags sind:
 
-* SVWZ: SEPA-Verwendungszweck, enthält den text den der Benutzer eingegeben hat
+* SVWZ: SEPA-Verwendungszweck, enthält den Text den der Benutzer eingegeben hat
 * EREF: SEPA End to End-Referenz
 * KREF: Kundenreferenz Customer Reference
 * MREF: SEPA Mandatsreferenz
@@ -36,4 +36,3 @@ Der View zeigt alle nicht abgeschlossenen Buchungen in denen eines der Tags EREF
 Es wird der aktuelle Eintrag des Verwendungszwecks unter "Verwendungszweck alt" angezeigt. Unter "Verwendungszweck neu" findet man die korrigierte Version.
 
 Durch einen Klick auf den Korrektur Button werden die korrigierten Texte in die Buchungen übernommen.
- 
