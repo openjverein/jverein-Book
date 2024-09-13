@@ -18,9 +18,15 @@ Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zug
 
 ![](../../assets/mitgliedrechnung2.png)
 
+Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
+
+Im Parameter Feld "Ausgabe" lässt sich wählen ob die Rechnungen als PDF gedruckt oder per Mail verschickt werden sollen.
+
+Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
+
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen bzw. die Rechnung exportieren.
 
-Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/E-Mails zu hantieren.
+Das drücken des Startknopf löst im Fall der Mail Ausgabe bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.
 
 ## Rechnungen automatisch erstellen
 

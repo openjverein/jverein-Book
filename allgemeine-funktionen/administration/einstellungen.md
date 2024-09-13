@@ -66,7 +66,7 @@ Die Eingabe von Firmen, Organisationen und Behörden als Mitglieder wird erlaubt
 
 ### Mitgliedsfoto.
 
-zu jedem Mitglied kann ein Foto gespeichert werden.
+Zu jedem Mitglied kann ein Foto gespeichert werden.
 
 ### Lesefelder anzeigen
 
@@ -124,6 +124,8 @@ Wie sollen die Buchungsarten sortiert werden: nach Bezeichnung, nach Nummer oder
 ![](../../assets/einstellungenmitgliederspalten.png)
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
+
+In diesem Dialog werden auch benutzerdefinierte [Felddefinitionen](mitglieder/felddefinition.md) angezeigt. Diese können ebenfalls für die Anzeige in der Mitgliederliste selektiert werden.
 
 
 ## Mitglieder Ansicht

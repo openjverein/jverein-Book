@@ -8,21 +8,15 @@ In JVerein stehen folgende Alternativen für die Pre-Notifications zur Verfügun
 * Per E-Mail an alle Mitglieder mit E-Mail-Adresse und schriftlich an die Übrigen
 * Als 1ct-Überweisung an alle Mitglieder
 
-## Aufruf der Pre-Notification-Funktion\[Bearbeiten\]
+## Aufruf der Pre-Notification-Funktion
 
-Die Pre-Notification Funktion ist etwas versteckt und kann nur über folgenden Weg aufgerufen werden:
-
-![](../../assets/sepa_pre-notification_abrechnungsverlauf_menu.png)
-
-Klick auf Abrechnungslauf.
+Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der Abrechnungsläufe erreicht werden.
 
 Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notification Mail erstellen kann.
 
 ![](../../assets/abrechnungslauf.png)
 
-## Pre-Notification schriftlich und per E-Mail
-
-Bevor Pre-Notification erstellt werden können muss zunächst muss ein [Formulare](../administration/mitglieder/formulare.md) dafür angelegt werden.
+## Pre-Notification schriftlich und per Mail
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
@@ -31,25 +25,27 @@ In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Ka
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
-Im Block Parameter bei Ausgabe muss PDF \(alle\) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
+Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../administration/mitglieder/formulare.md) dafür angelegt werden.
 
-Über die Einstellung zu "PDF als" kann gesteuert werden, ob die PDF als eine einzige, mehrseitige Datei erzeugt wird, die alle einzelnen Schreiben enthält \(Einstellung "eine PDF-Datei"\), oder ob jedes Schreiben an einen Benutzer in einer separaten Datei abgelegt wird. In jedem Fall muss der Benutzer über den aufkommenden Dialog Ausgabedatei wählen das Ablageverzeichnis und den Namen \(bzw. das Prefix\) der PDF-Datei\(en\) festlegen.
+Im Block Parameter bei Ausgabe muss PDF \(Alle\) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
 
-Sollen separate Dateien erzeugt werden, so wird der ausgewählte Dateiname vor der Endung .PDF um eine fortlaufende Nummer \("einzelne PDF-Dateien, nummeriert"\), um die Mitgliedsnummer des angeschriebenen Mitglieds \("einzelne PDF-Dateien, mit Mitgliedsnummer"\) oder um beide Werte \("einzelne PDF-Dateien, nummeriert mit Mitgliedsnummer"\) ergänzt, je nach dem, was in der Einstellung "PDF als" ausgewählt wurde.
+Über die Einstellung zu "PDF als" kann gesteuert werden, ob die PDF als eine einzige, mehrseitige Datei erzeugt wird, die alle einzelnen Schreiben enthält \(Einstellung "Eine PDF-Datei"\), oder ob jedes Schreiben an einen Benutzer in einer separaten Datei abgelegt wird. In jedem Fall muss der Benutzer über den aufkommenden Dialog Ausgabedatei wählen das Ablageverzeichnis und den Namen \(bzw. das Prefix\) der PDF-Datei\(en\) festlegen.
+
+Sollen separate Dateien erzeugt werden, so wird der ausgewählte Dateiname vor der Endung .PDF um eine fortlaufende Nummer \("Einzelne PDF-Dateien, nummeriert"\), um die Mitgliedsnummer des angeschriebenen Mitglieds \("Einzelne PDF-Dateien, mit Mitgliedsnummer"\) oder um beide Werte \("Einzelne PDF-Dateien, nummeriert mit Mitgliedsnummer"\) ergänzt, je nach dem, was in der Einstellung "PDF als" ausgewählt wurde.
 
 Die direkte Erzeugung einzelner PDF-Dateien ist hilfreich, wenn für das Versenden der Briefe ein Online-Dienstleister herangezogen werden soll.
 
-### E-Mail-Pre-Notification an Mitglieder mit E-Mail-Adresse
+### Mail-Pre-Notification an Mitglieder mit Mail-Adresse
 
-Im Block Parameter bei Ausgabe muss EMail eingestellt werden.
+Im Block Parameter bei Ausgabe muss Mail eingestellt werden.
 
 Im Block Mail wird der Mail-Text eingegeben und schließlich der Startknopf gedrückt.
 
 Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
 
-Das drücken des Startknopf löst bei korrekt eingestellten E-Mail-Server-Daten den Versand der E-Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/E-Mails zu hantieren.
+Das drücken des Startknopf löst bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.
 
-Die versendeten Pre-Notification-E-Mails werden nach dem Versand beim jeweiligen Mitglied in der Mail-Historie gespeichert.
+Die versendeten Pre-Notification Mails werden nach dem Versand beim jeweiligen Mitglied in der Mail-Historie gespeichert.
 
 #### Beispiel für eine Pre-Notification Mail
 

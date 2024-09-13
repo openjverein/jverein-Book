@@ -28,7 +28,7 @@ verarbeitet werden.
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhytmus eingezogen.
 
-Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die Beiträge eingezogen werden. Dazu wird das Eingabedatum eingetragen, ab dem die Beiträge für nachträglich eingetretene Mitglieder abgebucht werden sollen.
+Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die Beiträge eingezogen werden. Dazu wird das Eintrittsdatum eingetragen, ab dem die Beiträge für nachträglich eingetretene Mitglieder abgebucht werden sollen.
 
 Um nur Mitglieder abzurechnen, die sich schon abgemeldet haben, wird das maximale Austrittsdatum eingetragen. Dann werden Beiträge nur für die Mitglieder abgebucht, die bis dahin ausgetreten sind.
 
@@ -48,11 +48,11 @@ Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../..
 
 **Eingetretene Mitglieder**
 
-Es werden die neu eingetretenen Mitglieder abgerechnet. JVerein verwendet das Eingabedatum zur Selektion der eingetretenen Mitglieder.
+Es werden die neu eingetretenen Mitglieder abgerechnet. JVerein verwendet das Eintrittsdatum zur Selektion der eingetretenen Mitglieder.
 
-Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eingabedatum den Tag nach der letzten Abrechnung für eingetretene Miglieder \(ersatzweise den Tag nach der letzten Abrechnung für Alle\) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
+Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eintrittsdatum den Tag nach der letzten Abrechnung für eingetretene Mitglieder \(ersatzweise den Tag nach der letzten Abrechnung für Alle\) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
 
-Hinweis: Das Eingabedatum wird beim Import von Mitgliedern nicht gesetzt.
+Hinweis: Das Eintrittsdatum wird beim Import von Mitgliedern nicht gesetzt.
 
 **Abgemeldete Mitglieder**
 
