@@ -75,8 +75,9 @@
   * [Druck und Mail](allgemeine-funktionen/druckmail/README.md)
     * [Rechnungen](allgemeine-funktionen/druckmail/rechnungen.md)
     * [Mahnungen](allgemeine-funktionen/druckmail/mahnungen.md)
-    * [Pre-Notification](allgemeine-funktionen/druckmail/pre-notification.md)
     * [Kontoauszüge](allgemeine-funktionen/druckmail/kontoauszug.md)
+    * [Freie Formulare](allgemeine-funktionen/druckmail/freiesformular.md)
+    * [Pre-Notification](allgemeine-funktionen/druckmail/pre-notification.md)
     * [Spendenbescheinigungen](allgemeine-funktionen/druckmail/spendenbescheinigungen.md)
     * [Mail](allgemeine-funktionen/druckmail/mail.md)
     * [Mail-Vorlagen](allgemeine-funktionen/druckmail/mailvorlagen.md)
@@ -118,4 +119,3 @@
     * [Java-Mail License](sonstiges/lizenzen/java-mail-license.md)
     * [LGPL](sonstiges/lizenzen/lgpl.md)
     * [Mozilla Public License](sonstiges/lizenzen/mozilla-public-license.md)
-

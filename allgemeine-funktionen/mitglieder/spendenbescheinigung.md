@@ -55,15 +55,15 @@ In JVerein kann diese Art der Spendenbescheinigung nur über das Anlegen einer B
 
 Das Erzeugen der Spendenbescheinigung erfolgt wie nachfolgend bei Geldspendenbescheinigungen beschrieben.
 
-Zu beachten ist, dass bei Sammelbescheinigungen diese Art der Spende mit Geldspenden gemischt sein kann. Auf der zeiten Seite der Spendenbescheinigung wird dann für jede enthaltene Buchung ausgewiesen ob es sich um Verzicht auf Erstattung von Aufwänden handelt oder nicht.
+Zu beachten ist, dass bei Sammelbescheinigungen diese Art der Spende mit Geldspenden gemischt sein kann. Auf der zweiten Seite der Spendenbescheinigung wird dann für jede enthaltene Buchung ausgewiesen ob es sich um Verzicht auf Erstattung von Aufwänden handelt oder nicht.
 
 ## Geldbescheinigungen erstellen
 
 ### Voraussetzungen
 
 Um Geldspendenbescheinigungen erstellen zu können müssen verschiedene Voraussetzungen erfüllt sein:
-* Es muss eine Buchung \(Istbuchung\) in einem Konto existieren
-* Die Buchungsart der Buchung muss vom Typ Spende sein. Siehe Admimistration\|Buchführung\|Buchungsart Checkbox Spende.
+* Es muss eine Buchung \(Istbuchung\) in einem Konto existieren.
+* Die Buchungsart der Buchung muss vom Typ Spende sein. Siehe Administration\|Buchführung\|Buchungsart Checkbox Spende.
 * Die Buchung muss einer Sollbuchung zugeordnet sein.
 
 Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiede Arten erzeugt werden.
@@ -85,7 +85,7 @@ Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiede Arten erzeu
 Voraussetzungen für die automatische Generierung von Geldspendenbescheinigungen:
 
 * Ein Mitglied wird nur berücksichtigt wenn Straße, Postleitzahl und Ort eingetragen ist.
-* Der Betrag der Bescheinigung muss gleich oder größer sein als der Mindestbetrag der unter Administtration\|Einstellungen\|Spendenbescheinigungen eingetragen ist.
+* Der Betrag der Bescheinigung muss gleich oder größer sein als der Mindestbetrag der unter Administration\|Einstellungen\|Spendenbescheinigungen eingetragen ist.
 
 Bei der automatischen Generierung werden nur die Buchungen erfasst, die noch keiner Spendenbescheinigung oder Sammelbestätigung zugewiesen wurden. Es werden niemals für eine Buchung mehrere Bescheinigungen generiert.
 
@@ -132,4 +132,4 @@ Für eine korrekte Formatierung sollte eine Schriftart mit fester Zeichenbereite
 
 ### Einstellungen
 
-Mögliche einstellungen zu Spendenbescheinigungen siehe [Einstellungen](../administration/einstellungen.md).
+Mögliche Einstellungen zu Spendenbescheinigungen siehe [Einstellungen](../administration/einstellungen.md).
