@@ -34,11 +34,11 @@ Damit JVerein auf eine MySQL/MariaDB-Datenbank zugreifen kann, muss eine Konfigu
 
 für MySQL:
 
-    database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=ISO8859_1
+    database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=UTF-8
 
 für MariaDB:
 
-    database.driver.mysql.jdbcurl=jdbc:mariadb://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=ISO8859_1
+    database.driver.mysql.jdbcurl=jdbc:mariadb://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=UTF-8
 
 für Jameica ab Version 2.11 (aktuell in Entwicklung)
 
@@ -50,7 +50,7 @@ Bei **Datenbanksystemen ohne Serverzertifikat** muss die Zertifikatsprüfung dea
 
 Beispiel für MySQL:
 
-    database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=ISO8859_1&trustServerCertificate=true&allowPublicKeyRetrieval=true&useSSL=false
+    database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=UTF-8&trustServerCertificate=true&allowPublicKeyRetrieval=true&useSSL=false
 
 ## Test und Verteilung der Konfiguration auf die Arbeitsplätze
 
