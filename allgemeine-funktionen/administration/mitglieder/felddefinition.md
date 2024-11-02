@@ -1,4 +1,4 @@
-# Felddefinitionen
+# Zusatzfelder
 
 Der Benutzer kann zusätzliche Datenfelder \(=Zusatzfelder\) definieren.
 
