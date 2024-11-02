@@ -28,9 +28,19 @@ Die angeklickte Buchung erscheint in der ersten Zeile. In der zweiten Zeile ersc
 
 Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:
 
-![](../../assets/splitbuchung03.png)
+![](img/SplitbuchungSplitView.png)
+
+In das Betrag Feld wird automatisch der noch übrigen Betrag gefüllt.
+
+Mit Speichern wird der Split Eintrag gespeichert und zur Splitbuchung Anzeige zurück gekehrt.
+
+Mit Speichern und nächste kann man direkt zur Eingabe des nächsten Split Eintrags weiter gehen. Wieder wird der noch zu buchende Betrag per Default eingetragen.
+
+Bei der letzen Buchungen kann man mit Speichern zur Splitbuchung Anzeige zurück kehren. Bei Speichern und nächste kommt man bei einem Restbetrag von 0€ automatisch zurück.
 
 ![](../../assets/splitbuchung04.png)
+
+Das obige Bild zeigt den Stand, dass noch nicht alle Split Einträge erzeugt wurden.
 
 Die Splitbuchungen können nur gespeichert werden, wenn
 
@@ -39,7 +49,9 @@ Die Splitbuchungen können nur gespeichert werden, wenn
 * Die Buchungsart bei der Haupt- und der Gegenbuchung muss identisch sein.
 * Jede Buchung muss eine Buchungsart haben.
 
-So können die Buchungen gespeichert werden:
+Sind alle Bedingungen erfüllt (siehe Bild unten) muss die Splitbuchung über den Button Speichern gespeichert werden.
+
+Achtung: Das Speichern bitte nicht vergessen!
 
 ![](../../assets/splitbuchung05.png)
 
