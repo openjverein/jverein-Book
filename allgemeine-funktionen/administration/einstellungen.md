@@ -216,7 +216,7 @@ Hier lässt sich ein Bild der Unterschrift einfügen welche entsprechend der sel
 
 ## Buchführung
 
-![](../../assets/einstellungenbuchfuehrung.png)
+![](einstellungen/img/EinstellungenBuchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 
@@ -230,11 +230,13 @@ Automatische Übernahme von Buchungen aus Hibiscus \(Standard: aktiviert\).
 
 Automatische Korrektur der Verwendungszwecke aus Hibiscus Buchungen.
 
-Unterdrückung nicht bebuchter Buchungsarten in Listen/Auswertungen \(Standard: nicht aktiviert\).
+Unterdrückung nicht gebuchter Buchungsarten in Listen/Auswertungen \(Standard: nicht aktiviert\).
 
 Zeige Kontonummer in der Buchungsliste.
 
 Umsatzsteueroption.
+
+Auswahl ob eine feste Zuordnung zwischen Buchungsart und Buchungsklasse existiert oder nicht. Die feste Zuordnung sollte nur bei einem Wechsel des Kontenrahmen passieren und dann weim Wechsel des Geschäftsjahres. Sie auch [Buchungsart](admbuchf/buchungsart.md).
 
 
 ## Rechnungen
