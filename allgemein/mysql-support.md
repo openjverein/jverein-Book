@@ -39,9 +39,6 @@ für MySQL:
 für MariaDB:
 
     database.driver.mysql.jdbcurl=jdbc:mariadb://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=UTF-8
-
-für Jameica ab Version 2.11 (aktuell in Entwicklung)
-
     database.driver.mysql.jdbcdriver=org.mariadb.jdbc.Driver
 
 - Ersetzen Sie die Werte &lt;username&gt;, &lt;password&gt;, &lt;ip&gt;, &lt;port&gt; und &lt;database&gt; durch den Benutzername und Passwort des MySQL-Benutzers, den Hostnamen/IP-Adresse des MySQL-Servers, den Port \(Standard: 3306\), sowie den Datenbanknamen. \(Siehe folgender Schritt für die Einrichtung der Datenbank\).
