@@ -15,7 +15,7 @@ Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigations
 
 Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
-![](../../../assets/buchungsartenpdf.png)
+![](img/Buchungsartenpdf.png)
 
 ## Buchungsart
 

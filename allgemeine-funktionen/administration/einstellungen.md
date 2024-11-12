@@ -6,12 +6,12 @@ Name und Anschrift des Vereins müssen hier eingegeben werden \(Pflichtangaben\)
 
 Die Pflichtfelder werden von der Abrechnung für die Erstellung der Lastschriften zwingend benötigt. Die weiteren Angaben werden überwiegend bei Spendenbescheinigungen eingesetzt.
 
-![](../../assets/einstellungenallgemein.png)
+![](einstellungen/img/Allgemein.png)
 
 
 ## Anzeige
 
-![](../../assets/einstellungenanzeige.png)
+![](einstellungen/img/Anzeige.png)
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflußt werden.
 
@@ -121,7 +121,7 @@ Wie sollen die Buchungsarten sortiert werden: nach Bezeichnung, nach Nummer oder
 
 ## Mitglieder Spalten
 
-![](../../assets/einstellungenmitgliederspalten.png)
+![](einstellungen/img/Mitgliederspalten.png)
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
 
@@ -130,14 +130,14 @@ In diesem Dialog werden auch benutzerdefinierte [Felddefinitionen](mitglieder/fe
 
 ## Mitglieder Ansicht
 
-![](../../assets/einstellungenmitgliederansicht.png)
+![](einstellungen/img/Mitgliederansicht.png)
 
 Festlegung der Ansicht der Mitglieder Daten. Es kann ausgewählt werden welche Daten direkt angezeigt werden oder innerhalb der Tabs.
 
 
 ## Abrechnung
 
-![](../../assets/einstellungenabrechnung.png)
+![](einstellungen/img/Abrechnung.png)
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../allgemein/beitragsmodelle.md)
 
@@ -151,7 +151,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](../../assets/sepasupportedversions.png)
+![](einstellungen/img/SepaSupportedVersions.png)
 
 ### Arbeitsstundenmodell
 
@@ -169,7 +169,7 @@ Beim Erfassen der Arbeitsstunden vom Mitgliedern können im Stundenfeld positive
 
 ## Dateinamen
 
-![](../../assets/einstellungendateinamen.png)
+![](einstellungen/img/Dateinamen.png)
 
 Bei der Ausgabe von Dateien \(Abbuchung, Auswertungen...\) werden die Dateinamen nach dem vorgegebenen Muster aufgebaut. Es können zusätzliche, vom Betriebssystem unterstützte Zeichen, in das Muster aufgenommen werden. Bleibt das Muster leer, wird kein Vorschlag für den Dateinnamen angezeigt. Spendenbescheinigungen werden jeweils für den einzelnen Spender ausgestellt. Daher sollten zur leichteren Identifizierung Name und Vorname in den Dateinamen aufgenommen werden.
 
@@ -187,7 +187,7 @@ Verzeichnis für CSV-Vorlagen.
 
 ## Spendenbescheinigungen
 
-![](../../assets/einstellungenspendenbescheinigungen.png)
+![](einstellungen/img/Spendenbescheinigungen.png)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 
@@ -216,7 +216,7 @@ Hier lässt sich ein Bild der Unterschrift einfügen welche entsprechend der sel
 
 ## Buchführung
 
-![](einstellungen/img/EinstellungenBuchfuehrung.png)
+![](einstellungen/img/Buchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 
@@ -241,7 +241,7 @@ Auswahl ob eine feste Zuordnung zwischen Buchungsart und Buchungsklasse existier
 
 ## Rechnungen
 
-![](../../assets/einstellungenrechnungen.png)
+![](einstellungen/img/Rechnungen.png)
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden.
 
@@ -252,7 +252,7 @@ Es ist möglich einen QR Code mit den Rechnungsdaten auf die Rechnung zu plazier
 
 In diesem Dialog sind die Daten für den Mailzugang einzurichen.
 
-![](../../assets/einstellungenmail.png)
+![](einstellungen/img/Mail.png)
 
 Über die Option "Bei Mail Versand von Formularen Anhang in DB speichern" lässt sich einstellen, ob bei versendeten Formularen wie z.B. Rechnung, Mahnung etc. der Mailanhang zusammen mit der Mail in der Datenbank gespeichert werden sollen. Damit lässt sich später beim betrachten der Mail auch der Anhang sehen.
 
@@ -270,7 +270,7 @@ Beide Möglichkeiten können auch kombiniert werden.
 
 ## Statistik
 
-![](../../assets/einstellungenstatistik.png)
+![](einstellungen/img/Statistik.png)
 
 Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel
 

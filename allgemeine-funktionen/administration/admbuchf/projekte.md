@@ -8,21 +8,29 @@ Die Verwendung von Projekten ist dann sinnvoll, wenn die Informationen, die die 
 
 Indem bei einer Buchung ein Projekt hinterlegt wird, können zusammengehörige Buchungen über das Projekt ausgewertet werden.
 
-## Einstellungen
+Unter Administration-&gt;Buchführung-&gt;Projekte werden die Projekte angelegt bzw. bearbeitet.
 
-Unter Administration\|Buchführung\|Projekte werden die Projekte angelegt bzw. bearbeitet.
+## Liste der Projekte
 
-![](../../../assets/projekteliste.png)
+![](img/ProjekteListeView.png)
 
 Mit neu kann ein neues Projekt eingerichtet werden.
 
-![](../../../assets/projekt.png)
+Durch einen Doppelklick wird die Bearbeitung eines Projekt eingeleitet.
+
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Löschen: Damit kann ein Projekt, dem keine Buchungen zugeordnet sind, gelöscht werden.
+
+## Projekt
+
+![](img/ProjektView.png)
 
 ## Auswertung
 
 Informationen zu Projekten liefert die Funktion Projekt-Saldo \(zu finden unter Buchführung\|Projekte\), Detailinformation filtert man unter Buchführung\|Buchungen.
 
-### Projekt-Saldo
+### Projektsaldo
 
 In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Siehe [Projektsaldo](../../buchf/projekte.md)
 

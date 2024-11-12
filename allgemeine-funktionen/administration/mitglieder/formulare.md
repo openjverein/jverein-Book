@@ -2,6 +2,48 @@
 
 In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke \(freie Formulare\) Formulare hinterlegt.
 
+## Liste der Formulare
+
+![](img/Formulare.png)
+
+Mit Neu kann ein neues Formular eingerichtet werden.
+
+Durch einen Doppelklick wird die Bearbeitung eines Formular eingeleitet.
+
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Anzeigen: Das fertige Formular wird als PDF generiert und angezeigt
+* Duplizieren: Es wird eine Kopie des Formulars erzeugt
+* Löschen: Damit kann ein Formular, welches noch nicht verwendet wurde, gelöscht werden
+
+## Formular
+
+Über die Funktion Neu oder Bearbeiten wird ein Formular Dialog angezeigt.
+
+Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
+
+![](img/Formular.png)
+
+## Formular Attribute
+
+### Bezeichnung
+
+Name des Formulars.
+
+### Art
+
+Art des Formulars. Es gibt an für welche Ausgabe das Formular verwendet werden kann. Optionen sind:
+* Spendenbescheinigung
+* Rechnung
+* Mahnung
+* Freies Formular
+* Sammelspendenbescheinigung
+* SEPA-Prenotification
+
+### Datei
+
+Hintergrund Datei für das Formular.
+
 Man erstelle ein einfaches Dokument/Formular in Word, Open-/LibreOffice oder was auch immer \(Dankeschönschreiben, Rundschreiben, whatsoever...\) und lasse an den entsprechenden Stellen im Schreiben einfach leeren Platz \(weisse unbeschriebene Stellen\) als Platzhalter für die später von JVerein einzufügenden Daten.
 
 Macht Euch hier genau Gedanken, wie Euer Formular aussehen soll und was Ihr später alles an Daten einfügen möchtet.
@@ -14,43 +56,80 @@ Dann erstellt man in JVerein unter "Administration-&gt;Formulare" ein neues Form
 
 Nun noch die gerade erstellte PDF-Datei auswählen und auf "speichern" klicken.
 
+### Fortlaufende Nummer
+
+Fortlaufende Nummer z.B. bei Rechnungen. Über das Feld lässt sich die Nummer zurücksetzen.
+
+### Formularverknüpfung
+
+Formulare können verknüpft werden um Abhängigkeiten untereinander aufzubauen. Die Spalte "Verknüpft mit" in der Formular-Übersicht zeigt die Abhängigkeiten an. Bei verknüpften Formularen werden die fortlaufenden Nummern (Formularfeld "zaehler") gleichgesetzt und untereinander aktualisiert. Eine Vererbung der Verknüpfung ist nicht implementiert. Formulare können nicht mit sich selbst verknüpft werden. Ein verknüpftes Formular kann nicht gelöscht werden, bis die Abhängigkeiten entfernt wurden.
+
+## Formular Buttons
+
+### Anzeigen
+
+Das fertige Formular wird als PDF generiert und angezeigt.
+
+### Speichern
+
+Nach Eingabe oder ändern der Formular Attribute muss das Formular gespeichert werden.
+
+
+## Formularfelder
+
+Bevor Formularfelder angelegt werden können muss das Formular gespeichert werden.
+
 Nun kommt die eigentliche Arbeit:
 
-Unter "Formulare" habt Ihr nun euer neues Formular. Bitte mit rechter Maustaste drauf klicken und aus dem Kontextmenu "Formularfelder" auswählen. Ihr kommt dann auf die Seite "Formularfelder".
+Bei den Formularfelder Buttons  klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: \(Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen\)
 
-Hier klickt Ihr auf "neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: \(Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen\)
+![](img/Formularfeld.png)
 
-Unter "name" könnt Ihr nun aus den möglichen Datenfelder dasjenige aus der Datenbank auswählen, das eingefügt werden soll.
+### Name
+
+Unter "Name" könnt Ihr nun aus den möglichen Datenfelder dasjenige aus der Datenbank auswählen, das eingefügt werden soll.
+
+### Seite
+
+Seite auf der das Formularfeld platziert werden soll.
+
+### Von links, Von unten
 
 Dieses Datenfeld müsst Ihr nun Millimetergenau auf euer gerade eben generiertes PDF händisch setzen. der Punkt \(0,0\) liegt unten links auf der Seite!
 
 Tipp: Druckt das Dokument aus und messt mit einem Lineal die Positionen aus.
 
-speichert das Ganze.
+Speichert das Ganze und zeigt euch das Ergebnis über den Anzeigen Button an.
 
-geht mit dem grünen Pfeil rechts oben zurück zu den Formularfeldern und schaut Euch das Ergebnis Eurer Arbeit mit "anzeigen" \(unten rechts\) an.
+Das müsst Ihr solange wiederholen, bis das Datenfeld an der richtigen Stelle eingefügt wurde.
 
-Das müßt Ihr solange wiederholen, bis das Datenfeld an der richtigen Stelle eingefügt wurde.
+Übrigens: Da das System noch nicht weiß, welchen Datensatz es beim Austesten nehmen soll, hat der Entwickler einen Dummy-Datensatz automatisch für das Erstellen und Testen des neuen Formulars bereitgestellt.
 
-Übrigens: Da das System noch nicht weiss, welchen Datensatz es beim Austesten nehmen soll, hat der Entwickler einen Dummy-Datensatz automatisch für das Erstellen und Testen des neuen Formulars bereitgestellt.
+### Schriftart
 
-## Formulargröße
+Schriftart für den Text.
 
-Für jedes Dokument kann jede beliebige Größe \(DIN A4 hoch, quer, A5 oder A6 ...\) haben. Die Größe wird in die neu generierten Dokumente übernommen.
+### Schriftgröße
 
-## Formularfelder
+Schriftgröße des Textes.
 
-Liste der Formularfelder:
+## Formularfelder Buttons
 
-![](../../../assets/formularfelder.png)
+### Export
 
-Im Menü Formularfelder öffnet sich durch einen Klick auf neu bzw. mit einem Doppelklick auf ein bestehendes Formularfeld der Dialog zur Bearbeitung des Formularfelds - im zweiten Fall bereits gefüllt mit den vorhandenen Werten \(siehe unten\). Mit einem Rechtsklick auf ein bestehendes Formularfeld öffnet sich ein Kontextmenü, über das das Formularfeld gelöscht werden kann.
+Exportiert die Formularfelder des aktuellen Formulars.
 
-Die Definition eines Formularfeldes besteht aus dem Inhalt, der über ein vordefiniertes Feld belegt wird \(Empfänger, Betrag etc.\), der Startposition auf der Seite \(gemessen von links und unten in Millimetern, eine Positionierung auf hundertstel Millimeter ist möglich\), der Schriftart/Font \(auswählbar aus einer Liste\) und der Schriftgröße \(Font-Höhe\).
+### Import
 
-Wenn die Formularfelder definiert wurden, kann die Position in Verbindung mit dem aktuellen Formular überprüft und angepasst werden. Gehe hierzu in das Menü "Formulare", markiere das aktuell bearbeitete Formular und gehe über das Kontext-Menü \(rechter Mausklick\) auf "anzeigen". Prüfe das Aussehen des generierten Formulars anhand der Testdaten und korrigiere gegebenenfalls noch einmal die Positionen der Formularfelder und die Schriftgrößen bis das Gesamtbild passt.
+Importiert Formularfelder aus einer Datei die mit Export erzeugt wurde. Es werden alle bestehenden Formularfelder der aktuellen Formulars vor dem Import gelöscht.
 
-![](../../../assets/formularfeld.png)
+
+### Neu
+
+Erzeugt ein neues Formularfeld für das aktuelle Formular.
+
+## Verfügbare Formularfelder
+
 
 ### Allgemeine Formularfelder
 
@@ -129,9 +208,9 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
 ## Beispiele
 
-![](../../../assets/formularroh.jpg)
+![](img/Formularroh.jpg)
 
-![](../../../assets/formularausgefuellt.jpg)
+![](img/Formularausgefuellt.jpg)
 
 ## Freie Formulare
 
@@ -139,10 +218,4 @@ Freie Formulare haben keinen speziellen Zweck und können mit den verfügbaren V
 
 Die Ausgabe mit echten Daten erfolgt aus der Mitgliederliste. Man filtert geeignet und markiert alle Zeilen, mit dessen Daten das Formular gefüllt werden soll. Ein Rechtsklick mit Auswahl des Formulars erzeugt dann eine PDF-Datei mit entsprechend vielen Seiten.
 
-## Formularverknüpfungen
 
-Formulare können verknüpft werden um Abhängigkeiten untereinander aufzubauen. Die Spalte "Verknüpft mit" in der Formular-Übersicht zeigt die Abhängigkeiten an. Bei verknüpften Formularen werden die fortlaufenden Nummern (Formularfeld "zaehler") gleichgesetzt und untereinander aktualisiert. Eine Vererbung der Verknüpfung ist nicht implementiert. Formulare können nicht mit sich selbst verknüpft werden. Ein verknüpftes Formular kann nicht gelöscht werden, bis die Abhängigkeiten entfernt wurden.
-
-![](../../../assets/formular-verknuepft-mit.png)
-![](../../../assets/formularverknuepfung.png)
-![](../../../assets/formular-master.png)
