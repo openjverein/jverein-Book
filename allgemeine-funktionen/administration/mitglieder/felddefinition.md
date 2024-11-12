@@ -4,19 +4,32 @@ Der Benutzer kann zusätzliche Datenfelder \(=Zusatzfelder\) definieren.
 
 Diese erscheinen beim Mitglied unter Reiter dem "Zusatzfelder".
 
-Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu sind die entsprechenden Mitgliedern Spalten in den [Einstellungen](../einstellungen.md) zu aktivieren.
+Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu sind die entsprechenden Mitgliedern Spalten in den [Einstellungen](../einstellungen/spalten.md) zu aktivieren.
 
-![](../../../assets/mitgliedzusatzfelder.png)
+![](img/Mitgliedzusatzfelder.png)
 
-Eingerichtet werden solche Zusatzfelder unter JVerein -&gt; Administration -&gt; Felddefinitionen
+Eingerichtet werden solche Zusatzfelder unter JVerein-&gt;Administration-&gt;Zusatzfelder
 
-![](../../../assets/felddefinitionen.png)
+
+## Liste der Zusatzfelder
+
+![](img/Zusatzfelder.png)
+
+Mit Neu kann ein neues Zusatzfeld eingerichtet werden.
+
+Durch einen Doppelklick wird die Bearbeitung eines Zusatzfeldes eingeleitet.
+
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Löschen: Damit kann ein Zusatzfeld, die keinem Mitglied zugeordnet ist, gelöscht werden. Bei zugeordneten Zusatzfeldern erscheint eine Fehlermeldung
+
+## Zusatzfeld
 
 Durch einen Klick auf neu öffnet sich folgendes Fenster:
 
-![](../../../assets/felddefinition.png)
+![](img/Zusatzfeld.png)
 
-Der Names des Feldes kann auch den Zeichen a-z und 0-9 und \_ \(Unterstrich\) bestehen. Er darf keine Leerzeichen enthalten und sich nicht mit existierenden Feldnamen überschneiden. Als Label kann ein beliebiger Begriff verwendet werden, der bei der Eingabe der Daten den Feld vorangestellt wird.
+Der Name des Feldes kann auch den Zeichen a-z und 0-9 und \_ \(Unterstrich\) bestehen. Er darf keine Leerzeichen enthalten und sich nicht mit existierenden Feldnamen überschneiden. Als Label kann ein beliebiger Begriff verwendet werden, der bei der Eingabe der Daten den Feld vorangestellt wird.
 
 Folgende Datentypen stehen zur Verfügung:
 

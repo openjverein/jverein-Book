@@ -8,11 +8,41 @@ Der Inhalt von Lesefeldern wird durch [http://www.beanshell.org/](http://www.bea
 
 Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
+## Liste der Lesefelder
+
+![](img/Lesefelder.png)
+
+Mit Neu kann ein neues Lesefeld eingerichtet werden.
+
+Mit  Bearbeiten kann ein Lesefeld bearbeitet werden.
+
+Mit Löschen kann ein Lesefeld gelöscht werden.
+
+## Lesefeld
+
+![](img/Lesefeld.png)
+
+### Mitglied
+
+Die Mitglied Auswahl dient dazu das Ergebnis einer Skript Auswertung für das selektierte Mitglied zu sehen.
+
+### Skript-Name
+
+Name des Skriptes.
+
+
+### Skript
+
+Der Code für das Skript.
+
+### Ausgabe
+
+Ausgabe des Skriptes für das selektierte Mitglied.
+
+
 ## Lesefelder nutzen
 
-Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration \| Einstellungen \| Anzeige \| Lesefelder anzeigen.
-
-![](../../../assets/lesefelder-definitionen.png)
+Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration-&gt;Einstellungen-&gt;Anzeige-&gt;Lesefelder anzeigen.
 
 Beim nächsten Start von Jameica erscheint unter Administration die neue Option Lesefelder. Außerdem wird sofort auf der Mitglieder-Details-Seite ein neuer Tab Lesefelder angezeigt. Über den Bearbeiten-Knopf erhält man die Möglichkeit neue Lesefelder anzulegen und vorhandene zu editieren bzw. zu löschen.
 
@@ -20,7 +50,7 @@ Die Skripts für Lesefelder werden in Java geschrieben. Genauere Informationen �
 
 Die Lesefelder können als Formularfelder verwendet werden.
 
-## Beispielscripte
+## Beispiel Skripte
 
 ### Statisch - Für jedes Mitglied identisch
 

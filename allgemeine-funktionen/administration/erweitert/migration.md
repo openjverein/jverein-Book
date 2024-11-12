@@ -1,6 +1,6 @@
-# Import
+# Migration
 
-## Der Import
+## Der Import von Mitgliedern
 
 Zur Zeit ist der Import von Daten über das durch das Programm SPG-Verein (Sparkasse) vorgegebene CSV-Format realisiert. Diese Datenstruktur kann auch von anderen Programmen (auch Excel, LibreOffice und Co.) erzeugt werden (wird weiter unten beschrieben).
 
@@ -812,25 +812,16 @@ CSV-Datei welche alle Felder außer Eigenschaften enthält
 
 In LibreOffice/OpenOffice/Excel müssen in der ersten Zeile die Feld- bzw- Spaltenbezeichnungen stehen und zwar genau in der oben angegebenen Schreibweise. Auf jeden Fall müssen Spalten für alle Pflichtfelder angelegt werden. Es können aber auch für alle Felder Spalten vorhanden sein, die dann leer bleiben.
 
-![](../../../assets/datei\_aufbau.png)
+![](img/Dateiaufbau.png)
 
-Standardmäßig müssen "Geburtsdatum" und "Eintritt" (Eintrittsdatum) angegeben werden. Unter "Administration" -> "Einstellungen" -> "Anzeige" kann dies vorab geändert werden. Speichern nicht vergessen.
+Standardmäßig müssen "Geburtsdatum" und "Eintritt" (Eintrittsdatum) angegeben werden. Unter Administration->Einstellungen->Anzeige kann dies vorab geändert werden. Speichern nicht vergessen.
 
-![](../../../assets/geburtsdatum\_eintrittsdatum\_einstellung.png)
-
-In der Spalte "Beitragsart\_1" muss die Bezeichnung einer vorhandenen Beitragsgruppe eingetragen werden. Man kann sie unter "Administration" -> "Einstellungen" -> "Beitragsguppen" nachschauen oder eine neue anlegen.
-
-![](../../../assets/beitragsart.png)
+In der Spalte "Beitragsart\_1" muss die Bezeichnung einer vorhandenen Beitragsgruppe eingetragen werden. Man kann sie unter Administration->Einstellungen->Beitragsgruppen nachschauen oder eine neue anlegen.
 
 Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisung oder l für Lastschrift oder Abbuchung oder Bankeinzug. b,u oder l müssen klein geschrieben sein. Wenn l angegeben wird muss auch die IBAN angegeben werden. Ein Feld kann auch leer bleiben, dann wird vom Programm "Barzahlung" angenommen. Keins der Felder darf einen Zeilenumbruch beinhalten. Dies führt zu einer nicht importierbaren CSV Datei.
 
 Beim speichern als CSV Datei (Comma Seperated Values) muss man zumindest in LibreOffice einen Haken bei "Edit filter settings" machen, um weitere Einstellungen vornehmen zu können.
 
-<figure><img src="../../.gitbook/assets/ImportSpeichernUnterLibreOffice.JPG" alt=""><figcaption><p>Einstellungen für den "Speichern unter" Dialog</p></figcaption></figure>
-
-Die Einstellungen sind wie folgt:
-
-<figure><img src="../../.gitbook/assets/ImportEinstellungenLibreOffice.JPG" alt=""><figcaption><p>Einstellungen für den Export</p></figcaption></figure>
 
 ## Anfängerfehler beim Importieren
 

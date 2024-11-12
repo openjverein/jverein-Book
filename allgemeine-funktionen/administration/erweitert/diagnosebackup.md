@@ -6,9 +6,9 @@ Wichtig! Das Diagnosebackup ist nicht für den Transfer zwischen verschiedenen I
 
 ## Diagnosebackup erstellen
 
-Im Menü unter JVerein\|Administration\|Erweitert kann das Backup erstellt werden. Es erscheint ein Datei-Speichern-Dialog. Danach wird die Datenbank exportiert.
+Im Menü unter Administration-&gt;Erweitert kann das Backup erstellt werden. Es erscheint ein Datei-Speichern-Dialog. Danach wird die Datenbank exportiert.
 
 ## Diagnosebackup importieren
 
-Im Menü unter Plugins\|JVerein\|Erweitert kann das Backup importiert werden. Es erscheint ein Datei-Auswahl-Dialog. Danach wird die Datenbank importiert.
+Im Menü unter Administration-&gt;Erweitert kann das Backup importiert werden. Es erscheint ein Datei-Auswahl-Dialog. Danach wird die Datenbank importiert.
 
