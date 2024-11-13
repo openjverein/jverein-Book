@@ -10,16 +10,19 @@ Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) i
 
 Um Sollbuchungen manuell zu erzeugen siehe [Mitgliedskonto](content/mitgliedskonto.md).
 
-## Sollbuchungenübersicht <a id="mitgliedskontouebersicht"></a>
+## Liste der Sollbuchungen <a id="mitgliedskontouebersicht"></a>
 
 Es gibt eine zentrale Übersicht über alle Sollbuchungen. Die Buchungen können über einen Zeitraum oder über einen Namen, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
 
-Zudem lässt sich filtern ob das Mitglied per Lastschift zahlt oder eine Mailadresse hat. Letzteres ist interessant wenn die Rechnungen bzw. Mahnungen per Mail versendet werden sollen.
+Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat. Letzteres ist interessant wenn die Rechnungen bzw. Mahnungen per Mail versendet werden sollen.
 
+![](img/SollbuchungenListeView.png)
 
-![](../../assets/sollbuchungenliste.png)
+Durch einen Doppelklick auf die Sollbuchung wird die Sollbuchung angezeigt.
 
-Durch einen Doppelklick auf die Sollbuchung wird die Sollbuchung angezeugt.
+Folgende Buttons stehen zu Verfügung:
+* Exportieren: Damit können die Sollbuchungen als CSV Datei exportiert werden
+* Neu: Damit kann eine neue Sollbuchung eingerichtet werden
 
 Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü mit mehreren Optionen:
 * Sollbuchung bearbeiten: Bearbeiten der Sollbuchung
@@ -28,15 +31,21 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 * Rechnung erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen.
 * Mahnung erstellen: Erstellt Mahnungen für die selektierten Sollbuchungen.
 
+## Sollbuchung
+
+Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
+
+![](img/SollbuchungView.png)
+
 ## Buchungen einer Sollbuchung zuordnen <a id="mitgliedskontozuordnen"></a>
 
 Unter Buchführung&gt;[Buchungen](../buchf/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
 
-![](../../assets/mitgliedskontobuchungen.png)
+![](ing/BuchungView.png)
 
 Durch einen Klick auf ... neben Sollbuchung erscheint folgender Dialog:
 
-![](../../assets/sollbuchung-zuordnung-ist.png)
+![](img/SollbuchungZuordnungIst.png)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
@@ -52,7 +61,7 @@ Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuc
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \(neue\) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-![](../../assets/sollbuchung-zuordnung-soll+ist.png)
+![](img/SollbuchungZuordnungSollIst.png)
 
 Hier kann nur nach dem Namen gefiltert werden.
 
@@ -60,4 +69,4 @@ In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" angehakt we
 
 ## Spalten im Export
 
-Exportieren Sie Rechnungsdaten oder Mahnungsdaten so haben Sie in der CSV Datei die Spalten des Mitglieds und des Mitgliedskontos
+Exportieren Sie Rechnungsdaten oder Mahnung Daten so haben Sie in der CSV Datei die Spalten des Mitglieds und des Mitgliedskontos

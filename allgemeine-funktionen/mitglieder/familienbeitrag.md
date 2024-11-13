@@ -1,10 +1,10 @@
 # Familienbeitrag
 
-Dieser Dialog zeigt alle Famielienbeziehungen an.
+Dieser Dialog zeigt alle Familien Beziehungen an.
 
 Siehe auch [Familientarife](../../allgemein/familientarife.md).
 
-![](../../assets/familienbeitrag.png)
+![](img/FamilienBeitragView.png)
 
 Einträge können nach Mitgliedschaft gefiltert werden.
 

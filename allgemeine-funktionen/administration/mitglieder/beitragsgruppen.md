@@ -50,13 +50,13 @@ Es gibt Anwendungsfälle in denen in einer Familie die Beiträge für Partner od
 
 Um diese Beziehung zu modellieren wurde das Familienkonzept eingeführt. In einer Familie muss es ein voll zahlendes Mitglied geben. Der Familie können mehrere Familienmitglieder zugeordnet werden. Die Zuordnung wird in den Mitgliedsdaten konfiguriert.
 
-Bis zur Version 2.8.22 gab es je eine Beitragsgruppe für das voll zahlende Familienmitglied und eine Beitragsgruppe für die Familienmitglieder. Für Familienmitglieder konnte kein Beitrag konfiguriert werden. Sie wurden als Beitragsfrei angenommen.
+Bis zur Version 2.8.22 gab es je eine Beitragsgruppe für das voll zahlende Familienmitglied und eine Beitragsgruppe für die Familienmitglieder. Für Familienmitglieder konnte kein Beitrag konfiguriert werden. Sie wurden als beitragsfrei angenommen.
 
 Mit der Version 2.8.23 wurde das Konzept verallgemeinert.
 
 Voll zahlende Familienmitglieder brauchen keine eigene Beitragsgruppe mehr. Man kann jedem Mitglied mit einer normalen Beitragsgruppe ein Familienmitglied zuweisen.
 
-Für Familienmitglieder sind Beitragsarten der der Art Familienangehöriger zu definieren. Für diese können jetzt auch Beiträge konfiguriert werden. Also etwa ein niedrigerer Beitrag oder auch kein Beitrag. Die eigene Beitragsgruppe dient dazu, um überprüfen zu können, dass für ein Mitglied mit Familienbeitrag auch ein voll zahlendes Mitglied existiert.
+Für Familienmitglieder sind Beitragsarten der Art Familienangehöriger zu definieren. Für diese können jetzt auch Beiträge konfiguriert werden. Also etwa ein niedrigerer Beitrag oder auch kein Beitrag. Die eigene Beitragsgruppe dient dazu, um überprüfen zu können, dass für ein Mitglied mit Familienbeitrag auch ein voll zahlendes Mitglied existiert.
 
 ### Buchungsart
 
