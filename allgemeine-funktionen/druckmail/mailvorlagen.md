@@ -1,9 +1,16 @@
 # Mail-Vorlagen
 
-Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit durch Mailvorlagen minimiert werden.
+Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit durch Mail Vorlagen minimiert werden.
 
-![](../../assets/mailvorlagen.png)
+## Mail-Vorlagen Liste View
+
+![](img/MailVorlagenListeView.png)
+
+Über das Kontextmenü lassen sich Mail Vorlagen bearbeiten und löschen.
 
 Durch einen Doppelklick auf den Betreff oder durch einen Klick auf neu öffnet sich das Bearbeitungsfenster.
 
-![](../../assets/mailvorlage.png)
+## Mail-Vorlagen View
+
+![](img/MailVorlagenView.png)
+ 

@@ -12,6 +12,8 @@ Als Wiederholungs-Intervall stehen zur Auswahl:
 
 Beim Buchungstext können die allgemeinen Variablen verwendet werden.
 
+## Liste der Zusatzbeträge
+
 Die Zusatzbeträge können sowohl bei jedem Mitglied auf dem entsprechenden Reiter angesehen werden, als auch in einer Übersicht für alle Mitglieder \(Unter Jameica/JVerein/Mitglieder/Zusatzbeträge\). Dabei kann die Anzeige eingeschränkt werden auf
 
 * alle Mitglieder
@@ -19,24 +21,35 @@ Die Zusatzbeträge können sowohl bei jedem Mitglied auf dem entsprechenden Reit
 * noch nicht ausgeführte Beträge
 * nach den verschieden Ausführungsterminen.
 
-![](../../assets/zusatzabbuchungenuebersicht-2.png)
+![](img/ZusatzBetraegeListeView.png)
 
-Durch einen Doppelklick auf einen Zusatzbetrag wird der Bildschirm für die Bearbeitung geöffnet. 
+Folgende Buttons stehen zu Verfügung:
+* Importieren: Damit können Zusatzbeiträge aus einer Datei importiert werden
+* PDF: Liste der Zusatzbeiträge als PDF exportieren
+* Neu: Damit kann ein neuer Zusatzbeitrag eingerichtet werden.
 
-![](../../assets/mitgliedzusatzabbuchungneu.png)
+Durch einen Doppelklick wird die Bearbeitung eines Zusatzbeitrag eingeleitet.
 
-Mit einem Rechtsklick öffnet sich ein Menü. Damit kann
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Vorheriges Fälligkeitsdatum:  Vorheriges Fälligkeitsdatum setzen
+* Nächstes Fälligkeitsdatum:  Nächstes Fälligkeitsdatum setzen
+* Erneut ausführen:  Zusatzbeitrag erneut ausführen
+* Löschen: Damit kann ein Zusatzbeitrag gelöscht werden
+* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
-* der nächste Fälligkeitstermin gesetzt werden
-* der vorherige Fälligkeitstermin gesetzt werden
-* dar Zusatzbeitrag erneut ausgeführt werden
-* der Zusatzbetrag gelöscht werden
+## Zusatzbeitrag
 
+Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
+
+![](img/ZusatzBetragView.png)
+
+## Abrechnung
 
 Bei der Abrechnung finden folgende Prüfungen statt:
 
-* liegt das Fälligkeitsdatum auf dem Endedatum oder danach: Keine Berechnung
-* liegt das Fälligkeitsdatum auf dem Stichtagsdatum oder davor: Berechnung. Auf das Fälligkeitsdatum wird das Intervall addiert.
+* Liegt das Fälligkeitsdatum auf dem Endedatum oder danach: Keine Berechnung
+* Liegt das Fälligkeitsdatum auf dem Stichtagsdatum oder davor: Berechnung. Auf das Fälligkeitsdatum wird das Intervall addiert.
 
 ### Beipiel 1
 

@@ -8,19 +8,40 @@ In JVerein stehen folgende Alternativen für die Pre-Notifications zur Verfügun
 * Per E-Mail an alle Mitglieder mit E-Mail-Adresse und schriftlich an die Übrigen
 * Als 1ct-Überweisung an alle Mitglieder
 
-## Aufruf der Pre-Notification-Funktion
+## Aufruf der Pre-Notification Funktion über Abrechnungsläufe
 
 Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der Abrechnungsläufe erreicht werden.
 
-Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notification Mail erstellen kann.
+Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-![](../../assets/abrechnungslauf.png)
+![](img/AbrechnungslaufListeView.png)
 
-## Pre-Notification schriftlich und per Mail
+## Aufruf der Pre-Notification Funktion über Druck & Mail
+
+Die Pre-Notification Funktion kann auch über den Navigationsbaum erreicht werden.
+
+Mit einem rechts-Klick auf den entsprechenden Eintrag öffnet sich der Dialog, mit dem man die Pre-Notifications erstellen kann.
+
+In diesem Fall wählt man den Abrechnungslauf für den die Pre-Notifications erzeugt werden sollen im Dialog aus.
+
+![](img/PrenotificationDruckMailView2.png)
+
+## Aufruf der Pre-Notification Funktion über Lastschriften
+
+Die Pre-Notification Funktion kann auch über die Liste der Lastschriften erreicht werden.
+
+Mit einem rechts-Klick auf eine oder mehrere Lastschriften öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
+
+Dies Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. Da bei wiederkehrenden Lastschriften eine Pre-Notification nur beim ersten Mal notwendig ist, kann man hier nur die Mitglieder auswählen die neu hinzugekommen sind oder bei denen sich etwas geändert hat.
+
+![](img/LastschriftenListeView.png)
+
+
+## Dialog bei Aufruf über Abrechnungsläufe oder Lastschriften
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](../../assets/sepa_pre-notification_e-mail_erstellung.png)
+![](img/PrenotificationDruckMailView1.png)
 
 
 ### Schriftliche Pre-Notification an alle Mitglieder
@@ -86,7 +107,7 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
 
-![](../../assets/sepa_pre-notification_1ct_erstellung.png)
+![](img/Prenotification1ctErstellung.png)
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart \(Datei oder Hibiscus\) und das Ausführungsdatum eingestellt werden.
 

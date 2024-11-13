@@ -2,16 +2,23 @@
 
 Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglied des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die Zusatzabbuchungen an.
 
-![](../../assets/kursteilnehmerliste.png)
+## Liste der Kursteilnehmer
+
+![](img/KursteilnehmerListeView.png)
+
+Mit dem Button Neu kann ein neuer Kursteilnehmer eingerichtet werden.
+
+Durch einen Doppelklick wird die Bearbeitung eines Kursteilnehmer eingeleitet.
 
 Das Kursteilnehmer Menü hat folgende Einträge:
-
-* Abbuchungsdatum löschen...
-* Zum Mitglied machen
-* Löschen
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Abbuchungsdatum löschen
+* Zu Mitglied übernehmen
+* Löschen: Damit kann ein Kursteilnehmer gelöscht werden
  
+## Kursteilnehmer
 
-Eingabe eines neuen Kursteilnehmers:
+Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../assets/kursteilnehmerneu.png)
+![](img/KursteilnehmerView.png)
 

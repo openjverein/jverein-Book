@@ -1,4 +1,4 @@
-# Arbeitseinsatz
+# Arbeitseinsätze
 
 ## Aktivierung
 
@@ -8,15 +8,34 @@ In den betroffenen [Beitragsgruppen](../administration/mitglieder/beitragsgruppe
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeitseinsätze prüfen" zur Verfügung steht.
 
-## Arbeitseinsätze buchen
+Die Arbeitseinsätze können direkt beim Mitglied gebucht werden aber auch in der Liste der Arbeitseinsätze.
 
-Die Arbeitseinsätze werden direkt beim Mitglied gebucht dafür ist der Tab "Arbeitseinsatz" zu öffnen:
+## Liste der Arbeitseinsätze
 
-![](../../assets/arbeitseinsatzmitglied.png)
+Der Übersicht View für Arbeitseinsätze zeigt alle vorhandenen Arbeitseinsätze an.
 
-Mit einem Klick auf Neu öffnet sich folgendes Formular:
+Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../assets/arbeitseinsatzneu.png)
+![](img/ArbeitseinsaetzeListeView.png)
+
+Mit dem Button Neu kann ein neuer Arbeitseinsatz eingerichtet werden.
+
+Mit dem Button Auswertung kann zum [Auswertungsdialog](../auswertungen/arbeitseinsatz.md) gesprungen werden.
+
+Durch einen Doppelklick wird die Bearbeitung eines Arbeitseinsatzes eingeleitet.
+
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Löschen: Damit kann ein Arbeitseinsatz gelöscht werden
+* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
+
+## Arbeitseinsatz
+
+Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
+
+![](img/ArbeitseinsatzView.png)
+
+Im Feld Mitglied lässt sich das Mitglied auswählen.
 
 Geben Sie das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
 
@@ -24,11 +43,4 @@ In den Einstellungen von JVerein auf der Ansicht Beiträge können Sie ein Arbei
 
 Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negativer Wert eingetragen und damit die Sollstunden des Mitglieds erhöht werden. Damit kann man Dienstleistungen des Vereins, die mit Arbeitsstunden gegengerechnet werden können, einfach erfassen und abrechnen.
 
-## Arbeitseinsätze prüfen
-
-Die Arbeitseinsätze können ausgewertet werden. Dabei werden Minder-, Normal- und Mehrleistungen überprüft:
-
-![](../../assets/arbeitseinsaetzepruefen.png)
-
-Die Daten in der Liste können entweder im PDF- oder CSV-Format ausgegeben werden. Die CSV-Daten können als Serienbriefdatenquelle mit beliebigen Textverarbeitungen z. B. zur Erzeugung von Mahnungen zur Erledigung der Arbeit verwendet werden. Weiterhin ist die Generierung von Zusatzbeträgen zur weiteren Abrechnung möglich.
 
