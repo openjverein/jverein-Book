@@ -1,5 +1,7 @@
 # Lehrgangsarten
 
+## Allgemeines
+
 Zur Nutzung der Lehrgänge ist die Option in den Einstellungen \(Administration-&gt;Einstellungen-&gt;Anzeige\) zu aktivieren.
 
 ## Liste der Lehrgangsarten

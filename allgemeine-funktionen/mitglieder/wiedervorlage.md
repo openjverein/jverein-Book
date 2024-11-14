@@ -1,8 +1,20 @@
-# Wiedervorlage
+# Wiedervorlagen
+
+### Aktivierung
+
+Zur Nutzung der Wiedervorlagen ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Wiedervorlagen" zur Verfügung steht.
+
+### Allgemeines
 
 Die Wiedervorlage Termine aller Mitglieder können hier angezeigt und als erledigt gekennzeichnet werden.
 
-Die Wiedervorlagen können direkt beim Mitglied gebucht werden aber auch in der Liste der Wiedervorlagen.
+### Erstellung 
+
+Die Wiedervorlagen können erstellt werden
+* in den Mitglied Details (siehe [Wiedervorlage](content/wiedervorlage.md)) 
+* aber auch in der Liste der Wiedervorlagen
 
 
 ## Liste der Wiedervorlagen

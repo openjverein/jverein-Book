@@ -4,33 +4,43 @@ Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsg
 
 Standardaussehen des Formulars:
 
-![](../../../assets/mitgliedmitgliedschaft.png)
+![](img/MitgliedschaftTab.png)
 
-In Administration\|Einstellungen\|Anzeige lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
+In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
+
+## Sekundäre Beitragsgruppen
+
+Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration \| Einstellungen \| Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration \| Beitragsgruppen muss für mindestens eine Beitragsgruppe das Höschen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden.
+
+![](img/SekundaereBeitragsGruppen.png)
 
 ## Familienverband
 
-Sofern eine Beitragsgruppe ausgewählt wurde, die mit "Familie: Zahler" gekennzeichnet ist, verändert sich das Formular wie folgt:
+Sofern eine Beitragsgruppe ausgewählt wurde, die mit "Familienangehöriger" gekennzeichnet ist, wird folgendes Formular angezeigt.
 
-![](../../../assets/mitgliedmitgliedschaftzahler.png)
+Die Person \(ebenfalls ein Mitglied\), die im Familienverband den vollen Beitrag zahlt, kann im Tab "Vollzahlendes Familienmitglied" aus einer Liste ausgewählt werden.
 
-Die Person \(ebenfalls ein Mitglied\), die für das Mitglied zahlt, kann aus einer Liste ausgewählt werden. Hinweis: Dieser Person muss eine Beitragsgruppe der Art "Familie: Zahler" zugewiesen sein, ansonsten taucht sie in der Auswahl-Box nicht auf. Bei einer Beitragsgruppe, die mit "Familie: Angehöriger" gekennzeichnet ist, sieht das Formular so aus:
+![](img/VollZahler.png)
 
-![](../../../assets/mitgliedmitgliedschaftfamilienverband.png)
+Im Tab "Familienverband" werden die Personen angezeigt, die am Familienverband beteiligt sind.
 
-Hier werden die Personen angezeigt, für die das Mitglied die Beiträge zahlt.
+![](img/FamilienVerband.png)
 
-Sinn und Zweck dieser Familienverknüpfung ist es, die Voraussetzungen für die Familienmitgliedschaft prüfen zu können. Tritt ein Mitglied aus, dass für andere Mitglieder als Zahler eingetragen ist, kommt eine entsprechende Fehlermeldung. Dann sind die Beitragsgruppen der beitragsfreien Mitglieder zu verändern oder es ist ein anderer Zahler einzutragen.
+
+
+Sinn und Zweck dieser Familienverknüpfung ist es, die Voraussetzungen für die Familienmitgliedschaft prüfen zu können. Tritt ein Mitglied aus, dass für andere Mitglieder als Vollzahlendes Familienmitglied eingetragen ist, kommt eine entsprechende Fehlermeldung.
+
+Dann sind die Beitragsgruppen der Familienmitglieder zu verändern oder es ist ein anderes Vollzahlendes Familienmitglied einzutragen.
 
 ## Zukünftige Beitragsgruppen
 
-![](../../../assets/mitgliednextbeitragsgruppe.jpg)
+![](img/ZukuenftigeBeitragsGruppen.png)
 
 Hier kann man Beitragsgruppen eintragen, die für dieses Mitglied ab einem definierten Datum gültig sein soll. Hat man z.B. im ersten Jahr einen vergünstigten Probebeitrag, trägt man diesen oben unter Beitragsgruppe ein. Die Beitragsgruppe für den normalen Beitrag, der gültig werden soll, sobald die Probezeit beendet ist, kann man sofort in dieser Tabelle zukünftige Beitragsgruppen eintragen.
 
 Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgruppe erreicht wurde. Alle zu ändernden Mitglieder werden in einer Liste angezeigt und es können die neuen Beitragsgruppen für ausgewählte Mitglieder oder alle angezeigten übernommen werden. Damit die Daten angezeigt werden, ist einmal die Box "künftige Beitragsgruppen" zu aktivieren:
 
-![](../../../assets/boxactivate.png)
+![](img/Boxactivate.png)
 
 Hinweis: Die Box ist nur sichtbar, wenn im Menü "Start" ausgewählt wurde.
 
@@ -42,8 +52,3 @@ Bei Mitgliedern von Beitragsgruppen der Beitragsart Normal können Sie nur ander
 
 Bei Mitgliedern von Beitragsgruppen der Beitragsart Familie: Angehöriger können Sie keine zukünftigen Beitragsgruppen hinterlegen, weil hier u.U. Zahlungsdaten fehlen.
 
-## Sekundäre Beitragsgruppen
-
-Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration \| Einstellungen \| Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration \| Beitragsgruppen muss für mindestens eine Beitragsgruppe das Höschen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden.
-
-![](../../../assets/mitgliedsekundaerebeitragsgruppen.png)

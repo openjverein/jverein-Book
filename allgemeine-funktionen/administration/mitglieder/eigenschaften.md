@@ -1,6 +1,12 @@
 # Eigenschaften
 
-Jedem Mitglied können Eigenschaften zugeordnet werden. Die Eigenschaften werden unter Administration-&gt;Eigenschaften bearbeitet. Jeder Eigenschaft ist eine [Eigenschaften-Gruppe ](eigenschaften-gruppen.md) zuzuordnen.
+## Allgemeines
+
+Jedem Mitglied können Eigenschaften zugeordnet werden.
+
+Die Eigenschaften werden unter Administration-&gt;Eigenschaften bearbeitet.
+
+Jeder Eigenschaft ist eine [Eigenschaften-Gruppe ](eigenschaften-gruppen.md) zuzuordnen.
 
 ## Liste der Eigenschaften
 

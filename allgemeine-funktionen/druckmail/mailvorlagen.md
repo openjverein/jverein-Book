@@ -1,8 +1,10 @@
 # Mail-Vorlagen
 
+## Allgemeines
+
 Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit durch Mail Vorlagen minimiert werden.
 
-## Mail-Vorlagen Liste View
+## Liste der Mail-Vorlagen
 
 ![](img/MailVorlagenListeView.png)
 
@@ -10,7 +12,7 @@ Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit d
 
 Durch einen Doppelklick auf den Betreff oder durch einen Klick auf neu öffnet sich das Bearbeitungsfenster.
 
-## Mail-Vorlagen View
+## Mail-Vorlage
 
 ![](img/MailVorlagenView.png)
  

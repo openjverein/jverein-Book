@@ -1,5 +1,5 @@
 # Zusatzfelder
 
-![](../../../assets/mitgliedzusatzfelder.png)
+![](img/ZusatzfelderTab.png)
 
-Durch [Felddefinitionen](../../administration/mitglieder/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
+Durch [Zusatzfelder](../../administration/mitglieder/felddefinition.md) können zusätzliche Datenfelder erfasst werden.

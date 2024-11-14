@@ -1,8 +1,22 @@
 # Lehrgänge
 
+### Aktivierung
+
 Zur Nutzung der Lehrgänge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
 
-Die Lehrgänge können direkt beim Mitglied gebucht werden aber auch in der Liste der Lehrgänge.
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Lehrgänge" zur Verfügung steht.
+
+### Allgemeines 
+
+Hier können Lehrgänge den Mitglieder/Nicht-Mitgliedern zugeordnet werden.
+
+Lehrgangsarten können in Administration->Mitglieder->[Lehrgangsarten](../administration/mitglieder/lehrgange.md) erstellt werden.
+
+### Erstellung 
+
+Die Lehrgänge können erstellt werden
+* in den Mitglied Details (siehe [Lehrgänge](content/lehrgaenge.md)) 
+* aber auch in der Liste der Lehrgänge
 
 
 ## Liste der Lehrgänge

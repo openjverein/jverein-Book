@@ -1,5 +1,7 @@
 # Kontoauszuege
 
+## Allgemeines
+
 Der Kontoauszug ist eine Liste \(PDF-Ausgabe\) sämtlicher Buchungen auf einem Mitgliedskonto.
 
 ![](img/Kontoauszug.jpg)

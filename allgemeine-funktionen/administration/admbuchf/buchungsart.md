@@ -1,5 +1,7 @@
 # Buchungsart
 
+## Allgemeines
+
 Über Buchungsarten kann festgelegt werden, für welche Zwecke Geld eingenommen oder ausgegeben wurde.
 
 ## Liste der Buchungsarten

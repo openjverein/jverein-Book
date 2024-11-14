@@ -1,5 +1,7 @@
 # Beitragsgruppen
 
+## Allgemeines
+
 Es muss mindestens eine Beitragsgruppe erfasst werden. 
 
 ## Liste der Beitragsgruppen

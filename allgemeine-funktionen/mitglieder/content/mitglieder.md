@@ -62,6 +62,8 @@ Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweilige
 
 Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied.
 
+Siehe [Mitglied](grunddaten.md).
+
 ### Duplizieren
 
 Es wird ein neuer Datensatz mit den Daten des Mitgliedes angelegt. Dieser kann dann vor der Speicherung verändert werden.
@@ -87,9 +89,13 @@ Die Icons haben fünf Zustände:
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-### Zusatzbeiträge zuweisen
+![](img/ArbeitseinsatzDialog.png)
+
+### Zusatzbeträge zuweisen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
+
+![](img/ZusatzbetragDialog.png)
 
 ### Zu Nicht-Mitglied umwandeln
 

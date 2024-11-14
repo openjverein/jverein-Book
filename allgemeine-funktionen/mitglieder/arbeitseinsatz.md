@@ -1,14 +1,23 @@
 # Arbeitseinsätze
 
-## Aktivierung
+### Aktivierung
 
-Zunächst sind die Arbeitseinsätze zu aktivieren. Das geschieht unter Administration&gt;Einstellungen&gt;Anzeige.
+Zur Nutzung der Arbeitseinsätze ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
 
-In den betroffenen [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) wird die Anzahl der Pflichtstunden und der Betrag für nicht erbrachte Stunden hinterlegt.
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeitseinsätze" zur Verfügung steht.
 
-Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeitseinsätze prüfen" zur Verfügung steht.
+### Allgemeines
 
-Die Arbeitseinsätze können direkt beim Mitglied gebucht werden aber auch in der Liste der Arbeitseinsätze.
+Neben Geldzahlungen kann als Beitrag auch Arbeitsleistung dienen.
+
+In den betroffenen [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) wird die Anzahl der Pflichtstunden und der Betrag für nicht erbrachte Stunden hinterlegt
+
+### Erstellung 
+
+Die Arbeitseinsätze können erstellt werden
+* in den Mitglied Details (siehe [Arbeitseinsatz](content/arbeitseinsatz.md)) 
+* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md)) 
+* aber auch in der Liste der Arbeitseinsätze
 
 ## Liste der Arbeitseinsätze
 

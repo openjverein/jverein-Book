@@ -1,6 +1,6 @@
 # Kontenrahmen Import Export
 
-## Allgemein
+## Allgemeines
 
 Die JVerein-Buchführung beruht auf Buchungsarten \(könnte man auch als Konten bezeichnen\) und auf Buchungsklassen \(Kontenrahmen\). Für den Austausch von Kontenrahmen zwischen Vereinen gibt es den Export und Import im XML-Format.
 
