@@ -3,7 +3,7 @@ Zur Nutzung der Lehrgänge ist die Option in den Einstellungen->Administration->
 
 Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lehrgänge" zur Verfügung steht.
 
-Zur Nutzung sind die [Lehrgänge](../../administration/mitglieder/lehrgange.md) in der Administration&gt;Lehrgangsarten einzurichten.
+Zur Nutzung sind die [Lehrgangsarten](../../administration/mitglieder/lehrgange.md) in der Administration&gt;Lehrgangsarten einzurichten.
 
 ## Lehrgänge Liste beim Mitglied
 

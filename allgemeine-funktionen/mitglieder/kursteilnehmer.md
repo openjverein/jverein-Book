@@ -1,5 +1,13 @@
 # Kursteilnehmer
 
+### Aktivierung
+
+Zur Nutzung der Kursteilnehmer ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Kursteilnehmer" zur Verfügung steht.
+
+### Allgemeines
+
 Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglied des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die Zusatzabbuchungen an.
 
 ## Liste der Kursteilnehmer
