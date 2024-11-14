@@ -1,6 +1,6 @@
 # Projekte
 
-## Einleitung
+## Allgemeines
 
 Innerhalb der Buchführung können Buchungen zu Projekten zusammengefasst werden. Siehe auch [https://jverein-forum.de/viewtopic.php?f=4&t=646](https://jverein-forum.de/viewtopic.php?f=4&t=646)
 

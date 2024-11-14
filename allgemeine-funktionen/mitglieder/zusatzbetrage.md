@@ -1,5 +1,13 @@
 # Zusatzbeträge
 
+### Aktivierung
+
+Zur Nutzung der Zusatzbeträge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Zusatzbeträge" zur Verfügung steht.
+
+### Allgemeines
+
 Für jedes Mitglied können Zusatzbeträge hinterlegt werden. Diese Beträge werden zusätzlich zum Mitgliedsbeitrag eingezogen. Die Abrechnungen können einmalig \(z. B. Eigenanteil für die Teilnahme an einer Veranstaltung\) oder wiederkehrend \(z. B. Instrumentenversicherung\) angelegt werden. \(Die Zusatzbeträge-Sektionen werden in JVerein nur angezeigt, wenn unter Jameica/JVerein/Administration/Einstellungen/Anzeige der Haken bei "Zusatzbeträge anzeigen" gesetzt ist.\)
 
 Als Wiederholungs-Intervall stehen zur Auswahl:
@@ -12,30 +20,34 @@ Als Wiederholungs-Intervall stehen zur Auswahl:
 
 Beim Buchungstext können die allgemeinen Variablen verwendet werden.
 
+### Erstellung 
+
+Die Zusatzbeträge können erstellt werden
+* in den Mitglied Details (siehe [Zusatzbeträge](content/zusatzbeitraege.md)) 
+* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md)) 
+* aber auch in der Liste der Zusatzbeträge
+
 ## Liste der Zusatzbeträge
 
-Die Zusatzbeträge können sowohl bei jedem Mitglied auf dem entsprechenden Reiter angesehen werden, als auch in einer Übersicht für alle Mitglieder \(Unter Jameica/JVerein/Mitglieder/Zusatzbeträge\). Dabei kann die Anzeige eingeschränkt werden auf
+Der Übersicht View für Zusatzbeträge zeigt alle vorhandenen Zusatzbeträge an.
 
-* alle Mitglieder
-* aktive
-* noch nicht ausgeführte Beträge
-* nach den verschieden Ausführungsterminen.
+Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
 ![](img/ZusatzBetraegeListeView.png)
 
 Folgende Buttons stehen zu Verfügung:
-* Importieren: Damit können Zusatzbeiträge aus einer Datei importiert werden
-* PDF: Liste der Zusatzbeiträge als PDF exportieren
-* Neu: Damit kann ein neuer Zusatzbeitrag eingerichtet werden.
+* Importieren: Damit können Zusatzbeträge aus einer Datei importiert werden
+* PDF: Liste der Zusatzbeträge als PDF exportieren
+* Neu: Damit kann ein neuer Zusatzbetrag eingerichtet werden.
 
-Durch einen Doppelklick wird die Bearbeitung eines Zusatzbeitrag eingeleitet.
+Durch einen Doppelklick wird die Bearbeitung eines Zusatzbetrag eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Vorheriges Fälligkeitsdatum:  Vorheriges Fälligkeitsdatum setzen
 * Nächstes Fälligkeitsdatum:  Nächstes Fälligkeitsdatum setzen
 * Erneut ausführen:  Zusatzbeitrag erneut ausführen
-* Löschen: Damit kann ein Zusatzbeitrag gelöscht werden
+* Löschen: Damit kann ein Zusatzbetrag gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
 ## Zusatzbeitrag

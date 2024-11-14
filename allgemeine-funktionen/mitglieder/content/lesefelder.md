@@ -1,7 +1,17 @@
 # Lesefelder
 
-Zur Nutzung ist in den [Einstellungen](../../administration/einstellungen.md) das entsprechende Häkchen zu setzen und die Lesefelder sind unter Administration&gt;Lesefelder einzurichten.
+Zur Nutzung der Lesefelder ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
 
-![](../../../assets/lesefelder-mitgliedansicht.png)
+Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zur Verfügung steht.
 
-Vorschau der definierten [Lesefelder](../../administration/mitglieder/lesefelder.md) für das aktuelle Mitglied.
+## Lesefelder Liste beim Mitglied
+
+![](img/LesefelderTab.png)
+
+## Lesefelder beim Mitglied bearbeiten
+
+Über den Button Bearbeiten lassen sich die Lesefelder bearbeiten.
+
+![](../../administration/mitglieder/img/Lesefeld.png)
+
+Weitere Informationen dazu: [Lesefelder](../../administration/mitglieder/lesefelder.md) 

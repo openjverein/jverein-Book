@@ -2,10 +2,28 @@
 
 Zusätzliche Zahlungen \(z. B. Eigenanteile für Fahrten, Strafgelder ...\) können über Zusatzbeträge verarbeitet werden.
 
-![](../../../assets/mitgliedzusatzbetraege.png)
+Zur Nutzung der Zusatzbeträge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
 
-Ein Klick auf Neu öffnet folgendes Fenster:
+Anschließend sollte JVerein neu gestartet werden, damit der Tab "Zusatzbeträge" zur Verfügung steht.
 
-![](../../../assets/mitgliedzusatzbetraegeneu.png)
+## Zusatzbeträge Liste beim Mitglied
+
+![](img/ZusatzbetraegeTab.png)
+
+Durch einen Doppelklick wird die Bearbeitung eines Zusatzbetrag eingeleitet.
+
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Vorheriges Fälligkeitsdatum: Vorheriges Fälligkeitsdatum setzen
+* Nächstes Fälligkeitsdatum: Nächstes Fälligkeitsdatum setzen
+* Erneut ausführen: Zusatzbeitrag erneut ausführen
+* Löschen: Damit kann ein Zusatzbetrag gelöscht werden
+* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
+
+## Zusatzbeitrag beim Mitglied anlegen
+
+Ein Klick auf "Neuer Zusatzbetrag" öffnet folgendes Fenster:
+
+![](../img/ZusatzBetragView.png)
 
 Weitere Informationen dazu: [Zusatzbeiträge](../zusatzbetrage.md)

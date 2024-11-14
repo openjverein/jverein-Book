@@ -1,5 +1,7 @@
 # Formulare
 
+## Allgemeines
+
 In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke \(freie Formulare\) Formulare hinterlegt.
 
 ## Liste der Formulare

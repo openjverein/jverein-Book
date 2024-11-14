@@ -22,7 +22,7 @@
     * [Mitglieder](allgemeine-funktionen/mitglieder/content/README.md)
       * [Suche](allgemeine-funktionen/mitglieder/content/mitglieder.md)
       * [Suchprofil](allgemeine-funktionen/mitglieder/content/suchprofil.md)
-      * [Grunddaten](allgemeine-funktionen/mitglieder/content/grunddaten.md)
+      * [Stammdaten](allgemeine-funktionen/mitglieder/content/grunddaten.md)
       * [Mitgliedschaft](allgemeine-funktionen/mitglieder/content/mitgliedschaft.md)
       * [Zahlung](allgemeine-funktionen/mitglieder/content/zahlung.md)
       * [Zusatzbeiträge](allgemeine-funktionen/mitglieder/content/zusatzbeitraege.md)

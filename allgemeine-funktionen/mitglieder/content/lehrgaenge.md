@@ -1,17 +1,27 @@
 # Lehrgänge
+Zur Nutzung der Lehrgänge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
 
-Zur Nutzung ist in den [Einstellungen](../../administration/einstellungen.md) das entsprechende Häkchen zu setzen und die [Lehrgänge](../../administration/mitglieder/lehrgange.md) sind in der Administration&gt;Lehrgangsarten einzurichten.
+Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lehrgänge" zur Verfügung steht.
 
-## Lehrgangsübersicht beim Mitglied
+Zur Nutzung sind die [Lehrgänge](../../administration/mitglieder/lehrgange.md) in der Administration&gt;Lehrgangsarten einzurichten.
 
-![](../../../assets/mitgliedlehrgaenge.png)
+## Lehrgänge Liste beim Mitglied
+
+![](img/LehrgaengeTab.png)
+
+Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
+
+Durch einen Doppelklick wird die Bearbeitung eines Lehrgangs eingeleitet.
+
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Löschen: Damit kann ein Lehrgang gelöscht werden
+* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
 ## Lehrgang beim Mitglied anlegen
 
-Durch Auswahl des Buttons "Neuer Lehrgang" kan ein neuer Lehrgang für das Mitglied angelegt werden.
+Durch Auswahl des Buttons "Neuer Lehrgang" kann ein neuer Lehrgang für das Mitglied angelegt werden.
 
-![](../../../assets/mitgliedlehrgang.png)
+![](../img/LehrgangView.png)
 
-## Lehrgang beim Mitglied löschen
-
-Durch rechts Klick auf einen Lehrgangs Eintrag erschein ein Menü zum Löschen eins Eintrags.
+Weitere Informationen dazu: [Lehrgänge](../lehrgange.md)

@@ -1,14 +1,16 @@
 # Mails
 
+## Allgemeines
+
 In JVerein ist ein einfaches Mail-Programm integriert. Hiermit ist es möglich, einfache Textmails mit Dateianhängen an einzelne Mitglieder, Gruppen von Mitglieder oder alle Mitglieder zu verschicken. Es werden stets einzelne Mails versendet, d.h. bei bspw. 200 ausgewählten Mitgliedern eben auch 200 Mails an jeweils nur die E-Mail-Adresse des Mitglieds \(nur eine Adresse im To\). Die einzelnen E-Mails können mittels Variablen personalisiert werden.
 
 Der Empfang von Mails ist nicht vorgesehen.
 
 ## Konfiguration
 
-Die Konfiguration ist unter Einstellungen beschrieben.
+Die Konfiguration ist unter Administration->Einstellungen->[Mail](../administration/einstellungen/mail.md) beschrieben.
 
-## Mails
+## Liste der Mails
 
 In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatum angezeigt.
 
@@ -17,6 +19,8 @@ In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatu
 Über das Kontextmenü lassen sich Mails bearbeiten oder löschen.
 
 ![](img/MailsView.png)
+
+## Mails
 
 Durch einen Klick auf neu öffnet sich ein Mail-Vorlagen-Auswahlfenster:
 

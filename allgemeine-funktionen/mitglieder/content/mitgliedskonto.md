@@ -2,16 +2,25 @@
 
 In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen \(Rechnersymbol\), sowie die einzelnen zugeordneten Istbuchungen \(Euro-Symbol\) angezeigt.
 
-![](../../../assets/mitgliedskontomitglied.png)
+![](img/MitgliedskontoTab.png)
 
-Mit einem rechten Mausklick auf das Mitglied öffnet sich ein Kontextmenü.
+Durch einen Doppelklick auf eine
+* Sollbuchung wird die Sollbuchung angezeigt
+* Istbuchung wird die Istbuchung angezeigt
 
-![](../../../assets/spendenbescheinigung_menu2.png)
+Das Kontextmenü bietet folgende Optionen:
+* Neue Sollbuchung: Aktiv falls das Mitglied ausgewählt ist
+* Sollbuchung bearbeiten: Aktiv falls die Sollbuchung ausgewählt ist
+* Sollbuchung löschen: Aktiv falls die Sollbuchung ausgewählt ist und keine Istbuchung zugewiesen ist
+* Istbuchung bearbeiten: Aktiv falls die Istbuchung ausgewählt ist
+* Istbuchung von Sollbuchung lösen: Aktiv falls die Istbuchung ausgewählt ist
+* Geldspendenbescheinigung: Aktiv falls das Mitglied oder die Istbuchung ausgewählt ist
+* Sachpendenbescheinigung: Aktiv falls das Mitglied ausgewählt ist
+
+Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spendenbescheinigung.md)
 
 Über den Menüpunkt "Neue Sollbuchung" können neue Sollbuchungen aufgenommen werden.
 
-![](../../../assets/sollbuchungneu.png)
+![](../img/SollbuchungView.png)
 
-Mit einem rechten Mausklick auf eine Sollbuchung öffnet sich ein Kontextmenü. Damit kann die Sollbuchung bearbeitet, oder, sofern keine Istbuchung zugeordnet ist, auch gelöscht werden.
 
-Mit einem rechten Mausklick auf eine Istbuchung öffnet sich ein Kontextmenü. Damit kann die Istbuchung von der Sollbuchung gelöst werden.

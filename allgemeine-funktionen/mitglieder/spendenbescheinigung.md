@@ -1,8 +1,12 @@
 # Spendenbescheinigungen
 
-Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
+### Aktivierung
 
-## Allgemeines
+Zur Nutzung der Spendenbescheinigungen ist keine extra Aktivierung notwendig.
+
+### Allgemeines
+
+Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
 
 JVerein unterstützt das Erstellen von Spendenbescheinigungen für:
 * Sachspenden
@@ -10,6 +14,17 @@ JVerein unterstützt das Erstellen von Spendenbescheinigungen für:
 * Vergütungsspenden (Rückspenden)
 * Leistungsspenden
 * Geldspenden
+
+### Erstellung 
+
+Die Spendenbescheinigungen können erstellt werden
+* in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md)) 
+* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md)) 
+* aber auch in der Liste der Spendenbescheinigungen
+
+Für Details zur Erstellung siehe weiter unten.
+
+## Liste der Spendenbescheinigungen
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
@@ -19,17 +34,36 @@ Der Filterbereich erlaubt es nach verschiedenen Kriterien zu filtern.
 
 ![](img/SpendenbescheinigungenListeView.png)
 
-In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung.
+Folgende Buttons stehen zu Verfügung:
+* Neu (Sachspende): Neue Sachspendenbescheinigungen erstellen
+* Neu (automatisch): Automatisch neue Geldspendenbescheinigungen erstellen
 
-Damit können Spendenbescheinigungen zum Bearbeiten geöffnet werden oder gelöscht werden.
+Durch einen Doppelklick wird die Bearbeitung einer Spendenbescheinigung eingeleitet.
 
-Mit einem Doppelklick auf eine Spendenbescheinigung öffnet sich das Bearbeitungsfenster.
+In der Liste können ein oder mehrere Einträge markiert werden. 
 
-Es ist möglich eine Mail an den Spender zu schreiben oder die ausgewählten Spendenbescheinigungen zu drucken oder per Mail an die Spender zu schicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md).
+Das Kontextmenü bietet folgende Optionen:
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Löschen: Damit kann eine Spendenbescheinigung(en) gelöscht werden
+* PDF: Drucken der Spendenbescheinigung(en) als PDF
+* Druck und Mail:  Spendenbescheinigung(en) über den Druck und Mail Dialog drucken oder per Mail verschicken.  Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
+* Mail an Spender: Eine Mail an den Spender verschicken
 
-Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
+Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.#
 
-## Sachspendenbescheinigungen erstellen
+## Spendenbescheinigung
+
+Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
+
+![](img/SpendenbescheinigungView.png)
+
+Folgende Buttons stehen zu Verfügung:
+* Druck und Mail:  Spendenbescheinigung über den Druck und Mail Dialog drucken oder per Mail verschicken.  Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
+* Speichern: Spendenbescheinigung speichern
+
+## Spendenbescheinigungen erstellen
+
+### Sachspendenbescheinigungen erstellen
 
 Sachspendenbescheinigungen können auf verschiedene Art erzeugt werden:
 
@@ -43,7 +77,7 @@ Sachspendenbescheinigungen können auf verschiedene Art erzeugt werden:
 
 * Als dritte Möglichkeit kann in der Liste Spendenbescheinigungen der Button "Neu \(Sachspende\)" gedrückt werden. Da hier kein Mitglied ausgewählt ist müssen die Daten des Spenders eingetragen werden. Es ist zu beachten, dass dabei kein Bezug zu einem Mitglied hergestellt wird und darum z.B. ein Versenden per Mail aus JVerein heraus später nicht möglich ist da keine Mail Adresse hinterlegt ist.
 
-## Spendenbescheinigung für Aufwandsspenden, Vergütungsspendespenden (Rückspende) und Leistungsspenden erstellen
+### Spendenbescheinigung für Aufwandsspenden, Vergütungsspendespenden (Rückspende) und Leistungsspenden erstellen
 
 Bei dieser Art von Spende handelt es sich um den Verzicht auf Erstattung von Aufwand, Vergütung oder Leistungen. Diese werden über die Spendenart Geldspende bescheinigt wobei auf dem Spendenformular die Frage nach dem Verzicht auf Aufwendungen mit Ja beantwortet wird.
 
@@ -53,9 +87,9 @@ Das Erzeugen der Spendenbescheinigung erfolgt wie nachfolgend bei Geldspendenbes
 
 Zu beachten ist, dass bei Sammelbescheinigungen diese Art der Spende mit Geldspenden gemischt sein kann. Auf der zweiten Seite der Spendenbescheinigung wird dann für jede enthaltene Buchung ausgewiesen ob es sich um Verzicht auf Erstattung von Aufwänden handelt oder nicht.
 
-## Geldbescheinigungen erstellen
+### Geldbescheinigungen erstellen
 
-### Voraussetzungen
+#### Voraussetzungen
 
 Um Geldspendenbescheinigungen erstellen zu können müssen verschiedene Voraussetzungen erfüllt sein:
 * Es muss eine Buchung \(Istbuchung\) in einem Konto existieren.
@@ -68,7 +102,7 @@ Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiede Arten erzeu
 * Wurde die Buchung ohne einen Abrechnungslauf erzeugt muss eine Sollbuchung erzeugt und die Buchung zugeordnet werden. Dies kann in einem Schritt erfolgen. Siehe zweite Option in [Sollbuchungen](mitgliedskonto.md).
 * Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen. Für das Erstellen einer Sollbuchung siehe [Mitgliedskonto](content/mitgliedskonto.md).
 
-### Geldspendenbescheinigung manuell erstellen
+#### Geldspendenbescheinigung manuell erstellen
 
 Ähnlich einer Sachspendenbescheinigungen kann eine Geldspendenbescheinigung manuell erzeugt werden:
 
@@ -76,7 +110,7 @@ Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiede Arten erzeu
 
   ![](img/MitgliedskontoMenue.png)
 
-### Geldspendenbescheinigung automatisch erstellen
+#### Geldspendenbescheinigung automatisch erstellen
 
 Voraussetzungen für die automatische Generierung von Geldspendenbescheinigungen:
 

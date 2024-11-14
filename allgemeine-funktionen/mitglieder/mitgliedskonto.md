@@ -1,14 +1,22 @@
 # Sollbuchungen
 
-## Sollbuchungen automatisch erzeugen durch Abrechnungslauf
+### Aktivierung
 
-Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbeiträgen und Zusatzabrechnungen in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds.
+Zur Nutzung der Sollbuchungen ist keine extra Aktivierung notwendig.
 
-Zusätzlich werden für den Zahlungsweg Abbuchung Informationen \(Istbuchung\) in die Buchungstabelle der Buchführung geschrieben.
+### Allgemeines
 
-## Sollbuchung manuell erstellen
+Sollbuchungen d.h. Beiträge, Zusatzbeträge etc. dienen dazu den Kontostand von Mitgliedern zu führen. Durch die Zuweisung von Istbuchungen kann der Kontostand ausgeglichen werden. 
 
-Um Sollbuchungen manuell zu erzeugen siehe [Mitgliedskonto](content/mitgliedskonto.md).
+Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbeiträgen und Zusatzbeträge in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds.
+
+### Erstellung 
+
+Die Zusatzbeträge können erstellt werden
+* über einen Abrechnungslauf (siehe [Abrechnung](../abrech/abrechnung.md) )
+* in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md)) 
+* aber auch in der Liste der Sollbuchungen
+
 
 ## Liste der Sollbuchungen <a id="mitgliedskontouebersicht"></a>
 

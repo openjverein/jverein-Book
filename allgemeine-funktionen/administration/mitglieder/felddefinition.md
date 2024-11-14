@@ -1,8 +1,10 @@
 # Zusatzfelder
 
+## Allgemeines
+
 Der Benutzer kann zusätzliche Datenfelder \(=Zusatzfelder\) definieren.
 
-Diese erscheinen beim Mitglied unter Reiter dem "Zusatzfelder".
+Diese erscheinen beim Mitglied unter Reiter  "Zusatzfelder".
 
 Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu sind die entsprechenden Mitgliedern Spalten in den [Einstellungen](../einstellungen/spalten.md) zu aktivieren.
 
