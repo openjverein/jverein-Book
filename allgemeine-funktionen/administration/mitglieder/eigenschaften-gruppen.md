@@ -1,4 +1,4 @@
-# Eigenschaften-Gruppen
+# Eigenschaftengruppen
 
 Zur Gruppierung der Eigenschaften können Eigenschaften-Gruppen eingerichtet werden.
 

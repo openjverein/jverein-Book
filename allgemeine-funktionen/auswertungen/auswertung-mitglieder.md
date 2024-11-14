@@ -22,7 +22,7 @@ Die Sortierung erfolgt wahlweise nach
 * Geburtsdatum
 * Geburtsmonat und -jahr \(Geburtstagliste\).
 
-Hinweis: Runde Geburtstage können in der [Jubiläumsliste](jubilaumsliste.md) ausgegeben werden.
+Hinweis: Runde Geburtstage können in der [Jubiläumsliste](jubilaen.md) ausgegeben werden.
 
 ## Ausgabe im PDF-Format
 
@@ -66,7 +66,7 @@ DerAddressbuchexport CSV eignet sich u.a. für die Weiterverarbeitung in Mailpro
 
 Ab Version 2.5 kann man eigene Vorlagen für den CSV-Export erstellen.
 
-Dazu ist zunächst unter [Einstellungen- &gt; Dateinamenmuster](../administration/einstellungen.md#Dateinamenmuster) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
+Dazu ist zunächst unter [Einstellungen- &gt; Dateinamen](../administration/einstellungen/dateinamen.md) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
 
 Jede der selbst erstellten Vorlagen ist ebenfalls eine CSV-Datei. Diese Dateien müssen mit einem externen Programm erstellt werden, also mit einem Texteditor oder mit einem Tabellenkalkulationsprogramm. Damit JVerein diese Vorlagendateien erkennt, müssen diese im gewählten Vorlagenverzeichnis gespeichert werden.
 

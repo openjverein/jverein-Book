@@ -6,7 +6,7 @@ Jedem Mitglied können Eigenschaften zugeordnet werden.
 
 Die Eigenschaften werden unter Administration-&gt;Eigenschaften bearbeitet.
 
-Jeder Eigenschaft ist eine [Eigenschaften-Gruppe ](eigenschaften-gruppen.md) zuzuordnen.
+Jeder Eigenschaft ist eine [Eigenschaftengruppe ](eigenschaften-gruppen.md) zuzuordnen.
 
 ## Liste der Eigenschaften
 
