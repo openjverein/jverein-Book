@@ -26,7 +26,7 @@ Der Jahresabschluss zeigt den Zeitraum des Jahresabschlusses an. Es ist das Gesc
 
 Bei Name sollte der Name desjenigen eingetragen werden, der den Abschluss durchführt.
 
-Tip: Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit werden die Endstände in der Liste der Anfangsbestände abgespeichert und als Basis für das nächste Geschäftsjahr verwendet. Auch das Anlagenverzeichnis verwendet die Anfangsbestände.
+Tipp: Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit werden die Endstände in der Liste der Anfangsbestände abgespeichert und als Basis für das nächste Geschäftsjahr verwendet. Auch das Anlagenverzeichnis verwendet die Anfangsbestände.
 
 Ist in den [Einstellungen](../administration/einstellungen/anzeige.md) der Ort der Abschreibung auf "Checkbox in Jahresabschluss" konfiguriert, wird hier auch die Checkbox "Erzeuge Abschreibungen" sichtbar. Ist sie gewählt, werden automatisch die AfA Abschreibungen generiert.
 

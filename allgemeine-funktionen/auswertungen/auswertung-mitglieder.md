@@ -66,7 +66,7 @@ DerAddressbuchexport CSV eignet sich u.a. für die Weiterverarbeitung in Mailpro
 
 Ab Version 2.5 kann man eigene Vorlagen für den CSV-Export erstellen.
 
-Dazu ist zunächst unter [Einstellungen- &gt; Dateinamen](../administration/einstellungen/dateinamen.md) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
+Dazu ist zunächst unter [Einstellungen-&gt;Dateinamen](../administration/einstellungen/dateinamen.md) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
 
 Jede der selbst erstellten Vorlagen ist ebenfalls eine CSV-Datei. Diese Dateien müssen mit einem externen Programm erstellt werden, also mit einem Texteditor oder mit einem Tabellenkalkulationsprogramm. Damit JVerein diese Vorlagendateien erkennt, müssen diese im gewählten Vorlagenverzeichnis gespeichert werden.
 
@@ -87,7 +87,7 @@ Jede CSV Vorlagendatei besteht aus 2 Zeilen:
 
 **Beispiel**
 
-Datei Eintrittsdatum.csv, wird angezeigt unter Ausgabe alsVorlage CSV: Eintrittsdatum\(ohne Endung .csv\)
+Datei Eintrittsdatum.csv, wird angezeigt unter Ausgabe als Vorlage CSV: Eintrittsdatum\(ohne Endung .csv\)
 
 ```text
 Name;Vorname;Eintrittsdatum

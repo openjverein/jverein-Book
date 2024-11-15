@@ -21,7 +21,7 @@ Hierzu gibt es das Feature Buchungskorrektur.
 
 ## Automatische Buchungskorrektur
 
-In den Einstellungen unter Buchführung lässt sich neben der automatischen Buchungübernahme aus Hibiscus auch die automatische Korrektur der Verwendungszwecke aktivieren.
+In den Einstellungen unter Buchführung lässt sich neben der automatischen Buchungsübernahme aus Hibiscus auch die automatische Korrektur der Verwendungszwecke aktivieren.
 
 Ist dies aktiviert werden die von Hibiscus gelieferten Verwendungszwecke automatisch korrigiert und die Verwendungszwecke unter SVWZ extrahiert.
 
@@ -29,7 +29,9 @@ PS: Es kann sein, dass eine Bank das SVWZ nicht enthält aber die anderen Tags. 
 
 ## Manuelle Buchungkorrektur
 
-Hat man die automatische Buchungskorrektur nicht aktiviert oder hat man bereits Buchungen die nicht korrigiert sind, kann man die manuelle Buchungskorrektur unter dem Menüpunkt Buchführung\|Buchungskorrektur aufrufen.
+Hat man die automatische Buchungskorrektur nicht aktiviert oder hat man bereits Buchungen die nicht korrigiert sind, kann man die manuelle Buchungskorrektur unter dem Menüpunkt Buchführung->Buchungskorrektur aufrufen.
+
+![](img/BuchungskorrekturView.png)
 
 Der View zeigt alle nicht abgeschlossenen Buchungen in denen eines der Tags EREF, KREF, MREF, CRED, DBET, SVWZ, ABWA, IBAN+, IBAN:, BIC gefunden wurde.
 

@@ -12,8 +12,6 @@ Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 * Sich neue Offline Konten erstellen oder 
 * Online Konten aus Hibiscus importieren
 
-![](img/KontoMenu.png)
-
 Über das Konto Menü lassen sich
 * Konten zum Bearbeiten anzeigen
 * Ein Anfangsbestand erzeugen
