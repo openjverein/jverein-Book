@@ -14,13 +14,13 @@ Beispiele:
 
 Rechtsklick auf die Buchung(en), dann Splitbuchung auswählen:
 
-![](../../assets/splitbuchung01.png)
+![](img/Splitbuchung01.png)
 
 Es können auch mehrere Buchungen gleichzeitig ausgewählt werden. Sie müssen allerdings den gleichen Betrag haben. Anschliesend wird ein Buchungeintrag bearbeitet. Beim Speichern wird eine analoge Aufteilung der Beträge auch auf alle anderen selektierten Buchungen angewendet. 
 
 Es erscheint dann:
 
-![](../../assets/splitbuchung02.png)
+![](img/Splitbuchung02.png)
 
 Als Info wird angezeigt wie viele Buchungen selektiert wurden und damit wie viele Splitbuchungen erzeugt werden.
 
@@ -38,7 +38,7 @@ Mit Speichern und nächste kann man direkt zur Eingabe des nächsten Split Eintr
 
 Bei der letzen Buchungen kann man mit Speichern zur Splitbuchung Anzeige zurück kehren. Bei Speichern und nächste kommt man bei einem Restbetrag von 0€ automatisch zurück.
 
-![](../../assets/splitbuchung04.png)
+![](img/Splitbuchung04.png)
 
 Das obige Bild zeigt den Stand, dass noch nicht alle Split Einträge erzeugt wurden.
 
@@ -53,19 +53,19 @@ Sind alle Bedingungen erfüllt (siehe Bild unten) muss die Splitbuchung über de
 
 Achtung: Das Speichern bitte nicht vergessen!
 
-![](../../assets/splitbuchung05.png)
+![](img/Splitbuchung05.png)
 
 ## Anzeige der Buchungen
 
 Die Splitbuchungen werden in der Liste der Buchungen "normal" angezeigt. Ein Doppelklick auf eine Haupt-, Gegen- oder Splitbuchung öffnet den Splitbuchungsdialog.
 
-![](../../assets/splitbuchung06.png)
+![](img/Splitbuchung06.png)
 
 ## Sammelüberweisung
 
 Mit einem Klick auf Sammelüberweisung erscheint folgendes Fenster:
 
-![](../../assets/splitbuchung07.png)
+![](img/Splitbuchung07.png)
 
 Es werden die in Hibiscus vorhandenen Sammelüberweisungen angezeigt. Mit einem Doppelklick auf eine Sammelüberweisung werden die Einzelposten der Sammelüberweisung in die Splitbuchungen übernommen.
 

@@ -6,11 +6,11 @@ Buchungsklassen können in den [Einstellungen](../administration/admbuchf/buchun
 
 Das Buchungsklassensaldo zeigt die Salden aller Buchungsklassen für ein Geschäftsjahr oder einen frei wählbaren Zeitraum.
 
-![](../../assets/buchungsklassensaldo.png)
+![](img/BuchungsklassenSaldoView.png)
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 
-Der aktuell ausgewählte Zeiraum wird angezeigt.
+Der aktuell ausgewählte Zeitraum wird angezeigt.
 
 Über die Suchen Funktion lassen sich beliebige Zeiträume auswählen.
 

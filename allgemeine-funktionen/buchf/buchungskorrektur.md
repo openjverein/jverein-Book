@@ -15,7 +15,7 @@ Banken können bei Überweisungen zusätzliche Daten zum Zweck hinzufügen die d
 * BIC: SEPA BIC Auftraggeber
 * PIN: PIN bei Überweisung
 
-Diese Daten werden von Hibiscus mitgeliefert wenn sie von der Bank eingefügt wurden. In JVerein möchte man diese Textabschnitte ausser SVWZ nicht unbedingt haben.
+Diese Daten werden von Hibiscus mitgeliefert wenn sie von der Bank eingefügt wurden. In JVerein möchte man diese Textabschnitte außer SVWZ nicht unbedingt haben.
 
 Hierzu gibt es das Feature Buchungskorrektur.
 

@@ -38,7 +38,7 @@ siehe auch [http://www.willuhn.de/wiki/doku.php?id=support:faq\#abweichendes\_be
 
 Unter Windows kann mit einem rechten Mausklick auf das Jameica-Icon &gt; Eigenschaften folgendes Bild geöffnet werden:
 
-![](../assets/jameicasuiteeigenschaften.png)
+![](img/jameicasuiteeigenschaften.png)
 
 Im Feld Ziel wird der Schalter -f VERZEICHNIS wie angegeben verändert.
 

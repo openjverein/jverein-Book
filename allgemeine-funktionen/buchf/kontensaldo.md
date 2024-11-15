@@ -2,6 +2,8 @@
 
 Hier können für alle Konten die Salden eines Geschäftsjahres angezeigt werden. Der Beginn des Geschäftsjahres wird unter Einstellungen eingegeben.
 
+![](img/KontenSaldoView.png)
+
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 
 Der aktuell ausgewählte Zeitraum wird angezeigt.
@@ -14,7 +16,5 @@ Beginnt das Von Datum an einem Monatsanfang und endet das Bis Datum an einem let
 
 Sofern kein [Anfangsbestand](anfangsbestand.md) vorhanden ist, wird ein entsprechender Hinweis ausgegeben.
 
-![](../../assets/jahressaldo.png)
-
-Die Daten können im PDF-Format ausgegeben werden.
+Die Daten können im PDF-Format oder CSV-Format ausgegeben werden.
 

@@ -2,7 +2,19 @@
 
 ## Allgemein
 
-Alle Mitglieder, für die der Familientarif gilt, sind einzeln einzugeben. Zur Abbildung eines Familientarifes sind 2 Beitragsgruppen einzurichten. Einmal eine Gruppe für den Zahler und eine Gruppe für die beitragsfreien Familienmitglieder. Als Zahler ist immer eines der familienangehörigen Mitglieder auszuwählen. Es wird nicht ein evtl. zahlendes Elternteil, das nicht Mitglied ist eingetragen. Die Familienmitglieder sind miteinander verknüpft. Tritt das zahlende Mitglied aus, erscheint ein entsprechender Hinweis. Dann muss entweder ein bislang beitragsfreies Mitglied zum Zahler erklärt werden oder der Familienverband wird aufgelöst und es werden Einzelbeiträge erhoben.
+Es gibt Anwendungsfälle in denen in einer Familie die Beiträge für Partner oder Kinder reduziert oder sogar erlassen sind. Dies gilt aber nur solange auch ein voll zahlendes Familienmitglied existiert.
+
+Um diese Beziehung zu modellieren wurde das Familienkonzept eingeführt. In einer Familie muss es ein voll zahlendes Mitglied geben. Der Familie können mehrere Familienmitglieder zugeordnet werden. Die Zuordnung wird in den [Mitgliedsdaten](../allgemeine-funktionen/mitglieder/content/mitgliedschaft.md) konfiguriert.
+
+Bis zur Version 2.8.22 gab es je eine Beitragsgruppe für das voll zahlende Familienmitglied und eine Beitragsgruppe für die Familienmitglieder. Für Familienmitglieder konnte kein Beitrag konfiguriert werden. Sie wurden als beitragsfrei angenommen.
+
+Mit der Version 2.8.23 wurde das Konzept verallgemeinert.
+
+Voll zahlende Familienmitglieder brauchen keine eigene Beitragsgruppe mehr. Man kann jedem Mitglied mit einer normalen Beitragsgruppe ein Familienmitglied zuweisen.
+
+Für Familienmitglieder sind [Beitragsgruppen](../allgemeine-funktionen/administration/mitglieder/beitragsgruppen.md) der Art Familienangehöriger zu definieren. Für diese können jetzt auch Beiträge konfiguriert werden. Also etwa ein niedrigerer Beitrag oder auch kein Beitrag. Die eigene Beitragsgruppe dient dazu, um überprüfen zu können, dass für ein Mitglied mit Familienbeitrag auch ein voll zahlendes Mitglied existiert.
+
+Die Familienmitglieder sind miteinander verknüpft. Tritt das voll zahlende Mitglied aus, erscheint ein entsprechender Hinweis. Dann muss entweder ein bislang Familienmitglied zum Vollzahler erklärt werden oder der Familienverband wird aufgelöst und es werden Einzelbeiträge erhoben.
 
 ## Übersicht
 

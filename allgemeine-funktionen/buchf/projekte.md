@@ -1,18 +1,18 @@
-# Projekt-Saldo
+# Projektsaldo
 
 ## Einstellungen
 
-Unter Administration\|Buchführung\|Projekte werden die Projekte angelegt bzw. bearbeitet.
+Unter Administration->Buchführung->Projekte werden die Projekte angelegt bzw. bearbeitet.
 
 ## Projekt-Saldo
 
 In Anlehnung an die Funktion Buchungsklassensaldo liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Auch die Salden aller Einnahmen und Ausgaben je Projekt sowie der jeweilige Projektgewinn werden ermittelt.
 
-![](../../assets/projektesaldo.png)
+![](img/ProjektSaldoView.png)
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 
-Der aktuell ausgewählte Zeiraum wird angezeigt.
+Der aktuell ausgewählte Zeitraum wird angezeigt.
 
 Über die Suchen Funktion lassen sich beliebige Zeiträume auswählen.
 
@@ -24,7 +24,7 @@ Um sich wiederholende Projekte z.B. jahresweise vergleichen zu können, kann ent
 
 Alternativ kann man aber auch stets dasselbe Projekt verwenden \(z.B. "St. Martin"\) und dann für einen Mehrjahresvergleich die Auswertung mit unterschiedlichen Datumsbereichen \(je Jahr\) mehrmals abrufen.
 
-Die Tabelle kann als PDF-Datei ausgegeben werden.
+Die Tabelle kann als PDF-Datei oder CSV-Datei ausgegeben werden.
 
 ### Buchungen
 
