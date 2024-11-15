@@ -13,31 +13,41 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 * Enthaltener Text
 * Mitglied zugeordnet
 
-![](../../assets/buchungen.png)
+![](img/BuchungenListeView.png)
 
-Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können neue Buchungen aufgenommen werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF-Format wird durch einen Klick auf PDF angestoßen.
+Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können Buchungen bearbeitet werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF oder CSV Format wird durch einen Klick auf PDF/CSV angestoßen.
 
-Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
+Folgende Buttons sind vorhanden:
+* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchnungsimport](buchungsimport.md)
+* CSV: Die über die Suchkriterien ausgewählten Buchungen können mit einem Klick auf CSV als CSV-Datei ausgegeben werden. Dabei werden bei Nutzung des Mitgliedskontos ggfls. auch die Daten des Mitgliedes ausgegeben.
+* PDF Buchungsjournal: Auflistung aller Buchungen nach verschiedenen Sortierungen
+* PDF Einzelbuchungen: Auflistung aller Buchungen nach Buchungsarten
+* PDF Summen: Ausgabe der Summen pro Buchungsart
+* Zuordnung: Zuordnung von Buchungen zu Sollbuchungen (siehe unten)
+* Neu: Neue Buchung erzeugen
+
+Die PDF-Auswertungen sind hier abrufbar. Ausführlich beschrieben werden sie im Artikel [Buchführung Zusammenhänge](../../sonstiges/buchfuhrung-zusammenhange.md).
 
 Folgende Menu Einträge sind vorhanden:
+* Bearbeiten: Öffnet die Detailansicht für die selektierte Buchung
+* Duplizieren: Öffnet die Detailansicht für eine neue Buchung mit den Daten der selektierten Buchung
+* Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen Der Menüpunkt ist nur verfügbar wenn die Buchungart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).
+* Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md)
+* Auflösen: Löst eine oder mehrere selektierte Splitbuchungen auf. Es werden die Gegenbuchung und die enthaltenen Buchungen gelöscht
+* Neues Anlagenkonto: Für die selektierte Buchung wird ein Anlagenkonto erzeugt
+* Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart
+* Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung
+* Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts
+* Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs
+* Löschen: Löscht die Buchung
 
-* Neue Buchung: Öffnet die Detailansicht für eine neue Buchung.
-* Bearbeiten: Öffnet die Detailansicht für die selektierte Buchung.
-* Duplizieren: Öffnet die Detailansicht für eine neue Buchung mit den Daten der selektierten Buchung.
-* Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen. Der Menüpunkt ist nur verfügbar wenn die Buchungart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).
-* Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md).
-* Auflösen: Löst eine oder mehrere selektierte Splitbuchungen auf. Es werden die Gegenbuchung und die enthaltenen Buchungen gelöscht.
-* Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart.
-* Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung. 
-* Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts.
-* Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs. 
-* Löschen: Löscht die Buchung.
+Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
 
 ## Automatische Zuordnung von Buchungen zu Sollbuchungen
 
 In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Sollbuchungen vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Sollbuchungen eingeschränkt werden.
 
-![](../../assets/automatische-sollbuchung-zuordnung.png)
+![](img/AutomatischeSollbuchungZuordnung.png)
 
 Folgende Zuordnungsregeln bestehen:
 
@@ -49,35 +59,11 @@ Folgende Zuordnungsregeln bestehen:
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
-![](../../assets/automatische-buchungszuordnung-mitglied-bestaetigen.png)
-
-## Import
-
-Siehe [Buchungsimport](buchungsimport.md)
-
-## CSV-Export
-
-Die über die Suchkriterien ausgewählten Buchungen können mit einem Klick auf CSV-Export als CSV-Datei ausgegeben werden. Dabei werden bei Nutzung des Mitgliedskontos ggfls. auch die Daten des Mitgliedes ausgegeben.
-
-## PDF-Ausgaben
-
-Die nachfolgenden PDF-Auswertungen sind hier abrufbar. Ausführlich beschrieben werden sie im Artikel [Buchführung Zusammenhänge](../../sonstiges/buchfuhrung-zusammenhange.md).
-
-### PDF-Buchungsjournal
-
-Auflistung aller Buchungen nach verschiedenen Sortierungen.
-
-### PDF-Einzelbuchungen
-
-Auflistung aller Buchungen nach Buchungsarten.
-
-### PDF-Summen
-
-Ausgabe der Summen pro Buchungsart.
+![](img/AutomatischeZuordnungBestaetigen.png)
 
 ## Buchung
 
-![](../../assets/buchung.png)
+![](img/BuchungDialog.png)
 
 Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](splittbuchungen.md)
 

@@ -2,5 +2,5 @@
 
 Beim ersten Start von JVerein, bzw. solange, bis die Aufgaben erledigt sind, erscheint folgende Box:
 
-![](../assets/firststart.png)
+![](img/firststart.png)
 

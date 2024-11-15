@@ -19,13 +19,13 @@ Zu Mitgliedern und Buchungen können Dokumente beliebiger Art und Anzahl gespeic
 
 ## Neue Dokument speichern
 
-![](../assets/dokumenteneu1.png)
+![](img/dokumenteneu1.png)
 
 Mit einem Klick auf neu öffnet sich folgendes Formular:
 
-![](../assets/dokumenteneu2.png)
+![](img/dokumenteneu2.png)
 
-Es wird eine Datei ausgewählt. Standardmässig wird das Tagesdatum vorgegeben. Es kann hier z. B. auch das Datum des Beleges eingetragen werden. Zusätzlich kann zu jedem Dokument ein Kommentar eingetragen werden.
+Es wird eine Datei ausgewählt. Standardmäßig wird das Tagesdatum vorgegeben. Es kann hier z. B. auch das Datum des Beleges eingetragen werden. Zusätzlich kann zu jedem Dokument ein Kommentar eingetragen werden.
 
 ## Dokumente anzeigen oder löschen
 

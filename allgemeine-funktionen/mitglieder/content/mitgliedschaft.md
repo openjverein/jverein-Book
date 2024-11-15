@@ -26,8 +26,6 @@ Im Tab "Familienverband" werden die Personen angezeigt, die am Familienverband b
 
 ![](img/FamilienVerband.png)
 
-
-
 Sinn und Zweck dieser Familienverknüpfung ist es, die Voraussetzungen für die Familienmitgliedschaft prüfen zu können. Tritt ein Mitglied aus, dass für andere Mitglieder als Vollzahlendes Familienmitglied eingetragen ist, kommt eine entsprechende Fehlermeldung.
 
 Dann sind die Beitragsgruppen der Familienmitglieder zu verändern oder es ist ein anderes Vollzahlendes Familienmitglied einzutragen.

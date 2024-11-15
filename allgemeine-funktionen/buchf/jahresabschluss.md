@@ -1,10 +1,12 @@
 # Jahresabschluss
 
+## Liste der Jahresabschlüsse
+
 Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
-![](../../assets/jahresabschluesse.png)
+![](img/JahresAbschluesseView.png)
 
-In der Liste der Jahresabschlüsse kann mit einem Linksklick auf einen Abschluss ein Kontext-Menü geöffnet werden. Hiermit wird die Löschung eines Jahresabschlusses erledigt.
+In der Liste der Jahresabschlüsse kann mit einem Linksklick auf einen Abschluss ein Kontext-Menü geöffnet werden. Hier kann ein Jahresabschlusses gelöscht werden.
 
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
@@ -14,11 +16,17 @@ Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erf
 
 Es kann jeweils nur der neuste Jahresabschluss gelöscht werden.
 
+## Jahresabschluss
+
 Durch eine Klick auf neu kann ein neuer Jahresabschluss vorgenommen werden:
 
-![](../../assets/jahresabschluss.png)
+![](img/JahresabschlussView.png)
 
-Tip:
+Der Jahresabschluss zeigt den Zeitraum des Jahresabschlusses an. Es ist das Geschäftsjahr nach dem letzten Abschluss.
 
-Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit werden die Endstände in der Liste der Anfangsbestände abgespeichert und als Basis für das nächste Geschäftsjahr verwendet.
+Bei Name sollte der Name desjenigen eingetragen werden, der den Abschluss durchführt.
+
+Tip: Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit werden die Endstände in der Liste der Anfangsbestände abgespeichert und als Basis für das nächste Geschäftsjahr verwendet. Auch das Anlagenverzeichnis verwendet die Anfangsbestände.
+
+Ist in den [Einstellungen](../administration/einstellungen/anzeige.md) der Ort der Abschreibung auf "Checkbox in Jahresabschluss" konfiguriert, wird hier auch die Checkbox "Erzeuge Abschreibungen" sichtbar. Ist sie gewählt, werden automatisch die AfA Abschreibungen generiert.
 
