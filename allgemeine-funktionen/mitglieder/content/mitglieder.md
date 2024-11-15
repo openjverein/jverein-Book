@@ -27,6 +27,13 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ![](img/MitgliedListeView.png)
 
+### Mitglieder Liste Buttons
+
+Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
+
+Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](../import.md)
+
+
 ### Filterung nach Eigenschaften
 
 Es können eine oder mehrere Eigenschaften ausgewählt werden.
@@ -44,7 +51,7 @@ Durch klicken auf die Eigenschaft kann zwischen den Werten umgeschaltet werden.
 Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "P": Bei der Eigenschaften Gruppe ist die Pflicht Checkbox ausgewählt. 
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt. 
-* "PI": Bei der Eigenschaften Gruppe ist die Pflich und die Maximal 1 Eigenschaft Checkbox ausgewählt. 
+* "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt. 
 
 ![](img/EigenschaftenFilterDialog.png)
 
@@ -80,8 +87,8 @@ Die Icons haben fünf Zustände:
 * Quadrat: Kein Mitglied hat die Eigenschaft gesetzt und sie wird bei niemanden geändert.
 * Haken: Alle selektierten Mitglieder haben die Eigenschaft gesetzt und sie wird bei niemanden geändert.
 * Gestrichelter Haken: Mindestens ein selektiertes Mitglieder hat die Eigenschaft gesetzt und sie wird bei niemanden geändert.
-* Plus Zeichen: Die Eigenschaft wird nach Ok bei allen selektierten Mitgliedern gesetzt.
-* Minus Zeichen: Die Eigenschaft wird nach Ok bei allen selektierten Mitgliedern gelöscht.
+* Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
+* Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
 ![](img/EigenschaftenAuswahlDialog.png)
 

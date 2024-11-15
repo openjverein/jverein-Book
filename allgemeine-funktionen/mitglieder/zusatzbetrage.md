@@ -25,7 +25,8 @@ Beim Buchungstext können die allgemeinen Variablen verwendet werden.
 Die Zusatzbeträge können erstellt werden
 * in den Mitglied Details (siehe [Zusatzbeträge](content/zusatzbeitraege.md)) 
 * über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md)) 
-* aber auch in der Liste der Zusatzbeträge
+* in der Liste der Zusatzbeträge über den "Neu" Button
+* aber auch durch Importieren über den Button "Importieren" in der Liste der Zusatzbeträge (Siehe [Zusatzbeträge Importieren](zusatzbetrage-importieren.md))
 
 ## Liste der Zusatzbeträge
 
@@ -36,7 +37,7 @@ Der Übersicht View für Zusatzbeträge zeigt alle vorhandenen Zusatzbeträge an
 ![](img/ZusatzBetraegeListeView.png)
 
 Folgende Buttons stehen zu Verfügung:
-* Importieren: Damit können Zusatzbeträge aus einer Datei importiert werden
+* Importieren: Damit können Zusatzbeträge aus einer Datei importiert werden. Siehe [Zusatzbeträge Importieren](zusatzbetrage-importieren.md)
 * PDF: Liste der Zusatzbeträge als PDF exportieren
 * Neu: Damit kann ein neuer Zusatzbetrag eingerichtet werden.
 

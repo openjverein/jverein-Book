@@ -28,7 +28,7 @@ Folgende Buttons sind vorhanden:
 
 Die PDF-Auswertungen sind hier abrufbar. Ausführlich beschrieben werden sie im Artikel [Buchführung Zusammenhänge](../../sonstiges/buchfuhrung-zusammenhange.md).
 
-Folgende Menu Einträge sind vorhanden:
+Folgende Menü Einträge sind vorhanden:
 * Bearbeiten: Öffnet die Detailansicht für die selektierte Buchung
 * Duplizieren: Öffnet die Detailansicht für eine neue Buchung mit den Daten der selektierten Buchung
 * Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen Der Menüpunkt ist nur verfügbar wenn die Buchungart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).

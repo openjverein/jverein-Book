@@ -20,6 +20,10 @@ Der Filterparameter "Bezeichnung" erlaubt es nach dem Kontonamen zu filtern.
 
 Der Werte müssen nicht vollständig eingegeben werden da auch nach teilweiser Übereinstimmung gefiltert wird.
 
+Folgende Menu Einträge sind vorhanden:
+* Bearbeiten: Öffnet die Detailansicht für den selektierten Anfangsbestand
+* Löschen: Löscht den Anfangsbestand
+
 ## Anfangsbestand
 
 Über den Button Neu werden neue Anfangsbestände aufgenommen. Mit einem Doppelklick auf einen Anfangsbestand kann der Bestand bearbeitet werden. Ein Rechtsklick auf einen Anfangsbestand öffnet ein Kontextmenü. Damit kann ein Anfangsbestand gelöscht werden.

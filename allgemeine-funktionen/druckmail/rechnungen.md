@@ -47,7 +47,7 @@ Tip:
 
 Falls Sie Rechnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe MAIL. Damit versenden sie die Rechnung an alle Mitglieder die eine Mail Adresse haben.
 
-Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
+Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschließend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
 
 ## Rechnungen drucken
 

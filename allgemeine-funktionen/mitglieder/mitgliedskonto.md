@@ -36,8 +36,8 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 * Sollbuchung bearbeiten: Bearbeiten der Sollbuchung
 * Sollbuchung löschen: Löschen der Sollguchungen
 * Mitglied anzeigen: Öffnet das Mitglied zur Sollbuchung
-* Rechnung erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen.
-* Mahnung erstellen: Erstellt Mahnungen für die selektierten Sollbuchungen.
+* Rechnung erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen. Siehe [Rechnungen](../druckmail/rechnungen.md)
+* Mahnung erstellen: Erstellt Mahnungen für die selektierten Sollbuchungen. Siehe [Mahnungen](../druckmail/mahnungen.md)
 
 ## Sollbuchung
 

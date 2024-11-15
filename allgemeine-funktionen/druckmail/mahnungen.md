@@ -37,7 +37,7 @@ Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angez
 Der Filter Bereich bietet folgende Optionen:
 * Name: Der Name eine Mitglieds.
 * Differenz: Bei "Fehlbetrag" werden nur Kontoauszüge für Mitglieder erstellt wenn ein Fehlbetrag vorliegt und bei "Überzahlung" nur wenn überzahlt wurde. Bei "Egal" wird nicht auf den Betrag geprüft.
-* Ohne Abbucher: Schliest Mitglieder die per Lastschrift bezahlen aus.
+* Ohne Abbucher: Schließt Mitglieder die per Lastschrift bezahlen aus.
 * Datum von/bis: Es werden nur Mitgliedskonten Einträge im gewählten Zeitraum berücksichtigt.
 * Mail: Hier lässt sich auswählen ob nur Mitglieder mit Mailadresse, ohne Mailadresse oder unabhängig von einer Mailadresse ausgewählt werden.
 
@@ -45,7 +45,7 @@ Tip:
 
 Falls Sie Mahnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe MAIL. Damit versenden sie die Mahnung an alle Mitglieder die eine Mail Adresse haben.
 
-Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschliesend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
+Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschließend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
 
 ## Mahnungen drucken
 

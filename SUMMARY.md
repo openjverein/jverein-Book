@@ -20,7 +20,7 @@
   * [Navigation](allgemeine-funktionen/navigation.md)
   * [Mitglieder](allgemeine-funktionen/mitglieder/README.md)
     * [Mitglieder](allgemeine-funktionen/mitglieder/content/README.md)
-      * [Suche](allgemeine-funktionen/mitglieder/content/mitglieder.md)
+      * [Mitgliederliste](allgemeine-funktionen/mitglieder/content/mitglieder.md)
       * [Suchprofil](allgemeine-funktionen/mitglieder/content/suchprofil.md)
       * [Stammdaten](allgemeine-funktionen/mitglieder/content/grunddaten.md)
       * [Mitgliedschaft](allgemeine-funktionen/mitglieder/content/mitgliedschaft.md)

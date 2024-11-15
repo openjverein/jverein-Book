@@ -2,7 +2,7 @@
 
 Zusatzbeträge können auch importiert werden. Der Import kann über eine CSV-Datei \(Default-Format\), die nachfolgend beschrieben wird, erfolgen. Der Dateiname muss eine Endung haben. Z. B. .csv oder .txt. Es kann jede beliebige Endung verwendet werden. Der Dateiname darf keine Punkte, Sonderzeichen oder Leerstellen enthalten. Die Datenfelder werden durch Semikolon getrennt. Das Encoding kann beim Import ausgewählt werden.
 
-Zur Zuordnung des Zusatzbetrages zum Mitglied muss entweder die Mitglieds\_ID, Ext\_Mitgieds\_ID oder Nachname und Vorname angegeben werden. Die nicht benötigten Spalten sind wegzulassen. Die Angabe von Nachname und Vorname setzt voraus, dass es keine Doubletten bei den Namen gibt.
+Zur Zuordnung des Zusatzbetrages zum Mitglied muss entweder die Mitglieds\_ID, Ext\_Mitgieds\_ID oder Nachname und Vorname angegeben werden. Die nicht benötigten Spalten sind wegzulassen. Die Angabe von Nachname und Vorname setzt voraus, dass es keine Dubletten bei den Namen gibt.
 
 Vorlage mit Mitglieds\_ID:
 
