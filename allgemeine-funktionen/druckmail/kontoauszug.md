@@ -48,8 +48,8 @@ Da der Filter hier eine Untermenge des Filters im Mitglied bzw. Nicht-Mitglied D
 
 ![](img/KontoauszuegeDruckMailView2.png)
 
-Tip:
+Tipp:
 
-Falls Sie Kontoauszüge per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe MAIL. Damit versenden sie die Kontoauszüge an alle Mitglieder die eine Mail Adresse haben.
+Falls Sie Kontoauszüge per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe Mail. Damit versenden sie die Kontoauszüge an alle Mitglieder die eine Mail Adresse haben.
 
-Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschließend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
+Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschließend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe Druck. Diese können Sie dann per Post verschicken.

@@ -23,8 +23,8 @@ In JVerein werden Geldkonten und Anlagenkonten unterstützt. Anlagenkonten könn
 
 Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
 * Kennzeichnung eines Kontos als Anlagenkonto
-* Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](Anlagenbuchungen.md)
-* Erstellung eines [Anlagenverzeichnisses](Anlagenverzeichnis.md)
+* Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](anlagenbuchungen.md)
+* Erstellung eines [Anlagenverzeichnisses](anlagenverzeichnis.md)
 * Unterstützung bei der Generierung von AfA Buchungen
 
 PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
@@ -83,7 +83,7 @@ JVerein gruppiert im Anlagenverzeichnis die Anlagenkonten nach der Buchungsklass
 *  Anlagenwert: Wert der Anlage
 *  Anschaffungsdatum: Tag der Anschaffung oder bei Pool Abschreibung der Tag der letzten Anschaffung im Pool
 *  Nutzungsdauer: Dauer der AfA. Wert Wert ist 0 bei sofortiger Abschreibung und sonst die Dauer der Abschreibung
-*  Anlagen Restwert: Restwert der Anlage der nach der Abschreibungsdauer übrig bleiben soll z.B. wenn die Anlage auch nach der Abschreibung weiter benutzt werden soll. Der Default Wert kann in den Einstellungen gesetzt werden. In Jverein kann auch eine Anlage mit Restwert 0 im Anlagenverzeichnis geführt werden. Ein Anlagenkonto bleibt solange im Anlagenverzeichnis bis es aufgelöst wird
+*  Anlagen Restwert: Restwert der Anlage der nach der Abschreibungsdauer übrig bleiben soll z.B. wenn die Anlage auch nach der Abschreibung weiter benutzt werden soll. Der Default Wert kann in den Einstellungen gesetzt werden. In JVerein kann auch eine Anlage mit Restwert 0 im Anlagenverzeichnis geführt werden. Ein Anlagenkonto bleibt solange im Anlagenverzeichnis bis es aufgelöst wird
 *  AfA Mode: Modus für die Behandlung der Abschreibung (siehe weiter unten)
 
 ## Einstellungen
@@ -104,7 +104,7 @@ Für das korrekte Handling von Anlagenkonten sind folgende Vorarbeiten nötig:
 
 ## Workflow für das Anlegen von Anlagenkonten
 
-JVerein unterstützt bei der automatischen AfA Generierung nur lineare Abschreibung. Bei degressiver Abschreibung müssen die Abschreibungen manuell gebucht werden oder die Einstellungen im Anlagenkonto werden jedes Jahr manuell angepasst werde.
+JVerein unterstützt bei der automatischen AfA Generierung nur lineare Abschreibung. Bei degressiver Abschreibung müssen die Abschreibungen manuell gebucht werden oder die Einstellungen im Anlagenkonto werden jedes Jahr manuell angepasst.
 
 ### Geringwertige Wirtschaftsgüter (GWG)
 
@@ -199,6 +199,18 @@ Bei angepasste und auto AfA können die AfA Buchungen mit zwei Alternativen gene
 * Button im Anlagenbuchungen View: Durch betätigen des Buttons werden die Abschreibung Buchungen entsprechend dem Setting im Anlagenkonto erzeugt. Das Buchungsdatum ist der letzte Tag des Geschäftsjahres. Der Button sollte natürlich nur einmal im Jahr gedrückt werden. Es muss allerdings eben nicht am letzten Tag des Geschäftsjahres passieren.  
 Diese Option hat den Vorteil, dass man das Kontensaldo bereits mit den Abschreibungen vor dem Jahresabschluss sehen kann
 * Checkbox im Jahresabschluss View: Wird die Option im Jahresabschluss View aktiviert werden die Abschreibung Buchungen beim Erstellen des Jahresabschlusses erzeugt. Sie sind also auch vorher nicht im Buchungsklassen Saldo sichtbar
+
+### Berechnung der AfA
+
+Die AfA wird in JVerein folgendermaßen berechnet:
+
+AfA Folgejahre = (Anschaffungswert - Anlagen Restwert) / Nutzungsdauer
+
+AfA Erstes Jahr = AfA Folgejahre \* Monate bis Geschäftsjahres Ende \/ 12
+
+Die AfA Beträge werden zu vollen Beträgen aufgerundet.
+
+Der AfA Erstes Jahr wird nach dem aufrunden um die Nachkommastellen des Anschaffungswertes ergänzt. Dadurch ergibt sich nach dem ersten Jahr ein runder Betrag.
 
 ### Unterschied zwischen Angepasste AfA und Auto AfA
 

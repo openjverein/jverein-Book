@@ -4,7 +4,7 @@ Das Anlagenverzeichnis basiert auf steuerlichen Vorgaben.
 
 Es listet alle Anlagenkonten auf die noch nicht geschlossen sind. 
 
-Über die Buchungsklasse in den [Anlagenkonten](konten.md) lässt sich eine Gruppierung ereichen.
+Über die Buchungsklasse in den [Anlagenkonten](konten.md) lässt sich eine Gruppierung erreichen.
 
 Die Liste zeigt unter anderem:
 * Anschaffungsdatum und Anschaffungskosten

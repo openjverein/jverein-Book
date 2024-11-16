@@ -39,15 +39,15 @@ Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angez
 Der Filter Bereich bietet folgende Optionen:
 * Name: Der Name eine Mitglieds.
 * Differenz: Bei "Fehlbetrag" werden nur Kontoauszüge für Mitglieder erstellt wenn ein Fehlbetrag vorliegt und bei "Überzahlung" nur wenn überzahlt wurde. Bei "Egal" wird nicht auf den Betrag geprüft.
-* Ohne Abbucher: Schliest Mitglieder die per Lastschrift bezahlen aus.
+* Ohne Abbucher: Schließt Mitglieder die per Lastschrift bezahlen aus.
 * Datum von/bis: Es werden nur Mitgliedskonten Einträge im gewählten Zeitraum berücksichtigt.
 * Mail: Hier lässt sich auswählen ob nur Mitglieder mit Mailadresse, ohne Mailadresse oder unabhängig von einer Mailadresse ausgewählt werden.
 
-Tip:
+Tipp:
 
-Falls Sie Rechnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe MAIL. Damit versenden sie die Rechnung an alle Mitglieder die eine Mail Adresse haben.
+Falls Sie Rechnungen per Mail versenden wollen, wählen Sie erst bei Mail die Option "Nur mit Mailadresse" und als Ausgabe Mail. Damit versenden sie die Rechnung an alle Mitglieder die eine Mail Adresse haben.
 
-Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschließend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe DRUCK. Diese können Sie dann per Post verschicken.
+Falls nicht alle Mitglieder eine Mail Adresse haben, wählen Sie anschließend bei Mail die Option "Nur ohne Mailadresse" und die Ausgabe Druck. Diese können Sie dann per Post verschicken.
 
 ## Rechnungen drucken
 
@@ -61,4 +61,4 @@ Rechnungen können per Mail versandt werden. Dazu muss die Mailkonfiguration abg
 
 Sollen die Rechnungsdaten exportiert werden, so drücken Sie im Dialog Rechnung den Schalter Export. Es öffnet sich ein Dialog der den Speicherort und den Dateinamen der CSV abfragt. Bestätigen Sie diesen Dialog, werden die Rechnungsdaten in diese Dateien exportiert und können danach z.B. für einen Serienbrief verwendet werden.
 
-Für die einzelnen Zahlungswege können Texte unter Administration\|Einstellungen\|Rechnungen hinterlegt werden.
+Für die einzelnen Zahlungswege können Texte unter Administration->Einstellungen->Rechnungen hinterlegt werden.

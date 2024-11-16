@@ -49,7 +49,7 @@ Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
 Unter Buchführung&gt;[Buchungen](../buchf/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
 
-![](ing/BuchungView.png)
+![](img/BuchungView.png)
 
 Durch einen Klick auf ... neben Sollbuchung erscheint folgender Dialog:
 

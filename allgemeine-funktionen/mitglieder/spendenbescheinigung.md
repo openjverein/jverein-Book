@@ -49,7 +49,7 @@ Das Kontextmenü bietet folgende Optionen:
 * Druck und Mail:  Spendenbescheinigung(en) über den Druck und Mail Dialog drucken oder per Mail verschicken.  Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
 * Mail an Spender: Eine Mail an den Spender verschicken
 
-Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.#
+Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
 
 ## Spendenbescheinigung
 
@@ -67,7 +67,7 @@ Folgende Buttons stehen zu Verfügung:
 
 Sachspendenbescheinigungen können auf verschiedene Art erzeugt werden:
 
-* In der Mitgliedersuche kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Sachspendenbescheinigung auswählen. Es wird das Spendenbescheinigungsformular mit den Daten des Mitglieds gefüllt.
+* In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Sachspendenbescheinigung auswählen. Es wird das Spendenbescheinigungsformular mit den Daten des Mitglieds gefüllt.
 
   ![](img/MitgliedMenue.png)
 
@@ -93,11 +93,11 @@ Zu beachten ist, dass bei Sammelbescheinigungen diese Art der Spende mit Geldspe
 
 Um Geldspendenbescheinigungen erstellen zu können müssen verschiedene Voraussetzungen erfüllt sein:
 * Es muss eine Buchung \(Istbuchung\) in einem Konto existieren.
-* Die Buchungsart der Buchung muss vom Typ Spende sein. Siehe Administration\|Buchführung\|Buchungsart Checkbox Spende.
+* Die Buchungsart der Buchung muss vom Typ Spende sein. Siehe Administration->Buchführung->Buchungsart Checkbox Spende.
 * Die Buchung muss einer Sollbuchung zugeordnet sein.
 
-Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiede Arten erzeugt werden.
-* Wird bei einem Abrechnungslauf bei Mitgliedern mit Lastschrift eine Sollbuchung erzeugt, wird automatisch auch eine Buchung ezeugt und diese der Sollbuchung zugeordnet.
+Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiedene Arten erzeugt werden.
+* Wird bei einem Abrechnungslauf bei Mitgliedern mit Lastschrift eine Sollbuchung erzeugt, wird automatisch auch eine Buchung erzeugt und diese der Sollbuchung zugeordnet.
 * Wird bei einem Abrechnungslauf bei Mitgliedern ohne Lastschrift eine Sollbuchung erzeugt muss die später erfolgte Buchung manuell der Sollbuchung zugeordnet werden. Siehe [Sollbuchungen](mitgliedskonto.md).
 * Wurde die Buchung ohne einen Abrechnungslauf erzeugt muss eine Sollbuchung erzeugt und die Buchung zugeordnet werden. Dies kann in einem Schritt erfolgen. Siehe zweite Option in [Sollbuchungen](mitgliedskonto.md).
 * Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen. Für das Erstellen einer Sollbuchung siehe [Mitgliedskonto](content/mitgliedskonto.md).
@@ -115,15 +115,15 @@ Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiede Arten erzeu
 Voraussetzungen für die automatische Generierung von Geldspendenbescheinigungen:
 
 * Ein Mitglied wird nur berücksichtigt wenn Straße, Postleitzahl und Ort eingetragen ist.
-* Der Betrag der Bescheinigung muss gleich oder größer sein als der Mindestbetrag der unter Administration\|Einstellungen\|Spendenbescheinigungen eingetragen ist.
+* Der Betrag der Bescheinigung muss gleich oder größer sein als der Mindestbetrag der unter Administration->Einstellungen->Spendenbescheinigungen eingetragen ist.
 
 Bei der automatischen Generierung werden nur die Buchungen erfasst, die noch keiner Spendenbescheinigung oder Sammelbestätigung zugewiesen wurden. Es werden niemals für eine Buchung mehrere Bescheinigungen generiert.
 
 Werden für ein Mitglied mehrere Buchungen gefunden werden sie zu einer Sammelbestätigung zusammen gefasst.
 
-Geldspendenbescheiniguungen können automatisch auf mehrere Arten erzeugt werden:
+Geldspendenbescheinigungen können automatisch auf mehrere Arten erzeugt werden:
 
-* In der Mitgliedersuche kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Geldspendenbescheinigung auswählen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die erste Buchung bestimmt das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen.
+* In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Geldspendenbescheinigung auswählen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die erste Buchung bestimmt das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen.
 
   ![](img/MitgliedMenue.png)
 
@@ -144,7 +144,7 @@ In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schli
 
 ### Formulare
 
-Vorlagen von [Formulare](../administration/mitglieder/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden \(siehe auch Formularfelder\).
+Vorlagen von [Formularen](../administration/mitglieder/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden \(siehe auch Formularfelder\).
 
 ### Formularfelder
 
@@ -158,7 +158,7 @@ Für Spendenbescheinigungen stehen nun ergänzend folgende zusätzlichen Felder 
 
 `Datum Betrag Verzicht Zuwendungsart`
 
-Für eine korrekte Formatierung sollte eine Schriftart mit fester Zeichenbereite gewählt werden.
+Für eine korrekte Formatierung sollte eine Schriftart mit fester Zeichenbreite gewählt werden.
 
 ### Einstellungen
 

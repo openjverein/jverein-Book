@@ -6,19 +6,17 @@ Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
 ![](img/JahresAbschluesseView.png)
 
-In der Liste der Jahresabschlüsse kann mit einem Linksklick auf einen Abschluss ein Kontext-Menü geöffnet werden. Hier kann ein Jahresabschlusses gelöscht werden.
-
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
 * Für jedes Konto muss ein Jahresanfangsbestand existieren
 * Alle Buchungen müssen einer Buchungsart zugeordnet worden sein.
 * Die Abschlüsse müssen in chronologischer Reihenfolge erfolgen.
 
-Es kann jeweils nur der neuste Jahresabschluss gelöscht werden.
+Über das Kontextmenü kann jeweils nur der neuste Jahresabschluss gelöscht werden.
 
 ## Jahresabschluss
 
-Durch eine Klick auf neu kann ein neuer Jahresabschluss vorgenommen werden:
+Durch eine Klick auf Neu kann ein neuer Jahresabschluss vorgenommen werden:
 
 ![](img/JahresabschlussView.png)
 

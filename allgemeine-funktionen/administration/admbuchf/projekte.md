@@ -28,11 +28,11 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Auswertung
 
-Informationen zu Projekten liefert die Funktion Projekt-Saldo \(zu finden unter Buchführung\|Projekte\), Detailinformation filtert man unter Buchführung\|Buchungen.
+Informationen zu Projekten liefert die Funktion Projekt-Saldo \(zu finden unter Buchführung->Projekte\), Detailinformation filtert man unter Buchführung->Buchungen.
 
 ### Projektsaldo
 
-In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Siehe [Projektsaldo](../../buchf/projekte.md)
+In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung->Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Siehe [Projektsaldo](../../buchf/projekte.md)
 
 
 ### Buchungen
