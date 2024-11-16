@@ -6,7 +6,7 @@ Unter Administration->Buchführung->Projekte werden die Projekte angelegt bzw. b
 
 ## Projekt-Saldo
 
-In Anlehnung an die Funktion Buchungsklassensaldo liefert die Funktion Projekt-Saldo, die über Buchführung\|Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Auch die Salden aller Einnahmen und Ausgaben je Projekt sowie der jeweilige Projektgewinn werden ermittelt.
+In Anlehnung an die Funktion Buchungsklassensaldo liefert die Funktion Projekt-Saldo, die über Buchführung->Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Auch die Salden aller Einnahmen und Ausgaben je Projekt sowie der jeweilige Projektgewinn werden ermittelt.
 
 ![](img/ProjektSaldoView.png)
 
@@ -28,5 +28,5 @@ Die Tabelle kann als PDF-Datei oder CSV-Datei ausgegeben werden.
 
 ### Buchungen
 
-Die Liste aller Buchungen \(Buchführung\|Buchungen\) kann auf ein Projekt, ggf. auch mit Datumseingrenzung, gefiltert werden. So erhält man die Liste aller Buchungen zu einen Projekt, die auch als PDF- oder CSV-Datei ausgegeben werden kann.
+Die Liste aller Buchungen \(Buchführung->Buchungen\) kann auf ein Projekt, ggf. auch mit Datumseingrenzung, gefiltert werden. So erhält man die Liste aller Buchungen zu einen Projekt, die auch als PDF- oder CSV-Datei ausgegeben werden kann.
 

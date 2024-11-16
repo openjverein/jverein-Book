@@ -14,7 +14,7 @@ In JVerein stehen folgende Alternativen für die Pre-Notifications zur Verfügun
 
 Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der Abrechnungsläufe erreicht werden.
 
-Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
+Mit einem Rechtsklick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
 ![](img/AbrechnungslaufListeView.png)
 
@@ -22,7 +22,7 @@ Mit einem rechts-Klick auf den entsprechenden Abrechnungsverlauf öffnet sich ei
 
 Die Pre-Notification Funktion kann auch über den Navigationsbaum erreicht werden.
 
-Mit einem rechts-Klick auf den entsprechenden Eintrag öffnet sich der Dialog, mit dem man die Pre-Notifications erstellen kann.
+Mit einem Rechtsklick auf den entsprechenden Eintrag öffnet sich der Dialog, mit dem man die Pre-Notifications erstellen kann.
 
 In diesem Fall wählt man den Abrechnungslauf für den die Pre-Notifications erzeugt werden sollen im Dialog aus.
 
@@ -32,9 +32,9 @@ In diesem Fall wählt man den Abrechnungslauf für den die Pre-Notifications erz
 
 Die Pre-Notification Funktion kann auch über die Liste der Lastschriften erreicht werden.
 
-Mit einem rechts-Klick auf eine oder mehrere Lastschriften öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
+Mit einem Rechtsklick auf eine oder mehrere Lastschriften öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-Dies Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. Da bei wiederkehrenden Lastschriften eine Pre-Notification nur beim ersten Mal notwendig ist, kann man hier nur die Mitglieder auswählen die neu hinzugekommen sind oder bei denen sich etwas geändert hat.
+Diese Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. Da bei wiederkehrenden Lastschriften eine Pre-Notification nur beim ersten Mal notwendig ist, kann man hier nur die Mitglieder auswählen die neu hinzugekommen sind oder bei denen sich etwas geändert hat.
 
 ![](img/LastschriftenListeView.png)
 
@@ -130,6 +130,5 @@ In der Mail können im Betreff und im Text, bei der 1ct-Überweisung im Verwendu
   * Teilt ein Mitglied z.B. aufgrund der Pre-Notification eine neue Bankverbindung mit, so ändert man sie in den Mitgliederdaten nur für künftige Abrechnungen.
     * Wurde die entsprechende Lastschrift der aktuellen Abrechnung jedoch noch nicht zur Bank übertragen, so kann man zusätzlich in Hibiscus \(oder in der XML-Datei\) für diese Abrechnung noch die Bankverbindung ändern \(Achtung: evtl. neue Mandatsreferenz und geänderte Erst-/Folgelastschrift beachten\).
     * Wurde die Lastschrift aber bereits zur Bank übertragen, dann sind für diese Abrechnung keine Änderungen mehr möglich. Die Lastschrift wird wahrscheinlich zurückkommen, zum Handling siehe Rücklastschrift.
-* Das E-Mailformular wird mit ausgeführtem E-Mailversand gespeichert.
-* Es gibt keine Pre-Notification E-Mailformulare.
+* Das Mailformular wird mit ausgeführtem Mailversand gespeichert.
 * Die Variablen in der Pre-Notification Mail sind NICHT identisch mit den Variablen eines "normalen" E-Mailversandes.

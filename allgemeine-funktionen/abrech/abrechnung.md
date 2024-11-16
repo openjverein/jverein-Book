@@ -2,7 +2,7 @@
 
 ## Voraussetzungen
 
-Unter Administration \| Einstellungen \| Allgemein muss das Konto eingetragen sein, auf das die Lastschriften gutgeschrieben werden sollen. Weiterhin muss die Gläubiger-ID eingetragen werden. Gläubiger-ID können unter [https://extranet.bundesbank.de/scp/](https://extranet.bundesbank.de/scp/) oder [http://www.oenb.at/idakilz/cid?lang=de](http://www.oenb.at/idakilz/cid?lang=de) beantragt werden. Zu Testzwecken kann DE98ZZZ09999999999 eingesetzt werden.
+Unter Administration->Einstellungen->Allgemein muss das Konto eingetragen sein, auf das die Lastschriften gutgeschrieben werden sollen. Weiterhin muss die Gläubiger-ID eingetragen werden. Gläubiger-ID können unter [https://extranet.bundesbank.de/scp/](https://extranet.bundesbank.de/scp/) oder [http://www.oenb.at/idakilz/cid?lang=de](http://www.oenb.at/idakilz/cid?lang=de) beantragt werden. Zu Testzwecken kann DE98ZZZ09999999999 eingesetzt werden.
 
 Das Konto für die Gutschriften muss auch in der Buchführung eingerichtet sein. Unter "Nr" ist entweder die komplette IBAN einzutragen oder die Kontonummer ohne führende Nullen.
 
@@ -90,7 +90,9 @@ Optional können die SEPA-Daten in ein PDF-Dokument zum Ausdruck ausgegeben werd
 
 **Abbuchungsausgabe**
 
-Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben. Die IBAN in den Stammdaten \(siehe \[\[Einstellungen\]\]\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
+Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
+
+Die IBAN in den Stammdaten \(siehe [Einstellungen](../administration/einstellungen/allgemein.md)\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
 
 Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
 

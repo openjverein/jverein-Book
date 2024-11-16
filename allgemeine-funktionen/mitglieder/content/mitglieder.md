@@ -25,9 +25,10 @@ Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](
 
 Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
+## Liste der Mitglieder
+
 ![](img/MitgliedListeView.png)
 
-### Mitglieder Liste Buttons
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 

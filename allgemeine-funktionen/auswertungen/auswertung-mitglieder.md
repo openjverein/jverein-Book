@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-Der Mitgliederbestand kann nach verschiedenen Kriterien ausgewertet und das Ergebnis für zur direkten Nutzung oder zur Weiterverarbeitung exportiert werden. Hierzu gibt es folgende Möglichkeiten:
+Der Mitgliederbestand kann nach verschiedenen Kriterien ausgewertet und das Ergebnis zur direkten Nutzung oder zur Weiterverarbeitung exportiert werden. Hierzu gibt es folgende Möglichkeiten:
 
 1. Filterung des Datenbestands
 2. Sortierung der Ausgabe

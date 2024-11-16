@@ -30,7 +30,7 @@ Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:
 
 ![](img/SplitbuchungSplitView.png)
 
-In das Betrag Feld wird automatisch der noch übrigen Betrag gefüllt.
+In das Betrag Feld wird automatisch mit dem noch übrigen Betrag gefüllt.
 
 Mit Speichern wird der Split Eintrag gespeichert und zur Splitbuchung Anzeige zurück gekehrt.
 
