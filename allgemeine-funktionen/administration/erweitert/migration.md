@@ -27,7 +27,7 @@ Vor jedem Import sollten Sie sich im klaren sein, welche Einstellungen sie vorge
 
 Das Augenscheinlichste, was sich am Importer verändert hat, ist die Oberfläche; diese ist nun zweigeteilt. Auf der linken Seite befindet sich eine Tabelle mit allen nötigen ( rot hinterlegt ) und allen optionalen Spalten. Auf der rechten Seite erscheinen nach der Auswahl der zu importierenden Datei die in dieser definierten Spaltennamen. Nach dem Öffnen werden automatisch die Spalten zugeordnet, die den gleichen Namen besitzen, wobei die Groß/Kleinschreibung ignoriert wird. Falls Sie Zusatzfelder definiert haben, so werden diese ebenfalls angezeigt. Wenn es Eigenschaftsfelder in der Importdatei gibt werden diese nach dem Öffnen ebenfalls direkt anzeigt und einander zugeordnet. Die restlichen Felder müssen sie dann mittels Drag & Drop den enstprechenden Spalten zuweisen. Sollte eine Zuweisung falsch sein, so können sie diese wieder leicht mit der Entf-Taste löschen.
 
-Es gibt nicht nur sichtbare Änderungen sondern ein paar auch unter der Haube. Deshalb hat sich die Tabelle ein wenig geändert, vor allem die möglichen Formatierungen wurden erweitert. Falls Ihre Einträge in Einführungstrichen eingefasst ist z.B. "Name", dann werden diese automatisch entfernt.
+Es gibt nicht nur sichtbare Änderungen sondern ein paar auch unter der Haube. Deshalb hat sich die Tabelle ein wenig geändert, vor allem die möglichen Formatierungen wurden erweitert. Falls Ihre Einträge in Anführungsstrichen eingefasst ist z.B. "Name", dann werden diese automatisch entfernt.
 
 ## Importfelder
 

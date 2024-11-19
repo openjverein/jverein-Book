@@ -20,4 +20,4 @@ Zeige Kontonummer in der Buchungsliste.
 
 Umsatzsteueroption.
 
-Auswahl ob eine feste Zuordnung zwischen Buchungsart und Buchungsklasse existiert oder nicht. Die feste Zuordnung sollte nur bei einem Wechsel des Kontenrahmen passieren und dann weim Wechsel des Geschäftsjahres. Sie auch [Buchungsart](../admbuchf/buchungsart.md).
+Auswahl ob eine feste Zuordnung zwischen Buchungsart und Buchungsklasse existiert oder nicht. Die feste Zuordnung sollte nur bei einem Wechsel des Kontenrahmen passieren und dann beim Wechsel des Geschäftsjahres. Sie auch [Buchungsart](../admbuchf/buchungsart.md).

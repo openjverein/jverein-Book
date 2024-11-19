@@ -20,7 +20,7 @@ Der Filterparameter "Bezeichnung" erlaubt es nach dem Kontonamen zu filtern.
 
 Der Werte müssen nicht vollständig eingegeben werden da auch nach teilweiser Übereinstimmung gefiltert wird.
 
-Folgende Menu Einträge sind vorhanden:
+Folgende Menü Einträge sind vorhanden:
 * Bearbeiten: Öffnet die Detailansicht für den selektierten Anfangsbestand
 * Löschen: Löscht den Anfangsbestand
 

@@ -10,7 +10,7 @@ Für die Erstellung einer Statistik gibt es generell drei Möglichkeiten:
 
 ![](img/StatistikBeispiel.jpg)
 
-Für die Statistik ist ein Stichtag vorzugeben. Standardmässig wird der 31.12. des aktuellen Jahres vorgegeben.
+Für die Statistik ist ein Stichtag vorzugeben. Standardmäßig wird der 31.12. des aktuellen Jahres vorgegeben.
 
 ![](img/MitgliederStatistikView.png)
 

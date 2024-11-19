@@ -61,8 +61,6 @@ Entsprechend werden die restlichen Listen nur für besondere Fragestellungen ben
 
 Die Liste Jahressaldo \(Navigation: Buchführung =&gt; Jahressaldo\) stellt die Verbindung zu den realen Konten und zum Vorjahr her, sprich es wird für jedes Konto der Anfangsbestand, Einnahmen, Ausgaben, Umbuchungen und Endbestand aufgeführt.
 
-Bf-listejahressaldo.png
-
 Diese Liste stellt entsprechend auch die Basis für die Kassenprüfung dar. Die Anfangsbestände finden sich auf der "Jahressaldo-Liste" des Vorjahres wieder und können damit verglichen werden. Die Endbestände der Bankkonten können mit den entsprechenden Kontoauszügen verglichen werden, der Bestand der Kasse wird gezählt.
 
 Somit ist der Jahresendbestand definiert und im nächsten Schritt können die Einnahmen und Ausgaben kontrolliert werden. Dazu dient das Buchungsjournal \(siehe nächstes Kapitel\).

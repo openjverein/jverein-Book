@@ -8,7 +8,7 @@ Für den Austausch gibt es ein Forum unter [http://www.jverein.de/forum/viewforu
 
 ## Export
 
-Beim Export ist ein Verzeichnis und ggfls. ein Dateiname auszuwählen.
+Beim Export ist ein Verzeichnis und ggf. ein Dateiname auszuwählen.
 
 Ein Export ist nur möglich, wenn Buchungsklassen existieren.
 

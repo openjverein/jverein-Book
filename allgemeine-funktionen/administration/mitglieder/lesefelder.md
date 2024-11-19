@@ -4,7 +4,7 @@
 
 Zur Nutzung der Lehrgänge ist die Option in den Einstellungen \(Administration-&gt;Einstellungen-&gt;Anzeige\) zu aktivieren.
 
-Lesefelder sind virtuelle Datenbank-Felder. Sie werden mit Hilfe eines Scriptes berechnet und sind daher nur lesbar \(-&gt; Lesefelder \). Jedes Lesefeld besteht aus einer Bezeichnung und Skript-Code.
+Lesefelder sind virtuelle Datenbank-Felder. Sie werden mit Hilfe eines Skriptes berechnet und sind daher nur lesbar \(-&gt; Lesefelder \). Jedes Lesefeld besteht aus einer Bezeichnung und Skript-Code.
 
 Lesefeld-Namen können frei, aber eindeutig gewählt werden. Intern wird `mitglied_lesefelder_` vorne angefügt. Um z.B. beim Schreiben einer E-Mail auf Lesefeld Anrede zuzugreifen, muss `${mitglied_lesefelder_Anrede}` eingegeben werden.
 

@@ -48,7 +48,7 @@ Die Adressliste listet alle Mitglieder und enthält 5 Spalten:
 
 ## Ausgabe im CSV-Format
 
-Eine [CSV-Datei](http://de.wikipedia.org/wiki/CSV_%28Dateiformat%29) ist eine Textdatei, bei der jeder Datensatz \(jedes Mitglied\) als einzelne Textzeile gespeichet ist. Die Textzeilen bestehen aus Feldern die mit Semikolon-Zeichen getrennt sind \(im deutschen Sprachraum\). Dieses einfache Dateiformat lässt sich sowohl mit einem Texteditor \(bei Windows z.B. Notepad, bei Linux z.B. vim,Emacs,Nano\) als auch mit einer Tabellenkalkulation wie Excel oder OpenOffice-Calc editieren.
+Eine [CSV-Datei](http://de.wikipedia.org/wiki/CSV_%28Dateiformat%29) ist eine Textdatei, bei der jeder Datensatz \(jedes Mitglied\) als einzelne Textzeile gespeichert ist. Die Textzeilen bestehen aus Feldern die mit Semikolon-Zeichen getrennt sind \(im deutschen Sprachraum\). Dieses einfache Dateiformat lässt sich sowohl mit einem Texteditor \(bei Windows z.B. Notepad, bei Linux z.B. vim,Emacs,Nano\) als auch mit einer Tabellenkalkulation wie Excel oder OpenOffice-Calc editieren.
 
 Eine CSV-Datei kann in OpenOffice oder WinWord als Serienbriefdatenquelle zugewiesen werden.
 

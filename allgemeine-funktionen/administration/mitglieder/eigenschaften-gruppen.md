@@ -26,4 +26,4 @@ Beispiel für eine Pflichtgruppe: Ein Mitglied gehört mindestens einer Abteilun
 
 Beispiel einer nicht-Pflichtgruppe: Ein Mitglied gehört dem Vorstand an.
 
-Beispiel einer Eigenschaft Max. 1: Zahlungsart Abbuchung, Überweisung, Dauerauftrag, ggfs. dann in Verbindung mit dem Pflicht-Flag.
+Beispiel einer Eigenschaft Max. 1: Zahlungsart Abbuchung, Überweisung, Dauerauftrag, ggf. dann in Verbindung mit dem Pflicht-Flag.
