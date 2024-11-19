@@ -16,7 +16,7 @@ Rechtsklick auf die Buchung(en), dann Splitbuchung auswählen:
 
 ![](img/Splitbuchung01.png)
 
-Es können auch mehrere Buchungen gleichzeitig ausgewählt werden. Sie müssen allerdings den gleichen Betrag haben. Anschliesend wird ein Buchungeintrag bearbeitet. Beim Speichern wird eine analoge Aufteilung der Beträge auch auf alle anderen selektierten Buchungen angewendet. 
+Es können auch mehrere Buchungen gleichzeitig ausgewählt werden. Sie müssen allerdings den gleichen Betrag haben. Anschließend wird ein Buchungseintrag bearbeitet. Beim Speichern wird eine analoge Aufteilung der Beträge auch auf alle anderen selektierten Buchungen angewendet. 
 
 Es erscheint dann:
 
@@ -30,13 +30,13 @@ Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:
 
 ![](img/SplitbuchungSplitView.png)
 
-In das Betrag Feld wird automatisch mit dem noch übrigen Betrag gefüllt.
+Das Betrag Feld wird automatisch mit dem noch übrigen Betrag gefüllt.
 
 Mit Speichern wird der Split Eintrag gespeichert und zur Splitbuchung Anzeige zurück gekehrt.
 
 Mit Speichern und nächste kann man direkt zur Eingabe des nächsten Split Eintrags weiter gehen. Wieder wird der noch zu buchende Betrag per Default eingetragen.
 
-Bei der letzen Buchungen kann man mit Speichern zur Splitbuchung Anzeige zurück kehren. Bei Speichern und nächste kommt man bei einem Restbetrag von 0€ automatisch zurück.
+Bei der letzten Buchung kann man mit Speichern zur Splitbuchung Anzeige zurück kehren. Bei Speichern und nächste kommt man bei einem Restbetrag von 0€ automatisch zurück.
 
 ![](img/Splitbuchung04.png)
 
@@ -71,5 +71,5 @@ Es werden die in Hibiscus vorhandenen Sammelüberweisungen angezeigt. Mit einem 
 
 ## Splitbuchungen auflösen
 
-Sollte versehentlich eine Splitbuchung erzeugt worden sein, kann sie über den Knopf "Auflösen" wieder aufgelöst werden. Die Gegen- und Splitbuchungen werden gelöscht. Bei der Hauptbuchung wird das Splitbuchungsmerkmal entfernt.
+Sollte versehentlich eine Splitbuchung erzeugt worden sein, kann sie über den Knopf "Auflösen" wieder aufgelöst werden. Die Gegen- und Splitbuchungen werden gelöscht. Bei der Hauptbuchung wird das Splitbuchung Merkmal entfernt.
 

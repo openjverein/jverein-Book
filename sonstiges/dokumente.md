@@ -33,5 +33,5 @@ Mit einem Rechtsklick auf ein Dokument öffnet sich ein Kontextmenü. Mit den Me
 
 ## Datensicherung
 
-Die gespeicherten Dokumente werden **nicht** durch die Sicherung von Jameica erfasst. Am einfachsten ist es, dass .jameica-Verzeichns komplett zu sichern.
+Die gespeicherten Dokumente werden **nicht** durch die Sicherung von Jameica erfasst. Am einfachsten ist es, dass .jameica-Verzeichnis komplett zu sichern.
 

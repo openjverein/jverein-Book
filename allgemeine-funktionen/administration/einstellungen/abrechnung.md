@@ -4,7 +4,7 @@
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../../allgemein/beitragsmodelle.md)
 
-Die Standardwerte für den Zahlungsrhytmus und den Zahlungsweg bei der Speicherung neuer Mitglieder kann eingestellt werden.
+Die Standardwerte für den Zahlungsrhythmus und den Zahlungsweg bei der Speicherung neuer Mitglieder kann eingestellt werden.
 
 Für die SEPA-Konvertierung ist das SEPA-Land auszuwählen.
 

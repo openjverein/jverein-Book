@@ -124,7 +124,7 @@ Lastschriftankündigung/Betrag:$lastschrift_betrag/Datum:$lastschrift_abrechnung
 In der Mail können im Betreff und im Text, bei der 1ct-Überweisung im Verwendungszweck die Lastschriftvariable verwendet werden. Diese Daten werden aus dem Abrechnungslauf genommen. Änderungen in den Mitgliederdaten nach dem Abrechnungslauf werden NICHT berücksichtigt.
 
 ## Besonderheiten - zusammengefasst
-
+new Buchungsuebernahme();
 * Änderungen der Mitgliederdaten nach einem Buchungslauf werden für diesen Buchungslauf NICHT mehr berücksichtigt. Der Buchungslauf stellt eine eigenen Datensatz dar.
   * So werden z.B. E-Mailadresseänderungen für die Pre-Notification außer acht gelassen.
   * Teilt ein Mitglied z.B. aufgrund der Pre-Notification eine neue Bankverbindung mit, so ändert man sie in den Mitgliederdaten nur für künftige Abrechnungen.

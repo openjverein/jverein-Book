@@ -20,7 +20,7 @@ Das Kontextmenü bietet folgende Optionen:
 * Löschen: Damit kann ein Zusatzbetrag gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
-## Zusatzbeitrag beim Mitglied anlegen
+## Zusatzbetrag beim Mitglied anlegen
 
 Ein Klick auf "Neuer Zusatzbetrag" öffnet folgendes Fenster:
 
