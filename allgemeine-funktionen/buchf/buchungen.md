@@ -34,12 +34,13 @@ Folgende Menü Einträge sind vorhanden:
 * Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen Der Menüpunkt ist nur verfügbar wenn die Buchungsart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungsart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).
 * Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md)
 * Auflösen: Löst eine oder mehrere selektierte Splitbuchungen auf. Es werden die Gegenbuchung und die enthaltenen Buchungen gelöscht
+* Löschen: Löscht die Buchung
+* Mitglied anzeigen: Für die selektierte Buchung wird das zugehörige Mitglied geöffnet, sofern der Buchung eine Sollbuchung zugeordnet wurde.
 * Neues Anlagenkonto: Für die selektierte Buchung wird ein Anlagenkonto erzeugt
 * Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart
 * Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung
 * Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts
 * Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs
-* Löschen: Löscht die Buchung
 
 Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
 
