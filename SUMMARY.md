@@ -123,6 +123,7 @@
       * [Datenbank bereinigen](allgemeine-funktionen/administration/erweitert/bereinigen.md)
       * [Diagnosebackup](allgemeine-funktionen/administration/erweitert/diagnosebackup.md)
 * [Version 2.9.0](v2.9.0/README.md)
+  * [Release Notes](v2.9.0/notes.md)
   * [Navigation](v2.9.0/navigation.md)
   * [Mitglieder](v2.9.0/mitglieder/README.md)
     * [Mitglieder](v2.9.0/mitglieder/content/README.md)
