@@ -53,7 +53,7 @@ Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst we
 
 ## Variablen
 
-Im Betreff und im Text können Variable eingefügt werden, die beim Mailversand mit den konkreten Daten gefüllt werden. Mit Rechtsklick auf den Empfänger können die verfügbaren Variablen und ihre Belegung angezeigt werden.
+Im Betreff und im Text können Variable eingefügt werden, die beim Mailversand mit den konkreten Daten gefüllt werden. Mit Rechtsklick auf den Empfänger oder über den untenstehenden Button können die verfügbaren Variablen und ihre Belegung angezeigt werden.
 
 siehe auch [Mitglieder](../mitglieder/content/mitglieder.md) und [Variable](../../sonstiges/variable.md)
 
