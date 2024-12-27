@@ -14,7 +14,7 @@ Vor einer Abrechnung sollte die SEPA-Fehlerliste überprüft werden. In der List
 
 ## Abrechnung
 
-Die Abrechnung wird mit dem untenstehenden Bildschirm initiiert. Es können
+Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](abrechnungslauf.md) initiiert. Es können
 
 * Mitgliedsbeiträge je nach Beitragsmodell
 * Beiträge für im laufenden Jahr eingetretene Mitglieder

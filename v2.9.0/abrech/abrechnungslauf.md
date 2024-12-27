@@ -14,12 +14,13 @@ Folgende Menü Einträge sind vorhanden:
 
 Auch ein Doppelklick auf den Abrechnungslauf Eintrag zeigt den Abrechnungslauf an.
 
+Über den "Neu" Button können neue Abrechnungsläufe erzeugt werden (siehe  [Abrechnung](abrechnung.md)).
+
 Ein Abrechnungslauf kann abgeschlossen werden und ist damit vor versehentlichem Löschen geschützt. Damit diese Funktion genutzt werden kann, muss sie unter Einstellungen->Abrechnung aktiviert werden. Ein einmal abgeschlossener Lauf kann nicht wieder geöffnet werden!
 
-## Abrechnungslauf
+## Abrechnungslauf anzeigen
 Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
 ![](img/AbrechnungslaufView.png)
-

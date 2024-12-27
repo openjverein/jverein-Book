@@ -57,6 +57,10 @@ Die Eingabe von Firmen, Organisationen und Behörden als Mitglieder wird erlaubt
 
 Zu jedem Mitglied kann ein Foto gespeichert werden.
 
+### Mittelverwendung anzeigen
+
+Zeigt die Mittelverwendung an.
+
 ### Lesefelder anzeigen
 
 Tab Lesefelder beim Mitglied anzeigen. Lesefelder können unter Administration - Lesefelder definiert werden

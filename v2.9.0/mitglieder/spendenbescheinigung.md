@@ -32,9 +32,26 @@ Der Filterbereich erlaubt es nach verschiedenen Kriterien zu filtern.
 
 Über den Filter "Mail" lassen sich z.B. Spendenbescheinigungen finden für deren Spender keine Mail Adressen hinterlegt sind. Diese können dann nicht per Mail verschickt werden sondern nur per Brief.
 
+Über den Filter "Spendenart" lassen sich folgende Optionen auswählen:
+* Geldspende
+* Sachspende
+* Geldspende mit Erstattungsverzicht
+* Geldspende ohne Erstattungsverzicht
+* Sachspende oder Geldspende mit Erstattungsverzicht
+
+Laut gesetzlicher Regelung darf eine maschinelle Erstellung von Spendenbescheinigungen mit gedruckter Unterschrift nur bei reinen Geldspenden angewendet werden. Spendenbescheinigungen für Sachspenden und Geldspenden für Verzicht auf Aufwendungen müssen weiterhin per Hand unterschrieben werden.
+
+JVerein wird also eine gedruckte Unterschrift nur bei reinen Geldspenden generieren falls gerdruckte Unterschrift aktiviert ist.
+
+Möchte man also Spendenbescheinigungen per Mail verschicken geht das nur für echte Geldspenden. Dafür ist der Filter für Spendenart auf "Geldspende ohne Erstattungsverzicht" zu setzen. In diesem Fall erhält man alle echten Geldspenden für die auch eine Unterschrift generiert wurde.
+
+Mit der Option "Sachspende oder Geldspende mit Erstattungsverzichte" erhält man alle Spendenbescheinigungen für die keine Unterschrift gedruckt wird. Diese müssen ausgedruckt und per Hand unterschrieben werden.
+
 ![](img/SpendenbescheinigungenListeView.png)
 
 Folgende Buttons stehen zu Verfügung:
+* CSV: Ausgabe der Liste als CSV Datei
+* PDF: Ausgabe der Liste als PDF Datei
 * Neu (Sachspende): Neue Sachspendenbescheinigungen erstellen
 * Neu (automatisch): Automatisch neue Geldspendenbescheinigungen erstellen
 

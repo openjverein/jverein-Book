@@ -18,3 +18,7 @@ Sofern kein [Anfangsbestand](anfangsbestand.md) vorhanden ist, wird ein entsprec
 
 Die Daten können im PDF-Format oder CSV-Format ausgegeben werden.
 
+## Rücklagen ohne Berücksichtigung im Saldo
+
+Rücklagenkonten werden im Kontensaldo separat aufgelistet. Sie dienen zur Dokumentation der Rücklagen. Die Gelder selbst sind in den regulären Konten enthalten.
+

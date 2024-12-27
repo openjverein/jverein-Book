@@ -82,7 +82,7 @@ Es wird ein  Datensatz mit den Daten des Mitgliedes in die Zwischenablage kopier
 
 ### Eigenschaften
 
-Für alle markierten Mitglieder können die Eigenschaften gleichzeitig gesetzt oder gelöscht werden. Dabei stehen nur die Eigenschaften Gruppen ohne Pflichteintrag oder ohne die Kennzeichnung "maximal 1" zur Verfügung.
+Für alle markierten Mitglieder können die Eigenschaften gleichzeitig gesetzt oder gelöscht werden.
 
 Die Icons haben fünf Zustände:
 * Quadrat: Kein Mitglied hat die Eigenschaft gesetzt und sie wird bei niemanden geändert.
