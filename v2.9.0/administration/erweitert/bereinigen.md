@@ -8,6 +8,7 @@ Mit der Funktion Datenbank bereinigen lassen sich Daten in JVerein löschen die 
 
 Aktuell können folgende Daten gelöscht werden:
 
+* Rechnungen
 * Spendenbescheinigungen
 * Buchungen: Sind ihnen noch Spendenbescheinigungen zugeordnet, lassen sie sich nicht löschen. Bei dieser Funktion sollte darum auch die Option "Spendenbescheinigungen" ausgewählt werden. Da ein Löschen von Buchungen welche Sollbuchungen zugeordnet sind zu offenen Buchungen führen können hier auch die zugeordneten Sollbuchungen mit gelöscht werden.
 * Lastschriften

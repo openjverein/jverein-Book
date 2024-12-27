@@ -22,6 +22,8 @@ Ist das Häkchen gesetzt, wird in der Buchungsliste nicht der Zweck aus der Buch
 
 Ist das Häkchen gesetzt, wird beim Standard Druck eine Unterschrift in die Spendenbescheinigung eingefügt.
 
+PS: Ab JVerein 2.9.0 lässt sich auch in individuellen Formularen für Spendenbescheinigungen die hier konfigurierte Unterschrift über ein entsprechendes Formularfeld platzieren.
+
 #### Unterschrift
 
 Hier lässt sich ein Bild der Unterschrift einfügen welche entsprechend der selektierten Option eingefügt wird.

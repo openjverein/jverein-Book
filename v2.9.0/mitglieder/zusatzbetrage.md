@@ -51,11 +51,13 @@ Das Kontextmenü bietet folgende Optionen:
 * Löschen: Damit kann ein Zusatzbetrag gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
-## Zusatzbeitrag
+## Zusatzbetrag
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
 ![](img/ZusatzBetragView.png)
+
+PS: Ab JVerein 2.9.0 lässt sich für den Zusatzbetrag ein von der Konfiguration beim Mitglied (Standard) abweichender Zahlungsweg konfigurieren.
 
 ## Abrechnung
 

@@ -19,10 +19,16 @@ Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 
 ## Kontenarten
 
-In JVerein werden Geldkonten und Anlagenkonten unterstützt. Anlagenkonten können zu Abschreibung von Anlagen benutzt werden.
+In JVerein werden verschiedene Kontoarten unterstützt:
+* Geldkonto
+* Anlagenkonto (ab JVerein 2.8.23)
+* Verbindlichkeitskonto (ab JVerein 2.9.0)
+* Rücklagenkonto nach § 62 Abs. 1 AO (ab JVerein 2.9.0)
+* Rücklagenkonto nach § 62 Abs. 3 und 4 AO (ab JVerein 2.9.0)
+* Konto für sonstige Rücklagen (ab JVerein 2.9.0)
 
 Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
-* Kennzeichnung eines Kontos als Anlagenkonto
+* Kontoart Anlagenkonto
 * Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](anlagenbuchungen.md)
 * Erstellung eines [Anlagenverzeichnisses](anlagenverzeichnis.md)
 * Unterstützung bei der Generierung von AfA Buchungen
@@ -30,16 +36,20 @@ Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
 PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
 
 
-## Geldkonto
+## Geldkonto und Verbindlichkeitskonto
 
-Geldkonten können echte Bankkonten, offline Konten wie z.B. Barkasse oder auch Forderungen sein.
+Geldkonten können echte Bankkonten, Sparkonten oder offline Konten wie z.B. Barkasse sein. 
+
+Verbindlichkeitskonten sind Darlehen, Kredite oder sonstige Verbindlichkeiten. 
+
+Eine Unterscheidung von Geldkonten und Verbindlichkeitskonten ist nur nötig wenn das Feature [Mittelverwendung](mittelverwendung.md) benutzt werden soll.
 
 ![](img/GeldkontoView.png)
 
 Im Konto View können die Daten der Kontos editiert werden.
 
 Folgende Daten können eingegeben werden:
-* Anlagenkonto: Nicht ausgewählt bei einem Geldkonto
+* Kontoart: Geldkonto oder Verbindlichkeitskonto
 * Nummer
 * Bezeichnung
 * Eröffnungsdatum
@@ -49,6 +59,28 @@ Folgende Daten können eingegeben werden:
 * Kommentar: Optionale Angaben zum Konto
 
 Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
+
+## Rücklagenkonten
+
+Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen. Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
+
+Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
+* Rücklagenkonto nach § 62 Abs. 1 AO
+* Rücklagenkonto nach § 62 Abs. 3 und 4 AO
+* Konto für sonstige Rücklagen z.B. Gewinne aus Vermögensumschichtung
+
+Ein Verein kann für Rücklagen ein separates Bankkonto anlegen um sie dem Finanzamt nachzuweisen. Dafür fallen aber evtl. Kontoführungsgebühren an.
+
+Mit den Kontoarten für Rücklagen ist das nicht notwendig. Auch können hier Rücklagenkonten für verschiedene Zwecke wie zB. freie Rücklage, Rücklage für einen festen Zweck etc. angelegt werden.
+
+Rücklagen Zuführungen werden als normale Einnahme auf ein Rücklagenkonto gebucht. Entnahmen werden als Ausgabe verbucht. Es ist keine Gegenbuchung auf einem Bankkonto nötig. 
+
+Buchungen auf Rücklagenkonten werden nicht im Buchungsklassensaldo berücksichtigt. Die Gelder sind ja bereits in Geldkonten vorhanden. Sie werden auch nicht im Kontensaldo berücksichtigt. Sie werden im Kontensaldo View separat aufgelistet.
+
+![](img/KontenSaldoView.png)
+
+Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden aber bei der [Mittelverwendung](mittelverwendung.md) berücksichtigt.
+
 
 ## Anlagenkonten
 
@@ -65,7 +97,7 @@ Hierbei wird nach folgenden Anlagen unterschieden:
 Im Konto View können die Daten der Anlagenkontos editiert werden.
 
 Folgende allgemeine Daten können eingegeben werden:
-* Anlagenkonto: Bei einem Anlagenkonto auszuwählen.   
+* Kontoart:  Anlagenkonto
 PS: Nach Speichern des ersten Anlagenkontos muss JVerein neu gestartet werden. Erst dann sind die Einträge für Anlagenbuchungen und Anlagenverzeichnis im Navigationsbaum sichtbar
 * Nummer
 * Bezeichnung
