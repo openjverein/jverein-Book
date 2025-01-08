@@ -17,6 +17,9 @@ Das Kontextmenü bietet folgende Optionen:
 * Anzeigen: Das fertige Formular wird als PDF generiert und angezeigt
 * Duplizieren: Es wird eine Kopie des Formulars erzeugt
 * Löschen: Damit kann ein Formular, welches noch nicht verwendet wurde, gelöscht werden
+* Exportieren: Damit können die selektierten Formulare inklusive Formular Datei und Formularfelder exportiert werden
+
+Mit dem Button Importieren können vorher exportierte Formulare importiert werden.
 
 ## Formular
 

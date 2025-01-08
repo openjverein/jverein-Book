@@ -58,13 +58,21 @@ Datum der Fälligkeit des Betrages. Format TT.MM.JJJJ
 
 Intervall der Zahlung. 0=keine Wiederholung, 1 = monatlich, 2 = zweimonatlich, 3 = vierteljährlich, 6 = halbjährlich, 12 = jährlich
 
-## Endedatum
+## Endedatum (optional)
 
 Endedatum der Zahlung
 
-## Buchungsart
+## Buchungsart (optional)
 
 Nummer der Buchungsart
+
+## Buchungsklasse (optional)
+
+Nummer der Buchungsklasse
+
+## Zahlungsweg (optional)
+
+Zahlungsweg der Zahlung. 0 = Standard, 1 = Basislastschrift, 2 = Überweisung, 3 = Barzahlung
 
 Jede Datei enthält eine Kopfzeile und pro Zusatzbuchung eine Zeile.
 
