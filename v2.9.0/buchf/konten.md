@@ -67,7 +67,7 @@ Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgende
 Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
 * Rücklagenkonto nach § 62 Abs. 1 AO
 * Rücklagenkonto nach § 62 Abs. 3 und 4 AO
-* Konto für sonstige Rücklagen z.B. Gewinne aus Vermögensumschichtung
+* Konto für sonstige Rücklagen
 
 Ein Verein kann für Rücklagen ein separates Bankkonto anlegen um sie dem Finanzamt nachzuweisen. Dafür fallen aber evtl. Kontoführungsgebühren an.
 
@@ -108,8 +108,7 @@ PS: Nach Speichern des ersten Anlagenkontos muss JVerein neu gestartet werden. E
 * Kommentar: Optionale Angaben zum Konto z.B. Rechnungsnummer, Verkäufer etc.
 
 Folgende Anlagen spezifische Daten können eingegeben werden:
-* Anlagen Buchungsklasse: Es ist aus steuerlichen Gesichtspunkten nicht vorgeschrieben Anlagen den Steuerklassen wie z.B. Ideeller Bereich etc. zuzuordnen. Anlagenbuchungen sind Umbuchen und tauchen damit sowieso nicht im Buchungsklassensaldo auf. Nur die Abschreibungen tauchen auf und diese sind Ausgaben.   
-JVerein gruppiert im Anlagenverzeichnis die Anlagenkonten nach der Buchungsklasse wenn sie konfiguriert ist. Das ermöglicht es dem Anwender die Anlagenkonten frei zu gruppieren. Hat man z.B. mehrere Grundstücke an unterschiedlichen Orten kann man eine Buchungsklasse für jedes Grundstück anlegen. So lassen sich dann die Anlagenkonten dem jeweiligen Grundstück zuordnen
+* Anlagen Buchungsklasse: Anlagen müssen im Anlagenverzeichnis nach steuerlichen Sphären gruppiert sein um die Zuordnung zu erkennen. Dies ist auch für die korrekte Erstellung der Mittelverwendungsrechnung notwendig. Wird eine Anlage gemischt in verschiedenen Sphären verwendet muss sie entsprechend der Nutzung aufgeteilt werden
 *  Anlagen Buchungsart: Buchungsart der Anlage. Diese ergibt sich aus dem Kontenplan. Auch die Anlagenbuchungen sollten diese Buchungsart haben. Sie muss als Umbuchung gekennzeichnet sein
 *  AfA Buchungsart: Die Buchungsart die für die zugehörigen Abschreibungen verwendet werden soll z.B. "AfA linear" oder "Keine AfA" für Grundstücke. In der Buchungsart muss der Schalter AfA gesetzt sein
 *  Anlagenwert: Wert der Anlage
