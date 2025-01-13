@@ -1,10 +1,10 @@
-# Variable
+# Variablen
 
-## Variable
+## Variablen
 
-Für diverse Zwecke \(z. B. Formulare, Mails, Pre-Notification ...\) gibt es Variable.
+Für diverse Zwecke \(z. B. Formulare, Mails, Pre-Notification ...\) gibt es Variablen.
 
-### Allgemeine Variable
+### Allgemeine Variablen
 
 #### aktuellermonat
 
@@ -88,7 +88,8 @@ Pflicht
 
 Das Feld kann mehrzeilig sein. Gesamtlänge 500 Stellen. Mehrzeilige Verwendungszwecke sind in Anführungszeichen zu setzen.
 
-## Lastschrift
+### Lastschrift
+Diese Variablen können verwendet werden um SEPA-Ankündigungen zu erstellen. Die Verwendung von Mitglieds-Variablen ist nicht möglich.
 
 #### lastschrift\_abrechnungslauf\_faelligkeit
 
@@ -454,7 +455,7 @@ Ein Grund warum bezahlt werden muss z.B. Mitgliedsbeitrag oder Arbeitsstunden
 
 Noch eine Begründung für diese Buchung
 
-## Spendenbescheinigung
+### Spendenbescheinigung
 
 #### spendenbescheinigung\_betrag
 
@@ -476,19 +477,19 @@ Bezeichnung der Sachzuwendung
 
 Liste der Buchungen
 
-### spendenbescheinigung\_buchungsliste\_art
+#### spendenbescheinigung\_buchungsliste\_art
 
 Liste der Buchungsarten
 
-### spendenbescheinigung\_buchungsliste\_betrag
+#### spendenbescheinigung\_buchungsliste\_betrag
 
 Liste der Spendenbeträge
 
-### spendenbescheinigung\_buchungsliste\_daten
+#### spendenbescheinigung\_buchungsliste\_daten
 
 Liste der Spendendaten
 
-### spendenbescheinigung\_buchungsliste\_verzicht
+#### spendenbescheinigung\_buchungsliste\_verzicht
 
 Liste der Verzichtserklärungen
 
@@ -528,7 +529,7 @@ Sammelspendenbescheinigungen: Zeitraum der Spende
 
 Unterlagen zur Wertermittlung
 
-### Abrechnungsparameter
+#### Abrechnungsparameter
 
 Diese Parameter stehen nur beim Abrechnungslauf zur Verfügung. Die Variablen können im Verwendungszweck und im Verwendungszweck des Zusatzbetrages benutzt werden.
 
