@@ -65,9 +65,15 @@ Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
 Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen. Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
 
 Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
-* Rücklagenkonto nach § 62 Abs. 1 AO
-* Rücklagenkonto nach § 62 Abs. 3 und 4 AO
-* Konto für sonstige Rücklagen
+* Zweckgebundene Rücklage nach § 62 Abs. 1 Nr. 1 AO
+* Betriebsmittelrücklage nach § 62 Abs. 1 Nr. 1 AO
+* Investitionsrücklage nach § 62 Abs. 1 Nr. 1 AO
+* Instandhaltungsrücklage nach § 62 Abs. 1 Nr. 1AO
+* Wiederbeschaffungsrücklage nach § 62 Abs. 1 Nr. 2 AO
+* Freie Rücklage nach § 62 Abs. 1 Nr. 3 AO
+* Rücklage nach § 62 Abs. 1 Nr. 4 AO
+* Vermögen nach § 62 Abs. 3 und 4 AO
+* Sonstige Rücklagen
 
 Ein Verein kann für Rücklagen ein separates Bankkonto anlegen um sie dem Finanzamt nachzuweisen. Dafür fallen aber evtl. Kontoführungsgebühren an.
 
@@ -116,6 +122,7 @@ Folgende Anlagen spezifische Daten können eingegeben werden:
 *  Nutzungsdauer: Dauer der AfA. Wert Wert ist 0 bei sofortiger Abschreibung und sonst die Dauer der Abschreibung
 *  Anlagen Restwert: Restwert der Anlage der nach der Abschreibungsdauer übrig bleiben soll z.B. wenn die Anlage auch nach der Abschreibung weiter benutzt werden soll. Der Default Wert kann in den Einstellungen gesetzt werden. In JVerein kann auch eine Anlage mit Restwert 0 im Anlagenverzeichnis geführt werden. Ein Anlagenkonto bleibt solange im Anlagenverzeichnis bis es aufgelöst wird
 *  AfA Mode: Modus für die Behandlung der Abschreibung (siehe weiter unten)
+*  Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert wurde.
 
 ## Einstellungen
 
