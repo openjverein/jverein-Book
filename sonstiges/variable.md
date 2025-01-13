@@ -529,7 +529,7 @@ Sammelspendenbescheinigungen: Zeitraum der Spende
 
 Unterlagen zur Wertermittlung
 
-#### Abrechnungsparameter
+### Abrechnungsparameter
 
 Diese Parameter stehen nur beim Abrechnungslauf zur Verfügung. Die Variablen können im Verwendungszweck und im Verwendungszweck des Zusatzbetrages benutzt werden.
 
