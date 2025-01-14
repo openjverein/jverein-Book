@@ -20,9 +20,11 @@ Mit einem Rechtsklick auf einen oder mehrere selektierte Tabelleneinträge öffn
 
 Lastschrift Einträge werden automatisch gelöscht wenn man den zugehörigen Abrechnungslauf löscht.
 
-Achtung:
+**Achtung:**
 
 Solange für Einträge die Pre-Notificationen noch nicht versendet wurden dürfen diese Einträge nicht gelöscht werden. Für gelöschte Einträge können keine Pre-Notificationen verschickt werden.
+
+Auch sollten Lastschriften der letzten 3 Jahre nicht gelöscht werden, da für die Berechnung ob ein gültiges Mandat vorliegt geprüft wird ob in den letzten 3 Jahren eine Lastschrift erfolgt ist. Gibt es keine Lastschrift und das Mandat ist älter, ist ein neues Mandat nötig.
 
 ## Lastschrift
 
