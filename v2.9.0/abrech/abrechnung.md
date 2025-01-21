@@ -58,37 +58,53 @@ Hinweis: Das Eintrittsdatum wird beim Import von Mitgliedern nicht gesetzt.
 
 Es werden nur Mitglieder abgerechnet, die sich schon abgemeldet haben.
 
-**Fälligkeit SEPA**
+#### Fälligkeit SEPA
 
 Die Fälligkeit von Lastschriften muss mindestens einen Bankarbeitstag nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
 
-**Stichtag**
+#### Stichtag
 
 Stichtag für die Berechnung der Mitgliedschaft und der Fälligkeit von Zusatzbeträgen.
 
-**Zahlungsgrund für Beiträge**
+#### Zahlungsgrund für Beiträge
 
-Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird auf [Rechnungen](../druckmail/rechnungen.md), [Mahnungen](../druckmail/mahnungen.md) und bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und dem Betrag\) ausgegeben.
+Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und dem Betrag\) ausgegeben.
 
 Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)\).
 
-**Zusatzbeträge**
+#### Zusatzbeträge
 
 Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
 
-**Kursteilnehmer**
+#### Kursteilnehmer
 
 Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) an.
 
-**Kompakte Abbuchung**
+#### Kompakte Abbuchung
 
 Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Abbuchung zusammengefasst.
 
-**SEPA-Datei drucken**
+#### Sollbuchung(en) zusammenfassen
 
-Optional können die SEPA-Daten in ein PDF-Dokument zum Ausdruck ausgegeben werden.
+Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Sollbuchung zusammengefasst.
 
-**Abbuchungsausgabe**
+#### Rechnun(en) erstellen
+
+Hier kann ausgewählt werden ob mit dem Abrechnungslauf auch gleich Rechnungen für die generierten Sollbuchungen erzeugt werden sollen. 
+
+#### Rechnung Formular
+
+Formular für Rechnungen falls welche erstellt werden sollen. Gegebenenfalls ist ein solches zu erstellen.
+
+#### Rechnung Text
+
+Text der aus der Rechnung und den zugehörigen Sollbuchungen als Zweck verwendet werden soll.
+
+#### SEPA-Datei drucken
+
+Optional können die SEPA-Daten der Lastschriften in ein PDF-Dokument zum Ausdruck ausgegeben werden.
+
+#### Abbuchungsausgabe
 
 Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
 

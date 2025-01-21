@@ -15,7 +15,15 @@ Ab dieser Version wird auch eine für jede Version spezifische Dokumentation ang
 
 ### Rechnungen
 
-TODO
+In Version 2.9.0 von JVerein wurde das Konzept für Rechnungen komplett überarbeitet.
+
+Rechnungen werden jetzt nicht mehr beim Drucken generiert sondern werden wie Spendenbescheinigungen in der Datenbank gespeichert. Eine Rechnung ist dabei genau einer Sollbuchung zugeordnet. Um dennoch mehrere Forderungen wie z.B. Beiträge und Zusatzbeträge zu einer Rechnung zusammen fassen zu können wurde das Konzept der Sollbuchungspositionen eingeführt.
+
+In einem Abrechnungslauf lassen sich jetzt Beiträge und Zusatzbeträge nicht nur für Lastschriften sondern auch für Sollbuchungen zusammen fassen. Die einzelnen Beiträge und Zusatzbeträge bilden dabei die Sollbuchungspositionen, wobei Positionen mit gleicher Buchungsart zu einer Position zusammen gefasst werden.
+
+Die Sollbuchungspositionen werden dann als Rechnungspositionen in die Rechnung aufgenommen.
+
+Siehe [Rechnung](mitglieder/rechnung.md).
 
 ### E-Rechnung
 
@@ -29,10 +37,7 @@ TODO
 
 ### Rücklagen Konten
 
-Für die Konten wurden neu Kontentypen eingeführt:
-* Rücklagenkonto nach § 62 Abs. 1 AO
-* Vermögenskonto nach § 62 Ans. 3 und 4 AO
-* Konto für sonstige Rücklagen
+Für die Konten wurden neue Kontoarten für Rüchlagen und Vermögen eingeführt.
 
 Damit kann ein Verein seine eingestellten Rücklagen in JVerein hinterlegen. Bucht ein Verein Rücklagen auf ein eigenes Bankkonto so ist dieses weiter als Geldkonto zu führen. Man könnte aber die Rücklagen zusätzlich in Rücklagenkonten führen um sie weiter aufzuschlüsseln. Auch werden die separaten Konten bei der Mittelverwendung benötigt.
 
@@ -48,6 +53,11 @@ Buchungen auf diesen Konten gehen nicht in das Buchungsklassensaldo und Kontensa
 ### Abrechnungsläufe
 
 * Der Menüeintrag Abrechnung wurde aus dem Navigationsbaum entfernt. Ein Abrechnungslauf wird jetzt über den Button "Neu" im View der Abrechnungsläufe erstellt
+* Der Dialog für den Abrechnungslauf wurde bezüglich der neuen Rechnung Funktionalität erweitert
+
+### Verrechnungskonto für Lastschriften
+
+* Bei Lastschriften wird beim Abrechnungslauf für die erzeugten Buchungen nicht mehr das Konto aus allgemeinen Einstellung des Vereins genommen. Es lässt sich jetzt unter Administration->Einstellungen->Abrechnung setzten
 
 ### Hibiscus Buchungsimport
 
@@ -85,7 +95,17 @@ Buchungen auf diesen Konten gehen nicht in das Buchungsklassensaldo und Kontensa
 
 * Mit den Vor/Zurück Buttons kann man den eingestellten Datumsbereich schnell vor und zurück blättern z.B. monatsweise
 
-## Kleinere Korrekturen
+### Filtermöglichkeiten beim Projekte Dialog
+
+* In der Liste der Projekte (unter Administration->Buchführung) kann jetzt gefiltert werden
+
+### Erweiterter Filter im Buchungsarten Dialog
+
+* In der Liste der Buchungsarten (unter Administration->Buchführung) gibt es weitere Filter Attribute
+
+
+
+## Kleinere Korrekturen und Erweiterungen
 
 * Prüfung ob das Mandatsdatum in der Zukunft liegt
 * Das Datum der Gegenbuchung zu den Buchungen eines Abrechnungslaufes wird auf das Datum der Fälligkeit gesetzt
@@ -94,4 +114,9 @@ Buchungen auf diesen Konten gehen nicht in das Buchungsklassensaldo und Kontensa
 * Beim Import von Zusatzbeträgen ist das Endedatum nun ein optionaler Parameter im CSV File
 * Zusatzbeträge Import unterstützt jetzt auch den Zahlungsweg
 * Zusätzlich gab es einige Fehlerkorrekturen
+* In der Buchungsliste wir neben dem Gesamtbetrag auch das aktuelle Kontosaldo ausgegeben
+* Bei allen Filterbereichen für Listen wurde in den Auswahlboxen das "Bitte auswählen" durch "Alle" ersetzt. Es muss ja nichts ausgewählt werden
+* Die Drop Down Liste für Formulare ist jetzt sortiert
+* Der Fehler bei der Abrechnung von Zusatzbeträgen wurde korrigiert
+* Der Fehler in der Jahrgangsstatistik wurde korrigiert
 
