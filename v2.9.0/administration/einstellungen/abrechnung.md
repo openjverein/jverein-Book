@@ -16,6 +16,11 @@ Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
 ![](img/SepaSupportedVersions.png)
 
+## Verrechnungskonto für Lastschriften
+
+Hier wird das Konto ausgewählt auf dem die beim Abrechnungslauf erzeugten Buchungen für Lastschriften erzeugt werden.
+
+
 ## Arbeitsstundenmodell
 
 Mit dem Arbeitsstundenmodel wird die Buchung von Arbeitsstunden eingestellt.

@@ -2,17 +2,17 @@
 
 ## Allgemeines
 
-Für alle offenen Sollbuchungen können Mahnungen erstellt werden. Dabei hat man die Möglichkeit eine Mahnung selektiv oder automatisch zu erstellen. Eine Buchung ist offen, wenn der Betrag der Spalte Zahlungseingang kleiner ist als der Wert in der Spalte Betrag.
+Für alle offenen Rechnungen können Mahnungen erstellt werden. Dabei hat man die Möglichkeit eine Mahnung selektiv oder automatisch zu erstellen. Eine Buchung ist offen, wenn der Betrag der Spalte Zahlungseingang kleiner ist als der Wert in der Spalte Betrag.
 
 Ein Mahnung kann ein PDF Dokument sein das direkt aus JVerein erstellt wird oder Sie exportieren die Daten in eine CSV Datei und erstellen die Mahnung als Serienbrief mit z.B. Microsoft Office oder Open Office.
 
 ## Mahnungen selektiv erstellen
 
-Möchten Sie eine Mahnung selektiv erstellen, so öffnen Sie den Dialog Sollbuchungen. Wählen Sie den Filter so, dass die gewünschten Daten angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Mahnung erstellen". Es öffnet sich hier der Dialog Mahnung der Sie bei der Erstellung der Mahnung unterstützt.
+Möchten Sie eine Mahnung selektiv erstellen, so öffnen Sie den Dialog Rechnungen. Wählen Sie den Filter so, dass die gewünschten Daten angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Mahnung Druck und Mail". Es öffnet sich hier der Dialog Mahnung der Sie bei der Erstellung der Mahnung unterstützt.
 
 Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
-Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
+Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
 ![](img/MahnungenDruckMailView1.png)
 
@@ -56,7 +56,3 @@ Wählen Sie in der Auswahlbox Formular dasjenige Formular, mit dem Sie die Mahnu
 ## Mahnung per Mail versenden
 
 Mahnungen können per Mail versandt werden. Dazu muss die Mailkonfiguration abgeschlossen sein. Bei der Ausgabe wird zu Kontrollzwecken eine ZIP-Datei mit allen erstellten und versandten Mahnungen erstellt.
-
-## Mahnungsdaten exportieren
-
-Sollen die Mahnungsdaten exportiert werden, so drücken Sie im Dialog Mahnung den Schalter Export. Es öffnet sich ein Dialog der den Speicherort und den Dateinamen der CSV abfragt. Bestätigen Sie diesen Dialog, werden die Mahnungsdaten in diese Dateien exportiert und können danach z.B. für einen Serienbrief verwendet werden.

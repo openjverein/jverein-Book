@@ -39,11 +39,35 @@ Folgende Menü Einträge sind vorhanden:
 * Mitglied anzeigen: Für die selektierte Buchung wird das zugehörige Mitglied geöffnet, sofern der Buchung eine Sollbuchung zugeordnet wurde.
 * Neues Anlagenkonto: Für die selektierte Buchung wird ein Anlagenkonto erzeugt
 * Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart
-* Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung
+* Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung (siehe unten)
 * Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts
 * Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs
 
 Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
+
+## Zuordnung einer Buchung zu einer Sollbuchung
+
+Durch einen Klick auf auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
+
+![](img/SollbuchungZuordnungIst.png)
+
+Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
+
+Zur Filterung des Buchungen steht weiterhin Egal \(= eine beliebige Differenz\), Fehlbetrag oder Überzahlung zur Verfügung. Durch einen Klick auf entfernen wird die Mitgliedskontoinformation aus der Buchung entfernt. Damit können Fehleingaben korrigiert werden.
+
+Der obige Dialog hat zwei Registerkarten:
+- Istbuchung einer Sollbuchung zuordnen \(Option 1\)
+- Sollbuchung erzeugen und Istbuchung zuordnen \(Option 2\)
+
+Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuchung \(z.B. aus einem Abrechnungslauf\).
+
+Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \(neue\) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
+
+![](img/SollbuchungZuordnungSollIst.png)
+
+Hier kann nur nach dem Namen gefiltert werden.
+
+In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" an gehakt werden. Mit dieser Option werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
 
 ## Automatische Zuordnung von Buchungen zu Sollbuchungen
 

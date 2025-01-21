@@ -2,23 +2,20 @@
 
 ## Allgemeines
 
-Für alle Sollbuchungen können Rechnungen erstellt werden. Dabei hat man die Möglichkeit eine Rechnung selektiv oder automatisch zu erstellen.
-
-Möchten Sie Rechnungen direkt aus JVerein druckfertig generieren, so müssen Sie mindestens ein Rechnungsformular angelegt haben. Die Erstellung von Rechnungsformularen ist unter Administration->Formulare beschrieben.
+Möchten Sie Rechnungen direkt aus JVerein druckfertig generieren, müssen zuvor Rechnungen erstellt werden, siehe [Rechnungen](../mitglieder/rechnung.md).
 
 Die Rechnungen können für den Druck in ein PDF-Dokument ausgegeben werden oder per Mail an die Mitglieder versandt werden.
 
-## Rechnungen selektiv erstellen
+## Rechnungen selektiv drucken oder mailen
 
-Möchten Sie eine Rechnung selektiv erstellen, so öffnen Sie den Dialog Sollbuchungen. Wählen Sie den Filter so, dass die gewünschten Daten angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Rechnung erstellen". Es öffnet sich hier der Dialog Rechnung der Sie bei der Erstellung der Rechnung unterstützt.
+Möchten Sie eine Rechnung selektiv ausgeben, so öffnen Sie den Dialog Rechnungen. Wählen Sie den Filter so, dass die gewünschten Daten angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Druck und Mail". Es öffnet sich hier der Dialog Rechnung der Sie bei der Erstellung der Rechnung unterstützt.
 
 Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
-Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
+Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob  zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
 ![](img/RechnungenDruckMailView1.png)
 
-Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob die Rechnungen als PDF gedruckt oder per Mail verschickt werden sollen.
 
@@ -28,11 +25,11 @@ Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
 
 Das drücken des Startknopf löst im Fall der Mail Ausgabe bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.
 
-## Rechnungen automatisch erstellen
+## Rechnungen automatisch drucken oder mailen
 
 Um automatisch Rechnungen zu erstellen wählen Sie im Navigations Baum dem Menü Eintrag "Rechnungen" aus. Es öffnet sich ebenfalls der Dialog Rechnungen.
 
-Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Sollbuchungen Dialog. Es werden dann Rechnungen für alle Sollbuchungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
+Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Rechnungen Dialog. Es werden dann Rechnungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
 
 ![](img/RechnungenDruckMailView2.png)
 
@@ -56,9 +53,3 @@ Es öffnet sich ein Dialog der den Speicherort und den Dateinamen der PDF Datei 
 ## Rechnungen per Mail versenden
 
 Rechnungen können per Mail versandt werden. Dazu muss die Mailkonfiguration abgeschlossen sein. Bei der Ausgabe wird zu Kontrollzwecken eine ZIP-Datei mit allen erstellten und versandten Rechnungen erstellt.
-
-## Rechnungsdaten exportieren
-
-Sollen die Rechnungsdaten exportiert werden, so drücken Sie im Dialog Rechnung den Schalter Export. Es öffnet sich ein Dialog der den Speicherort und den Dateinamen der CSV abfragt. Bestätigen Sie diesen Dialog, werden die Rechnungsdaten in diese Dateien exportiert und können danach z.B. für einen Serienbrief verwendet werden.
-
-Für die einzelnen Zahlungswege können Texte unter Administration->Einstellungen->Rechnungen hinterlegt werden.
