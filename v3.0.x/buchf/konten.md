@@ -22,10 +22,18 @@ Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 In JVerein werden verschiedene Kontoarten unterstützt:
 * Geldkonto
 * Anlagenkonto (ab JVerein 2.8.23)
-* Verbindlichkeitskonto (ab JVerein 2.9.0)
-* Rücklagenkonto nach § 62 Abs. 1 AO (ab JVerein 2.9.0)
-* Rücklagenkonto nach § 62 Abs. 3 und 4 AO (ab JVerein 2.9.0)
-* Konto für sonstige Rücklagen (ab JVerein 2.9.0)
+
+Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten:
+* Fremdkapital (Darlehen, Kredite etc.)
+* Zweckgebundene Rücklage nach § 62 Abs. 1 Nr. 1 AO
+* Betriebsmittelrücklage nach § 62 Abs. 1 Nr. 1 AO
+* Investitionsrücklage nach § 62 Abs. 1 Nr. 1 AO
+* Instandhaltungsrücklage nach § 62 Abs. 1 Nr. 1 AO
+* Wiederbeschaffungsrücklage nach § 62 Abs. 1 Nr. 2 AO
+* Freie Rücklage nach § 62 Abs. 1 Nr. 3 AO
+* Rücklage für Gesellschaftsrechte nach § 62 Abs. 1 Nr. 4 AO
+* Vermögen nach § 62 Abs. 3 und 4 AO
+* Konto für sonstige Rücklagen
 
 Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
 * Kontoart Anlagenkonto
@@ -36,13 +44,13 @@ Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
 PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
 
 
-## Geldkonto und Verbindlichkeitskonto
+## Geldkonto und Fremdkapital
 
 Geldkonten können echte Bankkonten, Sparkonten oder offline Konten wie z.B. Barkasse sein. 
 
-Verbindlichkeitskonten sind Darlehen, Kredite oder sonstige Verbindlichkeiten. 
+Fremdkapital sind Darlehen, Kredite etc. 
 
-Eine Unterscheidung von Geldkonten und Verbindlichkeitskonten ist nur nötig wenn das Feature [Mittelverwendung](mittelverwendung.md) benutzt werden soll.
+Eine Unterscheidung von Geldkonten und Fremdkapital ist nur nötig wenn das Feature [Mittelverwendung](mittelverwendung.md) benutzt werden soll.
 
 ![](img/GeldkontoView.png)
 
@@ -56,6 +64,7 @@ Folgende Daten können eingegeben werden:
 * Auflösungsdatum
 * Hibiscus-Konto: Zugeordnetes Konto in Hibiscus bei Online Konten
 * Gegenbuchung\(GB\)-Buchungsart: Hier lässt sich eine Buchungsart einstellen. Falls beim Erzeugen einer Gegenbuchung, die selektierte Buchung, die hier konfigurierte Buchungsart besitzt, wird das Konto automatisch in der Gegenbuchung eingetragen
+* Buchungsklasse: Dieses Feld ist für diese Konten nicht relevant
 * Kommentar: Optionale Angaben zum Konto
 
 Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
@@ -110,11 +119,12 @@ PS: Nach Speichern des ersten Anlagenkontos muss JVerein neu gestartet werden. E
 * Eröffnungsdatum
 * Auflösungsdatum: Die Anlage bleibt solange im Anlagenverzeichnis bis es aufgelöst wird, auch wenn die Abschreibungsdauer bereits abgelaufen ist
 * Hibiscus-Konto: Bei Anlagenkonten nicht relevant
-* Gegenbuchung(GB)-Buchungsart: Hier lässt sich eine Buchungsart einstellen. Falls beim Erzeugen einer Gegenbuchung, die selektierte Buchung, die hier konfigurierte Buchungsart besitzt, wird das Konto automatisch in der Gegenbuchung eingetragen. 
+* Gegenbuchung(GB)-Buchungsart: Hier lässt sich eine Buchungsart einstellen. Falls beim Erzeugen einer Gegenbuchung, die selektierte Buchung, die hier konfigurierte Buchungsart besitzt, wird das Konto automatisch in der Gegenbuchung eingetragen
+* Buchungsklasse: Anlagen müssen im Anlagenverzeichnis nach steuerlichen Sphären gruppiert sein um die Zuordnung zu erkennen. Dies ist auch für die korrekte Erstellung der Mittelverwendungsrechnung notwendig. Wird eine Anlage gemischt in verschiedenen Sphären verwendet muss sie entsprechend der Nutzung aufgeteilt werden
 * Kommentar: Optionale Angaben zum Konto z.B. Rechnungsnummer, Verkäufer etc.
 
 Folgende Anlagen spezifische Daten können eingegeben werden:
-* Anlagen Buchungsklasse: Anlagen müssen im Anlagenverzeichnis nach steuerlichen Sphären gruppiert sein um die Zuordnung zu erkennen. Dies ist auch für die korrekte Erstellung der Mittelverwendungsrechnung notwendig. Wird eine Anlage gemischt in verschiedenen Sphären verwendet muss sie entsprechend der Nutzung aufgeteilt werden
+
 *  Anlagen Buchungsart: Buchungsart der Anlage. Diese ergibt sich aus dem Kontenplan. Auch die Anlagenbuchungen sollten diese Buchungsart haben. Sie muss als Umbuchung gekennzeichnet sein
 *  AfA Buchungsart: Die Buchungsart die für die zugehörigen Abschreibungen verwendet werden soll z.B. "AfA linear" oder "Keine AfA" für Grundstücke. In der Buchungsart muss der Schalter AfA gesetzt sein
 *  Anlagenwert: Wert der Anlage
@@ -122,7 +132,7 @@ Folgende Anlagen spezifische Daten können eingegeben werden:
 *  Nutzungsdauer: Dauer der AfA. Wert Wert ist 0 bei sofortiger Abschreibung und sonst die Dauer der Abschreibung
 *  Anlagen Restwert: Restwert der Anlage der nach der Abschreibungsdauer übrig bleiben soll z.B. wenn die Anlage auch nach der Abschreibung weiter benutzt werden soll. Der Default Wert kann in den Einstellungen gesetzt werden. In JVerein kann auch eine Anlage mit Restwert 0 im Anlagenverzeichnis geführt werden. Ein Anlagenkonto bleibt solange im Anlagenverzeichnis bis es aufgelöst wird
 *  AfA Mode: Modus für die Behandlung der Abschreibung (siehe weiter unten)
-*  Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert wurde.
+*  Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert wurde. Hier wird konfiguriert, ob die Anlage nutzungsgebunden ist oder zweckfremd
 
 ## Einstellungen
 

@@ -36,7 +36,7 @@ Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
 
 ### Parameter
 
-#### Abrechnungsmodus <a id="abrechnungsmodus"></a>
+#### Modus <a id="abrechnungsmodus"></a>
 
 **Keine Beitragsabrechnung**
 
@@ -58,9 +58,11 @@ Hinweis: Das Eintrittsdatum wird beim Import von Mitgliedern nicht gesetzt.
 
 Es werden nur Mitglieder abgerechnet, die sich schon abgemeldet haben.
 
-#### Fälligkeit SEPA
+#### Fälligkeit
 
 Die Fälligkeit von Lastschriften muss mindestens einen Bankarbeitstag nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
+
+Falls es bei der Abrechnung keine Lastschriften gibt, kann das Datum auch in der Vergangenheit liegen.
 
 #### Stichtag
 
@@ -80,17 +82,37 @@ Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) ab
 
 Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) an.
 
-#### Kompakte Abbuchung
-
-Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Abbuchung zusammengefasst.
-
 #### Sollbuchung(en) zusammenfassen
 
 Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Sollbuchung zusammengefasst.
 
+#### Kompakte Abbuchung(en)
+
+Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Abbuchung zusammengefasst.
+
+#### SEPA-Check temporär deaktivieren
+
+Bei einem Abrechnungslauf werden die Lastschrift Bedingungen geprüft. Es muss ein Lastschriftmandat vorhanden sein und falls das Mandat älter als 3 Jahre ist müssen in den letzten drei Jahren Lastschriften durchgeführt worden sein. JVerein prüft hierzu ob entsprechende Lastschriften in JVerein existieren. Wurden diese aber gelöscht oder ist man von einem anderen Tool nach JVerein gewechselt, dann gibt es hier noch keine Lastschriften, obwohl welche durchgeführt wurden. Mit der Option "SEPA-Check temporär deaktivieren" kann der Check dann temporär ausgeschaltet werden.
+
+#### Lastschrift-PDF erstellen
+
+Optional können die SEPA-Daten der Lastschriften in ein PDF-Dokument zum Ausdruck ausgegeben werden.
+
 #### Rechnun(en) erstellen
 
 Hier kann ausgewählt werden ob mit dem Abrechnungslauf auch gleich Rechnungen für die generierten Sollbuchungen erzeugt werden sollen. 
+
+#### Abbuchungsausgabe
+
+Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
+
+Die IBAN in den Stammdaten \(siehe [Einstellungen](../administration/einstellungen/allgemein.md)\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
+
+Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
+
+#### Rechnung(en) erstellen
+
+Hier lässt sich auswählen ob für die generierten Sollbuchung aus gleich Rechnungen generiert werden sollen.
 
 #### Rechnung Formular
 
@@ -100,17 +122,9 @@ Formular für Rechnungen falls welche erstellt werden sollen. Gegebenenfalls ist
 
 Text der aus der Rechnung und den zugehörigen Sollbuchungen als Zweck verwendet werden soll.
 
-#### SEPA-Datei drucken
+#### Rechnung Datum
 
-Optional können die SEPA-Daten der Lastschriften in ein PDF-Dokument zum Ausdruck ausgegeben werden.
-
-#### Abbuchungsausgabe
-
-Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
-
-Die IBAN in den Stammdaten \(siehe [Einstellungen](../administration/einstellungen/allgemein.md)\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
-
-Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
+Das Rechnungsdatum.
 
 ### Weitere Informationen
 

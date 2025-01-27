@@ -14,18 +14,24 @@ Es gibt keine feste Vorgabe wie ein Mittelverwendung Nachweis auszuschauen hat. 
 
 Aus dem Report kann man z.B. sehen ob die zu verwendenden Mittel (abzüglich Entnahmen aus Rücklagen) des Geschäftsjahres kleiner sind als die im Geschäftsjahr verwendeten Mittel. Falls ja wurde alles in diesem Jahr ausgegeben und die zeitnahe Mittelverwendung wäre erfüllt. Wird nicht alles ausgegeben muss es im folge Jahr passieren.
 
-### Anzeige
+Der Mittelverwendungsreport lässt sich über den entsprechenden Menüeintrag in der Navigation öffnen.
 
-Der Mittelverwendung Report lässt sich über den entsprechenden Menüeintrag in der Navigation öffnen.
+Es werden zwei Versionen der Reports angeboten.
 
-Der Report listet folgende Informationen auf:
+### Mittelverwendungsreport (Zufluss-basiert)
+
+Dieser Report listet folgende Informationen auf:
 * Verwendungsrückstand/-überhang am Ende des letzten Geschäftsjahres: Dies ist der Bestand der Geldkonten und zweckfremden Anlagenkonten abzüglich des Bestandes der Rücklagen und des Vermögens
-* Insgesamt im Geschäftsjahr zugeflossene Mittel
+* Ein in Position 1 enthaltener Rest des Verwendungsrückstand aus dem vorletzten Geschäftsjahr
+* Eine in Position 1 enthaltene zwanghafte satzungsgemäße Weitergabe von Mitteln
+* Insgesamt im aktuellen Geschäftsjahr zugeflossene Mittel
 * Zu verwendende Mittel. Dies ist die Summe der beiden vorhergehenden Posten. Diese Summe muss im aktuellen und folgenden Geschäftsjahr ausgegeben werden
-* Im Geschäftsjahr zugeflossene Mittel
+* Im aktuellen Geschäftsjahr verwendete Mittel
 * Zugeführte Rücklagen (nach Rücklagenart getrennt) als Mittelabfluss
 * Entnommene Rücklagen (nach Rücklagenart getrennt) als Mittelzufluss
 * Verwendungsrückstand/-überhang zum aktuellen Zeitpunkt. Für das Finanzamt ist dieser Report zum Ende des aktuellen Geschäftsjahres zu erstellen
+* Ein der letzten Position enthaltener nicht verbrauchter Verwendungsrückstand aus dem letzten Geschäftsjahr
+* Eine der letzten Position enthaltene zwanghafte satzungsgemäße Weitergabe von Mitteln aus dem aktuellen Geschäftsjahr
 
 PS: Die Endsummen werden aus den getätigten Buchungen berechnet. Sie sollten mit den Anfangsbeständen der Konten des nächsten Geschäftsjahres überein stimmen. Ist das nicht der Fall, dann sind einige Buchungen nicht richtig verbucht worden z.B. wegen fehlender Buchungsart.
 
@@ -33,7 +39,29 @@ Ist in Administration->Einstellungen->Buchführung die Checkbox "Listen: Buchung
 
 Die Zeilen in der Mittelverwendung sind nummeriert damit man bei einem evtl. Begleitschreiben an das Finanzamt auf die Zeilen Bezug nehmen kann.
 
-![](img/MittelverwendungListeView.png)
+![](img/MittelverwendungFlowView.png)
+
+Der Report kann über die Buttons CSV und PDF ausgegeben werden.
+
+Da es sich bei dieser Art der Berechnung um eine fortlaufende Berechnung handelt müssen die beiden letzten Positionen in der Liste persistent gespeichert werden. Dazu werden sie beim Jahresabschluss berechnet und gespeichert.
+
+Da JVerein 3.0.0 neu mit dem Feature beginnt muss der Startwert dieser Daten eingegeben werden. Evtl. möchte man das auch nachträglich für frühere Jahre machen. Man kann jetzt alte Jahresabschlüsse öffnen aber nicht editieren. Ist aber Mittelverwendung aktiv und es sind die Werte in der Datenbank nicht gesetzt, dann kann man die beiden Werte eingeben und auch speichern. Sind sie gesetzt kann man sie nicht editieren.
+
+Will man bei einem früheren Jahr starten z.B. 2020, dann öffnet man den Jahresabschluss von 2019 und gibt die zwei Werte ein und speichert den Jahresabschluss. Dann öffnet man den Jahresabschluss von 2020, hier werden die Werte berechnet und angezeigt. Man muss nur noch diese speichern. Das gleiche dann für 2021, 2022, 2023 und 2024.
+
+### Mittelverwendungsreport (Saldo-basiert)
+
+Dieser Report berechnet den Verwendungsrückstand/-überhang auf eine andere Art. Das Ergebnis sollte aber das gleiche sein.
+
+In diesem Report wird erst alles vorhandene Vermögen, also Anlagen, Geldkonten und Fremdkapital aufgelistet und das Gesamtvermögen bestimmt.
+
+Davon abgezogen werden vorhandenes nutzungsgebundenes Anlagenvermögen und Fremdkapital.
+
+Dann erfolgt die Verrechnung der Zu- und Abgänge bei Rücklagen und Vermögen. Dieses ist nach der Buchungsklasse der Rücklagen- und Vermögenskonten gegliedert. Hierzu ist diesen Konten eine Buchungsklasse zuzuweisen.
+
+Nach Abzug der verwendeten Mittel vom Gesamtvermögen ergibt sich der neue Verwendungsrückstand/-überhang.
+
+![](img/MittelverwendungSaldoView.png)
 
 Der Report kann über die Buttons CSV und PDF ausgegeben werden.
 
@@ -141,6 +169,9 @@ Geldspenden sind Mittelzufluss und unterliegen damit grundsätzlich der zeitnahe
 
 Eine Sachspende gilt nicht als Mittelzufluss sondern ist grundsätzlich eine Zuführung zum Vermögen (§ 62 Abs. 4 AO). Es wird wie folgt gebucht:
 * Es wird ein Anlagenkonto für die gespendete Sache angelegt und der Wert der Anlage als Buchung mit einer Buchungsart "Einnahme" verbucht
+* Als Anlagenzweck ist zweckfremde Anlage zu wählen
 * Die Spende wird zusätzlich auf einem Konto der Kontoart "Vermögen nach § 62 Abs. 3 und 4 AO" als Einnahme verbucht
 * Sollte noch kein Konto der Kontoart "Vermögen nach § 62 Abs. 3 und 4 AO"  existieren, dann muss es neu angelegt werden
+
+Wird die Sachspende vom Spender ausdrücklich für satzungsgemäße Zwecke gespendet, dann kann sie auch als nutzungsgebundene Anlage verbucht werden. In diesem Fall darf der Wert nicht in ein Vermögenskonto eingetragen werden.
 
