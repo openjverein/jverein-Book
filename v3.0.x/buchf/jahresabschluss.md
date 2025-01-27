@@ -28,3 +28,8 @@ Tipp: Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit w
 
 Ist in den [Einstellungen](../administration/einstellungen/anzeige.md) der Ort der Abschreibung auf "Checkbox in Jahresabschluss" konfiguriert, wird hier auch die Checkbox "Erzeuge Abschreibungen" sichtbar. Ist sie gewählt, werden automatisch die AfA Abschreibungen generiert.
 
+Die Felder:
+* Rest Verwendungsrückstand Vorjahr
+* Zwanghafte satzungsgemäße Weitergabe von Mitteln
+werden nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert ist.
+

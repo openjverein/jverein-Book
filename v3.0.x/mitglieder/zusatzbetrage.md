@@ -34,6 +34,12 @@ Der Übersicht View für Zusatzbeträge zeigt alle vorhandenen Zusatzbeträge an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
+Der Ausführungstag bietet folgende Optionen:
+* Alle: Es werden alle vorhandenen Zusatzbeträge angezeigt
+* Aktive: Es werden alle Zusatzbeträge angezeigt die noch in Abrechnungen berücksichtigt werden. Also keine einmaligen Zusatzbeträge mehr die schon ausgeführt wurden oder bei periodischen, keine mehr, bei denen die nächste Fälligleit zum oder nach dem Endedatum liegt. Ob ein Zusatzbetrag beim einem Abrechnungslauf zum aktuellen Datum abgerechnet würde hängt von seiner nächsten Fälligkeit ab
+* Noch nicht ausgeführt: Einmalige Zusatzbeträge die noch nicht ausgeführt wurden
+* Liste mit Datum: Die Liste enthält Datum Einträge von kürzlich ausgeführten Abrechnungen
+
 ![](img/ZusatzBetraegeListeView.png)
 
 Folgende Buttons stehen zu Verfügung:
@@ -57,7 +63,7 @@ Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
 ![](img/ZusatzBetragView.png)
 
-PS: Ab JVerein 2.9.0 lässt sich für den Zusatzbetrag ein von der Konfiguration beim Mitglied (Standard) abweichender Zahlungsweg konfigurieren.
+PS: Ab JVerein 3.0.0 lässt sich für den Zusatzbetrag ein von der Konfiguration beim Mitglied (Standard) abweichender Zahlungsweg konfigurieren.
 
 ## Abrechnung
 
