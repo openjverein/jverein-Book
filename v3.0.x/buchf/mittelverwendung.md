@@ -8,15 +8,13 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Mittelv
 
 ### Allgemeines
 
-Gemeinnützige Vereine müssen ihre Einnahmen (Finanzen und Sachen) im aktuellen und den zwei folgenden Jahren verwenden muss (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen. Sie dürfen aber Rücklagen und Vermögen bilden. Diese sind der zeitnahen Verwendung entzogen.
+Gemeinnützige Vereine müssen ihre Einnahmen (Finanzen und Sachen) im aktuellen und den zwei folgenden Jahren verwenden (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen. Sie dürfen aber Rücklagen und Vermögen bilden. Diese sind der zeitnahen Verwendung entzogen.
 
-Es gibt keine feste Vorgabe wie ein Mittelverwendung Nachweis auszuschauen hat. JVerein zeigt einen Report der den Mittel Zufluss und Abfluss und die zeitnah zu verwendenden Mittel bzw. verwendeten Mittel eines Jahres zeigt.
+Es gibt keine feste Vorgabe wie ein Mittelverwendung Nachweis auszuschauen hat. JVerein bietet zwei verschiedene Reports an:
+* Zufluss-basiert: Dieser Report listet den Verwendungsrückstand/-überhang und den Mittel Zufluss und Abfluss eines Geschäftsjahres. Dies ist ein fortgeschriebener Report, da er zugeflossene Mittel über zwei Jahre verfolgt. In diesem Zeitraum sind zugeflossene Mittel auszugeben
+* Saldo-Basiert: Dieser Report berechnet den Verwendungsrückstand/-überhang anhand der Kontensalden. Dies geschieht in Anlehnung an das Muster von Buchna. (Johannes Buchna (verst. 2013) war in der Oberfinanzdirektion Nordrhein-Westfalen tätig und war seit 1988 (Mit-)Autor des Werks „Gemeinnützigkeit im Steuerrecht“, in dem die Vorlage für eine Mittelverwendungsrechnung veröffentlich ist.)
 
-Aus dem Report kann man z.B. sehen ob die zu verwendenden Mittel (abzüglich Entnahmen aus Rücklagen) des Geschäftsjahres kleiner sind als die im Geschäftsjahr verwendeten Mittel. Falls ja wurde alles in diesem Jahr ausgegeben und die zeitnahe Mittelverwendung wäre erfüllt. Wird nicht alles ausgegeben muss es im folge Jahr passieren.
-
-Der Mittelverwendungsreport lässt sich über den entsprechenden Menüeintrag in der Navigation öffnen.
-
-Es werden zwei Versionen der Reports angeboten.
+Der Mittelverwendung lässt sich über den entsprechenden Menüeintrag in der Navigation öffnen.
 
 ### Mittelverwendungsreport (Zufluss-basiert)
 
@@ -25,13 +23,13 @@ Dieser Report listet folgende Informationen auf:
 * Ein in Position 1 enthaltener Rest des Verwendungsrückstand aus dem vorletzten Geschäftsjahr
 * Eine in Position 1 enthaltene zwanghafte satzungsgemäße Weitergabe von Mitteln
 * Insgesamt im aktuellen Geschäftsjahr zugeflossene Mittel
-* Zu verwendende Mittel. Dies ist die Summe der beiden vorhergehenden Posten. Diese Summe muss im aktuellen und folgenden Geschäftsjahr ausgegeben werden
+* Zu verwendende Mittel. Dies ist die Summe der beiden Positionen 1 und 4. Diese Summe muss im aktuellen und folgenden Geschäftsjahr ausgegeben werden
 * Im aktuellen Geschäftsjahr verwendete Mittel
 * Zugeführte Rücklagen (nach Rücklagenart getrennt) als Mittelabfluss
 * Entnommene Rücklagen (nach Rücklagenart getrennt) als Mittelzufluss
 * Verwendungsrückstand/-überhang zum aktuellen Zeitpunkt. Für das Finanzamt ist dieser Report zum Ende des aktuellen Geschäftsjahres zu erstellen
-* Ein der letzten Position enthaltener nicht verbrauchter Verwendungsrückstand aus dem letzten Geschäftsjahr
-* Eine der letzten Position enthaltene zwanghafte satzungsgemäße Weitergabe von Mitteln aus dem aktuellen Geschäftsjahr
+* Ein in der letzten Position enthaltener nicht verbrauchter Verwendungsrückstand aus dem letzten Geschäftsjahr
+* Eine in der letzten Position enthaltene zwanghafte satzungsgemäße Weitergabe von Mitteln aus dem aktuellen Geschäftsjahr
 
 PS: Die Endsummen werden aus den getätigten Buchungen berechnet. Sie sollten mit den Anfangsbeständen der Konten des nächsten Geschäftsjahres überein stimmen. Ist das nicht der Fall, dann sind einige Buchungen nicht richtig verbucht worden z.B. wegen fehlender Buchungsart.
 
@@ -63,23 +61,29 @@ Nach Abzug der verwendeten Mittel vom Gesamtvermögen ergibt sich der neue Verwe
 
 ![](img/MittelverwendungSaldoView.png)
 
+Ist in Administration->Einstellungen->Buchführung die Checkbox "Listen: Buchungsarten ohne Buchung unterdrücken" ausgewählt werden Rücklagenarten ohne Saldo im Report nicht angezeigt.
+
+Ist in Administration->Einstellungen->Anzeige die Checkbox "Summen Anlagenkonto in Kontosaldo" ausgewählt werden die einzelnen Anlagenkonten nicht aufgelistet, sondern nur die Gesamtsumme über alle Anlagenkonten.
+
+Dieser Report enthält eine Spalte Kommentar. Hier wird die erste Zeile aus dem Kommentarfeld des Kontos ausgegeben. Damit kann man steuerrelevante Information ausgeben. Z.B. kann man ausgeben ob die Anlage nutzungsgebunden ist oder zweckfremd eingesetzt wird.
+
 Der Report kann über die Buttons CSV und PDF ausgegeben werden.
 
 ### Annahmen
 
-Für eine korrekte Berechnung der Daten des Reports sind folgende Annahmen getroffen:
+Für eine korrekte Berechnung der Daten der Reports sind folgende Annahmen getroffen:
 * Alle Konten auf denen vorhandene Mittel (Geld) verwaltet ist, ist die Kontoart Geldkonto zugewiesen
-* Konten für Schulden wie z.B. Darlehen, Kredite etc. sind als Verbindlichkeitskonto gekennzeichnet
+* Konten für Schulden wie z.B. Darlehen, Kredite etc. sind als Fremdkapital gekennzeichnet
 * Anlagenkonten ist der korrekte Anlagenzweck zugeordnet (entweder als nutzungsgebundene Anlage oder zweckfremde Anlage)
 * Rücklagen sind auf Rücklagenkonten verbucht
 * Buchungen muss die korrekte Buchungsart mit korrekter Klassifikation als Einnahme, Ausgabe oder Umbuchung zugewiesen sein
 
 Einnahmen und Ausgaben werden wie folgt berechnet:
-* Zu den Einnahmen zählen alle Buchungen der Art Einnahme die auf Geldkonten oder allen Anlagenkonten (Sachspenden) eingehen
+* Zu den Einnahmen zählen alle Buchungen der Art Einnahme die auf Geldkonten oder zweckfremden Anlagenkonten (Sachspenden) eingehen
 * Zu den Ausgaben zählen alle Buchungen der Art Ausgabe die von Geldkonten oder zweckfremden Anlagen abgehen
 * Umbuchungen innerhalb Geldkonten, innerhalb zweckfremden Anlagen und zwischen beiden gelten als Umschichtung und sind damit keine Mittelzuflüsse und Abflüsse
-* Umbuchungen zu Verbindlichkeitskonten (Darlehensauszahlung, Tilgung) und nutzungsgebundenen Anlagenkonten (Anschaffung einer Anlage) werden berücksichtigt. Dazu werden positive Umbuchungen auf diesen Konten als Mittelabfluss und negative Umbuchungen als Mittelzufluss betrachtet. Es wird davon ausgegangen, dass alle Umbuchungen auf diesen Konten von Geldkonten kommen
-* Es darf also keine Umbuchungen innerhalb Verbindlichkeitskonten und nutzungsgebundenen Anlagenkonten geben
+* Umbuchungen zu Fremdkapital Konten (Darlehensauszahlung, Tilgung) und nutzungsgebundenen Anlagenkonten (Anschaffung einer Anlage) werden berücksichtigt. Dazu werden positive Umbuchungen auf diesen Konten als Mittelabfluss und negative Umbuchungen als Mittelzufluss betrachtet. Es wird davon ausgegangen, dass alle Umbuchungen auf diesen Konten von Geldkonten kommen
+* Es darf also keine Umbuchungen innerhalb Fremdkapital Konten und nutzungsgebundenen Anlagenkonten geben
 
 Hinweise:
 
@@ -93,13 +97,13 @@ Es ist darauf zu achten, dass die Gegenbuchung die Buchungsart Einnahme hat. Hä
 
 Die Aufnahme eines Darlehens oder Kredit wird als Mittelzufluss betrachtet. Diese Gelder unterliegen der zeitnahen Mittelverwendung. Sie sind wie folgt zu buchen:
 * Auf dem Geldkonto (Kontoart Geldkonto) wird die Darlehenssumme (positiv) mit einer Buchungsart "Umbuchung" gebucht
-* Auf dem Darlehenskonto (Kontoart Verbindlichkeitskonto) wird die Darlehenssumme (negativ) mit einer Buchungsart "Umbuchung" gebucht
+* Auf dem Darlehenskonto (Kontoart Fremdkapital) wird die Darlehenssumme (negativ) mit einer Buchungsart "Umbuchung" gebucht
 
 ### Tilgung von Darlehen, Kredite etc.
 
 Die Tilgung eines Darlehens oder Kredit wird als Mittelabfluss betrachtet. Sie sind wie folgt zu buchen:
 * Auf dem Geldkonto (Kontoart Geldkonto) wird der Tilgungsbetrag (negativ) mit einer Buchungsart "Umbuchung" gebucht
-* Auf dem Darlehenskonto (Kontoart Verbindlichkeitskonto) wird der Tilgungsbetrag (positiv) mit einer Buchungsart "Umbuchung" gebucht
+* Auf dem Darlehenskonto (Kontoart Fremdkapital) wird der Tilgungsbetrag (positiv) mit einer Buchungsart "Umbuchung" gebucht
 
 ### Ein Mitglied spendet ein gegebenes Darlehen oder Kredit
 
@@ -126,7 +130,7 @@ Abschreibungen werden auf dem Anlagenkonto als Ausgabe gebucht. Sie fliesen nich
 
 ### Anschaffung einer zweckfremden Anlage
 
-Anschaffungen die nicht dem Zweck des Vereins dienen aber zur Mittelbeschaffung dienen, also Anschaffungen in der Vermögensverwaltung oder im wirtschaftlichen Geschäftsbetrieb, werden nicht als Mittelabfluss bewertet. Diese unterliegen also der zeitnahen Mittelverwendung. Diese Konten werden also wie Geldkonten behandelt. 
+Anschaffungen die nicht dem Zweck des Vereins dienen aber zur Mittelbeschaffung dienen, also Anschaffungen in der Vermögensverwaltung oder im wirtschaftlichen Geschäftsbetrieb, werden nicht als Mittelabfluss bewertet. Diese unterliegen also der zeitnahen Mittelverwendung. Diese Konten werden wie Geldkonten behandelt. 
 
 Diese Anlagen dürfen nur aus vorhandenen freien Rücklagen oder aus dem Vermögen finanziert werden. Es müssen also freie Rücklagen oder Vermögen in dieser Höhe vorhanden sein. Die Buchung erfolgt so:
 * Es wird ein Anlagenkonto mit dem Anlagenzweck "Zweckfremde Anlage" angelegt
@@ -148,11 +152,11 @@ Es gibt jetzt wohl zwei Ansätze:
 
 Weg 1:
 * Da die Anlage aus freier Rücklage oder Vermögen finanziert wurde reduziert sich das Vermögen. Darum reduziert man auch die freie Rücklage bzw. das Vermögen durch eine gleich hohe Ausgabenbuchung
-* Bei Verkauf kann man dann vermutlich die Differenz aus Buchwert und Verkaufserlös wieder gutschreiben
+* Bei Verkauf kann man dann vermutlich die Differenz aus Buchwert und Verkaufserlös wieder dem Vermögen gutschreiben
 
 Weg 2:
 * Die freie Rücklage oder das Vermögen wird nicht reduziert
-* Bei Verkauf kann man dann vermutlich dann nur die Differenz aus Anschaffungskosten und Verkaufserlös wieder gutschreiben
+* Bei Verkauf kann man dann vermutlich dann nur die Differenz aus Anschaffungskosten und Verkaufserlös wieder dem Vermögen gutschreiben
 
 Der Weg 2 führt zu einem Mittelverwendungsüberhang weil die vorhandenen Mittel reduziert wurden aber nicht die Rücklagen bzw. das Vermögen.
 

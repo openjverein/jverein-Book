@@ -6,9 +6,9 @@ Zur Nutzung der Rechnungen ist keine extra Aktivierung notwendig.
 
 ### Allgemeines
 
-In Version 2.9.0 von JVerein wurde das Konzept für Rechnungen komplett überarbeitet.
+In Version 3.0.0 von JVerein wurde das Konzept für Rechnungen komplett überarbeitet.
 
-Rechnungen werden jetzt nicht mehr beim Drucken generiert sondern werden wie Spendenbescheinigungen in der Datenbank gespeichert. Eine Rechnung ist dabei genau einer Sollbuchung zugeordnet. Um dennoch mehrere Forderungen wie z.B. Beiträge und Zusatzbeträge zu einer Rechnung zusammen fassen zu können wurde das Konzept der Sollbuchungspositionen eingeführt.
+Rechnungen werden jetzt nicht mehr beim Drucken generiert, sondern werden wie Spendenbescheinigungen in der Datenbank gespeichert. Eine Rechnung ist dabei genau einer Sollbuchung zugeordnet. Um dennoch mehrere Forderungen wie z.B. Beiträge und Zusatzbeträge zu einer Rechnung zusammen fassen zu können wurde das Konzept der Sollbuchungspositionen eingeführt.
 
 In einem Abrechnungslauf lassen sich jetzt Beiträge und Zusatzbeträge nicht nur für Lastschriften sondern auch für Sollbuchungen zusammen fassen. Die einzelnen Beiträge und Zusatzbeträge bilden dabei die Sollbuchungspositionen, wobei Positionen mit gleicher Buchungsart zu einer Position zusammen gefasst werden.
 
@@ -40,7 +40,7 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 
 ## Rechnung
 
-Mit einem Klick auf Anzeigen wird die Rechnung angezeigt.
+Mit einem Doppelklick auf die Rechnung oder Klick auf Anzeigen wird die Rechnung angezeigt.
 
 ![](img/RechnungView.png)
 
