@@ -57,7 +57,7 @@ Eine Unterscheidung von Geldkonten und Fremdkapital ist nur nötig wenn das Feat
 Im Konto View können die Daten der Kontos editiert werden.
 
 Folgende Daten können eingegeben werden:
-* Kontoart: Geldkonto oder Verbindlichkeitskonto
+* Kontoart: Geldkonto oder Fremdkapital
 * Nummer
 * Bezeichnung
 * Eröffnungsdatum
@@ -71,7 +71,7 @@ Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
 
 ## Rücklagenkonten
 
-Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen. Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
+Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen, siehe  [Mittelverwendung](mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
 
 Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
 * Zweckgebundene Rücklage nach § 62 Abs. 1 Nr. 1 AO
@@ -99,7 +99,7 @@ Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden a
 
 ## Anlagenkonten
 
-Anlagenkonten sind dazu gedacht Abschreibungen durchzuführen und ein Anlagenverzeichnis nach steuerlichen Gesichtspunkten zu erstellen.
+Anlagenkonten sind dazu gedacht Abschreibungen durchzuführen und ein Anlagenverzeichnis nach steuerlichen Gesichtspunkten zu erstellen siehe  [Anlagenverzeichnis](anlagenverzeichnis.md).
 
 Hierbei wird nach folgenden Anlagen unterschieden:
 * Wirtschaftsgüter mit einem Anschaffungswert von unter 250€ (Netto). Diese werden als Ausgabe gebucht und **nicht** als Anlagenkonto geführt
@@ -132,7 +132,7 @@ Folgende Anlagen spezifische Daten können eingegeben werden:
 *  Nutzungsdauer: Dauer der AfA. Wert Wert ist 0 bei sofortiger Abschreibung und sonst die Dauer der Abschreibung
 *  Anlagen Restwert: Restwert der Anlage der nach der Abschreibungsdauer übrig bleiben soll z.B. wenn die Anlage auch nach der Abschreibung weiter benutzt werden soll. Der Default Wert kann in den Einstellungen gesetzt werden. In JVerein kann auch eine Anlage mit Restwert 0 im Anlagenverzeichnis geführt werden. Ein Anlagenkonto bleibt solange im Anlagenverzeichnis bis es aufgelöst wird
 *  AfA Mode: Modus für die Behandlung der Abschreibung (siehe weiter unten)
-*  Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert wurde. Hier wird konfiguriert, ob die Anlage nutzungsgebunden ist oder zweckfremd
+*  Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert wurde. Hier wird konfiguriert, ob die Anlage nutzungsgebunden ist oder zweckfremd verwendet wird
 
 ## Einstellungen
 

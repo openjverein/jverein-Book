@@ -88,11 +88,13 @@ Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine
 
 #### Kompakte Abbuchung(en)
 
-Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Abbuchung zusammengefasst.
+Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Lastschrift zusammengefasst.
 
 #### SEPA-Check temporär deaktivieren
 
-Bei einem Abrechnungslauf werden die Lastschrift Bedingungen geprüft. Es muss ein Lastschriftmandat vorhanden sein und falls das Mandat älter als 3 Jahre ist müssen in den letzten drei Jahren Lastschriften durchgeführt worden sein. JVerein prüft hierzu ob entsprechende Lastschriften in JVerein existieren. Wurden diese aber gelöscht oder ist man von einem anderen Tool nach JVerein gewechselt, dann gibt es hier noch keine Lastschriften, obwohl welche durchgeführt wurden. Mit der Option "SEPA-Check temporär deaktivieren" kann der Check dann temporär ausgeschaltet werden.
+Bei einem Abrechnungslauf werden die Lastschrift Bedingungen geprüft. Es muss ein Lastschriftmandat vorhanden sein und falls das Mandat älter als 3 Jahre ist, müssen in den letzten drei Jahren Lastschriften durchgeführt worden sein. JVerein prüft hierzu ob entsprechende Lastschriften existieren.
+
+Wurden diese aber gelöscht oder ist man von einem anderen Tool nach JVerein gewechselt, dann gibt es hier noch keine Lastschriften, obwohl welche durchgeführt wurden. Mit der Option "SEPA-Check temporär deaktivieren" kann der Check dann temporär ausgeschaltet werden.
 
 #### Lastschrift-PDF erstellen
 
@@ -112,7 +114,7 @@ Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglie
 
 #### Rechnung(en) erstellen
 
-Hier lässt sich auswählen ob für die generierten Sollbuchung aus gleich Rechnungen generiert werden sollen.
+Hier lässt sich auswählen ob für die generierten Sollbuchungen auch gleich Rechnungen generiert werden sollen.
 
 #### Rechnung Formular
 
