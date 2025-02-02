@@ -47,6 +47,8 @@ Da JVerein 3.0.0 neu mit dem Feature beginnt muss der Startwert dieser Daten ein
 
 Will man bei einem früheren Jahr starten z.B. 2020, dann öffnet man den Jahresabschluss von 2019 und gibt die zwei Werte ein und speichert den Jahresabschluss. Dann öffnet man den Jahresabschluss von 2020, hier werden die Werte berechnet und angezeigt. Man muss nur noch diese speichern. Das gleiche dann für 2021, 2022, 2023 und 2024.
 
+Startet man ganz neu mit JVerein und möchte bereits im ersten verbuchten Jahr die Mittelverwendungsrechnung benutzen, dann müssen die Startwerte in einem Jahresabschluss des Vorjahres eingegeben werden. Öffnet man einen neuen Jahresabschluss wird aber das aktuelle Jahr angeboten, weil es das Startjahr ist. Über den grünen Pfeil Button kann man in diesem Fall ein Jahr zurückgehen und dann die Startwerte eintragen und speichern.
+
 ### Mittelverwendungsreport (Saldo-basiert)
 
 Dieser Report berechnet den Verwendungsrückstand/-überhang auf eine andere Art. Das Ergebnis sollte aber das gleiche sein.
