@@ -33,8 +33,10 @@ Ist in den [Einstellungen](../administration/einstellungen/anzeige.md) der Ort d
 **PS: Die AfA Buchungen sind in der angezeigten Tabelle noch nicht enthalten, da sie erst beim Speichern generiert werden.**
 
 Die Felder:
-* Rest Verwendungsrückstand Vorjahr
+* Rest Verwendungsrückstand aus dem Vorjahr
 * Zwanghafte satzungsgemäße Weitergabe von Mitteln
 
 werden nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert ist.
+
+Das gleiche gilt für den Pfeil Button links neben dem Speichern Button. Sie  [Mittelverwendung](mittelverwendung.md) für die Bedeutung dieses Buttons.
 

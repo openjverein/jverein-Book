@@ -36,9 +36,21 @@ Der Übersicht View für Zusatzbeträge zeigt alle vorhandenen Zusatzbeträge an
 
 Der Ausführungstag bietet folgende Optionen:
 * Alle: Es werden alle vorhandenen Zusatzbeträge angezeigt
-* Aktive: Es werden alle Zusatzbeträge angezeigt die noch in Abrechnungen berücksichtigt werden. Also keine einmaligen Zusatzbeträge mehr die schon ausgeführt wurden oder bei periodischen, keine mehr, bei denen die nächste Fälligleit zum oder nach dem Endedatum liegt. Ob ein Zusatzbetrag beim einem Abrechnungslauf zum aktuellen Datum abgerechnet würde hängt von seiner nächsten Fälligkeit ab
+* Aktive: Es werden alle Zusatzbeträge angezeigt die noch in Abrechnungen berücksichtigt werden. Also keine einmaligen Zusatzbeträge mehr die schon ausgeführt wurden oder bei periodischen, keine mehr, bei denen die nächste Fälligkeit zum oder nach dem Endedatum liegt. Ob ein Zusatzbetrag beim einem Abrechnungslauf zum aktuellen Datum abgerechnet würde hängt von seiner nächsten Fälligkeit ab
 * Noch nicht ausgeführt: Einmalige Zusatzbeträge die noch nicht ausgeführt wurden
 * Liste mit Datum: Die Liste enthält Datum Einträge von kürzlich ausgeführten Abrechnungen
+
+In der Tabelle werden folgende Spalten angezeigt:
+* Name: Name des Mitglieds
+* Erste Fälligkeit: Datum der ersten Fälligkeit des Zusatzbetrags
+* Nächste Fälligkeit: Datum der nächsten Fälligkeit. Wird ein Abrechnungslauf mit Fälligkeit zu diesem oder einen späteren Datum durchgeführt, so wird der Zusatzbetrag mit abgerechnet und dieses Feld um das Intervall des Zusatzbetrags erhöht.
+* Letzte abgerechnete Fälligkeit: Das Fälligkeitsdatum des letzten Abrechnungslaufes. Zu diesem Termin wurde das der nächsten Fälligkeit vorangegangene Intervall abgerechnet
+* Intervall für eine periodischen Zusatzbetrag
+* Nicht mehr ausführen ab: Der Termin ab dem der Zusatzbetrag nicht mehr abgerechnet wird. Der Zusatzbetrag wir nicht mehr abgerechnet wenn der Termin der nächsten Fälligkeit zu diesem Datum oder danach liegt
+* Buchungstext: Text der im Zweck der Sollbuchung erscheint
+* Betrag: Betrag der zu zahlen ist
+* Zahlungsweg: Zahlungsweg für die Buchung
+* Buchungsart: Buchungsart
 
 ![](img/ZusatzBetraegeListeView.png)
 
@@ -51,9 +63,9 @@ Durch einen Doppelklick wird die Bearbeitung eines Zusatzbetrag eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
-* Vorheriges Fälligkeitsdatum:  Vorheriges Fälligkeitsdatum setzen
-* Nächstes Fälligkeitsdatum:  Nächstes Fälligkeitsdatum setzen
-* Erneut ausführen:  Zusatzbeitrag erneut ausführen
+* Vorheriges Fälligkeitsdatum:  Vorheriges Fälligkeitsdatum bei periodischen Zusatzbetrag setzen
+* Nächstes Fälligkeitsdatum:  Nächstes Fälligkeitsdatum periodischen Zusatzbetrag setzen
+* Erneut ausführen:  Zusatzbeitrag für einen nicht periodischen Zusatzbetrag erneut ausführen
 * Löschen: Damit kann ein Zusatzbetrag gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
