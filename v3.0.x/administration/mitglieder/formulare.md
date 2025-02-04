@@ -135,92 +135,18 @@ Erzeugt ein neues Formularfeld für das aktuelle Formular.
 
 ## Verfügbare Formularfelder
 
+Als Formularfelder können alle Variablen verwendet werden. Siehe [Variablen](../../../sonstiges/variable.md)
 
-### Allgemeine Formularfelder
+## Vorlagen
 
-* zaehler: Eine fortlaufende natürliche Zahl die bei jeder Verwendung des Formulares um 1 hochgezählt wird (z.B. für Rechnungsnummern).
-  * Der Zähler hat eine Mindestlänge. Die Länge wird unter Administration > Einstellungen > Rechnungen > Zählerlänge festgelegt. Die Standard-Zählerlänge ist 5.
-  * Der Zähler wird mit Nullen (0) als Präfix aufgefüllt bis die Mindestlänge erreicht ist.
-  * Der Zähler wird als Spalte "Fortlaufende Nr." in der Formularübersicht ausgegeben.
-  * Der Zähler wird beim Anzeigen (Vorschau) von Formularen hochgezählt aber nicht gespeichert.
-  * Der Wert kann in der Detailansicht des Formulares überschrieben werden.
+Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter geladen und als Formular importiert werden.
 
-### Formularfelder für Spendenbescheinigungen
+[Einfache Standardrechnung](img/rechnung-standard.xml)
+![](img/rechnung-standard.png)
 
-* tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
-* spendenbescheinigung\_anrede: Zusammengesetzer Wert aus Zeile 1 und 2
-* spendenbescheinigung\_empfaenger: Zusammengesetzt aus den Empfängerzeilen der Spendenbescheinigung
-* spendenbescheinigung\_datum: Datum der Spendenbescheinigung. Dieses Datum wird verwendet, um zwischen den Formularen zu unterscheiden:
-  * Bis 31.12.2012 altes Formular
-  * Ab 01.01.2013 neues Formular
-* spendenbescheinigung\_betrag: Betrag aus der Spendenbescheinigung
-* spendenbescheinigung\_betraginworten: Betrag aus der Spendenbescheinigung in Worten.
-* spendenbescheinigung\_spendenart: Art aus der Spendenbescheinigung \(Geldspende, Sachspende\)
-* spendenbescheinigung\_spendedatum: Datum der Spende \(Einzelspendenbescheinigung\) oder Festtext: "s. Anlage" \(Sammelspendenbescheinigung\)
-* spendenbescheinigung\_spendenzeitraum: Zeitraum der Spenden \(Sammelspendenbescheinigung\) "&lt;Datum der ersten Buchung&gt; bis &lt;Datum der letzten Buchung&gt;". Hinweis: ab 2013 muss dieser Zeitraum auf der ersten Seite angegeben werden!
-* spendenbescheinigung\_ersatzaufwendungen: Kennzeichen, ob es sich auf einen "Verzicht auf Erstattung von Aufwendungen" handelt
-  * Bis 31.12.2012: "X", wenn das Häkchen gesetzt ist.
-  * Ab 01.01.2013: "Ja", wenn das Häkchen gesetzt ist, sonst "Nein".
-* spendenbescheinigung\_buchungsliste: Für Sammelbestätigungen die aufbereitete Liste der Buchungen, die bescheinigt werden.
-  * Bis 31.12.2012: alte Variante, Liste mit folgenden Spalten:
-    * Datum Betrag Verwendung
-    * Summenzeile
-    * Legende, ob es sich um einen Verzicht auf Erstattung von Aufwendungen handelt.
-  * Ab 01.01.2013: den Vorgaben entsprechende neue Liste:
-    * "Datum der Zuwendung" "Art der Zuwendung" "Verzicht auf die Erstattung..." Betrag
-    * Summenzeile
-    * In den Spalten "Verwendung" und "Art der Zuwendung" wird in Abhängigkeit von der Einstellungen "Spendenbescheinigung / Buchungsart drucken" entweder der Name der Buchungsart oder der Zweck aus der Buchung verwendet.
-* spendenbescheinigung\_bezeichnungsachzuwendung: Bezeichung des Gegenstandes aus der Spendenbescheinigung
-* spendenbescheinigung\_herkunftsachzuwendung:
-  * Bis 31.12.2012: Herkunft des Gegenstandes aus der Spendenbescheinigung \(keine Angaben, Privatvermögen, Betriebsvermögen\)
-  * Ab 01.01.2013: Herkunft des Gegenstandes aus der Spendenbescheinigung, Festtexte:
-    * bei keine Angaben: "Der Zuwendende hat trotz Aufforderung keine Angaben zur Herkunft der Sachzuwendung gemacht."
-    * bei Privatvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Privatvermögen."
-    * bei Betriebsvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Betriebsvermögen und ist
-    * mit dem Entnahmewert \(ggf. mit dem niedrigeren gemeinen Wert\) bewertet."
-* spendenbescheinigung\_unterlagenwertermittlung: Wenn das Kennzeichen in der Spendenbescheinigung gesetzt ist, der Festtext: "Geeignete Unterlagen, die zur Wertermittlung gedient haben, z. B. Rechnung, Gutachten, liegen vor."
-* spendenbescheinigung_zeile1 - spendenbescheinigung_zeile7: Wert der entsprechenden Zeile
-
-### Formularfelder für Rechnungen
-
-Folgende Formularfelder stehen für Rechnungen zur Verfügung:
-
-* tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
-* Empfänger: Empfänger der Rechnung. Formatiert für ein Adressfeld
-* Zahlungsgrund: Multipel. Es können mehrere Positionen für ein Mitglied in Rechnung gestellt werden. Zur korrekten Darstellung ist "Zahlungsgrund" zu verwenden.
-* Zahlungsgrund1: Sollte ab Version 1.4 nicht mehr verwendet werden
-* Zahlungsgrund2: Sollte ab Version 1.4 nicht mehr verwendet werden.
-* Buchungsdatum: Multipel
-* Betrag: Multipel
-* sowie alle Felder des Mitgliedsdatensatzes
-
-### Formularfelder für SEPA-PreNotification
-
-Folgende Formularfelder stehen für die PreNotification zur Verfügung:
-
-* tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
-* lastschrift\_empfaenger: Empfänger der PreNotification \(=Kontoinhaber\), formatiert für ein Adressfeld.
-* lastschrift\_verwendungszweck: Der Verwendungszweck wie per SEPA ausgegeben.
-* lastschrift\_mandatid: Die Mandatsreferenz
-* lastschrift\_mandatdatum: Datum des SEPA-Lastschrift-Mandats
-* lastschrift\_bic: Der BIC.
-* lastschrift\_iban: Die IBAN
-* lastschrift\_betrag: Der Abbuchungsbetrag
-* lastschrift\_abrechnungslauf\_nr: Datum des Abrechnungslaufs.
-* lastschrift\_abrechnungslauf\_datum: Datum des Abrechnungslaufs.
-* lastschrift\_abrechnungslauf\_faelligkeit: Das Buchungsdatum der Lastschrift.
-* sowie alle Felder des Zahlungspflichtigen \(=Kontoinhaber\) aus dem Mitgliedsdatensatz mit jeweils vorangestellten lastschrift\_...
 
 ## Beispiele
 
 ![](img/Formularroh.jpg)
 
 ![](img/Formularausgefuellt.jpg)
-
-## Freie Formulare
-
-Freie Formulare haben keinen speziellen Zweck und können mit den verfügbaren Variablen belegt werden. Zuerst wird mit einem beliebigen Programm eine Vorlage erstellt im Format .pdf. Die zu füllenden Bereiche werden frei gelassen. Im Bereich Administration/Formulare. Mit "neu" wird ein neues Formular eingepflegt und in der Datenbank verankert. Nachträgliche Änderungen an der Datei haben damit keine Auswirkungen, solange die Datei nicht neu in jVerein eingepflegt wird. In der Liste der Formulare wird das neu angelegte Formular angezeigt. Mit Rechtsklick auf den Eintrag kann man anwählen, ob man Formularfelder auswählen und platzieren will, die Datei mit Dummydaten anzeigen, duplizieren oder löschen will. Um das noch leere Formular mit Feldern zu füllen wählen wir "Formularfelder". Mit "neu" können nun Felder eingefügt werden. Die Variablen werden aus einer Liste ausgewählt und dann durch Abstand zum linken und unteren Seitenrand platziert. Schriftgröße und -art sind wählbar. Mit "anzeigen" kann die korrekte Platzierung geprüft werden. Es werden Dummy-Daten angezeigt.
-
-Die Ausgabe mit echten Daten erfolgt aus der Mitgliederliste. Man filtert geeignet und markiert alle Zeilen, mit dessen Daten das Formular gefüllt werden soll. Ein Rechtsklick mit Auswahl des Formulars erzeugt dann eine PDF-Datei mit entsprechend vielen Seiten.
-
-

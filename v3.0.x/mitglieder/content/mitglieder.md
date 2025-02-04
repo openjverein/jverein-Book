@@ -141,6 +141,10 @@ Erstellung einer Sachspendenbescheinigung, die direkt dem Mitglied zugeordnet is
 
 Ausgabe aller zu einem Mitglied gespeicherten Daten \(Ausnahme: Ggfls. gespeicherte Dokumente\)
 
-### Manuelle Lastschrift...
+### Manuelle Lastschrift
 
 Generierung einer manuellen Lastschrift in Hibiscus.
+
+## Freie Formulare
+
+Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wir ein Untermenü mit allen Freien Formularen angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die Ausgwählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../druckmail/freiesformular.md)

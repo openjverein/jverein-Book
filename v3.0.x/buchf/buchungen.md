@@ -12,6 +12,9 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 * Betrag
 * Enthaltener Text
 * Mitglied zugeordnet
+* Splitbuchungen: nur Split oder nur Hauptbuchungen
+
+In Der Buchungsliste bedeutet die Spalte "S" Splitbuchung, folgende Werte sind möglich "S" Slitbuchung, "H" Hautbuchung, "G" Gegenbuchung.
 
 ![](img/BuchungenListeView.png)
 
@@ -59,7 +62,9 @@ Der obige Dialog hat zwei Registerkarten:
 - Istbuchung einer Sollbuchung zuordnen \(Option 1\)
 - Sollbuchung erzeugen und Istbuchung zuordnen \(Option 2\)
 
-Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuchung \(z.B. aus einem Abrechnungslauf\).
+Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuchung \(z.B. aus einem Abrechnungslauf\). Beim zuordnen wird die Buchung automatisch anhand der Sollbuchungen gesplittet und den Buchungsarten zugeordnet. Wenn ber Betrag nicht der der Sollbuchung entsricht, wird vorher gefragt, ob eine Restbuchung erstellt werden soll. Hinweis: Wenn ja ausgewählt wird, ist die Sollbuchung ausgeglichen da die Restbuchung nicht dem Mitglied zugeornet wird. Bei "Nein" wird die Buchung ohne Spliten zugeordnet.
+
+Es kann auch eine Buchung mehreren Sollbuchungen auf einmal zugeordnet werden, dann wir diese entsprechen gesplittet. Auch das zuordnen mehrerer Buchungen zu einer Sollbuchung ist möglich, dabei wird jedoch kein automatisches Splitten durchgeführt..
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \(neue\) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 

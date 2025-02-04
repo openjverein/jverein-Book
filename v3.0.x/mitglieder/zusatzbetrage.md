@@ -2,13 +2,13 @@
 
 ### Aktivierung
 
-Zur Nutzung der Zusatzbeträge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+Zur Nutzung der Zusatzbeträge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren. Dort kann auch eingestellt werden, ob Zusatzbeträge auch bei ausgetretenen Mitgliedern abgerechnet werden sollen.
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Zusatzbeträge" zur Verfügung steht.
 
 ### Allgemeines
 
-Für jedes Mitglied können Zusatzbeträge hinterlegt werden. Diese Beträge werden zusätzlich zum Mitgliedsbeitrag eingezogen. Die Abrechnungen können einmalig \(z. B. Eigenanteil für die Teilnahme an einer Veranstaltung\) oder wiederkehrend \(z. B. Instrumentenversicherung\) angelegt werden. \(Die Zusatzbeträge-Sektionen werden in JVerein nur angezeigt, wenn unter Jameica/JVerein/Administration/Einstellungen/Anzeige der Haken bei "Zusatzbeträge anzeigen" gesetzt ist.\)
+Für jedes Mitglied können Zusatzbeträge hinterlegt werden. Diese Beträge werden zusätzlich zum Mitgliedsbeitrag eingezogen. Die Abrechnungen können einmalig \(z. B. Eigenanteil für die Teilnahme an einer Veranstaltung\) oder wiederkehrend \(z. B. Instrumentenversicherung\) angelegt werden.
 
 Als Wiederholungs-Intervall stehen zur Auswahl:
 
@@ -63,9 +63,9 @@ Durch einen Doppelklick wird die Bearbeitung eines Zusatzbetrag eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
-* Vorheriges Fälligkeitsdatum:  Vorheriges Fälligkeitsdatum bei periodischen Zusatzbetrag setzen
-* Nächstes Fälligkeitsdatum:  Nächstes Fälligkeitsdatum periodischen Zusatzbetrag setzen
-* Erneut ausführen:  Zusatzbeitrag für einen nicht periodischen Zusatzbetrag erneut ausführen
+* Vorheriges Fälligkeitsdatum: Das Fälligkeitsdatum um ein Intervall zurücksetzen, dadurch wird der Zusatzbetrag ein weiteres mal abgerechnet. \(nur bei Zusatzbeträgen mit Wiederholung\)
+* Nächstes Fälligkeitsdatum: Das Fälligkeitsdatum um ein Intervall in die Zukunft verschieben. Dadurch wird die Abrechnung einmal ausgesetzt. \(nur bei Zusatzbeträgen mit Wiederholung\)
+* Erneut ausführen: Zusatzbeitrag erneut ausführen \(nur bei Zusatzbeträgen ohne Wiederholung\)
 * Löschen: Damit kann ein Zusatzbetrag gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
@@ -81,22 +81,24 @@ PS: Ab JVerein 3.0.0 lässt sich für den Zusatzbetrag ein von der Konfiguration
 
 Bei der Abrechnung finden folgende Prüfungen statt:
 
-* Liegt das Fälligkeitsdatum auf dem Endedatum oder danach: Keine Berechnung
+* Liegt das Fälligkeitsdatum auf dem Datum "Nicht mehr ausführen ab" oder danach: Keine Berechnung
 * Liegt das Fälligkeitsdatum auf dem Stichtagsdatum oder davor: Berechnung. Auf das Fälligkeitsdatum wird das Intervall addiert.
 
 ### Beipiel 1
 
-Fälligkeitsdatum: 1.11.2008
+Nächste Fälligkeit: 1.11.2008
 
-Endedatum: 31.10.2008
+Nicht mehr ausführen ab: 1.11.2008
+
+Intervall: Monatlich
 
 -&gt; keine Berechnung
 
 ### Beispiel 2
 
-Fälligkeitsdatum: 1.11.2008
+Nächste Fälligkeit: 1.11.2008
 
-Endedatum: 31.12.2100
+Nicht mehr ausführen ab: 1.1.2009
 
 Intervall: Monatlich
 

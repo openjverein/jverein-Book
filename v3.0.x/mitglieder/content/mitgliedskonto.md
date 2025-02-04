@@ -9,7 +9,6 @@ Durch einen Doppelklick auf eine
 * Istbuchung wird die Istbuchung angezeigt
 
 Das Kontextmenü bietet folgende Optionen:
-* Neue Sollbuchung: Aktiv falls das Mitglied ausgewählt ist
 * Sollbuchung bearbeiten: Aktiv falls die Sollbuchung ausgewählt ist
 * Sollbuchung löschen: Aktiv falls die Sollbuchung ausgewählt ist und keine Istbuchung zugewiesen ist
 * Istbuchung bearbeiten: Aktiv falls die Istbuchung ausgewählt ist
@@ -19,7 +18,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spendenbescheinigung.md)
 
-Über den Menüpunkt "Neue Sollbuchung" können neue Sollbuchungen aufgenommen werden.
+Im Normalfall werden Sollbuchungen ausschließlich über den Abrechnungslauf erstellt. In manchen Situationen ist es jedoch sinnvol, manuell Sollbuchungen zu erstellen, dies kann über den Button "Neue Sollbuchung" erfolgen. Weiter Informationen zu [Sollbuchungen](../mitgliedskonto.md)
 
 ![](../img/SollbuchungView.png)
 

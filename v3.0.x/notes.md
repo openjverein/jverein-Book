@@ -27,6 +27,8 @@ In einem Abrechnungslauf lassen sich jetzt Beiträge und Zusatzbeträge nicht nu
 
 Die Sollbuchungspositionen werden dann als Rechnungspositionen in die Rechnung aufgenommen.
 
+Durch die Änderungen gibt es Änderungen bei den Formularfelder und es wird empfohlen, neue Rechnungsformulare zu erstellen. Vorlagen werden demnächst in der DOKU zu finden sein.
+
 Siehe [Rechnung](mitglieder/rechnung.md).
 
 ### E-Rechnung
