@@ -14,7 +14,7 @@ Das Kontextmenü bietet folgende Optionen:
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Erledigung setzen: Setzen des Erledigung Termins. Der Button ist ausgegraut wenn schon ein Termin gesetzt ist
 * Erledigung löschen: Löschen des Erledigung Termins. Der Button ist ausgegraut wenn kein Termin gesetzt ist
-* Löschen: Damit kann ein Lehrgang gelöscht werden
+* Löschen: Damit kann eine Wiedervorlage gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
 ## Wiedervorlage beim Mitglied anlegen

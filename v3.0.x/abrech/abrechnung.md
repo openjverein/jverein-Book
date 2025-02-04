@@ -2,9 +2,9 @@
 
 ## Voraussetzungen
 
-Unter Administration->Einstellungen->Allgemein muss das Konto eingetragen sein, auf das die Lastschriften gutgeschrieben werden sollen. Weiterhin muss die Gläubiger-ID eingetragen werden. Gläubiger-ID können unter [https://extranet.bundesbank.de/scp/](https://extranet.bundesbank.de/scp/) oder [http://www.oenb.at/idakilz/cid?lang=de](http://www.oenb.at/idakilz/cid?lang=de) beantragt werden. Zu Testzwecken kann DE98ZZZ09999999999 eingesetzt werden.
+Unter Administration->Einstellungen->Allgemein muss das Konto eingetragen sein, auf das die Lastschriften gutgeschrieben werden sollen. Bei Verwendung von Lastschriften muss die Gläubiger-ID eingetragen werden. Gläubiger-ID können unter [https://extranet.bundesbank.de/scp/](https://extranet.bundesbank.de/scp/) oder [http://www.oenb.at/idakilz/cid?lang=de](http://www.oenb.at/idakilz/cid?lang=de) beantragt werden. Zu Testzwecken kann DE98ZZZ09999999999 eingesetzt werden.
 
-Das Konto für die Gutschriften muss auch in der Buchführung eingerichtet sein. Unter "Nr" ist entweder die komplette IBAN einzutragen oder die Kontonummer ohne führende Nullen.
+Unter Abministration->Einstellungen->Abrechnung "Verechnungskonto für Lastschriften" muss das Konto augewählt werden auf das die Gegenbuchunge von Lastschriften gebucht werden.
 
 ## SEPA-Fehler
 
@@ -20,7 +20,7 @@ Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](abrech
 * Beiträge für im laufenden Jahr eingetretene Mitglieder
 * Beiträge für abgemeldete Mitglieder
 * Zusatzbeträge
-* Kursgebühren
+* Kursteilnehmer
 
 verarbeitet werden.
 
@@ -52,7 +52,7 @@ Es werden die neu eingetretenen Mitglieder abgerechnet. JVerein verwendet das Ei
 
 Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eintrittsdatum den Tag nach der letzten Abrechnung für eingetretene Mitglieder \(ersatzweise den Tag nach der letzten Abrechnung für Alle\) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
 
-Hinweis: Das Eintrittsdatum wird beim Import von Mitgliedern nicht gesetzt.
+Hinweis: Das Eintrittsdatum wird bei der Migration von Mitgliedern nicht gesetzt.
 
 **Abgemeldete Mitglieder**
 
@@ -60,7 +60,7 @@ Es werden nur Mitglieder abgerechnet, die sich schon abgemeldet haben.
 
 #### Fälligkeit
 
-Die Fälligkeit von Lastschriften muss mindestens einen Bankarbeitstag nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht.
+Die Fälligkeit von Lastschriften muss mindestens einen Bankarbeitstag nach Einreichung liegen. JVerein macht ausgehend vom aktuellen Datum einen Vorschlag mit dem frühestmöglichen Datum. Das Datum kann überschrieben werden. Es wird 1:1 in die SEPA-Datei eingetragen. Weitere Auswirkung auf die Abrechnung hat das Datum nicht. Die Sollbuchungen werden ebenfalls mit diesem Datum erstellt.
 
 Falls es bei der Abrechnung keine Lastschriften gibt, kann das Datum auch in der Vergangenheit liegen.
 
@@ -74,9 +74,13 @@ Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text w
 
 Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)\).
 
+Für den Verwendungszeck können auch Variablen verwendet werden. Siehe [Variablen](../../sonstiges/variable.md). (Auch im Zweck des Zusatzbetrages können Variablen enthalten sein die hier mit geparst werden)
+
 #### Zusatzbeträge
 
-Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
+Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen Abrechnungsmodi zusätzlich gesetzt werden.
+
+Unter Administration->Einstellungen->Allgemein kann eingestellt werde, ob Zusatzbeträge auch von ausgetretenen Mitgliedern abgerechnet werden sollen.
 
 #### Kursteilnehmer
 
@@ -102,7 +106,7 @@ Optional können die SEPA-Daten der Lastschriften in ein PDF-Dokument zum Ausdru
 
 #### Rechnun(en) erstellen
 
-Hier kann ausgewählt werden ob mit dem Abrechnungslauf auch gleich Rechnungen für die generierten Sollbuchungen erzeugt werden sollen. 
+Hier kann ausgewählt werden ob mit dem Abrechnungslauf auch gleich Rechnungen für die generierten Sollbuchungen erzeugt werden sollen.
 
 #### Abbuchungsausgabe
 
@@ -122,7 +126,7 @@ Formular für Rechnungen falls welche erstellt werden sollen. Gegebenenfalls ist
 
 #### Rechnung Text
 
-Text der aus der Rechnung und den zugehörigen Sollbuchungen als Zweck verwendet werden soll.
+Text der bei der Lastschrift, der Rechnung und den zugehörigen Sollbuchungen als Zweck verwendet werden soll. AUch hier können Variablen verwendet werden. Siehe [Variablen](../../sonstiges/variable.md).
 
 #### Rechnung Datum
 

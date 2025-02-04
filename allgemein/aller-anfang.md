@@ -65,9 +65,8 @@ Die vorzunehmenden Einstellungen sind selbsterklärend. Man sollte jeden Reiter 
 7. Spendenbescheinigung: alles ausfüllen
 8. Buchführung: kann so bleiben
 9. Rechnungen: kann so bleiben
-10. Tabellen: kann so bleiben
-11. Mail: alles ausfüllen - Tipp: die IMAP Funktion zur Speicherung von ausgehenden E-Mails ist hilfreich. Dies ist jedoch auch mit der "Immer Bcc an Adresse" ausreichend 'protokolliert'.
-12. Statistik: kann so bleiben \(vorerst\)
+10. Mail: alles ausfüllen - Tipp: die IMAP Funktion zur Speicherung von ausgehenden E-Mails ist hilfreich. Dies ist jedoch auch mit der "Immer Bcc an Adresse" ausreichend 'protokolliert'.
+11. Statistik: kann so bleiben \(vorerst\)
 
 
 ![](img/aller_anfang_-_erster_start_-_jverein_-_1_einstellungen.png)

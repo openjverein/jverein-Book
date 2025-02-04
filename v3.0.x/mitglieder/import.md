@@ -32,7 +32,6 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 * austritt
 * kuendigung
 * sterbetag
-* beitragsgruppe Pflichtfeld bei Mitgliedern
 * iban Pflichtfeld bei Mitgliedern mit Zahlungsweg Basislastschrift
 * bic wird automatisch ermittelt
 * individuellerbeitrag

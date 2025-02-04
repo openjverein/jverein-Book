@@ -14,6 +14,10 @@ In einem Abrechnungslauf lassen sich jetzt Beiträge und Zusatzbeträge nicht nu
 
 Die Sollbuchungspositionen werden dann als Rechnungspositionen in die Rechnung aufgenommen.
 
+Beim versenden der Rechnung per Mail und wenn nur eine Rechnung als PDF erstellt wird, wird diese automatisch als E-Rechnung im ZUGFeRD Format erstellt.
+
+Um Rechnungen erstellen zu können muss erst ein Formuler erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
+
 ### Erstellung 
 
 Die Rechnungen können erstellt werden
@@ -31,7 +35,7 @@ Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail A
 
 Durch einen Doppelklick auf die Rechnung wird die Rechnung angezeigt.
 
-Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü mit mehreren Optionen:
+Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehreren Optionen:
 * Anzeigen: Zeigt die Rechnung an
 * Löschen: Löschen der selektierten Rechnungen
 * Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen der Rechnung, siehe  [Rechnungen](../druckmail/rechnungen.md)

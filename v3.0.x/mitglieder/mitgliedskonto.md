@@ -6,9 +6,7 @@ Zur Nutzung der Sollbuchungen ist keine extra Aktivierung notwendig.
 
 ### Allgemeines
 
-Sollbuchungen d.h. Beiträge, Zusatzbeträge etc. dienen dazu den Kontostand von Mitgliedern zu führen. Durch die Zuweisung von Istbuchungen kann der Kontostand ausgeglichen werden. 
-
-Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbeiträgen und Zusatzbeträgen in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds.
+Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbeiträgen und Zusatzbeträgen in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds. Durch die Zuweisung von Istbuchungen kann der Kontostand ausgeglichen werden. 
 
 ### Erstellung 
 
@@ -17,12 +15,14 @@ Die Zusatzbeträge können erstellt werden
 * in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md)) 
 * aber auch in der Liste der Sollbuchungen
 
+Im Normalfall sollte die Erstellung der Sollbuchungen nur über die Abrechnung erfolgen. Nur in Ausnahmesituationen ist ein manuelles erstellen sinnvoll.
+
 
 ## Liste der Sollbuchungen <a id="mitgliedskontouebersicht"></a>
 
 Es gibt eine zentrale Übersicht über alle Sollbuchungen. Die Sollbuchungen können über einen Zeitraum oder über einen Namen der Mitglieds oder des Zahlers, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
 
-Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat. Letzteres ist interessant wenn die Rechnungen bzw. Mahnungen per Mail versendet werden sollen.
+Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat.
 
 ![](img/SollbuchungenListeView.png)
 
