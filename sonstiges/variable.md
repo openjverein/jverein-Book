@@ -16,6 +16,8 @@ Freie Formulare: Allgemein, Mitglied
 
 ## Sonstige
 
+Bei diesen Feldern muss die Variable jeweis in der Form $VARIABLENNAME angegeben werden, wenn direkt von einem Zeichen gefolgt muss die Form ${VARIABLENNAME} verwendet werden.
+
 Zahlungsgrund bei der Abrechnung, Zweck von Zusatzbeträgen: Allgemein, Mitglied, Abrechnung
 
 Rechnung Text bei der Abrechnung: Allgemein, Rechnung, Mitglied
