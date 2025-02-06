@@ -141,7 +141,12 @@ Als Formularfelder können alle Variablen verwendet werden. Siehe [Variablen](..
 
 Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter geladen und als Formular importiert werden.
 
-Einfache Standardrechnung{% embed url="img/rechnung-standard.xml" %}
+Einfache Standardrechnung:
+
+{% file src="img/rechnung-standard.xml" %}
+Einfache Standardrechnung
+{% endfile %}
+
 ![](img/rechnung-standard.png)
 
 
