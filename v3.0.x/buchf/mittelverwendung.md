@@ -1,5 +1,15 @@
 # Mittelverwendung
 
+### **Achtung!**
+
+**Bei diesem Feature handelt es sich um ein experimentelles Feature.**
+
+Das JVerein Team hat dieses Feature aus Informationen aus dem Internet entwickelt aber selbst bisher keine Erfahrung mit der Mittelverwendung Berechnung.
+
+Wir bitten darum die Anwender welche bereits Mittelverwendungsreports erstellt haben zu prüfen, ob die Art der Berechnung, die ausgegeben Werte und die Darstellung den Anforderungen entsprechen.
+
+Wir würden uns über ein Feedback der Anwender freuen, um es als ausgereiftes Feature anbieten zu können.
+
 ### Aktivierung
 
 Zur Nutzung der Mittelverwendung ist die Option in Administration->Einstellungen->Anzeige zu aktivieren.
@@ -43,11 +53,24 @@ Der Report kann über die Buttons CSV und PDF ausgegeben werden.
 
 Da es sich bei dieser Art der Berechnung um eine fortlaufende Berechnung handelt müssen die beiden letzten Positionen in der Liste persistent gespeichert werden. Dazu werden sie beim Jahresabschluss berechnet und gespeichert.
 
-Da JVerein 3.0.0 neu mit dem Feature beginnt muss der Startwert dieser Daten eingegeben werden. Evtl. möchte man das auch nachträglich für frühere Jahre machen. Man kann jetzt alte Jahresabschlüsse öffnen aber nicht editieren. Ist aber Mittelverwendung aktiv und es sind die Werte in der Datenbank nicht gesetzt, dann kann man die beiden Werte eingeben und auch speichern. Sind sie gesetzt kann man sie nicht editieren.
+Da JVerein 3.0.0 neu mit dem Feature beginnt muss der Startwert dieser Daten eingegeben werden. Evtl. möchte man das auch nachträglich für frühere Jahre machen. Ist aber Mittelverwendung aktiv und es sind die Werte in der Datenbank nicht gesetzt, dann kann man die beiden Werte eingeben und auch speichern.
 
-Will man bei einem früheren Jahr starten z.B. 2020, dann öffnet man den Jahresabschluss von 2019 und gibt die zwei Werte ein und speichert den Jahresabschluss. Dann öffnet man den Jahresabschluss von 2020, hier werden die Werte berechnet und angezeigt. Man muss nur noch diese speichern. Das gleiche dann für 2021, 2022, 2023 und 2024.
+Über den Button "Startwerte setzen" öffnet sich der Dialog zur Eingabe der Startwerte für das angezeigte Geschäftsjahr.
 
-Startet man ganz neu mit JVerein und möchte bereits im ersten verbuchten Jahr die Mittelverwendungsrechnung benutzen, dann müssen die Startwerte in einem Jahresabschluss des Vorjahres eingegeben werden. Öffnet man einen neuen Jahresabschluss wird aber das aktuelle Jahr angeboten, weil es das Startjahr ist. Über den grünen Pfeil Button kann man in diesem Fall ein Jahr zurückgehen und dann die Startwerte eintragen und speichern.
+![](img/MittelverwendungDialog.png)
+
+In diesen Dialog sind folgende Daten einzugeben:
+
+* Der Rest des Verwendungsrückstand aus dem vorletzten Geschäftsjahr der in das aktuelle Geschäftsjahr übertragen wird
+* Der Betrag der zwanghaft satzungsgemäßen Weitergabe von Mittel die im letzten Geschäftsjahr entstanden sind
+* Name des Bearbeiters
+
+Startet man ganz neu mit JVerein und möchte bereits im ersten verbuchten Geschäftsjahr die Mittelverwendungsrechnung benutzen, dann müssen die Startwerte für dieses Jahr eingegeben werden. JVerein erzeugt dann einen Jahresabschluss für das Vorjahr in dem diese Werte eingetragen und gespeichert sind.
+
+Hat man bereits JVerein benutzt und bereits Jahresabschlüsse ohne dieses Feature erstellt, kann man die Startwerte für frühere Jahre nachtragen. Will man z.B. 2020 starten, dann wählt man das Geschäftsjahr 2020 und gibt die Startwerte ein. Anschließend geht man zum nächsten Jahr 2021 und öffnet erneut den Dialog zur Eingabe der Startwerte. Da jetzt für das vorangegangene Jahr Startwerte existieren berechnet JVerein die Startwerte aus den Buchungen des letzten Jahres und zeigt diese an. Man muss sie jetzt also nur noch abspeichern. Das gleiche dann für die Folgejahre.
+
+Der Name brauch nur eingegeben zu werden, wenn das Feld leer ist. in diesem Fall wird ein neuer Jahresabschluss erzeugt. In den Fällen, dass nur die Werte in bestehenden Jahresabschlüssen nachgetragen wird, wird bereits im Dialog der Name aus dem betroffenen Jahresabschluss gelesen und angezeigt. Diese wird auch wenn man den Namen ändert nicht überschrieben.
+
 
 ### Mittelverwendungsreport (Saldo-basiert)
 

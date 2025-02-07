@@ -62,6 +62,7 @@ In der Liste können ein oder mehrere Einträge markiert werden.
 Das Kontextmenü bietet folgende Optionen:
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann eine Spendenbescheinigung(en) gelöscht werden
+* Mitglied anzeigen: Öffnet das Mitglied zur Spendenbescheinigung
 * PDF: Drucken der Spendenbescheinigung(en) als PDF
 * Druck und Mail:  Spendenbescheinigung(en) über den Druck und Mail Dialog drucken oder per Mail verschicken.  Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
 * Mail an Spender: Eine Mail an den Spender verschicken
@@ -77,6 +78,10 @@ Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 Folgende Buttons stehen zu Verfügung:
 * Druck und Mail:  Spendenbescheinigung über den Druck und Mail Dialog drucken oder per Mail verschicken.  Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
 * Speichern: Spendenbescheinigung speichern
+
+Durch einen Rechtsklick auf eine Buchung öffnet sich ein Kontextmenü mit mehreren Optionen:
+* Anzeigen: Zeigt die Buchung an
+* Mitglied anzeigen: Öffnet das Mitglied zur Buchung
 
 ## Spendenbescheinigungen erstellen
 

@@ -57,6 +57,14 @@ Buchungen auf diesen Konten gehen nicht in das Buchungsklassensaldo und Kontensa
 * Es gibt eine neue Ansicht "Mittelverwendung" (siehe [Mittelverwendung](buchf/mittelverwendung.md))
 * Diese Funktionalität muss in Administration->Einstellungen->Anzeige aktiviert werden
 
+**Bei diesem Feature handelt es sich um ein experimentelles Feature.**
+
+Das JVerein Team hat dieses Feature aus Informationen aus dem Internet entwickelt, aber selbst bisher keine Erfahrung mit der Mittelverwendung Berechnung.
+
+Wir bitten darum die Anwender welche bereits Mittelverwendungsreports erstellt haben zu prüfen, ob die Art der Berechnung, die ausgegeben Werte und die Darstellung den Anforderungen entsprechen.
+
+Wir würden uns über ein Feedback der Anwender freuen, um es als ausgereiftes Feature anbieten zu können.
+
 ## Sonstige Features
 
 #### Abrechnungsläufe
@@ -108,6 +116,10 @@ Buchungen auf diesen Konten gehen nicht in das Buchungsklassensaldo und Kontensa
 #### Filtermöglichkeiten beim Projekte Dialog
 
 * In der Liste der Projekte (unter Administration->Buchführung) kann jetzt gefiltert werden
+
+#### Filtermöglichkeiten beim Konto Dialog
+
+* In der Liste der Konten kann jetzt gefiltert werden
 
 #### Erweiterter Filter im Buchungsarten Dialog
 

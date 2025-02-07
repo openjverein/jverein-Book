@@ -56,6 +56,10 @@ Durch einen Rechtsklick auf eine Sollbuchungsposition öffnet sich ein Kontextme
 * Bearbeiten: Bearbeiten der Sollbuchungsposition
 * Löschen: Löschen der Sollbuchungsposition
 
+Durch einen Rechtsklick auf eine zugeordnete Buchung öffnet sich ein Kontextmenü mit mehreren Optionen:
+* Bearbeiten: Bearbeiten der Buchung
+* Mitglied anzeigen: Öffnet das Mitglied zur Buchung
+
 Mit Version 3.0.0 wurde auch das Feld Zahler eingeführt. Hier kann ein vom Mitglied abweichender Zahler eingetragen werden. Eine Spendenbescheinigung wird dann auf den Zahler ausgestellt.
 
 ## Sollbuchungsposition
