@@ -38,6 +38,7 @@ Durch einen Doppelklick auf die Rechnung wird die Rechnung angezeigt.
 Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehreren Optionen:
 * Anzeigen: Zeigt die Rechnung an
 * Löschen: Löschen der selektierten Rechnungen
+* Mitglied anzeigen: Öffnet das Mitglied zur Rechnung
 * Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen der Rechnung, siehe  [Rechnungen](../druckmail/rechnungen.md)
 * Mahnung Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen einer Mahnung zur Rechnung, siehe  [Mahnungen](../druckmail/mahnungen.md)
 
@@ -47,5 +48,10 @@ Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehr
 Mit einem Doppelklick auf die Rechnung oder Klick auf Anzeigen wird die Rechnung angezeigt.
 
 ![](img/RechnungView.png)
+
+Folgende Buttons stehen zu Verfügung:
+
+* Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen der Rechnung, siehe  [Rechnungen](../druckmail/rechnungen.md)
+* Mahnung Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen einer Mahnung zur Rechnung, siehe  [Mahnungen](../druckmail/mahnungen.md)
 
 
