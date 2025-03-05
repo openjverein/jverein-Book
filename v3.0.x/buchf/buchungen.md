@@ -9,7 +9,7 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 * Projekt
 * Von Datum
 * Bis Datum
-* Betrag
+* Betrag, hier können auch die Vergleichsoperatren >, <, <=, >=, | (Absolut Betrag), .. (Bereich zB. 10..100) verwendet werden
 * Enthaltener Text
 * Mitglied zugeordnet
 * Splitbuchungen: nur Split oder nur Hauptbuchungen
