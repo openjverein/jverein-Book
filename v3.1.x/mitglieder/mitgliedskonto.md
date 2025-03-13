@@ -40,9 +40,25 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 * Rechnung(en) erstellen: Erstellt Rechnungen für die selektierten Sollbuchungen
 
 
+## Sollbuchung Neu Dialog
+
+Mit einem Klick auf Neu öffnet sich folgender Dialog:
+
+![](img/SollbuchungNeuDialog.png)
+
+Über diesen Dialog wird eine Sollbuchung und eine zugeordnete Sollbuchungsposition erzeugt.
+
+Folgende Buttons stehen zu Verfügung:
+* Speichern: Speichert die Sollbuchung und schließt den Dialog
+* Speichern und Anzeigen: Speichert die Sollbuchung, schließt den Dialog und zeigt die Sollbuchung zum bearbeiten an z.B. um eine weiter Sollbuchungsposition zu erzeugen
+* Speichern und Neu: Speichert die Sollbuchung und erlaubt es eine weitere Sollbuchung zu erzeugen. Außer Mitglied und Zahler bleiben die Eingaben erhalten
+* Abbrechen: Bricht das erstellen einer neuen Sollbuchung ab
+
+PS: Datum und Zweck der Sollbuchungsposition werden automatisch von der Sollbuchung übernommen wenn sie noch nicht gesetzt sind.
+
 ## Sollbuchung
 
-Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
+Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
 ![](img/SollbuchungView.png)
 
@@ -54,6 +70,7 @@ Folgende Buttons stehen zu Verfügung:
 
 Durch einen Rechtsklick auf eine Sollbuchungsposition öffnet sich ein Kontextmenü mit mehreren Optionen:
 * Bearbeiten: Bearbeiten der Sollbuchungsposition
+* Istbuchung von Sollbuchung lösen: Löst die Buchung von der Sollbuchung
 * Löschen: Löschen der Sollbuchungsposition
 
 Durch einen Rechtsklick auf eine zugeordnete Buchung öffnet sich ein Kontextmenü mit mehreren Optionen:
