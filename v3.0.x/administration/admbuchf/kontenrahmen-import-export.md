@@ -4,9 +4,9 @@
 
 Die JVerein-Buchführung beruht auf Buchungsarten \(könnte man auch als Konten bezeichnen\) und auf Buchungsklassen \(Kontenrahmen\). Für den Austausch von Kontenrahmen zwischen Vereinen gibt es den Export und Import im XML-Format.
 
-Im Forum ist der SKR42 unter [https://jverein-forum.de/viewtopic.php?t=7394] zu finden, danke an tomtu.
+Im Forum ist der SKR42 unter [https://jverein-forum.de/viewtopic.php?t=7394](https://jverein-forum.de/viewtopic.php?t=7394) zu finden, danke an tomtu.
 
-Der SKR49 unter [https://jverein-forum.de/viewtopic.php?t=1265], danke an mgmf.
+Der SKR49 unter [https://jverein-forum.de/viewtopic.php?t=1265](https://jverein-forum.de/viewtopic.php?t=1265), danke an mgmf.
 
 Sofern ihr einen allgemeingültigen Kontenrahmen für einen bestimmten Vereinstypen \(z. B. Schulfördervereine\) erstellt habt, bzw. in JVerein erfasst habt, könnt ihr ihn dort den Vereinskollegen zur Verfügung stellen.
 
