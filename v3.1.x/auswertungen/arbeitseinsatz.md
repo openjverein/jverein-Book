@@ -1,5 +1,13 @@
 # Auswertung Arbeitseinsätze
 
+### Aktivierung
+
+Zur Nutzung der Arbeitseinsätze ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeitseinsätze" zur Verfügung steht.
+
+### Allgemeines
+
 Die Arbeitseinsätze können ausgewertet werden. Dabei werden Minder-, Normal- und Mehrleistungen überprüft:
 
 ![](img/ArbeitsEinsaetzeView.png)

@@ -1,5 +1,11 @@
 # Projektsaldo
 
+## Aktivierung
+
+Zur Nutzung der Projekte ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Projektsaldo" zur Verfügung steht.
+
 ## Einstellungen
 
 Unter Administration->Buchführung->Projekte werden die Projekte angelegt bzw. bearbeitet.

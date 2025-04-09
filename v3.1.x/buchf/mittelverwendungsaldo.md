@@ -1,6 +1,14 @@
-# Mittelverwendungsaldo
+# Mittelverwendungssaldo
 
-Das Mittelverwendungsaldo zeigt Mittelzufluss und Mittelabfluss aller Buchungsklassen für ein Geschäftsjahr oder einen frei wählbaren Zeitraum.
+### Aktivierung
+
+Zur Nutzung der Mittelverwendungssaldo  ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Mittelverwendungssaldo" zur Verfügung steht.
+
+### Saldo
+
+Das Mittelverwendungssaldo zeigt Mittelzufluss und Mittelabfluss aller Buchungsklassen für ein Geschäftsjahr oder einen frei wählbaren Zeitraum.
 
 Während der Buchungsklassensaldo View eine Einnahmen/Überschussrechnung nach steuerlichen Vorgaben ist, ist dieser View als Unterstützung zum Zufluss basierten Mittelverwendungsreport gedacht. Im Zufluss basierten Mittelverwendungsreport steht die Summe der im GJ insgesamt zugeflossenen und verwendeten Mittel. Dieser View zeigt auf Buchungsart Ebene wie diese Summe zusammen gesetzt ist.
 

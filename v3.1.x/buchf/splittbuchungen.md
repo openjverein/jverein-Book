@@ -18,6 +18,8 @@ Rechtsklick auf die Buchung(en), dann Splitbuchung auswählen:
 
 Es können auch mehrere Buchungen gleichzeitig ausgewählt werden. Sie müssen allerdings den gleichen Betrag haben. Anschließend wird ein Buchungseintrag bearbeitet. Beim Speichern wird eine analoge Aufteilung der Beträge auch auf alle anderen selektierten Buchungen angewendet. 
 
+Sind mehrere Buchungen selektiert, wird der Verwendungszweck und der Kommentar aus der jeweiligen Hauptbuchung kopiert. Wurden diese Daten bei einem der Splitpositionen abgeändert, dann wird der abgeänderte Text in alle Buchungen entsprechend für die jeweilige Splitposition übernommen.
+
 Es erscheint dann:
 
 ![](img/Splitbuchung02.png)

@@ -1,5 +1,11 @@
 # Spendenbescheinigung drucken/mailen
 
+## Aktivierung
+
+Zur Nutzung der Spendenbescheinigungen ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Spendenbescheinigungen" zur Verfügung steht.
+
 ## Spendenbescheinigungen selektiv drucken
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
