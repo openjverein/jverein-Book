@@ -1,5 +1,11 @@
 # Anlagenverzeichnis
 
+### Aktivierung
+
+Das Anlagenverzeichnis wird nur angezeigt wenn mindesten ein Anlagenkonto existiert.
+
+### Verzeichnis
+
 Das Anlagenverzeichnis basiert auf steuerlichen Vorgaben.
 
 Es listet alle Anlagenkonten auf die noch nicht geschlossen sind. 

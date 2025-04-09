@@ -66,6 +66,18 @@ Zu jedem Mitglied kann ein Foto gespeichert werden.
 
 Zeigt die Mittelverwendung an.
 
+### Projekte anzeigen
+
+Zeigt die Projekte an.
+
+### Spendenbescheinigungen anzeigen
+
+Zeigt die Spendenbescheinigungen an.
+
+### Rechnungen/Mahnungen anzeigen
+
+Zeigt die Rechnungen/Mahnungen an.
+
 ### Lesefelder anzeigen
 
 Tab Lesefelder beim Mitglied anzeigen. Lesefelder können unter Administration - Lesefelder definiert werden

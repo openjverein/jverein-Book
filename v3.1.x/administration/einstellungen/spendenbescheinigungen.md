@@ -1,5 +1,13 @@
 # Spendenbescheinigungen
 
+### Aktivierung
+
+Zur Nutzung der Spendenbescheinigungen ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Spendenbescheinigungen" zur Verfügung steht.
+
+### Konfiguration
+
 ![](img/Spendenbescheinigungen.png)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.

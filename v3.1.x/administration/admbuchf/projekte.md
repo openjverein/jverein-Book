@@ -1,5 +1,11 @@
 # Projekte
 
+## Aktivierung
+
+Zur Nutzung der Projekte ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Projekte" zur Verfügung steht.
+
 ## Allgemeines
 
 Innerhalb der Buchführung können Buchungen zu Projekten zusammengefasst werden. Siehe auch [https://jverein-forum.de/viewtopic.php?f=4&t=646](https://jverein-forum.de/viewtopic.php?f=4&t=646)

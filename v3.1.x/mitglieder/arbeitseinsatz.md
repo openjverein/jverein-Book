@@ -2,7 +2,7 @@
 
 ### Aktivierung
 
-Zur Nutzung der Arbeitseinsätze ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+Zur Nutzung der Arbeitseinsätze ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeitseinsätze" zur Verfügung steht.
 

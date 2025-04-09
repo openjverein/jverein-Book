@@ -34,6 +34,8 @@ Die PDF-Auswertungen sind hier abrufbar. Ausführlich beschrieben werden sie im 
 
 Folgende Menü Einträge sind vorhanden:
 * Bearbeiten: Öffnet die Detailansicht für die selektierte Buchung
+* Als "geprüft" markieren: Markiert die Buchung als geprüft
+* Als "ungeprüft" markieren: Hebt die Markierung auf
 * Duplizieren: Öffnet die Detailansicht für eine neue Buchung mit den Daten der selektierten Buchung
 * Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen Der Menüpunkt ist nur verfügbar wenn die Buchungsart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungsart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).
 * Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md)
@@ -41,6 +43,7 @@ Folgende Menü Einträge sind vorhanden:
 * Löschen: Löscht die Buchung
 * Mitglied anzeigen: Für die selektierte Buchung wird das zugehörige Mitglied geöffnet, sofern der Buchung eine Sollbuchung zugeordnet wurde.
 * Neues Anlagenkonto: Für die selektierte Buchung wird ein Anlagenkonto erzeugt
+* Geldspendenbescheinigung: Erstellt eine Geldspendenbescheinigung für die Buchung
 * Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart
 * Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung (siehe unten)
 * Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts

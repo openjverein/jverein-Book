@@ -72,7 +72,6 @@ Buchungen ohne Buchungsart werden im Kontensaldo berücksichtigt und der Betrag 
 
 Buchungen ohne Buchungsart werden im Buchungsklassensaldo berücksichtigt.
 
-
 #### Abrechnungslauf für eingetretene Mitglieder
 
 Bei einem Abrechnungslauf für eingetretene Mitglieder wird die Option "Eingabedatum" wieder angeboten.
@@ -82,6 +81,25 @@ Es ist ausreichend entweder Eingabedatum oder Eintrittsdatum zu wählen.
 #### Eigenschaften Gruppen als Spalten bei Mitgliedern
 
 Eigenschaften Gruppen lassen sich jetzt auch in den Einstellungen->Mitglieder Spalten auswählen und damit in der Liste der Mitglieder anzeigen.
+
+#### Weitere Menüpunkte über Administration->Einstellungen->Anzeige aktivierbar
+
+Die Anzeige von Projekten, Spendenbescheinigungen und Rechnungen/Mahnungen lässt sich in den Einstellungen konfigurieren.
+
+#### Rechnungen für mehrere Sollbuchungen erstellen
+
+Es lässt sich eine Rechnung über mehrere Sollbuchungen erstellen.
+
+#### Neue Buttons bei Druck und Mail Views
+
+Bei den Druck und Mail Views gibt es neu die folgenden Buttons:
+* Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt die für den aktuellen Report geeignet sind. Diese lassen sich auswählen zum Kopieren in die Zwischenablage um sie dann in den Text zu platzieren
+* Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
+* Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. eine bestehende Vorlage lässt sich überschreiben
+
+#### Spendenbescheinigungen über das Buchung Kontextmenü erzeugen
+
+Über das Kontextmenü einer Buchung lässt sich direkt eine Geldspendenbescheinigung erzeugen ohne der Notwendigkeit ein Mitglied bzw. Nicht-Mitglied zu erzeugen und ohne eine Sollbuchung zuordnen zu müssen
 
 ## Kleinere Korrekturen und Erweiterungen
 

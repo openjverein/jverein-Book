@@ -2,7 +2,7 @@
 
 ### Aktivierung
 
-Zur Nutzung der Zusatzbeträge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren. Dort kann auch eingestellt werden, ob Zusatzbeträge auch bei ausgetretenen Mitgliedern abgerechnet werden sollen.
+Zur Nutzung der Zusatzbeträge ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren. Dort kann auch eingestellt werden, ob Zusatzbeträge auch bei ausgetretenen Mitgliedern abgerechnet werden sollen.
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Zusatzbeträge" zur Verfügung steht.
 

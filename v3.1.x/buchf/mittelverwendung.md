@@ -12,7 +12,7 @@ Wir würden uns über ein Feedback der Anwender freuen, um es als ausgereiftes F
 
 ### Aktivierung
 
-Zur Nutzung der Mittelverwendung ist die Option in Administration->Einstellungen->Anzeige zu aktivieren.
+Zur Nutzung der Mittelverwendung ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Mittelverwendung" zur Verfügung steht.
 
