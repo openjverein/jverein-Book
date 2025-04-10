@@ -12,6 +12,12 @@ Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen a
 
 ![](img/SpendenbescheinigungenListeView.png)
 
+JVerein wird also eine gedruckte Unterschrift nur bei reinen Geldspenden generieren falls gedruckte Unterschrift aktiviert ist.
+
+Möchte man also Spendenbescheinigungen per Mail verschicken geht das nur für echte Geldspenden. Dafür ist der Filter für Spendenart auf "Geldspende ohne Erstattungsverzicht" zu setzen. In diesem Fall erhält man alle echten Geldspenden für die auch eine Unterschrift generiert wurde.
+
+Mit der Option "Sachspende oder Geldspende mit Erstattungsverzicht" erhält man alle Spendenbescheinigungen für die keine Unterschrift gedruckt wird. Diese müssen ausgedruckt und per Hand unterschrieben werden.
+
 In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung.
 
 Über dem Menüpunk "PDF" kann die Spendenbescheinigung als PDF gedruckt werden. Es wird ein individuelles Formular verwendet welches in der Spendenbescheinigung konfiguriert ist oder ein Standard Ausdruck wenn es so in der Spendenbescheinigung gesetzt ist.
@@ -33,6 +39,13 @@ In den Parametern lässt sich einstellen ob gedruckt oder per Mail verwendet wer
 
 Im Bereich Mail lässt sich der Betreff und der Mailtext eingeben.
 
+Der View besitzt folgende Buttons:
+* Mail Vorlage: Öffnet den Auswahldialog zur Übernahme von Vorlagen
+* Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt, die für den aktuellen Report geeignet sind. Diese lassen sich zum Kopieren in die Zwischenablage auswählen, um sie dann in den Text zu platzieren
+* Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
+* Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben z.B. wenn sie geändert wurde
+* Starten: Startet die Ausgabe
+
 Durch Klick auf den Starten Button werden die Spendenbescheinigungen an die Mitglieder versendet bzw. gedruckt.
 
 ## Spendenbescheinigung automatisch drucken oder per Mail versenden
@@ -41,8 +54,21 @@ Neben der individuellen Auswahl für Drucken und Versenden über das Kontextmen�
 
 Der Dialog enthält hier die Filter Optionen wie im Spendenbescheinigungen Dialog.
 
+JVerein wird also eine gedruckte Unterschrift nur bei reinen Geldspenden generieren falls gedruckte Unterschrift aktiviert ist.
+
+Möchte man also Spendenbescheinigungen per Mail verschicken geht das nur für echte Geldspenden. Dafür ist der Filter für Spendenart auf "Geldspende ohne Erstattungsverzicht" zu setzen. In diesem Fall erhält man alle echten Geldspenden für die auch eine Unterschrift generiert wurde.
+
+Mit der Option "Sachspende oder Geldspende mit Erstattungsverzicht" erhält man alle Spendenbescheinigungen für die keine Unterschrift gedruckt wird. Diese müssen ausgedruckt und per Hand unterschrieben werden.
+
 Mit der Option Adressblatt lässt sich auswählen, ob eine zusätzliche Seite an die Spendenbescheinigung angefügt werden soll. Auf diese lässt sich eine Briefanschrift und/oder ein Anschreiben ausgeben. Das Anschreiben wird im Feld Text eingegeben.
 
 Es werden hier alle Spendenbescheinigungen gedruckt bzw. versendet die die Filterkriterien erfüllen. Eine individuelle Auswahl aus den gefilterten Einträgen ist hier nicht möglich.
 
 ![](img/SpendenbescheinigungenDruckMailView2.png)
+
+Der View besitzt folgende Buttons:
+* Mail Vorlage: Öffnet den Auswahldialog zur Übernahme von Vorlagen
+* Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt, die für den aktuellen Report geeignet sind. Diese lassen sich zum Kopieren in die Zwischenablage auswählen, um sie dann in den Text zu platzieren
+* Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
+* Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben z.B. wenn sie geändert wurde
+* Starten: Startet die Ausgabe

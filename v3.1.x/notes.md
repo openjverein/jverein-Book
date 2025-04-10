@@ -93,9 +93,9 @@ Es lässt sich eine Rechnung über mehrere Sollbuchungen erstellen.
 #### Neue Buttons bei Druck und Mail Views
 
 Bei den Druck und Mail Views gibt es neu die folgenden Buttons:
-* Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt die für den aktuellen Report geeignet sind. Diese lassen sich auswählen zum Kopieren in die Zwischenablage um sie dann in den Text zu platzieren
+* Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt die für den aktuellen Report geeignet sind. Diese lassen sich  zum Kopieren in die Zwischenablage auswählen um sie dann in den Text zu platzieren
 * Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
-* Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. eine bestehende Vorlage lässt sich überschreiben
+* Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben
 
 #### Spendenbescheinigungen über das Buchung Kontextmenü erzeugen
 

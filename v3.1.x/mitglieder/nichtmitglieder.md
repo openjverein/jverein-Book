@@ -3,7 +3,7 @@
 
 ### Aktivierung
 
-Zur Nutzung der Nich-Mitglieder ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+Zur Nutzung der Nicht-Mitglieder ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Nicht-Mitglieder" zur Verfügung steht.
 
