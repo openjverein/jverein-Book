@@ -32,14 +32,25 @@ Ein Doppelklick auf eine Mail öffnet das Bearbeitungsfenster.
 
 ![](img/Mail.png)
 
-Durch einen Klick auf Hinzufügen öffnet sich folgendes Auswahlfenster:
+Der View besitzt folgende Buttons im unteren Bereich:
+* Mail Vorlage: Öffnet den Auswahldialog zur Übernahme von Vorlagen
+* Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt, die für den aktuellen Report geeignet sind. Diese lassen sich zum Kopieren in die Zwischenablage auswählen, um sie dann in den Text zu platzieren
+* Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
+* Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben z.B. wenn sie geändert wurde
+* Speichern: Speichert die Mail ohne sie zu versenden
+* Speichern und erneut versenden: Eine bereits versendete Mail kann bearbeitet und erneut versendet werden
+* Speichern und senden: Speichert die Mail und versendet sie
+
+Über den Button Anlage im Anhang Bereich lässt sie ein Anhang zur Mail auswählen.
+
+Durch einen Klick auf Hinzufügen bei der Liste der Empfänger öffnet sich folgendes Auswahlfenster:
 
 ![](img/MailEmpfaengerAuswahl.png)
 
 In diesem Fenster sind zunächst alle an- und abgemeldeten Mitglieder sowie alle weiteren Adressen aufgelistet, bei denen eine E-Mail-Adresse hinterlegt ist. Mail-Empfänger können nun einzeln durch Setzen des Häkchens vor der E-Mail-Adresse ausgewählt werden. Ferner stehen \(ab Version 2.8.4\) folgende Filter bzw. Selektoren zur Verfügung:
 
 * Durch einen Klick auf Eigenschaften öffnet sich ein Dialog mit dem Mitglieder/Adressen anhand von Eigenschaften ausgewählt werden können.
-* aktive Mitglieder selektiert alle aktuell angemeldeten Mitglieder \(Stichtag=Tagesdatum\).
+* Aktive Mitglieder selektiert alle aktuell angemeldeten Mitglieder \(Stichtag=Tagesdatum\).
 * Mit inaktive Mitglieder werden alle abgemeldeten Mitglieder ausgewählt.
 * Um alle Adressen \(also nur sämtliche weiteren Adressen jedoch keine Mitglieder\) auszuwählen bitte alle Adressen anklicken.
 * Bei aktive Mitglieder und Adressen bleiben nur die abgemeldeten Mitglieder unselektiert \(entspricht aktive Mitglieder und dann alle Adressen\).

@@ -3,7 +3,7 @@
 
 ### Aktivierung
 
-Zur Nutzung der Zusatzbeträge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+Zur Nutzung der Nicht-Mitglieder ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Nicht-Mitglieder" zur Verfügung steht.
 

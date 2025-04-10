@@ -12,6 +12,11 @@ Im Parameter Feld "Ausgabe" lässt sich wählen ob das Formular als PDF gedruckt
 
 Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
 
-Über die Buttons lässt sich eine gespeicherte Mailvorlage auswählen.
+Der View besitzt folgende Buttons:
+* Mail Vorlage: Öffnet den Auswahldialog zur Übernahme von Vorlagen
+* Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt, die für den aktuellen Report geeignet sind. Diese lassen sich zum Kopieren in die Zwischenablage auswählen, um sie dann in den Text zu platzieren
+* Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
+* Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben z.B. wenn sie geändert wurde
+* Starten: Startet die Ausgabe
 
 Das drücken des Startknopf löst im Fall der Mail Ausgabe bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.
