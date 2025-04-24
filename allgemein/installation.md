@@ -38,9 +38,9 @@ Jameica beenden und neu starten.
 
 Datei \| Plugins online suchen
 
-Wichtig! Wenn mit Jameica &lt; 2.10.3 gearbeitet wird, ist das aktuelle JVerein-Repositiory noch nicht eingetragen. "Repositories bearbeiten..." anklicken, rechter Mausklick auf das alte JVerein-Repository, löschen. "Neues Repository hinzufügen" anklicken, URL: [https://openjverein.github.io/jameica-repository](http://www.jverein.de/updates).
+Wichtig! Wenn mit Jameica &lt; 2.10.3 gearbeitet wird, ist das aktuelle JVerein-Repositiory noch nicht eingetragen. "Repositories bearbeiten..." anklicken, rechter Mausklick auf das alte JVerein-Repository, löschen. "Neues Repository hinzufügen" anklicken, URL: https://openjverein.github.io/jameica-repository.
 
-JVerein-Repository auswählen:
+Anschließend das neu angelgete OpenJVerein-Repository auswählen:
 
 ![](img/install6.png)
 
