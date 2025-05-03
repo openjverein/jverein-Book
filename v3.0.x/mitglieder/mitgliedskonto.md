@@ -13,6 +13,7 @@ Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbei
 Die Sollbuchungen können erstellt werden
 * über einen Abrechnungslauf (siehe [Abrechnung](../abrech/abrechnung.md) )
 * in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md)) 
+* implizit über die Zuordnung einer Sollbuchung zu eine Buchung (siehe [Buchungen](../buchf/buchungen.md))
 * aber auch in der Liste der Sollbuchungen
 
 Im Normalfall sollte die Erstellung der Sollbuchungen nur über die Abrechnung erfolgen. Nur in Ausnahmesituationen ist ein manuelles erstellen sinnvoll.
