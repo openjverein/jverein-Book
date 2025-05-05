@@ -1,4 +1,4 @@
-# Wiedervorlagen
+# Wiedervorlage
 
 ### Aktivierung
 
@@ -10,12 +10,12 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Wiederv
 
 Die Wiedervorlage Termine aller Mitglieder können hier angezeigt und als erledigt gekennzeichnet werden.
 
-### Erstellung 
+### Erstellung
 
 Die Wiedervorlagen können erstellt werden
-* in den Mitglied Details (siehe [Wiedervorlage](content/wiedervorlage.md)) 
-* aber auch in der Liste der Wiedervorlagen
 
+* in den Mitglied Details (siehe [Wiedervorlage](../../v3.0.x/mitglieder/content/wiedervorlage.md))
+* aber auch in der Liste der Wiedervorlagen
 
 ## Liste der Wiedervorlagen
 
@@ -23,13 +23,14 @@ Der Übersicht View für Wiedervorlagen zeigt alle vorhandenen Wiedervorlagen an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](img/WiedervorlageListeView.png)
+![](../../v3.1.x/mitglieder/img/WiedervorlageListeView.png)
 
 Mit dem Button Neu kann eine neue Wiedervorlage eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung einer Wiedervorlage eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
+
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Erledigung setzen: Setzen des Erledigung Termins. Der Button ist ausgegraut wenn schon ein Termin gesetzt ist
 * Erledigung löschen: Löschen des Erledigung Termins. Der Button ist ausgegraut wenn kein Termin gesetzt ist
@@ -40,7 +41,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/WiedervorlageView.png)
+![](../../v3.1.x/mitglieder/img/WiedervorlageView.png)
 
 Die Wiedervorlage Termine werden auch im Jameica-Kalender angezeigt.
-

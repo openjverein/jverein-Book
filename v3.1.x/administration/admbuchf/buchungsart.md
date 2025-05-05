@@ -1,4 +1,4 @@
-# Buchungsart
+# Buchungsarten
 
 ## Allgemeines
 
@@ -8,25 +8,24 @@
 
 Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigationsbaum angezeigt werden.
 
-![](img/BuchungsartenListeView.png)
+![](../../../allgemeine-funktionen/administration/admbuchf/img/BuchungsartenListeView.png)
 
 Über den Neu Button können neue Buchungsarten erzeugt werden.
 
 Über das Kontextmenü können bestehende Buchungsarten bearbeitet und gelöscht werden.
 
-
 Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
-![](img/Buchungsartenpdf.png)
+![](<../../../allgemeine-funktionen/administration/admbuchf/img/Buchungsartenpdf (1).png>)
 
 ## Buchungsart
 
 Mit Neu kann eine neue Buchungsart eingerichtet werden. Jeder Buchungsart wird eine Nummer zugeordnet. Diese Nummer dient der Sortierung in der Buchungsliste. Z. B. werden den Einnahmen die 1.000er Nummern, den Ausgaben die 2.000er und den Umbuchungen die 3.000er gegeben.
 
-![](img/Buchungsart.png)
-
+![](../../../allgemeine-funktionen/administration/admbuchf/img/Buchungsart.png)
 
 Eine Buchungsart hat folgende Parameter:
+
 * Nummer
 * Bezeichnung
 * Art: Für jede Buchungsart wird die Art "Einnahme", "Ausgabe" oder "Umbuchung" ausgewählt
@@ -57,7 +56,7 @@ Beim SKR 42 ist die feste Zuordnung zwischen Buchungsart und Buchungsklasse nich
 
 In JVerein gibt es ab 2.8.23 die Möglichkeit die feste Zuordnung zwischen Buchungsart und Buchungsklasse aufzuheben. Hierzu gibt es einen neuen Schalter in Administration->Einstellungen->[Buchführung](../einstellungen/buchfuehrung.md).
 
-Ist dieser Schalter nicht selektiert ist das Verhalten von JVerein so wie bisher. Wird der Schalter aktiviert ist die feste Zuordnung aufgehoben. Jetzt erscheint in den Buchungen neben der Buchungsart auch die Buchungsklasse. Das gleiche gilt für alle Dialoge bei denen bisher nur die Buchungsart  eingegeben wurde. Hier muss auch immer die Buchungsklasse zusätzlich eingegeben werden.
+Ist dieser Schalter nicht selektiert ist das Verhalten von JVerein so wie bisher. Wird der Schalter aktiviert ist die feste Zuordnung aufgehoben. Jetzt erscheint in den Buchungen neben der Buchungsart auch die Buchungsklasse. Das gleiche gilt für alle Dialoge bei denen bisher nur die Buchungsart eingegeben wurde. Hier muss auch immer die Buchungsklasse zusätzlich eingegeben werden.
 
 Um den Konfigurationsaufwand zu minimieren kann man weiterhin eine Buchungsklasse bei der Buchungsart setzen. Dieses ist aber keine feste Zuordnung. Die Buchungsklasse wird nur als Defaultwert verwendet.
 
@@ -78,6 +77,3 @@ Dieses ist aber nur ein Problem der Anzeige. Möchte man ein altes Buchungsklass
 Wegen dem unterschiedlichen Handling muss ein Wechsel der Kontenrahmen Art bzw. das Auflösen der festen Zuordnung an einem Wechsel des Geschäftsjahres passieren. Damit kann man das alte Geschäftsjahr abschließen und dann das neue mit dem neuen Kontenrahmen starten.
 
 Alte Buchungsarten die dann nicht mehr benutzt werden kann man deaktivieren.
-
-
-

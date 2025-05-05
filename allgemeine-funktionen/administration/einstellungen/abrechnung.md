@@ -1,6 +1,6 @@
 # Abrechnung
 
-![](img/Abrechnung.png)
+![](../../../v3.0.x/administration/einstellungen/img/Abrechnung.png)
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../../allgemein/beitragsmodelle.md)
 
@@ -14,7 +14,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](img/SepaSupportedVersions.png)
+![](../../../v3.0.x/administration/einstellungen/img/SepaSupportedVersions.png)
 
 ## Arbeitsstundenmodell
 
@@ -37,4 +37,3 @@ Hier können für die Verwendung in gestaffelten Beiträgen die Altersbereiche e
 ## Abrechnungslauf abschließen
 
 Funktionalität zum Abschließen von Abrechnungsläufen einschalten.
-

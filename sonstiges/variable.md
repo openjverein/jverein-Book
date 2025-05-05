@@ -1,4 +1,4 @@
-# Variablen
+# Variable
 
 ## Variablen
 
@@ -6,13 +6,27 @@ Für folgende Zwecke gibt es Variablen, mit Nennung der verfügbaren Variablengr
 
 ## Formulare
 
-Rechnungen, Mahnungen: Allgemein, Rechnung, Mitglied
+Rechnungen, Mahnungen
 
-Spendenbescheinigung, Sammelspendenbescheinigung: Allgemein, Spendenbescheinigung, \(Mitglied wenn einem Mitglied zugeordnet\)
+* [Allgemein](variable.md#allgemeine-variablen)
+* [Rechnung](variable.md#variablen-fur-rechnungen-und-mahnungen-erst-ab-version-3.0.0)
+* [Mitglied](variable.md#mitglieds-variablen)
 
-Pre-Notification: Allgemein, Lastschrift
+Spendenbescheinigung, Sammelspendenbescheinigung
 
-Freie Formulare: Allgemein, Mitglied
+* [Allgemein](variable.md#allgemeine-variablen)
+* [Spendenbescheinigung](variable.md#variablen-fur-spendenbescheinigungen)
+* [Mitglied ](variable.md#mitglieds-variablen)(wenn einem Mitglied zugeordnet)
+
+Pre-Notification
+
+* [Allgemein](variable.md#allgemeine-variablen)
+* [Lastschrift](variable.md#variablen-fur-sepa-prenotification)
+
+Freie Formulare
+
+* [Allgemein](variable.md#allgemeine-variablen)
+* [Mitglied](variable.md#mitglieds-variablen)
 
 ## Sonstige
 
@@ -24,13 +38,13 @@ Rechnung Text bei der Abrechnung: Allgemein, Rechnung, Mitglied
 
 1Ct Überweisung Zahlungsgrund: Allgemein, Lastschrift
 
-Mails \(auch bei Druck & Mail\): Allgemein, Mitglied
+Mails (auch bei Druck & Mail): Allgemein, Mitglied
 
 ### Allgemeine Variablen
 
 * zaehler: Eine fortlaufende natürliche Zahl die bei jeder Verwendung des Formulares um 1 hochgezählt wird (z.B. für Rechnungsnummern).
   * ACHTUNG: Der Zähler wird wirklich bei jeder Verwendung, also bei jedem Erstellen des PDFs hochgezählt. Wenn also die selbe Rechnung oder Spendenbescheinigung mehrfach bei Druck & Mail gedruckt oder versand wird, hat sie einen unterscheidlichen zaehler!
-  * Der Zähler hat eine Mindestlänge. Die Länge wird unter Administration > Einstellungen > Rechnungen > Zählerlänge f  estgelegt. Die Standard-Zählerlänge ist 5.
+  * Der Zähler hat eine Mindestlänge. Die Länge wird unter Administration > Einstellungen > Rechnungen > Zählerlänge f estgelegt. Die Standard-Zählerlänge ist 5.
   * Der Zähler wird mit Nullen (0) als Präfix aufgefüllt bis die Mindestlänge erreicht ist.
   * Der Zähler wird als Spalte "Fortlaufende Nr." in der Formularübersicht ausgegeben.
   * Der Zähler wird beim Anzeigen (Vorschau) von Formularen hochgezählt aber nicht gespeichert.
@@ -45,25 +59,24 @@ Mails \(auch bei Druck & Mail\): Allgemein, Mitglied
 * tagesdatumjjjj Jahr in der Form 2025
 * vormonat Vormonat in der Form 12.2024
 * vorjahr Vorjahr in der Form 2024
-* verein_name Der Vereinsmane wie in den Einstellungen eingetragen
-* verein_strasse Die Strasse wie in den Einstellungen eingetragen
-* verein_plz Die PLZ wie in den Einstellungen eingetragen
-* verein_ort Der Ort wie in den Einstellungen eingetragen
-* verein_staat Der Staat wie in den Einstellungen eingetragen
-* verein_absender Der Vereinsadresse in einer Zeile
-* verein_iban Die IBAN wie in den Einstellungen eingetragen
-* verein_bic Die BIC wie in den Einstellungen eingetragen
-* verein_glaeubiger_id Die Gläubiger-ID wie in den Einstellungen eingetragen
-* verein_ust_id Die USt-Id wie in den Einstellungen eingetragen
-* verein_steuer_nr Die Steuernummer wie in den Einstellungen eingetragen
-
+* verein\_name Der Vereinsmane wie in den Einstellungen eingetragen
+* verein\_strasse Die Strasse wie in den Einstellungen eingetragen
+* verein\_plz Die PLZ wie in den Einstellungen eingetragen
+* verein\_ort Der Ort wie in den Einstellungen eingetragen
+* verein\_staat Der Staat wie in den Einstellungen eingetragen
+* verein\_absender Der Vereinsadresse in einer Zeile
+* verein\_iban Die IBAN wie in den Einstellungen eingetragen
+* verein\_bic Die BIC wie in den Einstellungen eingetragen
+* verein\_glaeubiger\_id Die Gläubiger-ID wie in den Einstellungen eingetragen
+* verein\_ust\_id Die USt-Id wie in den Einstellungen eingetragen
+* verein\_steuer\_nr Die Steuernummer wie in den Einstellungen eingetragen
 
 ### Mitglieds Variablen
 
 * mitglied\_empfaenger Formatierte Anschrift -> Erste Zeile: Herr Frau / Zweite Zeile: Vorname Nachname / ...
 * mitglied\_anrede
-* mitglied\_anrede\_du Informelle Anrede \(Hallo ...\)
-* mitglied\_anrede\_foermlich Name mit förmlicher Anrede \(Sehr geehrter ...\)
+* mitglied\_anrede\_du Informelle Anrede (Hallo ...)
+* mitglied\_anrede\_foermlich Name mit förmlicher Anrede (Sehr geehrter ...)
 * mitglied\_titel Titel
 * mitglied\_name Name
 * mitglied\_namevorname Name, Vorname
@@ -109,9 +122,9 @@ Mails \(auch bei Druck & Mail\): Allgemein, Mitglied
 * mitglied\_externe\_mitgliedsnummer externe Mitgliedsnummer
 * mitglied\_id Interne Mitgliedsnummer
 * mitglied\_individuellerbeitrag Individueller Beitrag
-* mitglied_eigenschaft_???? Statt ???? steht eine Eigenschaft, die Sie für Mitglieder definiert haben. Ist die Eigenschaft für dieses Mitglied gesetzt wird als Wert ein X angegeben.
-* mitglied_zusatzfeld_???? Statt ???? steht der Name des Zusatzfeldes.
-* mitglied_lesefelder_???? Statt ???? steht der Name des Lesefeldes.
+* mitglied\_eigenschaft\_???? Statt ???? steht eine Eigenschaft, die Sie für Mitglieder definiert haben. Ist die Eigenschaft für dieses Mitglied gesetzt wird als Wert ein X angegeben.
+* mitglied\_zusatzfeld\_???? Statt ???? steht der Name des Zusatzfeldes.
+* mitglied\_lesefelder\_???? Statt ???? steht der Name des Lesefeldes.
 
 Die Daten des Kontoinhabers
 
@@ -127,7 +140,7 @@ Die Daten des Kontoinhabers
 * mitglied\_kontoinhaber\_ort
 * mitglied\_kontoinhaber\_staat
 * mitglied\_kontoinhaber\_email
- 
+
 ### Variablen für Spendenbescheinigungen
 
 * spendenbescheinigung\_anrede: Zusammengesetzer Wert aus Zeile 1 und 2
@@ -137,14 +150,14 @@ Die Daten des Kontoinhabers
   * Ab 01.01.2013 neues Formula
 * spendenbescheinigung\_betrag: Betrag aus der Spendenbescheinigun
 * spendenbescheinigung\_betraginworten: Betrag aus der Spendenbescheinigung in Worten
-* spendenbescheinigung\_spendenart: Art aus der Spendenbescheinigung \(Geldspende, Sachspende\
-* spendenbescheinigung\_spendedatum: Datum der Spende \(Einzelspendenbescheinigung\) oder Festtext: "s. Anlage" \(Sammelspendenbescheinigung\
-* spendenbescheinigung\_spendenzeitraum: Zeitraum der Spenden \(Sammelspendenbescheinigung\) "&lt;Datum der ersten Buchung&gt; bis &lt;Datum der letzten Buchung&gt;". Hinweis: ab 2013 muss dieser Zeitraum auf der ersten Seite angegeben werden
+* spendenbescheinigung\_spendenart: Art aus der Spendenbescheinigung (Geldspende, Sachspende\\
+* spendenbescheinigung\_spendedatum: Datum der Spende (Einzelspendenbescheinigung) oder Festtext: "s. Anlage" (Sammelspendenbescheinigung\\
+* spendenbescheinigung\_spendenzeitraum: Zeitraum der Spenden (Sammelspendenbescheinigung) "\<Datum der ersten Buchung> bis \<Datum der letzten Buchung>". Hinweis: ab 2013 muss dieser Zeitraum auf der ersten Seite angegeben werden
 * spendenbescheinigung\_ersatzaufwendungen: Kennzeichen, ob es sich auf einen "Verzicht auf Erstattung von Aufwendungen" handel
   * Bis 31.12.2012: "X", wenn das Häkchen gesetzt ist
   * Ab 01.01.2013: "Ja", wenn das Häkchen gesetzt ist, sonst "Nein"
-* spendenbescheinigung\_ersatzaufwendungen_ja ab 01.01.2013: "X", wenn das Häkchen gesetzt ist
-* spendenbescheinigung\_ersatzaufwendungen_nein ab 01.01.2013: "X", wenn das Häkchen gesetzt ist
+* spendenbescheinigung\_ersatzaufwendungen\_ja ab 01.01.2013: "X", wenn das Häkchen gesetzt ist
+* spendenbescheinigung\_ersatzaufwendungen\_nein ab 01.01.2013: "X", wenn das Häkchen gesetzt ist
 * spendenbescheinigung\_buchungsliste: Für Sammelbestätigungen die aufbereitete Liste der Buchungen, die bescheinigt werden
   * Bis 31.12.2012: alte Variante, Liste mit folgenden Spalten
     * Datum Betrag Verwendun
@@ -155,30 +168,30 @@ Die Daten des Kontoinhabers
     * Summenzeil
     * In den Spalten "Verwendung" und "Art der Zuwendung" wird in Abhängigkeit von der Einstellungen "Spendenbescheinigung / Buchungsart drucken" entweder der Name der Buchungsart oder der Zweck aus der Buchung verwendet
     * Die Splaten sind auch einzeln Verfügbar als:
-      * spendenbescheinigung\_buchungsliste_daten
-      * spendenbescheinigung\_buchungsliste_art
-      * spendenbescheinigung\_buchungsliste_verzicht
-      * spendenbescheinigung\_buchungsliste_betrag
+      * spendenbescheinigung\_buchungsliste\_daten
+      * spendenbescheinigung\_buchungsliste\_art
+      * spendenbescheinigung\_buchungsliste\_verzicht
+      * spendenbescheinigung\_buchungsliste\_betrag
 * spendenbescheinigung\_bezeichnungsachzuwendung: Bezeichung des Gegenstandes aus der Spendenbescheinigun
 * spendenbescheinigung\_herkunftsachzuwendung
-  * Bis 31.12.2012: Herkunft des Gegenstandes aus der Spendenbescheinigung \(keine Angaben, Privatvermögen, Betriebsvermögen\)
+  * Bis 31.12.2012: Herkunft des Gegenstandes aus der Spendenbescheinigung (keine Angaben, Privatvermögen, Betriebsvermögen)
   * Ab 01.01.2013: Herkunft des Gegenstandes aus der Spendenbescheinigung, Festtexte
     * bei keine Angaben: "Der Zuwendende hat trotz Aufforderung keine Angaben zur Herkunft der Sachzuwendung gemacht.
     * bei Privatvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Privatvermögen.
     * bei Betriebsvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Betriebsvermögen und is
-    * mit dem Entnahmewert \(ggf. mit dem niedrigeren gemeinen Wert\) bewertet.
+    * mit dem Entnahmewert (ggf. mit dem niedrigeren gemeinen Wert) bewertet.
 * spendenbescheinigung\_unterlagenwertermittlung: Wenn das Kennzeichen in der Spendenbescheinigung gesetzt ist, der Festtext: "Geeignete Unterlagen, die zur Wertermittlung gedient haben, z. B. Rechnung, Gutachten, liegen vor.
-* spendenbescheinigung\_zeile1 - spendenbescheinigung_zeile7: Wert der entsprechenden Zeil
+* spendenbescheinigung\_zeile1 - spendenbescheinigung\_zeile7: Wert der entsprechenden Zeil
 * spendenbescheinigung\_finanzamt das Finanzamt wie in den Einstellungen hinterlegt
 * spendenbescheinigung\_steuer\_nummmer die Steuernummer wie in den Einstellungen hinterlegt
 * spendenbescheinigung\_datum\_bescheid das Bescheiddatum vom Finanzamt wie in den Einstellungen hinterlegt
 * spendenbescheinigung\_veranlagungszeitraum der Veranlagungszeitraum wie in den Einstellungen hinterlegt
-* spendenbescheinigung\_beguenstigter_zweck der begünsigte Zweck wie in den Einstellungen hinterlegt
+* spendenbescheinigung\_beguenstigter\_zweck der begünsigte Zweck wie in den Einstellungen hinterlegt
 * spendenbescheinigung\_unterschrift die Unterschrift wie in den Einstellungen hinterlegt
 
-### Variablen für Rechnungen und Mahnungen \(Erst ab Version 3.0.0\)
+### Variablen für Rechnungen und Mahnungen (Erst ab Version 3.0.0)
 
-Folgende Formularfelder stehen für Rechnungen zur Verfügung \(die alten Variablen die mit "mitgliedskonto_" beginnen sollten ab Version 3.0.0 nicht mehr verwendet werden\):
+Folgende Formularfelder stehen für Rechnungen zur Verfügung. Variablen, die mit "mitgliedskonto\_" beginnen, sollen ab Version 3.0.0 nicht mehr verwendet werden:
 
 * Für jede Rechnungspositionen wird jeweils eine Zeile zu folgenden Variablen hinzugefügt:
   * rechnung\_zahlungsgrund Der Zahlungsgrund
@@ -188,12 +201,12 @@ Folgende Formularfelder stehen für Rechnungen zur Verfügung \(die alten Variab
   * rechnung\_steuerbetrag Bruttobetrag
 * rechnung\_betrag Die Rechnungssumme
 * rechnung\_ist Der bereits bezahlte Betrag
-* rechnung\_stand Der Forderungsstand \(Ist - Rechnungsbetrag\)
-* rechnung\_summe\_offen Der noch zu zahlende Rechnungsbetrag \(Rechnungsbetrag - Ist\)
+* rechnung\_stand Der Forderungsstand (Ist - Rechnungsbetrag)
+* rechnung\_summe\_offen Der noch zu zahlende Rechnungsbetrag (Rechnungsbetrag - Ist)
 * qrcode\_summe Der QR-Code
 * qrcode\_intro Text für QR-Code wie in Einstellungen eingestellt
 * rechnung\_datum Rechnungsdatum
-* rechnung\_nummer Rechnungsnummer, eindeutig für jede Rechnung \(sollte statt zaehler verwendet werden\).
+* rechnung\_nummer Rechnungsnummer, eindeutig für jede Rechnung (sollte statt zaehler verwendet werden).
 
 sowie alle Felder des Zahlungspflichtigen:
 
@@ -222,7 +235,7 @@ sowie alle Felder des Zahlungspflichtigen:
 
 Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
-* lastschrift\_empfaenger: Empfänger der PreNotification \(=Kontoinhaber\), formatiert für ein Adressfeld.
+* lastschrift\_empfaenger: Empfänger der PreNotification (=Kontoinhaber), formatiert für ein Adressfeld.
 * lastschrift\_verwendungszweck: Der Verwendungszweck wie per SEPA ausgegeben.
 * lastschrift\_mandatid: Die Mandatsreferenz
 * lastschrift\_mandatdatum: Datum des SEPA-Lastschrift-Mandats
@@ -233,7 +246,7 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 * lastschrift\_abrechnungslauf\_datum: Datum des Abrechnungslaufs.
 * lastschrift\_abrechnungslauf\_faelligkeit: Das Buchungsdatum der Lastschrift.
 
-sowie alle Felder des Zahlungspflichtigen \(=Kontoinhaber\) 
+sowie alle Felder des Zahlungspflichtigen (=Kontoinhaber)
 
 * lastschrift\_anrede\_du
 * lastschrift\_anrede\_foermlich
@@ -254,14 +267,14 @@ sowie alle Felder des Zahlungspflichtigen \(=Kontoinhaber\)
 ## Abrechnungs Variablen
 
 * abrechnungsparameter\_abrechnungsmodus Text des Abrechnungsmodus
-* abrechnungsparameter\_abrechnungsmonat Abrechnungsmonat \(nur bei entsprechendem Beitragsmodell\)
+* abrechnungsparameter\_abrechnungsmonat Abrechnungsmonat (nur bei entsprechendem Beitragsmodell)
 * abrechnungsparameter\_faelligkeit Fälligkeit
 * abrechnungsparameter\_stichtag Stichtag
 * abrechnungsparameter\_vondatum Von-Datum bei Abrechnung von neu eingetretenen Mitgliedern
 * abrechnungsparameter\_bisdatum Bis-Datum bei Abrechnung von ausgetretenen Mitgliedern
-* abrechnungsparameter\_stichtag\_monat Der Monat des Stichtags im Format 01 \(Erst ab Version 3.0.0\)
-* abrechnungsparameter\_stichtag\_monat\_text Der Monatsname des Stichtages z.B. Januar \(Erst ab Version 3.0.0\)
-* abrechnungsparameter\_stichtag\_jahr Das Jahr des Stichtages z.B. 2025 \(Erst ab Version 3.0.0\)
+* abrechnungsparameter\_stichtag\_monat Der Monat des Stichtags im Format 01 (Erst ab Version 3.0.0)
+* abrechnungsparameter\_stichtag\_monat\_text Der Monatsname des Stichtages z.B. Januar (Erst ab Version 3.0.0)
+* abrechnungsparameter\_stichtag\_jahr Das Jahr des Stichtages z.B. 2025 (Erst ab Version 3.0.0)
 * abrechnungsparameter\_verwendungszweck Der Zahlugsgrund
 * abrechnungsparameter\_zusatzbetraege Merkmal, ob Zusatzbeträge abgerechnet werden sollen
 * abrechnungsparameter\_kursteilnehmer Merkmal, ob Kursteilnehmer abgerechnet werden sollen

@@ -4,23 +4,25 @@
 
 Zusatzbetrag Vorlagen lassen sich beim Erstellen eines neuen Zusatzbetrages auswählen.
 
-### Erstellung 
+### Erstellung
 
 Die Zusatzbeträge können erstellt werden
-* über den Zusatzbetrag zuordnen Dialog aus dem Mitglied Menü (siehe [Mitglied Zusatzbetrag zuordnen](content/mitglieder.md)) 
-* beim Anlegen eines Zusatzbetrags beim Mitglied  (siehe [Zusatzbeträge](content/zusatzbeitraege.md)) 
-* beim Speichern eines Zusatzbetrags  (siehe [Zusatzbeträge](zusatzbetrage.md)) 
+
+* über den Zusatzbetrag zuordnen Dialog aus dem Mitglied Menü (siehe [Mitglied Zusatzbetrag zuordnen](content/mitglieder.md))
+* beim Anlegen eines Zusatzbetrags beim Mitglied (siehe [Zusatzbeträge](../../v3.0.x/mitglieder/content/zusatzbeitraege.md))
+* beim Speichern eines Zusatzbetrags (siehe [Zusatzbeträge](zusatzbetrage.md))
 * in der Liste der Zusatzbeträge Vorlagen über den "Neu" Button
 
 ## Liste der Zusatzbeträge Vorlagen
 
 Der Übersicht View für Zusatzbeträge Vorlagen zeigt alle vorhandenen Zusatzbeträge an.
 
-Die Übersicht lässt sich über den Button Vorlagen in der Zusatzbeträge Liste aufrufen (siehe [Zusatzbeträge](zusatzbetrage.md)) . 
+Die Übersicht lässt sich über den Button Vorlagen in der Zusatzbeträge Liste aufrufen (siehe [Zusatzbeträge](zusatzbetrage.md)) .
 
 ![](img/ZusatzBetraegeVorlageListeView.png)
 
 In der Tabelle werden folgende Spalten angezeigt:
+
 * Erste Fälligkeit: Datum der ersten Fälligkeit des Zusatzbetrags
 * Nächste Fälligkeit: Datum der nächsten Fälligkeit. Wird ein Abrechnungslauf mit Fälligkeit zu diesem oder einen späteren Datum durchgeführt, so wird der Zusatzbetrag mit abgerechnet und dieses Feld um das Intervall des Zusatzbetrags erhöht.
 * Intervall für eine periodischen Zusatzbetrag
@@ -33,6 +35,7 @@ In der Tabelle werden folgende Spalten angezeigt:
 Durch einen Doppelklick wird die Bearbeitung einer Zusatzbetrag Vorlage eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
+
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann eine Zusatzbetrag Vorlage gelöscht werden
 

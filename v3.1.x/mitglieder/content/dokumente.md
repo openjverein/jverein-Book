@@ -1,6 +1,6 @@
 # Dokumente
 
-Falls unten den [Einstellungen](../../administration/einstellungen/anzeige.md) Anzeige der Punkt Dokumentenspeicherung aktiviert ist lassen sich hier mitgliedsbezogene Dokumente eingeben.
+Falls unten den [Einstellungen](../../../v3.0.x/administration/einstellungen/anzeige.md) Anzeige der Punkt Dokumentenspeicherung aktiviert ist lassen sich hier mitgliedsbezogene Dokumente eingeben.
 
 Mit dem Button "Neues Dokument" können Dokumente zur Liste hinzugefügt werden.
 

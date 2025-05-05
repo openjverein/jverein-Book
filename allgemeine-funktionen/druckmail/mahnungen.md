@@ -1,4 +1,4 @@
-# Mahnungen drucken/mailen
+# Mahnungen
 
 ## Allgemeines
 
@@ -12,9 +12,9 @@ Möchten Sie eine Mahnung selektiv erstellen, so öffnen Sie den Dialog Sollbuch
 
 Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
-Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob  zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
+Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](img/MahnungenDruckMailView1.png)
+![](../../v3.0.x/druckmail/img/MahnungenDruckMailView1.png)
 
 Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
 
@@ -32,9 +32,10 @@ Um automatisch Mahnungen zu erstellen wählen Sie im Navigations Baum dem Menü 
 
 Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Sollbuchungen Dialog. Es werden dann Mahnungen für alle Sollbuchungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
 
-![](img/MahnungenDruckMailView2.png)
+![](../../v3.0.x/druckmail/img/MahnungenDruckMailView2.png)
 
 Der Filter Bereich bietet folgende Optionen:
+
 * Name: Der Name eine Mitglieds.
 * Differenz: Bei "Fehlbetrag" werden nur Kontoauszüge für Mitglieder erstellt wenn ein Fehlbetrag vorliegt und bei "Überzahlung" nur wenn überzahlt wurde. Bei "Egal" wird nicht auf den Betrag geprüft.
 * Ohne Abbucher: Schließt Mitglieder die per Lastschrift bezahlen aus.

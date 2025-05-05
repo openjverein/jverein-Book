@@ -1,10 +1,10 @@
-# Spendenbescheinigung drucken/mailen
+# Spendenbescheinigungen
 
 ## Spendenbescheinigungen selektiv drucken
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
-![](img/SpendenbescheinigungenListeView.png)
+![](<img/SpendenbescheinigungenListeView (1).png>)
 
 JVerein wird also eine gedruckte Unterschrift nur bei reinen Geldspenden generieren falls gedruckte Unterschrift aktiviert ist.
 
@@ -12,10 +12,9 @@ Möchte man also Spendenbescheinigungen per Mail verschicken geht das nur für e
 
 Mit der Option "Sachspende oder Geldspende mit Erstattungsverzicht" erhält man alle Spendenbescheinigungen für die keine Unterschrift gedruckt wird. Diese müssen ausgedruckt und per Hand unterschrieben werden.
 
-In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung.
+In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu (rechter Mausklick) stehen verschiedene Aktionen zur Verfügung.
 
 Über dem Menüpunk "PDF" kann die Spendenbescheinigung als PDF gedruckt werden. Es wird ein individuelles Formular verwendet welches in der Spendenbescheinigung konfiguriert ist oder ein Standard Ausdruck wenn es so in der Spendenbescheinigung gesetzt ist.
-
 
 ## Spendenbescheinigung selektiv drucken oder per Mail versenden
 

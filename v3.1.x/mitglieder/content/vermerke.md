@@ -1,5 +1,5 @@
 # Vermerke
 
-Vermerke über das Mitglied \(z. B. Funktionen ...\) können in zwei Datenfeldern hinterlegt werden.
+Vermerke über das Mitglied (z. B. Funktionen ...) können in zwei Datenfeldern hinterlegt werden.
 
-![](img/VermerkeTab.png)
+![](<../../../allgemeine-funktionen/mitglieder/content/img/VermerkeTab (1).png>)

@@ -14,7 +14,7 @@ Vor einer Abrechnung sollte die SEPA-Fehlerliste überprüft werden. In der List
 
 ## Abrechnung
 
-Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](abrechnungslauf.md) initiiert. Es können
+Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](../../v3.1.x/abrech/abrechnungslauf.md) initiiert. Es können
 
 * Mitgliedsbeiträge je nach Beitragsmodell
 * Beiträge für im laufenden Jahr eingetretene Mitglieder
@@ -36,7 +36,7 @@ Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
 
 ### Parameter
 
-#### Modus <a id="abrechnungsmodus"></a>
+#### Modus <a href="#abrechnungsmodus" id="abrechnungsmodus"></a>
 
 **Keine Beitragsabrechnung**
 
@@ -44,13 +44,13 @@ Es werden keine Beiträge abgerechnet. Dieser Parameter ist zu setzen, wenn auss
 
 **Alle**
 
-Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../../allgemein/beitragsmodelle.md) abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und Zahlungsrhythmus sowie ggf. individuelle Beiträge berücksichtigt.
+Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../../allgemein/beitragsmodelle.md) abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [Beitragsgruppen](../../v3.1.x/administration/mitglieder/beitragsgruppen.md) und Zahlungsrhythmus sowie ggf. individuelle Beiträge berücksichtigt.
 
 **Eingetretene Mitglieder**
 
 Es werden die neu eingetretenen Mitglieder abgerechnet. JVerein verwendet das Eintrittsdatum zur Selektion der eingetretenen Mitglieder.
 
-Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eintrittsdatum den Tag nach der letzten Abrechnung für eingetretene Mitglieder \(ersatzweise den Tag nach der letzten Abrechnung für Alle\) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
+Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eintrittsdatum den Tag nach der letzten Abrechnung für eingetretene Mitglieder (ersatzweise den Tag nach der letzten Abrechnung für Alle) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
 
 Hinweis: Das Eintrittsdatum wird bei der Migration von Mitgliedern nicht gesetzt.
 
@@ -70,9 +70,9 @@ Stichtag für die Berechnung der Mitgliedschaft und der Fälligkeit von Zusatzbe
 
 #### Zahlungsgrund für Beiträge
 
-Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und dem Betrag\) ausgegeben.
+Hier kann ein Text erfasst werden (z.B. ''Jahresbeitrag 2015''). Dieser Text wird bei Lastschriften im Verwendungszweck (hier zwischen der Bezeichnung der [Beitragsgruppen](../../v3.1.x/administration/mitglieder/beitragsgruppen.md) und dem Betrag) ausgegeben.
 
-Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)\).
+Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird (Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)).
 
 Für den Verwendungszeck können auch Variablen verwendet werden. Siehe [Variablen](../../sonstiges/variable.md). (Auch im Zweck des Zusatzbetrages können Variablen enthalten sein die hier mit geparst werden)
 
@@ -88,11 +88,11 @@ Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, 
 
 #### Sollbuchung(en) zusammenfassen
 
-Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Sollbuchung zusammengefasst.
+Alle Abbuchungen eines Mitgliedes (Beträge und Zusatzbeträge) werden in eine Sollbuchung zusammengefasst.
 
 #### Kompakte Abbuchung(en)
 
-Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Lastschrift zusammengefasst.
+Alle Abbuchungen eines Mitgliedes (Beträge und Zusatzbeträge) werden in eine Lastschrift zusammengefasst.
 
 #### SEPA-Check temporär deaktivieren
 
@@ -112,7 +112,7 @@ Hier kann ausgewählt werden ob mit dem Abrechnungslauf auch gleich Rechnungen f
 
 Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
 
-Die IBAN in den Stammdaten \(siehe [Einstellungen](../administration/einstellungen/allgemein.md)\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
+Die IBAN in den Stammdaten (siehe [Einstellungen](../../v3.1.x/administration/einstellungen/allgemein.md)), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
 
 Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
 
@@ -134,6 +134,6 @@ Das Rechnungsdatum.
 
 ### Weitere Informationen
 
-Verwandte Themen: [Abrechnungslauf](abrechnungslauf.md), [Pre-Notification](../druckmail/pre-notification.md), [Rücklastschrift](rucklastschrift.md), [Rechnungen](../druckmail/rechnungen.md), [Mahnungen](../druckmail/mahnungen.md), [Sollbuchungen](../mitglieder/mitgliedskonto.md)
+Verwandte Themen: [Abrechnungslauf](../../v3.1.x/abrech/abrechnungslauf.md), [Pre-Notification](../../v3.1.x/druckmail/pre-notification.md), [Rücklastschrift](../../v3.1.x/abrech/rucklastschrift.md), [Rechnungen](../../v3.1.x/druckmail/rechnungen.md), [Mahnungen](../../v3.1.x/druckmail/mahnungen.md), [Sollbuchungen](../mitglieder/mitgliedskonto.md)
 
 [https://de.wikipedia.org/wiki/Bankarbeitstag](https://de.wikipedia.org/wiki/Bankarbeitstag)

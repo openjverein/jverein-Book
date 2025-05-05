@@ -12,21 +12,21 @@ Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, 
 
 ## Liste der Kursteilnehmer
 
-![](img/KursteilnehmerListeView.png)
+![](../../v3.1.x/mitglieder/img/KursteilnehmerListeView.png)
 
 Mit dem Button Neu kann ein neuer Kursteilnehmer eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung eines Kursteilnehmer eingeleitet.
 
 Das Kursteilnehmer Menü hat folgende Einträge:
+
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Abbuchungsdatum löschen
 * Zu Mitglied übernehmen
 * Löschen: Damit kann ein Kursteilnehmer gelöscht werden
- 
+
 ## Kursteilnehmer
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/KursteilnehmerView.png)
-
+![](../../v3.1.x/mitglieder/img/KursteilnehmerView.png)

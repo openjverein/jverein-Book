@@ -21,7 +21,7 @@ Sofern vor dem Import Zusatzfelder definiert wurden, können diese auch importie
 
 Die Eingabedatei muss ISO-8859-1-codiert sein.
 
-<figure><img src="../../.gitbook/assets/ImportMenüpunkt.JPG" alt=""><figcaption><p>Menüpunkt Import</p></figcaption></figure>
+<figure><img src="../../../v2.9.0/.gitbook/assets/ImportMen%C3%BCpunkt.JPG" alt=""><figcaption><p>Menüpunkt Import</p></figcaption></figure>
 
 Vor jedem Import sollten Sie sich im klaren sein, welche Einstellungen sie vorgenommen haben. Z.B. wenn sie Eintrittsdatum als Pflichtfeld definieren, dann muss für jedes Mitglied das Eintrittsdatum auch definiert sein. Außerdem sollten sie die, in der Tabelle definierte, maximale Länge, die jeder Eintrag haben darf, berücksichtigen. Wenn Sie dann noch die unterstützten Formate berücksichtigen sollte einem Import nicht mehr viel im Weg stehen.
 
@@ -394,7 +394,7 @@ int(11) DEFAULT NULL
 <summary>Zahlungstermin</summary>
 
 **Inhalt:**\
-1 = monatlich, \
+1 = monatlich,\
 31 = Vierteljährlich (Jan./Apr./Juli/Okt)\
 32 = Vierteljährlich (Feb./Mai /Aug./Nov.)\
 33 = Vierteljährlich (März/Juni/Sep./Dez.)\
@@ -793,10 +793,6 @@ Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Straße;Plz;Ort;Geburtsdatum;Geschlec
 22;Herrn;Dr.;Meier;Hans;Ackerstr.1;12345;Testenhausen;22.02.1970;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;l;01234-56789;;hans.meier@web.de;01.01.2000;Erwachsene;22,00;;;
 ```
 
-{% file src="../../.gitbook/assets/ImportNurPflichtfelder.csv" %}
-CSV-Datei welche nur die Pflichtfelder enthält
-{% endfile %}
-
 ### Mit allen Feldern (außer Eigenschaften)
 
 ```
@@ -804,15 +800,11 @@ Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Stra�
 22;Herrn;n;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;1;l;12;1201;;;;;;;;;;;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
 ```
 
-{% file src="../../.gitbook/assets/ImportAlleFelder.csv" %}
-CSV-Datei welche alle Felder außer Eigenschaften enthält
-{% endfile %}
-
 ## Vorbereiten einer Mitgliederdatei in Office
 
 In LibreOffice/OpenOffice/Excel müssen in der ersten Zeile die Feld- bzw- Spaltenbezeichnungen stehen und zwar genau in der oben angegebenen Schreibweise. Auf jeden Fall müssen Spalten für alle Pflichtfelder angelegt werden. Es können aber auch für alle Felder Spalten vorhanden sein, die dann leer bleiben.
 
-![](img/Dateiaufbau.png)
+![](<../../../allgemeine-funktionen/administration/erweitert/img/Dateiaufbau (2).png>)
 
 Standardmäßig müssen "Geburtsdatum" und "Eintritt" (Eintrittsdatum) angegeben werden. Unter Administration->Einstellungen->Anzeige kann dies vorab geändert werden. Speichern nicht vergessen.
 
@@ -821,7 +813,6 @@ In der Spalte "Beitragsart\_1" muss die Bezeichnung einer vorhandenen Beitragsgr
 Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisung oder l für Lastschrift oder Abbuchung oder Bankeinzug. b,u oder l müssen klein geschrieben sein. Wenn l angegeben wird muss auch die IBAN angegeben werden. Ein Feld kann auch leer bleiben, dann wird vom Programm "Barzahlung" angenommen. Keins der Felder darf einen Zeilenumbruch beinhalten. Dies führt zu einer nicht importierbaren CSV Datei.
 
 Beim speichern als CSV Datei (Comma Seperated Values) muss man zumindest in LibreOffice einen Haken bei "Edit filter settings" machen, um weitere Einstellungen vornehmen zu können.
-
 
 ## Anfängerfehler beim Importieren
 

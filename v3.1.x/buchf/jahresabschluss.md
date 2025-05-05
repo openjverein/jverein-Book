@@ -1,10 +1,10 @@
-# Jahresabschluss
+# Jahresabschlüsse
 
 ## Liste der Jahresabschlüsse
 
 Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
-![](img/JahresAbschluesseView.png)
+![](../../v3.0.x/buchf/img/JahresAbschluesseView.png)
 
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
@@ -20,7 +20,7 @@ Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erf
 
 Durch eine Klick auf Neu kann ein neuer Jahresabschluss vorgenommen werden:
 
-![](img/JahresabschlussView.png)
+![](../../v3.0.x/buchf/img/JahresabschlussView.png)
 
 Der Jahresabschluss zeigt den Zeitraum des Jahresabschlusses an. Es ist das Geschäftsjahr nach dem letzten Abschluss.
 
@@ -28,15 +28,15 @@ Bei Name sollte der Name desjenigen eingetragen werden, der den Abschluss durchf
 
 Tipp: Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit werden die Endstände in der Liste der Anfangsbestände abgespeichert und als Basis für das nächste Geschäftsjahr verwendet. Auch das Anlagenverzeichnis verwendet die Anfangsbestände.
 
-Ist in den [Einstellungen](../administration/einstellungen/anzeige.md) der Ort der Abschreibung auf "Checkbox in Jahresabschluss" konfiguriert, wird hier auch die Checkbox "Erzeuge Abschreibungen" sichtbar. Ist sie gewählt, werden automatisch die AfA Abschreibungen generiert.
+Ist in den [Einstellungen](../../v3.0.x/administration/einstellungen/anzeige.md) der Ort der Abschreibung auf "Checkbox in Jahresabschluss" konfiguriert, wird hier auch die Checkbox "Erzeuge Abschreibungen" sichtbar. Ist sie gewählt, werden automatisch die AfA Abschreibungen generiert.
 
 **PS: Die AfA Buchungen sind in der angezeigten Tabelle noch nicht enthalten, da sie erst beim Speichern generiert werden.**
 
 Die Felder:
+
 * Rest Verwendungsrückstand aus dem Vorjahr
 * Zwanghafte satzungsgemäße Weitergabe von Mitteln
 
-werden nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert ist.
+werden nur angezeigt wenn [Mittelverwendung](../../v3.0.x/buchf/mittelverwendung.md) aktiviert ist.
 
-Das gleiche gilt für den Pfeil Button links neben dem Speichern Button. Sie  [Mittelverwendung](mittelverwendung.md) für die Bedeutung dieses Buttons.
-
+Das gleiche gilt für den Pfeil Button links neben dem Speichern Button. Sie [Mittelverwendung](../../v3.0.x/buchf/mittelverwendung.md) für die Bedeutung dieses Buttons.
