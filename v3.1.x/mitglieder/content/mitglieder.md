@@ -30,7 +30,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
-Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](broken-reference)
+Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](../import.md)
 
 Unter Administration->Einstellungen->Mitglieder Spalten lassen sich die die angezeigten Spalten konfigurieren.
 

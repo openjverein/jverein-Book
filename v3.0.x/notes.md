@@ -30,7 +30,7 @@ Die Sollbuchungspositionen werden dann als Rechnungspositionen in die Rechnung a
 
 Durch die Änderungen gibt es Änderungen bei den Formularfelder und es wird empfohlen, neue Rechnungsformulare zu erstellen. Vorlagen werden demnächst in der DOKU zu finden sein.
 
-Siehe [Rechnung](../v3.1.x/mitglieder/rechnung.md).
+Siehe [Rechnung](mitglieder/rechnung.md).
 
 ### E-Rechnung
 
