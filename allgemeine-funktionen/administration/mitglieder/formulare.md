@@ -2,18 +2,17 @@
 
 ## Allgemeines
 
-In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../../v3.0.x/druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../../v3.0.x/druckmail/freiesformular.md) hinterlegt.
+In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke  [Freie Formulare](../../druckmail/freiesformular.md) hinterlegt.
 
 ## Liste der Formulare
 
-![](../../../v3.0.x/administration/mitglieder/img/Formulare.png)
+![](img/Formulare.png)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung eines Formular eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
-
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Anzeigen: Das fertige Formular wird als PDF generiert und angezeigt
 * Duplizieren: Es wird eine Kopie des Formulars erzeugt
@@ -25,7 +24,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](<img/Formular (1).png>)
+![](img/Formular.png)
 
 ## Formular Attribute
 
@@ -36,7 +35,6 @@ Name des Formulars.
 ### Art
 
 Art des Formulars. Es gibt an für welche Ausgabe das Formular verwendet werden kann. Optionen sind:
-
 * Spendenbescheinigung
 * Rechnung
 * Mahnung
@@ -48,15 +46,15 @@ Art des Formulars. Es gibt an für welche Ausgabe das Formular verwendet werden 
 
 Hintergrund Datei für das Formular.
 
-Man erstelle ein einfaches Dokument/Formular in Word, Open-/LibreOffice oder was auch immer (Dankeschönschreiben, Rundschreiben, whatsoever...) und lasse an den entsprechenden Stellen im Schreiben einfach leeren Platz (weisse unbeschriebene Stellen) als Platzhalter für die später von JVerein einzufügenden Daten.
+Man erstelle ein einfaches Dokument/Formular in Word, Open-/LibreOffice oder was auch immer \(Dankeschönschreiben, Rundschreiben, whatsoever...\) und lasse an den entsprechenden Stellen im Schreiben einfach leeren Platz \(weisse unbeschriebene Stellen\) als Platzhalter für die später von JVerein einzufügenden Daten.
 
 Macht Euch hier genau Gedanken, wie Euer Formular aussehen soll und was Ihr später alles an Daten einfügen möchtet.
 
 Bitte in der Textverarbeitungssoftware KEIN FORMULAR erstellen - nur einfach ein Dokument mit weißen/leeren Stellen als Platzhalter für später!! Das reicht.
 
-Nun muss aus dem Dokument noch ein PDF gemacht werden. Das geht mit einem virtuellen PDF-Drucker (z.B. FreePDF XP oder PDFCreator) oder mit Adobe Acrobat (nicht mit dem Reader, der kann halt nur lesen :-) ) oder einfach in Open-/LibreOffice mit dem PDF-Export. Das fertige PDF (mit den weißen/leeren Stellen für die späteren Daten aus jVerein) hat keinerlei Funktionen eingebaut (keine Formularfelder, nur weiße/leere Stellen im Text an der richtigen Stelle).
+Nun muss aus dem Dokument noch ein PDF gemacht werden. Das geht mit einem virtuellen PDF-Drucker \(z.B. FreePDF XP oder PDFCreator\) oder mit Adobe Acrobat \(nicht mit dem Reader, der kann halt nur lesen :-\) \) oder einfach in Open-/LibreOffice mit dem PDF-Export. Das fertige PDF \(mit den weißen/leeren Stellen für die späteren Daten aus jVerein\) hat keinerlei Funktionen eingebaut \(keine Formularfelder, nur weiße/leere Stellen im Text an der richtigen Stelle\).
 
-Dann erstellt man in JVerein unter "Administration->Formulare" ein neues Formular. Dazu unten auf "neu" gehen, Bezeichnung und Art auswählen ("Art" gibt an, wann und wo dieses Formular in JVerein verfügbar sein wird).
+Dann erstellt man in JVerein unter "Administration-&gt;Formulare" ein neues Formular. Dazu unten auf "neu" gehen, Bezeichnung und Art auswählen \("Art" gibt an, wann und wo dieses Formular in JVerein verfügbar sein wird\).
 
 Nun noch die gerade erstellte PDF-Datei auswählen und auf "speichern" klicken.
 
@@ -78,15 +76,16 @@ Das fertige Formular wird als PDF generiert und angezeigt.
 
 Nach Eingabe oder ändern der Formular Attribute muss das Formular gespeichert werden.
 
+
 ## Formularfelder
 
 Bevor Formularfelder angelegt werden können muss das Formular gespeichert werden.
 
 Nun kommt die eigentliche Arbeit:
 
-Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
+Bei den Formularfelder Buttons  klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: \(Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen\)
 
-![](<img/Formularfeld (1).png>)
+![](img/Formularfeld.png)
 
 ### Name
 
@@ -98,7 +97,7 @@ Seite auf der das Formularfeld platziert werden soll.
 
 ### Von links, Von unten
 
-Dieses Datenfeld müsst Ihr nun Millimetergenau auf euer gerade eben generiertes PDF händisch setzen. der Punkt (0,0) liegt unten links auf der Seite!
+Dieses Datenfeld müsst Ihr nun Millimetergenau auf euer gerade eben generiertes PDF händisch setzen. der Punkt \(0,0\) liegt unten links auf der Seite!
 
 Tipp: Druckt das Dokument aus und messt mit einem Lineal die Positionen aus.
 
@@ -126,11 +125,13 @@ Exportiert die Formularfelder des aktuellen Formulars.
 
 Importiert Formularfelder aus einer Datei die mit Export erzeugt wurde. Es werden alle bestehenden Formularfelder der aktuellen Formulars vor dem Import gelöscht.
 
+
 ### Neu
 
 Erzeugt ein neues Formularfeld für das aktuelle Formular.
 
 ## Verfügbare Formularfelder
+
 
 ### Allgemeine Formularfelder
 
@@ -151,9 +152,9 @@ Erzeugt ein neues Formularfeld für das aktuelle Formular.
   * Ab 01.01.2013 neues Formular
 * spendenbescheinigung\_betrag: Betrag aus der Spendenbescheinigung
 * spendenbescheinigung\_betraginworten: Betrag aus der Spendenbescheinigung in Worten.
-* spendenbescheinigung\_spendenart: Art aus der Spendenbescheinigung (Geldspende, Sachspende)
-* spendenbescheinigung\_spendedatum: Datum der Spende (Einzelspendenbescheinigung) oder Festtext: "s. Anlage" (Sammelspendenbescheinigung)
-* spendenbescheinigung\_spendenzeitraum: Zeitraum der Spenden (Sammelspendenbescheinigung) "\<Datum der ersten Buchung> bis \<Datum der letzten Buchung>". Hinweis: ab 2013 muss dieser Zeitraum auf der ersten Seite angegeben werden!
+* spendenbescheinigung\_spendenart: Art aus der Spendenbescheinigung \(Geldspende, Sachspende\)
+* spendenbescheinigung\_spendedatum: Datum der Spende \(Einzelspendenbescheinigung\) oder Festtext: "s. Anlage" \(Sammelspendenbescheinigung\)
+* spendenbescheinigung\_spendenzeitraum: Zeitraum der Spenden \(Sammelspendenbescheinigung\) "&lt;Datum der ersten Buchung&gt; bis &lt;Datum der letzten Buchung&gt;". Hinweis: ab 2013 muss dieser Zeitraum auf der ersten Seite angegeben werden!
 * spendenbescheinigung\_ersatzaufwendungen: Kennzeichen, ob es sich auf einen "Verzicht auf Erstattung von Aufwendungen" handelt
   * Bis 31.12.2012: "X", wenn das Häkchen gesetzt ist.
   * Ab 01.01.2013: "Ja", wenn das Häkchen gesetzt ist, sonst "Nein".
@@ -168,14 +169,14 @@ Erzeugt ein neues Formularfeld für das aktuelle Formular.
     * In den Spalten "Verwendung" und "Art der Zuwendung" wird in Abhängigkeit von der Einstellungen "Spendenbescheinigung / Buchungsart drucken" entweder der Name der Buchungsart oder der Zweck aus der Buchung verwendet.
 * spendenbescheinigung\_bezeichnungsachzuwendung: Bezeichung des Gegenstandes aus der Spendenbescheinigung
 * spendenbescheinigung\_herkunftsachzuwendung:
-  * Bis 31.12.2012: Herkunft des Gegenstandes aus der Spendenbescheinigung (keine Angaben, Privatvermögen, Betriebsvermögen)
+  * Bis 31.12.2012: Herkunft des Gegenstandes aus der Spendenbescheinigung \(keine Angaben, Privatvermögen, Betriebsvermögen\)
   * Ab 01.01.2013: Herkunft des Gegenstandes aus der Spendenbescheinigung, Festtexte:
     * bei keine Angaben: "Der Zuwendende hat trotz Aufforderung keine Angaben zur Herkunft der Sachzuwendung gemacht."
     * bei Privatvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Privatvermögen."
     * bei Betriebsvermögen: "Die Sachzuwendung stammt nach den Angaben des Zuwendenden aus dem Betriebsvermögen und ist
-    * mit dem Entnahmewert (ggf. mit dem niedrigeren gemeinen Wert) bewertet."
+    * mit dem Entnahmewert \(ggf. mit dem niedrigeren gemeinen Wert\) bewertet."
 * spendenbescheinigung\_unterlagenwertermittlung: Wenn das Kennzeichen in der Spendenbescheinigung gesetzt ist, der Festtext: "Geeignete Unterlagen, die zur Wertermittlung gedient haben, z. B. Rechnung, Gutachten, liegen vor."
-* spendenbescheinigung\_zeile1 - spendenbescheinigung\_zeile7: Wert der entsprechenden Zeile
+* spendenbescheinigung_zeile1 - spendenbescheinigung_zeile7: Wert der entsprechenden Zeile
 
 ### Formularfelder für Rechnungen
 
@@ -195,7 +196,7 @@ Folgende Formularfelder stehen für Rechnungen zur Verfügung:
 Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
 * tagesdatum: Enthält das aktuelle Datum im Format TT.MM.JJJJ
-* lastschrift\_empfaenger: Empfänger der PreNotification (=Kontoinhaber), formatiert für ein Adressfeld.
+* lastschrift\_empfaenger: Empfänger der PreNotification \(=Kontoinhaber\), formatiert für ein Adressfeld.
 * lastschrift\_verwendungszweck: Der Verwendungszweck wie per SEPA ausgegeben.
 * lastschrift\_mandatid: Die Mandatsreferenz
 * lastschrift\_mandatdatum: Datum des SEPA-Lastschrift-Mandats
@@ -205,16 +206,18 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 * lastschrift\_abrechnungslauf\_nr: Datum des Abrechnungslaufs.
 * lastschrift\_abrechnungslauf\_datum: Datum des Abrechnungslaufs.
 * lastschrift\_abrechnungslauf\_faelligkeit: Das Buchungsdatum der Lastschrift.
-* sowie alle Felder des Zahlungspflichtigen (=Kontoinhaber) aus dem Mitgliedsdatensatz mit jeweils vorangestellten lastschrift\_...
+* sowie alle Felder des Zahlungspflichtigen \(=Kontoinhaber\) aus dem Mitgliedsdatensatz mit jeweils vorangestellten lastschrift\_...
 
 ## Beispiele
 
-![](<img/Formularroh (2).jpg>)
+![](img/Formularroh.jpg)
 
-![](<img/Formularausgefuellt (2).jpg>)
+![](img/Formularausgefuellt.jpg)
 
 ## Freie Formulare
 
 Freie Formulare haben keinen speziellen Zweck und können mit den verfügbaren Variablen belegt werden. Zuerst wird mit einem beliebigen Programm eine Vorlage erstellt im Format .pdf. Die zu füllenden Bereiche werden frei gelassen. Im Bereich Administration/Formulare. Mit "neu" wird ein neues Formular eingepflegt und in der Datenbank verankert. Nachträgliche Änderungen an der Datei haben damit keine Auswirkungen, solange die Datei nicht neu in jVerein eingepflegt wird. In der Liste der Formulare wird das neu angelegte Formular angezeigt. Mit Rechtsklick auf den Eintrag kann man anwählen, ob man Formularfelder auswählen und platzieren will, die Datei mit Dummydaten anzeigen, duplizieren oder löschen will. Um das noch leere Formular mit Feldern zu füllen wählen wir "Formularfelder". Mit "neu" können nun Felder eingefügt werden. Die Variablen werden aus einer Liste ausgewählt und dann durch Abstand zum linken und unteren Seitenrand platziert. Schriftgröße und -art sind wählbar. Mit "anzeigen" kann die korrekte Platzierung geprüft werden. Es werden Dummy-Daten angezeigt.
 
 Die Ausgabe mit echten Daten erfolgt aus der Mitgliederliste. Man filtert geeignet und markiert alle Zeilen, mit dessen Daten das Formular gefüllt werden soll. Ein Rechtsklick mit Auswahl des Formulars erzeugt dann eine PDF-Datei mit entsprechend vielen Seiten.
+
+

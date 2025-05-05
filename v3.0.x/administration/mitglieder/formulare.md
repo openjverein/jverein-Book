@@ -2,18 +2,17 @@
 
 ## Allgemeines
 
-In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../../allgemeine-funktionen/druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../../allgemeine-funktionen/druckmail/freiesformular.md) hinterlegt.
+In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke  [Freie Formulare](../../druckmail/freiesformular.md) hinterlegt.
 
 ## Liste der Formulare
 
-![](../../../v3.1.x/administration/mitglieder/img/Formulare.png)
+![](img/Formulare.png)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung eines Formular eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
-
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Anzeigen: Das fertige Formular wird als PDF generiert und angezeigt
 * Duplizieren: Es wird eine Kopie des Formulars erzeugt
@@ -28,7 +27,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](../../../v3.1.x/administration/mitglieder/img/Formular.png)
+![](img/Formular.png)
 
 ## Formular Attribute
 
@@ -39,7 +38,6 @@ Name des Formulars.
 ### Art
 
 Art des Formulars. Es gibt an für welche Ausgabe das Formular verwendet werden kann. Optionen sind:
-
 * Spendenbescheinigung
 * Rechnung
 * Mahnung
@@ -51,15 +49,15 @@ Art des Formulars. Es gibt an für welche Ausgabe das Formular verwendet werden 
 
 Hintergrund Datei für das Formular.
 
-Man erstelle ein einfaches Dokument/Formular in Word, Open-/LibreOffice oder was auch immer (Dankeschönschreiben, Rundschreiben, whatsoever...) und lasse an den entsprechenden Stellen im Schreiben einfach leeren Platz (weisse unbeschriebene Stellen) als Platzhalter für die später von JVerein einzufügenden Daten.
+Man erstelle ein einfaches Dokument/Formular in Word, Open-/LibreOffice oder was auch immer \(Dankeschönschreiben, Rundschreiben, whatsoever...\) und lasse an den entsprechenden Stellen im Schreiben einfach leeren Platz \(weisse unbeschriebene Stellen\) als Platzhalter für die später von JVerein einzufügenden Daten.
 
 Macht Euch hier genau Gedanken, wie Euer Formular aussehen soll und was Ihr später alles an Daten einfügen möchtet.
 
 Bitte in der Textverarbeitungssoftware KEIN FORMULAR erstellen - nur einfach ein Dokument mit weißen/leeren Stellen als Platzhalter für später!! Das reicht.
 
-Nun muss aus dem Dokument noch ein PDF gemacht werden. Das geht mit einem virtuellen PDF-Drucker (z.B. FreePDF XP oder PDFCreator) oder mit Adobe Acrobat (nicht mit dem Reader, der kann halt nur lesen :-) ) oder einfach in Open-/LibreOffice mit dem PDF-Export. Das fertige PDF (mit den weißen/leeren Stellen für die späteren Daten aus jVerein) hat keinerlei Funktionen eingebaut (keine Formularfelder, nur weiße/leere Stellen im Text an der richtigen Stelle).
+Nun muss aus dem Dokument noch ein PDF gemacht werden. Das geht mit einem virtuellen PDF-Drucker \(z.B. FreePDF XP oder PDFCreator\) oder mit Adobe Acrobat \(nicht mit dem Reader, der kann halt nur lesen :-\) \) oder einfach in Open-/LibreOffice mit dem PDF-Export. Das fertige PDF \(mit den weißen/leeren Stellen für die späteren Daten aus jVerein\) hat keinerlei Funktionen eingebaut \(keine Formularfelder, nur weiße/leere Stellen im Text an der richtigen Stelle\).
 
-Dann erstellt man in JVerein unter "Administration->Formulare" ein neues Formular. Dazu unten auf "neu" gehen, Bezeichnung und Art auswählen ("Art" gibt an, wann und wo dieses Formular in JVerein verfügbar sein wird).
+Dann erstellt man in JVerein unter "Administration-&gt;Formulare" ein neues Formular. Dazu unten auf "neu" gehen, Bezeichnung und Art auswählen \("Art" gibt an, wann und wo dieses Formular in JVerein verfügbar sein wird\).
 
 Nun noch die gerade erstellte PDF-Datei auswählen und auf "speichern" klicken.
 
@@ -81,15 +79,16 @@ Das fertige Formular wird als PDF generiert und angezeigt.
 
 Nach Eingabe oder ändern der Formular Attribute muss das Formular gespeichert werden.
 
+
 ## Formularfelder
 
 Bevor Formularfelder angelegt werden können muss das Formular gespeichert werden.
 
 Nun kommt die eigentliche Arbeit:
 
-Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
+Bei den Formularfelder Buttons  klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: \(Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen\)
 
-![](../../../v3.1.x/administration/mitglieder/img/Formularfeld.png)
+![](img/Formularfeld.png)
 
 ### Name
 
@@ -101,7 +100,7 @@ Seite auf der das Formularfeld platziert werden soll.
 
 ### Von links, Von unten
 
-Dieses Datenfeld müsst Ihr nun Millimetergenau auf euer gerade eben generiertes PDF händisch setzen. der Punkt (0,0) liegt unten links auf der Seite!
+Dieses Datenfeld müsst Ihr nun Millimetergenau auf euer gerade eben generiertes PDF händisch setzen. der Punkt \(0,0\) liegt unten links auf der Seite!
 
 Tipp: Druckt das Dokument aus und messt mit einem Lineal die Positionen aus.
 
@@ -129,6 +128,7 @@ Exportiert die Formularfelder des aktuellen Formulars.
 
 Importiert Formularfelder aus einer Datei die mit Export erzeugt wurde. Es werden alle bestehenden Formularfelder der aktuellen Formulars vor dem Import gelöscht.
 
+
 ### Neu
 
 Erzeugt ein neues Formularfeld für das aktuelle Formular.
@@ -143,14 +143,15 @@ Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter
 
 Einfache Standardrechnung:
 
-{% file src="../../../v3.1.x/administration/mitglieder/img/rechnung-standard.xml" %}
+{% file src="img/rechnung-standard.xml" %}
 Einfache Standardrechnung
 {% endfile %}
 
-![](../../../v3.1.x/administration/mitglieder/img/rechnung-standard.png)
+![](img/rechnung-standard.png)
+
 
 ## Beispiele
 
-![](../../../v3.1.x/administration/mitglieder/img/Formularroh.jpg)
+![](img/Formularroh.jpg)
 
-![](../../../v3.1.x/administration/mitglieder/img/Formularausgefuellt.jpg)
+![](img/Formularausgefuellt.jpg)

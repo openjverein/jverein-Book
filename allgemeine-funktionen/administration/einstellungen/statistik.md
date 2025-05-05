@@ -1,6 +1,6 @@
 # Statistik
 
-![](../../../v3.1.x/administration/einstellungen/img/Statistik.png)
+![](img/Statistik.png)
 
 Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel
 

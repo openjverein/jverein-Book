@@ -1,6 +1,6 @@
 # Buchführung
 
-![](../../../v3.0.x/administration/einstellungen/img/Buchfuehrung.png)
+![](img/Buchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 
@@ -10,11 +10,11 @@ Intervall für aktive Konten. Aktive Konten sind die, deren Auflösung um mehr a
 
 Buchungsarten die seit x Monaten nicht benutzt werden unterdrücken in der Form Monate.
 
-Automatische Übernahme von Buchungen aus Hibiscus (Standard: aktiviert).
+Automatische Übernahme von Buchungen aus Hibiscus \(Standard: aktiviert\).
 
 Automatische Korrektur der Verwendungszwecke aus Hibiscus Buchungen.
 
-Unterdrückung nicht gebuchter Buchungsarten in Listen/Auswertungen (Standard: nicht aktiviert).
+Unterdrückung nicht gebuchter Buchungsarten in Listen/Auswertungen \(Standard: nicht aktiviert\).
 
 Zeige Kontonummer in der Buchungsliste.
 

@@ -1,4 +1,4 @@
-# Datenbank bereinigen
+# Datenbank Bereinigung
 
 Genau wie für Unterlagen aus Papier gelten auch hier gesetzliche Aufbewahrungsfristen. Grundsätzlich gilt: Als Verein müssen Sie alle steuerlich relevanten Vereinsunterlagen für 10 Jahre bzw. 6 Jahre sicher aufbewahren.
 
@@ -16,4 +16,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Jahresabschlüsse
 * Mails
 
-![](../../../v3.1.x/administration/erweitert/img/Bereinigung.png)
+![](img/Bereinigung.png)

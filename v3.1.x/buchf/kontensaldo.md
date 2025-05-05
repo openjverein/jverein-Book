@@ -14,7 +14,7 @@ Mit den den Navigations Pfeilen lässt sich der ausgewählte Bereich nach vorne 
 
 Beginnt das Von Datum an einem Monatsanfang und endet das Bis Datum an einem letzten Tag eines Monats, wird Monatsweise geblättert. Andernfalls mit der Anzahl der Tage des Zeitbereichs.
 
-Sofern kein [Anfangsbestand](../../allgemeine-funktionen/buchf/anfangsbestand.md) vorhanden ist, wird ein entsprechender Hinweis ausgegeben.
+Sofern kein [Anfangsbestand](anfangsbestand.md) vorhanden ist, wird ein entsprechender Hinweis ausgegeben.
 
 Die Daten können im PDF-Format oder CSV-Format ausgegeben werden.
 
@@ -23,3 +23,4 @@ Werden in der Tabelle mehrere Zeilen ausgewählt, werden unten in der Fußzeile 
 ## Rücklagen ohne Berücksichtigung im Saldo
 
 Rücklagenkonten werden im Kontensaldo separat aufgelistet. Sie dienen zur Dokumentation der Rücklagen. Die Gelder selbst sind in den regulären Konten enthalten.
+

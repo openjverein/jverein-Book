@@ -4,24 +4,23 @@ Zur Gruppierung der Eigenschaften können Eigenschaften-Gruppen eingerichtet wer
 
 ## Liste der Eigenschaftengruppen
 
-![](../../../v3.1.x/administration/mitglieder/img/Eigenschaftengruppen.png)
+![](img/Eigenschaftengruppen.png)
 
 Mit Neu kann eine neue Eigenschaftengruppe eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung einer Eigenschaftengruppe eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
-
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann eine Eigenschaftengruppe, deren keine Eigenschaft zugeordnet ist, gelöscht werden. Bei zugeordneten Eigenschaften erscheint eine Fehlermeldung
 
 ## Eigenschaftengruppe
 
-![](../../../v3.1.x/administration/mitglieder/img/Eigenschaftengruppe.png)
+![](img/Eigenschaftengruppe.png)
 
-Den Eigenschaften-Gruppen gibt man mit, ob sie Pflichtfelder sind (es muss eine Eigenschaft dazu beim Mitglied angewählt werden) oder Kann-Felder (es kann eine Eigenschaft beim Mitglied angewählt werden).
+Den Eigenschaften-Gruppen gibt man mit, ob sie Pflichtfelder sind \(es muss eine Eigenschaft dazu beim Mitglied angewählt werden\) oder Kann-Felder \(es kann eine Eigenschaft beim Mitglied angewählt werden\).
 
-Weiterhin kann man anwählen, ob man max. eine Eigenschaft (in Verbindung mit dem Flag "Pflicht" dann genau eine) anwählen kann.
+Weiterhin kann man anwählen, ob man max. eine Eigenschaft \(in Verbindung mit dem Flag "Pflicht" dann genau eine\) anwählen kann.
 
 Beispiel für eine Pflichtgruppe: Ein Mitglied gehört mindestens einer Abteilung des Vereins an.
 

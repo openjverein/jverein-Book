@@ -4,10 +4,9 @@ Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelösch
 
 ## Liste der Abrechnungsläufe
 
-![](../../v3.0.x/abrech/img/AbrechnungslaufListeView.png)
+![](img/AbrechnungslaufListeView.png)
 
 Folgende Menü Einträge sind vorhanden:
-
 * Bearbeiten: Öffnet die Detailansicht für den selektierten Abrechnungslauf
 * Sollbuchungen: Zeigt eine Liste der Sollbuchungen die von diesem Abrechnungslauf erzeugt wurden
 * Pre-Notification: Öffnet den Dialog zum Erzeugen von Pre-Notifications für den selektierten Abrechnungslauf
@@ -15,14 +14,13 @@ Folgende Menü Einträge sind vorhanden:
 
 Auch ein Doppelklick auf den Abrechnungslauf Eintrag zeigt den Abrechnungslauf an.
 
-Über den "Neu" Button können neue Abrechnungsläufe erzeugt werden (siehe [Abrechnung](../../v3.0.x/abrech/abrechnung.md)).
+Über den "Neu" Button können neue Abrechnungsläufe erzeugt werden (siehe  [Abrechnung](abrechnung.md)).
 
 Ein Abrechnungslauf kann abgeschlossen werden und ist damit vor versehentlichem Löschen geschützt. Damit diese Funktion genutzt werden kann, muss sie unter Einstellungen->Abrechnung aktiviert werden. Ein einmal abgeschlossener Lauf kann nicht wieder geöffnet werden!
 
 ## Abrechnungslauf anzeigen
-
 Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
-![](../../v3.0.x/abrech/img/AbrechnungslaufView.png)
+![](img/AbrechnungslaufView.png)

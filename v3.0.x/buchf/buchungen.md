@@ -16,14 +16,13 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 
 In Der Buchungsliste bedeutet die Spalte "S" Splitbuchung, folgende Werte sind möglich "S" Slitbuchung, "H" Hautbuchung, "G" Gegenbuchung.
 
-![](../../v3.1.x/buchf/img/BuchungenListeView.png)
+![](img/BuchungenListeView.png)
 
 Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können Buchungen bearbeitet werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF oder CSV Format wird durch einen Klick auf PDF/CSV angestoßen.
 
 Folgende Buttons sind vorhanden:
-
 * Hibiscus-Import: Import von Buchungen aus Hibiscus. Siehe [Buchungsübernahme](buchungsubernahme.md)
-* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](../../allgemeine-funktionen/buchf/buchungsimport.md)
+* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](buchungsimport.md)
 * CSV: Die über die Suchkriterien ausgewählten Buchungen können mit einem Klick auf CSV als CSV-Datei ausgegeben werden. Dabei werden bei Nutzung des Mitgliedskontos ggfls. auch die Daten des Mitgliedes ausgegeben.
 * PDF Buchungsjournal: Auflistung aller Buchungen nach verschiedenen Sortierungen
 * PDF Einzelbuchungen: Auflistung aller Buchungen nach Buchungsarten
@@ -34,11 +33,10 @@ Folgende Buttons sind vorhanden:
 Die PDF-Auswertungen sind hier abrufbar. Ausführlich beschrieben werden sie im Artikel [Buchführung Zusammenhänge](../../sonstiges/buchfuhrung-zusammenhange.md).
 
 Folgende Menü Einträge sind vorhanden:
-
 * Bearbeiten: Öffnet die Detailansicht für die selektierte Buchung
 * Duplizieren: Öffnet die Detailansicht für eine neue Buchung mit den Daten der selektierten Buchung
 * Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen Der Menüpunkt ist nur verfügbar wenn die Buchungsart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungsart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).
-* Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](../../allgemeine-funktionen/buchf/splittbuchungen.md)
+* Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md)
 * Auflösen: Löst eine oder mehrere selektierte Splitbuchungen auf. Es werden die Gegenbuchung und die enthaltenen Buchungen gelöscht
 * Löschen: Löscht die Buchung
 * Mitglied anzeigen: Für die selektierte Buchung wird das zugehörige Mitglied geöffnet, sofern der Buchung eine Sollbuchung zugeordnet wurde.
@@ -54,34 +52,33 @@ Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie
 
 Durch einen Klick auf auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
 
-![](../../v3.1.x/buchf/img/SollbuchungZuordnungIst.png)
+![](img/SollbuchungZuordnungIst.png)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
-Zur Filterung des Buchungen steht weiterhin Egal (= eine beliebige Differenz), Fehlbetrag oder Überzahlung zur Verfügung. Durch einen Klick auf entfernen wird die Mitgliedskontoinformation aus der Buchung entfernt. Damit können Fehleingaben korrigiert werden.
+Zur Filterung des Buchungen steht weiterhin Egal \(= eine beliebige Differenz\), Fehlbetrag oder Überzahlung zur Verfügung. Durch einen Klick auf entfernen wird die Mitgliedskontoinformation aus der Buchung entfernt. Damit können Fehleingaben korrigiert werden.
 
 Der obige Dialog hat zwei Registerkarten:
+- Istbuchung einer Sollbuchung zuordnen \(Option 1\)
+- Sollbuchung erzeugen und Istbuchung zuordnen \(Option 2\)
 
-* Istbuchung einer Sollbuchung zuordnen (Option 1)
-* Sollbuchung erzeugen und Istbuchung zuordnen (Option 2)
-
-Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuchung (z.B. aus einem Abrechnungslauf). Beim zuordnen wird die Buchung automatisch anhand der Sollbuchungen gesplittet und den Buchungsarten zugeordnet. Wenn ber Betrag nicht der der Sollbuchung entsricht, wird vorher gefragt, ob eine Restbuchung erstellt werden soll. Hinweis: Wenn ja ausgewählt wird, ist die Sollbuchung ausgeglichen da die Restbuchung nicht dem Mitglied zugeornet wird. Bei "Nein" wird die Buchung ohne Spliten zugeordnet.
+Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuchung \(z.B. aus einem Abrechnungslauf\). Beim zuordnen wird die Buchung automatisch anhand der Sollbuchungen gesplittet und den Buchungsarten zugeordnet. Wenn ber Betrag nicht der der Sollbuchung entsricht, wird vorher gefragt, ob eine Restbuchung erstellt werden soll. Hinweis: Wenn ja ausgewählt wird, ist die Sollbuchung ausgeglichen da die Restbuchung nicht dem Mitglied zugeornet wird. Bei "Nein" wird die Buchung ohne Spliten zugeordnet.
 
 Es kann auch eine Buchung mehreren Sollbuchungen auf einmal zugeordnet werden, dann wir diese entsprechen gesplittet. Auch das zuordnen mehrerer Buchungen zu einer Sollbuchung ist möglich, dabei wird jedoch kein automatisches Splitten durchgeführt..
 
-Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine (neue) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
+Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine \(neue\) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-![](../../v3.1.x/buchf/img/SollbuchungZuordnungSollIst.png)
+![](img/SollbuchungZuordnungSollIst.png)
 
 Hier kann nur nach dem Namen gefiltert werden.
 
-In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" an gehakt werden. Mit dieser Option werden auch Namensteile gefunden (Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...). Sonst werden nur vollständige Namen gefunden (Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max).
+In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" an gehakt werden. Mit dieser Option werden auch Namensteile gefunden \(Suchbegriff "Anna" liefert alle Mitglieder in deren Vor- oder Nachname anna, bspw. Hannah Muster, Anna Test, Maria Hannauer...\). Sonst werden nur vollständige Namen gefunden \(Suchbegriff "Max Mustermann" findet alle Mitglieder deren Vor- oder Nachname genau Max ist oder deren Vor- oder Nachname exakt Mustermann ist, bspw. Max Mustermann, Anna Mustermann, Karl Max\).
 
 ## Automatische Zuordnung von Buchungen zu Sollbuchungen
 
 In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Sollbuchungen vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Sollbuchungen eingeschränkt werden.
 
-![](../../v3.1.x/buchf/img/AutomatischeSollbuchungZuordnung.png)
+![](img/AutomatischeSollbuchungZuordnung.png)
 
 Folgende Zuordnungsregeln bestehen:
 
@@ -93,10 +90,11 @@ Folgende Zuordnungsregeln bestehen:
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
-![](../../v3.1.x/buchf/img/AutomatischeZuordnungBestaetigen.png)
+![](img/AutomatischeZuordnungBestaetigen.png)
 
 ## Buchung
 
-![](../../v3.1.x/buchf/img/BuchungDialog.png)
+![](img/BuchungDialog.png)
 
-Siehe auch [Sollbuchungen](../../v3.1.x/mitglieder/mitgliedskonto.md), [Splittbuchungen](../../allgemeine-funktionen/buchf/splittbuchungen.md)
+Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](splittbuchungen.md)
+

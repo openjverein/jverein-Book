@@ -2,7 +2,7 @@
 
 ### Aktivierung
 
-Damit der Menüpunkt "Familienbeitrag" zur Verfügung steht muss mindesten eine [Beitragsgruppe](../../v3.0.x/administration/mitglieder/beitragsgruppen.md) der Beitragsart Familienangehöriger existieren.
+Damit der Menüpunkt "Familienbeitrag" zur Verfügung steht muss mindesten eine [Beitragsgruppe](../administration/mitglieder/beitragsgruppen.md) der Beitragsart Familienangehöriger existieren. 
 
 Nach Einrichten der ersten passenden Beitragsgruppe sollte JVerein neu gestartet werden, damit der Menüpunkt "Familienbeitrag" zur Verfügung steht.
 
@@ -12,7 +12,7 @@ Dieser Dialog zeigt alle Familien Beziehungen an.
 
 Siehe auch [Familientarife](../../allgemein/familientarife.md).
 
-![](../../v3.1.x/mitglieder/img/FamilienBeitragView.png)
+![](img/FamilienBeitragView.png)
 
 Einträge können nach Mitgliedschaft gefiltert werden.
 

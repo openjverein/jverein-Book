@@ -1,20 +1,21 @@
-# Spendenbescheinigungen
+# Spendenbescheinigung drucken/mailen
 
 ## Spendenbescheinigungen selektiv drucken
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
-![](../../v3.1.x/druckmail/img/SpendenbescheinigungenListeView.png)
+![](img/SpendenbescheinigungenListeView.png)
 
-In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu (rechter Mausklick) stehen verschiedene Aktionen zur Verfügung.
+In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu \(rechter Mausklick\) stehen verschiedene Aktionen zur Verfügung.
 
 Über dem Menüpunk "PDF" kann die Spendenbescheinigung als PDF gedruckt werden. Es wird ein individuelles Formular verwendet welches in der Spendenbescheinigung konfiguriert ist oder ein Standard Ausdruck wenn es so in der Spendenbescheinigung gesetzt ist.
+
 
 ## Spendenbescheinigung selektiv drucken oder per Mail versenden
 
 Über den Menüpunkt "Druck und Mail" öffnet sich der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
-![](../../v3.1.x/druckmail/img/SpendenbescheinigungenDruckMailView1.png)
+![](img/SpendenbescheinigungenDruckMailView1.png)
 
 Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spendenbescheinigungen ausgegeben.
 
@@ -38,4 +39,4 @@ Mit der Option Adressblatt lässt sich auswählen, ob eine zusätzliche Seite an
 
 Es werden hier alle Spendenbescheinigungen gedruckt bzw. versendet die die Filterkriterien erfüllen. Eine individuelle Auswahl aus den gefilterten Einträgen ist hier nicht möglich.
 
-![](../../v3.1.x/druckmail/img/SpendenbescheinigungenDruckMailView2.png)
+![](img/SpendenbescheinigungenDruckMailView2.png)

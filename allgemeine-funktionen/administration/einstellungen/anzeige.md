@@ -1,6 +1,6 @@
-# Anzeige
+# Einstellungen Anzeige
 
-![](../../../v3.0.x/administration/einstellungen/img/Anzeige.png)
+![](img/Anzeige.png)
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 
@@ -31,7 +31,7 @@ Beim Mitglied können folgende Kommunikationsdaten gepflegt werden:
 
 ### Zusatzbeträge anzeigen
 
-Tab Zusatzabbuchungen beim Mitglied anzeigen. Impliziert, dass die Übersicht der Zusatzabbuchungen (nicht) angezeigt wird und die Option bei der Abbuchung (in)aktiv ist.
+Tab Zusatzabbuchungen beim Mitglied anzeigen. Impliziert, dass die Übersicht der Zusatzabbuchungen \(nicht\) angezeigt wird und die Option bei der Abbuchung \(in\)aktiv ist.
 
 ### Vermerke anzeigen
 
@@ -39,7 +39,7 @@ Tab Vermerke beim Mitglied anzeigen. Beim Mitglied können 2 mal 255 Zeichen Ver
 
 ### Wiedervorlage anzeigen
 
-Tab Wiedervorlage beim Mitglied anzeigen. Impliziert, dass die Übersicht der Wiedervorlagen (nicht) angezeigt wird.
+Tab Wiedervorlage beim Mitglied anzeigen. Impliziert, dass die Übersicht der Wiedervorlagen \(nicht\) angezeigt wird.
 
 ### Kursteilnehmer anzeigen
 
@@ -121,3 +121,4 @@ Hier lässt sich einstellen wie die Automatische Generierung von Abschreibungen 
 
 * Button in Anlagen Buchungen: Über einen Button im Anlagenbuchungen View.
 * Checkbox in Jahresabschluss: Über eine Checkbox im Jahresabschluss View.
+

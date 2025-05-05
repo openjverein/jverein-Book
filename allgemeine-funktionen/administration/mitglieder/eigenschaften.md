@@ -4,26 +4,25 @@
 
 Jedem Mitglied können Eigenschaften zugeordnet werden.
 
-Die Eigenschaften werden unter Administration->Eigenschaften bearbeitet.
+Die Eigenschaften werden unter Administration-&gt;Eigenschaften bearbeitet.
 
-Jeder Eigenschaft ist eine [Eigenschaftengruppe ](eigenschaften-gruppen.md)zuzuordnen.
+Jeder Eigenschaft ist eine [Eigenschaftengruppe ](eigenschaften-gruppen.md) zuzuordnen.
 
 ## Liste der Eigenschaften
 
-![](../../../v3.1.x/administration/mitglieder/img/Eigenschaften.png)
+![](img/Eigenschaften.png)
 
 Mit Neu kann eine neue Eigenschaft eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung einer Eigenschaft eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
-
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann eine Eigenschaft gelöscht werden
 
-## Eigenschaft
+## Eigenschaft 
 
-![](../../../v3.1.x/administration/mitglieder/img/Eigenschaft.png)
+![](img/Eigenschaft.png)
 
 ### Bezeichnung
 

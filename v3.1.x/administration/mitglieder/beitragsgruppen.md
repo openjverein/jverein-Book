@@ -2,24 +2,24 @@
 
 ## Allgemeines
 
-Es muss mindestens eine Beitragsgruppe erfasst werden.
+Es muss mindestens eine Beitragsgruppe erfasst werden. 
 
 ## Liste der Beitragsgruppen
 
-![](../../../v3.0.x/administration/mitglieder/img/Beitragsgruppen.png)
+![](img/Beitragsgruppen.png)
 
 Mit Neu kann eine neue Beitragsgruppe eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung einer Beitragsgruppe eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
-
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann eine Beitragsgruppe, die keinem Mitglied zugeordnet ist, gelöscht werden. Bei zugeordneten Beitragsgruppen erscheint eine Fehlermeldung
 
+
 ## Beitragsgruppe
 
-![](../../../v3.0.x/administration/mitglieder/img/Beitragsgruppe.png)
+![](img/Beitragsgruppe.png)
 
 ### Bezeichnung
 
@@ -27,7 +27,7 @@ Bezeichnung der Beitragsgruppe.
 
 ### Sekundäre Beitragsgruppen
 
-Sollen für Mitglieder die Beiträge aus mehr als einer Beitragsgruppe abgerechnet werden, können sekundäre Beitragsgruppen eingerichtet werden. Dazu muss unter Administration->Einstellungen->Anzeige das Häkchen "Sekundäre Beitragsgruppen anzeigen" gesetzt werden. Anschließend ist es möglich, Beitragsgruppen als sekundäre Beitragsgruppen zu kennzeichnen.
+Sollen für Mitglieder die Beiträge aus mehr als einer Beitragsgruppe abgerechnet werden, können sekundäre Beitragsgruppen eingerichtet werden. Dazu muss unter Administration-&gt;Einstellungen-&gt;Anzeige das Häkchen "Sekundäre Beitragsgruppen anzeigen" gesetzt werden. Anschließend ist es möglich, Beitragsgruppen als sekundäre Beitragsgruppen zu kennzeichnen.
 
 Die so gekennzeichneten Beitragsgruppen können den Mitgliedern als sekundäre Beitragsgruppe zugewiesen werden.
 
@@ -44,7 +44,7 @@ Jeder Beitragsgruppe ist eine der folgenden Arten zuzuordnen:
 
 #### Beitragsart Normal
 
-Dies ist die Standard-Beitragsart, die für alle Mitglieder gewählt sein sollte, die nicht zu einer (als solchen gemeldeten) Familie gehören.
+Dies ist die Standard-Beitragsart, die für alle Mitglieder gewählt sein sollte, die nicht zu einer \(als solchen gemeldeten\) Familie gehören.
 
 #### Beitragsart Familienangehöriger
 
@@ -72,7 +72,7 @@ Zu einer Beitragsgruppe kann eine interne Notiz erfasst werden.
 
 Bei Benutzung der Altersstaffel können Altersabhängige Beiträge konfiguriert werden.
 
-Die angezeigten Altersbereiche können unter Administration->Einstellungen->Abrechnung konfiguriert werden.
+Die angezeigten Altersbereiche können unter Administration-&gt;Einstellungen-&gt;Abrechnung konfiguriert werden.
 
 Die Altersstaffel ist nur verfügbar wenn unter Administration->Einstellungen->Anzeige Geburtsdatum Pflichtfeld aktiviert ist. Ohne Geburtsdatum kann kein Alter der Mitglieder berechnet werden.
 
@@ -80,4 +80,8 @@ Die Altersstaffel ist nur verfügbar wenn unter Administration->Einstellungen->A
 
 Hier lässt sich ein zu leistender Arbeitseinsatz konfiguriert werden.
 
-Die Anzeige von Arbeitseinsatz muss unter Administration->Einstellungen->Anzeige konfiguriert werden.
+Die Anzeige von Arbeitseinsatz muss unter Administration-&gt;Einstellungen-&gt;Anzeige konfiguriert werden. 
+
+
+
+

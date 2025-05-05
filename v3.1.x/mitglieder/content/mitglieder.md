@@ -1,15 +1,16 @@
-# Mitgliederliste
+# Mitglieder
+
 
 ### Allgemein
 
-Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter (oben) und Mitgliedertabelle (unten). Die angezeigten Mitglieder können nach verschiedenen Kriterien gefiltert werden:
+Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter \(oben\) und Mitgliedertabelle \(unten\). Die angezeigten Mitglieder können nach verschiedenen Kriterien gefiltert werden:
 
 * Nachname
 * Mitgliedschaft Status "Angemeldet", "Abgemeldet" und "Beide"
-* Externe Mitgliedsnummer (optional)
+* Externe Mitgliedsnummer \(optional\)
 * Eigenschaften
 * Beitragsgruppe
-* Zusatzfelder (optional)
+* Zusatzfelder \(optional\)
 * Geburtsdatum
 * Geschlecht
 * Eintritts- und Austrittsdatum
@@ -28,6 +29,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ![](img/MitgliedListeView.png)
 
+
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
 Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](../import.md)
@@ -36,33 +38,31 @@ Unter Administration->Einstellungen->Mitglieder Spalten lassen sich die die ange
 
 In 3.1.0 wurde eine weitere Spalte "Status" eingeführt. Sie liefert das Ergebnis der Checks die auch beim Speichern eines Mitglieds ausgeführt werden. Es kann nützlich sein diese Spalte für einen Check zu aktivieren, weil z.B. weitere Checks implementiert wurden. Z.B. wurde in 3.0.0 ein genauerer Check der Kontodaten eingeführt. Wenn alles OK ist kann man sie wieder entfernen.
 
+
 ### Filterung nach Eigenschaften
 
 Es können eine oder mehrere Eigenschaften ausgewählt werden.
 
 Folgende Eigenschaften-Verknüpfungen sind möglich:
-
 * "und": D.h. es werden nur die Mitglieder angezeigt, die alle ausgewählten Eigenschaften erfüllen.
 * "oder": D.h. es werden die Mitglieder angezeigt, die mindestens eine der ausgewählten Eigenschaften erfüllen.
 
 Auswahl einer Eigenschaft:
-
-* "+": Hier ist die Eigenschaft ausgewählt.
+* "+": Hier ist die Eigenschaft ausgewählt. 
 * "-": Es ist die inverse Eigenschaft ausgewählt. Z.B. Gymnastik in Bild unten. Dies bedeutet diese Eigenschaft darf nicht enthalten sein.
 
 Durch klicken auf die Eigenschaft kann zwischen den Werten umgeschaltet werden.
 
 Bedeutung des Symbols bei der Eigenschaften Gruppe:
-
-* "P": Bei der Eigenschaften Gruppe ist die Pflicht Checkbox ausgewählt.
-* "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
-* "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
+* "P": Bei der Eigenschaften Gruppe ist die Pflicht Checkbox ausgewählt. 
+* "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt. 
+* "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt. 
 
 ![](img/EigenschaftenFilterDialog.png)
 
 ### Filterung nach Zusatzfeldern
 
-Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
+Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % \(0...n beliebige Zeichen\) und \_ \(genau 1 beliebiges Zeichen\) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
 ![](img/ZusatzfelderFilterDialog.png)
 
@@ -82,14 +82,13 @@ Es wird ein neuer Datensatz mit den Daten des Mitgliedes angelegt. Dieser kann d
 
 ### In Zwischenablage kopieren
 
-Es wird ein Datensatz mit den Daten des Mitgliedes in die Zwischenablage kopiert.
+Es wird ein  Datensatz mit den Daten des Mitgliedes in die Zwischenablage kopiert.
 
 ### Eigenschaften
 
 Für alle markierten Mitglieder können die Eigenschaften gleichzeitig gesetzt oder gelöscht werden.
 
 Die Icons haben fünf Zustände:
-
 * Quadrat: Kein Mitglied hat die Eigenschaft gesetzt und sie wird bei niemanden geändert.
 * Haken: Alle selektierten Mitglieder haben die Eigenschaft gesetzt und sie wird bei niemanden geändert.
 * Gestrichelter Haken: Mindestens ein selektiertes Mitglieder hat die Eigenschaft gesetzt und sie wird bei niemanden geändert.
@@ -144,7 +143,7 @@ Erstellung einer Sachspendenbescheinigung, die direkt dem Mitglied zugeordnet is
 
 ### Personalbogen
 
-Ausgabe aller zu einem Mitglied gespeicherten Daten (Ausnahme: Ggfls. gespeicherte Dokumente)
+Ausgabe aller zu einem Mitglied gespeicherten Daten \(Ausnahme: Ggfls. gespeicherte Dokumente\)
 
 ### Manuelle Lastschrift
 
