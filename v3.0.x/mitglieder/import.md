@@ -12,7 +12,7 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 
 * vorname Pflichtfeld
 * name Pflichtfeld
-* geschlecht Pflichtfeld (m=Mänlich,w=Weiblich,o=Ohne Angabe)
+* geschlecht (m=Mänlich,w=Weiblich,o=Ohne Angabe) defaul o
 * geburtsdatum Pflichtfeld bei Mitgliedern wenn unter Einstellungen gesetzt
 * adresstyp ID wie in Einstellungen->Mitglied->Mitgliedstypen angezeigt, default 1=Mitglied
 * personenart (n=natürliche Person,j=juristische Person) default n
@@ -60,3 +60,9 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 * sekundaer_NAME für sekundäre Beitragsgruppen (wird bei allem anderen als nein, false gesetzt)
 
 Felder mit anderem Namen werden ignoriert
+
+Beispiel für minimalen Import
+```
+vorname;name;Eintritt;Beitragsgruppe;Zahlungsweg;
+Max;Mustermann;1.1.2025;Allgemein;2;
+```
