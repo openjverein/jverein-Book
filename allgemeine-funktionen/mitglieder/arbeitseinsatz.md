@@ -10,14 +10,13 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeits
 
 Neben Geldzahlungen kann als Beitrag auch Arbeitsleistung dienen.
 
-In den betroffenen [Beitragsgruppen](../../v3.0.x/administration/mitglieder/beitragsgruppen.md) wird die Anzahl der Pflichtstunden und der Betrag für nicht erbrachte Stunden hinterlegt
+In den betroffenen [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) wird die Anzahl der Pflichtstunden und der Betrag für nicht erbrachte Stunden hinterlegt
 
-### Erstellung
+### Erstellung 
 
 Die Arbeitseinsätze können erstellt werden
-
-* in den Mitglied Details (siehe [Arbeitseinsatz](content/arbeitseinsatz.md))
-* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](../../v3.1.x/mitglieder/content/mitglieder.md))
+* in den Mitglied Details (siehe [Arbeitseinsatz](content/arbeitseinsatz.md)) 
+* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md)) 
 * aber auch in der Liste der Arbeitseinsätze
 
 ## Liste der Arbeitseinsätze
@@ -26,7 +25,7 @@ Der Übersicht View für Arbeitseinsätze zeigt alle vorhandenen Arbeitseinsätz
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../v3.1.x/mitglieder/img/ArbeitseinsaetzeListeView.png)
+![](img/ArbeitseinsaetzeListeView.png)
 
 Mit dem Button Neu kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -35,7 +34,6 @@ Mit dem Button Auswertung kann zum [Auswertungsdialog](../auswertungen/arbeitsei
 Durch einen Doppelklick wird die Bearbeitung eines Arbeitseinsatzes eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
-
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann ein Arbeitseinsatz gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
@@ -44,7 +42,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../v3.1.x/mitglieder/img/ArbeitseinsatzView.png)
+![](img/ArbeitseinsatzView.png)
 
 Im Feld Mitglied lässt sich das Mitglied auswählen.
 
@@ -53,3 +51,5 @@ Geben Sie das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stu
 In den Einstellungen von JVerein auf der Ansicht Beiträge können Sie ein Arbeitsstunden Modell ändern und negative Stunden einstellen.
 
 Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negativer Wert eingetragen und damit die Sollstunden des Mitglieds erhöht werden. Damit kann man Dienstleistungen des Vereins, die mit Arbeitsstunden gegengerechnet werden können, einfach erfassen und abrechnen.
+
+

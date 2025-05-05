@@ -1,18 +1,17 @@
-# Release Notes
+# Release Notes Version 3.0.0
 
 ## Allgemeines
 
 Mit dieser Version wird die Versionsnummerierung auf die Art MAJOR.MINOR.PATCH umgestellt:
-
 * MAJOR wird bei inkompatiblen API Änderungen hochgezählt
-* MINOR wird bei neuer Funktionalität hochgezählt
+* MINOR wird bei neuer Funktionalität hochgezählt 
 * PATCH wird bei Fehlerkorrekturen hochgezählt
 
 Die Idee ist, zukünftig auch in kürzeren Abständen reine Bugfixes freizugeben, bei denen keine neuen Funktionen enthalten sind.
 
 Ab dieser Version wird auch eine für jede Version spezifische Dokumentation angelegt. Damit können Anwender einer älteren Version auf ihre passende Dokumentation zugreifen. Bisher war die Dokumentation immer nur für die neueste Version vorhanden.
 
-**Die Version 3.0.0 ist eine neue MAJOR Version und damit nicht kompatibel mit den Vorgängern. Ist man also auf diese Version umgestiegen kann man mit der migrierten Datenbasis nicht mehr zu einer älteren Version zurück wechseln.**
+**Die Version 3.0.0 ist eine neue MAJOR Version und damit nicht kompatibel mit den Vorgängern. Ist man also auf diese Version umgestiegen kann man mit der migrierten Datenbasis nicht mehr zu einer älteren Version zurück wechseln.** 
 
 **Es ist also empfohlen, eine Kopie der aktuellen Datenbank anzulegen. Will man später wieder auf die alte Version zurück, kann man die gesicherte Datenbank verwenden.**
 
@@ -47,7 +46,7 @@ Siehe [Rechnung](mitglieder/rechnung.md).
 
 Für die Konten wurden neue Kontoarten für Rücklagen und Vermögen eingeführt.
 
-Damit kann ein Verein seine eingestellten Rücklagen in JVerein hinterlegen. Bucht ein Verein Rücklagen auf ein eigenes Bankkonto so ist dieses weiter als Geldkonto zu führen. Man könnte aber die Rücklagen zusätzlich in Rücklagenkonten führen um sie weiter aufzuschlüsseln.
+Damit kann ein Verein seine eingestellten Rücklagen in JVerein hinterlegen. Bucht ein Verein Rücklagen auf ein eigenes Bankkonto so ist dieses weiter als Geldkonto zu führen. Man könnte aber die Rücklagen zusätzlich in Rücklagenkonten führen um sie weiter aufzuschlüsseln. 
 
 Diese separaten Konten werden bei der Mittelverwendungsrechnung (siehe [Mittelverwendung](buchf/mittelverwendung.md)) benötigt.
 
@@ -130,6 +129,7 @@ Wir würden uns über ein Feedback der Anwender freuen, um es als ausgereiftes F
 
 * Es ist jetzt möglich im Dialog zur Zuordnung von Sollbuchungen mehrere Sollbuchungen auszuwählen. Die Buchung wird dann entsprechend der Sollbuchungspositionen in eine Splitbuchung umgewandelt. Die einzelnen Splitbuchungen werden dann zugeordnet
 
+
 ## Kleinere Korrekturen und Erweiterungen
 
 * Prüfung ob das Mandatsdatum in der Zukunft liegt
@@ -144,3 +144,4 @@ Wir würden uns über ein Feedback der Anwender freuen, um es als ausgereiftes F
 * Die Drop Down Liste für Formulare ist jetzt sortiert
 * Der Fehler bei der Abrechnung von Zusatzbeträgen wurde korrigiert
 * Der Fehler in der Jahrgangsstatistik wurde korrigiert
+

@@ -1,5 +1,5 @@
 # Suchprofil
 
-Für den Filter in der [Mitglieder Liste](../../../v3.1.x/mitglieder/content/mitglieder.md) können Suchprofile angelegt werden. Dazu werden in die Mitgliedersuche die einzelnen Filterkriterien eingetragen und dann abgespeichert. Mit einem Doppelklick oder Rechtsklick auf ein Suchprofil können die Filterkriterien wiederhergestellt werden.
+Für den Filter in der [Mitglieder Liste](mitglieder.md) können Suchprofile angelegt werden. Dazu werden in die Mitgliedersuche die einzelnen Filterkriterien eingetragen und dann abgespeichert. Mit einem Doppelklick oder Rechtsklick auf ein Suchprofil können die Filterkriterien wiederhergestellt werden.
 
-![](../../../v3.1.x/mitglieder/content/img/Suchprofil.png)
+![](img/Suchprofil.png)

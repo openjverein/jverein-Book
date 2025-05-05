@@ -1,4 +1,5 @@
-# Buchungsklassen
+# Buchungsklasse
+
 
 ## Allgemeines
 
@@ -8,7 +9,7 @@ Die Buchungsklassen dienen dazu die einzelnen Buchungsarten entsprechend den ste
 
 Eine Liste der Buchungsklassen kann über den Eintrag Buchungsklassen im Navigationsbaum angezeigt werden.
 
-![](../../../v3.1.x/administration/admbuchf/img/BuchungsklassenListeView.png)
+![](img/BuchungsklassenListeView.png)
 
 Über den Neu Button können neue Buchungsklassen erzeugt werden.
 
@@ -18,4 +19,5 @@ Eine Liste der Buchungsklassen kann über den Eintrag Buchungsklassen im Navigat
 
 Bei der Erstellung einer neuen Buchungsklasse erscheint folgende Anzeige.
 
-![](../../../v3.1.x/administration/admbuchf/img/Buchungsklasse.png)
+![](img/Buchungsklasse.png)
+

@@ -1,4 +1,4 @@
-# Anfangsbestände
+# Anfangsbestand
 
 ## Allgemeines
 
@@ -12,7 +12,7 @@ Anfangsbestände, die durch einen Jahresabschluss erfasst sind, können nicht me
 
 Der Filterbereich erlaubt es nach Anfangsbeständen in einem vorgegebenen Zeitraum zu filtern.
 
-![](../../v3.1.x/buchf/img/AnfangsbestandsListeView.png)
+![](img/AnfangsbestandsListeView.png)
 
 Der Filterparameter "Nummer" erlaubt es nach der Kontonummer zu filtern.
 
@@ -21,7 +21,6 @@ Der Filterparameter "Bezeichnung" erlaubt es nach dem Kontonamen zu filtern.
 Der Werte müssen nicht vollständig eingegeben werden da auch nach teilweiser Übereinstimmung gefiltert wird.
 
 Folgende Menü Einträge sind vorhanden:
-
 * Bearbeiten: Öffnet die Detailansicht für den selektierten Anfangsbestand
 * Löschen: Löscht den Anfangsbestand
 
@@ -29,4 +28,5 @@ Folgende Menü Einträge sind vorhanden:
 
 Über den Button Neu werden neue Anfangsbestände aufgenommen. Mit einem Doppelklick auf einen Anfangsbestand kann der Bestand bearbeitet werden. Ein Rechtsklick auf einen Anfangsbestand öffnet ein Kontextmenü. Damit kann ein Anfangsbestand gelöscht werden.
 
-![](../../v3.1.x/buchf/img/AnfangsbestandView.png)
+![](img/AnfangsbestandView.png)
+

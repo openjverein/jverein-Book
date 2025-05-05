@@ -2,9 +2,9 @@
 
 ## Allgemeines
 
-Zur Nutzung der Lehrgänge ist die Option in den Einstellungen (Administration->Einstellungen->Anzeige) zu aktivieren.
+Zur Nutzung der Lehrgänge ist die Option in den Einstellungen \(Administration-&gt;Einstellungen-&gt;Anzeige\) zu aktivieren.
 
-Lesefelder sind virtuelle Datenbank-Felder. Sie werden mit Hilfe eines Skriptes berechnet und sind daher nur lesbar (-> Lesefelder ). Jedes Lesefeld besteht aus einer Bezeichnung und Skript-Code.
+Lesefelder sind virtuelle Datenbank-Felder. Sie werden mit Hilfe eines Skriptes berechnet und sind daher nur lesbar \(-&gt; Lesefelder \). Jedes Lesefeld besteht aus einer Bezeichnung und Skript-Code.
 
 Lesefeld-Namen können frei, aber eindeutig gewählt werden. Intern wird `mitglied_lesefelder_` vorne angefügt. Um z.B. beim Schreiben einer E-Mail auf Lesefeld Anrede zuzugreifen, muss `${mitglied_lesefelder_Anrede}` eingegeben werden.
 
@@ -14,11 +14,11 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Liste der Lesefelder
 
-![](<../../../allgemeine-funktionen/administration/mitglieder/img/Lesefelder (1).png>)
+![](img/Lesefelder.png)
 
 Mit Neu kann ein neues Lesefeld eingerichtet werden.
 
-Mit Bearbeiten kann ein Lesefeld bearbeitet werden.
+Mit  Bearbeiten kann ein Lesefeld bearbeitet werden.
 
 Mit Löschen kann ein Lesefeld gelöscht werden.
 
@@ -34,6 +34,7 @@ Die Mitglied Auswahl dient dazu das Ergebnis einer Skript Auswertung für das se
 
 Name des Skriptes.
 
+
 ### Skript
 
 Der Code für das Skript.
@@ -42,9 +43,10 @@ Der Code für das Skript.
 
 Ausgabe des Skriptes für das selektierte Mitglied.
 
+
 ## Lesefelder nutzen
 
-Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration->Einstellungen->Anzeige->Lesefelder anzeigen.
+Zunächst muss die Lesefelder-Funktion aktiviert werden. Administration-&gt;Einstellungen-&gt;Anzeige-&gt;Lesefelder anzeigen.
 
 Beim nächsten Start von Jameica erscheint unter Administration die neue Option Lesefelder. Außerdem wird sofort auf der Mitglieder-Details-Seite ein neuer Tab Lesefelder angezeigt. Über den Bearbeiten-Knopf erhält man die Möglichkeit neue Lesefelder anzulegen und vorhandene zu editieren bzw. zu löschen.
 
@@ -56,13 +58,13 @@ Die Lesefelder können als Formularfelder verwendet werden.
 
 ### Statisch - Für jedes Mitglied identisch
 
-```
+```text
 "Dieser Text ist für jedes Mitglied identisch."
 ```
 
 ### Als Funktion - VorKommaNachname
 
-```
+```text
 String f()
 {
   return mitglied_vorname + ", " + mitglied_name;
@@ -72,7 +74,7 @@ return f();
 
 ### Anrede - Liebe, Lieber, Hallo
 
-```
+```text
 String r = "";
 if(mitglied_geschlecht.equals("w"))
   r = "Liebe " + mitglied_vorname;
@@ -86,7 +88,7 @@ return r;
 
 ### Anrede - Wie oben + "liebe Eltern" bei nicht volljährigen Mitgliedern
 
-```
+```text
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
@@ -130,7 +132,7 @@ return r;
 
 ### 14-Tage-Frist / Bitte um Rückmeldung bis...
 
-```
+```text
 import java.text.SimpleDateFormat;
 import java.text.DateFormat;
 import java.util.Calendar;

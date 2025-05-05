@@ -2,12 +2,11 @@
 
 Das Anlagenverzeichnis basiert auf steuerlichen Vorgaben.
 
-Es listet alle Anlagenkonten auf die noch nicht geschlossen sind.
+Es listet alle Anlagenkonten auf die noch nicht geschlossen sind. 
 
-Über die Buchungsklasse in den [Anlagenkonten](../../allgemeine-funktionen/buchf/konten.md) lässt sich eine Gruppierung erreichen.
+Über die Buchungsklasse in den [Anlagenkonten](konten.md) lässt sich eine Gruppierung erreichen.
 
 Die Liste zeigt unter anderem:
-
 * Anschaffungsdatum und Anschaffungskosten
 * Buchwerte zu Anfang und Ende des Geschäftsjahres
 * Zugänge und Abgänge im Geschäftsjahr
@@ -21,6 +20,6 @@ Da bei der PDF Ausgabe die Breite der Seite beschränkt ist werden zur besseren 
 
 Hinweis:
 
-Die Buchwerte zu Anfang und Ende des Geschäftsjahres werden aus den Anfangsbeständen der Anlagenkonten genommen. Es ist also wichtig, dass beim [Jahresabschluss](../../allgemeine-funktionen/buchf/jahresabschluss.md) die Checkbox für Anfangsbestände Folgejahr ausgewählt ist. Damit werden die Anfangsbestände generiert.
+Die Buchwerte zu Anfang und Ende des Geschäftsjahres werden aus den Anfangsbeständen der Anlagenkonten genommen. Es ist also wichtig, dass beim [Jahresabschluss](jahresabschluss.md) die Checkbox für Anfangsbestände Folgejahr ausgewählt ist. Damit werden die Anfangsbestände generiert.
 
 Das bedeutet auch, dass in der Tabelle der Buchwert für das Ende des Geschäftsjahres erst nach dem Jahresabschluss angezeigt wird.

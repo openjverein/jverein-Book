@@ -1,6 +1,6 @@
 # Zahlung
 
-![](../../../allgemeine-funktionen/mitglieder/content/img/ZahlungTab.png)
+![](img/ZahlungTab.png)
 
 Als Zahlungswege stehen
 
@@ -13,7 +13,7 @@ zur Verfügung. Die Standardwerte können unter Administration->Einstellungen->B
 
 Beim Zahlungsweg Basislastschrift sind IBAN und Datum des Mandats anzugeben. Durch die Eingabe einer BLZ gefolgt von einem Leerzeichen und der anschließenden Kontonummer wird der SEPA-Konverter angestoßen und die IBAN und die BIC ermittelt.
 
-Die Mandats-ID wird automatisch aus der Mitgliedsnummer oder optional aus der externen Mitgliedsnummer (siehe Einstellungen) gebildet. Zusätzlich wird ein Versionszähler geführt, der das 1., 2., 3. .... Mandat referenziert.
+Die Mandats-ID wird automatisch aus der Mitgliedsnummer oder optional aus der externen Mitgliedsnummer \(siehe Einstellungen\) gebildet. Zusätzlich wird ein Versionszähler geführt, der das 1., 2., 3. .... Mandat referenziert.
 
 Zusätzlich kann ein abweichender Kontoinhaber angegeben werden falls das Mitglied nicht Kontoinhaber ist.
 
