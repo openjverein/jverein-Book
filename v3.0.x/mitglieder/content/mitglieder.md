@@ -18,9 +18,9 @@ Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter (oben) und Mitg
 
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
-Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../../../v3.1.x/mitglieder/spendenbescheinigung.md) möglich.
+Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](../../../v3.1.x/mitglieder/content/suchprofil.md) gespeichert werden.
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
 
 Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
@@ -28,7 +28,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ![](img/MitgliedListeView.png)
 
-Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](../../../v3.1.x/mitglieder/content/grunddaten.md)
+Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
 Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](broken-reference)
 
@@ -70,7 +70,7 @@ Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweilige
 
 Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied.
 
-Siehe [Mitglied](../../../v3.1.x/mitglieder/content/grunddaten.md).
+Siehe [Mitglied](grunddaten.md).
 
 ### Duplizieren
 
@@ -148,4 +148,4 @@ Generierung einer manuellen Lastschrift in Hibiscus.
 
 ## Freie Formulare
 
-Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wir ein Untermenü mit allen Freien Formularen angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die Ausgwählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../../v3.1.x/druckmail/freiesformular.md)
+Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wir ein Untermenü mit allen Freien Formularen angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die Ausgwählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../druckmail/freiesformular.md)
