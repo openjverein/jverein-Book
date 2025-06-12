@@ -18,6 +18,8 @@ Verwenden Sie Ihr bevorzugtes Administrationswerkzeug \(z.B. [PhpMyAdmin](https:
     mysql> CREATE USER 'jverein'@'localhost' IDENTIFIED BY '<passwort>';
     mysql> GRANT ALL PRIVILEGES ON jverein.* TO 'jverein'@'localhost';
 
+Hinweis: Der Benutzer sollte nur Zugriff auf die JVerein Datenbank haben. Insbesondere wenn Hibiscus ebenfalls in einer MySQL Datenbank gespeichert ist, kommt es immer wieder zu Fehlern, wenn der JVerein Benutzer auch Zugriff auf die Hibiscus Datenbank hat (Und umgekehrt).
+
 ## Erstellung eines Install-Bundles und der Datenbank
 
 Damit JVerein auf eine MySQL/MariaDB-Datenbank zugreifen kann, muss eine Konfigurationdatei erstellt werden. Da diese beim ersten Start noch nicht existiert, würde JVerein auf jedem Arbeitsplatz eine H2-Datenbank anlegen, die anschliessend nicht gebraucht wird. Bereiten Sie daher mit den folgenden Schritten ein vorkonfiguriertes Install-Bundle vor, welches anschließend auf alle Arbeitsplatz-PCs kopiert wird.
@@ -48,6 +50,8 @@ Bei **Datenbanksystemen ohne Serverzertifikat** muss die Zertifikatsprüfung dea
 Beispiel für MySQL:
 
     database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=UTF-8&trustServerCertificate=true&allowPublicKeyRetrieval=true&useSSL=false
+
+JVerin läuft standartmäßig in einer einzigen Transaction, d.h. dass Änderungen in der Datenbank erst nach einem Neustart von Jameica gelesen werden. Wenn auch von Außerhalb oder einer anderen JVerein Installation zu gleichen Zeit auf die gleiche Datenbank zugegriffen wird, muss in der Konfigurationsdatei `cfg/de.jost_net.JVerein.rmi.JVereinDBService.properties` folgende Zeile hinzugefügt werden: `autocommit=true`. **ACHTUNG**: Da hierdurch Änderungen von verschiedenen Nutzern zur gleichen Zeit möglich sind, kann es zu unvorhergesehenen Konflikten kommen. Das Vorgehen ist bisher nicht ausgibig getestet!
 
 ## Test und Verteilung der Konfiguration auf die Arbeitsplätze
 
