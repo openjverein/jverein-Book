@@ -4,7 +4,7 @@
 
 Die zum Betriebssystem passende Jameica-Version ist von [http://www.willuhn.de/products/jameica/download.php](http://www.willuhn.de/products/jameica/download.php) herunter zu laden. Sofern Jameica in einer älteren Version bereits installiert ist, ist das Verzeichnis entweder umzubenennen oder zu löschen. Die heruntergeladene ZIP-Datei ist an der gewünschten Stelle zu entpacken \(z. B. C:\Programme\). In dem entpackten Verzeichnis die zum verwendeten Betriebssystem passende Startdatei starten.
 
-Hinweis: Bei der Erstinstallation von Jameica ist unbedingt darauf zu achten, dass die passende Java-Version eingesetzt wird. Zu der 64-bit-Version von Jameica muss unbedingt die 64-bit-Version von Java eingesetzt werden. Ansonsten gibt es sonderbare Fehlermeldungen beim Start.
+Die Instalalation von Java ist dur noch bei Linux-Systemen notwendig, bei Windows und MacOS ist diese bereits in Jameica enthalten.
 
 Beim ersten Start der neuen Version wird die Datenbank an die neuen Strukturen angepasst und ist dann mit der alten Version nicht mehr kompatibel. Es gibt auch keinen Weg zurück. Daher ist es sinnvoll, das Datenverzeichnis vor dem Update als Sicherung zu kopieren. Falls etwas schief geht ist damit mit der alten Version noch immer ein lauffähiges System vorhanden.
 
