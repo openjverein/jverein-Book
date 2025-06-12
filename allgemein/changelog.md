@@ -1,5 +1,7 @@
 # Changelog openJVerein
 
+Die Änderungen der Versionen ab 3.0.3 sind unter VERSIONEN bei der entsprechenden Version zu finden.
+
 [Nightly 2.8.21](https://github.com/openjverein/jverein/releases/tag/2.8.21-nightly)
 
 [Version 2.8.20](https://github.com/openjverein/jverein/releases/tag/2.8.20) vom 25.10.2023
