@@ -8,8 +8,6 @@ Jameica, Hibiscus und JVerein sind offiziell nicht multiuserfähig und haben kei
 
 Ich setze ferner voraus, dass das Thema Datenschutz von allen Beteiligten ernst genommen wird und sämtlicher Datenverkehr mit persönlichen Mitgliederdaten über öffentliche Netze stets geeignet verschlüsselt wird. Wenn ich von Netzwerkzugriff rede dann meine ich damit nicht nur den \(unverschlüsselten\) Zugriff aus einem LAN sondern schließe auch den geeignet verschlüsselten Fernzugriff über das Internet \(z.B. mittels VPN, SSH-Tunnel, SSL\) mit ein ohne diese jeweils einzeln zu erwähnen.
 
-Wenn Jameica und JVerein auf mehreren Rechnern installiert werden, so sollten zur Vereinfachung und Fehlerquellenreduktion alle Installationen stets identisch sein, d.h. es sind insbesondere die gleichen Pfade/Ordner zu verwenden \(z.B. C:\Vereinsname\Jameica für die Programme und C:\Vereinsname\Jameica-Daten als Datenordner\) und die Plugins müssen auch überall am selben Ort installiert werden. Ich bevorzuge die Installation der Plugins ins Datenverzeichnis weil dies die Administration einfacher macht: Es muss auf den verschiedenen Rechnern nur die Jameica-Version kompatibel gehalten werden während die Plugins eben nur einmal installiert oder aktualisiert werden müssen und die Version der Daten damit immer zur Version des Plugins passt.
-
 ## Datenaustausch
 
 Darunter verstehe ich dass z.B. unter Vorstandsmitgliedern die Daten weitergegeben werden.
@@ -95,12 +93,7 @@ Die JVerein-H2-Datenbank \(jverein.h2.db\) kann in einem zentralen Subversion-Re
 * Vorteile: Änderungshistorie \(Datenbankstände werden archiviert, welcher SVN-Benutzer hat wann geändert\), Datenbankdatei kann mit einen Schreib-Lock belegt werden \(d.h. nur ein schreibener Benutzer gleichzeitig / Lock-Modify-Write-Workflow\)
 * Nachteile: SVN/Subversion erforderlich, Disziplin beim Ablauf absolut notwendig \(SVN-Jameica-SVN\).
 
-Dieses Verfahren hat phfeustel \([http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553](http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553)\) implementiert und im Forum \([http://www.jverein.de/forum/viewtopic.php?f=4&t=2717](http://www.jverein.de/forum/viewtopic.php?f=4&t=2717)\) ausführlich beschrieben.
-
-Weitere Anleitungen von phfeustel:
-
-* Für Admins: [https://it.jungeverlagsmenschen.de/images/b/b8/20171222\_Admin\_Jameica\_JVerein\_Hibiscus\_Setup\_it.jungeverlagsmenschen.de.pdf](https://it.jungeverlagsmenschen.de/images/b/b8/20171222_Admin_Jameica_JVerein_Hibiscus_Setup_it.jungeverlagsmenschen.de.pdf)
-* Für Benutzer: [https://it.jungeverlagsmenschen.de/images/d/de/20171222\_Benutzer\_JVerein\_Installationsanleitung\_it.jungeverlagsmenschen.de.pdf](https://it.jungeverlagsmenschen.de/images/d/de/20171222_Benutzer_JVerein_Installationsanleitung_it.jungeverlagsmenschen.de.pdf), [https://it.jungeverlagsmenschen.de/images/6/6b/20171222\_Benutzer\_JVM\_JVerein\_Benutzerhandbuch\_it.jungeverlagsmenschen.de.pdf](https://it.jungeverlagsmenschen.de/images/6/6b/20171222_Benutzer_JVM_JVerein_Benutzerhandbuch_it.jungeverlagsmenschen.de.pdf), [https://it.jungeverlagsmenschen.de/images/2/22/20171222\_Benutzer\_Exkurs\_zu\_SVN-Begriffen\_it.jungeverlagsmenschen.de.pdf](https://it.jungeverlagsmenschen.de/images/2/22/20171222_Benutzer_Exkurs_zu_SVN-Begriffen_it.jungeverlagsmenschen.de.pdf)
+Dieses Verfahren hat phfeustel implementiert und im Forum (https://jverein-forum.de/viewtopic.php?t=2717)[https://jverein-forum.de/viewtopic.php?t=2717] ausführlich beschrieben.
 
 #### Mit Schreibrecht für alle
 
@@ -199,7 +192,7 @@ Für Windows:
  :ende
 ```
 
-Für MacOS \(\(leicht für Linux anpassbar\), von phfeustel \([http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553](http://www.jverein.de/forum/memberlist.php?mode=viewprofile&u=2553)\)
+Für MacOS \(\(leicht für Linux anpassbar\), von phfeustel
 
 ```text
  #!/bin/sh
