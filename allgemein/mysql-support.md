@@ -51,8 +51,6 @@ Beispiel für MySQL:
 
     database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=UTF-8&trustServerCertificate=true&allowPublicKeyRetrieval=true&useSSL=false
 
-JVerin läuft standartmäßig in einer einzigen Transaction, d.h. dass Änderungen in der Datenbank erst nach einem Neustart von Jameica gelesen werden. Wenn auch von Außerhalb oder einer anderen JVerein Installation zu gleichen Zeit auf die gleiche Datenbank zugegriffen wird, muss in der Konfigurationsdatei `cfg/de.jost_net.JVerein.rmi.JVereinDBService.properties` folgende Zeile hinzugefügt werden: `autocommit=true`. **ACHTUNG**: Da hierdurch Änderungen von verschiedenen Nutzern zur gleichen Zeit möglich sind, kann es zu unvorhergesehenen Konflikten kommen. Das Vorgehen ist bisher nicht ausgibig getestet!
-
 ## Test und Verteilung der Konfiguration auf die Arbeitsplätze
 
 **Wichtig:** Die soeben erstellte Konfigurationsdatei wird nur dann verwendet, wenn noch kein Jameica-Benutzerverzeichnis mit abweichenden Angaben existiert. Prüfen Sie also vor dem ersten Start, ob dieses existiert und benennen Sie es ggf. während des Tests um:
