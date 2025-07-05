@@ -41,7 +41,7 @@ Der View besitzt folgende Buttons im unteren Bereich:
 * Speichern und erneut versenden: Eine bereits versendete Mail kann bearbeitet und erneut versendet werden
 * Speichern und senden: Speichert die Mail und versendet sie
 
-Über den Button Anlage im Anhang Bereich lässt sie ein Anhang zur Mail auswählen.
+Über den Button Anlage im Anhang Bereich lassen sich ein oder mehrere Anhänge zur Mail auswählen.
 
 Durch einen Klick auf Hinzufügen bei der Liste der Empfänger öffnet sich folgendes Auswahlfenster:
 

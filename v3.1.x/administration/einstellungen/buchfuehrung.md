@@ -18,8 +18,12 @@ Unterdrückung nicht gebuchter Buchungsarten in Listen/Auswertungen \(Standard: 
 
 Zeige Kontonummer in der Buchungsliste.
 
-Umsatzsteueroption.
+Umsatzsteueroption (Neustart erforderlich)
+
+Auswahl ob die Steuer über die Buchungsart gesetzt wird oder individuell per Buchung.
 
 Auswahl ob eine feste Zuordnung zwischen Buchungsart und Buchungsklasse existiert oder nicht. Die feste Zuordnung sollte nur bei einem Wechsel des Kontenrahmen passieren und dann beim Wechsel des Geschäftsjahres. Sie auch [Buchungsart](../admbuchf/buchungsart.md).
 
 Beim automatischen Splitten den Verwendungszweck aus den Sollbuchungspositionen übernehmen.
+
+Geprüft Markierung mit Hibiskus synchronisieren.
