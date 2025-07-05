@@ -9,7 +9,7 @@ Mit 3.0.0 wurde die Versionsnummerierung auf die Art MAJOR.MINOR.PATCH umgestell
 
 ## The Big Ones
 
-### Wirtschaftsplan
+### Steuer Handling
 
 
 
@@ -90,6 +90,12 @@ Die Anzeige von Projekten, Spendenbescheinigungen und Rechnungen/Mahnungen läss
 
 Es lässt sich eine Rechnung über mehrere Sollbuchungen erstellen.
 
+#### Rechnungen Kommentar
+
+Bei der Rechnung lässt sich ein Kommentar setzen der auch in Mails und Formularen benutzt werden kann.
+
+Das Formular und der Kommentar lässt sich bei bestehenden Rechnungen editieren.
+
 #### Neue Buttons bei Druck und Mail Views
 
 Bei den Druck und Mail Views gibt es neu die folgenden Buttons:
@@ -99,9 +105,14 @@ Bei den Druck und Mail Views gibt es neu die folgenden Buttons:
 
 #### Spendenbescheinigungen über das Buchung Kontextmenü erzeugen
 
-Über das Kontextmenü einer Buchung lässt sich direkt eine Geldspendenbescheinigung erzeugen ohne der Notwendigkeit ein Mitglied bzw. Nicht-Mitglied zu erzeugen und ohne eine Sollbuchung zuordnen zu müssen
+Über das Kontextmenü einer Buchung lässt sich direkt eine Geldspendenbescheinigung erzeugen ohne der Notwendigkeit ein Mitglied bzw. Nicht-Mitglied zu erzeugen und ohne eine Sollbuchung zuordnen zu müssen.
+
+#### Differenzfilter mit Limit
+
+In den Filtern für Sollbuchungen und Kontoauszüge lässt sich ein Limit für die Differenz konfigurieren. Bei  Differenz Fehlbetrag werden nur Sollbuchungen bzw. Mitglieder ausgewählt bei denen der Fehlbetrag größer als das Limit ist. Bei Überzahlung nur wenn der über zahlte Betrag größer als das Limit ist.
 
 ## Kleinere Korrekturen und Erweiterungen
 
 * Reports starten in der Fußzeile wieder mit Seite 1 statt mit 0
+* Weitere Filter im Wiedervorlage Liste View
 

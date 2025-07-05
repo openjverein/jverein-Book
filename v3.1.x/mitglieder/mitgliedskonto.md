@@ -21,7 +21,9 @@ Im Normalfall sollte die Erstellung der Sollbuchungen nur über die Abrechnung e
 
 ## Liste der Sollbuchungen <a id="mitgliedskontouebersicht"></a>
 
-Es gibt eine zentrale Übersicht über alle Sollbuchungen. Die Sollbuchungen können über einen Zeitraum oder über einen Namen der Mitglieds oder des Zahlers, bzw. Namensfragment gefiltert werden. Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) angezeigt werden.
+Es gibt eine zentrale Übersicht über alle Sollbuchungen. Die Sollbuchungen können über einen Zeitraum oder über einen Namen der Mitglieds oder des Zahlers, bzw. Namensfragment gefiltert werden.
+
+Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist \(Offene Posten oder Überzahlungen\) über dem konfigurierten Limit angezeigt werden. 
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat.
 
