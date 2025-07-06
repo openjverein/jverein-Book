@@ -26,6 +26,7 @@ Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche kei
 
 Der Filter Bereich bietet folgende Optionen:
 * Differenz: Bei "Fehlbetrag" werden nur Kontoauszüge für Mitglieder erstellt wenn ein Fehlbetrag vorliegt und bei "Überzahlung" nur wenn überzahlt wurde. Bei "Egal" wird nicht auf den Betrag geprüft.
+* "Differenz Limit": Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen Soll und Ist (Offene Posten oder Überzahlungen) über dem konfigurierten Limit gefiltert werden.
 * Datum von/bis: Es werden nur Mitgliedskonten Einträge im gewählten Zeitraum berücksichtigt.
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob die Kontoauszüge als PDF gedruckt oder per Mail verschickt werden sollen.
