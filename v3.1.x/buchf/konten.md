@@ -23,6 +23,14 @@ In JVerein werden verschiedene Kontoarten unterstützt:
 * Geldkonto
 * Anlagenkonto (ab JVerein 2.8.23)
 
+Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
+* Kontoart Anlagenkonto
+* Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](anlagenbuchungen.md)
+* Erstellung eines [Anlagenverzeichnisses](anlagenverzeichnis.md)
+* Unterstützung bei der Generierung von AfA Buchungen
+
+PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
+
 Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten:
 * Fremdkapital (Darlehen, Kredite etc.)
 * Zweckgebundene Rücklage nach § 62 Abs. 1 Nr. 1 AO
@@ -33,15 +41,13 @@ Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten:
 * Freie Rücklage nach § 62 Abs. 1 Nr. 3 AO
 * Rücklage für Gesellschaftsrechte nach § 62 Abs. 1 Nr. 4 AO
 * Vermögen nach § 62 Abs. 3 und 4 AO
-* Konto für sonstige Rücklagen
+* Konto für sonstige Rücklagen und Vermögen
 
-Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
-* Kontoart Anlagenkonto
-* Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](anlagenbuchungen.md)
-* Erstellung eines [Anlagenverzeichnisses](anlagenverzeichnis.md)
-* Unterstützung bei der Generierung von AfA Buchungen
+Ab JVerein 3.1.0 gibt es zusätzlich folgende Kontoarten:
+* Verbindlichkeiten
+* Forderungen
 
-PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
+Diese Konten dienen nur zur Dokumentation, sie gehen nicht in das Buchungsklassensaldo ein weil in der einfachen Buchführung das Zuflussprinzip gilt, also immer so gebucht wird wie das Geld auf dem Bankkonto bewegt wird.
 
 
 ## Geldkonto und Fremdkapital

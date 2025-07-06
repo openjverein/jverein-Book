@@ -5,17 +5,21 @@
 
 Das Fenster der Mitglieder-Suche besteht aus zwei Teilen: Filter \(oben\) und Mitgliedertabelle \(unten\). Die angezeigten Mitglieder können nach verschiedenen Kriterien gefiltert werden:
 
-* Nachname
+Im Allgemein Tab:
 * Mitgliedschaft Status "Angemeldet", "Abgemeldet" und "Beide"
 * Externe Mitgliedsnummer \(optional\)
-* Eigenschaften
+* Name
 * Beitragsgruppe
+* Eigenschaften
 * Zusatzfelder \(optional\)
-* Geburtsdatum
 * Geschlecht
-* Eintritts- und Austrittsdatum
-* Stichtag
 * Mail
+* Stichtag
+
+Im Erweitert Tab:
+* Geburtsdatum von/bis
+* Eintrittsdatum von/bis
+* Austrittsdatum von/bis
 
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
@@ -29,6 +33,9 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ![](img/MitgliedListeView.png)
 
+Erweiterter Filter:
+
+![](img/MitgliedListeView2.png)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 

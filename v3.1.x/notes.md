@@ -9,7 +9,18 @@ Mit 3.0.0 wurde die Versionsnummerierung auf die Art MAJOR.MINOR.PATCH umgestell
 
 ## The Big Ones
 
-### Steuer Handling
+### Steuer Handling (Konzeptänderung ab 3.1.0)
+
+Bis zur Version 3.0.x war es nötig Buchungen mit Steuern über eine Splittbuchung in eine Nettobuchung und eine Steuerbuchung aufzuteilen.
+
+Dieses ist in ab der Version 3.1.0 nicht mehr nötig.
+
+**Neues Konzept:**
+
+* Eine Buchung mit zugeordneter Steuer braucht nicht mehr in zwei Buchungen aufgesplittet werden. In den relevanten Views wie z.B. Buchungsklassensaldo werden die Buchungen automatisch gesplittet und die Nettobeträge und Steuern den entsprechenden Buchungsarten/Buchungen zugeordnet
+* Wegen der Kompatibilität mit alten bereits gesplitteten Buchungen werden diese korrekt in die Berechnung einbezogen wenn ihnen bereits eine Steuer zugeordnet ist. Steuer Zuordnung in neuen Splittbuchungen wird nicht mehr unterstützt. Hat die gesetzte Buchungsart eine Steuer so wird sie berücksichtigt, auch wenn sie Teil einer neuen Splittbuchung ist. 
+* Ähnlich wie bei der Zuordnung der Buchungsklasse zur Buchung, entweder implizit über die Buchungsart oder als Parameter in der Buchung, ist das auch mit der Zuordnung der Steuer. Unter Administration->Einstellungen->Buchführung lässt sich einstellen ob die Steuer der Buchungsart entnommen werden soll oder ob sie individuell als Attribut in der Buchung gesetzt werden kann. In letzterem Fall erscheint das Attribut "Steuer" als Spalte in der Buchungsliste und als Parameter in der Buchung. Als weiteres kann in diesem Fall die Steuer in Zusatzbeiträgen und Beitragsgruppen gesetzt werden. Diese wird dann im Abrechnungslauf auf die erzeugten Buchungen übertragen
+* Bisher waren die Steuersätze fest in JVerein eingebaut. Ab Version 3.1.0 werden sie manuell angelegt. Siehe (siehe [Steuer](administration/admbuchf/steuer.md)). Wurden bisher bereits Steuern verwendet, so werden für diese automatisch bei der Migration auf die 3.1.0 Steuer Einträge erzeugt. Ansonsten müssen sie manuell angelegt werden
 
 
 
