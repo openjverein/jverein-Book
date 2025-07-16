@@ -1,6 +1,12 @@
 # Steuer
 
 
+### Aktivierung
+
+Zur Nutzung der Steuer ist die Option Umsatzsteuer Support unter Administration->Einstellungen->Buchführung zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Steuer" zur Verfügung steht.
+
 ## Allgemeines
 
 Über Steuern können verschiedene Steuersätze definiert werden.
