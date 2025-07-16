@@ -13,6 +13,9 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 * Enthaltener Text
 * Mitglied zugeordnet
 * Splitbuchungen: nur Split oder nur Hauptbuchungen
+* Mitglied Name
+* Nur geprüfte
+* Steuer (Dieser Filter ist nur verfügbar wenn "Steuer individuell pro Buchung setzen" in den Einstellungen aktiviert ist)
 
 In Der Buchungsliste bedeutet die Spalte "S" Splitbuchung, folgende Werte sind möglich "S" Slitbuchung, "H" Hautbuchung, "G" Gegenbuchung.
 
@@ -43,10 +46,11 @@ Folgende Menü Einträge sind vorhanden:
 * Löschen: Löscht die Buchung
 * Mitglied anzeigen: Für die selektierte Buchung wird das zugehörige Mitglied geöffnet, sofern der Buchung eine Sollbuchung zugeordnet wurde.
 * Neues Anlagenkonto: Für die selektierte Buchung wird ein Anlagenkonto erzeugt
-* Geldspendenbescheinigung: Erstellt eine Geldspendenbescheinigung für die Buchung
+* Geldspendenbescheinigung: Erstellt eine Geldspendenbescheinigung für die Buchung. Diese Option ist nur verfügbar wenn "Spendenbescheinigungen anzeigen" in den Einstellungen aktiviert ist
 * Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart
+* Steuer zuordnen: Es öffnet ein Dialog zur Zuordnung einer Steuer. Diese Option ist nur verfügbar wenn "Steuer individuell pro Buchung setzen" in den Einstellungen aktiviert ist
 * Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung (siehe unten)
-* Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts
+* Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts. Diese Option ist nur verfügbar wenn "Projekte anzeigen" in den Einstellungen aktiviert ist
 * Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs
 
 Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.

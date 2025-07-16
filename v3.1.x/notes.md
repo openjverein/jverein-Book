@@ -22,6 +22,16 @@ Dieses ist in ab der Version 3.1.0 nicht mehr nötig.
 * Ähnlich wie bei der Zuordnung der Buchungsklasse zur Buchung, entweder implizit über die Buchungsart oder als Parameter in der Buchung, ist das auch mit der Zuordnung der Steuer. Unter Administration->Einstellungen->Buchführung lässt sich einstellen ob die Steuer der Buchungsart entnommen werden soll oder ob sie individuell als Attribut in der Buchung gesetzt werden kann. In letzterem Fall erscheint das Attribut "Steuer" als Spalte in der Buchungsliste und als Parameter in der Buchung. Als weiteres kann in diesem Fall die Steuer in Zusatzbeiträgen und Beitragsgruppen gesetzt werden. Diese wird dann im Abrechnungslauf auf die erzeugten Buchungen übertragen
 * Bisher waren die Steuersätze fest in JVerein eingebaut. Ab Version 3.1.0 werden sie manuell angelegt. Siehe (siehe [Steuer](administration/admbuchf/steuer.md)). Wurden bisher bereits Steuern verwendet, so werden für diese automatisch bei der Migration auf die 3.1.0 Steuer Einträge erzeugt. Ansonsten müssen sie manuell angelegt werden
 
+In den Einstellungen zu Buchführung gibt es folgende Schalter:
+ * Umsatzsteuer Support (Neustart erforderlich)  
+Diese Option aktiviert die Möglichkeit Steuer Daten einzugeben (siehe [Steuer](../admbuchf/steuer.md)) und eine Umsatzsteuer Voranmeldung (siehe [Umsatzsteuer Voranmeldung](../../buchf/umsatzsteuersaldo.md)) zu bekommen. Damit lassen sich in Buchungsarten bzw. Buchungen die Steuersätze hinterlegen und über die Umsatzsteuer Voranmeldung z.B. feststellen wie hoch die Umsatzsteuer pflichtigen Umsätze sind. In der Buchungsliste wird auch ein Netto Betrag ausgewiesen. Dieser hat aber noch keine Bedeutung solange die Option Umsatzsteuer Pflicht nicht aktiviert ist
+* Umsatzsteuer Pflicht  
+Über diese Option wird festgelegt, ob man als Verein Umsatzsteuer pflichtig ist. Diese Option ist nur verfügbar wenn auch Umsatzsteuer Support aktiviert ist. Ist diese Option aktiv wird die Steuer in den Salden Reports wie z.B. dem Buchungsklassensaldo explizit ausgewiesen. Es werden also die Beträge intern in die Nettobeträge und Steuer Beträge automatisch gesplittet. Auch werden die Steuern in den Rechnungen ausgewiesen.    
+Durch die Aktivierung von Umsatzsteuer Support wird also nur die Möglichkeit geschaffen schon Steuer Daten zu setzen auch wenn man noch nicht Umsatzsteuer pflichtig ist. So kann man über die Umsatzsteuer Voranmeldung feststellen ob man wegen der Umsätze schon Umsatzsteuer pflichtig wird. Auch kann es sein, dass man schon Umsatzsteuer pflichtig war und es momentan nicht mehr ist. Die Salden und die Rechnungen werden ohne Steuer Berücksichtigung generiert.  
+Erst durch Aktivieren des Umsatzsteuer Pflicht Schalters wird in den Auswertungen, also Salden Reports oder Rechnung die Steuer berücksichtigt.  
+Man muss aber berücksichtigen, dass dieses nur für neue Buchungen gilt bei denen eine Buchung nicht über eine Splittbuchung in eine Netto Buchung und Steuer Buchung gesplittet wurde. Sollten explizite Buchungen mit eine Steuer Buchungsart existieren werden diese weiter in den Salden Reports ausgegeben
+* Auswahl ob die Steuer über die Buchungsart gesetzt wird oder individuell per Buchung.  
+Diese Option ist nur verfügbar wenn auch Umsatzsteuer Support aktiviert ist
 
 
 ### Mittelverwendung (ab Version 3.0.0)
@@ -121,6 +131,11 @@ Bei den Druck und Mail Views gibt es neu die folgenden Buttons:
 #### Differenzfilter mit Limit
 
 In den Filtern für Sollbuchungen und Kontoauszüge lässt sich ein Limit für die Differenz konfigurieren. Bei  Differenz Fehlbetrag werden nur Sollbuchungen bzw. Mitglieder ausgewählt bei denen der Fehlbetrag größer als das Limit ist. Bei Überzahlung nur wenn der über zahlte Betrag größer als das Limit ist.
+
+#### Zwei optionale Spalten in der Mitglieder Liste
+
+* Kontostand: Zeigt den aktuellen Stand des Mitgliedskontos
+* D: Zeigt ob für das Mitglied Dokumente hinterlegt sind
 
 ## Kleinere Korrekturen und Erweiterungen
 
