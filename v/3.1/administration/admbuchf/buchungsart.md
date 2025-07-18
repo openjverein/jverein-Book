@@ -22,7 +22,7 @@ Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
 Mit Neu kann eine neue Buchungsart eingerichtet werden. Jeder Buchungsart wird eine Nummer zugeordnet. Diese Nummer dient der Sortierung in der Buchungsliste. Z. B. werden den Einnahmen die 1.000er Nummern, den Ausgaben die 2.000er und den Umbuchungen die 3.000er gegeben.
 
-![](../../../../v3.1.x/administration/admbuchf/img/Buchungsart.png)
+<figure><img src="../../../../.gitbook/assets/buchungsarten.png" alt=""><figcaption></figcaption></figure>
 
 Eine Buchungsart hat folgende Parameter:
 
@@ -34,7 +34,7 @@ Eine Buchungsart hat folgende Parameter:
 * Abschreibung: Falls Abschreibungen gebucht werden sollen und diese Buchungsart für eine Abschreibung benutzt werden soll ist dieser Schalter zu aktivieren
 * Steuer: Für Umsatzsteuer pflichtige Vereine kann hier die Steuer ausgewählt werden
 * Status: Aktiv bedeutet, dass der Eintrag in Auswahlmenüs zur Eingabe der Buchungsart angezeigt wird. Deaktiviert bedeutet, das die Buchungsart nicht mehr angeboten wird. Das kann Sinn machen wenn man die Buchungsart nicht mehr braucht aber noch alte Buchungen existieren denen sie zugeordnet sind. Bei Auto wird eine Buchungsklasse automatisch ausgeblendet wenn sie mehrere Monate nicht mehr verwendet wurde. Die Anzahl der Monate lässt sich unter Administration->Einstellungen->[Buchführung](../einstellungen/buchfuehrung.md) konfigurieren.
-* Suchbegriff: Hier kann ein Suchbegriff (oder Kommagetrennte Liste von Suchbegriffen) angegeben werden anhand der die aus Hibiscus importierten Buchungen automatisch dieser Buchungesart zugeordnet werden.
+* Suchbegriff: Hier kann ein Suchbegriff (oder Komma getrennte Liste von Suchbegriffen) angegeben werden anhand der die aus Hibiscus importierten Buchungen automatisch dieser Buchungsart zugeordnet werden.
 * Suchbegriff ist regulärer Ausdruck: wenn aktiviert, wird der Suchbegriff als regulärer Ausdruck ausgewertet.
 
 ## Kontenrahmen
