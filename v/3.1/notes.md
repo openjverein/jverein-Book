@@ -136,12 +136,38 @@ Bei den Druck und Mail Views gibt es neu die folgenden Buttons:
 
 In den Filtern für Sollbuchungen und Kontoauszüge lässt sich ein Limit für die Differenz konfigurieren. Bei Differenz Fehlbetrag werden nur Sollbuchungen bzw. Mitglieder ausgewählt bei denen der Fehlbetrag größer als das Limit ist. Bei Überzahlung nur wenn der über zahlte Betrag größer als das Limit ist.
 
-#### Zwei optionale Spalten in der Mitglieder Liste
+#### Drei optionale Spalten in der Mitglieder Liste
 
 * Kontostand: Zeigt den aktuellen Stand des Mitgliedskontos
 * D: Zeigt ob für das Mitglied Dokumente hinterlegt sind
+* Mitglieder Status Spalte, zeitgt an, ob Alle Pflichtangaben beim Mitglied korrekt angegeben sind.
+
+### Import von Mitglieds-Eigenschaften etc.
+
+Es lassen sich über den Import bei Mitglied jetzt auch Eigenschaften, Zusatzbeträge Beitragsgruppen etc. für bestehende Mitglieder importieren.
+
+### Alle Schriften in Formularen durch freie Schriften ersetzt
+
+Eventuell sind dadurch anpassungen im Design der Formulare vorzunehmen
+
+### Verlassen ohne Speichern abfrage
+
+Bei Verlassen einer View wird getestet, ob alle Änderungen gespeichert wurden und ggf. nachgefragt ob gespeichert werden soll. In einzelfällen kann es vorkommen, dass ohne Änderungen diese Abfrage erscheint, dann sollte ein einmaliges speichern des Eintrags reichen um die Meldung für diesen Eintrag nicht mehr angezeigt zu bekommen.
+
+### Buchungsart bei Buchungsübernahme automatisch bestimmen
+
+Bei den Buchungsarten lässt sich ein Suchtext angeben. Bei der Buchungsübernahme aus Hibiscus wird der Zweck und Name nach diesem Text durchsucht und falls zutreffend direkt dieser Buchungsart zugeordnet. Auch Reguläre Ausdrücke sind möglich.
+
+### Buchung geprüft Markieren
+
+Es gibt jetzt die Möglichkeit Buchungen als geprüft zu markieren.
 
 ## Kleinere Korrekturen und Erweiterungen
 
 * Reports starten in der Fußzeile wieder mit Seite 1 statt mit 0
 * Weitere Filter im Wiedervorlage Liste View
+* Es können Gegenbuchungen für mehrere Buchungen gleichzeitig erstellt werden.
+* Bei Mails können mehrere Anhänge auf einmal angehängt werden
+* In den Reports werden die Filterparameter mit ausgegeben
+* Auch bei Formularen die per Mail versendet werden wird die Signatur angefügt.
+* Unter Einstellungen->Mail gibt es einen neuen Button um eine Test-Mail zu versenden.
