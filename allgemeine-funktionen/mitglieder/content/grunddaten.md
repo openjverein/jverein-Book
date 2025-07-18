@@ -1,9 +1,8 @@
-# Stammdaten des Mitglieds
-
+# Stammdaten
 
 Im oberen Teil des Mitglied Dialogs sind die allgemeinen Daten des Mitgliedes zu finden. Wird eine Postleitzahl eingegeben, für die bereits ein Mitglied gespeichert ist, wird der entsprechende Ort übernommen.
 
-![](img/Stammdaten.png)
+![](<img/Stammdaten (1).png>)
 
 Name, Vorname und Geschlecht sind Pflichtfelder.
 
@@ -13,7 +12,7 @@ Hinweis zur E-Mail-Adresse: In JVerein kann aktuell je Mitglied nur eine E-Mail-
 
 Sofern in den [Einstellungen](../../administration/einstellungen/anzeige.md) der Parameter "Juristische Personen erlaubt" gesetzt ist, wird bei der Neuaufnahme von Mitgliedern folgender Dialog eingeblendet:
 
-![](img/Personenart.png)
+![](<img/Personenart (1).png>)
 
 Hier kann ausgewählt werden ob es sich um eine
 
@@ -22,4 +21,4 @@ Hier kann ausgewählt werden ob es sich um eine
 
 handelt. Sofern "Juristische Person" ausgewählt wird, sieht der Bildschirm so aus:
 
-![](img/JuristischePerson.png)
+![](<img/JuristischePerson (1).png>)

@@ -24,7 +24,7 @@ Die Abrechnung wird mit dem untenstehenden Bildschirm initiiert. Es können
 
 verarbeitet werden.
 
-![](img/AbrechnungView.png)
+![](<img/AbrechnungView (1).png>)
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhythmus eingezogen.
 
@@ -36,7 +36,7 @@ Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
 
 ### Parameter
 
-#### Abrechnungsmodus <a id="abrechnungsmodus"></a>
+#### Abrechnungsmodus <a href="#abrechnungsmodus" id="abrechnungsmodus"></a>
 
 **Keine Beitragsabrechnung**
 
@@ -50,7 +50,7 @@ Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../..
 
 Es werden die neu eingetretenen Mitglieder abgerechnet. JVerein verwendet das Eintrittsdatum zur Selektion der eingetretenen Mitglieder.
 
-Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eintrittsdatum den Tag nach der letzten Abrechnung für eingetretene Mitglieder \(ersatzweise den Tag nach der letzten Abrechnung für Alle\) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
+Tipp zum Workflow: Zuerst noch neue Mitglieder anlegen. Danach die Abrechnung machen und dabei als Datum für Von Eintrittsdatum den Tag nach der letzten Abrechnung für eingetretene Mitglieder (ersatzweise den Tag nach der letzten Abrechnung für Alle) verwenden. Nach der Abrechnung am selben Tag keine neuen Mitglieder mehr erfassen, die würden bei diesem Workflow sonst nicht mehr abgerechnet.
 
 Hinweis: Das Eintrittsdatum wird beim Import von Mitgliedern nicht gesetzt.
 
@@ -68,13 +68,13 @@ Stichtag für die Berechnung der Mitgliedschaft und der Fälligkeit von Zusatzbe
 
 **Zahlungsgrund für Beiträge**
 
-Hier kann ein Text erfasst werden \(z.B. ''Jahresbeitrag 2015''\). Dieser Text wird auf [Rechnungen](../druckmail/rechnungen.md), [Mahnungen](../druckmail/mahnungen.md) und bei Lastschriften im Verwendungszweck \(hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und dem Betrag\) ausgegeben.
+Hier kann ein Text erfasst werden (z.B. ''Jahresbeitrag 2015''). Dieser Text wird auf [Rechnungen](../druckmail/rechnungen.md), [Mahnungen](../druckmail/mahnungen.md) und bei Lastschriften im Verwendungszweck (hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und dem Betrag) ausgegeben.
 
-Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird \(Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)\).
+Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird (Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)).
 
 **Zusatzbeträge**
 
-Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen \[\[Abrechnung\#Abrechnungsmodus\|Abrechnungsmodi\]\] zusätzlich gesetzt werden.
+Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen \[\[Abrechnung#Abrechnungsmodus|Abrechnungsmodi]] zusätzlich gesetzt werden.
 
 **Kursteilnehmer**
 
@@ -82,7 +82,7 @@ Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, 
 
 **Kompakte Abbuchung**
 
-Alle Abbuchungen eines Mitgliedes \(Beträge und Zusatzbeträge\) werden in eine Abbuchung zusammengefasst.
+Alle Abbuchungen eines Mitgliedes (Beträge und Zusatzbeträge) werden in eine Abbuchung zusammengefasst.
 
 **SEPA-Datei drucken**
 
@@ -92,7 +92,7 @@ Optional können die SEPA-Daten in ein PDF-Dokument zum Ausdruck ausgegeben werd
 
 Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
 
-Die IBAN in den Stammdaten \(siehe [Einstellungen](../administration/einstellungen/allgemein.md)\), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
+Die IBAN in den Stammdaten (siehe [Einstellungen](../../versionen/v3.0/administration/einstellungen/allgemein.md)), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
 
 Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
 

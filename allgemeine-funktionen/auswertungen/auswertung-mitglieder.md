@@ -11,7 +11,7 @@ Der Mitgliederbestand kann nach verschiedenen Kriterien ausgewertet und das Erge
 
 Die Ausgabe erfolgt entweder im PDF- oder im CSV-Format. Nach der Erzeugung der Datei wird ein entsprechendes Anzeigeprogramm aufgerufen.
 
-![](img/MitgliederView.png)
+![](<img/MitgliederView (1).png>)
 
 ## Sortierung
 
@@ -20,7 +20,7 @@ Die Sortierung erfolgt wahlweise nach
 * Name, Vorname
 * Eintrittsdatum
 * Geburtsdatum
-* Geburtsmonat und -jahr \(Geburtstagliste\).
+* Geburtsmonat und -jahr (Geburtstagliste).
 
 Hinweis: Runde Geburtstage können in der [Jubiläumsliste](jubilaen.md) ausgegeben werden.
 
@@ -48,7 +48,7 @@ Die Adressliste listet alle Mitglieder und enthält 5 Spalten:
 
 ## Ausgabe im CSV-Format
 
-Eine [CSV-Datei](http://de.wikipedia.org/wiki/CSV_%28Dateiformat%29) ist eine Textdatei, bei der jeder Datensatz \(jedes Mitglied\) als einzelne Textzeile gespeichert ist. Die Textzeilen bestehen aus Feldern die mit Semikolon-Zeichen getrennt sind \(im deutschen Sprachraum\). Dieses einfache Dateiformat lässt sich sowohl mit einem Texteditor \(bei Windows z.B. Notepad, bei Linux z.B. vim,Emacs,Nano\) als auch mit einer Tabellenkalkulation wie Excel oder OpenOffice-Calc editieren.
+Eine [CSV-Datei](http://de.wikipedia.org/wiki/CSV_\(Dateiformat\)) ist eine Textdatei, bei der jeder Datensatz (jedes Mitglied) als einzelne Textzeile gespeichert ist. Die Textzeilen bestehen aus Feldern die mit Semikolon-Zeichen getrennt sind (im deutschen Sprachraum). Dieses einfache Dateiformat lässt sich sowohl mit einem Texteditor (bei Windows z.B. Notepad, bei Linux z.B. vim,Emacs,Nano) als auch mit einer Tabellenkalkulation wie Excel oder OpenOffice-Calc editieren.
 
 Eine CSV-Datei kann in OpenOffice oder WinWord als Serienbriefdatenquelle zugewiesen werden.
 
@@ -56,21 +56,21 @@ Für die Ausgabe als CSV-Format gibt es 3 verschiedene Möglichkeiten:
 
 * Mitgliederliste CSV
 * Addressbuchexport CSV
-* eigene Vorlagen für CSV \(ab Version 2.5\)
+* eigene Vorlagen für CSV (ab Version 2.5)
 
 Bei der Mitgliederliste CSV werden sämtliche vorhandenen Mitglieder-Eigenschaften inklusive selbst definierte [Zusatzfelder](../administration/mitglieder/felddefinition.md) in die CSV-Datei exportiert.
 
-DerAddressbuchexport CSV eignet sich u.a. für die Weiterverarbeitung in Mailprogrammen \(z. B. Thunderbird, Outlook Express\).
+DerAddressbuchexport CSV eignet sich u.a. für die Weiterverarbeitung in Mailprogrammen (z. B. Thunderbird, Outlook Express).
 
 ### Vorlagen für eigene CSV-Formate
 
 Ab Version 2.5 kann man eigene Vorlagen für den CSV-Export erstellen.
 
-Dazu ist zunächst unter [Einstellungen-&gt;Dateinamen](../administration/einstellungen/dateinamen.md) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
+Dazu ist zunächst unter [Einstellungen->Dateinamen](../../versionen/v3.0/administration/einstellungen/dateinamen.md) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
 
 Jede der selbst erstellten Vorlagen ist ebenfalls eine CSV-Datei. Diese Dateien müssen mit einem externen Programm erstellt werden, also mit einem Texteditor oder mit einem Tabellenkalkulationsprogramm. Damit JVerein diese Vorlagendateien erkennt, müssen diese im gewählten Vorlagenverzeichnis gespeichert werden.
 
-![](img/Ausgabe.png)
+![](<img/Ausgabe (1).png>)
 
 Die Vorlagen kann man direkt in der Liste Ausgabe auswählen
 
@@ -87,21 +87,20 @@ Jede CSV Vorlagendatei besteht aus 2 Zeilen:
 
 **Beispiel**
 
-Datei Eintrittsdatum.csv, wird angezeigt unter Ausgabe als Vorlage CSV: Eintrittsdatum\(ohne Endung .csv\)
+Datei Eintrittsdatum.csv, wird angezeigt unter Ausgabe als Vorlage CSV: Eintrittsdatum(ohne Endung .csv)
 
-```text
+```
 Name;Vorname;Eintrittsdatum
 mitglied_name;mitglied_vorname;mitglied_eintritt
 ```
 
 **Wie kann ich einfach Vorlagendateien erstellen?**
 
-1. Zunächst erzeugt man mittels der Auswahl
+1.  Zunächst erzeugt man mittels der Auswahl
 
-   Mitgliederliste CSV
+    Mitgliederliste CSV
 
-   eine CSV-Datei die alle möglichen Datenfelder beinhaltet.
-
+    eine CSV-Datei die alle möglichen Datenfelder beinhaltet.
 2. Dann öffnet man diese mit einem Tabellenkalkulationsprogramm, z.B. Excel oder OpenOffic-Calc. Hier sieht man nun die exportierten Datensätze, wobei die JVerein-Feldnamen in der ersten Zeile stehen.
 3. Durch Löschen und Umsortieren von Spalten wird jetzt die gewünschte Spaltenreihenfolge definiert. Es sollten nur noch die Spalten übrig bleiben die man wirklich in der Ausgabe haben möchte.
 4. Nun dupliziert man die erste Zeile und benennt in der ersten Zeile die Spalten so um wie man sie haben möchte

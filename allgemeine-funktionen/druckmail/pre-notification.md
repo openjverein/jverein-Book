@@ -2,7 +2,7 @@
 
 ## Allgemeines
 
-Mit der Pre-Notification Funktion ist es einfach möglich, den Ansprüchen der SEPA Regelung bzgl. der Ankündigung einer SEPA-Lastschrift gerecht zu werden. Die Pre-Notification Benachrichtigung kann erst erstellt werden, wenn der Buchungsvorgang abgeschlossen ist. Die Buchungen \(d.h. die Abrechnung\) müssen dafür nur erstellt sein. Eine Onlinebuchung/ -übertragung zur Bank ist für diese Funktion nicht erforderlich.
+Mit der Pre-Notification Funktion ist es einfach möglich, den Ansprüchen der SEPA Regelung bzgl. der Ankündigung einer SEPA-Lastschrift gerecht zu werden. Die Pre-Notification Benachrichtigung kann erst erstellt werden, wenn der Buchungsvorgang abgeschlossen ist. Die Buchungen (d.h. die Abrechnung) müssen dafür nur erstellt sein. Eine Onlinebuchung/ -übertragung zur Bank ist für diese Funktion nicht erforderlich.
 
 In JVerein stehen folgende Alternativen für die Pre-Notifications zur Verfügung:
 
@@ -16,7 +16,7 @@ Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der A
 
 Mit einem Rechtsklick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-![](img/AbrechnungslaufListeView.png)
+![](<img/AbrechnungslaufListeView (1).png>)
 
 ## Aufruf der Pre-Notification Funktion über Druck & Mail
 
@@ -38,23 +38,21 @@ Diese Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. D
 
 ![](img/LastschriftenListeView.png)
 
-
 ## Dialog bei Aufruf über Abrechnungsläufe oder Lastschriften
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](img/PrenotificationDruckMailView1.png)
-
+![](<img/PrenotificationDruckMailView1 (1).png>)
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
 Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../administration/mitglieder/formulare.md) dafür angelegt werden.
 
-Im Block Parameter bei Ausgabe muss PDF \(Alle\) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
+Im Block Parameter bei Ausgabe muss PDF (Alle) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
 
-Über die Einstellung zu "PDF als" kann gesteuert werden, ob die PDF als eine einzige, mehrseitige Datei erzeugt wird, die alle einzelnen Schreiben enthält \(Einstellung "Eine PDF-Datei"\), oder ob jedes Schreiben an einen Benutzer in einer separaten Datei abgelegt wird. In jedem Fall muss der Benutzer über den aufkommenden Dialog Ausgabedatei wählen das Ablageverzeichnis und den Namen \(bzw. das Prefix\) der PDF-Datei\(en\) festlegen.
+Über die Einstellung zu "PDF als" kann gesteuert werden, ob die PDF als eine einzige, mehrseitige Datei erzeugt wird, die alle einzelnen Schreiben enthält (Einstellung "Eine PDF-Datei"), oder ob jedes Schreiben an einen Benutzer in einer separaten Datei abgelegt wird. In jedem Fall muss der Benutzer über den aufkommenden Dialog Ausgabedatei wählen das Ablageverzeichnis und den Namen (bzw. das Prefix) der PDF-Datei(en) festlegen.
 
-Sollen separate Dateien erzeugt werden, so wird der ausgewählte Dateiname vor der Endung .PDF um eine fortlaufende Nummer \("Einzelne PDF-Dateien, nummeriert"\), um die Mitgliedsnummer des angeschriebenen Mitglieds \("Einzelne PDF-Dateien, mit Mitgliedsnummer"\) oder um beide Werte \("Einzelne PDF-Dateien, nummeriert mit Mitgliedsnummer"\) ergänzt, je nach dem, was in der Einstellung "PDF als" ausgewählt wurde.
+Sollen separate Dateien erzeugt werden, so wird der ausgewählte Dateiname vor der Endung .PDF um eine fortlaufende Nummer ("Einzelne PDF-Dateien, nummeriert"), um die Mitgliedsnummer des angeschriebenen Mitglieds ("Einzelne PDF-Dateien, mit Mitgliedsnummer") oder um beide Werte ("Einzelne PDF-Dateien, nummeriert mit Mitgliedsnummer") ergänzt, je nach dem, was in der Einstellung "PDF als" ausgewählt wurde.
 
 Die direkte Erzeugung einzelner PDF-Dateien ist hilfreich, wenn für das Versenden der Briefe ein Online-Dienstleister herangezogen werden soll.
 
@@ -72,7 +70,7 @@ Die versendeten Pre-Notification Mails werden nach dem Versand beim jeweiligen M
 
 #### Beispiel für eine Pre-Notification Mail
 
-```text
+```
 NAME_DES_VEREINS___  - SEPA  Ankündigung
 
 $lastschrift_empfaenger
@@ -101,7 +99,7 @@ die Verwaltung
 
 Nachdem die Pre-Notifications per E-Mail versendet wurden müssen die übrigen Mitglieder diese Nachricht noch schriftlich erhalten.
 
-Im Block Parameter bei Ausgabe muss nun PDF \(Lastschriften ohne Mailadresse\) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
+Im Block Parameter bei Ausgabe muss nun PDF (Lastschriften ohne Mailadresse) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
 
 Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-Notification an alle Mitglieder.
 
@@ -109,26 +107,28 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
 
-![](img/Prenotification1ctErstellung.png)
+![](<img/Prenotification1ctErstellung (1).png>)
 
-Auf der Karte 1ct-Überweisung müssen die Ausgabeart \(Datei oder Hibiscus\) und das Ausführungsdatum eingestellt werden.
+Auf der Karte 1ct-Überweisung müssen die Ausgabeart (Datei oder Hibiscus) und das Ausführungsdatum eingestellt werden.
 
 Für den Verwendungszweck stehen alle unten aufgeführten $lastschrift\_\*-Variablen zur Verfügung.
 
 ### Beispiel für einen Verwendungszweck
 
-```text
+```
 Lastschriftankündigung/Betrag:$lastschrift_betrag/Datum:$lastschrift_abrechnungslauf_faelligkeit/Mandat-ID:$lastschrift_mandatid/Gläubiger-ID:DE....
 ```
 
 In der Mail können im Betreff und im Text, bei der 1ct-Überweisung im Verwendungszweck die Lastschriftvariable verwendet werden. Diese Daten werden aus dem Abrechnungslauf genommen. Änderungen in den Mitgliederdaten nach dem Abrechnungslauf werden NICHT berücksichtigt.
 
 ## Besonderheiten - zusammengefasst
+
 new Buchungsuebernahme();
+
 * Änderungen der Mitgliederdaten nach einem Buchungslauf werden für diesen Buchungslauf NICHT mehr berücksichtigt. Der Buchungslauf stellt eine eigenen Datensatz dar.
   * So werden z.B. E-Mailadresseänderungen für die Pre-Notification außer acht gelassen.
   * Teilt ein Mitglied z.B. aufgrund der Pre-Notification eine neue Bankverbindung mit, so ändert man sie in den Mitgliederdaten nur für künftige Abrechnungen.
-    * Wurde die entsprechende Lastschrift der aktuellen Abrechnung jedoch noch nicht zur Bank übertragen, so kann man zusätzlich in Hibiscus \(oder in der XML-Datei\) für diese Abrechnung noch die Bankverbindung ändern \(Achtung: evtl. neue Mandatsreferenz und geänderte Erst-/Folgelastschrift beachten\).
+    * Wurde die entsprechende Lastschrift der aktuellen Abrechnung jedoch noch nicht zur Bank übertragen, so kann man zusätzlich in Hibiscus (oder in der XML-Datei) für diese Abrechnung noch die Bankverbindung ändern (Achtung: evtl. neue Mandatsreferenz und geänderte Erst-/Folgelastschrift beachten).
     * Wurde die Lastschrift aber bereits zur Bank übertragen, dann sind für diese Abrechnung keine Änderungen mehr möglich. Die Lastschrift wird wahrscheinlich zurückkommen, zum Handling siehe Rücklastschrift.
 * Das Mailformular wird mit ausgeführtem Mailversand gespeichert.
 * Die Variablen in der Pre-Notification Mail sind NICHT identisch mit den Variablen eines "normalen" E-Mailversandes.

@@ -1,12 +1,12 @@
-# Kontoauszuege
+# Kontoauszüge
 
 ## Allgemeines
 
-Der Kontoauszug ist eine Liste \(PDF-Ausgabe\) sämtlicher Buchungen auf einem Mitgliedskonto.
+Der Kontoauszug ist eine Liste (PDF-Ausgabe) sämtlicher Buchungen auf einem Mitgliedskonto.
 
-![](img/Kontoauszug.jpg)
+![](../../v3.0.x/druckmail/img/Kontoauszug.jpg)
 
-Einen Kontoauszug kann in der Anzeige des Mitglieds \(bzw. Nicht-Mitglied\) abgerufen werden und auf einen Zeitraum eingegrenzt werden.
+Einen Kontoauszug kann in der Anzeige des Mitglieds (bzw. Nicht-Mitglied) abgerufen werden und auf einen Zeitraum eingegrenzt werden.
 
 Die jüngsten Positionen des Kontoauszugs werden auch auf dem Personalbogen ausgegeben.
 
@@ -22,9 +22,10 @@ Alternativ kann in der Detailansicht eines Mitglieds über den Button "Kontoausz
 
 Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](img/KontoauszuegeDruckMailView1.png)
+![](../../v3.0.x/druckmail/img/KontoauszuegeDruckMailView1.png)
 
 Der Filter Bereich bietet folgende Optionen:
+
 * Differenz: Bei "Fehlbetrag" werden nur Kontoauszüge für Mitglieder erstellt wenn ein Fehlbetrag vorliegt und bei "Überzahlung" nur wenn überzahlt wurde. Bei "Egal" wird nicht auf den Betrag geprüft.
 * Datum von/bis: Es werden nur Mitgliedskonten Einträge im gewählten Zeitraum berücksichtigt.
 
@@ -46,7 +47,7 @@ Ist kein Mitgliedstyp ausgewählt werden die Kontoauszüge sowohl für alle Mitg
 
 Da der Filter hier eine Untermenge des Filters im Mitglied bzw. Nicht-Mitglied Dialog ist, hat man hier weniger Filter Möglichkeiten. Werden weitere Filter Optionen gebraucht muss über den selektiven Weg gegangen werden.
 
-![](img/KontoauszuegeDruckMailView2.png)
+![](../../v3.0.x/druckmail/img/KontoauszuegeDruckMailView2.png)
 
 Tipp:
 

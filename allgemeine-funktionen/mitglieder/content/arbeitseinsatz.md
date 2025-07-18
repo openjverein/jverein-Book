@@ -14,9 +14,10 @@ Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negat
 
 In dieser Ansicht sehen Sie die geleisteten Arbeitsstunden, die diesem Mitglied zu gebucht wurden.
 
-![](img/ArbeitseinsatzTab.png)
+![](../../../v3.0.x/mitglieder/content/img/ArbeitseinsatzTab.png)
 
 Das Kontextmenü bietet folgende Optionen:
+
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann ein Arbeitseinsatz gelöscht werden
 * Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
@@ -25,9 +26,8 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet werden.
 
-![](../img/ArbeitseinsatzView.png)
-
+![](../../../v3.0.x/mitglieder/img/ArbeitseinsatzView.png)
 
 Im Dialog können neue Stunden für das Mitglied erfasst werden. Sie geben das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
 
-Weitere Informationen dazu: [Arbeitseinsätze](../arbeitseinsatz.md)
+Weitere Informationen dazu: [Arbeitseinsätze](../../../versionen/v3.0/mitglieder/arbeitseinsatz.md)
