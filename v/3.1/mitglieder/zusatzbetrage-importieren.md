@@ -76,3 +76,6 @@ Zahlungsweg der Zahlung. 0 = Standard, 1 = Basislastschrift, 2 = Überweisung, 3
 
 Jede Datei enthält eine Kopfzeile und pro Zusatzbuchung eine Zeile.
 
+## Steuer (optional)
+
+Steuersatz
