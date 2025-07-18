@@ -19,3 +19,5 @@ Mit den den Navigations Pfeilen lässt sich der ausgewählte Bereich nach vorne 
 Beginnt das Von Datum an einem Monatsanfang und endet das Bis Datum an einem letzten Tag eines Monats, wird Monatsweise geblättert. Andernfalls mit der Anzahl der Tage des Zeitbereichs.
 
 Die Daten lassen sich als CSV oder PDF exportieren.
+
+Bei freigeschalteter Einstellung "Umsatzsteuerpflicht" werden die Summen aus den Nettobeträgen berechnet. Auf den Steuer-Buchungsarten wird die Steuer berechnet und angezeigt.
