@@ -32,9 +32,10 @@ Eine Buchungsart hat folgende Parameter:
 * Buchungsklasse: Buchungsklassen dienen zu Gruppierung von Buchungsarten. Es hängt vom gewählten Kontenrahmen ab wie dieser Wert benutzt wird (siehe unten)
 * Spende: Bei einer Ausgabe für die Spendenbescheinigungen erstellt werden sollen ist dieser Schalter zu aktivieren
 * Abschreibung: Falls Abschreibungen gebucht werden sollen und diese Buchungsart für eine Abschreibung benutzt werden soll ist dieser Schalter zu aktivieren
-* Steuersatz: Für Umsatzsteuer pflichtige Vereine kann hier der Steuersatz ausgewählt werden
-* Steuer Buchungsart: Buchungsart der zugehörigen Steuer
+* Steuer: Für Umsatzsteuer pflichtige Vereine kann hier die Steuer ausgewählt werden
 * Status: Aktiv bedeutet, dass der Eintrag in Auswahlmenüs zur Eingabe der Buchungsart angezeigt wird. Deaktiviert bedeutet, das die Buchungsart nicht mehr angeboten wird. Das kann Sinn machen wenn man die Buchungsart nicht mehr braucht aber noch alte Buchungen existieren denen sie zugeordnet sind. Bei Auto wird eine Buchungsklasse automatisch ausgeblendet wenn sie mehrere Monate nicht mehr verwendet wurde. Die Anzahl der Monate lässt sich unter Administration->Einstellungen->[Buchführung](../einstellungen/buchfuehrung.md) konfigurieren.
+* Suchbegriff: Hier kann ein Suchbegriff (oder Kommagetrennte Liste von Suchbegriffen) angegeben werden anhand der die aus Hibiscus importierten Buchungen automatisch dieser Buchungesart zugeordnet werden.
+* Suchbegriff ist regulärer Ausdruck: wenn aktiviert, wird der Suchbegriff als regulärer Ausdruck ausgewertet.
 
 ## Kontenrahmen
 
