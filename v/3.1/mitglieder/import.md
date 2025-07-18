@@ -8,6 +8,8 @@ Im Gegensatz zur bisherigen Funktion [Migration](../administration/erweitert/mig
 
 ## CSV Format
 
+Über den Import ist es sowohl möglich neue Mitglieder zu importieren als auch bestehende Mitglieder zu ändern. Wenn die Spalte "id" existiert, werden die bestehenden Mitglieder mit der jeweiligen id geändert. In dem Fall sind alle weiteren Spalten optional. Wenn es keine Spalte "id" gibt, werden neue Mitglieder erstellt.
+
 Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 
 * vorname Pflichtfeld
