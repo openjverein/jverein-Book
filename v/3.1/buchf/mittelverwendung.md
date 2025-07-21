@@ -20,6 +20,10 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Mittelv
 
 Gemeinnützige Vereine müssen ihre Einnahmen (Finanzen und Sachen) im aktuellen und den zwei folgenden Jahren verwenden (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen. Sie dürfen aber Rücklagen und Vermögen bilden. Diese sind der zeitnahen Verwendung entzogen.
 
+**Ausnahme**
+
+Das Jahressteuergesetz 2020 für kleine und mittlere Vereine hat eine Erleichterung gebracht. Vereine, die mit ihren Bruttoeinnahmen unter 45.000 Euro pro Jahr bleiben, sind nicht mehr an die zeitnahe Mittelverwendung gebunden. Der § 55 Absatz 1 Nummer 5 der Abgabenordnung (AO) wurde dazu durch das Jahressteuergesetz (JStG) entsprechend ergänzt.
+
 Es gibt keine feste Vorgabe wie ein Mittelverwendung Nachweis auszuschauen hat. JVerein bietet zwei verschiedene Reports an:
 
 * Zufluss-basiert: Dieser Report listet den Verwendungsrückstand/-überhang und den Mittel Zufluss und Abfluss eines Geschäftsjahres. Dies ist ein fortgeschriebener Report, da er zugeflossene Mittel über zwei Jahre verfolgt. In diesem Zeitraum sind zugeflossene Mittel auszugeben
