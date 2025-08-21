@@ -8,7 +8,7 @@ Der Empfang von Mails ist nicht vorgesehen.
 
 ## Konfiguration
 
-Die Konfiguration ist unter Administration->Einstellungen->[Mail](../../3.0/administration/einstellungen/mail.md) beschrieben.
+Die Konfiguration ist unter Administration->Einstellungen->[Mail](../administration/einstellungen/mail.md) beschrieben.
 
 ## Liste der Mails
 

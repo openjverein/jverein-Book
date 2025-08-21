@@ -30,4 +30,4 @@ Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet w
 
 Im Dialog können neue Stunden für das Mitglied erfasst werden. Sie geben das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
 
-Weitere Informationen dazu: [Arbeitseinsätze](../../../3.0/mitglieder/arbeitseinsatz.md)
+Weitere Informationen dazu: [Arbeitseinsätze](../../mitglieder/arbeitseinsatz.md)

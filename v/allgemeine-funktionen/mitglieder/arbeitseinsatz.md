@@ -16,7 +16,7 @@ In den betroffenen [Beitragsgruppen](../administration/mitglieder/beitragsgruppe
 
 Die Arbeitseinsätze können erstellt werden
 
-* in den Mitglied Details (siehe [Arbeitseinsatz](../../3.0/mitglieder/content/arbeitseinsatz.md))
+* in den Mitglied Details (siehe [Arbeitseinsatz](../mitglieder/content/arbeitseinsatz.md))
 * über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md))
 * aber auch in der Liste der Arbeitseinsätze
 

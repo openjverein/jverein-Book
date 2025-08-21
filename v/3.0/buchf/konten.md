@@ -245,7 +245,7 @@ In diesem Fall bietet sich folgendes Vorgehen an:
 
 * Erstellen eines Anlagenkontos über den Neu Button in der Konto Liste
 * Die Kontodaten mit den Daten der Anlage ausfüllen. Also hier mit dem echten Datum der Anschaffung und dem echten damaligen Anlagenwert allerdings als Konto Eröffnungsdatum den ersten Tag des Geschäftsjahres
-* Unter [Anfangsbestände](../../allgemeine-funktionen/buchf/anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
+* Unter [Anfangsbestände](../buchf/anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
 * Bei der automatischen Berechnung der AfA Beträge wird dann mit diesem Anfangsbestand gerechnet. Im regulären Verfahren wie oben beschrieben muss der Anfangsbestand 0€ sein. Dieser wird dort automatisch erzeugt
 
 ## Workflow für die Buchung der AfA

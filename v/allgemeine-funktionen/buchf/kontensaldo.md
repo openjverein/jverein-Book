@@ -14,6 +14,6 @@ Mit den den Navigations Pfeilen lässt sich der ausgewählte Bereich nach vorne 
 
 Beginnt das Von Datum an einem Monatsanfang und endet das Bis Datum an einem letzten Tag eines Monats, wird Monatsweise geblättert. Andernfalls mit der Anzahl der Tage des Zeitbereichs.
 
-Sofern kein [Anfangsbestand](../../3.0/buchf/anfangsbestand.md) vorhanden ist, wird ein entsprechender Hinweis ausgegeben.
+Sofern kein [Anfangsbestand](../buchf/anfangsbestand.md) vorhanden ist, wird ein entsprechender Hinweis ausgegeben.
 
 Die Daten können im PDF-Format oder CSV-Format ausgegeben werden.

@@ -12,6 +12,6 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zu
 
 Über den Button Bearbeiten lassen sich die Lesefelder bearbeiten.
 
-![](img/Lesefeld.png)
+![](../../administration/mitglieder/img/Lesefeld.png)
 
 Weitere Informationen dazu: [Lesefelder](../../administration/mitglieder/lesefelder.md)

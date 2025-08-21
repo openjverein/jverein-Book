@@ -4,4 +4,4 @@ Die Eigenschaften des Mitgliedes können angehakt werden, bzw. das Häkchen kann
 
 ![](img/EigenschaftenTab.png)
 
-[Eigenschaften](../../../3.0/administration/mitglieder/eigenschaften.md) und [Eigenschaftengruppen](../../../3.0/administration/mitglieder/eigenschaften-gruppen.md) sind in der Administration einzurichten.
+[Eigenschaften](../../administration/mitglieder/eigenschaften.md) und [Eigenschaftengruppen](../../administration/mitglieder/eigenschaften-gruppen.md) sind in der Administration einzurichten.

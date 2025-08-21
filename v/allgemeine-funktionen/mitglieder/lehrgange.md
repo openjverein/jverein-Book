@@ -10,7 +10,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Lehrgä
 
 Hier können Lehrgänge den Mitglieder/Nicht-Mitgliedern zugeordnet werden.
 
-Lehrgangsarten können in Administration->Mitglieder->[Lehrgangsarten](../../3.0/administration/mitglieder/lehrgange.md) erstellt werden.
+Lehrgangsarten können in Administration->Mitglieder->[Lehrgangsarten](../administration/mitglieder/lehrgange.md) erstellt werden.
 
 ### Erstellung
 
