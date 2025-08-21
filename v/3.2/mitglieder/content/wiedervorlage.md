@@ -26,4 +26,4 @@ Mit dem Button Neu Wiedervorlage kann eine neue Wiedervorlage eingerichtet werde
 
 Zusätzlich werden die Daten unter Jameica | Termine in einem Kalenderformat angezeigt.
 
-Weitere Informationen dazu: [Wiedervorlagen](../wiedervorlage.md)
+Weitere Informationen dazu: [Wiedervorlagen](../../../3.1/mitglieder/wiedervorlage.md)

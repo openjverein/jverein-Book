@@ -14,7 +14,7 @@ Die Wiedervorlage Termine aller Mitglieder können hier angezeigt und als erledi
 
 Die Wiedervorlagen können erstellt werden
 
-* in den Mitglied Details (siehe [Wiedervorlage](content/wiedervorlage.md))
+* in den Mitglied Details (siehe [Wiedervorlage](../../3.1/mitglieder/content/wiedervorlage.md))
 * aber auch in der Liste der Wiedervorlagen
 
 ## Liste der Wiedervorlagen

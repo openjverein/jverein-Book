@@ -24,9 +24,9 @@ Im Erweitert Tab:
 
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
-Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../spendenbescheinigung.md) möglich.
+Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../../../3.1/mitglieder/spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](../../../3.1/mitglieder/content/suchprofil.md) gespeichert werden.
 
 Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
@@ -38,9 +38,9 @@ Erweiterter Filter:
 
 ![](../../../../v3.1.x/mitglieder/content/img/MitgliedListeView2.png)
 
-Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
+Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](../../../3.1/mitglieder/content/grunddaten.md)
 
-Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](../import.md)
+Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](../../../3.1/mitglieder/import.md)
 
 Unter Administration->Einstellungen->Mitglieder Spalten lassen sich die die angezeigten Spalten konfigurieren.
 
@@ -84,7 +84,7 @@ Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweilige
 
 Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied.
 
-Siehe [Mitglied](grunddaten.md).
+Siehe [Mitglied](../../../3.1/mitglieder/content/grunddaten.md).
 
 ### Duplizieren
 
@@ -162,4 +162,4 @@ Generierung einer manuellen Lastschrift in Hibiscus.
 
 ## Freie Formulare
 
-Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wir ein Untermenü mit allen Freien Formularen angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die Ausgwählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../druckmail/freiesformular.md)
+Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wir ein Untermenü mit allen Freien Formularen angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die Ausgwählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../../3.1/druckmail/freiesformular.md)

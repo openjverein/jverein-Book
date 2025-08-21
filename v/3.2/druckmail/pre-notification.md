@@ -62,7 +62,7 @@ Der View besitzt folgende Buttons:
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
-Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../administration/mitglieder/formulare.md) dafür angelegt werden.
+Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../../3.1/administration/mitglieder/formulare.md) dafür angelegt werden.
 
 Im Block Parameter bei Ausgabe muss PDF (Alle) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
 

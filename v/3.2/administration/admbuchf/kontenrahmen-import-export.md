@@ -2,13 +2,13 @@
 
 ## Allgemeines
 
-Die JVerein-Buchführung beruht auf Buchungsarten \(könnte man auch als Konten bezeichnen\) und auf Buchungsklassen \(Kontenrahmen\). Für den Austausch von Kontenrahmen zwischen Vereinen gibt es den Export und Import im XML-Format.
+Die JVerein-Buchführung beruht auf Buchungsarten (könnte man auch als Konten bezeichnen) und auf Buchungsklassen (Kontenrahmen). Für den Austausch von Kontenrahmen zwischen Vereinen gibt es den Export und Import im XML-Format.
 
 Im Forum ist der SKR42 unter [https://jverein-forum.de/viewtopic.php?t=7394](https://jverein-forum.de/viewtopic.php?t=7394) zu finden, danke an tomtu.
 
 Der SKR49 unter [https://jverein-forum.de/viewtopic.php?t=1265](https://jverein-forum.de/viewtopic.php?t=1265), danke an mgmf.
 
-Sofern ihr einen allgemeingültigen Kontenrahmen für einen bestimmten Vereinstypen \(z. B. Schulfördervereine\) erstellt habt, bzw. in JVerein erfasst habt, könnt ihr ihn dort den Vereinskollegen zur Verfügung stellen.
+Sofern ihr einen allgemeingültigen Kontenrahmen für einen bestimmten Vereinstypen (z. B. Schulfördervereine) erstellt habt, bzw. in JVerein erfasst habt, könnt ihr ihn dort den Vereinskollegen zur Verfügung stellen.
 
 ## Export
 
@@ -30,14 +30,15 @@ Hierzu musste das Format für den Kontenrahmen Export/Import angepasst werden.
 
 Im alten Format wurde eine Versionsnummer 1 hinzugefügt. Das neue Format enthält die Versionsnummer 2.
 
-Der Import für das Format V1 kann auch alte Dateien importieren in denen noch keine Versionsnummer enthalten ist. 
+Der Import für das Format V1 kann auch alte Dateien importieren in denen noch keine Versionsnummer enthalten ist.
 
 Das V1 Format kann nur benutzt werden wenn es eine feste Zuordnung von Buchungsklassen zur Buchungsart gibt.
 
 Das V2 Format muss verwendet werden wenn die feste Zuordnung von zwischen Buchungsklasse und Buchungsart aufgehoben ist. Es kann allerdings auch bei einer festen Zuordnung verwendet werden.
 
 Beispiel für ein V1 Format:
-```text
+
+```
 <kontenrahmen>
   <version version="1"/>
   <buchungsklassen>
@@ -57,7 +58,8 @@ Beispiel für ein V1 Format:
 ```
 
 Beispiel für ein V2 Format:
-```text
+
+```
 <kontenrahmen>
   <version version="2"/>
   <buchungsklassen>

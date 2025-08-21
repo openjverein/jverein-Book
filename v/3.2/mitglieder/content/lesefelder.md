@@ -14,4 +14,4 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zu
 
 ![](../../../../v3.1.x/administration/mitglieder/img/Lesefeld.png)
 
-Weitere Informationen dazu: [Lesefelder](../../administration/mitglieder/lesefelder.md)
+Weitere Informationen dazu: [Lesefelder](../../../3.1/administration/mitglieder/lesefelder.md)

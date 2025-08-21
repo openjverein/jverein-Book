@@ -8,7 +8,7 @@ Der Empfang von Mails ist nicht vorgesehen.
 
 ## Konfiguration
 
-Die Konfiguration ist unter Administration->Einstellungen->[Mail](../administration/einstellungen/mail.md) beschrieben.
+Die Konfiguration ist unter Administration->Einstellungen->[Mail](../../3.1/administration/einstellungen/mail.md) beschrieben.
 
 ## Liste der Mails
 
@@ -67,4 +67,4 @@ Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst we
 
 Im Betreff und im Text können Variable eingefügt werden, die beim Mailversand mit den konkreten Daten gefüllt werden. Mit Rechtsklick auf den Empfänger oder über den untenstehenden Button können die verfügbaren Variablen und ihre Belegung angezeigt werden.
 
-siehe auch [Mitglieder](../mitglieder/content/mitglieder.md) und [Variable](../../../sonstiges/variable.md)
+siehe auch [Mitglieder](../../3.1/mitglieder/content/mitglieder.md) und [Variable](../../../sonstiges/variable.md)

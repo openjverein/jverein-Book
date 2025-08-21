@@ -22,7 +22,7 @@ Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob zugeh�
 
 ![](../../../v3.1.x/druckmail/img/MahnungenDruckMailView1.png)
 
-Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
+Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../../3.1/administration/mitglieder/formulare.md).
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob die Mahnungen als PDF gedruckt oder per Mail verschickt werden sollen.
 

@@ -1,33 +1,33 @@
 # Zusatzbeträge importieren
 
-Zusatzbeträge können auch importiert werden. Der Import kann über eine CSV-Datei \(Default-Format\), die nachfolgend beschrieben wird, erfolgen. Der Dateiname muss eine Endung haben. Z. B. .csv oder .txt. Es kann jede beliebige Endung verwendet werden. Der Dateiname darf keine Punkte, Sonderzeichen oder Leerstellen enthalten. Die Datenfelder werden durch Semikolon getrennt. Das Encoding kann beim Import ausgewählt werden.
+Zusatzbeträge können auch importiert werden. Der Import kann über eine CSV-Datei (Default-Format), die nachfolgend beschrieben wird, erfolgen. Der Dateiname muss eine Endung haben. Z. B. .csv oder .txt. Es kann jede beliebige Endung verwendet werden. Der Dateiname darf keine Punkte, Sonderzeichen oder Leerstellen enthalten. Die Datenfelder werden durch Semikolon getrennt. Das Encoding kann beim Import ausgewählt werden.
 
 Zur Zuordnung des Zusatzbetrages zum Mitglied muss entweder die Mitglieds\_ID, Ext\_Mitgieds\_ID oder Nachname und Vorname angegeben werden. Die nicht benötigten Spalten sind wegzulassen. Die Angabe von Nachname und Vorname setzt voraus, dass es keine Dubletten bei den Namen gibt.
 
 Vorlage mit Mitglieds\_ID:
 
-```text
+```
 Mitglieds_Nr;Betrag;Buchungstext;Fälligkeit;Intervall;Endedatum
 123;53.25;Jahresbeitrag;1.1.2011;12;01.01.2020
 ```
 
 Vorlage mit Ext\_Mitglieds\_ID:
 
-```text
+```
 Ext_Mitglieds_Nr;Betrag;Buchungstext;Fälligkeit;Intervall;Endedatum
 5555;53.25;Jahresbeitrag;1.1.2011;12;01.01.2020
 ```
 
 Vorlage mit Nachname und Vorname:
 
-```text
+```
 Nachname;Vorname;Betrag;Buchungstext;Fälligkeit;Intervall
 Schmitt;Monika;53.25;Jahresbeitrag;1.1.2011;12
 ```
 
 Vorlage mit Nachname und Vorname und Endedatum:
 
-```text
+```
 Nachname;Vorname;Betrag;Buchungstext;Fälligkeit;Intervall;Endedatum
 Schmitt;Monika;53.25;Jahresbeitrag;1.1.2011;12;1.1.2015
 ```

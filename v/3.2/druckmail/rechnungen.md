@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Rechnun
 
 ## Allgemeines
 
-Möchten Sie Rechnungen direkt aus JVerein druckfertig generieren, müssen zuvor Rechnungen erstellt werden, siehe [Rechnungen](../mitglieder/rechnung.md).
+Möchten Sie Rechnungen direkt aus JVerein druckfertig generieren, müssen zuvor Rechnungen erstellt werden, siehe [Rechnungen](../../3.1/mitglieder/rechnung.md).
 
 Die Rechnungen können für den Druck in ein PDF-Dokument ausgegeben werden oder per Mail an die Mitglieder versandt werden.
 

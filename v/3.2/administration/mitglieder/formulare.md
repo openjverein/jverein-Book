@@ -2,7 +2,7 @@
 
 ## Allgemeines
 
-In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../druckmail/freiesformular.md) hinterlegt.
+In JVerein werden für [Spendenbescheinigungen](../../../3.1/mitglieder/spendenbescheinigung.md), [Mahnung](../../../3.1/druckmail/mahnungen.md), [Rechnungen](../../../3.1/druckmail/rechnungen.md), [Pre-Notification](../../../3.1/druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../../3.1/druckmail/freiesformular.md) hinterlegt.
 
 ## Liste der Formulare
 

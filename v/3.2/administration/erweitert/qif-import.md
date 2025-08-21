@@ -1,4 +1,4 @@
-# QIF-Import
+# QIF Datei-Import
 
 ## Starten des Dialoges
 
@@ -166,4 +166,3 @@ Bestätigen Sie diese Frage, startet der Import.
 * Für jedes Konto und jedes "alte" Jahr werden Jahresabschlüsse gespeichert.
 
 Diese Aktionen laufen in einer Datenbank Transaktion. Das bedeutet sie bekommen entweder alles oder nichts. Tritt beim Buchen ein Fehler auf, werden alle Änderungen zurück genommen.
-

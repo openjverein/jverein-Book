@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Spenden
 
 ### Allgemeines
 
-Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
+Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../../3.1/administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
 
 JVerein unterstützt das Erstellen von Spendenbescheinigungen für:
 
@@ -42,8 +42,8 @@ Wird also z.B. ein Abrechnungslauf gemacht und die Mitglieder zahlen per Überwe
 Die Spendenbescheinigungen können erstellt werden
 
 * im Kontextmenü einer Buchung (neu ab Version 3.1.0)
-* in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md))
-* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md))
+* in den Mitglied Details (siehe [Mitgliedskonto](../../3.1/mitglieder/content/mitgliedskonto.md))
+* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](../../3.1/mitglieder/content/mitglieder.md))
 * aber auch in der Liste der Spendenbescheinigungen
 
 Für Details zur Erstellung siehe weiter unten.
@@ -91,7 +91,7 @@ Das Kontextmenü bietet folgende Optionen:
 * Löschen: Damit kann eine Spendenbescheinigung(en) gelöscht werden
 * Mitglied anzeigen: Öffnet das Mitglied zur Spendenbescheinigung
 * PDF: Drucken der Spendenbescheinigung(en) als PDF
-* Druck und Mail: Spendenbescheinigung(en) über den Druck und Mail Dialog drucken oder per Mail verschicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
+* Druck und Mail: Spendenbescheinigung(en) über den Druck und Mail Dialog drucken oder per Mail verschicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../../3.1/druckmail/spendenbescheinigungen.md)
 * Mail an Spender: Eine Mail an den Spender verschicken
 
 Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
@@ -104,7 +104,7 @@ Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
 Folgende Buttons stehen zu Verfügung:
 
-* Druck und Mail: Spendenbescheinigung über den Druck und Mail Dialog drucken oder per Mail verschicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
+* Druck und Mail: Spendenbescheinigung über den Druck und Mail Dialog drucken oder per Mail verschicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../../3.1/druckmail/spendenbescheinigungen.md)
 * Speichern: Spendenbescheinigung speichern
 
 Durch einen Rechtsklick auf eine Buchung öffnet sich ein Kontextmenü mit mehreren Optionen:
@@ -149,9 +149,9 @@ Um Geldspendenbescheinigungen erstellen zu können müssen verschiedene Vorausse
 Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiedene Arten erzeugt werden.
 
 * Wird bei einem Abrechnungslauf bei Mitgliedern mit Lastschrift eine Sollbuchung erzeugt, wird automatisch auch eine Buchung erzeugt und diese der Sollbuchung zugeordnet.
-* Wird bei einem Abrechnungslauf bei Mitgliedern ohne Lastschrift eine Sollbuchung erzeugt muss die später erfolgte Buchung manuell der Sollbuchung zugeordnet werden. Siehe [Sollbuchungen](mitgliedskonto.md).
-* Wurde die Buchung ohne einen Abrechnungslauf erzeugt muss eine Sollbuchung erzeugt und die Buchung zugeordnet werden. Dies kann in einem Schritt erfolgen. Siehe zweite Option in [Buchungen](../buchf/buchungen.md).
-* Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen. Für das Erstellen einer Sollbuchung siehe [Mitgliedskonto](content/mitgliedskonto.md).
+* Wird bei einem Abrechnungslauf bei Mitgliedern ohne Lastschrift eine Sollbuchung erzeugt muss die später erfolgte Buchung manuell der Sollbuchung zugeordnet werden. Siehe [Sollbuchungen](../../3.1/mitglieder/mitgliedskonto.md).
+* Wurde die Buchung ohne einen Abrechnungslauf erzeugt muss eine Sollbuchung erzeugt und die Buchung zugeordnet werden. Dies kann in einem Schritt erfolgen. Siehe zweite Option in [Buchungen](../../3.1/buchf/buchungen.md).
+* Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen. Für das Erstellen einer Sollbuchung siehe [Mitgliedskonto](../../3.1/mitglieder/content/mitgliedskonto.md).
 
 #### Geldspendenbescheinigung manuell erstellen
 
@@ -198,7 +198,7 @@ Es werden alle spendenberechtigte Buchungen im ausgewählten Jahr gesucht denen 
 
 ### Formulare
 
-Vorlagen von [Formularen](../administration/mitglieder/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden (siehe auch Formularfelder).
+Vorlagen von [Formularen](../../3.1/administration/mitglieder/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden (siehe auch Formularfelder).
 
 ### Formularfelder
 
@@ -216,4 +216,4 @@ Für eine korrekte Formatierung sollte eine Schriftart mit fester Zeichenbreite 
 
 ### Einstellungen
 
-Mögliche Einstellungen zu Spendenbescheinigungen siehe [Einstellungen](../administration/einstellungen/spendenbescheinigungen.md).
+Mögliche Einstellungen zu Spendenbescheinigungen siehe [Einstellungen](../../3.1/administration/einstellungen/spendenbescheinigungen.md).
