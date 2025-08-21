@@ -4,7 +4,7 @@ Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelösch
 
 ## Liste der Abrechnungsläufe
 
-![](../../../allgemeine-funktionen/abrech/img/AbrechnungslaufListeView.png)
+![](img/AbrechnungslaufListeView.png)
 
 Folgende Menü Einträge sind vorhanden:
 
@@ -23,4 +23,4 @@ Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
-![](../../../allgemeine-funktionen/abrech/img/AbrechnungslaufView.png)
+![](img/AbrechnungslaufView.png)

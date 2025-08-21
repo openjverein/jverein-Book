@@ -2,7 +2,7 @@
 
 In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen (Rechnersymbol), sowie die einzelnen zugeordneten Istbuchungen (Euro-Symbol) angezeigt.
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/MitgliedskontoTab.png)
+![](img/MitgliedskontoTab.png)
 
 Durch einen Doppelklick auf eine
 
@@ -23,4 +23,4 @@ Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spe
 
 Über den Menüpunkt "Neue Sollbuchung" können neue Sollbuchungen aufgenommen werden.
 
-![](../../../../allgemeine-funktionen/mitglieder/img/SollbuchungView.png)
+![](img/SollbuchungView.png)

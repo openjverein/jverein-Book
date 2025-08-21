@@ -8,7 +8,7 @@ Neben den Mitgliedern können Nicht-Mitglieder gespeichert werden. Die Nicht-Mit
 
 ## Liste der Mitgliedstypen
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Mitgliedstypen.png)
+![](img/Mitgliedstypen.png)
 
 Mit Neu kann ein neuer Mitgliedstyp eingerichtet werden.
 
@@ -21,4 +21,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Mitgliedstyp
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Mitgliedstyp.png)
+![](img/Mitgliedstyp.png)

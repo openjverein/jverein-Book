@@ -6,7 +6,7 @@ In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbeschein
 
 ## Liste der Formulare
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Formulare.png)
+![](img/Formulare.png)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -25,7 +25,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Formular.png)
+![](img/Formular.png)
 
 ## Formular Attribute
 
@@ -86,7 +86,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Formularfeld.png)
+![](img/Formularfeld.png)
 
 ### Name
 
@@ -209,9 +209,9 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
 ## Beispiele
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Formularroh.jpg)
+![](img/Formularroh.jpg)
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Formularausgefuellt.jpg)
+![](img/Formularausgefuellt.jpg)
 
 ## Freie Formulare
 

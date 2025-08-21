@@ -8,7 +8,7 @@
 
 Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigationsbaum angezeigt werden.
 
-![](../../../../v3.1.x/administration/admbuchf/img/BuchungsartenListeView.png)
+![](img/BuchungsartenListeView.png)
 
 Über den Neu Button können neue Buchungsarten erzeugt werden.
 
@@ -16,7 +16,7 @@ Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigations
 
 Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
-![](<../../../../v3.1.x/administration/admbuchf/img/Buchungsartenpdf (2).png>)
+![](<img/Buchungsartenpdf (2).png>)
 
 ## Buchungsart
 

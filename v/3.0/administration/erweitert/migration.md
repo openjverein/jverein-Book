@@ -804,7 +804,7 @@ Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Stra�
 
 In LibreOffice/OpenOffice/Excel müssen in der ersten Zeile die Feld- bzw- Spaltenbezeichnungen stehen und zwar genau in der oben angegebenen Schreibweise. Auf jeden Fall müssen Spalten für alle Pflichtfelder angelegt werden. Es können aber auch für alle Felder Spalten vorhanden sein, die dann leer bleiben.
 
-![](../../../../v3.0.x/administration/erweitert/img/Dateiaufbau.png)
+![](img/Dateiaufbau.png)
 
 Standardmäßig müssen "Geburtsdatum" und "Eintritt" (Eintrittsdatum) angegeben werden. Unter Administration->Einstellungen->Anzeige kann dies vorab geändert werden. Speichern nicht vergessen.
 

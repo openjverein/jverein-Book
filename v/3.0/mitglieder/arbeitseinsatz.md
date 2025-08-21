@@ -26,7 +26,7 @@ Der Übersicht View für Arbeitseinsätze zeigt alle vorhandenen Arbeitseinsätz
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../../v3.0.x/mitglieder/img/ArbeitseinsaetzeListeView.png)
+![](img/ArbeitseinsaetzeListeView.png)
 
 Mit dem Button Neu kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -44,7 +44,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../v3.0.x/mitglieder/img/ArbeitseinsatzView.png)
+![](img/ArbeitseinsatzView.png)
 
 Im Feld Mitglied lässt sich das Mitglied auswählen.
 

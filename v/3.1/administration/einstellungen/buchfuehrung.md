@@ -1,6 +1,6 @@
 # Buchführung
 
-![](../../../../v3.1.x/administration/einstellungen/img/Buchfuehrung.png)
+![](img/Buchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 

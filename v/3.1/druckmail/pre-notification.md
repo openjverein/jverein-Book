@@ -16,7 +16,7 @@ Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der A
 
 Mit einem Rechtsklick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-![](../../../v3.1.x/druckmail/img/AbrechnungslaufListeView.png)
+![](img/AbrechnungslaufListeView.png)
 
 ## Aufruf der Pre-Notification Funktion über Druck & Mail
 
@@ -26,7 +26,7 @@ Mit einem Rechtsklick auf den entsprechenden Eintrag öffnet sich der Dialog, mi
 
 In diesem Fall wählt man den Abrechnungslauf für den die Pre-Notifications erzeugt werden sollen im Dialog aus.
 
-![](../../../v3.1.x/druckmail/img/PrenotificationDruckMailView2.png)
+![](img/PrenotificationDruckMailView2.png)
 
 Der View besitzt folgende Buttons:
 
@@ -44,13 +44,13 @@ Mit einem Rechtsklick auf eine oder mehrere Lastschriften öffnet sich ein Konte
 
 Diese Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. Da bei wiederkehrenden Lastschriften eine Pre-Notification nur beim ersten Mal notwendig ist, kann man hier nur die Mitglieder auswählen die neu hinzugekommen sind oder bei denen sich etwas geändert hat.
 
-![](../../../v3.1.x/druckmail/img/LastschriftenListeView.png)
+![](img/LastschriftenListeView.png)
 
 ## Dialog bei Aufruf über Abrechnungsläufe oder Lastschriften
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](../../../v3.1.x/druckmail/img/PrenotificationDruckMailView1.png)
+![](img/PrenotificationDruckMailView1.png)
 
 Der View besitzt folgende Buttons:
 
@@ -123,7 +123,7 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
 
-![](../../../v3.1.x/druckmail/img/Prenotification1ctErstellung.png)
+![](img/Prenotification1ctErstellung.png)
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart (Datei oder Hibiscus) und das Ausführungsdatum eingestellt werden.
 
