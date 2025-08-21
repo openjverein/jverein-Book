@@ -22,7 +22,7 @@ Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
 Mit Neu kann eine neue Buchungsart eingerichtet werden. Jeder Buchungsart wird eine Nummer zugeordnet. Diese Nummer dient der Sortierung in der Buchungsliste. Z. B. werden den Einnahmen die 1.000er Nummern, den Ausgaben die 2.000er und den Umbuchungen die 3.000er gegeben.
 
-<figure><img src="../../../../.gitbook/assets/buchungsarten.png" alt=""><figcaption></figcaption></figure>
+![](<img/buchungsarten.png>)
 
 Eine Buchungsart hat folgende Parameter:
 
