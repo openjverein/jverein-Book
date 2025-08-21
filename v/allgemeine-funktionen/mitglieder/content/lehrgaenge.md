@@ -24,6 +24,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Durch Auswahl des Buttons "Neuer Lehrgang" kann ein neuer Lehrgang für das Mitglied angelegt werden.
 
-![](img/LehrgangView.png)
+![](../img/LehrgangView.png)
 
 Weitere Informationen dazu: [Lehrgänge](../lehrgange.md)

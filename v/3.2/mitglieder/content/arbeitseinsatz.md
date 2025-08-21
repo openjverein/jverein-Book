@@ -26,7 +26,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet werden.
 
-![](img/ArbeitseinsatzView.png)
+![](../img/ArbeitseinsatzView.png)
 
 Im Dialog können neue Stunden für das Mitglied erfasst werden. Sie geben das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
 

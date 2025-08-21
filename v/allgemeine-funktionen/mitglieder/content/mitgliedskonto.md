@@ -23,4 +23,4 @@ Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spe
 
 Über den Menüpunkt "Neue Sollbuchung" können neue Sollbuchungen aufgenommen werden.
 
-![](img/SollbuchungView.png)
+![](../img/SollbuchungView.png)
