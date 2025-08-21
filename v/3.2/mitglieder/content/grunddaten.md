@@ -10,7 +10,7 @@ In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Geburtsdatu
 
 Hinweis zur E-Mail-Adresse: In JVerein kann aktuell je Mitglied nur eine E-Mail-Adresse gespeichert werden. Hat ein Mitglied aber mehrere E-Mail-Adressen, kann man sich derzeit mit der 'Group'-Notation behelfen, hierbei müssen die Mailadressen in folgender Form eingegeben werden: `GRUPE:empfaenger1@test.de,empfaender2@test.de;`.
 
-Sofern in den [Einstellungen](../../../3.1/administration/einstellungen/anzeige.md) der Parameter "Juristische Personen erlaubt" gesetzt ist, wird bei der Neuaufnahme von Mitgliedern folgender Dialog eingeblendet:
+Sofern in den [Einstellungen](../../administration/einstellungen/anzeige.md) der Parameter "Juristische Personen erlaubt" gesetzt ist, wird bei der Neuaufnahme von Mitgliedern folgender Dialog eingeblendet:
 
 ![](../../../../v3.1.x/mitglieder/content/img/Personenart.png)
 

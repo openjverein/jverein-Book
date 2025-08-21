@@ -20,8 +20,8 @@ Das Kontextmenü bietet folgende Optionen:
 * Geldspendenbescheinigung: Aktiv falls das Mitglied oder die Istbuchung ausgewählt ist
 * Sachpendenbescheinigung: Aktiv falls das Mitglied ausgewählt ist
 
-Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../../../3.1/mitglieder/spendenbescheinigung.md)
+Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spendenbescheinigung.md)
 
-Im Normalfall werden Sollbuchungen ausschließlich über den Abrechnungslauf erstellt. In manchen Situationen ist es jedoch sinnvoll, manuell Sollbuchungen zu erstellen, dies kann über den Button "Neue Sollbuchung" erfolgen. Weiter Informationen zu [Sollbuchungen](../../../3.1/mitglieder/mitgliedskonto.md)
+Im Normalfall werden Sollbuchungen ausschließlich über den Abrechnungslauf erstellt. In manchen Situationen ist es jedoch sinnvoll, manuell Sollbuchungen zu erstellen, dies kann über den Button "Neue Sollbuchung" erfolgen. Weiter Informationen zu [Sollbuchungen](../mitgliedskonto.md)
 
 ![](../../../../v3.1.x/mitglieder/img/SollbuchungView.png)

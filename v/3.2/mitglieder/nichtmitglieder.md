@@ -10,7 +10,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Nicht-M
 
 Neben den Mitgliedern können Spender/innen und weitere Nicht-Mitglieder gespeichert werden.
 
-Die weiteren Mitgliedstypen werden unter Administration->Mitglieder->[Mitgliedstypen](../../3.1/administration/mitglieder/mitgliedstypen.md) eingerichtet.
+Die weiteren Mitgliedstypen werden unter Administration->Mitglieder->[Mitgliedstypen](../administration/mitglieder/mitgliedstypen.md) eingerichtet.
 
 Grundsätzlich sind die Daten identisch mit den Mitgliederdaten. Einige Daten machen allerdings nur Sinn für die Mitglieder. Daher können sie bei den Nicht-Mitgliedern nicht gespeichert werden.
 
@@ -18,7 +18,7 @@ Grundsätzlich sind die Daten identisch mit den Mitgliederdaten. Einige Daten ma
 
 Die Nicht-Mitglieder können erstellt werden
 
-* über das Kontextmenü eines Mitglieds das Mitglied in ein Nicht-Mitglied umwandeln (siehe [Mitglieder](../../3.1/mitglieder/content/mitglieder.md))
+* über das Kontextmenü eines Mitglieds das Mitglied in ein Nicht-Mitglied umwandeln (siehe [Mitglieder](content/mitglieder.md))
 * aber auch in der Liste der Nicht-Mitglieder
 
 ## Liste der Nicht-Mitglieder

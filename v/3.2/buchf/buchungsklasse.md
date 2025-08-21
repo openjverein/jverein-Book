@@ -2,7 +2,7 @@
 
 Die Buchungsklassen dienen dazu die einzelnen Buchungsarten entsprechend den steuerlichen Vorgaben zu gruppieren. Siehe auch [Buchführung Zusammenhänge.](../../../sonstiges/buchfuhrung-zusammenhange.md)
 
-Buchungsklassen können in den [Einstellungen](../../3.1/administration/admbuchf/buchungsklasse.md) definiert werden.
+Buchungsklassen können in den [Einstellungen](../administration/admbuchf/buchungsklasse.md) definiert werden.
 
 Das Buchungsklassensaldo zeigt die Salden aller Buchungsklassen für ein Geschäftsjahr oder einen frei wählbaren Zeitraum.
 

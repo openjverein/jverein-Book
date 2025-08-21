@@ -39,7 +39,7 @@ Informationen zu Projekten liefert die Funktion Projekt-Saldo (zu finden unter B
 
 ### Projektsaldo
 
-In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung->Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Siehe [Projektsaldo](../../../3.1/buchf/projekte.md)
+In Anlehnung an die Funktion Buchungsklassen liefert die Funktion Projekt-Saldo, die über Buchführung->Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Siehe [Projektsaldo](../../buchf/projekte.md)
 
 ### Buchungen
 

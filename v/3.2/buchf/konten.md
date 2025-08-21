@@ -29,8 +29,8 @@ In JVerein werden verschiedene Kontoarten unterstützt:
 Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
 
 * Kontoart Anlagenkonto
-* Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](../../3.1/buchf/anlagenbuchungen.md)
-* Erstellung eines [Anlagenverzeichnisses](../../3.1/buchf/anlagenverzeichnis.md)
+* Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](anlagenbuchungen.md)
+* Erstellung eines [Anlagenverzeichnisses](anlagenverzeichnis.md)
 * Unterstützung bei der Generierung von AfA Buchungen
 
 PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
@@ -61,7 +61,7 @@ Geldkonten können echte Bankkonten, Sparkonten oder offline Konten wie z.B. Bar
 
 Fremdkapital sind Darlehen, Kredite etc.
 
-Eine Unterscheidung von Geldkonten und Fremdkapital ist nur nötig wenn das Feature [Mittelverwendung](../../3.1/buchf/mittelverwendung.md) benutzt werden soll.
+Eine Unterscheidung von Geldkonten und Fremdkapital ist nur nötig wenn das Feature [Mittelverwendung](mittelverwendung.md) benutzt werden soll.
 
 ![](../../../v3.1.x/buchf/img/GeldkontoView.png)
 
@@ -83,7 +83,7 @@ Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
 
 ## Rücklagenkonten
 
-Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen, siehe [Mittelverwendung](../../3.1/buchf/mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
+Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen, siehe [Mittelverwendung](mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
 
 Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
 
@@ -107,11 +107,11 @@ Buchungen auf Rücklagenkonten werden nicht im Buchungsklassensaldo berücksicht
 
 ![](../../../v3.1.x/buchf/img/KontenSaldoView.png)
 
-Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden aber bei der [Mittelverwendung](../../3.1/buchf/mittelverwendung.md) berücksichtigt.
+Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden aber bei der [Mittelverwendung](mittelverwendung.md) berücksichtigt.
 
 ## Anlagenkonten
 
-Anlagenkonten sind dazu gedacht Abschreibungen durchzuführen und ein Anlagenverzeichnis nach steuerlichen Gesichtspunkten zu erstellen siehe [Anlagenverzeichnis](../../3.1/buchf/anlagenverzeichnis.md).
+Anlagenkonten sind dazu gedacht Abschreibungen durchzuführen und ein Anlagenverzeichnis nach steuerlichen Gesichtspunkten zu erstellen siehe [Anlagenverzeichnis](anlagenverzeichnis.md).
 
 Hierbei wird nach folgenden Anlagen unterschieden:
 
@@ -145,7 +145,7 @@ Folgende Anlagen spezifische Daten können eingegeben werden:
 * Nutzungsdauer: Dauer der AfA. Wert Wert ist 0 bei sofortiger Abschreibung und sonst die Dauer der Abschreibung
 * Anlagen Restwert: Restwert der Anlage der nach der Abschreibungsdauer übrig bleiben soll z.B. wenn die Anlage auch nach der Abschreibung weiter benutzt werden soll. Der Default Wert kann in den Einstellungen gesetzt werden. In JVerein kann auch eine Anlage mit Restwert 0 im Anlagenverzeichnis geführt werden. Ein Anlagenkonto bleibt solange im Anlagenverzeichnis bis es aufgelöst wird
 * AfA Mode: Modus für die Behandlung der Abschreibung (siehe weiter unten)
-* Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](../../3.1/buchf/mittelverwendung.md) aktiviert wurde. Hier wird konfiguriert, ob die Anlage nutzungsgebunden ist oder zweckfremd verwendet wird
+* Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert wurde. Hier wird konfiguriert, ob die Anlage nutzungsgebunden ist oder zweckfremd verwendet wird
 
 ## Einstellungen
 
@@ -251,7 +251,7 @@ In diesem Fall bietet sich folgendes Vorgehen an:
 
 * Erstellen eines Anlagenkontos über den Neu Button in der Konto Liste
 * Die Kontodaten mit den Daten der Anlage ausfüllen. Also hier mit dem echten Datum der Anschaffung und dem echten damaligen Anlagenwert allerdings als Konto Eröffnungsdatum den ersten Tag des Geschäftsjahres
-* Unter [Anfangsbestände](../../3.1/buchf/anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
+* Unter [Anfangsbestände](anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
 * Bei der automatischen Berechnung der AfA Beträge wird dann mit diesem Anfangsbestand gerechnet. Im regulären Verfahren wie oben beschrieben muss der Anfangsbestand 0€ sein. Dieser wird dort automatisch erzeugt
 
 ## Workflow für die Buchung der AfA

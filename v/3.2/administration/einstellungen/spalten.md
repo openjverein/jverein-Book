@@ -4,7 +4,7 @@
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
 
-In diesem Dialog werden auch benutzerdefinierte [Zusatzfelder](../../../3.1/administration/mitglieder/felddefinition.md) angezeigt. Diese können ebenfalls für die Anzeige in der Mitgliederliste selektiert werden.
+In diesem Dialog werden auch benutzerdefinierte [Zusatzfelder](../mitglieder/felddefinition.md) angezeigt. Diese können ebenfalls für die Anzeige in der Mitgliederliste selektiert werden.
 
 In der Version 3.0.0 wurde eine optionale Spalten hinzu gefügt:
 

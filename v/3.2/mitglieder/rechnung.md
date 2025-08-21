@@ -18,14 +18,14 @@ Die Sollbuchungspositionen werden dann als Rechnungspositionen in die Rechnung a
 
 Beim versenden der Rechnung per Mail und wenn nur eine Rechnung als PDF erstellt wird, wird diese automatisch als E-Rechnung im ZUGFeRD Format erstellt.
 
-Um Rechnungen erstellen zu können muss erst ein Formuler erstellt werden. Siehe [Formulare](../../3.1/administration/mitglieder/formulare.md)
+Um Rechnungen erstellen zu können muss erst ein Formuler erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
 
 ### Erstellung
 
 Die Rechnungen können erstellt werden
 
-* direkt während eines Abrechnungslauf (siehe [Abrechnung](../../3.1/abrech/abrechnung.md) )
-* aber auch in der Liste der Sollbuchungen (siehe [Sollbuchungen](../../3.1/mitglieder/mitgliedskonto.md))
+* direkt während eines Abrechnungslauf (siehe [Abrechnung](../abrech/abrechnung.md) )
+* aber auch in der Liste der Sollbuchungen (siehe [Sollbuchungen](mitgliedskonto.md))
 
 ## Liste der Rechnungen
 
@@ -42,8 +42,8 @@ Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehr
 * Anzeigen: Zeigt die Rechnung an
 * Löschen: Löschen der selektierten Rechnungen
 * Mitglied anzeigen: Öffnet das Mitglied zur Rechnung
-* Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen der Rechnung, siehe [Rechnungen](../../3.1/druckmail/rechnungen.md)
-* Mahnung Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen einer Mahnung zur Rechnung, siehe [Mahnungen](../../3.1/druckmail/mahnungen.md)
+* Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen der Rechnung, siehe [Rechnungen](../druckmail/rechnungen.md)
+* Mahnung Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen einer Mahnung zur Rechnung, siehe [Mahnungen](../druckmail/mahnungen.md)
 
 ## Rechnung
 
@@ -53,6 +53,6 @@ Mit einem Doppelklick auf die Rechnung oder Klick auf Anzeigen wird die Rechnung
 
 Folgende Buttons stehen zu Verfügung:
 
-* Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen der Rechnung, siehe [Rechnungen](../../3.1/druckmail/rechnungen.md)
-* Mahnung Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen einer Mahnung zur Rechnung, siehe [Mahnungen](../../3.1/druckmail/mahnungen.md)
+* Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen der Rechnung, siehe [Rechnungen](../druckmail/rechnungen.md)
+* Mahnung Druck und Mail: Wechselt in den Dialog zum Drucken und Mailen einer Mahnung zur Rechnung, siehe [Mahnungen](../druckmail/mahnungen.md)
 * Speichern: Änderungen von Formular und Kommentar werden gespeichert

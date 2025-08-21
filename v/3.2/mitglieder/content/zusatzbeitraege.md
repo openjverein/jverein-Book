@@ -27,4 +27,4 @@ Ein Klick auf "Neuer Zusatzbetrag" öffnet folgendes Fenster:
 
 ![](../../../../v3.1.x/mitglieder/img/ZusatzBetragView.png)
 
-Weitere Informationen dazu: [Zusatzbeiträge](../../../3.1/mitglieder/zusatzbetrage.md)
+Weitere Informationen dazu: [Zusatzbeiträge](../zusatzbetrage.md)

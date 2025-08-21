@@ -6,15 +6,15 @@ Zur Nutzung der Sollbuchungen ist keine extra Aktivierung notwendig.
 
 ### Allgemeines
 
-Die [Abrechnung](../../3.1/abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbeiträgen und Zusatzbeträgen in die Tabelle [Mitgliedskonto](../../3.1/mitglieder/content/mitgliedskonto.md) des Mitglieds. Durch die Zuweisung von Istbuchungen kann der Kontostand ausgeglichen werden.
+Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbeiträgen und Zusatzbeträgen in die Tabelle [Mitgliedskonto](content/mitgliedskonto.md) des Mitglieds. Durch die Zuweisung von Istbuchungen kann der Kontostand ausgeglichen werden.
 
 ### Erstellung
 
 Die Sollbuchungen können erstellt werden
 
-* über einen Abrechnungslauf (siehe [Abrechnung](../../3.1/abrech/abrechnung.md) )
-* in den Mitglied Details (siehe [Mitgliedskonto](../../3.1/mitglieder/content/mitgliedskonto.md))
-* implizit über die Zuordnung einer Sollbuchung zu eine Buchung (siehe [Buchungen](../../3.1/buchf/buchungen.md))
+* über einen Abrechnungslauf (siehe [Abrechnung](../abrech/abrechnung.md) )
+* in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md))
+* implizit über die Zuordnung einer Sollbuchung zu eine Buchung (siehe [Buchungen](../buchf/buchungen.md))
 * aber auch in der Liste der Sollbuchungen
 
 Im Normalfall sollte die Erstellung der Sollbuchungen nur über die Abrechnung erfolgen. Nur in Ausnahmesituationen ist ein manuelles erstellen sinnvoll.
