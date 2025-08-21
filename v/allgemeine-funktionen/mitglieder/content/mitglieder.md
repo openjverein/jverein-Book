@@ -26,7 +26,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ## Liste der Mitglieder
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/MitgliedListeView.png)
+![](img/MitgliedListeView.png)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
@@ -54,17 +54,17 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/EigenschaftenFilterDialog.png)
+![](img/EigenschaftenFilterDialog.png)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/ZusatzfelderFilterDialog.png)
+![](img/ZusatzfelderFilterDialog.png)
 
 ## Kontextmenu
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/MitgliedMenu.png)
+![](img/MitgliedMenu.png)
 
 ### Bearbeiten
 
@@ -92,19 +92,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/EigenschaftenAuswahlDialog.png)
+![](img/EigenschaftenAuswahlDialog.png)
 
 ### Arbeitseinsätze zuweisen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/ArbeitseinsatzDialog.png)
+![](img/ArbeitseinsatzDialog.png)
 
 ### Zusatzbeträge zuweisen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](../../../../allgemeine-funktionen/mitglieder/content/img/ZusatzbetragDialog.png)
+![](img/ZusatzbetragDialog.png)
 
 ### Zu Nicht-Mitglied umwandeln
 

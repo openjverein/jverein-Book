@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Spenden
 
 ### Konfiguration
 
-![](../../../../v3.1.x/administration/einstellungen/img/Spendenbescheinigungen.png)
+![](img/Spendenbescheinigungen.png)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 

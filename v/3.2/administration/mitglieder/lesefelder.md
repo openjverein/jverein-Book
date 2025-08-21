@@ -14,7 +14,7 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Liste der Lesefelder
 
-![](<../../../../v3.1.x/administration/mitglieder/img/Lesefelder (1).png>)
+![](<img/Lesefelder (1).png>)
 
 Mit Neu kann ein neues Lesefeld eingerichtet werden.
 
@@ -24,7 +24,7 @@ Mit Löschen kann ein Lesefeld gelöscht werden.
 
 ## Lesefeld
 
-![](../../../../v3.1.x/administration/mitglieder/img/Lesefeld.png)
+![](img/Lesefeld.png)
 
 ### Mitglied
 

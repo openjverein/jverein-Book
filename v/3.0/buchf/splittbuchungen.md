@@ -14,13 +14,13 @@ Beispiele:
 
 Rechtsklick auf die Buchung(en), dann Splitbuchung auswählen:
 
-![](../../../v3.0.x/buchf/img/Splitbuchung01.png)
+![](img/Splitbuchung01.png)
 
 Es können auch mehrere Buchungen gleichzeitig ausgewählt werden. Sie müssen allerdings den gleichen Betrag haben. Anschließend wird ein Buchungseintrag bearbeitet. Beim Speichern wird eine analoge Aufteilung der Beträge auch auf alle anderen selektierten Buchungen angewendet.
 
 Es erscheint dann:
 
-![](../../../v3.0.x/buchf/img/Splitbuchung02.png)
+![](img/Splitbuchung02.png)
 
 Als Info wird angezeigt wie viele Buchungen selektiert wurden und damit wie viele Splitbuchungen erzeugt werden.
 
@@ -28,7 +28,7 @@ Die angeklickte Buchung erscheint in der ersten Zeile. In der zweiten Zeile ersc
 
 Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:
 
-![](../../../v3.0.x/buchf/img/SplitbuchungSplitView.png)
+![](img/SplitbuchungSplitView.png)
 
 Das Betrag Feld wird automatisch mit dem noch übrigen Betrag gefüllt.
 
@@ -38,7 +38,7 @@ Mit Speichern und nächste kann man direkt zur Eingabe des nächsten Split Eintr
 
 Bei der letzten Buchung kann man mit Speichern zur Splitbuchung Anzeige zurück kehren. Bei Speichern und nächste kommt man bei einem Restbetrag von 0€ automatisch zurück.
 
-![](../../../v3.0.x/buchf/img/Splitbuchung04.png)
+![](img/Splitbuchung04.png)
 
 Das obige Bild zeigt den Stand, dass noch nicht alle Split Einträge erzeugt wurden.
 
@@ -53,19 +53,19 @@ Sind alle Bedingungen erfüllt (siehe Bild unten) muss die Splitbuchung über de
 
 Achtung: Das Speichern bitte nicht vergessen!
 
-![](../../../v3.0.x/buchf/img/Splitbuchung05.png)
+![](img/Splitbuchung05.png)
 
 ## Anzeige der Buchungen
 
 Die Splitbuchungen werden in der Liste der Buchungen "normal" angezeigt. Ein Doppelklick auf eine Haupt-, Gegen- oder Splitbuchung öffnet den Splitbuchungsdialog.
 
-![](../../../v3.0.x/buchf/img/Splitbuchung06.png)
+![](img/Splitbuchung06.png)
 
 ## Sammelüberweisung
 
 Mit einem Klick auf Sammelüberweisung erscheint folgendes Fenster:
 
-![](../../../v3.0.x/buchf/img/Splitbuchung07.png)
+![](img/Splitbuchung07.png)
 
 Es werden die in Hibiscus vorhandenen Sammelüberweisungen angezeigt. Mit einem Doppelklick auf eine Sammelüberweisung werden die Einzelposten der Sammelüberweisung in die Splitbuchungen übernommen.
 

@@ -10,7 +10,7 @@ Jeder Eigenschaft ist eine [Eigenschaftengruppe ](eigenschaften-gruppen.md)zuzuo
 
 ## Liste der Eigenschaften
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Eigenschaften.png)
+![](img/Eigenschaften.png)
 
 Mit Neu kann eine neue Eigenschaft eingerichtet werden.
 
@@ -23,7 +23,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Eigenschaft
 
-![](../../../../allgemeine-funktionen/administration/mitglieder/img/Eigenschaft.png)
+![](img/Eigenschaft.png)
 
 ### Bezeichnung
 

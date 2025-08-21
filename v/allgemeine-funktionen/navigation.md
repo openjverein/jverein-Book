@@ -4,4 +4,4 @@ Das Navigationsmenü kann je nach aktivierten Programmfunktionen mehr oder wenig
 
 Beispiel für die Navigation:
 
-![](../../allgemeine-funktionen/img/Navigation1.png) ![](../../allgemeine-funktionen/img/Navigation2.png) ![](<../../allgemeine-funktionen/img/Navigation3 (1).png>)
+![](img/Navigation1.png) ![](img/Navigation2.png)![](img/Navigation3.png)

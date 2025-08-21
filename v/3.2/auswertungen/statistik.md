@@ -8,11 +8,11 @@ Für die Erstellung einer Statistik gibt es generell drei Möglichkeiten:
 
 ## Statistik-Funktion in JVerein
 
-![](../../../v3.1.x/auswertungen/img/StatistikBeispiel.jpg)
+![](img/StatistikBeispiel.jpg)
 
 Für die Statistik ist ein Stichtag vorzugeben. Standardmäßig wird der 31.12. des aktuellen Jahres vorgegeben.
 
-![](../../../v3.1.x/auswertungen/img/MitgliederStatistikView.png)
+![](img/MitgliederStatistikView.png)
 
 ### Altersgruppen
 

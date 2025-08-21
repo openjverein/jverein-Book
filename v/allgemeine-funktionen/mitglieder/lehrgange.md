@@ -10,7 +10,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Lehrgä
 
 Hier können Lehrgänge den Mitglieder/Nicht-Mitgliedern zugeordnet werden.
 
-Lehrgangsarten können in Administration->Mitglieder->[Lehrgangsarten](../../3.0/administration/mitglieder/lehrgange.md) erstellt werden.
+Lehrgangsarten können in Administration->Mitglieder->[Lehrgangsarten](../administration/mitglieder/lehrgange.md) erstellt werden.
 
 ### Erstellung
 
@@ -25,7 +25,7 @@ Der Übersicht View für Lehrgänge zeigt alle vorhandenen Lehrgänge an.
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../../v3.0.x/mitglieder/img/LehrgaengeListeView.png)
+![](img/LehrgaengeListeView.png)
 
 Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
 
@@ -41,4 +41,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../v3.0.x/mitglieder/img/LehrgangView.png)
+![](img/LehrgangView.png)

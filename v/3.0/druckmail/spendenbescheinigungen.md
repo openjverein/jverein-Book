@@ -4,7 +4,7 @@
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
-![](<../../../v3.0.x/druckmail/img/SpendenbescheinigungenListeView (1).png>)
+![](<img/SpendenbescheinigungenListeView (1).png>)
 
 JVerein wird also eine gedruckte Unterschrift nur bei reinen Geldspenden generieren falls gedruckte Unterschrift aktiviert ist.
 
@@ -20,7 +20,7 @@ In der Liste können ein oder mehrere Einträge markiert werden. Über ein Konte
 
 Über den Menüpunkt "Druck und Mail" öffnet sich der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
-![](../../../v3.0.x/druckmail/img/SpendenbescheinigungenDruckMailView1.png)
+![](img/SpendenbescheinigungenDruckMailView1.png)
 
 Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spendenbescheinigungen ausgegeben.
 
@@ -50,4 +50,4 @@ Mit der Option Adressblatt lässt sich auswählen, ob eine zusätzliche Seite an
 
 Es werden hier alle Spendenbescheinigungen gedruckt bzw. versendet die die Filterkriterien erfüllen. Eine individuelle Auswahl aus den gefilterten Einträgen ist hier nicht möglich.
 
-![](../../../v3.0.x/druckmail/img/SpendenbescheinigungenDruckMailView2.png)
+![](img/SpendenbescheinigungenDruckMailView2.png)

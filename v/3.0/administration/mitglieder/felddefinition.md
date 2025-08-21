@@ -6,15 +6,15 @@ Der Benutzer kann zusätzliche Datenfelder (=Zusatzfelder) definieren.
 
 Diese erscheinen beim Mitglied unter Reiter "Zusatzfelder".
 
-Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu sind die entsprechenden Mitgliedern Spalten in den [Einstellungen](../../../allgemeine-funktionen/administration/einstellungen/spalten.md) zu aktivieren.
+Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu sind die entsprechenden Mitgliedern Spalten in den [Einstellungen](../../administration/einstellungen/spalten.md) zu aktivieren.
 
-![](../../../../v3.0.x/administration/mitglieder/img/Mitgliedzusatzfelder.png)
+![](img/Mitgliedzusatzfelder.png)
 
 Eingerichtet werden solche Zusatzfelder unter JVerein->Administration->Zusatzfelder
 
 ## Liste der Zusatzfelder
 
-![](../../../../v3.0.x/administration/mitglieder/img/Zusatzfelder.png)
+![](img/Zusatzfelder.png)
 
 Mit Neu kann ein neues Zusatzfeld eingerichtet werden.
 
@@ -29,7 +29,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Durch einen Klick auf neu öffnet sich folgendes Fenster:
 
-![](../../../../v3.0.x/administration/mitglieder/img/Zusatzfeld.png)
+![](img/Zusatzfeld.png)
 
 Der Name des Feldes kann auch den Zeichen a-z und 0-9 und \_ (Unterstrich) bestehen. Er darf keine Leerzeichen enthalten und sich nicht mit existierenden Feldnamen überschneiden. Als Label kann ein beliebiger Begriff verwendet werden, der bei der Eingabe der Daten den Feld vorangestellt wird.
 

@@ -10,7 +10,7 @@ Das Konto für die Gutschriften muss auch in der Buchführung eingerichtet sein.
 
 Vor einer Abrechnung sollte die SEPA-Fehlerliste überprüft werden. In der Liste werden Mitglieder mit fehlenden oder ungültigen Bankverbindungen sowie Mandate angezeigt, die seit mehr als 36 Monaten nicht mehr genutzt wurden.
 
-![](../../../allgemeine-funktionen/abrech/img/SepaFehlerView.png)
+![](img/SepaFehlerView.png)
 
 ## Abrechnung
 
@@ -24,7 +24,7 @@ Die Abrechnung wird mit dem untenstehenden Bildschirm initiiert. Es können
 
 verarbeitet werden.
 
-![](<../../../allgemeine-funktionen/abrech/img/AbrechnungView (1).png>)
+![](<img/AbrechnungView (1).png>)
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhythmus eingezogen.
 
@@ -92,7 +92,7 @@ Optional können die SEPA-Daten in ein PDF-Dokument zum Ausdruck ausgegeben werd
 
 Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
 
-Die IBAN in den Stammdaten (siehe [Einstellungen](../../3.0/administration/einstellungen/allgemein.md)), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
+Die IBAN in den Stammdaten (siehe [Einstellungen](../administration/einstellungen/allgemein.md)), alternativ der Kontonummernanteil der IBAN wird mit den Kontonummern in Hibiscus abgeglichen. Gibt es eine übereinstimmende Bankverbindung, wird diese verwendet. Ansonsten erscheint der Hibiscus-Konto-Auswahldialog.
 
 Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
 

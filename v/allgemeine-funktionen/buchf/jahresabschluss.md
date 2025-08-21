@@ -4,7 +4,7 @@
 
 Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
-![](../../../allgemeine-funktionen/buchf/img/JahresAbschluesseView.png)
+![](img/JahresAbschluesseView.png)
 
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
@@ -18,7 +18,7 @@ Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erf
 
 Durch eine Klick auf Neu kann ein neuer Jahresabschluss vorgenommen werden:
 
-![](<../../../allgemeine-funktionen/buchf/img/JahresabschlussView (1).png>)
+![](<img/JahresabschlussView (1).png>)
 
 Der Jahresabschluss zeigt den Zeitraum des Jahresabschlusses an. Es ist das Geschäftsjahr nach dem letzten Abschluss.
 

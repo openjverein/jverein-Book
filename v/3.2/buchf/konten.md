@@ -4,7 +4,7 @@
 
 Bei Auswahl des Konten Eintrags im Navigationsbaum werden alle Konten angezeigt.
 
-![](../../../v3.1.x/buchf/img/KontenListeView.png)
+![](img/KontenListeView.png)
 
 Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 
@@ -63,7 +63,7 @@ Fremdkapital sind Darlehen, Kredite etc.
 
 Eine Unterscheidung von Geldkonten und Fremdkapital ist nur nötig wenn das Feature [Mittelverwendung](mittelverwendung.md) benutzt werden soll.
 
-![](../../../v3.1.x/buchf/img/GeldkontoView.png)
+![](img/GeldkontoView.png)
 
 Im Konto View können die Daten der Kontos editiert werden.
 
@@ -105,7 +105,7 @@ Rücklagen Zuführungen werden als normale Einnahme auf ein Rücklagenkonto gebu
 
 Buchungen auf Rücklagenkonten werden nicht im Buchungsklassensaldo berücksichtigt. Die Gelder sind ja bereits in Geldkonten vorhanden. Sie werden auch nicht im Kontensaldo berücksichtigt. Sie werden im Kontensaldo View separat aufgelistet.
 
-![](../../../v3.1.x/buchf/img/KontenSaldoView.png)
+![](img/KontenSaldoView.png)
 
 Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden aber bei der [Mittelverwendung](mittelverwendung.md) berücksichtigt.
 
@@ -120,7 +120,7 @@ Hierbei wird nach folgenden Anlagen unterschieden:
 * Pool Abschreibung: Bewegliche Wirtschaftsgüter mit einem Anschaffungswert von maximal 1000€ (Netto) können in einem Anlagenkonto zusammen gefasst werden. Nur der Pool taucht im Anlagenverzeichnis auf. Ein Pool wird über 5 Jahre abgeschrieben und jedes Jahr wird ein neuer Pool erzeugt. Dies hat den Vorteil des geringeren Dokumentation Aufwandes. Es kann jedes Jahr neu entschieden werden ob die Pool Abschreibung oder eine Einzel Abschreibung verwendet wird
 * Reguläre Abschreibung: Wirtschaftsgüter mit einem Anschaffungswert über 800/1000€ (Netto) werden regulär abgeschrieben
 
-![](../../../v3.1.x/buchf/img/AnlagenkontoView.png)
+![](img/AnlagenkontoView.png)
 
 Im Konto View können die Daten der Anlagenkontos editiert werden.
 
@@ -180,7 +180,7 @@ Folgende Schritte sollten ausgeführt werden:
 * Über das Menü der Buchung wird "Neues Anlagenkonto" ausgewählt. Dieses erzeugt ein neues Anlagenkonto, einen Anfangsbestand Eintrag für das Konto (0€) und die entsprechende Gegenbuchung im Anlagenkonto. (Bei Umsatzsteuerpflicht wird nur der Nettobetrag als Gegenguchung erstellt, die Steuer ist direkt als Ausgabe abziehbar und wird im Buchungsklassensaldo ausgeweiesen).
 * Es wird der Neues Anlagenkonto Dialog angezeigt. Buchungsklasse und Buchungsart wird mit den Daten der Buchung initialisiert
 
-![](../../../v3.1.x/buchf/img/NeuesAnlagenkontoDialog.png)
+![](img/NeuesAnlagenkontoDialog.png)
 
 * Jetzt Nummer, Bezeichnung, Buchungsklasse, Buchungsart und AfA Buchungsart auswählen
 * Als Nutzungsdauer den Wert 0 eintragen für sofortige Abschreibung

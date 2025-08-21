@@ -1,6 +1,6 @@
 # Spendenbescheinigungen
 
-![](<../../../../v3.0.x/administration/einstellungen/img/Spendenbescheinigungen (1).png>)
+![](<img/Spendenbescheinigungen (1).png>)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 

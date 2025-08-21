@@ -6,7 +6,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Wiedervorlagen
 
 ## Wiedervorlage Liste beim Mitglied
 
-![](../../../../v3.1.x/mitglieder/content/img/WiedervorlageTab.png)
+![](img/WiedervorlageTab.png)
 
 Durch einen Doppelklick wird die Bearbeitung einer Wiedervorlage eingeleitet.
 
@@ -22,7 +22,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit dem Button Neu Wiedervorlage kann eine neue Wiedervorlage eingerichtet werden.
 
-![](../../../../v3.1.x/mitglieder/img/WiedervorlageView.png)
+![](../img/WiedervorlageView.png)
 
 Zusätzlich werden die Daten unter Jameica | Termine in einem Kalenderformat angezeigt.
 
