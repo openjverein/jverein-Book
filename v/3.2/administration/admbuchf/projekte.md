@@ -31,7 +31,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Projekt
 
-![](<img/ProjektView (1).png>)
+![](img/ProjektView.png)
 
 ## Auswertung
 

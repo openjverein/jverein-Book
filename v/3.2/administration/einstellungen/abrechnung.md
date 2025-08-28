@@ -16,7 +16,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](<img/SepaSupportedVersions (1).png>)
+![](img/SepaSupportedVersions.png)
 
 ## Verrechnungskonto für Lastschriften
 
@@ -39,6 +39,16 @@ Beim Erfassen der Arbeitsstunden vom Mitgliedern können im Stundenfeld positive
 ## Altersstufen für gestaffelte Beiträge
 
 Hier können für die Verwendung in gestaffelten Beiträgen die Altersbereiche eingegeben werden für die jeweils ein anderer Beitrag eingegeben werden kann.
+
+## Zusatzbeträge auch für Ausgetretene abrechnen
+
+Ist dies aktiviert, werden Zusatzbeträge auch für ausgetretene Mitglieder abgerechnet.
+
+## Keine Istbuchung bei Lastschriften erzeugen
+
+Standard mäßig erzeugt die Abrechnung beim Zahlungsweg "Basislastschrift" neben der Sollbuchung auch direkt eine Buchung auf dem konfigurierten Konto. Diese wird auch direkt der Sollbuchung zugewiesen. Daneben wird eine Gegenbuchung mit dem Summen Betrag aller erzeugten Buchungen generiert. Diese hebt die Buchungen auf so dass der Kontostand ausgeglichen ist. Dieser Betrag wird dann von der Bank eingezogen und verbucht.
+
+In Fällen, dass die Lastschriften mit externen Tools abgerechnet werden und die Lastschriften nicht als Summen Betrag eingehen, sondern als einzelne Buchungen per Mitglied kann über diese Option die Generierung der Istbuchungen und der Gegenbuchung verzichtet werden.
 
 ## Abrechnungslauf abschließen
 

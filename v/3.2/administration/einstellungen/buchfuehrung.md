@@ -5,12 +5,11 @@
 Hier sind folgende Eingaben nötig bzw. möglich:
 
 * Beginn des Geschäftsjahres in der Form TT.MM.
-* Intervall für aktive Konten. Aktive Konten sind die, deren Auflösung um mehr als die ausgewählte Anzahl von Jahren zurück liegt. Diese können im Kontoauswahl Dialog ausgeblendet werden
-* Buchungsarten die seit x Monaten nicht benutzt werden unterdrücken in der Form Monate
+* Anlagen Restwert: Restwert, der bei Anlagen nach der Abschreibungsdauer in der Buchhaltung bestehen bleiben soll. Dieser Wert wird als Default Wert bei neuen Anlagenkonten übernommen
 * Automatische Übernahme von Buchungen aus Hibiscus (Standard: aktiviert)
 * Automatische Korrektur der Verwendungszwecke aus Hibiscus Buchungen
-* Unterdrückung nicht gebuchter Buchungsarten in Listen/Auswertungen (Standard: nicht aktiviert)
-* Zeige Kontonummer in der Buchungsliste
+* Geprüft Markierung mit Hibiskus synchronisieren
+* Zeige Kontonummer in der Buchungsliste (PDF Einzelbuchungen)
 * Umsatzsteuer Support (Neustart erforderlich)\
   Diese Option aktiviert die Möglichkeit Steuer Daten einzugeben (siehe [Steuer](../admbuchf/steuer.md)) und eine Umsatzsteuer Voranmeldung (siehe [Umsatzsteuer Voranmeldung](../../buchf/umsatzsteuersaldo.md)) zu bekommen. Damit lassen sich in Buchungsarten bzw. Buchungen die Steuersätze hinterlegen und über die Umsatzsteuer Voranmeldung z.B. feststellen wie hoch die Umsatzsteuer pflichtigen Umsätze sind. In der Buchungsliste wird auch ein Netto Betrag ausgewiesen. Dieser hat aber noch keine Bedeutung solange die Option Umsatzsteuer Pflicht nicht aktiviert ist
 * Umsatzsteuer Pflicht\
@@ -23,4 +22,4 @@ Hier sind folgende Eingaben nötig bzw. möglich:
   Diese Option ist nur verfügbar wenn auch Umsatzsteuer Support aktiviert ist
 * Auswahl ob eine feste Zuordnung zwischen Buchungsart und Buchungsklasse existiert oder nicht. Die feste Zuordnung sollte nur bei einem Wechsel des Kontenrahmen passieren und dann beim Wechsel des Geschäftsjahres. Sie auch [Buchungsart](../admbuchf/buchungsart.md)
 * Beim automatischen Splitten den Verwendungszweck aus den Sollbuchungspositionen übernehmen.
-* Geprüft Markierung mit Hibiskus synchronisieren
+

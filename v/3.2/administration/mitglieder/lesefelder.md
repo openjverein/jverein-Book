@@ -14,7 +14,7 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Liste der Lesefelder
 
-![](<img/Lesefelder (1).png>)
+![](img/Lesefelder.png)
 
 Mit Neu kann ein neues Lesefeld eingerichtet werden.
 
@@ -38,7 +38,7 @@ Name des Skriptes.
 
 Der Code für das Skript.
 
-### Ausgabe
+### Skript-Ausg.
 
 Ausgabe des Skriptes für das selektierte Mitglied.
 
