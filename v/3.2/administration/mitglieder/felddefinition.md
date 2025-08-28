@@ -1,6 +1,12 @@
 # Zusatzfelder
 
-## Allgemeines
+### Aktivierung
+
+Zur Nutzung der Zusatzfelder ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Zusatzfelder" zur Verfügung steht.
+
+### Allgemeines
 
 Der Benutzer kann zusätzliche Datenfelder (=Zusatzfelder) definieren.
 
@@ -12,9 +18,9 @@ Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu si
 
 Eingerichtet werden solche Zusatzfelder unter JVerein->Administration->Zusatzfelder
 
-## Liste der Zusatzfelder
+### Liste der Zusatzfelder
 
-![](<img/Zusatzfelder (1).png>)
+![](img/Zusatzfelder.png)
 
 Mit Neu kann ein neues Zusatzfeld eingerichtet werden.
 
@@ -25,11 +31,11 @@ Das Kontextmenü bietet folgende Optionen:
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann ein Zusatzfeld, die keinem Mitglied zugeordnet ist, gelöscht werden. Bei zugeordneten Zusatzfeldern erscheint eine Fehlermeldung
 
-## Zusatzfeld
+### Zusatzfeld
 
 Durch einen Klick auf neu öffnet sich folgendes Fenster:
 
-![](<img/Zusatzfeld (2).png>)
+![](img/Zusatzfeld.png)
 
 Der Name des Feldes kann auch den Zeichen a-z und 0-9 und \_ (Unterstrich) bestehen. Er darf keine Leerzeichen enthalten und sich nicht mit existierenden Feldnamen überschneiden. Als Label kann ein beliebiger Begriff verwendet werden, der bei der Eingabe der Daten den Feld vorangestellt wird.
 

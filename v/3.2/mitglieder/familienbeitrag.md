@@ -2,9 +2,9 @@
 
 ### Aktivierung
 
-Damit der Menüpunkt "Familienbeitrag" zur Verfügung steht muss mindesten eine [Beitragsgruppe](../administration/mitglieder/beitragsgruppen.md) der Beitragsart Familienangehöriger existieren.
+Zur Nutzung der Familienbeiträge ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
-Nach Einrichten der ersten passenden Beitragsgruppe sollte JVerein neu gestartet werden, damit der Menüpunkt "Familienbeitrag" zur Verfügung steht.
+Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Familienbeitrag" zur Verfügung steht.
 
 ## Tabelle der Familien Beziehungen
 

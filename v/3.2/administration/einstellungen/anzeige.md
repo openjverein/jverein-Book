@@ -8,122 +8,77 @@ Nach Änderungen der mit Stern gekennzeichneten Werte ist ein Neustart von Jamei
 
 Folgende Einstellungen können vorgenommen werden:
 
-### Geburtsdatum Pflichtfeld
+### Mitglieder Feature Auswahl
 
-Beim Mitglied muss ein Geburtsdatum eingetragen sein, damit der Datensatz gespeichert werden kann.
+Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mitgliedern verfügbar sind:
+* Arbeitseinsatz: Unterstützung von Arbeitsstunden (siehe [Arbeitseinsätze](../../mitglieder/arbeitseinsatz.md))
+* Familienbeitrag: Unterstützung von Familienbeitrag (siehe [Familienbeitrag](../../mitglieder/familienbeitrag.md))
+* Kursteilnehmer: Unterstützung von Kursteilnehmern (siehe [Kursteilnehmer](../../mitglieder/kursteilnehmer.md))
+* Lehrgänge: Unterstützung von Lehrgängen (siehe [Lehrgänge](../../mitglieder/lehrgange.md))
+* Lesefelder: Unterstützung von Lesefeldern (siehe [Lesefelder](../mitglieder/lesefelder.md))
+* Nicht-Mitglieder: Unterstützung von Nicht-Mitgliedern (siehe [Nicht-Mitglieder](../../mitglieder/nichtmitglieder.md))
+* Rechnungen/Mahnungen: Unterstützung von Rechnungen und Mahnungen (siehe [Rechnung](../../mitglieder/rechnung.md))
+* Spendenbescheinigungen: Unterstützung von Spendenbescheinigungen (siehe [Spendenbescheinigung](../../mitglieder/spendenbescheinigung.md))
+* Wiedervorlage: Unterstützung von Wiedervorlage (siehe [Wiedervorlage](../../mitglieder/wiedervorlage.md))
+* Zusatzbeträge: Unterstützung von Zusatzbeträgen (siehe [Zusatzbeträge](../../mitglieder/zusatzbetrage.md))
+* Zusatzfelder: Unterstützung von Zusatzfeldern (siehe [Zusatzfelder](../mitglieder/felddefinition.md))
 
-### Eintrittsdatum Pflichtfeld
+### Buchführung Feature Auswahl
 
-Beim Mitglied muss ein Eintrittsdatum eingetragen sein, damit der Datensatz gespeichert werden kann.
+Hier können Feature aktiviert werden, die dann im Navigationsbaum unter Buchführung verfügbar sind:
+* Projekte: Unterstützung von Projekten (siehe [Projekte](../admbuchf/projekte.md))
+* Mittelverwendung: Unterstützung der Mittelverwendungsrechnung (siehe [Mittelverwendung](../../buchf/mittelverwendung.md))
+* Anlagenkonten: Unterstützung von Anlagenkonten (siehe [Konten](../../buchf/konten.md))
+* Rücklagenkonten: Unterstützung von Rücklagenkonten (siehe [Konten](../../buchf/konten.md))
+* Forderungen/Verbindlichkeiten Konten: Unterstützung von Forderungen und Verbindlichkeiten (siehe [Konten](../../buchf/konten.md))
 
-### Sterbedatum
+### Sonstige Feature Auswahl
 
-Das Eingabefeld für das Sterbedatum ist vorhanden und auswertbar
+Hier können allgemeine Feature aktiviert werden:
+* Dokumentenspeicherung: Unterstützung von Dokumentspeicherung bei Mitgliedern und Buchungen. Wird diese Einstellung aktiviert muss das Plugin jameica.messaging installiert sein.
 
-### Kommunikationsdaten anzeigen
 
-Beim Mitglied können folgende Kommunikationsdaten gepflegt werden:
+### Mitglieder Anzeige
 
-* private Telefonnummer
-* Handynummer
-* Dienstliche Telefonnummer
-* E-Mail Adresse
+Hier kann eingestellt werden welche Information bei Mitgliedern verfügbar ist:
+* Auslandsadressen (Staat): Eingabemöglichkeit von Staat
+* Externe Mitgliedsnummer: Grundsätzlich zahlt das Mitglied den Beitrag, der in der Beitragsgruppe angegeben wurde. Sofern diese Option aktiviert wurde, kann bei jedem Mitglied ein abweichender individueller Beitrag angegeben werden
+* (Ext.) Mitgliedsnummer bei Namen: Bei Auswahl dieser Option wird in Tabellen oder bei der Mitglieder Auswahl an den Mitglied Namen in Klammern die Mitgliedsnummer, oder falls Externe Mitgliedsnummer aktiviert ist, die externe Mitgliedsnummer angezeigt. Dies ist nützlich falls es mehrere Mitglieder mit dem gleichen Namen gibt. Diese lassen sich so unterscheiden
+* Individuelle Beiträge: Grundsätzlich zahlt das Mitglied den Beitrag, der in der Beitragsgruppe angegeben wurde. Sofern diese Option aktiviert wurde, kann bei jedem Mitglied ein abweichender individueller Beitrag angegeben werden
+* Juristische Personen erlaubt: Die Eingabe von Firmen, Organisationen und Behörden als Mitglieder wird erlaubt. Anstatt Name und Vorname werden Name-Zeile1 und Name-Zeile2 erfasst. Geburtsdatum und Geschlecht werden nicht erfasst
+* Kommunikationsdaten: Beim Mitglied können folgende Kommunikationsdaten gepflegt werden: Private Telefonnummer, Handynummer, Dienstliche Telefonnummer, E-Mail Adresse
+* Mitgliedsfoto: Zu jedem Mitglied kann ein Foto gespeichert werden
+* Sekundäre Beitragsgruppen: Sekundäre Beitragsgruppen werden angeboten
+* Sterbedatum: Das Eingabefeld für das Sterbedatum ist vorhanden und auswertbar
+* Vermerke: Tab Vermerke beim Mitglied anzeigen. Beim Mitglied können 2 mal 255 Zeichen Vermerke gespeichert werden
 
-### Sekundäre Beitragsgruppen anzeigen
+### Allgemeines
+* Buchungsart ohne Buchung unterdrücken: In Listen werden Buchungsarten ausgeblendet die im ausgewählten Zeitraum keine Buchung haben
+* Summen Anlagenkonto in Kontensaldo: Im Kontensaldo werden die Anlagenkonten nicht einzeln aufgeführt sondern als ein Eintrag mit der Summe aller Anlagenkonten
 
-Sekundäre Beitragsgruppen werden angeboten.
 
-### Zusatzbeträge anzeigen
+### Intervall für aktive Konten (Jahre)
 
-Tab Zusatzabbuchungen beim Mitglied anzeigen. Impliziert, dass die Übersicht der Zusatzabbuchungen (nicht) angezeigt wird und die Option bei der Abbuchung (in)aktiv ist.
+Im Kontoauswahldialog lassen sich Konten ausblenden auf denen länger als die konfigurierte Dauer an Jahren keine Buchungen mehr verbucht wurden. 
 
-### Vermerke anzeigen
+### Ungenutzte Auto Buchungsarten unterdrücken (Monate)
 
-Tab Vermerke beim Mitglied anzeigen. Beim Mitglied können 2 mal 255 Zeichen Vermerke gespeichert werden.
+Im Buchungsarten Auswahl Dialogen lassen sich Buchungsarten ausblenden die mehr als die konfigurierte Anzahl an Monaten nicht mehr verwendet wurden. Die Unterdrückung wird nur auf Buchungsarten angewendet deren Status auf "Auto" steht. 
 
-### Wiedervorlage anzeigen
-
-Tab Wiedervorlage beim Mitglied anzeigen. Impliziert, dass die Übersicht der Wiedervorlagen (nicht) angezeigt wird.
-
-### Kursteilnehmer anzeigen
-
-Kursteilnehmer ein-/ausblenden. Auswirkung auf die Abbuchung.
-
-### Lehrgänge anzeigen
-
-Zu einem Mitglied können die durchgeführten Lehrgänge mit Ergebnissen gespeichert werden.
-
-### Juristische Personen erlaubt
-
-Die Eingabe von Firmen, Organisationen und Behörden als Mitglieder wird erlaubt. Anstatt Name und Vorname werden Name-Zeile1 und Name-Zeile2 erfasst. Geburtsdatum und Geschlecht werden nicht erfasst.
-
-### Mitgliedsfoto
-
-Zu jedem Mitglied kann ein Foto gespeichert werden.
-
-### Mittelverwendung anzeigen
-
-Zeigt die Mittelverwendung an.
-
-### Projekte anzeigen
-
-Zeigt die Projekte an.
-
-### Spendenbescheinigungen anzeigen
-
-Zeigt die Spendenbescheinigungen an.
-
-### Rechnungen/Mahnungen anzeigen
-
-Zeigt die Rechnungen/Mahnungen an.
-
-### Lesefelder anzeigen
-
-Tab Lesefelder beim Mitglied anzeigen. Lesefelder können unter Administration - Lesefelder definiert werden
-
-### Nicht-Mitglieder anzeigen
-
-In einem eigenen Dialog können Nicht-Mitglieder von z.B. Spender, Lieferanten, Trainer gespeichert werden.
-
-### Auslandsadressen
-
-Beim Mitglied kann zusätzlich der Wohnsitz-Staat gespeichert werden
-
-### Arbeitseinsatz
-
-Beim Mitglied können Arbeitseinsätze erfasst werden.
-
-In einem eigenen Dialog können Buchungen von Arbeitsstunden angezeigt und geprüft werden.
-
-### Dokumentenspeicherung
-
-Speicherung von Dokumenten zu Mitgliedern und Buchungen. Wird diese Einstellung aktiviert muss das Plugin jameica.messaging installiert sein.
-
-### Individuelle Beiträge
-
-Grundsätzlich zahlt das Mitglied den Beitrag, der in der Beitragsgruppe angegeben wurde. Sofern diese Option aktiviert wurde, kann bei jedem Mitglied ein abweichender individueller Beitrag angegeben werden.
-
-### Externe Mitgliedsnummer
-
-Vereine, die auf Bundes- oder Landesebene organisiert sind und eine durchgängige Mitgliedsnummer verwalten möchten, können in JVerein eine externe Mitgliedsnummer speichern.
-
-### (Externe) Mitgliedsnummer bei Namen anzeigen
-
-Bei Auswahl dieser Option wird in Tabellen oder bei der Mitglieder Auswahl an den Mitglied Namen in Klammern die Mitgliedsnummer, oder falls Externe Mitgliedsnummer aktiviert ist, die externe Mitgliedsnummer angezeigt.
-
-Dies ist nützlich falls es mehrere Mitglieder mit dem gleichen Namen gibt. Diese lassen sich so unterscheiden.
-
-### Summen Anlagenkonto in Kontensaldo
-
-Ist diese Option aktiviert wird im Kontensaldo nicht jedes Anlagenkonto einzeln aufgelistet sondern nur ein Eintrag mit den Summen über alle Anlagenkonten.
-
-### Basis für Berechnung des Alters.
+### Basis für Berechnung des Alters
 
 In der Ansicht Tabellen kann in der Mitgliederliste in einer Spalte das Alter angezeigt werden. Hier mit diesem Feld bestimmen Sie welches Referenzdatum bei der Berechnung des Alters verwendet wird.Zur Auswahl stehen:
 
 * Aktuelles Datum. Das Alter berechnet sich aus dem Geburtsdatum und dem aktuellen Datum.
 * Jahres Start. Das Alter berechnet sich aus dem Geburtstag und dem 01.01. des aktuellen Jahres.
 * Jahres Ende. Das Alter berechnet sich aus dem Geburtstag und dem 31.12. des aktuellen Jahres.
+
+### Ort der Abschreibung
+
+Hier lässt sich einstellen wie die Automatische Generierung von Abschreibungen gestartet werden kann:
+
+* Button in Anlagen Buchungen: Über einen Button im Anlagenbuchungen View.
+* Checkbox in Jahresabschluss: Über eine Checkbox im Jahresabschluss View.
 
 ### Buchungsart Auswahl
 
@@ -144,10 +99,3 @@ Hier kann eingestellt werden wie sich bei der Suche nach Mitgliedern das Eingabe
 Bei Suche bei Eingabe tippt man den Wortteil des Namens ein, nach ein paar Millisekunden wird einer Auswahlliste mit den Treffern angezeigt aus der man dann das gewünschte Mitglied übernehmen kann.
 
 Anzeige der kompletten Liste stellt eine Drop-Down-Liste mit allen Mitgliedern zur Verfügung.
-
-### Ort der Abschreibung
-
-Hier lässt sich einstellen wie die Automatische Generierung von Abschreibungen gestartet werden kann:
-
-* Button in Anlagen Buchungen: Über einen Button im Anlagenbuchungen View.
-* Checkbox in Jahresabschluss: Über eine Checkbox im Jahresabschluss View.

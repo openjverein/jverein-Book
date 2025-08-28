@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](<img/Formular (1).png>)
+![](img/Formular.png)
 
 ## Formular Attribute
 
@@ -151,6 +151,6 @@ Einfache Standardrechnung
 
 ## Beispiele
 
-![](<img/Formularroh (2).jpg>)
+![](img/Formularroh.jpg)
 
-![](<img/Formularausgefuellt (2).jpg>)
+![](img/Formularausgefuellt.jpg)

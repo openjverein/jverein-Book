@@ -2,7 +2,7 @@
 
 ### Aktivierung
 
-Das Anlagenverzeichnis wird nur angezeigt wenn mindesten ein Anlagenkonto existiert.
+Zur Nutzung der Anlagenkonten ist die Option in den Einstellungen (Administration->Einstellungen->Anzeige) zu aktivieren.
 
 ### Verzeichnis
 

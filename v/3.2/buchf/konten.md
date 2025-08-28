@@ -24,18 +24,18 @@ Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 In JVerein werden verschiedene Kontoarten unterstützt:
 
 * Geldkonto
-* Anlagenkonto (ab JVerein 2.8.23)
+* Anlagenkonto (ab JVerein 2.8.23, Die Option ist unter Administration->Einstellungen->Anzeige zu aktivieren)
 
 Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
 
-* Kontoart Anlagenkonto
+* Kontoart Anlagenkonto 
 * Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](anlagenbuchungen.md)
 * Erstellung eines [Anlagenverzeichnisses](anlagenverzeichnis.md)
 * Unterstützung bei der Generierung von AfA Buchungen
 
 PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
 
-Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten:
+Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten (Die Option ist unter Administration->Einstellungen->Anzeige zu aktivieren):
 
 * Fremdkapital (Darlehen, Kredite etc.)
 * Zweckgebundene Rücklage nach § 62 Abs. 1 Nr. 1 AO
@@ -48,7 +48,7 @@ Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten:
 * Vermögen nach § 62 Abs. 3 und 4 AO
 * Konto für sonstige Rücklagen und Vermögen
 
-Ab JVerein 3.1.0 gibt es zusätzlich folgende Kontoarten:
+Ab JVerein 3.1.0 gibt es zusätzlich folgende Kontoarten (Die Option ist unter Administration->Einstellungen->Anzeige zu aktivieren.:
 
 * Verbindlichkeiten
 * Forderungen
@@ -290,5 +290,5 @@ Werden bei der Angepasste AfA die eingetragenen Werte über den Auto-AfA Button 
 Folgende Unterschiede kann es geben:
 
 * Da Auto AfA jedes Jahr den Abschreibungsbetrag anhand der bisher getätigten Abschreibungen und der Restlaufzeit neu berechnet kann es zu Abweichungen von 1€ wegen der Rundung kommen. Bei Angepasste AfA wird immer der fest vorgegebene Wert verwendet
-* Angepasste AfA berücksichtigt auch manuell eingegebene Sonderabschreibungen und reduziert dann automatisch die restlichen Jahresabschreibungen. Bei Angepasste AfA bleibt der Abschreibungsbetrag bei getätigten Sonderabschreibungen gleich. Es wird der Wert aus dem Anlagenkonto genommen.\
+* Auto AfA berücksichtigt auch manuell eingegebene Sonderabschreibungen und reduziert dann automatisch die restlichen Jahresabschreibungen. Bei Angepasste AfA bleibt der Abschreibungsbetrag bei getätigten Sonderabschreibungen gleich. Es wird der Wert aus dem Anlagenkonto genommen.\
   Es hängt hier vom Anwendungsfall ab ob eine Reduktion erlaubt ist oder nicht. Bei Sonderabschreibungen kann man aber auch den AfA-Mode im Konto entsprechend anpassen auf das Verfahren welches man aktuell braucht

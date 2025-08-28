@@ -16,11 +16,18 @@ Im Allgemein Tab:
 * Mail
 * Stichtag
 
-Im Erweitert Tab:
+Im Erweitert Tab Datum:
 
 * Geburtsdatum von/bis
 * Eintrittsdatum von/bis
 * Austrittsdatum von/bis
+
+Im Erweitert Tab Mitgliedskonto:
+
+* Differenz
+* Differenz Limit (Filter nach Fehlbetrag oder Überzahlung größer als das Limit)
+* Datum von/bis (Datumsbereich für die Sollbuchungen die betrachtet werden)
+
 
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
@@ -34,9 +41,11 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ![](img/MitgliedListeView.png)
 
-Erweiterter Filter:
+Erweitertee Filter:
 
 ![](img/MitgliedListeView2.png)
+
+![](img/MitgliedListeView3.png)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
