@@ -12,6 +12,11 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 
 ## The Big Ones
 
+### Editierbare Dateinamen
+
+* Für Dateinamen existieren Vorlagen die editiert werden können
+* Damit lassen sich Namen individuell mit Variablen anpassen (siehe [Vorlagen](administration/einstellungen/vorlagen.md)
+
 ### Empfänger Liste Vorschau
 
 * In den Druck und Mail Views gibt es einen neuen Button "Empfänger Liste"
