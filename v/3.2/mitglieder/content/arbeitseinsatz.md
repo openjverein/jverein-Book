@@ -16,11 +16,14 @@ In dieser Ansicht sehen Sie die geleisteten Arbeitsstunden, die diesem Mitglied 
 
 ![](img/ArbeitseinsatzTab.png)
 
+Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet werden.
+
+Durch einen Doppelklick wird die Bearbeitung eines Arbeitseinsatz eingeleitet.
+
 Das Kontextmenü bietet folgende Optionen:
 
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann ein Arbeitseinsatz gelöscht werden
-* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
 ## Arbeitseinsatz beim Mitglied anlegen
 

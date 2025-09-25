@@ -28,6 +28,7 @@ Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mit
 Hier können Feature aktiviert werden, die dann im Navigationsbaum unter Buchführung verfügbar sind:
 * Projekte: Unterstützung von Projekten (siehe [Projekte](../admbuchf/projekte.md))
 * Mittelverwendung: Unterstützung der Mittelverwendungsrechnung (siehe [Mittelverwendung](../../buchf/mittelverwendung.md))
+* Wirtschaftsplanung: Unterstützung der Wirtschaftsplanung (siehe [Wirtschaftsplanung](../../buchf/wirtschaftsplanung.md))
 * Anlagenkonten: Unterstützung von Anlagenkonten (siehe [Konten](../../buchf/konten.md))
 * Rücklagenkonten: Unterstützung von Rücklagenkonten (siehe [Konten](../../buchf/konten.md))
 * Forderungen/Verbindlichkeiten Konten: Unterstützung von Forderungen und Verbindlichkeiten (siehe [Konten](../../buchf/konten.md))

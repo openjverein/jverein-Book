@@ -8,6 +8,15 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zu
 
 ![](img/LesefelderTab.png)
 
+Mit dem Button Neues Lesefeld kann ein neues Lesefeld eingerichtet werden.
+
+Durch einen Doppelklick wird die Bearbeitung eines Lesefeldes eingeleitet.
+
+Das Kontextmenü bietet folgende Optionen:
+
+* Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
+* Löschen: Damit kann ein Lesefeld gelöscht werden
+
 ## Lesefelder beim Mitglied bearbeiten
 
 Über den Button Bearbeiten lassen sich die Lesefelder bearbeiten.

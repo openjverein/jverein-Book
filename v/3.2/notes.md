@@ -12,10 +12,21 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 
 ## The Big Ones
 
+### Wirtschaftsplanung
+
+* Es gibt eine neu Funktionalität für die Wirtschaftsplanung
+* Damit können Plandaten für die Geschäftsjahre gepflegt werden
+
+### Spendenbescheinigungen
+
+* Sachspendenbescheinigung können jetzt auch nur noch mit zugehöriger Buchung erstellt werden
+* Die Angaben zu Sachspende werden in der Buchung gemacht
+* Dadurch können Sachspendenbescheinigungen auch automatisch erzeugt werden und es ist in den Menüs keine Unterscheidung zwischen Geldspende und Sachspende mehr nötig (siehe [Spendenbescheinigungen](mitglieder/spendenbescheinigung.md))
+
 ### Editierbare Dateinamen
 
 * Für Dateinamen existieren Vorlagen die editiert werden können
-* Damit lassen sich Namen individuell mit Variablen anpassen (siehe [Vorlagen](administration/einstellungen/vorlagen.md)
+* Damit lassen sich Namen individuell mit Variablen anpassen (siehe [Vorlagen](administration/einstellungen/vorlagen.md))
 
 ### Empfänger Liste Vorschau
 
@@ -68,6 +79,6 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 
 * Sind Sollbuchungen oder Buchungen nicht editierbar, dann werden jetzt auch die Eingabefelder gesperrt und nicht nur der Speichern Button
 
-### Filter nach Differenz in Mitglieder Liste View
+### Filter nach Differenz in Mitglieder und Nicht-Mitglieder Liste View
 
-* Im Filter in der Mitglieder Liste gibt es einen neuen Tab mit den Filter Optionen für Differenz. Damit lässt sich z.B. nach Mitglieder filtern die einen Fehlbetrag haben
+* Im Filter in der Mitglieder und Nicht-Mitglieder Liste gibt es einen neuen Tab mit den Filter Optionen für Differenz. Damit lässt sich z.B. nach Mitgliedern filtern die einen Fehlbetrag haben

@@ -10,7 +10,7 @@ Zur Nutzung sind die [Lehrgangsarten](../../administration/mitglieder/lehrgange.
 
 ![](img/LehrgaengeTab.png)
 
-Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
+Mit dem Button Neuer Lehrgang kann ein neuer Lehrgang eingerichtet werden.
 
 Durch einen Doppelklick wird die Bearbeitung eines Lehrgangs eingeleitet.
 
@@ -18,7 +18,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
 * Löschen: Damit kann ein Lehrgang gelöscht werden
-* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
 ## Lehrgang beim Mitglied anlegen
 
