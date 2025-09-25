@@ -14,11 +14,11 @@ Das Kontextmenü bietet folgende Optionen:
 * Sollbuchung bearbeiten: Aktiv falls die Sollbuchung ausgewählt ist
 * Sollbuchung löschen: Aktiv falls die Sollbuchung ausgewählt ist und keine Istbuchung zugewiesen ist
 * Rechnung anzeigen: Dieser Menüpunkt ist aktiv wenn eine Rechnung für die Sollbuchung existiert. Diese wird dann angezeigt
-* Rechnung(en) erstellen: Dieser Menüpunkt ist aktiv wenn für die selektierten Sollbuchungen noch keine Rechnungen existieren. Damit werden Rechnungen für die selektierten Sollbuchungen erzeugt
+* Rechnung(en) erstellen: Dieser Menüpunkt ist aktiv wenn für die selektierten Sollbuchungen noch keine Rechnungen existieren. Damit wird je eine Rechnung für die selektierten Sollbuchungen erzeugt
+* Gesamtrechnung erstellen: Dieser Menüpunkt ist aktiv wenn für die selektierten Sollbuchungen noch keine Rechnungen existieren. Damit wird genau eine Rechnung für die selektierten Sollbuchungen erzeugt
 * Istbuchung bearbeiten: Aktiv falls die Istbuchung ausgewählt ist
 * Istbuchung von Sollbuchung lösen: Aktiv falls die Istbuchung ausgewählt ist
-* Geldspendenbescheinigung: Aktiv falls das Mitglied oder die Istbuchung ausgewählt ist
-* Sachpendenbescheinigung: Aktiv falls das Mitglied ausgewählt ist
+* Spendenbescheinigung: Aktiv falls eine Istbuchung ausgewählt ist und deren Buchungsart als Spende markiert ist
 
 Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spendenbescheinigung.md)
 

@@ -10,6 +10,8 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Zusatzbeträge
 
 ![](img/ZusatzbetraegeTab.png)
 
+Mit dem Button Neuer Zusatzbetrag kann ein neuer Zusatzbetrag eingerichtet werden.
+
 Durch einen Doppelklick wird die Bearbeitung eines Zusatzbetrag eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
@@ -19,7 +21,6 @@ Das Kontextmenü bietet folgende Optionen:
 * Nächstes Fälligkeitsdatum: Das Fälligkeitsdatum um ein Intervall in die Zukunft verschieben. Dadurch wird die Abrechnung einmal ausgesetzt. (nur bei Zusatzbeträgen mit Wiederholung)
 * Erneut ausführen: Zusatzbeitrag erneut ausführen (nur bei Zusatzbeträgen ohne Wiederholung)
 * Löschen: Damit kann ein Zusatzbetrag gelöscht werden
-* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
 ## Zusatzbetrag beim Mitglied anlegen
 

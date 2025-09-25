@@ -24,18 +24,15 @@ Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 In JVerein werden verschiedene Kontoarten unterstützt:
 
 * Geldkonto
-* Anlagenkonto (ab JVerein 2.8.23, Die Option ist unter Administration->Einstellungen->Anzeige zu aktivieren)
 
-Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert.
+Ab JVerein 2.8.23 wird die Unterstützung von Anlagenkonten erweitert. Anlagenkonten sind unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 * Kontoart Anlagenkonto 
 * Anzeige der Anlagenkonten und AfA Buchungen in einem eigenen [Anlagenbuchungen View](anlagenbuchungen.md)
 * Erstellung eines [Anlagenverzeichnisses](anlagenverzeichnis.md)
 * Unterstützung bei der Generierung von AfA Buchungen
 
-PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst sichtbar wenn mindestens ein Anlagenkonto existiert und nach speichern des ersten Anlagenkontos ein Neustart ausgeführt wurde.
-
-Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten (Die Option ist unter Administration->Einstellungen->Anzeige zu aktivieren):
+Ab JVerein 3.0.0 gibt es zusätzlich folgende Kontoarten (Rücklagenkonten sind unter Administration->Einstellungen->Anzeige zu aktivieren):
 
 * Fremdkapital (Darlehen, Kredite etc.)
 * Zweckgebundene Rücklage nach § 62 Abs. 1 Nr. 1 AO

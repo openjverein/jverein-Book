@@ -44,6 +44,7 @@ Der View besitzt folgende Buttons:
 * Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt, die für den aktuellen Report geeignet sind. Diese lassen sich zum Kopieren in die Zwischenablage auswählen, um sie dann in den Text zu platzieren
 * Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
 * Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben z.B. wenn sie geändert wurde
+* Empfänger Liste: Zeigt einen Dialog mit der Liste aller Empfänger für die Spendenbescheinigungen generiert oder verschickt werden
 * Starten: Startet die Ausgabe
 
 Durch Klick auf den Starten Button werden die Spendenbescheinigungen an die Mitglieder versendet bzw. gedruckt.
@@ -72,4 +73,5 @@ Der View besitzt folgende Buttons:
 * Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt, die für den aktuellen Report geeignet sind. Diese lassen sich zum Kopieren in die Zwischenablage auswählen, um sie dann in den Text zu platzieren
 * Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
 * Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben z.B. wenn sie geändert wurde
+* Empfänger Liste: Zeigt einen Dialog mit der Liste aller Empfänger für die Spendenbescheinigungen generiert oder verschickt werden
 * Starten: Startet die Ausgabe

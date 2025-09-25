@@ -41,7 +41,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ![](img/MitgliedListeView.png)
 
-Erweitertee Filter:
+Erweiterte Filter:
 
 ![](img/MitgliedListeView2.png)
 
@@ -153,13 +153,9 @@ Zeigt eine QR-Code mit den Daten des Mitgliedes an.
 
 Für einen vorgegebenen Zeitraum werden alle Buchungen des Mitgliedskontos ausgegeben.
 
-### Geldpendenbescheinigung
+### Spendenbescheinigung
 
-Erstellung einer Geldpendenbescheinigung, die direkt dem Mitglied zugeordnet ist.
-
-### Sachspendenbescheinigung
-
-Erstellung einer Sachspendenbescheinigung, die direkt dem Mitglied zugeordnet ist.
+Automatische Erstellung von Spendenbescheinigungen, die direkt dem Mitglied zugeordnet sind. Werden mehrere Buchungen gefunden, wird eine Sammelbestätigung erzeugt. Bei Sachspenden wird für jede Buchung eine eigene Sachspendenbescheinigung erzeugt.
 
 ### Personalbogen
 

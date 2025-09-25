@@ -8,6 +8,8 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Wiedervorlagen
 
 ![](img/WiedervorlageTab.png)
 
+Mit dem Button Neue Wiedervorlage kann eine neue Wiedervorlage eingerichtet werden.
+
 Durch einen Doppelklick wird die Bearbeitung einer Wiedervorlage eingeleitet.
 
 Das Kontextmenü bietet folgende Optionen:
@@ -16,7 +18,6 @@ Das Kontextmenü bietet folgende Optionen:
 * Erledigung setzen: Setzen des Erledigung Termins. Der Button ist ausgegraut wenn schon ein Termin gesetzt ist
 * Erledigung löschen: Löschen des Erledigung Termins. Der Button ist ausgegraut wenn kein Termin gesetzt ist
 * Löschen: Damit kann eine Wiedervorlage gelöscht werden
-* Mitglied anzeigen: Damit können die Daten des Mitglieds angezeigt werden
 
 ## Wiedervorlage beim Mitglied anlegen
 
