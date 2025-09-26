@@ -37,3 +37,15 @@ PS: Ab JVerein 2.9.0 lässt sich auch in individuellen Formularen für Spendenbe
 #### Unterschrift
 
 Hier lässt sich ein Bild der Unterschrift einfügen welche entsprechend der selektierten Option eingefügt wird.
+
+#### Formular für Einzelbestätigung
+
+Formular welches bei der Generierung von Geldspendenbescheinigungen automatisch in der Bescheinigung gesetzt wird.
+
+#### Formular für Sammelbestätigung
+
+Formular welches bei der Generierung von Sammelbescheinigungen bei Geldspenden automatisch in der Bescheinigung gesetzt wird.
+
+#### Formular für Sachspenden
+
+Formular welches bei der Generierung von Sachspenden Bescheinigungen automatisch in der Bescheinigung gesetzt wird.
