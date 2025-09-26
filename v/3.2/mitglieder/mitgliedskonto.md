@@ -90,6 +90,6 @@ Mit Version 3.0.0 wurde auch das Feld Zahler eingeführt. Hier kann ein vom Mitg
 
 ## Sollbuchungsposition
 
-In diesem Dialog lassen sich die Felder der Sollbuchungsposition editieren.:
+In diesem Dialog lassen sich die Felder der Sollbuchungsposition erzeugen.:
 
 ![](img/SollbuchungpositionView.png)
