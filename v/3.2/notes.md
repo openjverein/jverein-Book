@@ -44,6 +44,22 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 * Der Button wird nur angezeigt wenn ein neuer Eintrag erzeugt wird
 * Wird nur ein bestehender Eintrag editiert, dann ist der Button nicht verfügbar
 
+### Einträge in Listen per Mehrfachauswahl löschen
+
+* Bis auf Jahresabschluss und Abrechnungslauf können jetzt alle Listen Einträge per Mehrfachauswahl gelöscht werden
+* Schlägt das Löschen bei einem Eintrag fehl, wird trotzdem bei den anderen weiter gemacht
+* Im Status Fenster welches bei Mehrfachauswahl angezeigt wird, werden Informationen zum Löschvorgang ausgegeben
+
+### Wiedervorlage Box
+
+* Beim Start von JVerein wird im Willkommen Fenster eine Info Box mit fälligen Wiedervorlagen eingeblendet falls welche existieren
+
+### Überprüfung der Datenbank Version
+
+* Beim Start von JVerein wird überprüft, ob die MAJOR Version der Datenbank größer ist als die der gestarteten JVerein Version
+* Ist dies der Fall, dann wird die Benutzung von JVerein gesperrt, da MAJOR Versionen nicht rückwärts kompatibel sind
+und es sonst zu Fehlfunktionen kommen wird
+
 ## Kleinere Korrekturen und Erweiterungen
 
 ### Einstellungen Allgemein
@@ -69,11 +85,14 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 * Die Option "Zusatzbeträge auch für Ausgetretene abrechnen" aus Einstellungen Anzeige hier her verschoben
 * Die Option "Keine Istbuchung bei Lastschriften erzeugen" eingeführt
 
+### Einstellungen Spendenbescheinigungen
+
+* Default Formulare für Spendenbescheinigungen werden nun in diesem Dialog konfiguriert
+* Damit können sie auch bei der automatischen Generierung über Kontextmenüs verwendet werden
+
 ### Lesefelder Liste View
 
 * Der Lesefelder Liste View wurde neu implementiert und zeigt die Lesefelder in einer Tabelle so wie auch bei anderen Listen üblich
-
-
 
 ### Nicht editierbare Buchungen und Sollbuchungen
 
@@ -82,3 +101,13 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 ### Filter nach Differenz in Mitglieder und Nicht-Mitglieder Liste View
 
 * Im Filter in der Mitglieder und Nicht-Mitglieder Liste gibt es einen neuen Tab mit den Filter Optionen für Differenz. Damit lässt sich z.B. nach Mitgliedern filtern die einen Fehlbetrag haben
+
+## Sonstiges
+
+* In der Liste der Buchungen gibt es eine Spalte Spendenbescheinigung
+* Zusatzbeträge Import Fehlerbehandlung und Log Ausgabe verbessert
+* Einige Fehler beim Mitglied Import behoben
+* Die "Geprüft" Checkbox ist auch im Buchung Dialog verfügbar
+* Dateinamen mit Leerzeichen beim CSV Import erlauben
+* Erfolgsmeldung beim Mitglied Speichern
+* Bei einigen Dialogen wie Beitragsgruppe, EigenschaftGruppe, Eigenschaft etc. wird beim Speichern auf Eindeutigkeit der Bezeichnungen geprüft und Pflichtfelder farbig markiert
