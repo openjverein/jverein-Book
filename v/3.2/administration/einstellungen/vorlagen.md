@@ -59,22 +59,24 @@ Beim universal Date Formatter lässt sich das gewünschte Format explizit angebe
 * \$udateformat.format(FORMAT, \$\<datum variable von Typ 2>)
 * \$udateformat.parse(FORMAT, \$\<datum variable vom Format FORMAT>)
 
-Im FORMAT sind folgende Zeichen erlaubt:
-* D: Eine Stelle von Tag (maximal 2 Stellen)
+Im FORMAT sind folgende Zeichen unter anderem möglich (weitere siehe https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html):
+* d: Eine Stelle von Tag (maximal 2 Stellen)
 * M: Eine Stelle von Monat (maximal 2 Stellen)
-* Y: Eine Stelle von Jahr (maximal 4 Stellen)
+* y: Eine Stelle von Jahr (maximal 4 Stellen)
 * Sonderzeichen wie z.B. .+-
 
+Beachte: d und y sind kleingeschrieben!
+
 Beispiele:
-* $udateformat.format("DD.MM.YYYY", $mitglied_mandatdatum) entspricht $dateformat.format($mitglied_mandatdatum) und ergibt 01.01.2024
-* $udateformat.format("YYYYMMDD", $mitglied_mandatdatum) ergibt 20240101
-* $udateformat.format("YYYY", $mitglied_mandatdatum) ergibt 2024
-* $udateformat.format("YY", $mitglied_mandatdatum) ergibt 24
-* $udateformat.format("DD-MM", $mitglied_mandatdatum) ergibt 01-01
+* $udateformat.format("dd.MM.yyyy", $mitglied_mandatdatum) entspricht $dateformat.format($mitglied_mandatdatum) und ergibt 01.01.2024
+* $udateformat.format("yyyyMMdd", $mitglied_mandatdatum) ergibt 20240101
+* $udateformat.format("yyyy", $mitglied_mandatdatum) ergibt 2024
+* $udateformat.format("yy", $mitglied_mandatdatum) ergibt 24
+* $udateformat.format("dd-MM", $mitglied_mandatdatum) ergibt 01-01
 
 Da üblicherweise kein Typ 2 Format vorliegt kann man trotzdem zwischen den Formaten mit der Kombination von parse und format konvertieren. Man muss nur jeweils das Format angeben welches man nutzt.
 
 Hat man z.B. filter_datum_bis_f mit Wert 20240315 dann kann man wie folgt konvertieren:
-*  $udateformat.format("DD-MM-YYYY", $udateformat.parse("YYYYMMDD", $filter_datum_bis_f)) ergibt 15-03-2024
-*  $udateformat.format("YYYY-MM-DD", $udateformat.parse("YYYYMMDD", $filter_datum_bis_f)) ergibt 2024-03-15
-*  $udateformat.format("YYYY", $udateformat.parse("YYYYMMDD", $filter_datum_bis_f)) ergibt 2024
+*  $udateformat.format("dd-MM-yyyy", $udateformat.parse("yyyyMMdd", $filter_datum_bis_f)) ergibt 15-03-2024
+*  $udateformat.format("yyyy-MM-dd", $udateformat.parse("yyyyMMdd", $filter_datum_bis_f)) ergibt 2024-03-15
+*  $udateformat.format("yyyy", $udateformat.parse("yyyyMMdd", $filter_datum_bis_f)) ergibt 2024
