@@ -386,6 +386,7 @@
     * [Mittelverwendungsaldo](v/3.2/buchf/mittelverwendungsaldo.md)
     * [Anlagenverzeichnis](v/3.2/buchf/anlagenverzeichnis.md)
     * [Jahresabschlüsse](v/3.2/buchf/jahresabschluss.md)
+    * [Wirtschaftsplanung](v/3.2/buchf/wirtschaftsplanung.md)
   * [Abrechnung](v/3.2/abrech/README.md)
     * [Abrechnung](v/3.2/abrech/abrechnung.md)
     * [Abrechnungsläufe](v/3.2/abrech/abrechnungslauf.md)
