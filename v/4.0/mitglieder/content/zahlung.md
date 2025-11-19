@@ -28,6 +28,7 @@ Falls der abweichende Zahler noch nicht als Mitglied oder Nicht-Mitglied existie
 PS: Es empfiehlt sich für diese Zahler einen eigenen Mitgliedstyp anzulegen. So kann später leicht nach Zahlern in der Liste der Nicht-Mitglieder gefiltert werden.
 
 ![](img/AbweichenderZahlerDialog.png)
+
 Die Felder im Dialog zum Erzeugen eines neuen Nicht-Mitgliedes entsprechen den Feldern die sonst beim regulären Erzeugen eines Nicht-Mitgliedes verwendet werden. Allerdings werden nur die Basisdaten des Nicht-Mitglieds abgefragt. Das Nicht-Mitglied kann aber später jederzeit regulär editiert werden.
 
 ### Bankverbindung des Mitglieds
