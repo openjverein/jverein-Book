@@ -85,6 +85,8 @@ Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
 PS: Ab JVerein 3.0.0 lässt sich für den Zusatzbetrag ein von der Konfiguration beim Mitglied (Standard) abweichender Zahlungsweg konfigurieren.
 
+PS: Ab JVerein 4.0.0 lässt sich festlegen, dass das Mitglied den Zusatzbetrag selbst zahlen soll, auch wenn beim Mitglied ein abweichender zahler konfiguriert sein sollte.
+
 ## Abrechnung
 
 Bei der Abrechnung finden folgende Prüfungen statt:
