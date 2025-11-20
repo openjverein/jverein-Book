@@ -28,25 +28,26 @@ Im Erweitert Tab Mitgliedskonto:
 * Differenz Limit (Filter nach Fehlbetrag oder Überzahlung größer als das Limit)
 * Datum von/bis (Datumsbereich für die Sollbuchungen die betrachtet werden)
 
+
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
 Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](../../../allgemeine-funktionen/mitglieder/content/suchprofil.md) gespeichert werden.
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
 
 Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
 ## Liste der Mitglieder
 
-![](broken-reference)
+![](img/MitgliedListeView.png)
 
 Erweiterte Filter:
 
-![](broken-reference)
+![](img/MitgliedListeView2.png)
 
-![](broken-reference)
+![](img/MitgliedListeView3.png)
 
-Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](../../../3.0/mitglieder/content/grunddaten.md)
+Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
 Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](../import.md)
 
@@ -76,23 +77,23 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](broken-reference)
+![](img/EigenschaftenFilterDialog.png)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](broken-reference)
+![](img/ZusatzfelderFilterDialog.png)
 
 ## Kontextmenu
 
-![](broken-reference)
+![](img/MitgliedMenu.png)
 
 ### Bearbeiten
 
 Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied.
 
-Siehe [Mitglied](../../../3.0/mitglieder/content/grunddaten.md).
+Siehe [Mitglied](grunddaten.md).
 
 ### Duplizieren
 
@@ -114,19 +115,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](broken-reference)
+![](img/EigenschaftenAuswahlDialog.png)
 
 ### Arbeitseinsatz zuordnen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](broken-reference)
+![](img/ArbeitseinsatzDialog.png)
 
 ### Zusatzbetrag zuordnen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](broken-reference)
+![](img/ZusatzbetragDialog.png)
 
 ### Zu Nicht-Mitglied umwandeln
 

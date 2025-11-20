@@ -2,11 +2,11 @@
 
 ## Allgemeines
 
-In JVerein werden für [Spendenbescheinigungen](../../../3.2/mitglieder/spendenbescheinigung.md), [Mahnung](../../../3.2/druckmail/mahnungen.md), [Rechnungen](../../../3.2/druckmail/rechnungen.md), [Pre-Notification](../../../3.2/druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../../3.2/druckmail/freiesformular.md) hinterlegt.
+In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../druckmail/freiesformular.md) hinterlegt.
 
 ## Liste der Formulare
 
-![](broken-reference)
+![](img/Formulare.png)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](broken-reference)
+![](img/Formular.png)
 
 ## Formular Attribute
 
@@ -103,7 +103,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](<../../../../.gitbook/assets/Formularfeld (2).png>)
+![](img/Formularfeld.png)
 
 ### Name
 
@@ -148,20 +148,23 @@ Schriftgröße des Textes.
 
 * Speichert das Formularfeld und öffnet eine neues
 
+
+
+
 ## Vorlagen
 
 Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter geladen und als Formular importiert werden.
 
 Einfache Standardrechnung:
 
-{% file src="broken-reference" %}
+{% file src="img/rechnung-standard.xml" %}
 Einfache Standardrechnung
 {% endfile %}
 
-![](broken-reference)
+![](img/rechnung-standard.png)
 
 ## Beispiele
 
-![](broken-reference)
+![](img/Formularroh.jpg)
 
-![](broken-reference)
+![](img/Formularausgefuellt.jpg)

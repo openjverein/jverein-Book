@@ -1,6 +1,6 @@
 # Abrechnung
 
-![](../../../../.gitbook/assets/Abrechnung.png)
+![](img/Abrechnung.png)
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md)
 
@@ -14,7 +14,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](broken-reference)
+![](img/SepaSupportedVersions.png)
 
 ## Arbeitsstundenmodell
 

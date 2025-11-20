@@ -1,10 +1,10 @@
 # Abrechnungsläufe
 
-Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelöscht werden oder es können [Pre-Notification](../../3.1/druckmail/pre-notification.md) ausgeben werden.
+Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelöscht werden oder es können [Pre-Notification](../druckmail/pre-notification.md) ausgeben werden.
 
 ## Liste der Abrechnungsläufe
 
-![](broken-reference)
+![](img/AbrechnungslaufListeView.png)
 
 Folgende Menü Einträge sind vorhanden:
 
@@ -25,4 +25,4 @@ Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
-![](broken-reference)
+![](img/AbrechnungslaufView.png)

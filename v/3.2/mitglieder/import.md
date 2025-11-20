@@ -4,7 +4,7 @@
 
 Über den Import Button im Mitglieder oder Nicht-Mitglieder View lassen sich neue Mitglieder importieren.
 
-Im Gegensatz zur bisherigen Funktion [Migration](../../allgemeine-funktionen/administration/erweitert/migration.md) werden bestehende Mitglieder nicht gelöscht.
+Im Gegensatz zur bisherigen Funktion [Migration](../administration/erweitert/migration.md) werden bestehende Mitglieder nicht gelöscht.
 
 ## CSV Format
 

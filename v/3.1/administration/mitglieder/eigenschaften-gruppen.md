@@ -4,7 +4,7 @@ Zur Gruppierung der Eigenschaften können Eigenschaften-Gruppen eingerichtet wer
 
 ## Liste der Eigenschaftengruppen
 
-![](broken-reference)
+![](<img/Eigenschaftengruppen (1).png>)
 
 Mit Neu kann eine neue Eigenschaftengruppe eingerichtet werden.
 
@@ -17,7 +17,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Eigenschaftengruppe
 
-![](broken-reference)
+![](<img/Eigenschaftengruppe (1).png>)
 
 Den Eigenschaften-Gruppen gibt man mit, ob sie Pflichtfelder sind (es muss eine Eigenschaft dazu beim Mitglied angewählt werden) oder Kann-Felder (es kann eine Eigenschaft beim Mitglied angewählt werden).
 

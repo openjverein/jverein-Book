@@ -1,6 +1,6 @@
 # Buchführung
 
-![](broken-reference)
+![](img/Buchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 

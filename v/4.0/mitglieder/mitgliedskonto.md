@@ -14,7 +14,7 @@ Die Sollbuchungen können erstellt werden
 
 * über einen Abrechnungslauf (siehe [Abrechnung](../abrech/abrechnung.md) )
 * in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md))
-* implizit über die Zuordnung einer Sollbuchung zu eine Buchung (siehe [Buchungen](../../3.2/buchf/buchungen.md))
+* implizit über die Zuordnung einer Sollbuchung zu eine Buchung (siehe [Buchungen](../buchf/buchungen.md))
 * aber auch in der Liste der Sollbuchungen
 
 Im Normalfall sollte die Erstellung der Sollbuchungen nur über die Abrechnung erfolgen. Nur in Ausnahmesituationen ist ein manuelles erstellen sinnvoll.
@@ -27,7 +27,7 @@ Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat.
 
-![](<../../../.gitbook/assets/SollbuchungenListeView (2).png>)
+![](img/SollbuchungenListeView.png)
 
 Durch einen Doppelklick auf die Sollbuchung wird die Sollbuchung angezeigt.
 
@@ -49,7 +49,7 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 
 Mit einem Klick auf Neu öffnet sich folgender Dialog:
 
-![](../../../.gitbook/assets/SollbuchungNeuDialog.png)
+![](img/SollbuchungNeuDialog.png)
 
 Über diesen Dialog wird eine Sollbuchung und eine zugeordnete Sollbuchungsposition erzeugt.
 
@@ -66,7 +66,7 @@ PS: Datum und Zweck der Sollbuchungsposition werden automatisch von der Sollbuch
 
 Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
-![](<../../../.gitbook/assets/SollbuchungView (2).png>)
+![](img/SollbuchungView.png)
 
 Durch einen Doppelklick auf eine Sollbuchungsposition wird die Sollbuchungsposition angezeigt.
 
@@ -92,4 +92,4 @@ Mit Version 3.0.0 wurde auch das Feld Zahler eingeführt. Hier kann ein vom Mitg
 
 In diesem Dialog lassen sich die Felder der Sollbuchungsposition erzeugen.:
 
-![](<../../../.gitbook/assets/SollbuchungpositionView (1).png>)
+![](img/SollbuchungpositionView.png)

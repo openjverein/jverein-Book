@@ -4,7 +4,7 @@
 
 Über den Import Button im Mitglieder oder Nicht-Mitglieder View lassen sich neue Mitglieder importieren.
 
-Im Gegensatz zur bisherigen Funktion [Migration](../../3.0/administration/erweitert/migration.md) werden bestehende Mitglieder nicht gelöscht.
+Im Gegensatz zur bisherigen Funktion [Migration](../administration/erweitert/migration.md) werden bestehende Mitglieder nicht gelöscht.
 
 ## CSV Format
 
@@ -56,8 +56,8 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 * ktoigeschlecht (m=Mänlich,w=Weiblich,o=Ohne Angabe)
 * vermerk1
 * vermerk2
-* eigenschaft\_NAME (wird bei allem anderen als nein, false gesetzt)
-* zusatzfeld\_NAME
-* sekundaer\_NAME für sekundäre Beitragsgruppen (wird bei allem anderen als nein, false gesetzt)
+* eigenschaft_NAME (wird bei allem anderen als nein, false gesetzt)
+* zusatzfeld_NAME
+* sekundaer_NAME für sekundäre Beitragsgruppen (wird bei allem anderen als nein, false gesetzt)
 
 Felder mit anderem Namen werden ignoriert

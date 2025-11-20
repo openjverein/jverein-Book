@@ -6,7 +6,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zu
 
 ## Lesefelder Liste beim Mitglied
 
-![](<../../../../.gitbook/assets/LesefelderTab (1).png>)
+![](img/LesefelderTab.png)
 
 Mit dem Button Neues Lesefeld kann ein neues Lesefeld eingerichtet werden.
 
@@ -21,6 +21,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Über den Button Bearbeiten lassen sich die Lesefelder bearbeiten.
 
-![](<../../../../.gitbook/assets/Lesefeld (2).png>)
+![](../../administration/mitglieder/img/Lesefeld.png)
 
 Weitere Informationen dazu: [Lesefelder](../../administration/mitglieder/lesefelder.md)

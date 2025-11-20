@@ -12,7 +12,7 @@ Dieser Dialog zeigt alle Familien Beziehungen an.
 
 Siehe auch [Familientarife](../../../allgemein/familientarife.md).
 
-![](broken-reference)
+![](img/FamilienBeitragView.png)
 
 Einträge können nach Mitgliedschaft gefiltert werden.
 

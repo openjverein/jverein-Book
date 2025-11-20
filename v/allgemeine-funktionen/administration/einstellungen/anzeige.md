@@ -1,6 +1,6 @@
 # Anzeige
 
-![](../../../../.gitbook/assets/Anzeige.png)
+![](img/Anzeige.png)
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 

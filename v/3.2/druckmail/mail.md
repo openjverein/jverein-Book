@@ -18,19 +18,19 @@ In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatu
 
 Über das Kontextmenü lassen sich Mails bearbeiten oder löschen.
 
-![](broken-reference)
+![](img/MailsView.png)
 
 ## Mails
 
 Durch einen Klick auf neu öffnet sich ein Mail-Vorlagen-Auswahlfenster:
 
-![](broken-reference)
+![](img/MailVorlagenAuswahl.png)
 
 Entweder wird eine Mailvorlage ausgewählt oder es geht ohne Vorlage weiter.
 
 Ein Doppelklick auf eine Mail öffnet das Bearbeitungsfenster.
 
-![](<../../../.gitbook/assets/Mail (2).png>)
+![](img/Mail.png)
 
 Der View besitzt folgende Buttons im unteren Bereich:
 
@@ -46,7 +46,7 @@ Der View besitzt folgende Buttons im unteren Bereich:
 
 Durch einen Klick auf Hinzufügen bei der Liste der Empfänger öffnet sich folgendes Auswahlfenster:
 
-![](broken-reference)
+![](img/MailEmpfaengerAuswahl.png)
 
 In diesem Fenster sind zunächst alle an- und abgemeldeten Mitglieder sowie alle weiteren Adressen aufgelistet, bei denen eine E-Mail-Adresse hinterlegt ist. Mail-Empfänger können nun einzeln durch Setzen des Häkchens vor der E-Mail-Adresse ausgewählt werden. Ferner stehen (ab Version 2.8.4) folgende Filter bzw. Selektoren zur Verfügung:
 
@@ -61,10 +61,10 @@ Die obigen Filter/Selektoren wirken additiv, mit keinen wird die komplette Auswa
 
 Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst werden:
 
-![](broken-reference)
+![](img/MitgliedMailversand.png)
 
 ## Variablen
 
 Im Betreff und im Text können Variable eingefügt werden, die beim Mailversand mit den konkreten Daten gefüllt werden. Mit Rechtsklick auf den Empfänger oder über den untenstehenden Button können die verfügbaren Variablen und ihre Belegung angezeigt werden.
 
-siehe auch [Mitglieder](../../3.1/mitglieder/content/mitglieder.md) und [Variable](../../../sonstiges/variable.md)
+siehe auch [Mitglieder](../mitglieder/content/mitglieder.md) und [Variable](../../../sonstiges/variable.md)

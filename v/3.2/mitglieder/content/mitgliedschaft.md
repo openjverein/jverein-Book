@@ -1,10 +1,10 @@
 # Mitgliedschaft
 
-Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](../../../3.1/administration/mitglieder/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts (z. B. der 31.12. des jeweiligen Jahres) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
+Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](../../administration/mitglieder/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts (z. B. der 31.12. des jeweiligen Jahres) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
 
 Standardaussehen des Formulars:
 
-![](broken-reference)
+![](img/MitgliedschaftTab.png)
 
 In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
 
@@ -12,7 +12,7 @@ In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsda
 
 Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration->Einstellungen->Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration->Beitragsgruppen muss für mindestens eine Beitragsgruppe das Häkchen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden.
 
-![](broken-reference)
+![](img/SekundaereBeitragsGruppen.png)
 
 ## Familienverband
 
@@ -20,11 +20,11 @@ Sofern eine Beitragsgruppe ausgewählt wurde, die mit "Familienangehöriger" gek
 
 Die Person (ebenfalls ein Mitglied), die im Familienverband den vollen Beitrag zahlt, kann im Tab "Vollzahlendes Familienmitglied" aus einer Liste ausgewählt werden.
 
-![](broken-reference)
+![](img/VollZahler.png)
 
 Im Tab "Familienverband" werden die Personen angezeigt, die am Familienverband beteiligt sind.
 
-![](broken-reference)
+![](img/FamilienVerband.png)
 
 Sinn und Zweck dieser Familienverknüpfung ist es, die Voraussetzungen für die Familienmitgliedschaft prüfen zu können. Tritt ein Mitglied aus, dass für andere Mitglieder als Vollzahlendes Familienmitglied eingetragen ist, kommt eine entsprechende Fehlermeldung.
 
@@ -34,13 +34,13 @@ Siehe auch: [Familientarife](../../../../allgemein/familientarife.md)
 
 ## Zukünftige Beitragsgruppen
 
-![](broken-reference)
+![](img/ZukuenftigeBeitragsGruppen.png)
 
 Hier kann man Beitragsgruppen eintragen, die für dieses Mitglied ab einem definierten Datum gültig sein soll. Hat man z.B. im ersten Jahr einen vergünstigten Probebeitrag, trägt man diesen oben unter Beitragsgruppe ein. Die Beitragsgruppe für den normalen Beitrag, der gültig werden soll, sobald die Probezeit beendet ist, kann man sofort in dieser Tabelle zukünftige Beitragsgruppen eintragen.
 
 Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgruppe erreicht wurde. Alle zu ändernden Mitglieder werden in einer Liste angezeigt und es können die neuen Beitragsgruppen für ausgewählte Mitglieder oder alle angezeigten übernommen werden. Damit die Daten angezeigt werden, ist einmal die Box "künftige Beitragsgruppen" zu aktivieren:
 
-![](broken-reference)
+![](img/Boxactivate.png)
 
 Hinweis: Die Box ist nur sichtbar, wenn im Menü "Start" ausgewählt wurde.
 

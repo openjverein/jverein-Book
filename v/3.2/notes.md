@@ -21,7 +21,7 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 
 * Sachspendenbescheinigung können jetzt auch nur noch mit zugehöriger Buchung erstellt werden
 * Die Angaben zu Sachspende werden in der Buchung gemacht
-* Dadurch können Sachspendenbescheinigungen auch automatisch erzeugt werden und es ist in den Menüs keine Unterscheidung zwischen Geldspende und Sachspende mehr nötig (siehe [Spendenbescheinigungen](../4.0/mitglieder/spendenbescheinigung.md))
+* Dadurch können Sachspendenbescheinigungen auch automatisch erzeugt werden und es ist in den Menüs keine Unterscheidung zwischen Geldspende und Sachspende mehr nötig (siehe [Spendenbescheinigungen](mitglieder/spendenbescheinigung.md))
 
 ### Editierbare Dateinamen
 
@@ -57,7 +57,8 @@ Achtung: Nach einem Update der Datenbank auf eine höhere MAJOR Version kann die
 ### Überprüfung der Datenbank Version
 
 * Beim Start von JVerein wird überprüft, ob die MAJOR Version der Datenbank größer ist als die der gestarteten JVerein Version
-* Ist dies der Fall, dann wird die Benutzung von JVerein gesperrt, da MAJOR Versionen nicht rückwärts kompatibel sind und es sonst zu Fehlfunktionen kommen wird
+* Ist dies der Fall, dann wird die Benutzung von JVerein gesperrt, da MAJOR Versionen nicht rückwärts kompatibel sind
+und es sonst zu Fehlfunktionen kommen wird
 
 ## Kleinere Korrekturen und Erweiterungen
 

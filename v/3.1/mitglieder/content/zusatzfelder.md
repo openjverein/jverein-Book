@@ -1,5 +1,5 @@
 # Zusatzfelder
 
-![](broken-reference)
+![](img/ZusatzfelderTab.png)
 
-Durch [Zusatzfelder](../../../3.0/administration/mitglieder/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
+Durch [Zusatzfelder](../../administration/mitglieder/felddefinition.md) können zusätzliche Datenfelder erfasst werden.

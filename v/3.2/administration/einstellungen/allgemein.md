@@ -2,7 +2,7 @@
 
 Allgemeine Einstellungen
 
-![](broken-reference)
+![](img/Allgemein.png)
 
 ### Vereinsdaten
 
@@ -18,6 +18,8 @@ Hier lassen sich Konfigurationen für Pflichtfelder bei der Eingabe von Mitglied
 
 ### Pflicht Eigenschaften
 
-Unter [Eigenschaftengruppe](../../../allgemeine-funktionen/administration/mitglieder/eigenschaften-gruppen.md) lässt sich einstellen ob in einer Gruppe Eigenschaften Pflicht sind.
+Unter [Eigenschaftengruppe](../mitglieder/eigenschaften-gruppen.md) lässt sich einstellen ob in einer Gruppe Eigenschaften Pflicht sind.
 
 Hier lässt sich einstellen, ob diese Pflicht auch für Nicht-Mitglieder oder juristische Personen gilt.
+
+

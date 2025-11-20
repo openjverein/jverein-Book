@@ -5,32 +5,29 @@
 Die Version 4.0 ist eine neuer Major Version. Nach einer Migration der Datenbank auf die 4.0 kann diese nicht mehr mit einer älteren Version bearbeitet werden.
 
 ## Achtung Migration !!!!
-
-* Für das Redesign des abweichenden Zahler existiert keine vollständige Migration. Betroffene Anwender müssen evtl. etwas nacharbeiten
-* Hierzu gibt es drei Anwendungsfälle
+*  Für das Redesign des abweichenden Zahler existiert keine vollständige Migration. Betroffene Anwender müssen evtl. etwas nacharbeiten
+*  Hierzu gibt es drei Anwendungsfälle
 
 #### Bei einem Familienmitglied war als Zahlungsweg Vollzahler ausgewählt
-
 * Falls in einem Familienverband bei einem Familienmitglied der Zahlungsweg "Vollzahler" war, wir dies automatisch migriert
 * Der Vollzahler wird als abweichender Zahler gesetzt
 * Der Zahlungsweg des Mitglied auf Überweisung geändert
 * Es ist keine Nacharbeit nötig
 
-#### Das Konto des Mitglieds ist ein Gemeinschaftskonto
-
+#### Das Konto des Mitglieds ist ein Gemeinschaftskonto 
 * Wegen der Bezeichnung für das Gemeinschaftskonto wurden die Felder für den alternativen Kontoinhaber ausgefüllt
 * In 4.0 gibt es bei den Kontodaten das neue optionale Feld "Kontoinhaber"
 * Falls der Kontoinhaber nicht genau dem Namen+Vornamen des Mitglieds entspricht kann hier die genaue Bezeichnung eingegeben werden
 * Während der Migration werden hier Name und Vorname aus den alten nicht mehr vorhandenen Feldern des alternativen Kontoinhabers kopiert
 * Der Anwender sollte also bei Mitgliedern mit Gemeinschaftskonto prüfen ob der eingetragene Kontoinhaber korrekt ist
 
-#### Eine andere Person zahlt die Beiträge
-
+#### Eine andere Person zahlt die Beiträge 
 * Bereits konfigurierte alternative Kontoinhaber werden nicht automatisch in Nicht-Mitglieder umgewandelt. Es könnte ja sein, dass es nur ein Gemeinschaftskonto ist oder dass der Zahler bereits als Mitglied oder Nicht-Mitglied existiert
 * Der Anwender muss also selbst bei bereits bestehenden alternativen Kontoinhabern falls nötig ein Nicht-Mitglied erzeugen
 * Existiert das Mitglied oder Nicht-Mitglied bereits welches zahlen soll, dann kann dieses direkt als alternativer Zahler gesetzt werden. Da noch die fremden Kontodaten eingetragen sind, sollten sie gelöscht werden oder durch die Daten des Mitglieds ersetzt werden
 * Falls noch kein Mitglied oder Nicht-Mitglied existiert, kann es über den Button "Abweichenden Zahler anlegen (Nicht-Mitglied)" angelegt werden
 * Bei einem bestehenden Namen im alternativen Kontoinhaber (alte Felder) werden dessen Daten und die Kontodaten in das neue Nicht-Mitglied übernommen. Er wird dann als Zahler gesetzt und die Kontodaten automatisch gelöscht. Auch wird dann der alte Name im alternativen Kontoinhaber gelöscht
+
 
 ## The Big Ones
 
@@ -61,16 +58,16 @@ Die Version 4.0 ist eine neuer Major Version. Nach einer Migration der Datenbank
 * Ansonsten gab es nur die Möglichkeit einen alternativen Kontoinhaber zu definieren. Da dieser aber kein Mitglied bzw. Nicht-Mitglied war, konnte in der Sollbuchung nur das Mitglied selbst als Zahler eingetragen werden. Die führte wieder zu anderen Problemen
 
 Die Konfiguration für den abweichenden Zahler wurde jetzt in der 4.0 neu implementiert.
-
 * Der abweichende Zahler ist unabhängig von einem Familienverband konfigurierbar
 * In den Zahlungsweg Feldern gibt es ein neues Feld zu konfigurieren den alternativen Zahler
 * Falls das Mitglied Beiträge und Zusatzbeträge nicht selbst bezahlt wird hier der alternative Zahler gesetzt. Es kann ein Mitglied oder auch Nicht-Mitglied sein
-* Falls noch kein Mitglied oder Nicht-Mitglied existiert kann es über den Button "Abweichenden Zahler anlegen (Nicht-Mitglied)" gemacht werden. Das neue Nicht-Mitglieder wird dabei direkt im Feld für den alternativen Zahler gesetzt
-* Beim Abrechnungslauf wird ein vorhandener Zahler als Zahler in der Sollbuchung eingetragen. Bei Zahlungsweg Lastschrift, werden Lastschriften werden auf den Zahler ausgestellt. Ist keiner gesetzt wird das Mitglied als Zahler eingetragen und dieses für Lastschriften verwendet
-* Daneben können auch der Zahlungsweg und Kontodaten des Mitglieds eingegeben werden
-* Ist ein Mitglied als Zahler in einer Sollbuchung eingetragen, dann werden immer seine Kontodaten verwendet, egal ob ein alternativer Zahler konfiguriert ist. Dieses ermöglicht es, dass das Mitglied auch selbst Zahlungen machen kann
-* Bei den Kontodaten gibt es das optionale Feld "Kontoinhaber". Weicht der Kontoinhaber vom Namen und Vornamen des Mitglied ab kann hier die genaue Bezeichnung eingegeben werden z.B. bei einem Gemeinschaftskonto. In diesem Fall muss kein Nicht-Mitglied erzeugt werden. Es wird aber davon ausgegangen, dass das Mitglied Mit-/Inhaber ist, weil dann das Mitglied als Zahler in der Sollbuchung steht und z.B. Spendenbescheinigungen in diesem Fall auf das Mitglied ausgestellt werden
-* Standard mäßig werden auch Zusatzbeiträge wie Beiträge über den alternativen Zahler verbucht. Will man Zusatzbeiträge jedoch abweichend davon vom Mitglied zahlen lassen, kann dies durch die neue Checkbox "Mitglied zahlt selbst" im Zusatzbetrag ausgewählt werden. In diesem Fall müssen natürlich auch die benötigten Kontodaten beim Mitglied eingetragen sein, z.B. IBAN bei Lastschriften
+* Falls noch kein Mitglied oder Nicht-Mitglied existiert kann es über den Button "Abweichenden Zahler anlegen (Nicht-Mitglied)" gemacht werden.  Das neue Nicht-Mitglieder wird dabei direkt im Feld für den alternativen Zahler gesetzt
+*  Beim Abrechnungslauf wird ein vorhandener Zahler als Zahler in der Sollbuchung eingetragen. Bei Zahlungsweg Lastschrift, werden Lastschriften werden auf den Zahler ausgestellt. Ist keiner gesetzt wird das Mitglied als Zahler eingetragen und dieses für Lastschriften verwendet
+*  Daneben können auch der Zahlungsweg und Kontodaten des Mitglieds eingegeben werden
+*  Ist ein Mitglied als Zahler in einer Sollbuchung eingetragen, dann werden immer seine Kontodaten verwendet, egal ob ein alternativer Zahler konfiguriert ist. Dieses ermöglicht es, dass das Mitglied auch selbst Zahlungen machen kann
+*  Bei den Kontodaten gibt es das optionale Feld "Kontoinhaber". Weicht der Kontoinhaber vom Namen und Vornamen des Mitglied ab kann hier die genaue Bezeichnung eingegeben werden z.B. bei einem Gemeinschaftskonto. In diesem Fall muss kein Nicht-Mitglied erzeugt werden. Es wird aber davon ausgegangen, dass das Mitglied Mit-/Inhaber ist, weil dann das Mitglied als Zahler in der Sollbuchung steht und z.B. Spendenbescheinigungen in diesem Fall auf das Mitglied ausgestellt werden
+*  Standard mäßig werden auch Zusatzbeiträge wie Beiträge über den alternativen Zahler verbucht. Will man Zusatzbeiträge jedoch abweichend davon vom Mitglied zahlen lassen, kann dies durch die neue Checkbox "Mitglied zahlt selbst" im Zusatzbetrag ausgewählt werden. In diesem Fall müssen natürlich auch die benötigten Kontodaten beim Mitglied eingetragen sein, z.B. IBAN bei Lastschriften
+
 
 ## Kleinere Korrekturen und Erweiterungen
 
@@ -93,6 +90,8 @@ Die Konfiguration für den abweichenden Zahler wurde jetzt in der 4.0 neu implem
 
 * Die Spalte Mandat-Id wurde in die Mitglieder Liste aufgenommen
 
+
+
 ## Sonstiges
 
-*
+* 

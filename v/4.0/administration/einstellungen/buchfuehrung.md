@@ -1,6 +1,6 @@
 # Buchführung
 
-![](<../../../../.gitbook/assets/Buchfuehrung (2).png>)
+![](img/Buchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 
@@ -22,3 +22,4 @@ Hier sind folgende Eingaben nötig bzw. möglich:
   Diese Option ist nur verfügbar wenn auch Umsatzsteuer Support aktiviert ist
 * Auswahl ob eine feste Zuordnung zwischen Buchungsart und Buchungsklasse existiert oder nicht. Die feste Zuordnung sollte nur bei einem Wechsel des Kontenrahmen passieren und dann beim Wechsel des Geschäftsjahres. Sie auch [Buchungsart](../admbuchf/buchungsart.md)
 * Beim automatischen Splitten den Verwendungszweck aus den Sollbuchungspositionen übernehmen.
+

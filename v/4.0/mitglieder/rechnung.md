@@ -18,7 +18,7 @@ Die Sollbuchungspositionen werden dann als Rechnungspositionen in die Rechnung a
 
 Beim versenden der Rechnung per Mail und wenn nur eine Rechnung als PDF erstellt wird, wird diese automatisch als E-Rechnung im ZUGFeRD Format erstellt.
 
-Um Rechnungen erstellen zu können muss erst ein Formuler erstellt werden. Siehe [Formulare](../../3.2/administration/mitglieder/formulare.md)
+Um Rechnungen erstellen zu können muss erst ein Formuler erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
 
 ### Erstellung
 
@@ -33,7 +33,7 @@ Es gibt eine zentrale Übersicht über alle Rechnungen. Die Rechnungen können �
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat. Letzteres ist interessant wenn die Rechnungen per Mail versendet werden sollen.
 
-![](broken-reference)
+![](img/RechnungenListeView.png)
 
 Durch einen Doppelklick auf die Rechnung wird die Rechnung angezeigt.
 
@@ -49,7 +49,7 @@ Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehr
 
 Mit einem Doppelklick auf die Rechnung oder Klick auf Anzeigen wird die Rechnung angezeigt.
 
-![](<../../../.gitbook/assets/RechnungView (1).png>)
+![](img/RechnungView.png)
 
 Folgende Buttons stehen zu Verfügung:
 

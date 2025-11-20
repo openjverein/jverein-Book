@@ -16,7 +16,7 @@ Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wähle
 
 Im Info Feld wird angezeigt wieviele Sollbuchungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](broken-reference)
+![](<img/RechnungenDruckMailView1 (1).png>)
 
 Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
 
@@ -34,7 +34,7 @@ Um automatisch Rechnungen zu erstellen wählen Sie im Navigations Baum dem Menü
 
 Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Sollbuchungen Dialog. Es werden dann Rechnungen für alle Sollbuchungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
 
-![](../../../.gitbook/assets/RechnungenDruckMailView2.png)
+![](img/RechnungenDruckMailView2.png)
 
 Der Filter Bereich bietet folgende Optionen:
 

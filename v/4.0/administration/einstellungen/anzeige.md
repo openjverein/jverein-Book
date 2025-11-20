@@ -1,6 +1,6 @@
 # Anzeige
 
-![](<../../../../.gitbook/assets/Anzeige (3).png>)
+![](img/Anzeige.png)
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 
@@ -11,7 +11,6 @@ Folgende Einstellungen können vorgenommen werden:
 ### Mitglieder Feature Auswahl
 
 Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mitgliedern verfügbar sind:
-
 * Arbeitseinsatz: Unterstützung von Arbeitsstunden (siehe [Arbeitseinsätze](../../mitglieder/arbeitseinsatz.md))
 * Familienbeitrag: Unterstützung von Familienbeitrag (siehe [Familienbeitrag](../../mitglieder/familienbeitrag.md))
 * Kursteilnehmer: Unterstützung von Kursteilnehmern (siehe [Kursteilnehmer](../../mitglieder/kursteilnehmer.md))
@@ -27,10 +26,9 @@ Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mit
 ### Buchführung Feature Auswahl
 
 Hier können Feature aktiviert werden, die dann im Navigationsbaum unter Buchführung verfügbar sind:
-
 * Projekte: Unterstützung von Projekten (siehe [Projekte](../admbuchf/projekte.md))
 * Mittelverwendung: Unterstützung der Mittelverwendungsrechnung (siehe [Mittelverwendung](../../buchf/mittelverwendung.md))
-* Wirtschaftsplanung: Unterstützung der Wirtschaftsplanung (siehe [Wirtschaftsplanung](../../../3.2/buchf/wirtschaftsplanung.md))
+* Wirtschaftsplanung: Unterstützung der Wirtschaftsplanung (siehe [Wirtschaftsplanung](../../buchf/wirtschaftsplanung.md))
 * Anlagenkonten: Unterstützung von Anlagenkonten (siehe [Konten](../../buchf/konten.md))
 * Rücklagenkonten: Unterstützung von Rücklagenkonten (siehe [Konten](../../buchf/konten.md))
 * Forderungen/Verbindlichkeiten Konten: Unterstützung von Forderungen und Verbindlichkeiten (siehe [Konten](../../buchf/konten.md))
@@ -38,13 +36,12 @@ Hier können Feature aktiviert werden, die dann im Navigationsbaum unter Buchfü
 ### Sonstige Feature Auswahl
 
 Hier können allgemeine Feature aktiviert werden:
-
 * Dokumentenspeicherung: Unterstützung von Dokumentspeicherung bei Mitgliedern und Buchungen. Wird diese Einstellung aktiviert muss das Plugin jameica.messaging installiert sein.
+
 
 ### Mitglieder Anzeige
 
 Hier kann eingestellt werden welche Information bei Mitgliedern verfügbar ist:
-
 * Auslandsadressen (Staat): Eingabemöglichkeit von Staat
 * Externe Mitgliedsnummer: Grundsätzlich zahlt das Mitglied den Beitrag, der in der Beitragsgruppe angegeben wurde. Sofern diese Option aktiviert wurde, kann bei jedem Mitglied ein abweichender individueller Beitrag angegeben werden
 * (Ext.) Mitgliedsnummer bei Namen: Bei Auswahl dieser Option wird in Tabellen oder bei der Mitglieder Auswahl an den Mitglied Namen in Klammern die Mitgliedsnummer, oder falls Externe Mitgliedsnummer aktiviert ist, die externe Mitgliedsnummer angezeigt. Dies ist nützlich falls es mehrere Mitglieder mit dem gleichen Namen gibt. Diese lassen sich so unterscheiden
@@ -57,17 +54,17 @@ Hier kann eingestellt werden welche Information bei Mitgliedern verfügbar ist:
 * Vermerke: Tab Vermerke beim Mitglied anzeigen. Beim Mitglied können 2 mal 255 Zeichen Vermerke gespeichert werden
 
 ### Allgemeines
-
 * Buchungsart ohne Buchung unterdrücken: In Listen werden Buchungsarten ausgeblendet die im ausgewählten Zeitraum keine Buchung haben
 * Summen Anlagenkonto in Kontensaldo: Im Kontensaldo werden die Anlagenkonten nicht einzeln aufgeführt sondern als ein Eintrag mit der Summe aller Anlagenkonten
 
+
 ### Intervall für aktive Konten (Jahre)
 
-Im Kontoauswahldialog lassen sich Konten ausblenden auf denen länger als die konfigurierte Dauer an Jahren keine Buchungen mehr verbucht wurden.
+Im Kontoauswahldialog lassen sich Konten ausblenden auf denen länger als die konfigurierte Dauer an Jahren keine Buchungen mehr verbucht wurden. 
 
 ### Ungenutzte Auto Buchungsarten unterdrücken (Monate)
 
-Im Buchungsarten Auswahl Dialogen lassen sich Buchungsarten ausblenden die mehr als die konfigurierte Anzahl an Monaten nicht mehr verwendet wurden. Die Unterdrückung wird nur auf Buchungsarten angewendet deren Status auf "Auto" steht.
+Im Buchungsarten Auswahl Dialogen lassen sich Buchungsarten ausblenden die mehr als die konfigurierte Anzahl an Monaten nicht mehr verwendet wurden. Die Unterdrückung wird nur auf Buchungsarten angewendet deren Status auf "Auto" steht. 
 
 ### Basis für Berechnung des Alters
 

@@ -1,6 +1,6 @@
 # Zahlung
 
-![](broken-reference)
+![](img/ZahlungTab.png)
 
 Als Zahlungswege stehen
 

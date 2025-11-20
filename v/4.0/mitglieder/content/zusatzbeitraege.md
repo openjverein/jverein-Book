@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Zusatzbeträge
 
 ## Zusatzbeträge Liste beim Mitglied
 
-![](<../../../../.gitbook/assets/ZusatzbetraegeTab (1).png>)
+![](img/ZusatzbetraegeTab.png)
 
 Mit dem Button Neuer Zusatzbetrag kann ein neuer Zusatzbetrag eingerichtet werden.
 
@@ -26,6 +26,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Ein Klick auf "Neuer Zusatzbetrag" öffnet folgendes Fenster:
 
-![](<../../../../.gitbook/assets/ZusatzBetragView (2).png>)
+![](../img/ZusatzBetragView.png)
 
 Weitere Informationen dazu: [Zusatzbeiträge](../zusatzbetrage.md)

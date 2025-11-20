@@ -1,6 +1,6 @@
 # Mitglieder Spalten
 
-![](broken-reference)
+![](img/Mitgliederspalten.png)
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
 

@@ -6,7 +6,7 @@ Es muss mindestens eine Beitragsgruppe erfasst werden.
 
 ## Liste der Beitragsgruppen
 
-![](broken-reference)
+![](<img/Beitragsgruppen (1).png>)
 
 Mit Neu kann eine neue Beitragsgruppe eingerichtet werden.
 
@@ -19,7 +19,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Beitragsgruppe
 
-![](broken-reference)
+![](<img/Beitragsgruppe (1).png>)
 
 ### Bezeichnung
 

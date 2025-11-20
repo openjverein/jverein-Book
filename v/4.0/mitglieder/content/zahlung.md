@@ -1,6 +1,6 @@
 # Zahlung
 
-![](<../../../../.gitbook/assets/ZahlungTab (1).png>)
+![](img/ZahlungTab.png)
 
 Hier werden die Zahlungsdaten des Mitglieds konfiguriert
 
@@ -15,7 +15,6 @@ Als Zahlungswege stehen
 zur Verfügung. Die Standardwerte können unter Administration->Einstellungen->Beiträge festgelegt werden.
 
 ### Abweichender Zahler für Beiträge und Zusatzbeträge
-
 PS: Dies ist ein neues Konzept welches in der Version 4.0 eingeführt wurde.
 
 Sollen die Beiträge oder Zusatzbeträge nicht vom Mitglied selbst, sondern von einer anderen Person bezahlt werden z.B. Eltern, dann kann in diesem Feld das entsprechende Mitglied oder Nicht-Mitglied ausgewählt werden.
@@ -28,12 +27,11 @@ Falls der abweichende Zahler noch nicht als Mitglied oder Nicht-Mitglied existie
 
 PS: Es empfiehlt sich für diese Zahler einen eigenen Mitgliedstyp anzulegen. So kann später leicht nach Zahlern in der Liste der Nicht-Mitglieder gefiltert werden.
 
-![](../../../../.gitbook/assets/AbweichenderZahlerDialog.png)
+![](img/AbweichenderZahlerDialog.png)
 
 Die Felder im Dialog zum Erzeugen eines neuen Nicht-Mitgliedes entsprechen den Feldern die sonst beim regulären Erzeugen eines Nicht-Mitgliedes verwendet werden. Allerdings werden nur die Basisdaten des Nicht-Mitglieds abgefragt. Das Nicht-Mitglied kann aber später jederzeit regulär editiert werden.
 
 ### Bankverbindung des Mitglieds
-
 Beim Zahlungsweg Basislastschrift sind IBAN und Datum des Mandats anzugeben.
 
 Die Mandats-ID wird automatisch aus der Mitgliedsnummer oder optional aus der externen Mitgliedsnummer (siehe Einstellungen) gebildet. Zusätzlich wird ein Versionszähler geführt, der das 1., 2., 3. .... Mandat referenziert.

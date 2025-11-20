@@ -19,14 +19,14 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 
 In Der Buchungsliste bedeutet die Spalte "S" Splitbuchung, folgende Werte sind möglich "S" Slitbuchung, "H" Hautbuchung, "G" Gegenbuchung.
 
-![](<../../../.gitbook/assets/BuchungenListeView (3).png>)
+![](img/BuchungenListeView.png)
 
 Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können Buchungen bearbeitet werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF oder CSV Format wird durch einen Klick auf PDF/CSV angestoßen.
 
 Folgende Buttons sind vorhanden:
 
-* Hibiscus-Import: Import von Buchungen aus Hibiscus. Siehe [Buchungsübernahme](../../3.2/buchf/buchungsubernahme.md)
-* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](../../allgemeine-funktionen/buchf/buchungsimport.md)
+* Hibiscus-Import: Import von Buchungen aus Hibiscus. Siehe [Buchungsübernahme](buchungsubernahme.md)
+* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](buchungsimport.md)
 * CSV: Die über die Suchkriterien ausgewählten Buchungen können mit einem Klick auf CSV als CSV-Datei ausgegeben werden. Dabei werden bei Nutzung des Mitgliedskontos ggfls. auch die Daten des Mitgliedes ausgegeben.
 * PDF Buchungsjournal: Auflistung aller Buchungen nach verschiedenen Sortierungen
 * PDF Einzelbuchungen: Auflistung aller Buchungen nach Buchungsarten
@@ -42,8 +42,8 @@ Folgende Menü Einträge sind vorhanden:
 * Als "geprüft" markieren: Markiert die Buchung als geprüft
 * Als "ungeprüft" markieren: Hebt die Markierung auf
 * Duplizieren: Öffnet die Detailansicht für eine neue Buchung mit den Daten der selektierten Buchung
-* Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen Der Menüpunkt ist nur verfügbar wenn die Buchungsart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungsart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](../../3.2/buchf/konten.md).
-* Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](../../3.1/buchf/splittbuchungen.md)
+* Gegenbuchung: Öffnet die Detailansicht für eine neue Buchung um eine Gegenbuchung zur selektierten Buchung zu erstellen Der Menüpunkt ist nur verfügbar wenn die Buchungsart der selektierten Buchung der Art "Umbuchung" ist. In der Gegenbuchung ist der negative Betrag der selektierten Buchung eingetragen. Nach Auswahl der Aktion wird erst ein Dialog zur Auswahl des Gegenkontos geöffnet. Dieser Dialog wird übersprungen wenn in der Konfiguration eines Kontos die Buchungsart der selektierten Buchung konfiguriert ist. In diesem Fall wird sofort das entsprechende Konto eingetragen. Siehe [Konten](konten.md).
+* Splitbuchung: Erzeugt eine Splitbuchung. Siehe [Splittbuchungen](splittbuchungen.md)
 * Auflösen: Löst eine oder mehrere selektierte Splitbuchungen auf. Es werden die Gegenbuchung und die enthaltenen Buchungen gelöscht
 * Löschen: Löscht die Buchung
 * Mitglied anzeigen: Für die selektierte Buchung wird das zugehörige Mitglied geöffnet, sofern der Buchung eine Sollbuchung zugeordnet wurde.
@@ -54,13 +54,13 @@ Folgende Menü Einträge sind vorhanden:
 * Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts. Diese Option ist nur verfügbar wenn "Projekte anzeigen" in den Einstellungen aktiviert ist
 * Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs
 
-Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](../../3.0/buchf/jahresabschluss.md) abgeschlossen wurden.
+Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
 
 ## Zuordnung einer Buchung zu einer Sollbuchung
 
 Durch einen Klick auf auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
 
-![](broken-reference)
+![](img/SollbuchungZuordnungIst.png)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
@@ -77,7 +77,7 @@ Es kann auch eine Buchung mehreren Sollbuchungen auf einmal zugeordnet werden, d
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine (neue) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-![](broken-reference)
+![](img/SollbuchungZuordnungSollIst.png)
 
 Hier kann nur nach dem Namen gefiltert werden.
 
@@ -87,7 +87,7 @@ In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" an gehakt w
 
 In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Sollbuchungen vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Sollbuchungen eingeschränkt werden.
 
-![](broken-reference)
+![](img/AutomatischeSollbuchungZuordnung.png)
 
 Folgende Zuordnungsregeln bestehen:
 
@@ -99,10 +99,10 @@ Folgende Zuordnungsregeln bestehen:
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
-![](broken-reference)
+![](img/AutomatischeZuordnungBestaetigen.png)
 
 ## Buchung
 
-![](broken-reference)
+![](img/BuchungDialog.png)
 
-Siehe auch [Sollbuchungen](../../3.2/mitglieder/mitgliedskonto.md), [Splittbuchungen](../../3.1/buchf/splittbuchungen.md)
+Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](splittbuchungen.md)

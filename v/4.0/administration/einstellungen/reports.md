@@ -1,9 +1,8 @@
 # Reports
 
-![](../../../../.gitbook/assets/Reports.png)
+![](img/Reports.png)
 
 Der Dialog enthält folgende Konfigurationsmöglichkeiten:
-
 * Wirtschaftsplan Ist-Beträge von laufendem Zeitraum ausgeben. Macht man z.B. einen Rechnungsabschluss für das letzte Jahr mit einem Plan für das aktuelle Jahr möchte man evtl. bereits aufgelaufene Ist-Werte des aktuellen Jahres nicht im Bericht haben
 * Hintergrund bei Reports: Hier kann ein Hintergrund für Reports ausgewählt werden. Das entsprechende Formular muss vorher bei den Formularen unter der Art Hintergrund/Vordergrund eingerichtet werden
 * Vordergrund bei Reports: Hier kann ein Vordergrund für Reports ausgewählt werden. Das entsprechende Formular muss vorher bei den Formularen unter der Art Hintergrund/Vordergrund eingerichtet werden

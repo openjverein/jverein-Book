@@ -14,7 +14,7 @@ Die Wiedervorlage Termine aller Mitglieder können hier angezeigt und als erledi
 
 Die Wiedervorlagen können erstellt werden
 
-* in den Mitglied Details (siehe [Wiedervorlage](../../3.2/mitglieder/content/wiedervorlage.md))
+* in den Mitglied Details (siehe [Wiedervorlage](content/wiedervorlage.md))
 * aber auch in der Liste der Wiedervorlagen
 
 ## Liste der Wiedervorlagen
@@ -23,7 +23,7 @@ Der Übersicht View für Wiedervorlagen zeigt alle vorhandenen Wiedervorlagen an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](broken-reference)
+![](img/WiedervorlageListeView.png)
 
 Mit dem Button Neu kann eine neue Wiedervorlage eingerichtet werden.
 
@@ -41,6 +41,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](broken-reference)
+![](img/WiedervorlageView.png)
 
 Die Wiedervorlage Termine werden auch im Jameica-Kalender angezeigt.
