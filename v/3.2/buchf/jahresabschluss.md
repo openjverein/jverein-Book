@@ -4,7 +4,7 @@
 
 Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
-![](<../../../.gitbook/assets/JahresAbschluesseView (2).png>)
+![](<../../../.gitbook/assets/JahresAbschluesseView (3).png>)
 
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
@@ -20,7 +20,7 @@ Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erf
 
 Durch eine Klick auf Neu kann ein neuer Jahresabschluss vorgenommen werden:
 
-![](broken-reference)
+![](<../../../.gitbook/assets/JahresabschlussView (5).png>)
 
 Der Jahresabschluss zeigt den Zeitraum des Jahresabschlusses an. Es ist das Geschäftsjahr nach dem letzten Abschluss.
 
@@ -28,7 +28,7 @@ Bei Name sollte der Name desjenigen eingetragen werden, der den Abschluss durchf
 
 Tipp: Die Checkbox "Anfangsbestände Folgejahr" sollte aktiviert werden. Damit werden die Endstände in der Liste der Anfangsbestände abgespeichert und als Basis für das nächste Geschäftsjahr verwendet. Auch das Anlagenverzeichnis verwendet die Anfangsbestände.
 
-Ist in den [Einstellungen](../../3.1/administration/einstellungen/anzeige.md) der Ort der Abschreibung auf "Checkbox in Jahresabschluss" konfiguriert, wird hier auch die Checkbox "Erzeuge Abschreibungen" sichtbar. Ist sie gewählt, werden automatisch die AfA Abschreibungen generiert.
+Ist in den [Einstellungen](../administration/einstellungen/anzeige.md) der Ort der Abschreibung auf "Checkbox in Jahresabschluss" konfiguriert, wird hier auch die Checkbox "Erzeuge Abschreibungen" sichtbar. Ist sie gewählt, werden automatisch die AfA Abschreibungen generiert.
 
 **PS: Die AfA Buchungen sind in der angezeigten Tabelle noch nicht enthalten, da sie erst beim Speichern generiert werden.**
 

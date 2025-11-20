@@ -6,7 +6,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zu
 
 ## Lesefelder Liste beim Mitglied
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/LesefelderTab (3).png>)
 
 ## Lesefelder beim Mitglied bearbeiten
 

@@ -23,7 +23,7 @@ Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung ge
 Folgende Buttons sind vorhanden:
 
 * Hibiscus-Import: Import von Buchungen aus Hibiscus. Siehe [Buchungsübernahme](buchungsubernahme.md)
-* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](../../3.1/buchf/buchungsimport.md)
+* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](buchungsimport.md)
 * CSV: Die über die Suchkriterien ausgewählten Buchungen können mit einem Klick auf CSV als CSV-Datei ausgegeben werden. Dabei werden bei Nutzung des Mitgliedskontos ggfls. auch die Daten des Mitgliedes ausgegeben.
 * PDF Buchungsjournal: Auflistung aller Buchungen nach verschiedenen Sortierungen
 * PDF Einzelbuchungen: Auflistung aller Buchungen nach Buchungsarten
@@ -48,13 +48,13 @@ Folgende Menü Einträge sind vorhanden:
 * Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts
 * Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs
 
-Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](../../3.1/buchf/jahresabschluss.md) abgeschlossen wurden.
+Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
 
 ## Zuordnung einer Buchung zu einer Sollbuchung
 
 Durch einen Klick auf auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
 
-![](broken-reference)
+![](<../../../.gitbook/assets/SollbuchungZuordnungIst (3).png>)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
@@ -71,7 +71,7 @@ Es kann auch eine Buchung mehreren Sollbuchungen auf einmal zugeordnet werden, d
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine (neue) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/SollbuchungZuordnungSollIst (3).png>)
 
 Hier kann nur nach dem Namen gefiltert werden.
 
@@ -81,7 +81,7 @@ In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" an gehakt w
 
 In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Sollbuchungen vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Sollbuchungen eingeschränkt werden.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/AutomatischeSollbuchungZuordnung (1).png>)
 
 Folgende Zuordnungsregeln bestehen:
 
@@ -93,10 +93,10 @@ Folgende Zuordnungsregeln bestehen:
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/AutomatischeZuordnungBestaetigen (2).png>)
 
 ## Buchung
 
-![](../../../.gitbook/assets/BuchungDialog.png)
+![](<../../../.gitbook/assets/BuchungDialog (1).png>)
 
 Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](splittbuchungen.md)

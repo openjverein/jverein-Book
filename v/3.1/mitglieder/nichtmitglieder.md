@@ -25,8 +25,8 @@ Die Nicht-Mitglieder können erstellt werden
 
 Ein Nicht-Mitglied kann bei Bedarf später in ein Mitglied umgewandelt werden: In der Liste rechte Maustaste und dann "Zu Mitglied umwandeln".
 
-![](<../../../.gitbook/assets/NichtMitgliedListeView (2).png>)
+![](<../../../.gitbook/assets/NichtMitgliedListeView (4).png>)
 
 ## Nicht-Mitglied
 
-![](broken-reference)
+![](<../../../.gitbook/assets/NichtMitgliedView (4).png>)

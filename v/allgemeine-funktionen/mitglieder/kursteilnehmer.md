@@ -29,4 +29,4 @@ Das Kursteilnehmer Menü hat folgende Einträge:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](broken-reference)
+![](<../../../.gitbook/assets/KursteilnehmerView (7).png>)

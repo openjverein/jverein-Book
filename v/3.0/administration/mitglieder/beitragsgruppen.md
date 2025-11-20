@@ -6,7 +6,7 @@ Es muss mindestens eine Beitragsgruppe erfasst werden.
 
 ## Liste der Beitragsgruppen
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Beitragsgruppen (3).png>)
 
 Mit Neu kann eine neue Beitragsgruppe eingerichtet werden.
 
@@ -19,7 +19,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Beitragsgruppe
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Beitragsgruppe (3).png>)
 
 ### Bezeichnung
 

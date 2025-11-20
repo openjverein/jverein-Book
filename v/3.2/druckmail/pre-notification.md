@@ -16,7 +16,7 @@ Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der A
 
 Mit einem Rechtsklick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/AbrechnungslaufListeView (9).png>)
 
 ## Aufruf der Pre-Notification Funktion über Druck & Mail
 
@@ -26,7 +26,7 @@ Mit einem Rechtsklick auf den entsprechenden Eintrag öffnet sich der Dialog, mi
 
 In diesem Fall wählt man den Abrechnungslauf für den die Pre-Notifications erzeugt werden sollen im Dialog aus.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/PrenotificationDruckMailView2 (4).png>)
 
 Der View besitzt folgende Buttons:
 
@@ -45,13 +45,13 @@ Mit einem Rechtsklick auf eine oder mehrere Lastschriften öffnet sich ein Konte
 
 Diese Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. Da bei wiederkehrenden Lastschriften eine Pre-Notification nur beim ersten Mal notwendig ist, kann man hier nur die Mitglieder auswählen die neu hinzugekommen sind oder bei denen sich etwas geändert hat.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/LastschriftenListeView (11).png>)
 
 ## Dialog bei Aufruf über Abrechnungsläufe oder Lastschriften
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](broken-reference)
+![](<../../../.gitbook/assets/PrenotificationDruckMailView1 (3).png>)
 
 Der View besitzt folgende Buttons:
 
@@ -64,7 +64,7 @@ Der View besitzt folgende Buttons:
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
-Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../../4.0/administration/mitglieder/formulare.md) dafür angelegt werden.
+Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../administration/mitglieder/formulare.md) dafür angelegt werden.
 
 Im Block Parameter bei Ausgabe muss PDF (Alle) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
 
@@ -125,7 +125,7 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/Prenotification1ctErstellung (4).png>)
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart (Datei oder Hibiscus) und das Ausführungsdatum eingestellt werden.
 

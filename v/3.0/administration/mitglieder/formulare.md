@@ -6,7 +6,7 @@ In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbeschein
 
 ## Liste der Formulare
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formulare (2).png>)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formular (3).png>)
 
 ## Formular Attribute
 
@@ -89,7 +89,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formularfeld (2).png>)
 
 ### Name
 
@@ -143,14 +143,14 @@ Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter
 
 Einfache Standardrechnung:
 
-{% file src="broken-reference" %}
+{% file src="../../../../.gitbook/assets/rechnung-standard (1).xml" %}
 Einfache Standardrechnung
 {% endfile %}
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/rechnung-standard (1).png>)
 
 ## Beispiele
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formularroh (3).jpg>)
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formularausgefuellt (3).jpg>)

@@ -16,4 +16,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Abrechnungsläufe
 * Mails
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Bereinigung (4).png>)

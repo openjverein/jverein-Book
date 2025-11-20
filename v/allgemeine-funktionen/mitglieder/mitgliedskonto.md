@@ -51,11 +51,11 @@ Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
 Unter Buchführung>[Buchungen](../buchf/buchungen.md) ist eine Buchung auszuwählen und doppelt anzuklicken:
 
-![](broken-reference)
+![](<../../../.gitbook/assets/BuchungView (2).png>)
 
 Durch einen Klick auf ... neben Sollbuchung erscheint folgender Dialog:
 
-![](broken-reference)
+![](<../../../.gitbook/assets/SollbuchungZuordnungIst (2) (1).png>)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
@@ -72,7 +72,7 @@ Die erste Karte dient der Zuordnung einer Istbuchung auf eine vorhandene Sollbuc
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine (neue) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/SollbuchungZuordnungSollIst (2) (1).png>)
 
 Hier kann nur nach dem Namen gefiltert werden.
 

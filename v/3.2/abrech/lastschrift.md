@@ -6,11 +6,11 @@ Entsprechend der Abbuchungsausgabe wurden diese entweder an Hibiscus übergeben 
 
 ## Liste der Lastschriften
 
-![](broken-reference)
+![](<../../../.gitbook/assets/LastschriftenListeView (10).png>)
 
 Die Lastschriften lassen sich in dem View nach verschiedenen Kriterien filtern. Mit dem Filter Mitgliedschaft lässt sich nach Mitglieder, Nicht-Mitglieder oder Kursteilnehmer filtern.
 
-Die Lastschrifteinträge werden für die Generierung der Pre-Notificationen verwendet. Siehe [Pre-Notification](../../3.1/druckmail/pre-notification.md).
+Die Lastschrifteinträge werden für die Generierung der Pre-Notificationen verwendet. Siehe [Pre-Notification](../druckmail/pre-notification.md).
 
 Mit einem Rechtsklick auf einen oder mehrere selektierte Tabelleneinträge öffnet sich ein Menü mit folgenden Einträgen:
 
@@ -29,4 +29,4 @@ Auch sollten Lastschriften der letzten 3 Jahre nicht gelöscht werden, da für d
 
 ## Lastschrift
 
-![](broken-reference)
+![](<../../../.gitbook/assets/LastschriftView (5).png>)

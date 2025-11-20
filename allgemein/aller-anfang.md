@@ -75,7 +75,7 @@ Die vorzunehmenden Einstellungen sind selbsterklärend. Man sollte jeden Reiter 
 Folgende Einstellungen müssen noch vorgenommen werden, um JVerein produktiv zu machen:
 
 * [Konten](../v/allgemeine-funktionen/buchf/konten.md) aus Hibiscus "importieren" / übernehmen
-* [Buchungsklasse](../v/3.0/administration/admbuchf/buchungsklasse.md) - hier mindestens den "Ideellen Bereich" einrichten
+* [Buchungsklasse](../v/allgemeine-funktionen/administration/admbuchf/buchungsklasse.md) - hier mindestens den "Ideellen Bereich" einrichten
 * [Buchungsart](../v/allgemeine-funktionen/administration/admbuchf/buchungsart.md) - hier mindestens "Mitgliedsbeitrag" einrichten
 * [Beitragsgruppen](../v/allgemeine-funktionen/administration/mitglieder/beitragsgruppen.md) - hier mindesten eine Beitragsgruppe einrichten
 

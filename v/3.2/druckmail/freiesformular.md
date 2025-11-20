@@ -2,11 +2,11 @@
 
 Um freie Formulare zu drucken oder per Mail zu verschicken wählen Sie im Navigations Baum dem Menü Eintrag "Freie Formulare" aus. Es öffnet sich folgender Dialog.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/FreieFormulareDruckMailView (4).png>)
 
 Im Filter Bereich lässt sich einstellen für welche Mitglieder bzw. Nicht-Mitglieder freie Formulare gedruckt oder verschickt werden sollen.
 
-Im Parameter Feld "Formular" ist ein freies Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../../4.0/administration/mitglieder/formulare.md).
+Im Parameter Feld "Formular" ist ein freies Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob das Formular als PDF gedruckt oder per Mail verschickt werden soll.
 

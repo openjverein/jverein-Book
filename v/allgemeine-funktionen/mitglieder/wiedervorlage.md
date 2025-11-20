@@ -41,6 +41,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](broken-reference)
+![](<../../../.gitbook/assets/WiedervorlageView (3).png>)
 
 Die Wiedervorlage Termine werden auch im Jameica-Kalender angezeigt.

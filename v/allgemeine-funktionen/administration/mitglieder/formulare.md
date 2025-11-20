@@ -25,7 +25,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formular (4).png>)
 
 ## Formular Attribute
 
@@ -86,7 +86,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formularfeld (4).png>)
 
 ### Name
 
@@ -209,9 +209,9 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
 ## Beispiele
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formularroh (4).jpg>)
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Formularausgefuellt (4).jpg>)
 
 ## Freie Formulare
 

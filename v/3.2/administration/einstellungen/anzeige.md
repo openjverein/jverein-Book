@@ -1,6 +1,6 @@
 # Anzeige
 
-![](<../../../../.gitbook/assets/Anzeige (4).png>)
+![](<../../../../.gitbook/assets/Anzeige (3).png>)
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 
@@ -12,15 +12,15 @@ Folgende Einstellungen können vorgenommen werden:
 
 Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mitgliedern verfügbar sind:
 
-* Arbeitseinsatz: Unterstützung von Arbeitsstunden (siehe [Arbeitseinsätze](../../../3.1/mitglieder/arbeitseinsatz.md))
+* Arbeitseinsatz: Unterstützung von Arbeitsstunden (siehe [Arbeitseinsätze](../../mitglieder/arbeitseinsatz.md))
 * Familienbeitrag: Unterstützung von Familienbeitrag (siehe [Familienbeitrag](../../mitglieder/familienbeitrag.md))
-* Kursteilnehmer: Unterstützung von Kursteilnehmern (siehe [Kursteilnehmer](../../../3.1/mitglieder/kursteilnehmer.md))
-* Lehrgänge: Unterstützung von Lehrgängen (siehe [Lehrgänge](../../../3.1/mitglieder/lehrgange.md))
+* Kursteilnehmer: Unterstützung von Kursteilnehmern (siehe [Kursteilnehmer](../../mitglieder/kursteilnehmer.md))
+* Lehrgänge: Unterstützung von Lehrgängen (siehe [Lehrgänge](../../mitglieder/lehrgange.md))
 * Lesefelder: Unterstützung von Lesefeldern (siehe [Lesefelder](../mitglieder/lesefelder.md))
 * Nicht-Mitglieder: Unterstützung von Nicht-Mitgliedern (siehe [Nicht-Mitglieder](../../mitglieder/nichtmitglieder.md))
-* Rechnungen/Mahnungen: Unterstützung von Rechnungen und Mahnungen (siehe [Rechnung](../../../3.1/mitglieder/rechnung.md))
+* Rechnungen/Mahnungen: Unterstützung von Rechnungen und Mahnungen (siehe [Rechnung](../../mitglieder/rechnung.md))
 * Spendenbescheinigungen: Unterstützung von Spendenbescheinigungen (siehe [Spendenbescheinigung](../../mitglieder/spendenbescheinigung.md))
-* Wiedervorlage: Unterstützung von Wiedervorlage (siehe [Wiedervorlage](../../../3.1/mitglieder/wiedervorlage.md))
+* Wiedervorlage: Unterstützung von Wiedervorlage (siehe [Wiedervorlage](../../mitglieder/wiedervorlage.md))
 * Zusatzbeträge: Unterstützung von Zusatzbeträgen (siehe [Zusatzbeträge](../../mitglieder/zusatzbetrage.md))
 * Zusatzfelder: Unterstützung von Zusatzfeldern (siehe [Zusatzfelder](../mitglieder/felddefinition.md))
 
@@ -29,7 +29,7 @@ Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mit
 Hier können Feature aktiviert werden, die dann im Navigationsbaum unter Buchführung verfügbar sind:
 
 * Projekte: Unterstützung von Projekten (siehe [Projekte](../admbuchf/projekte.md))
-* Mittelverwendung: Unterstützung der Mittelverwendungsrechnung (siehe [Mittelverwendung](../../../3.1/buchf/mittelverwendung.md))
+* Mittelverwendung: Unterstützung der Mittelverwendungsrechnung (siehe [Mittelverwendung](../../buchf/mittelverwendung.md))
 * Wirtschaftsplanung: Unterstützung der Wirtschaftsplanung (siehe [Wirtschaftsplanung](../../buchf/wirtschaftsplanung.md))
 * Anlagenkonten: Unterstützung von Anlagenkonten (siehe [Konten](../../buchf/konten.md))
 * Rücklagenkonten: Unterstützung von Rücklagenkonten (siehe [Konten](../../buchf/konten.md))

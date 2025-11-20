@@ -4,11 +4,11 @@ Zur Nutzung der Lehrgänge ist die Option in den Einstellungen->Administration->
 
 Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lehrgänge" zur Verfügung steht.
 
-Zur Nutzung sind die [Lehrgangsarten](../../../allgemeine-funktionen/administration/mitglieder/lehrgange.md) in der Administration>Lehrgangsarten einzurichten.
+Zur Nutzung sind die [Lehrgangsarten](../../administration/mitglieder/lehrgange.md) in der Administration>Lehrgangsarten einzurichten.
 
 ## Lehrgänge Liste beim Mitglied
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/LehrgaengeTab (5).png>)
 
 Mit dem Button Neuer Lehrgang kann ein neuer Lehrgang eingerichtet werden.
 
@@ -23,6 +23,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Durch Auswahl des Buttons "Neuer Lehrgang" kann ein neuer Lehrgang für das Mitglied angelegt werden.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/LehrgangView (5).png>)
 
-Weitere Informationen dazu: [Lehrgänge](../../../3.1/mitglieder/lehrgange.md)
+Weitere Informationen dazu: [Lehrgänge](../lehrgange.md)

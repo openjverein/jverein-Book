@@ -4,7 +4,7 @@
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/SpendenbescheinigungenListeView (1) (1).png>)
 
 JVerein wird also eine gedruckte Unterschrift nur bei reinen Geldspenden generieren falls gedruckte Unterschrift aktiviert ist.
 
@@ -20,7 +20,7 @@ In der Liste können ein oder mehrere Einträge markiert werden. Über ein Konte
 
 Über den Menüpunkt "Druck und Mail" öffnet sich der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/SpendenbescheinigungenDruckMailView1 (1).png>)
 
 Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spendenbescheinigungen ausgegeben.
 

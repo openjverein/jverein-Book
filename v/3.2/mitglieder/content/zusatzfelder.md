@@ -1,5 +1,5 @@
 # Zusatzfelder
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/ZusatzfelderTab (7).png>)
 
-Durch [Zusatzfelder](../../../3.1/administration/mitglieder/felddefinition.md) können zusätzliche Datenfelder erfasst werden.
+Durch [Zusatzfelder](../../administration/mitglieder/felddefinition.md) können zusätzliche Datenfelder erfasst werden.

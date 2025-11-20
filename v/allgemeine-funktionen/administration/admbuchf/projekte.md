@@ -25,7 +25,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Projekt
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/ProjektView (4).png>)
 
 ## Auswertung
 

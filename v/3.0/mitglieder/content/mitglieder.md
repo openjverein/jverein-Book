@@ -20,15 +20,15 @@ Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelö
 
 Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](../../../3.1/mitglieder/content/suchprofil.md) gespeichert werden.
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
 
 Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
 ## Liste der Mitglieder
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/MitgliedListeView (1).png>)
 
-Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](../../../3.1/mitglieder/content/grunddaten.md)
+Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
 Mit dem Button "Import" lassen sich ein neue Mitglieder aus CSV Dateien importieren. Siehe [Mitglieder Import](../import.md)
 
@@ -54,23 +54,23 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/EigenschaftenFilterDialog (2).png>)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/ZusatzfelderFilterDialog (1).png>)
 
 ## Kontextmenu
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/MitgliedMenu (1).png>)
 
 ### Bearbeiten
 
 Mitglied bearbeiten. Identisch mit Doppelklick auf das Mitglied.
 
-Siehe [Mitglied](../../../3.1/mitglieder/content/grunddaten.md).
+Siehe [Mitglied](grunddaten.md).
 
 ### Duplizieren
 
@@ -92,19 +92,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/EigenschaftenAuswahlDialog (2).png>)
 
 ### Arbeitseinsätze zuweisen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/ArbeitseinsatzDialog (2).png>)
 
 ### Zusatzbeträge zuweisen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/ZusatzbetragDialog (1).png>)
 
 ### Zu Nicht-Mitglied umwandeln
 

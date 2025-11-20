@@ -1,6 +1,6 @@
 # Buchführung
 
-![](broken-reference)
+![](<../../../../.gitbook/assets/Buchfuehrung (1).png>)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 

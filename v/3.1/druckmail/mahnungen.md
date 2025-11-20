@@ -20,7 +20,7 @@ Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wähle
 
 Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](<../../../.gitbook/assets/MahnungenDruckMailView1 (1).png>)
+![](<../../../.gitbook/assets/MahnungenDruckMailView1 (2).png>)
 
 Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
 

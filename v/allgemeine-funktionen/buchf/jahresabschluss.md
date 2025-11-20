@@ -18,7 +18,7 @@ Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erf
 
 Durch eine Klick auf Neu kann ein neuer Jahresabschluss vorgenommen werden:
 
-![](broken-reference)
+![](<../../../.gitbook/assets/JahresabschlussView (1).png>)
 
 Der Jahresabschluss zeigt den Zeitraum des Jahresabschlusses an. Es ist das Geschäftsjahr nach dem letzten Abschluss.
 

@@ -55,11 +55,11 @@ In der Tabelle werden folgende Spalten angezeigt:
 * Zahlungsweg: Zahlungsweg für die Buchung
 * Buchungsart: Buchungsart
 
-![](broken-reference)
+![](<../../../.gitbook/assets/ZusatzBetraegeListeView (3).png>)
 
 Folgende Buttons stehen zu Verfügung:
 
-* Vorlagen: Zeigt die Liste der verfügbaren Vorlagen an. Siehe [Zusatzbeträge Vorlagen](../../3.2/mitglieder/zusatzbetragevorlage.md)
+* Vorlagen: Zeigt die Liste der verfügbaren Vorlagen an. Siehe [Zusatzbeträge Vorlagen](zusatzbetragevorlage.md)
 * Importieren: Damit können Zusatzbeträge aus einer Datei importiert werden. Siehe [Zusatzbeträge Importieren](zusatzbetrage-importieren.md)
 * PDF: Liste der Zusatzbeträge als PDF exportieren
 * Neu: Damit kann ein neuer Zusatzbetrag eingerichtet werden.

@@ -10,11 +10,11 @@ Unter Abministration->Einstellungen->Abrechnung "Verechnungskonto für Lastschri
 
 Vor einer Abrechnung sollte die SEPA-Fehlerliste überprüft werden. In der Liste werden Mitglieder mit fehlenden oder ungültigen Bankverbindungen sowie Mandate angezeigt, die seit mehr als 36 Monaten nicht mehr genutzt wurden.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/SepaFehlerView (2).png>)
 
 ## Abrechnung
 
-Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](../../3.1/abrech/abrechnungslauf.md) initiiert. Es können
+Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](abrechnungslauf.md) initiiert. Es können
 
 * Mitgliedsbeiträge je nach Beitragsmodell
 * Beiträge für im laufenden Jahr eingetretene Mitglieder
@@ -24,7 +24,7 @@ Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](../../
 
 verarbeitet werden.
 
-![](../../../.gitbook/assets/AbrechnungView.png)
+![](<../../../.gitbook/assets/AbrechnungView (1).png>)
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhythmus eingezogen.
 
@@ -44,7 +44,7 @@ Es werden keine Beiträge abgerechnet. Dieser Parameter ist zu setzen, wenn auss
 
 **Alle**
 
-Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../../../allgemein/beitragsmodelle.md) abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [Beitragsgruppen](../../3.2/administration/mitglieder/beitragsgruppen.md) und Zahlungsrhythmus sowie ggf. individuelle Beiträge berücksichtigt.
+Es werden alle Mitglieder entsprechend des eingestellten [Beitragsmodelle](../../../allgemein/beitragsmodelle.md) abgerechnet. Es werden alle Mitglieder abgerechnet, die zum Stichtag bereits eingetreten sind und die zum Stichtag noch nicht ausgetreten sind. Dabei werden [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und Zahlungsrhythmus sowie ggf. individuelle Beiträge berücksichtigt.
 
 **Eingetretene Mitglieder**
 
@@ -70,7 +70,7 @@ Stichtag für die Berechnung der Mitgliedschaft und der Fälligkeit von Zusatzbe
 
 #### Zahlungsgrund für Beiträge
 
-Hier kann ein Text erfasst werden (z.B. ''Jahresbeitrag 2015''). Dieser Text wird bei Lastschriften im Verwendungszweck (hier zwischen der Bezeichnung der [Beitragsgruppen](../../3.2/administration/mitglieder/beitragsgruppen.md) und dem Betrag) ausgegeben.
+Hier kann ein Text erfasst werden (z.B. ''Jahresbeitrag 2015''). Dieser Text wird bei Lastschriften im Verwendungszweck (hier zwischen der Bezeichnung der [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) und dem Betrag) ausgegeben.
 
 Der Text sollte aussagekräftig und knapp gewählt werden da er sonst evtl. abgeschnitten wird (Länge des Verwendungszwecks bei Lastschriften max. 140 Zeichen für alles, einschließlich ggf. [Zusatzbeträge](../mitglieder/zusatzbetrage.md)).
 
@@ -134,6 +134,6 @@ Das Rechnungsdatum.
 
 ### Weitere Informationen
 
-Verwandte Themen: [Abrechnungslauf](../../3.1/abrech/abrechnungslauf.md), [Pre-Notification](../druckmail/pre-notification.md), [Rücklastschrift](rucklastschrift.md), [Rechnungen](../druckmail/rechnungen.md), [Mahnungen](../druckmail/mahnungen.md), [Sollbuchungen](../mitglieder/mitgliedskonto.md)
+Verwandte Themen: [Abrechnungslauf](abrechnungslauf.md), [Pre-Notification](../druckmail/pre-notification.md), [Rücklastschrift](rucklastschrift.md), [Rechnungen](../druckmail/rechnungen.md), [Mahnungen](../druckmail/mahnungen.md), [Sollbuchungen](../mitglieder/mitgliedskonto.md)
 
 [https://de.wikipedia.org/wiki/Bankarbeitstag](https://de.wikipedia.org/wiki/Bankarbeitstag)

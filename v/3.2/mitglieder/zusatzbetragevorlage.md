@@ -8,18 +8,18 @@ Zusatzbetrag Vorlagen lassen sich beim Erstellen eines neuen Zusatzbetrages ausw
 
 Die Zusatzbeträge können erstellt werden
 
-* über den Zusatzbetrag zuordnen Dialog aus dem Mitglied Menü (siehe [Mitglied Zusatzbetrag zuordnen](../../3.1/mitglieder/content/mitglieder.md))
-* beim Anlegen eines Zusatzbetrags beim Mitglied (siehe [Zusatzbeträge](../../3.1/mitglieder/content/zusatzbeitraege.md))
-* beim Speichern eines Zusatzbetrags (siehe [Zusatzbeträge](../../3.1/mitglieder/zusatzbetrage.md))
+* über den Zusatzbetrag zuordnen Dialog aus dem Mitglied Menü (siehe [Mitglied Zusatzbetrag zuordnen](content/mitglieder.md))
+* beim Anlegen eines Zusatzbetrags beim Mitglied (siehe [Zusatzbeträge](content/zusatzbeitraege.md))
+* beim Speichern eines Zusatzbetrags (siehe [Zusatzbeträge](zusatzbetrage.md))
 * in der Liste der Zusatzbeträge Vorlagen über den "Neu" Button
 
 ## Liste der Zusatzbeträge Vorlagen
 
 Der Übersicht View für Zusatzbeträge Vorlagen zeigt alle vorhandenen Zusatzbeträge an.
 
-Die Übersicht lässt sich über den Button Vorlagen in der Zusatzbeträge Liste aufrufen (siehe [Zusatzbeträge](../../3.1/mitglieder/zusatzbetrage.md)) .
+Die Übersicht lässt sich über den Button Vorlagen in der Zusatzbeträge Liste aufrufen (siehe [Zusatzbeträge](zusatzbetrage.md)) .
 
-![](broken-reference)
+![](../../../.gitbook/assets/ZusatzBetraegeVorlageListeView.png)
 
 In der Tabelle werden folgende Spalten angezeigt:
 
@@ -43,4 +43,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](broken-reference)
+![](../../../.gitbook/assets/ZusatzBetragVorlageView.png)

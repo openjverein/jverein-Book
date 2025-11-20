@@ -49,7 +49,7 @@ Ist in Administration->Einstellungen->Buchführung die Checkbox "Listen: Buchung
 
 Die Zeilen in der Mittelverwendung sind nummeriert damit man bei einem evtl. Begleitschreiben an das Finanzamt auf die Zeilen Bezug nehmen kann.
 
-![](broken-reference)
+![](../../../.gitbook/assets/MittelverwendungFlowReportView.png)
 
 Der Report kann über die Buttons CSV und PDF ausgegeben werden.
 
@@ -59,7 +59,7 @@ Da JVerein 3.0.0 neu mit dem Feature beginnt muss der Startwert dieser Daten ein
 
 Über den Button "Startwerte setzen" öffnet sich der Dialog zur Eingabe der Startwerte für das angezeigte Geschäftsjahr.
 
-![](broken-reference)
+![](<../../../.gitbook/assets/MittelverwendungDialog (1).png>)
 
 In diesen Dialog sind folgende Daten einzugeben:
 
@@ -85,7 +85,7 @@ Dann erfolgt die Verrechnung der Zu- und Abgänge bei Rücklagen und Vermögen. 
 
 Nach Abzug der verwendeten Mittel vom Gesamtvermögen ergibt sich der neue Verwendungsrückstand/-überhang.
 
-![](broken-reference)
+![](../../../.gitbook/assets/MittelverwendungSaldoReportView.png)
 
 Ist in Administration->Einstellungen->Buchführung die Checkbox "Listen: Buchungsarten ohne Buchung unterdrücken" ausgewählt werden Rücklagenarten ohne Saldo im Report nicht angezeigt.
 

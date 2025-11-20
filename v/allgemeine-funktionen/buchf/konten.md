@@ -124,7 +124,7 @@ Folgende Schritte sollten ausgeführt werden:
 * Über das Menü der Buchung wird "Neues Anlagenkonto" ausgewählt. Dieses erzeugt ein neues Anlagenkonto, einen Anfangsbestand Eintrag für das Konto (0€) und die entsprechende Gegenbuchung im Anlagenkonto
 * Es wird der Neues Anlagenkonto Dialog angezeigt. Buchungsklasse und Buchungsart wird mit den Daten der Buchung initialisiert
 
-![](broken-reference)
+![](<../../../.gitbook/assets/NeuesAnlagenkontoDialog (3).png>)
 
 * Jetzt Nummer, Bezeichnung, Buchungsklasse, Buchungsart und AfA Buchungsart auswählen
 * Als Nutzungsdauer den Wert 0 eintragen für sofortige Abschreibung
@@ -195,7 +195,7 @@ In diesem Fall bietet sich folgendes Vorgehen an:
 
 * Erstellen eines Anlagenkontos über den Neu Button in der Konto Liste
 * Die Kontodaten mit den Daten der Anlage ausfüllen. Also hier mit dem echten Datum der Anschaffung und dem echten damaligen Anlagenwert allerdings als Konto Eröffnungsdatum den ersten Tag des Geschäftsjahres
-* Unter [Anfangsbestände](../../3.0/buchf/anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
+* Unter [Anfangsbestände](anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
 * Bei der automatischen Berechnung der AfA Beträge wird dann mit diesem Anfangsbestand gerechnet. Im regulären Verfahren wie oben beschrieben muss der Anfangsbestand 0€ sein. Dieser wird dort automatisch erzeugt
 
 ## Workflow für die Buchung der AfA
