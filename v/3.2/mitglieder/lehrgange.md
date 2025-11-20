@@ -25,7 +25,7 @@ Der Übersicht View für Lehrgänge zeigt alle vorhandenen Lehrgänge an.
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](<../../../.gitbook/assets/LehrgaengeListeView (4).png>)
+![](img/LehrgaengeListeView.png)
 
 Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
 
@@ -41,4 +41,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](<../../../.gitbook/assets/LehrgangView (5).png>)
+![](img/LehrgangView.png)

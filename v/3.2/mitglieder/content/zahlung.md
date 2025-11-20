@@ -1,6 +1,6 @@
 # Zahlung
 
-![](<../../../../.gitbook/assets/ZahlungTab (5).png>)
+![](img/ZahlungTab.png)
 
 Als Zahlungswege stehen
 

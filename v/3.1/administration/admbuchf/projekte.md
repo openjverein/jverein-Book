@@ -18,7 +18,7 @@ Unter Administration->Buchführung->Projekte werden die Projekte angelegt bzw. b
 
 ## Liste der Projekte
 
-![](<../../../../.gitbook/assets/ProjekteListeView (3).png>)
+![](img/ProjekteListeView.png)
 
 Mit neu kann ein neues Projekt eingerichtet werden.
 
@@ -31,7 +31,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Projekt
 
-![](<../../../../.gitbook/assets/ProjektView (1) (1).png>)
+![](<img/ProjektView (1).png>)
 
 ## Auswertung
 

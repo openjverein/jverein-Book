@@ -4,7 +4,7 @@
 
 Der Kontoauszug ist eine Liste (PDF-Ausgabe) sämtlicher Buchungen auf einem Mitgliedskonto.
 
-![](<../../../.gitbook/assets/Kontoauszug (2).jpg>)
+![](img/Kontoauszug.jpg)
 
 Einen Kontoauszug kann in der Anzeige des Mitglieds (bzw. Nicht-Mitglied) abgerufen werden und auf einen Zeitraum eingegrenzt werden.
 
@@ -22,7 +22,7 @@ Alternativ kann in der Detailansicht eines Mitglieds über den Button "Kontoausz
 
 Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](<../../../.gitbook/assets/KontoauszuegeDruckMailView1 (2).png>)
+![](img/KontoauszuegeDruckMailView1.png)
 
 Der Filter Bereich bietet folgende Optionen:
 
@@ -54,7 +54,7 @@ Ist kein Mitgliedstyp ausgewählt werden die Kontoauszüge sowohl für alle Mitg
 
 Da der Filter hier eine Untermenge des Filters im Mitglied bzw. Nicht-Mitglied Dialog ist, hat man hier weniger Filter Möglichkeiten. Werden weitere Filter Optionen gebraucht muss über den selektiven Weg gegangen werden.
 
-![](<../../../.gitbook/assets/KontoauszuegeDruckMailView2 (2).png>)
+![](img/KontoauszuegeDruckMailView2.png)
 
 Der View besitzt folgende Buttons:
 

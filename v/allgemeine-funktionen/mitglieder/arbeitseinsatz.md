@@ -16,7 +16,7 @@ In den betroffenen [Beitragsgruppen](../administration/mitglieder/beitragsgruppe
 
 Die Arbeitseinsätze können erstellt werden
 
-* in den Mitglied Details (siehe [Arbeitseinsatz](content/arbeitseinsatz.md))
+* in den Mitglied Details (siehe [Arbeitseinsatz](../mitglieder/content/arbeitseinsatz.md))
 * über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md))
 * aber auch in der Liste der Arbeitseinsätze
 
@@ -26,7 +26,7 @@ Der Übersicht View für Arbeitseinsätze zeigt alle vorhandenen Arbeitseinsätz
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../../.gitbook/assets/ArbeitseinsaetzeListeView.png)
+![](img/ArbeitseinsaetzeListeView.png)
 
 Mit dem Button Neu kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -44,7 +44,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](<../../../.gitbook/assets/ArbeitseinsatzView (3).png>)
+![](img/ArbeitseinsatzView.png)
 
 Im Feld Mitglied lässt sich das Mitglied auswählen.
 

@@ -16,7 +16,7 @@ Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der A
 
 Mit einem Rechtsklick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-![](<../../../.gitbook/assets/AbrechnungslaufListeView (6).png>)
+![](img/AbrechnungslaufListeView.png)
 
 ## Aufruf der Pre-Notification Funktion über Druck & Mail
 
@@ -26,7 +26,7 @@ Mit einem Rechtsklick auf den entsprechenden Eintrag öffnet sich der Dialog, mi
 
 In diesem Fall wählt man den Abrechnungslauf für den die Pre-Notifications erzeugt werden sollen im Dialog aus.
 
-![](<../../../.gitbook/assets/PrenotificationDruckMailView2 (1).png>)
+![](img/PrenotificationDruckMailView2.png)
 
 ## Aufruf der Pre-Notification Funktion über Lastschriften
 
@@ -36,13 +36,13 @@ Mit einem Rechtsklick auf eine oder mehrere Lastschriften öffnet sich ein Konte
 
 Diese Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. Da bei wiederkehrenden Lastschriften eine Pre-Notification nur beim ersten Mal notwendig ist, kann man hier nur die Mitglieder auswählen die neu hinzugekommen sind oder bei denen sich etwas geändert hat.
 
-![](<../../../.gitbook/assets/LastschriftenListeView (8).png>)
+![](img/LastschriftenListeView.png)
 
 ## Dialog bei Aufruf über Abrechnungsläufe oder Lastschriften
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](<../../../.gitbook/assets/PrenotificationDruckMailView1 (1).png>)
+![](img/PrenotificationDruckMailView1.png)
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
@@ -107,7 +107,7 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
 
-![](<../../../.gitbook/assets/Prenotification1ctErstellung (3).png>)
+![](img/Prenotification1ctErstellung.png)
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart (Datei oder Hibiscus) und das Ausführungsdatum eingestellt werden.
 

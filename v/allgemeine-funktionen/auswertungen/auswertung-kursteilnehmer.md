@@ -2,4 +2,4 @@
 
 Die Kursteilnehmer können nach Abbuchungsdatum selektiert werden. Die Ausgabe erfolgt im PDF-Format.
 
-![Auswertung Kursteilnehmer](<../../../.gitbook/assets/KursteilnehmerView (1) (1).png>)
+![Auswertung Kursteilnehmer](<img/KursteilnehmerView (1).png>)

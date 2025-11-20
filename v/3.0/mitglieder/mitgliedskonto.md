@@ -25,7 +25,7 @@ Es gibt eine zentrale Übersicht über alle Sollbuchungen. Die Sollbuchungen kö
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat.
 
-![](<../../../.gitbook/assets/SollbuchungenListeView (1).png>)
+![](img/SollbuchungenListeView.png)
 
 Durch einen Doppelklick auf die Sollbuchung wird die Sollbuchung angezeigt.
 
@@ -46,7 +46,7 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](<../../../.gitbook/assets/SollbuchungView (1).png>)
+![](img/SollbuchungView.png)
 
 Durch einen Doppelklick auf eine Sollbuchungsposition wird die Sollbuchungsposition angezeigt.
 
@@ -71,4 +71,4 @@ Mit Version 3.0.0 wurde auch das Feld Zahler eingeführt. Hier kann ein vom Mitg
 
 In diesem Dialog lassen sich die Felder der Sollbuchungsposition editieren.:
 
-![](<../../../.gitbook/assets/SollbuchungpositionView (1).png>)
+![](img/SollbuchungpositionView.png)
