@@ -2,7 +2,7 @@
 
 Allgemeine Einstellungen
 
-![](<../../../../.gitbook/assets/Allgemein (4).png>)
+![](broken-reference)
 
 ### Vereinsdaten
 
@@ -18,6 +18,6 @@ Hier lassen sich Konfigurationen für Pflichtfelder bei der Eingabe von Mitglied
 
 ### Pflicht Eigenschaften
 
-Unter [Eigenschaftengruppe](../mitglieder/eigenschaften-gruppen.md) lässt sich einstellen ob in einer Gruppe Eigenschaften Pflicht sind.
+Unter [Eigenschaftengruppe](../../../allgemeine-funktionen/administration/mitglieder/eigenschaften-gruppen.md) lässt sich einstellen ob in einer Gruppe Eigenschaften Pflicht sind.
 
 Hier lässt sich einstellen, ob diese Pflicht auch für Nicht-Mitglieder oder juristische Personen gilt.

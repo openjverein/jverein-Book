@@ -14,7 +14,7 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Liste der Lesefelder
 
-![](<../../../../.gitbook/assets/Lesefelder (4).png>)
+![](broken-reference)
 
 Mit Neu kann ein neues Lesefeld eingerichtet werden.
 

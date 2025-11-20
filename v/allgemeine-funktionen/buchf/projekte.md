@@ -8,7 +8,7 @@ Unter Administration->Buchführung->Projekte werden die Projekte angelegt bzw. b
 
 In Anlehnung an die Funktion Buchungsklassensaldo liefert die Funktion Projekt-Saldo, die über Buchführung->Projekte aufgerufen wird, die Einnahmen und Ausgaben aller Projekte gruppiert nach Buchungsarten. Auch die Salden aller Einnahmen und Ausgaben je Projekt sowie der jeweilige Projektgewinn werden ermittelt.
 
-![](<../../../.gitbook/assets/ProjektSaldoView (3).png>)
+![](broken-reference)
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 

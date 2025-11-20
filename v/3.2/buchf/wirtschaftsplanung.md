@@ -12,7 +12,7 @@ Um die Wirtschaftsplanung zu verwenden, aktivieren Sie die entsprechende Option 
 
 ## Liste der Wirtschaftspläne
 
-![](../../../.gitbook/assets/planung_list.png)
+![](broken-reference)
 
 In dieser Übersicht werden alle bestehenden Wirtschaftspläne sowie die folgenden Kenndaten angezeigt:
 
@@ -41,7 +41,7 @@ In der Wirtschaftsplan Detailansicht kann die Zusammensetzung der einzelnen Plan
 
 ## Baumansicht der Planungsdaten
 
-![](../../../.gitbook/assets/planung_tree.png)
+![](broken-reference)
 
 Die Planungsdaten werden in einer Baumansicht angezeigt. Zur besseren Übersicht sind sie in Einnahmen und Ausgaben unterteilt. Die Zuordnung erfolgt gemäß der Definition der Buchungsarten. Da sich Umbuchungen gegenseitig aufheben, können sie nicht in die Planung aufgenommen werden. Die Baumansicht besteht aus drei Ebenen, die der Buchführungsstruktur von OpenJVerein entsprechen.
 

@@ -1,5 +1,5 @@
 # Verzeichnisse
 
-![](../../../../.gitbook/assets/Verzeichnisse.png)
+![](broken-reference)
 
 Es kann das Verzeichnis für CSV-Vorlagen gesetzt werden.

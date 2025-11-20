@@ -4,7 +4,7 @@
 
 Bei Auswahl des Konten Eintrags im Navigationsbaum werden alle Konten angezeigt.
 
-![](<../../../.gitbook/assets/KontenListeView (4).png>)
+![](broken-reference)
 
 Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 
@@ -58,9 +58,9 @@ Geldkonten können echte Bankkonten, Sparkonten oder offline Konten wie z.B. Bar
 
 Fremdkapital sind Darlehen, Kredite etc.
 
-Eine Unterscheidung von Geldkonten und Fremdkapital ist nur nötig wenn das Feature [Mittelverwendung](mittelverwendung.md) benutzt werden soll.
+Eine Unterscheidung von Geldkonten und Fremdkapital ist nur nötig wenn das Feature [Mittelverwendung](../../3.1/buchf/mittelverwendung.md) benutzt werden soll.
 
-![](<../../../.gitbook/assets/GeldkontoView (4).png>)
+![](broken-reference)
 
 Im Konto View können die Daten der Kontos editiert werden.
 
@@ -80,7 +80,7 @@ Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
 
 ## Rücklagenkonten
 
-Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen, siehe [Mittelverwendung](mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
+Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen, siehe [Mittelverwendung](../../3.1/buchf/mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
 
 Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
 
@@ -102,9 +102,9 @@ Rücklagen Zuführungen werden als normale Einnahme auf ein Rücklagenkonto gebu
 
 Buchungen auf Rücklagenkonten werden nicht im Buchungsklassensaldo berücksichtigt. Die Gelder sind ja bereits in Geldkonten vorhanden. Sie werden auch nicht im Kontensaldo berücksichtigt. Sie werden im Kontensaldo View separat aufgelistet.
 
-![](<../../../.gitbook/assets/KontenSaldoView (4).png>)
+![](broken-reference)
 
-Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden aber bei der [Mittelverwendung](mittelverwendung.md) berücksichtigt.
+Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden aber bei der [Mittelverwendung](../../3.1/buchf/mittelverwendung.md) berücksichtigt.
 
 ## Anlagenkonten
 
@@ -117,7 +117,7 @@ Hierbei wird nach folgenden Anlagen unterschieden:
 * Pool Abschreibung: Bewegliche Wirtschaftsgüter mit einem Anschaffungswert von maximal 1000€ (Netto) können in einem Anlagenkonto zusammen gefasst werden. Nur der Pool taucht im Anlagenverzeichnis auf. Ein Pool wird über 5 Jahre abgeschrieben und jedes Jahr wird ein neuer Pool erzeugt. Dies hat den Vorteil des geringeren Dokumentation Aufwandes. Es kann jedes Jahr neu entschieden werden ob die Pool Abschreibung oder eine Einzel Abschreibung verwendet wird
 * Reguläre Abschreibung: Wirtschaftsgüter mit einem Anschaffungswert über 800/1000€ (Netto) werden regulär abgeschrieben
 
-![](<../../../.gitbook/assets/AnlagenkontoView (4).png>)
+![](broken-reference)
 
 Im Konto View können die Daten der Anlagenkontos editiert werden.
 
@@ -142,7 +142,7 @@ Folgende Anlagen spezifische Daten können eingegeben werden:
 * Nutzungsdauer: Dauer der AfA. Wert Wert ist 0 bei sofortiger Abschreibung und sonst die Dauer der Abschreibung
 * Anlagen Restwert: Restwert der Anlage der nach der Abschreibungsdauer übrig bleiben soll z.B. wenn die Anlage auch nach der Abschreibung weiter benutzt werden soll. Der Default Wert kann in den Einstellungen gesetzt werden. In JVerein kann auch eine Anlage mit Restwert 0 im Anlagenverzeichnis geführt werden. Ein Anlagenkonto bleibt solange im Anlagenverzeichnis bis es aufgelöst wird
 * AfA Mode: Modus für die Behandlung der Abschreibung (siehe weiter unten)
-* Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](mittelverwendung.md) aktiviert wurde. Hier wird konfiguriert, ob die Anlage nutzungsgebunden ist oder zweckfremd verwendet wird
+* Anlagenzweck: Dieses Attribut wird nur angezeigt wenn [Mittelverwendung](../../3.1/buchf/mittelverwendung.md) aktiviert wurde. Hier wird konfiguriert, ob die Anlage nutzungsgebunden ist oder zweckfremd verwendet wird
 
 ## Einstellungen
 
@@ -177,7 +177,7 @@ Folgende Schritte sollten ausgeführt werden:
 * Über das Menü der Buchung wird "Neues Anlagenkonto" ausgewählt. Dieses erzeugt ein neues Anlagenkonto, einen Anfangsbestand Eintrag für das Konto (0€) und die entsprechende Gegenbuchung im Anlagenkonto. (Bei Umsatzsteuerpflicht wird nur der Nettobetrag als Gegenguchung erstellt, die Steuer ist direkt als Ausgabe abziehbar und wird im Buchungsklassensaldo ausgeweiesen).
 * Es wird der Neues Anlagenkonto Dialog angezeigt. Buchungsklasse und Buchungsart wird mit den Daten der Buchung initialisiert
 
-![](<../../../.gitbook/assets/NeuesAnlagenkontoDialog (5).png>)
+![](broken-reference)
 
 * Jetzt Nummer, Bezeichnung, Buchungsklasse, Buchungsart und AfA Buchungsart auswählen
 * Als Nutzungsdauer den Wert 0 eintragen für sofortige Abschreibung
@@ -248,7 +248,7 @@ In diesem Fall bietet sich folgendes Vorgehen an:
 
 * Erstellen eines Anlagenkontos über den Neu Button in der Konto Liste
 * Die Kontodaten mit den Daten der Anlage ausfüllen. Also hier mit dem echten Datum der Anschaffung und dem echten damaligen Anlagenwert allerdings als Konto Eröffnungsdatum den ersten Tag des Geschäftsjahres
-* Unter [Anfangsbestände](anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
+* Unter [Anfangsbestände](../../allgemeine-funktionen/buchf/anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
 * Bei der automatischen Berechnung der AfA Beträge wird dann mit diesem Anfangsbestand gerechnet. Im regulären Verfahren wie oben beschrieben muss der Anfangsbestand 0€ sein. Dieser wird dort automatisch erzeugt
 
 ## Workflow für die Buchung der AfA

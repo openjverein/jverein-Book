@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Spenden
 
 ### Konfiguration
 
-![](<../../../../.gitbook/assets/Spendenbescheinigungen (4).png>)
+![](broken-reference)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 

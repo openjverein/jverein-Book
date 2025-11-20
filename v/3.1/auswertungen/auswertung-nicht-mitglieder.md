@@ -10,6 +10,6 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Nicht-M
 
 Neben den Mitgliedern können auch Nicht-Mitglieder ausgewertet werden.
 
-Die Funktionalität ist wie bei den [Mitgliedern](auswertung-mitglieder.md) allerdings mit weniger Filter Attributen.
+Die Funktionalität ist wie bei den [Mitgliedern](../../3.0/auswertungen/auswertung-mitglieder.md) allerdings mit weniger Filter Attributen.
 
-![](<../../../.gitbook/assets/NichtMitgliederView (5).png>)
+![](broken-reference)

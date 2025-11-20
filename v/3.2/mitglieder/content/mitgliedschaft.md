@@ -1,10 +1,10 @@
 # Mitgliedschaft
 
-Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](../../administration/mitglieder/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts (z. B. der 31.12. des jeweiligen Jahres) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
+Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](../../../3.1/administration/mitglieder/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts (z. B. der 31.12. des jeweiligen Jahres) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
 
 Standardaussehen des Formulars:
 
-![](<../../../../.gitbook/assets/MitgliedschaftTab (4).png>)
+![](broken-reference)
 
 In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
 
@@ -12,7 +12,7 @@ In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsda
 
 Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration->Einstellungen->Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration->Beitragsgruppen muss für mindestens eine Beitragsgruppe das Häkchen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden.
 
-![](<../../../../.gitbook/assets/SekundaereBeitragsGruppen (4).png>)
+![](broken-reference)
 
 ## Familienverband
 
@@ -20,11 +20,11 @@ Sofern eine Beitragsgruppe ausgewählt wurde, die mit "Familienangehöriger" gek
 
 Die Person (ebenfalls ein Mitglied), die im Familienverband den vollen Beitrag zahlt, kann im Tab "Vollzahlendes Familienmitglied" aus einer Liste ausgewählt werden.
 
-![](<../../../../.gitbook/assets/VollZahler (5).png>)
+![](broken-reference)
 
 Im Tab "Familienverband" werden die Personen angezeigt, die am Familienverband beteiligt sind.
 
-![](<../../../../.gitbook/assets/FamilienVerband (5).png>)
+![](broken-reference)
 
 Sinn und Zweck dieser Familienverknüpfung ist es, die Voraussetzungen für die Familienmitgliedschaft prüfen zu können. Tritt ein Mitglied aus, dass für andere Mitglieder als Vollzahlendes Familienmitglied eingetragen ist, kommt eine entsprechende Fehlermeldung.
 
@@ -34,13 +34,13 @@ Siehe auch: [Familientarife](../../../../allgemein/familientarife.md)
 
 ## Zukünftige Beitragsgruppen
 
-![](<../../../../.gitbook/assets/ZukuenftigeBeitragsGruppen (5).png>)
+![](broken-reference)
 
 Hier kann man Beitragsgruppen eintragen, die für dieses Mitglied ab einem definierten Datum gültig sein soll. Hat man z.B. im ersten Jahr einen vergünstigten Probebeitrag, trägt man diesen oben unter Beitragsgruppe ein. Die Beitragsgruppe für den normalen Beitrag, der gültig werden soll, sobald die Probezeit beendet ist, kann man sofort in dieser Tabelle zukünftige Beitragsgruppen eintragen.
 
 Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgruppe erreicht wurde. Alle zu ändernden Mitglieder werden in einer Liste angezeigt und es können die neuen Beitragsgruppen für ausgewählte Mitglieder oder alle angezeigten übernommen werden. Damit die Daten angezeigt werden, ist einmal die Box "künftige Beitragsgruppen" zu aktivieren:
 
-![](<../../../../.gitbook/assets/Boxactivate (4).png>)
+![](broken-reference)
 
 Hinweis: Die Box ist nur sichtbar, wenn im Menü "Start" ausgewählt wurde.
 

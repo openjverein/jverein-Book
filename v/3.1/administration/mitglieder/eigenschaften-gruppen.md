@@ -4,7 +4,7 @@ Zur Gruppierung der Eigenschaften können Eigenschaften-Gruppen eingerichtet wer
 
 ## Liste der Eigenschaftengruppen
 
-![](<../../../../.gitbook/assets/Eigenschaftengruppen (1) (1).png>)
+![](broken-reference)
 
 Mit Neu kann eine neue Eigenschaftengruppe eingerichtet werden.
 
@@ -17,7 +17,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Eigenschaftengruppe
 
-![](<../../../../.gitbook/assets/Eigenschaftengruppe (1) (1).png>)
+![](broken-reference)
 
 Den Eigenschaften-Gruppen gibt man mit, ob sie Pflichtfelder sind (es muss eine Eigenschaft dazu beim Mitglied angewählt werden) oder Kann-Felder (es kann eine Eigenschaft beim Mitglied angewählt werden).
 

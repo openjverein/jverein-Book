@@ -20,13 +20,13 @@ Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelö
 
 Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../spendenbescheinigung.md) möglich.
 
-Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
+Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](../../../3.0/mitglieder/content/suchprofil.md) gespeichert werden.
 
 Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt werden.
 
 ## Liste der Mitglieder
 
-![](<../../../../.gitbook/assets/MitgliedListeView (3).png>)
+![](broken-reference)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
@@ -54,17 +54,17 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](<../../../../.gitbook/assets/EigenschaftenFilterDialog (3).png>)
+![](broken-reference)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](<../../../../.gitbook/assets/ZusatzfelderFilterDialog (2).png>)
+![](broken-reference)
 
 ## Kontextmenu
 
-![](<../../../../.gitbook/assets/MitgliedMenu (3).png>)
+![](broken-reference)
 
 ### Bearbeiten
 
@@ -92,19 +92,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](<../../../../.gitbook/assets/EigenschaftenAuswahlDialog (3).png>)
+![](broken-reference)
 
 ### Arbeitseinsätze zuweisen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](<../../../../.gitbook/assets/ArbeitseinsatzDialog (3).png>)
+![](broken-reference)
 
 ### Zusatzbeträge zuweisen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](<../../../../.gitbook/assets/ZusatzbetragDialog (3).png>)
+![](broken-reference)
 
 ### Zu Nicht-Mitglied umwandeln
 

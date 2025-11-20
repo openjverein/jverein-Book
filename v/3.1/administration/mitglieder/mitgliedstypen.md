@@ -8,7 +8,7 @@ Neben den Mitgliedern können Nicht-Mitglieder gespeichert werden. Die Nicht-Mit
 
 ## Liste der Mitgliedstypen
 
-![](<../../../../.gitbook/assets/Mitgliedstypen (1) (1).png>)
+![](broken-reference)
 
 Mit Neu kann ein neuer Mitgliedstyp eingerichtet werden.
 
@@ -21,4 +21,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Mitgliedstyp
 
-![](<../../../../.gitbook/assets/Mitgliedstyp (2) (1).png>)
+![](broken-reference)

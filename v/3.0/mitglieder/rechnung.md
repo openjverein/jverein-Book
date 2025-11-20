@@ -31,7 +31,7 @@ Es gibt eine zentrale Übersicht über alle Rechnungen. Die Rechnungen können �
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat. Letzteres ist interessant wenn die Rechnungen per Mail versendet werden sollen.
 
-![](<../../../.gitbook/assets/RechnungenListeView (1).png>)
+![](broken-reference)
 
 Durch einen Doppelklick auf die Rechnung wird die Rechnung angezeigt.
 

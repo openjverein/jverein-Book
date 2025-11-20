@@ -19,7 +19,7 @@ Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung ge
 
 Folgende Buttons sind vorhanden:
 
-* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](buchungsimport.md)
+* Import: Import von Buchungen aus einer CSV Datei. Siehe [Buchungsimport](../../3.0/buchf/buchungsimport.md)
 * CSV: Die über die Suchkriterien ausgewählten Buchungen können mit einem Klick auf CSV als CSV-Datei ausgegeben werden. Dabei werden bei Nutzung des Mitgliedskontos ggfls. auch die Daten des Mitgliedes ausgegeben.
 * PDF Buchungsjournal: Auflistung aller Buchungen nach verschiedenen Sortierungen
 * PDF Einzelbuchungen: Auflistung aller Buchungen nach Buchungsarten
@@ -61,10 +61,10 @@ Folgende Zuordnungsregeln bestehen:
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
-![](<../../../.gitbook/assets/AutomatischeZuordnungBestaetigen (3).png>)
+![](broken-reference)
 
 ## Buchung
 
-![](<../../../.gitbook/assets/BuchungDialog (3).png>)
+![](broken-reference)
 
 Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](splittbuchungen.md)

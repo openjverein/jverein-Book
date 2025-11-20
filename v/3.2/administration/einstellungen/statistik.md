@@ -1,6 +1,6 @@
 # Statistik
 
-![](<../../../../.gitbook/assets/Statistik (4).png>)
+![](broken-reference)
 
 Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel
 

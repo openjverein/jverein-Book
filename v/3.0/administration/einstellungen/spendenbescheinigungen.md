@@ -1,6 +1,6 @@
 # Spendenbescheinigungen
 
-![](<../../../../.gitbook/assets/Spendenbescheinigungen (1).png>)
+![](broken-reference)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 

@@ -44,7 +44,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](<../../../.gitbook/assets/ArbeitseinsatzView (3).png>)
+![](broken-reference)
 
 Im Feld Mitglied lässt sich das Mitglied auswählen.
 

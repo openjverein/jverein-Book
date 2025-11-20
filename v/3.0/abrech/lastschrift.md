@@ -2,15 +2,15 @@
 
 Lastschriften werden bei einem Abrechnungslauf für Mitglieder oder Nicht-Mitglieder generiert bei denen als Zahlungsweg "Basislastschrift" ausgewählt ist und auch für Kursteilnehmer.
 
-Entsprechend der Abbuchungsausgabe wurden diese entweder an Hibiscus übergeben oder in einer XML Datei exportiert. Siehe [Abrechnung](abrechnung.md).
+Entsprechend der Abbuchungsausgabe wurden diese entweder an Hibiscus übergeben oder in einer XML Datei exportiert. Siehe [Abrechnung](../../allgemeine-funktionen/abrech/abrechnung.md).
 
 ## Liste der Lastschriften
 
-![](<../../../.gitbook/assets/LastschriftenListeView (4).png>)
+![](broken-reference)
 
 Die Lastschriften lassen sich in dem View nach verschiedenen Kriterien filtern. Mit dem Filter Mitgliedschaft lässt sich nach Mitglieder, Nicht-Mitglieder oder Kursteilnehmer filtern.
 
-Die Lastschrifteinträge werden für die Generierung der Pre-Notificationen verwendet. Siehe [Pre-Notification](../druckmail/pre-notification.md).
+Die Lastschrifteinträge werden für die Generierung der Pre-Notificationen verwendet. Siehe [Pre-Notification](../../allgemeine-funktionen/druckmail/pre-notification.md).
 
 Mit einem Rechtsklick auf einen oder mehrere selektierte Tabelleneinträge öffnet sich ein Menü mit folgenden Einträgen:
 
@@ -29,4 +29,4 @@ Auch sollten Lastschriften der letzten 3 Jahre nicht gelöscht werden, da für d
 
 ## Lastschrift
 
-![](<../../../.gitbook/assets/LastschriftView (2).png>)
+![](broken-reference)

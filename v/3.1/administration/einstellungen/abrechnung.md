@@ -1,6 +1,6 @@
 # Abrechnung
 
-![](<../../../../.gitbook/assets/Abrechnung (3).png>)
+![](broken-reference)
 
 ## Beitragsmodell
 
@@ -16,7 +16,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](<../../../../.gitbook/assets/SepaSupportedVersions (1) (1).png>)
+![](broken-reference)
 
 ## Verrechnungskonto für Lastschriften
 

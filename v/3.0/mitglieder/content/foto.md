@@ -1,6 +1,6 @@
 # Foto
 
-Falls unten den [Einstellungen](../../../allgemeine-funktionen/administration/einstellungen/anzeige.md) Anzeige der Punkt Mitgliedsfoto aktiviert ist lässt sich hier ein Foto des Mitglieds eingeben.
+Falls unten den [Einstellungen](../../../4.0/administration/einstellungen/anzeige.md) Anzeige der Punkt Mitgliedsfoto aktiviert ist lässt sich hier ein Foto des Mitglieds eingeben.
 
 Durch einen Klick auf die Bildfläche erscheint ein Auswahldialog mit dem sich das Bild auswählen lässt.
 

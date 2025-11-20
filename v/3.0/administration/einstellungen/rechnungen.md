@@ -1,6 +1,6 @@
 # Rechnungen
 
-![](<../../../../.gitbook/assets/Rechnungen (2).png>)
+![](broken-reference)
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden. Außerdem sind weiter Variablen möglich. Siehe [Variablen](../../../../v3.0.x/sonstiges/variable.md).
 

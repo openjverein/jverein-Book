@@ -10,7 +10,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeits
 
 Neben Geldzahlungen kann als Beitrag auch Arbeitsleistung dienen.
 
-In den betroffenen [Beitragsgruppen](../administration/mitglieder/beitragsgruppen.md) wird die Anzahl der Pflichtstunden und der Betrag für nicht erbrachte Stunden hinterlegt
+In den betroffenen [Beitragsgruppen](../../3.2/administration/mitglieder/beitragsgruppen.md) wird die Anzahl der Pflichtstunden und der Betrag für nicht erbrachte Stunden hinterlegt
 
 ### Erstellung
 
@@ -26,7 +26,7 @@ Der Übersicht View für Arbeitseinsätze zeigt alle vorhandenen Arbeitseinsätz
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](<../../../.gitbook/assets/ArbeitseinsaetzeListeView (2).png>)
+![](broken-reference)
 
 Mit dem Button Neu kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -44,7 +44,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](<../../../.gitbook/assets/ArbeitseinsatzView (2).png>)
+![](broken-reference)
 
 Im Feld Mitglied lässt sich das Mitglied auswählen.
 

@@ -16,4 +16,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Jahresabschlüsse
 * Mails
 
-![](<../../../../.gitbook/assets/Bereinigung (3).png>)
+![](broken-reference)

@@ -2,4 +2,4 @@
 
 Vermerke über das Mitglied (z. B. Funktionen ...) können in zwei Datenfeldern hinterlegt werden.
 
-![](<../../../../.gitbook/assets/VermerkeTab (3).png>)
+![](broken-reference)

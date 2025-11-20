@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Rechnun
 
 ## Allgemeines
 
-Möchten Sie Rechnungen direkt aus JVerein druckfertig generieren, müssen zuvor Rechnungen erstellt werden, siehe [Rechnungen](../mitglieder/rechnung.md).
+Möchten Sie Rechnungen direkt aus JVerein druckfertig generieren, müssen zuvor Rechnungen erstellt werden, siehe [Rechnungen](../../3.2/mitglieder/rechnung.md).
 
 Die Rechnungen können für den Druck in ein PDF-Dokument ausgegeben werden oder per Mail an die Mitglieder versandt werden.
 
@@ -22,7 +22,7 @@ Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wähle
 
 Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](<../../../.gitbook/assets/RechnungenDruckMailView1 (2).png>)
+![](<../../../.gitbook/assets/RechnungenDruckMailView1 (1).png>)
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob die Rechnungen als PDF gedruckt oder per Mail verschickt werden sollen.
 

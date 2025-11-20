@@ -1,6 +1,6 @@
 # Mitglieder Spalten
 
-![](<../../../../.gitbook/assets/Mitgliederspalten (1).png>)
+![](broken-reference)
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
 

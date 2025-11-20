@@ -1,10 +1,10 @@
 # Abrechnungsläufe
 
-Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelöscht werden oder es können [Pre-Notification](../druckmail/pre-notification.md) ausgeben werden.
+Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelöscht werden oder es können [Pre-Notification](../../3.2/druckmail/pre-notification.md) ausgeben werden.
 
 ## Liste der Abrechnungsläufe
 
-![](<../../../.gitbook/assets/AbrechnungslaufListeView (4).png>)
+![](broken-reference)
 
 Folgende Menü Einträge sind vorhanden:
 
@@ -15,7 +15,7 @@ Folgende Menü Einträge sind vorhanden:
 
 Auch ein Doppelklick auf den Abrechnungslauf Eintrag zeigt den Abrechnungslauf an.
 
-Über den "Neu" Button können neue Abrechnungsläufe erzeugt werden (siehe [Abrechnung](abrechnung.md)).
+Über den "Neu" Button können neue Abrechnungsläufe erzeugt werden (siehe [Abrechnung](../../3.1/abrech/abrechnung.md)).
 
 Ein Abrechnungslauf kann abgeschlossen werden und ist damit vor versehentlichem Löschen geschützt. Damit diese Funktion genutzt werden kann, muss sie unter Einstellungen->Abrechnung aktiviert werden. Ein einmal abgeschlossener Lauf kann nicht wieder geöffnet werden!
 
@@ -25,4 +25,4 @@ Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
-![](<../../../.gitbook/assets/AbrechnungslaufView (2).png>)
+![](broken-reference)

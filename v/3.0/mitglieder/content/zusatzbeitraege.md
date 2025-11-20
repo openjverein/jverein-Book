@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Zusatzbeträge
 
 ## Zusatzbeträge Liste beim Mitglied
 
-![](<../../../../.gitbook/assets/ZusatzbetraegeTab (2).png>)
+![](broken-reference)
 
 Durch einen Doppelklick wird die Bearbeitung eines Zusatzbetrag eingeleitet.
 

@@ -71,4 +71,4 @@ Mit Version 3.0.0 wurde auch das Feld Zahler eingeführt. Hier kann ein vom Mitg
 
 In diesem Dialog lassen sich die Felder der Sollbuchungsposition editieren.:
 
-![](<../../../.gitbook/assets/SollbuchungpositionView (1).png>)
+![](broken-reference)

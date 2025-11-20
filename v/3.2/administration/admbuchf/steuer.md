@@ -14,7 +14,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Steuer"
 
 Eine Liste der Steuern kann über den Eintrag Steuer im Navigationsbaum angezeigt werden.
 
-![](<../../../../.gitbook/assets/SteuerListeView (1).png>)
+![](../../../../.gitbook/assets/SteuerListeView.png)
 
 Über den Neu Button können neue Steuern erzeugt werden.
 
@@ -24,7 +24,7 @@ Eine Liste der Steuern kann über den Eintrag Steuer im Navigationsbaum angezeig
 
 Mit Neu kann eine neue Steuer eingerichtet werden.
 
-![](<../../../../.gitbook/assets/Steuer (1).png>)
+![](../../../../.gitbook/assets/Steuer.png)
 
 Eine Buchungsart hat folgende Parameter:
 

@@ -14,7 +14,7 @@ In der Liste können ein oder mehrere Einträge markiert werden. Über ein Konte
 
 Über den Menüpunkt "Druck und Mail" öffnet sich der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
-![](<../../../.gitbook/assets/SpendenbescheinigungenDruckMailView1 (3).png>)
+![](broken-reference)
 
 Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spendenbescheinigungen ausgegeben.
 

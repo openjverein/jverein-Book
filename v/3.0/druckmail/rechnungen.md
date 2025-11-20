@@ -16,7 +16,7 @@ Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wähle
 
 Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](<../../../.gitbook/assets/RechnungenDruckMailView1 (1).png>)
+![](../../../.gitbook/assets/RechnungenDruckMailView1.png)
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob die Rechnungen als PDF gedruckt oder per Mail verschickt werden sollen.
 

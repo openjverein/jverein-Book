@@ -24,4 +24,4 @@ Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spe
 
 Im Normalfall werden Sollbuchungen ausschließlich über den Abrechnungslauf erstellt. In manchen Situationen ist es jedoch sinnvoll, manuell Sollbuchungen zu erstellen, dies kann über den Button "Neue Sollbuchung" erfolgen. Weiter Informationen zu [Sollbuchungen](../mitgliedskonto.md)
 
-![](<../../../../.gitbook/assets/SollbuchungView (3).png>)
+![](broken-reference)

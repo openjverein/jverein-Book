@@ -2,11 +2,11 @@
 
 ## Allgemeines
 
-In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../druckmail/freiesformular.md) hinterlegt.
+In JVerein werden für [Spendenbescheinigungen](../../../4.0/mitglieder/spendenbescheinigung.md), [Mahnung](../../../4.0/druckmail/mahnungen.md), [Rechnungen](../../../4.0/druckmail/rechnungen.md), [Pre-Notification](../../../4.0/druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../../4.0/druckmail/freiesformular.md) hinterlegt.
 
 ## Liste der Formulare
 
-![](<../../../../.gitbook/assets/Formulare (4).png>)
+![](broken-reference)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](<../../../../.gitbook/assets/Formular (5).png>)
+![](broken-reference)
 
 ## Formular Attribute
 
@@ -89,7 +89,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](<../../../../.gitbook/assets/Formularfeld (5).png>)
+![](broken-reference)
 
 ### Name
 
@@ -143,14 +143,14 @@ Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter
 
 Einfache Standardrechnung:
 
-{% file src="../../../../.gitbook/assets/rechnung-standard (3).xml" %}
+{% file src="../../../../.gitbook/assets/rechnung-standard (1).xml" %}
 Einfache Standardrechnung
 {% endfile %}
 
-![](<../../../../.gitbook/assets/rechnung-standard (3).png>)
+![](broken-reference)
 
 ## Beispiele
 
-![](<../../../../.gitbook/assets/Formularroh (5).jpg>)
+![](broken-reference)
 
-![](<../../../../.gitbook/assets/Formularausgefuellt (5).jpg>)
+![](broken-reference)

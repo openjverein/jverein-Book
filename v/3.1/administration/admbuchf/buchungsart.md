@@ -8,7 +8,7 @@
 
 Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigationsbaum angezeigt werden.
 
-![](<../../../../.gitbook/assets/BuchungsartenListeView (3).png>)
+![](broken-reference)
 
 Über den Neu Button können neue Buchungsarten erzeugt werden.
 
@@ -16,7 +16,7 @@ Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigations
 
 Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
-![](<../../../../.gitbook/assets/Buchungsartenpdf (2) (1).png>)
+![](broken-reference)
 
 ## Buchungsart
 
