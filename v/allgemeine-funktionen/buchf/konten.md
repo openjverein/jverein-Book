@@ -4,7 +4,7 @@
 
 Bei Auswahl des Konten Eintrags im Navigationsbaum werden alle Konten angezeigt.
 
-![](img/KontenListeView.png)
+![](../../../.gitbook/assets/KontenListeView.png)
 
 Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 
@@ -36,7 +36,7 @@ PS: Die beiden Views für Anlagenbuchungen und das Anlagenverzeichnis sind erst 
 
 Geldkonten können echte Bankkonten, offline Konten wie z.B. Barkasse oder auch Forderungen sein.
 
-![](img/GeldkontoView.png)
+![](../../../.gitbook/assets/GeldkontoView.png)
 
 Im Konto View können die Daten der Kontos editiert werden.
 
@@ -64,7 +64,7 @@ Hierbei wird nach folgenden Anlagen unterschieden:
 * Pool Abschreibung: Bewegliche Wirtschaftsgüter mit einem Anschaffungswert von maximal 1000€ (Netto) können in einem Anlagenkonto zusammen gefasst werden. Nur der Pool taucht im Anlagenverzeichnis auf. Ein Pool wird über 5 Jahre abgeschrieben und jedes Jahr wird ein neuer Pool erzeugt. Dies hat den Vorteil des geringeren Dokumentation Aufwandes. Es kann jedes Jahr neu entschieden werden ob die Pool Abschreibung oder eine Einzel Abschreibung verwendet wird
 * Reguläre Abschreibung: Wirtschaftsgüter mit einem Anschaffungswert über 800/1000€ (Netto) werden regulär abgeschrieben
 
-![](img/AnlagenkontoView.png)
+![](../../../.gitbook/assets/AnlagenkontoView.png)
 
 Im Konto View können die Daten der Anlagenkontos editiert werden.
 
@@ -124,7 +124,7 @@ Folgende Schritte sollten ausgeführt werden:
 * Über das Menü der Buchung wird "Neues Anlagenkonto" ausgewählt. Dieses erzeugt ein neues Anlagenkonto, einen Anfangsbestand Eintrag für das Konto (0€) und die entsprechende Gegenbuchung im Anlagenkonto
 * Es wird der Neues Anlagenkonto Dialog angezeigt. Buchungsklasse und Buchungsart wird mit den Daten der Buchung initialisiert
 
-![](img/NeuesAnlagenkontoDialog.png)
+![](<../../../.gitbook/assets/NeuesAnlagenkontoDialog (3).png>)
 
 * Jetzt Nummer, Bezeichnung, Buchungsklasse, Buchungsart und AfA Buchungsart auswählen
 * Als Nutzungsdauer den Wert 0 eintragen für sofortige Abschreibung
@@ -195,7 +195,7 @@ In diesem Fall bietet sich folgendes Vorgehen an:
 
 * Erstellen eines Anlagenkontos über den Neu Button in der Konto Liste
 * Die Kontodaten mit den Daten der Anlage ausfüllen. Also hier mit dem echten Datum der Anschaffung und dem echten damaligen Anlagenwert allerdings als Konto Eröffnungsdatum den ersten Tag des Geschäftsjahres
-* Unter [Anfangsbestände](../buchf/anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
+* Unter [Anfangsbestände](anfangsbestand.md) einen Eintrag für den ersten Tag des aktuellen Geschäftsjahres erstellen und dort den aktuellen Buchungswert der Anlage eintragen
 * Bei der automatischen Berechnung der AfA Beträge wird dann mit diesem Anfangsbestand gerechnet. Im regulären Verfahren wie oben beschrieben muss der Anfangsbestand 0€ sein. Dieser wird dort automatisch erzeugt
 
 ## Workflow für die Buchung der AfA

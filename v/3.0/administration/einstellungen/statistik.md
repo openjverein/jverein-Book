@@ -1,6 +1,6 @@
 # Statistik
 
-![](img/Statistik.png)
+![](<../../../../.gitbook/assets/Statistik (2).png>)
 
 Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel
 

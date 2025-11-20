@@ -28,7 +28,6 @@ Im Erweitert Tab Mitgliedskonto:
 * Differenz Limit (Filter nach Fehlbetrag oder Überzahlung größer als das Limit)
 * Datum von/bis (Datumsbereich für die Sollbuchungen die betrachtet werden)
 
-
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
 Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../spendenbescheinigung.md) möglich.
@@ -39,13 +38,13 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ## Liste der Mitglieder
 
-![](img/MitgliedListeView.png)
+![](<../../../../.gitbook/assets/MitgliedListeView (2).png>)
 
 Erweiterte Filter:
 
-![](img/MitgliedListeView2.png)
+![](../../../../.gitbook/assets/MitgliedListeView2.png)
 
-![](img/MitgliedListeView3.png)
+![](../../../../.gitbook/assets/MitgliedListeView3.png)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
@@ -77,17 +76,17 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](img/EigenschaftenFilterDialog.png)
+![](<../../../../.gitbook/assets/EigenschaftenFilterDialog (5).png>)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](img/ZusatzfelderFilterDialog.png)
+![](<../../../../.gitbook/assets/ZusatzfelderFilterDialog (4).png>)
 
 ## Kontextmenu
 
-![](img/MitgliedMenu.png)
+![](<../../../../.gitbook/assets/MitgliedMenu (2).png>)
 
 ### Bearbeiten
 
@@ -115,19 +114,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](img/EigenschaftenAuswahlDialog.png)
+![](<../../../../.gitbook/assets/EigenschaftenAuswahlDialog (5).png>)
 
 ### Arbeitseinsatz zuordnen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](img/ArbeitseinsatzDialog.png)
+![](<../../../../.gitbook/assets/ArbeitseinsatzDialog (5).png>)
 
 ### Zusatzbetrag zuordnen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](img/ZusatzbetragDialog.png)
+![](<../../../../.gitbook/assets/ZusatzbetragDialog (2).png>)
 
 ### Zu Nicht-Mitglied umwandeln
 

@@ -4,7 +4,7 @@
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
-![](img/SpendenbescheinigungenListeView.png)
+![](<../../../.gitbook/assets/SpendenbescheinigungenListeView (1).png>)
 
 In der Liste können ein oder mehrere Einträge markiert werden. Über ein Kontextmenu (rechter Mausklick) stehen verschiedene Aktionen zur Verfügung.
 
@@ -14,7 +14,7 @@ In der Liste können ein oder mehrere Einträge markiert werden. Über ein Konte
 
 Über den Menüpunkt "Druck und Mail" öffnet sich der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
-![](img/SpendenbescheinigungenDruckMailView1.png)
+![](<../../../.gitbook/assets/SpendenbescheinigungenDruckMailView1 (3).png>)
 
 Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spendenbescheinigungen ausgegeben.
 
@@ -38,4 +38,4 @@ Mit der Option Adressblatt lässt sich auswählen, ob eine zusätzliche Seite an
 
 Es werden hier alle Spendenbescheinigungen gedruckt bzw. versendet die die Filterkriterien erfüllen. Eine individuelle Auswahl aus den gefilterten Einträgen ist hier nicht möglich.
 
-![](img/SpendenbescheinigungenDruckMailView2.png)
+![](../../../.gitbook/assets/SpendenbescheinigungenDruckMailView2.png)

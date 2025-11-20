@@ -13,7 +13,7 @@ Die Liste zeigt unter anderem:
 * Zugänge und Abgänge im Geschäftsjahr
 * Getätigte Abschreibungen im Geschäftsjahr
 
-![](img/AnlagenverzeichnisView.png)
+![](<../../../.gitbook/assets/AnlagenverzeichnisView (2).png>)
 
 Der Inhalt der Tabelle lässt sich über die entsprechenden Buttons als PDF und CSV exportieren.
 

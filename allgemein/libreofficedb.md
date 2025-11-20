@@ -6,15 +6,15 @@
 
 ### H2.jar in den Classpath aufnehmen
 
-Die Bibliothek h2.jar mit dem Datenbank-Treiber ist in den LibreOffice-Classpath aufzunehmen. Dazu irgendein LibreOffice-Modul \(z. B. Writer\) öffnen. Unter Extras&gt;Optionen&gt;LibreOffice&gt;Erweitert&gt;Class Pfad den Pfad zur h2.jar auswählen \(Archiv hinzufügen\). Im Normalfall ist die Bibliothek im Jameica-Verzeichnis im Lib-Verzeichnis vorhanden.
+Die Bibliothek h2.jar mit dem Datenbank-Treiber ist in den LibreOffice-Classpath aufzunehmen. Dazu irgendein LibreOffice-Modul (z. B. Writer) öffnen. Unter Extras>Optionen>LibreOffice>Erweitert>Class Pfad den Pfad zur h2.jar auswählen (Archiv hinzufügen). Im Normalfall ist die Bibliothek im Jameica-Verzeichnis im Lib-Verzeichnis vorhanden.
 
 Beispiele:
 
 Windows: `C:\Programme\jameica\lib\h2\h2.jar`
 
-![](img/lobaseh2classpath1.png)
+![](../.gitbook/assets/lobaseh2classpath1.png)
 
-![](img/lobaseh2classpath2.png)
+![](../.gitbook/assets/lobaseh2classpath2.png)
 
 ### Datenbankassistent
 
@@ -22,9 +22,9 @@ LibreOffice Base aufrufen.
 
 Im Datenbankassistenten den Punkt "Verbindung zu einer bestehenden Datenbank herstellen" auswählen. Im dazugehörigen Dropdown-Menü die Standardeinstellung "JDBC" übernehmen.
 
-![](img/lobaseh2datenbankassistent0.png)
+![](../.gitbook/assets/lobaseh2datenbankassistent0.png)
 
-Im Feld "URL der Datenquelle" muss der Pfad zu H2-Datenbank eingetragen werden. Der Pfad beginnt mit h2: \(Linux\) bzw. h2:file: \(Windows\):
+Im Feld "URL der Datenquelle" muss der Pfad zu H2-Datenbank eingetragen werden. Der Pfad beginnt mit h2: (Linux) bzw. h2:file: (Windows):
 
 Beispiele:
 
@@ -34,7 +34,7 @@ Windows: `h2:file:C:\Pfad\zur\Datenbank\.jameica\jverein\h2db\jverein`
 
 Unter JDBC-Treiberklasse muss der Datenbanktreiber eingetragen werden: `org.h2.Driver`
 
-![](img/lobaseh2datenbankassistent1.png)
+![](../.gitbook/assets/lobaseh2datenbankassistent1.png)
 
 Nach einem Klick auf Weiter müssen die Zugangsdaten zur Datenbank eingetragen werden:
 
@@ -44,13 +44,13 @@ Nach einem Klick auf "Verbindungstest" kann das Passwort eingegeben werden
 
 Passwort: `jverein`
 
-![](img/lobaseh2datenbankassistent2.png)
+![](../.gitbook/assets/lobaseh2datenbankassistent2.png)
 
-![](img/lobaseh2passwort.png)
+![](../.gitbook/assets/lobaseh2passwort.png)
 
 Anschließend muss der Datenbank-Assistent angewiesen werden die Datenbank anzumelden und sie anschließend zum Bearbeiten zu öffnen.
 
-![](img/lobaseh2datenbankassistent3.png)
+![](../.gitbook/assets/lobaseh2datenbankassistent3.png)
 
 Nach einem Klick auf "Fertigstellen" muss die neu geschaffene LibreOffice-Datenbank gespeichert werden. Die LibreOffice-Datenbank dient praktisch als Hülle. Hier wird der Zugang zur JVerein-Datenbank, sowie eure in LibreOffice angelegten Abfragen u.ä. gespeichert. Hierzu einfach einen beliebigen Dateinamen und Speicherort angeben.
 
@@ -60,5 +60,4 @@ Anschließend öffnet sich LibreOffice Base. Wenn alles geklappt hat fragt Base 
 
 Nun solltet ihr unter "Tabellen" einen Reiter "JVEREIN" finden. Im Unterordner "PUBLIC" findet ihr alle Tabellen, die JVerein angelegt hat. Ihr könnt nun nach Herzenslust auf die Datenbank zugreifen und z.B. Abfragen erstellen.
 
-![](img/lobaseh2editor0.png)
-
+![](../.gitbook/assets/lobaseh2editor0.png)

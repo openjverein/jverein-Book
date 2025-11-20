@@ -14,7 +14,7 @@ Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negat
 
 In dieser Ansicht sehen Sie die geleisteten Arbeitsstunden, die diesem Mitglied zu gebucht wurden.
 
-![](img/ArbeitseinsatzTab.png)
+![](<../../../../.gitbook/assets/ArbeitseinsatzTab (5).png>)
 
 Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -29,7 +29,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet werden.
 
-![](../img/ArbeitseinsatzView.png)
+![](<../../../../.gitbook/assets/ArbeitseinsatzView (5).png>)
 
 Im Dialog können neue Stunden für das Mitglied erfasst werden. Sie geben das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
 

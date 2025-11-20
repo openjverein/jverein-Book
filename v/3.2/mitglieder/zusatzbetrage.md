@@ -2,7 +2,7 @@
 
 ### Aktivierung
 
-Zur Nutzung der Zusatzbeträge ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren. 
+Zur Nutzung der Zusatzbeträge ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 Unter Administration->Einstellungen->Abrechnung kann auch eingestellt werden, ob Zusatzbeträge auch bei ausgetretenen Mitgliedern abgerechnet werden sollen.
 
@@ -57,7 +57,7 @@ In der Tabelle werden folgende Spalten angezeigt:
 * Zahlungsweg: Zahlungsweg für die Buchung
 * Buchungsart: Buchungsart
 
-![](img/ZusatzBetraegeListeView.png)
+![](<../../../.gitbook/assets/ZusatzBetraegeListeView (2).png>)
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -81,7 +81,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/ZusatzBetragView.png)
+![](<../../../.gitbook/assets/ZusatzBetragView (2).png>)
 
 PS: Ab JVerein 3.0.0 lässt sich für den Zusatzbetrag ein von der Konfiguration beim Mitglied (Standard) abweichender Zahlungsweg konfigurieren.
 

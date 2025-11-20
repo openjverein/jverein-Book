@@ -26,7 +26,7 @@ Der Übersicht View für Arbeitseinsätze zeigt alle vorhandenen Arbeitseinsätz
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](img/ArbeitseinsaetzeListeView.png)
+![](<../../../.gitbook/assets/ArbeitseinsaetzeListeView (3).png>)
 
 Mit dem Button Neu kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -44,7 +44,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/ArbeitseinsatzView.png)
+![](<../../../.gitbook/assets/ArbeitseinsatzView (4).png>)
 
 Im Feld Mitglied lässt sich das Mitglied auswählen.
 

@@ -6,7 +6,7 @@ Zur Nutzung der Lehrgänge ist die Option in den Einstellungen (Administration->
 
 ## Liste der Lehrgangsarten
 
-![](<img/Lehrgangsarten (1).png>)
+![](<../../../../.gitbook/assets/Lehrgangsarten (1) (1).png>)
 
 Mit Neu kann eine neue Lehrgangsart eingerichtet werden.
 
@@ -19,6 +19,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Lehrgangsart
 
-![](<img/Lehrgangsart (2).png>)
+![](<../../../../.gitbook/assets/Lehrgangsart (2) (1).png>)
 
 Die Bezeichnung und Von/am des Lehrgangs muss ausgefüllt werden. Die restlichen Daten können leer gelassen werden. Diese Daten sind dann einzugeben, wenn beim Mitglied der Lehrgang angelegt wird.

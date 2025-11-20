@@ -35,7 +35,7 @@ Der Übersicht View für Zusatzbeträge zeigt alle vorhandenen Zusatzbeträge an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](img/ZusatzBetraegeListeView.png)
+![](../../../.gitbook/assets/ZusatzBetraegeListeView.png)
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -58,7 +58,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/ZusatzBetragView.png)
+![](../../../.gitbook/assets/ZusatzBetragView.png)
 
 ## Abrechnung
 

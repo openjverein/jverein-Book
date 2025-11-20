@@ -10,7 +10,7 @@ A: Es muss der Programm- und der Datenordner auf den neuen Rechner übertragen w
 
 Q: Wo finde ich den Programmordner?
 
-A: Es gibt keinen fest definierten Platz für den Programmordner. Sofern die Jameica-Suite installiert wurde, ist der Ordner unter C:\Programme\Jameica zu finden. Unter Linux wird oft unter /opt/jameica oder ~/jameica installiert.
+A: Es gibt keinen fest definierten Platz für den Programmordner. Sofern die Jameica-Suite installiert wurde, ist der Ordner unter C:\Programme\Jameica zu finden. Unter Linux wird oft unter /opt/jameica oder \~/jameica installiert.
 
 ## Wo liegt der JVerein-Datenordner standardmäßig?
 
@@ -18,13 +18,13 @@ Q: Wo finde ich den Datenordner standardmäßig?
 
 A:
 
-| Betriebssystem | Verzeichnis |
-| :--- | :--- |
-| Linux | /home/&lt;username&gt;/.jameica |
-| Windows 7 + 8 | C:\Users\&lt;username&gt;.jameica |
-| Windows 2000/XP | C:\Dokumente und Einstellungen\&lt;username&gt;.jameica |
-| Windows Vista | C:\Users\&lt;username&gt;.jameica oder C:\Benutzer\&lt;username&gt;.jameica |
-| MacOS | /Users/&lt;username&gt;/.jameica oder /Users/&lt;username&gt;/Library/jameica |
+| Betriebssystem  | Verzeichnis                                                           |
+| --------------- | --------------------------------------------------------------------- |
+| Linux           | /home/\<username>/.jameica                                            |
+| Windows 7 + 8   | C:\Users\&lt;username>.jameica                                        |
+| Windows 2000/XP | C:\Dokumente und Einstellungen\&lt;username>.jameica                  |
+| Windows Vista   | C:\Users\&lt;username>.jameica oder C:\Benutzer\&lt;username>.jameica |
+| MacOS           | /Users/\<username>/.jameica oder /Users/\<username>/Library/jameica   |
 
 ## Wie kann ich den Datenordner an einen Nichtstandardplatz legen?
 
@@ -34,11 +34,11 @@ A: Beim Aufruf von Jameica wird der Schalter `-f pfad`angegeben.
 
 Beispiel: `jameica.bat -f c:/meinejameicadaten`
 
-siehe auch [http://www.willuhn.de/wiki/doku.php?id=support:faq\#abweichendes\_benutzerverzeichnis\_nutzen](http://www.willuhn.de/wiki/doku.php?id=support:faq#abweichendes_benutzerverzeichnis_nutzen)
+siehe auch [http://www.willuhn.de/wiki/doku.php?id=support:faq#abweichendes\_benutzerverzeichnis\_nutzen](http://www.willuhn.de/wiki/doku.php?id=support:faq#abweichendes_benutzerverzeichnis_nutzen)
 
-Unter Windows kann mit einem rechten Mausklick auf das Jameica-Icon &gt; Eigenschaften folgendes Bild geöffnet werden:
+Unter Windows kann mit einem rechten Mausklick auf das Jameica-Icon > Eigenschaften folgendes Bild geöffnet werden:
 
-![](img/jameicasuiteeigenschaften.png)
+![](../.gitbook/assets/jameicasuiteeigenschaften.png)
 
 Im Feld Ziel wird der Schalter -f VERZEICHNIS wie angegeben verändert.
 
@@ -58,11 +58,10 @@ A: JVerein kann seine Daten in einer MySQL-Datenbank speichern. Siehe auch MySQL
 
 Q: Warum kann ich eine Bankverbindung nicht speichern/importieren?
 
-A: Die Banken verwenden Prüfziffernmethoden zur Überprüfung der Kontonummern. Siehe Prüfziffernberechnung bei der Deutschen Bundesbank. JVerein verwendet zur Berechnung der Prüfziffern die Bibliothek HBCI4Java. Bisher ist mir kein Fehler in der Prüfziffernberechnung bekannt. Daher gehe ich davon aus, das die Meldung immer korrekt ausgegeben wird. Die Prüfziffernberechnung kann unter Hibiscus \| Einstellungen \| Grundeinstellungen \| Kontonummern und Bankleitzahlen mittels Prüfziffern testen ausschalten. Damit wird die Prüfziffernberechnung generell ausgeschaltet. Das gilt sowohl für Hibiscus als auch für JVerein.
+A: Die Banken verwenden Prüfziffernmethoden zur Überprüfung der Kontonummern. Siehe Prüfziffernberechnung bei der Deutschen Bundesbank. JVerein verwendet zur Berechnung der Prüfziffern die Bibliothek HBCI4Java. Bisher ist mir kein Fehler in der Prüfziffernberechnung bekannt. Daher gehe ich davon aus, das die Meldung immer korrekt ausgegeben wird. Die Prüfziffernberechnung kann unter Hibiscus | Einstellungen | Grundeinstellungen | Kontonummern und Bankleitzahlen mittels Prüfziffern testen ausschalten. Damit wird die Prüfziffernberechnung generell ausgeschaltet. Das gilt sowohl für Hibiscus als auch für JVerein.
 
 ## Bei mir erscheint der Fehler java.lang.NoSuchMethodError
 
 Q: Bei mir erschein der Fehler java.lang.NoSuchMethodError. Was muss ich tun?
 
-A: Mit 99%iger Sicherheit liegt ein Versionsmix vor. Jameica in ein leeres Verzeichnis entpacken. Hibiscus und JVerein über Datei\|Einstellungen\|Plugin installieren.
-
+A: Mit 99%iger Sicherheit liegt ein Versionsmix vor. Jameica in ein leeres Verzeichnis entpacken. Hibiscus und JVerein über Datei|Einstellungen|Plugin installieren.

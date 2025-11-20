@@ -1,5 +1,5 @@
 # Mitglieder Ansicht
 
-![](img/Mitgliederansicht.png)
+![](<../../../../.gitbook/assets/Mitgliederansicht (2).png>)
 
 Festlegung der Ansicht der Mitglieder Daten. Es kann ausgewählt werden welche Daten direkt angezeigt werden oder innerhalb der Tabs.

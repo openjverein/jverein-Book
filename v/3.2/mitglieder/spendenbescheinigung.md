@@ -72,7 +72,7 @@ Möchte man also Spendenbescheinigungen per Mail verschicken geht das nur für e
 
 Mit der Option "Sachspende oder Geldspende mit Erstattungsverzicht" erhält man alle Spendenbescheinigungen für die keine Unterschrift gedruckt wird. Diese müssen ausgedruckt und per Hand unterschrieben werden.
 
-![](img/SpendenbescheinigungenListeView.png)
+![](<../../../.gitbook/assets/SpendenbescheinigungenListeView (8).png>)
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -99,7 +99,7 @@ Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge a
 
 Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
-![](img/SpendenbescheinigungView.png)
+![](<../../../.gitbook/assets/SpendenbescheinigungView (5).png>)
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -113,30 +113,29 @@ Durch einen Rechtsklick auf eine Buchung öffnet sich ein Kontextmenü mit mehre
 
 ## Voraussetzungen für das Erstellen von Spendenbescheinigungen
 
-Um eine Spendenbescheinigung erstellen zu können muss  folgendes erfüllt sein:
+Um eine Spendenbescheinigung erstellen zu können muss folgendes erfüllt sein:
+
 * Es muss eine Buchung (Istbuchung) in einem Konto existieren
 * Die Buchungsart der Buchung muss vom Typ Spende sein. Siehe Administration->Buchführung->Buchungsart Checkbox Spende
-* Bei Aufwandsspenden, Vergütungsspenden (Rückspende) und Leistungsspenden muss die Checkbox "Erstattungsverzicht" in der Buchung selektiert werden.
+*   Bei Aufwandsspenden, Vergütungsspenden (Rückspende) und Leistungsspenden muss die Checkbox "Erstattungsverzicht" in der Buchung selektiert werden.
 
-    ![](img/Geldspende.png)
+    ![](../../../.gitbook/assets/Geldspende.png)
+*   Bei Sachspenden müssen die betreffenden Felder in der Buchung ausgefüllt werden. JVerein erkennt Sachspenden daran, dass das Feld "Bezeichnung der Sachspende" nicht leer ist. Diese Option existiert seit der Version 3.2.0.
 
-* Bei Sachspenden müssen die betreffenden Felder in der Buchung ausgefüllt werden. JVerein erkennt Sachspenden daran, dass das Feld "Bezeichnung der Sachspende" nicht leer ist. Diese Option existiert seit der Version 3.2.0.
-
-    ![](img/Sachspende.png)
+    ![](../../../.gitbook/assets/Sachspende.png)
 
 ## Spendenbescheinigungen manuell erstellen
 
 Eine Spendenbescheinigung kann manuell erzeugt werden:
 
-*   In der Liste der Buchungen:   
-Mit einem Klick auf eine Buchung mit der rechten Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall kann entweder ein Mitglied oder Nicht-Mitglied im Dialog als Spender ausgewählt werden oder auch nur die Adressdaten des Spenders eingegeben werden. Die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
+*   In der Liste der Buchungen:\
+    Mit einem Klick auf eine Buchung mit der rechten Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall kann entweder ein Mitglied oder Nicht-Mitglied im Dialog als Spender ausgewählt werden oder auch nur die Adressdaten des Spenders eingegeben werden. Die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
 
-    ![](img/BuchungMenue.png)
-    
-*   Im Mitglieds View unter dem Tab Mitgliedskonto:  
-Eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
+    ![](../../../.gitbook/assets/BuchungMenue.png)
+*   Im Mitglieds View unter dem Tab Mitgliedskonto:\
+    Eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
 
-    ![](img/MitgliedskontoMenue.png)
+    ![](<../../../.gitbook/assets/MitgliedskontoMenue (5).png>)
 
 ## Spendenbescheinigungen automatisch erstellen
 
@@ -157,20 +156,18 @@ Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiedene Arten erz
 * Wurde die Buchung ohne einen Abrechnungslauf erzeugt muss eine Sollbuchung erzeugt und die Buchung zugeordnet werden. Dies kann in einem Schritt erfolgen. Siehe zweite Option in [Buchungen](../buchf/buchungen.md).
 * Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen. Für das Erstellen einer Sollbuchung siehe [Mitgliedskonto](content/mitgliedskonto.md) oder [Sollbuchungen](mitgliedskonto.md).
 
-
 ### Spendenbescheinigung automatisch erstellen
 
 Spendenbescheinigungen können automatisch auf mehrere Arten erzeugt werden:
 
-*   In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Spendenbescheinigung auswählen. Es werden alle spendenberechtigte Buchungen gesucht bei denen das Mitglied als Zahler in der zugeordneten Sollbuchung eingetragen ist und für die noch keine Spendenbescheinigungen erstellt wurden. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen. Bei mehreren Geldspenden wird eine Sammelbestätigung generiert. In diesem Fall bestimmt die erste Buchung das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen. Bei Sachspenden wird für jede Buchung eine eigene Spendenbescheinigung generiert.  
-Falls genau eine Bescheinigung generiert wird, wird diese geöffnet und angezeigt. Sie muss dann explizit gespeichert werden.
+*   In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Spendenbescheinigung auswählen. Es werden alle spendenberechtigte Buchungen gesucht bei denen das Mitglied als Zahler in der zugeordneten Sollbuchung eingetragen ist und für die noch keine Spendenbescheinigungen erstellt wurden. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen. Bei mehreren Geldspenden wird eine Sammelbestätigung generiert. In diesem Fall bestimmt die erste Buchung das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen. Bei Sachspenden wird für jede Buchung eine eigene Spendenbescheinigung generiert.\
+    Falls genau eine Bescheinigung generiert wird, wird diese geöffnet und angezeigt. Sie muss dann explizit gespeichert werden.
 
-    ![](img/MitgliedMenu.png)
+    ![](<../../../.gitbook/assets/MitgliedMenu (5).png>)
+*   In der Übersicht über Spendenbescheinigungen können über den Button "Neu (Automatisch)" Geldspendenbescheinigungen generiert werden.\
+    Nach Drücken des Buttons erscheint folgende Anzeige:
 
-*   In der Übersicht über Spendenbescheinigungen können über den Button "Neu (Automatisch)" Geldspendenbescheinigungen generiert werden.  
-Nach Drücken des Buttons erscheint folgende Anzeige:
-
-    ![](img/SpendenbescheinigungAutoView.png)
+    ![](<../../../.gitbook/assets/SpendenbescheinigungAutoView (4).png>)
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen (Einzel / Sammel) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 

@@ -6,7 +6,7 @@ Entsprechend der Abbuchungsausgabe wurden diese entweder an Hibiscus übergeben 
 
 ## Liste der Lastschriften
 
-![](img/LastschriftenListeView.png)
+![](<../../../.gitbook/assets/LastschriftenListeView (4).png>)
 
 Die Lastschriften lassen sich in dem View nach verschiedenen Kriterien filtern. Mit dem Filter Mitgliedschaft lässt sich nach Mitglieder, Nicht-Mitglieder oder Kursteilnehmer filtern.
 
@@ -29,4 +29,4 @@ Auch sollten Lastschriften der letzten 3 Jahre nicht gelöscht werden, da für d
 
 ## Lastschrift
 
-![](img/LastschriftView.png)
+![](<../../../.gitbook/assets/LastschriftView (2).png>)

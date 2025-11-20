@@ -23,7 +23,7 @@ Der Übersicht View für Wiedervorlagen zeigt alle vorhandenen Wiedervorlagen an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](img/WiedervorlageListeView.png)
+![](<../../../.gitbook/assets/WiedervorlageListeView (2).png>)
 
 Mit dem Button Neu kann eine neue Wiedervorlage eingerichtet werden.
 
@@ -41,6 +41,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/WiedervorlageView.png)
+![](<../../../.gitbook/assets/WiedervorlageView (5).png>)
 
 Die Wiedervorlage Termine werden auch im Jameica-Kalender angezeigt.

@@ -10,7 +10,7 @@ Jeder Eigenschaft ist eine [Eigenschaftengruppe ](eigenschaften-gruppen.md)zuzuo
 
 ## Liste der Eigenschaften
 
-![](img/Eigenschaften.png)
+![](<../../../../.gitbook/assets/Eigenschaften (3).png>)
 
 Mit Neu kann eine neue Eigenschaft eingerichtet werden.
 
@@ -23,7 +23,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Eigenschaft
 
-![](img/Eigenschaft.png)
+![](<../../../../.gitbook/assets/Eigenschaft (3).png>)
 
 ### Bezeichnung
 

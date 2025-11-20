@@ -19,11 +19,11 @@ Zu Mitgliedern und Buchungen können Dokumente beliebiger Art und Anzahl gespeic
 
 ## Neue Dokument speichern
 
-![](img/dokumenteneu1.png)
+![](../.gitbook/assets/dokumenteneu1.png)
 
 Mit einem Klick auf neu öffnet sich folgendes Formular:
 
-![](img/dokumenteneu2.png)
+![](../.gitbook/assets/dokumenteneu2.png)
 
 Es wird eine Datei ausgewählt. Standardmäßig wird das Tagesdatum vorgegeben. Es kann hier z. B. auch das Datum des Beleges eingetragen werden. Zusätzlich kann zu jedem Dokument ein Kommentar eingetragen werden.
 
@@ -34,4 +34,3 @@ Mit einem Rechtsklick auf ein Dokument öffnet sich ein Kontextmenü. Mit den Me
 ## Datensicherung
 
 Die gespeicherten Dokumente werden **nicht** durch die Sicherung von Jameica erfasst. Am einfachsten ist es, dass .jameica-Verzeichnis komplett zu sichern.
-

@@ -14,7 +14,7 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Liste der Lesefelder
 
-![](img/Lesefelder.png)
+![](<../../../../.gitbook/assets/Lesefelder (5).png>)
 
 Mit Neu kann ein neues Lesefeld eingerichtet werden.
 
@@ -24,7 +24,7 @@ Mit Löschen kann ein Lesefeld gelöscht werden.
 
 ## Lesefeld
 
-![](img/Lesefeld.png)
+![](<../../../../.gitbook/assets/Lesefeld (4).png>)
 
 ### Mitglied
 

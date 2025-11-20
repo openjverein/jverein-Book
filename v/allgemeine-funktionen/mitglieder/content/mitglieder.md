@@ -26,7 +26,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ## Liste der Mitglieder
 
-![](img/MitgliedListeView.png)
+![](<../../../../.gitbook/assets/MitgliedListeView (3).png>)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
@@ -54,17 +54,17 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](img/EigenschaftenFilterDialog.png)
+![](<../../../../.gitbook/assets/EigenschaftenFilterDialog (3).png>)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](img/ZusatzfelderFilterDialog.png)
+![](<../../../../.gitbook/assets/ZusatzfelderFilterDialog (2).png>)
 
 ## Kontextmenu
 
-![](img/MitgliedMenu.png)
+![](<../../../../.gitbook/assets/MitgliedMenu (3).png>)
 
 ### Bearbeiten
 
@@ -92,19 +92,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](img/EigenschaftenAuswahlDialog.png)
+![](<../../../../.gitbook/assets/EigenschaftenAuswahlDialog (3).png>)
 
 ### Arbeitseinsätze zuweisen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](img/ArbeitseinsatzDialog.png)
+![](<../../../../.gitbook/assets/ArbeitseinsatzDialog (3).png>)
 
 ### Zusatzbeträge zuweisen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](img/ZusatzbetragDialog.png)
+![](<../../../../.gitbook/assets/ZusatzbetragDialog (3).png>)
 
 ### Zu Nicht-Mitglied umwandeln
 

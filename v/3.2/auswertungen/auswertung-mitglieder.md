@@ -11,7 +11,7 @@ Der Mitgliederbestand kann nach verschiedenen Kriterien ausgewertet und das Erge
 
 Die Ausgabe erfolgt entweder im PDF- oder im CSV-Format. Nach der Erzeugung der Datei wird ein entsprechendes Anzeigeprogramm aufgerufen.
 
-![](img/MitgliederView.png)
+![](<../../../.gitbook/assets/MitgliederView (3).png>)
 
 ## Sortierung
 
@@ -66,11 +66,11 @@ DerAddressbuchexport CSV eignet sich u.a. für die Weiterverarbeitung in Mailpro
 
 Ab Version 2.5 kann man eigene Vorlagen für den CSV-Export erstellen.
 
-Dazu ist zunächst unter [Einstellungen->Dateinamen](../administration/einstellungen/dateinamen.md) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
+Dazu ist zunächst unter [Einstellungen->Dateinamen](broken-reference) ein Verzeichnis zu wählen, in dem alle selbst erstellten Vorlagen gespeichert werden.
 
 Jede der selbst erstellten Vorlagen ist ebenfalls eine CSV-Datei. Diese Dateien müssen mit einem externen Programm erstellt werden, also mit einem Texteditor oder mit einem Tabellenkalkulationsprogramm. Damit JVerein diese Vorlagendateien erkennt, müssen diese im gewählten Vorlagenverzeichnis gespeichert werden.
 
-![](img/Ausgabe.png)
+![](<../../../.gitbook/assets/Ausgabe (3).png>)
 
 Die Vorlagen kann man direkt in der Liste Ausgabe auswählen
 

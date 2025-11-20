@@ -1,6 +1,6 @@
 # Mitglieder Spalten
 
-![](<img/Mitgliederspalten (1).png>)
+![](<../../../../.gitbook/assets/Mitgliederspalten (2).png>)
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
 

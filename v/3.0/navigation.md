@@ -4,4 +4,4 @@ Das Navigationsmenü kann je nach aktivierten Programmfunktionen mehr oder wenig
 
 Beispiel für die Navigation:
 
-![](img/Navigation1.png) ![](img/Navigation2.png) ![](img/Navigation3.png)
+![](<../../.gitbook/assets/Navigation1 (1).png>) ![](<../../.gitbook/assets/Navigation2 (2).png>) ![](<../../.gitbook/assets/Navigation3 (3).png>)
