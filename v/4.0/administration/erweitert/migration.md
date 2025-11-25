@@ -249,7 +249,7 @@ JJ funktioniert für alle Mitglieder jünger 100.Ffür ältere Menschen muss es 
 * [x] **Spalte muss existieren**
 
 **Leere Spalte erlaubt:**\
-Abhängig von den EInstellungen
+Abhängig von den Einstellungen
 
 **MySQL:**\
 date DEFAULT NULL
@@ -391,6 +391,24 @@ int(11) DEFAULT NULL
 
 <details>
 
+<summary>Kontoinhaber</summary>
+
+**Inhalt:**\
+Kontoinhaber
+
+**Max. Länge:**\
+70
+
+* [ ] **Spalte muss existieren**
+* [x] **Leere Spalte erlaubt**
+
+**MySQL:**\
+varchar(70) DEFAULT NULL
+
+</details>
+
+<details>
+
 <summary>Zahlungstermin</summary>
 
 **Inhalt:**\
@@ -425,173 +443,6 @@ int(11) DEFAULT NULL
 
 **MySQL:**\
 int(11) DEFAULT NULL
-
-</details>
-
-<details>
-
-<summary>KtoiPersonenart</summary>
-
-**Inhalt:**\
-Personenart des abweichenden Kontoinhabers\
-n = natürliche Person\
-j = juristische Person
-
-**Max. Länge**\
-1
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiAnrede</summary>
-
-**Inhalt:**\
-Anrede des abweichenden Kontoinhabers
-
-**Max. Länge**\
-10
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiTitel</summary>
-
-**Inhalt:**\
-Titel des abweichenden Kontoinhabers (Dr. o. ä.)
-
-**Max. Länge**\
-10
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiName</summary>
-
-**Inhalt:**\
-Name des abweichenden Kontoinhabers
-
-**Max. Länge**\
-40
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiVorname</summary>
-
-**Inhalt:**\
-Vorname des abweichenden Kontoinhabers
-
-**Max. Länge**\
-40
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiStrasse</summary>
-
-**Inhalt:**\
-Straße des abweichenden Kontoinhabers
-
-**Max. Länge**\
-40
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiAdressierungszusatz</summary>
-
-**Inhalt:**\
-Adressierungszusatz des abweichenden Kontoinhabers
-
-**Max. Länge**\
-40
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiPlz</summary>
-
-**Inhalt:**\
-Postleitzahl des abweichenden Kontoinhabers
-
-**Max. Länge**\
-10
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiOrt</summary>
-
-**Inhalt:**\
-Ort des abweichenden Kontoinhabers
-
-**Max. Länge**\
-40
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiStaat</summary>
-
-**Inhalt:**\
-Staat des abweichenden Kontoinhabers
-
-**Max. Länge**\
-40
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
-
-</details>
-
-<details>
-
-<summary>KtoiEMail</summary>
-
-**Inhalt:**\
-EMail-Adresse des abweichenden Kontoinhabers
-
-**Max. Länge**\
-50
-
-* [ ] **Spalte muss existieren**
-* [ ] **Leere Spalte erlaubt**
 
 </details>
 
@@ -796,8 +647,8 @@ Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Straße;Plz;Ort;Geburtsdatum;Geschlec
 ### Mit allen Feldern (außer Eigenschaften)
 
 ```
-Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Straße;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;KtoiPersonenart;KtoiAnrede;KtoiTitel;KtoiName;KtoiVorname;KtoiStrasse;KtoiAdressierungszusatz;KtoiPlz;KtoiOrt;KtoiStaat;KtoiEMail;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kündigung;Vermerk1;Vermerk2
-22;Herrn;n;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;1;l;12;1201;;;;;;;;;;;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
+Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Straße;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;Kontoinhaber;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kündigung;Vermerk1;Vermerk2
+22;Herrn;n;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;1;l;12;1201;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
 ```
 
 ## Vorbereiten einer Mitgliederdatei in Office
