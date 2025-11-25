@@ -36,6 +36,7 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 * sterbetag
 * iban Pflichtfeld bei Mitgliedern mit Zahlungsweg Basislastschrift
 * bic wird automatisch ermittelt
+* kontoinhaber
 * individuellerbeitrag
 * zahlungsweg (1=Basislastschrift,2=Überweisung,3=Barzahlung) default Basislastschrift
 * zahlungsrhythmus nur wenn Beitragsmodell "Monatlich zu festen Terminen" Zahl oder text möglich (1=Monatlich, 3=Vierteljährlich, 6=halbjährlich, 12=Jährlich) default: Monatlich
@@ -43,18 +44,6 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 * mandatdatum Pflichtfeld bei Mitgliedern mit Zahlungsweg Basislastschrift
 * mandatversion default 0
 * externemitgliedsnummer Pflicht wenn unter Einstellungen gesetzt
-* ktoivorname
-* ktoiname
-* ktoianrede
-* ktoistrasse
-* ktoiadressierungszusatz
-* ktoiplz
-* ktoiort
-* ktoistaat
-* ktoiemail
-* ktoipersonenart (n=natürliche Person,j=juristische Person)
-* ktoititel
-* ktoigeschlecht (m=Mänlich,w=Weiblich,o=Ohne Angabe)
 * vermerk1
 * vermerk2
 * eigenschaft\_NAME (wird bei allem anderen als nein, false gesetzt)
