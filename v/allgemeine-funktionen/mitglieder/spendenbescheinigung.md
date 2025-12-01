@@ -59,7 +59,7 @@ Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge a
 
 Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
-![](<img/SpendenbescheinigungView (1).png>)
+![](img/SpendenbescheinigungView.png)
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -136,7 +136,7 @@ Geldspendenbescheinigungen können automatisch auf mehrere Arten erzeugt werden:
     ![](img/MitgliedskontoMenue.png)
 *   In der Übersicht über Spendenbescheinigungen können über den Button "Neu (Automatisch)" Geldspendenbescheinigungen generiert werden.
 
-    ![](<img/SpendenbescheinigungAutoView (1).png>)
+    ![](img/SpendenbescheinigungAutoView.png)
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen (Einzel / Sammel) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 

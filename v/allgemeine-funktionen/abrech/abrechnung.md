@@ -24,7 +24,7 @@ Die Abrechnung wird mit dem untenstehenden Bildschirm initiiert. Es können
 
 verarbeitet werden.
 
-![](<img/AbrechnungView (1).png>)
+![](img/AbrechnungView.png)
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhythmus eingezogen.
 
