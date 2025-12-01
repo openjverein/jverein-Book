@@ -8,7 +8,7 @@ Zur Nutzung sind die [Lehrgangsarten](../../administration/mitglieder/lehrgange.
 
 ## Lehrgänge Liste beim Mitglied
 
-![](img/LehrgaengeTab.png)
+![](img/310_LehrgaengeTab.png)
 
 Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
 
@@ -24,6 +24,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Durch Auswahl des Buttons "Neuer Lehrgang" kann ein neuer Lehrgang für das Mitglied angelegt werden.
 
-![](../img/LehrgangView.png)
+![](../img/310_LehrgangView.png)
 
 Weitere Informationen dazu: [Lehrgänge](../lehrgange.md)

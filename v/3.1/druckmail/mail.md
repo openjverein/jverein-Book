@@ -18,19 +18,19 @@ In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatu
 
 Über das Kontextmenü lassen sich Mails bearbeiten oder löschen.
 
-![](img/MailsView.png)
+![](img/310_MailsView.png)
 
 ## Mails
 
 Durch einen Klick auf neu öffnet sich ein Mail-Vorlagen-Auswahlfenster:
 
-![](img/MailVorlagenAuswahl.png)
+![](img/310_MailVorlagenAuswahl.png)
 
 Entweder wird eine Mailvorlage ausgewählt oder es geht ohne Vorlage weiter.
 
 Ein Doppelklick auf eine Mail öffnet das Bearbeitungsfenster.
 
-![](img/Mail.png)
+![](img/310_Mail.png)
 
 Der View besitzt folgende Buttons im unteren Bereich:
 
@@ -46,7 +46,7 @@ Der View besitzt folgende Buttons im unteren Bereich:
 
 Durch einen Klick auf Hinzufügen bei der Liste der Empfänger öffnet sich folgendes Auswahlfenster:
 
-![](img/MailEmpfaengerAuswahl.png)
+![](img/310_MailEmpfaengerAuswahl.png)
 
 In diesem Fenster sind zunächst alle an- und abgemeldeten Mitglieder sowie alle weiteren Adressen aufgelistet, bei denen eine E-Mail-Adresse hinterlegt ist. Mail-Empfänger können nun einzeln durch Setzen des Häkchens vor der E-Mail-Adresse ausgewählt werden. Ferner stehen (ab Version 2.8.4) folgende Filter bzw. Selektoren zur Verfügung:
 
@@ -61,7 +61,7 @@ Die obigen Filter/Selektoren wirken additiv, mit keinen wird die komplette Auswa
 
 Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst werden:
 
-![](img/MitgliedMailversand.png)
+![](img/310_MitgliedMailversand.png)
 
 ## Variablen
 

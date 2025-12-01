@@ -6,7 +6,7 @@ Für die Generierung von Dateinamen und anderen Namen existieren Vorlagenmuster 
 
 In der Liste sind alle Dateien enthalten die aktuell von JVerein generiert werden können. Es sind jeweils bereits Dateinamen vorbelegt die vom Anwender angepasst werden können. Hierfür stehen alle Variablen zur Verfügung die auch in den Dokumenten platziert werden können. Zusätzlich sind die Parameter aus den Filter bzw. Parameter Bereichen, aus den Ansichten aus denen das Dokument generiert, wird verfügbar.
 
-![](img/Vorlagen.png)
+![](img/320_Vorlagen.png)
 
 Über einen Doppel Klick oder den Menüeintrag "Bearbeiten" lässt sich eine Vorlage bearbeiten.
 
@@ -14,7 +14,7 @@ Mit dem Filter lässt sich nach dem eingegebenen Text in den beiden Spalten filt
 
 ## Vorlage
 
-![](img/Vorlage.png)
+![](img/320_Vorlage.png)
 
 Im Vorlagenmuster lassen sich Variablen platzieren. Die verfügbaren Variablen sind von der Art des Namen abhängig. Folgende Variablen sind verfügbar:
 * Allgemeine Variablen (immer verfügbar)

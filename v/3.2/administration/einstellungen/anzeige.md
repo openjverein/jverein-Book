@@ -1,6 +1,6 @@
 # Anzeige
 
-![](img/Anzeige.png)
+![](img/320_Anzeige.png)
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 

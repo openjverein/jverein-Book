@@ -12,7 +12,7 @@ Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, 
 
 ## Liste der Kursteilnehmer
 
-![](img/KursteilnehmerListeView.png)
+![](img/320_KursteilnehmerListeView.png)
 
 Mit dem Button Neu kann ein neuer Kursteilnehmer eingerichtet werden.
 
@@ -29,4 +29,4 @@ Das Kursteilnehmer Menü hat folgende Einträge:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/KursteilnehmerView.png)
+![](img/320_KursteilnehmerView.png)

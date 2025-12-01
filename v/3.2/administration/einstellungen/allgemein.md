@@ -2,7 +2,7 @@
 
 Allgemeine Einstellungen
 
-![](img/Allgemein.png)
+![](img/320_Allgemein.png)
 
 ### Vereinsdaten
 

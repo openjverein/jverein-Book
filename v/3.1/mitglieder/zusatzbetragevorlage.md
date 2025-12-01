@@ -19,7 +19,7 @@ Der Übersicht View für Zusatzbeträge Vorlagen zeigt alle vorhandenen Zusatzbe
 
 Die Übersicht lässt sich über den Button Vorlagen in der Zusatzbeträge Liste aufrufen (siehe [Zusatzbeträge](zusatzbetrage.md)) .
 
-![](img/ZusatzBetraegeVorlageListeView.png)
+![](img/310_ZusatzBetraegeVorlageListeView.png)
 
 In der Tabelle werden folgende Spalten angezeigt:
 
@@ -43,4 +43,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/ZusatzBetragVorlageView.png)
+![](img/310_ZusatzBetragVorlageView.png)
