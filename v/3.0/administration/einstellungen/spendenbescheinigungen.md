@@ -1,6 +1,6 @@
 # Spendenbescheinigungen
 
-![](<img/Spendenbescheinigungen (1).png>)
+![](img/300_Spendenbescheinigungen.png)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 

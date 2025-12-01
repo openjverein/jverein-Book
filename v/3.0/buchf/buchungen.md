@@ -16,7 +16,7 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 
 In Der Buchungsliste bedeutet die Spalte "S" Splitbuchung, folgende Werte sind möglich "S" Slitbuchung, "H" Hautbuchung, "G" Gegenbuchung.
 
-![](img/BuchungenListeView.png)
+![](img/300_BuchungenListeView.png)
 
 Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können Buchungen bearbeitet werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF oder CSV Format wird durch einen Klick auf PDF/CSV angestoßen.
 
@@ -54,7 +54,7 @@ Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie
 
 Durch einen Klick auf auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
 
-![](img/SollbuchungZuordnungIst.png)
+![](img/300_SollbuchungZuordnungIst.png)
 
 Der Name aus der Buchung wird in das Namensfeld übernommen. Der Inhalt wird in Wörter zerlegt und in den Spalten Name und Vorname gesucht.
 
@@ -71,7 +71,7 @@ Es kann auch eine Buchung mehreren Sollbuchungen auf einmal zugeordnet werden, d
 
 Auf der zweiten Karte kann alternativ in einem Schritt automatisch zuerst eine (neue) Sollbuchung erzeugt werden und dieser dann sogleich die Istbuchung zugeordnet werden. So können z.B. Spenden bequem bei einem Mitglied oder Nicht-Mitglied verbucht werden.
 
-![](img/SollbuchungZuordnungSollIst.png)
+![](img/300_SollbuchungZuordnungSollIst.png)
 
 Hier kann nur nach dem Namen gefiltert werden.
 
@@ -81,7 +81,7 @@ In der zweiten Karte kann zusätzlich "Erlaube Teilstring Vergleich" an gehakt w
 
 In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Sollbuchungen vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Sollbuchungen eingeschränkt werden.
 
-![](img/AutomatischeSollbuchungZuordnung.png)
+![](img/300_AutomatischeSollbuchungZuordnung.png)
 
 Folgende Zuordnungsregeln bestehen:
 
@@ -93,10 +93,10 @@ Folgende Zuordnungsregeln bestehen:
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
-![](img/AutomatischeZuordnungBestaetigen.png)
+![](img/300_AutomatischeZuordnungBestaetigen.png)
 
 ## Buchung
 
-![](img/BuchungDialog.png)
+![](img/300_BuchungDialog.png)
 
 Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](../buchf/splittbuchungen.md)

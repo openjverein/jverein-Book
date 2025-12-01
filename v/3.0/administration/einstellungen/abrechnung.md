@@ -1,6 +1,6 @@
 # Abrechnung
 
-![](img/Abrechnung.png)
+![](img/300_Abrechnung.png)
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md)
 
@@ -14,7 +14,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](img/SepaSupportedVersions.png)
+![](img/300_SepaSupportedVersions.png)
 
 ## Verrechnungskonto für Lastschriften
 
