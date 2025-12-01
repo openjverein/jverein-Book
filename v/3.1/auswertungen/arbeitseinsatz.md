@@ -10,7 +10,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Arbeits
 
 Die Arbeitseinsätze können ausgewertet werden. Dabei werden Minder-, Normal- und Mehrleistungen überprüft:
 
-![](img/ArbeitsEinsaetzeView.png)
+![](img/310_ArbeitsEinsaetzeView.png)
 
 Die Daten in der Liste können entweder im PDF- oder CSV-Format ausgegeben werden. Die CSV-Daten können als Serienbriefdatenquelle mit beliebigen Textverarbeitungen z. B. zur Erzeugung von Mahnungen zur Erledigung der Arbeit verwendet werden. Weiterhin ist die Generierung von Zusatzbeträgen zur weiteren Abrechnung möglich.
 

@@ -10,7 +10,7 @@ Unter Abministration->Einstellungen->Abrechnung "Verechnungskonto für Lastschri
 
 Vor einer Abrechnung sollte die SEPA-Fehlerliste überprüft werden. In der Liste werden Mitglieder mit fehlenden oder ungültigen Bankverbindungen sowie Mandate angezeigt, die seit mehr als 36 Monaten nicht mehr genutzt wurden.
 
-![](img/SepaFehlerView.png)
+![](img/310_SepaFehlerView.png)
 
 ## Abrechnung
 
@@ -24,7 +24,7 @@ Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](abrech
 
 verarbeitet werden.
 
-![](img/AbrechnungView.png)
+![](img/310_AbrechnungView.png)
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhythmus eingezogen.
 

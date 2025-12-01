@@ -27,7 +27,7 @@ Zusätzlich kann angegeben werden, ob nur Sollbuchungen mit Differenzen zwischen
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat.
 
-![](img/SollbuchungenListeView.png)
+![](img/320_SollbuchungenListeView.png)
 
 Durch einen Doppelklick auf die Sollbuchung wird die Sollbuchung angezeigt.
 
@@ -49,7 +49,7 @@ Durch einen Rechtsklick auf einen Abrechnungslauf öffnet sich ein Kontextmenü 
 
 Mit einem Klick auf Neu öffnet sich folgender Dialog:
 
-![](img/SollbuchungNeuDialog.png)
+![](img/320_SollbuchungNeuDialog.png)
 
 Über diesen Dialog wird eine Sollbuchung und eine zugeordnete Sollbuchungsposition erzeugt.
 
@@ -66,7 +66,7 @@ PS: Datum und Zweck der Sollbuchungsposition werden automatisch von der Sollbuch
 
 Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
-![](img/SollbuchungView.png)
+![](img/320_SollbuchungView.png)
 
 Durch einen Doppelklick auf eine Sollbuchungsposition wird die Sollbuchungsposition angezeigt.
 
@@ -92,4 +92,4 @@ Mit Version 3.0.0 wurde auch das Feld Zahler eingeführt. Hier kann ein vom Mitg
 
 In diesem Dialog lassen sich die Felder der Sollbuchungsposition erzeugen.:
 
-![](img/SollbuchungpositionView.png)
+![](img/320_SollbuchungpositionView.png)

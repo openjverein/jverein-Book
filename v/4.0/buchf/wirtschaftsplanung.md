@@ -11,7 +11,7 @@ Damit die Änderung wirksam wird, starten Sie die Software anschließend neu.
 
 ## Liste der Wirtschaftspläne
 
-![](img/planung_list.png)
+![](img/400_planung_list.png)
 
 In dieser Übersicht werden alle bestehenden Wirtschaftspläne sowie die folgenden Kenndaten angezeigt:
 - Bezeichnung
@@ -39,7 +39,7 @@ In der Übersicht sehen Sie die folgenden Kenndaten, die Sie bei Bedarf anpassen
 
 ## Baumansicht der Planungsdaten
 
-![](img/planung_tree.png)
+![](img/400_planung_tree.png)
 
 Die Planungsdaten werden in einer Baumansicht angezeigt. Zur besseren Übersicht sind sie in Einnahmen und Ausgaben unterteilt. Die Zuordnung erfolgt gemäß der Definition der Buchungsarten. Da sich Umbuchungen gegenseitig aufheben, können sie nicht in die Planung aufgenommen werden.
 Die Baumansicht besteht aus drei Ebenen, die der Buchführungsstruktur von OpenJVerein entsprechen.
