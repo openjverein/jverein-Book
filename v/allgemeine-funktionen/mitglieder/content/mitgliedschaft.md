@@ -4,7 +4,7 @@ Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsg
 
 Standardaussehen des Formulars:
 
-![](<img/MitgliedschaftTab (1).png>)
+![](img/MitgliedschaftTab.png)
 
 In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
 
@@ -12,7 +12,7 @@ In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsda
 
 Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechnet werden. Dazu muss unter Administration->Einstellungen->Anzeige das Häkchen bei "sekundäre Beitragsgruppen anzeigen" gesetzt werden und unter Administration->Beitragsgruppen muss für mindestens eine Beitragsgruppe das Häkchen "sekundäre Beitragsgruppe" gesetzt werden. Dann kann beim Mitglied eine entsprechende Auswahl vorgenommen werden.
 
-![](<img/SekundaereBeitragsGruppen (1).png>)
+![](img/SekundaereBeitragsGruppen.png)
 
 ## Familienverband
 
@@ -40,7 +40,7 @@ Hier kann man Beitragsgruppen eintragen, die für dieses Mitglied ab einem defin
 
 Bei Programmstart wird geprüft, ob das Datum für eine Änderung der Beitragsgruppe erreicht wurde. Alle zu ändernden Mitglieder werden in einer Liste angezeigt und es können die neuen Beitragsgruppen für ausgewählte Mitglieder oder alle angezeigten übernommen werden. Damit die Daten angezeigt werden, ist einmal die Box "künftige Beitragsgruppen" zu aktivieren:
 
-![](<img/Boxactivate (1).png>)
+![](img/Boxactivate.png)
 
 Hinweis: Die Box ist nur sichtbar, wenn im Menü "Start" ausgewählt wurde.
 

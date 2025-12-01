@@ -16,7 +16,7 @@ Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der A
 
 Mit einem Rechtsklick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-![](<img/AbrechnungslaufListeView (1).png>)
+![](img/AbrechnungslaufListeView.png)
 
 ## Aufruf der Pre-Notification Funktion über Druck & Mail
 
@@ -42,7 +42,7 @@ Diese Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. D
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](<img/PrenotificationDruckMailView1 (1).png>)
+![](img/PrenotificationDruckMailView1.png)
 
 ### Schriftliche Pre-Notification an alle Mitglieder
 
@@ -107,7 +107,7 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
 
-![](<img/Prenotification1ctErstellung (1).png>)
+![](img/Prenotification1ctErstellung.png)
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart (Datei oder Hibiscus) und das Ausführungsdatum eingestellt werden.
 
