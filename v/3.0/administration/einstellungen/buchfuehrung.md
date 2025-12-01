@@ -1,6 +1,6 @@
 # Buchführung
 
-![](img/Buchfuehrung.png)
+![](img/300_Buchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 
