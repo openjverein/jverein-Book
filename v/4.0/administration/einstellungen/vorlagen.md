@@ -6,7 +6,7 @@ Für die Generierung von Dateinamen, Report Titel und Subtitel existieren Vorlag
 
 In der Liste sind alle Dateien enthalten die aktuell von JVerein generiert werden können. Es sind jeweils bereits Dateinamen vorbelegt die vom Anwender angepasst werden können. Hierfür stehen alle Variablen zur Verfügung die auch in den Dokumenten platziert werden können. Zusätzlich sind die Parameter aus den Filter bzw. Parameter Bereichen, aus den Ansichten aus denen das Dokument generiert, wird verfügbar.
 
-![](img/400_Vorlagen.png)
+![](img/400_EinstellungenVorlagen.png)
 
 Über einen Doppel Klick oder den Menüeintrag "Bearbeiten" lässt sich eine Vorlage bearbeiten.
 
