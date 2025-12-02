@@ -1,6 +1,6 @@
 # Spendenbescheinigungen
 
-![](img/Spendenbescheinigungen.png)
+![](../../../../assets/Spendenbescheinigungen.png)
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 

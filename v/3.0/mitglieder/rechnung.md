@@ -31,7 +31,7 @@ Es gibt eine zentrale Übersicht über alle Rechnungen. Die Rechnungen können �
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat. Letzteres ist interessant wenn die Rechnungen per Mail versendet werden sollen.
 
-![](img/300_RechnungenListeView.png)
+![](../../../assets/300_RechnungenListeView.png)
 
 Durch einen Doppelklick auf die Rechnung wird die Rechnung angezeigt.
 
@@ -47,7 +47,7 @@ Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehr
 
 Mit einem Doppelklick auf die Rechnung oder Klick auf Anzeigen wird die Rechnung angezeigt.
 
-![](img/300_RechnungView.png)
+![](../../../assets/300_RechnungView.png)
 
 Folgende Buttons stehen zu Verfügung:
 

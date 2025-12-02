@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Rechnun
 
 ### Konfiguration
 
-![](img/400_Rechnungen.png)
+![](../../../../assets/320_Rechnungen.png)
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden. Außerdem sind weiter Variablen möglich. Siehe [Variablen](../../../../sonstiges/variable.md).
 

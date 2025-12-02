@@ -1,6 +1,6 @@
 # Rechnungen
 
-![](img/Rechnungen.png)
+![](../../../../assets/Rechnungen.png)
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden.
 

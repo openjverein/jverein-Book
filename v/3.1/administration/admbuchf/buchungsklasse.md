@@ -8,7 +8,7 @@ Die Buchungsklassen dienen dazu die einzelnen Buchungsarten entsprechend den ste
 
 Eine Liste der Buchungsklassen kann über den Eintrag Buchungsklassen im Navigationsbaum angezeigt werden.
 
-![](img/310_BuchungsklassenListeView .png)
+![](../../../../assets/310_BuchungsklassenListeView .png)
 
 Über den Neu Button können neue Buchungsklassen erzeugt werden.
 
@@ -18,4 +18,4 @@ Eine Liste der Buchungsklassen kann über den Eintrag Buchungsklassen im Navigat
 
 Bei der Erstellung einer neuen Buchungsklasse erscheint folgende Anzeige.
 
-![](img/310_Buchungsklasse.png)
+![](../../../../assets/310_Buchungsklasse.png)

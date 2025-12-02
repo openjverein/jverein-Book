@@ -2,4 +2,4 @@
 
 Mit der Statistik Jahrgänge werden die Mitglieder nach Geburtsjahrgängen gezählt. Dabei gibt es eine Unterscheidung nach Geschlecht. Die Ausgabe ist im PDF- und im CSV-Format möglich.
 
-![](img/400_JahrgaengeStatistikView.png)
+![](../../../assets/320_JahrgaengeStatistikView.png)

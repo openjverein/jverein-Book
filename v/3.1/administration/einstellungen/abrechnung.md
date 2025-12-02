@@ -1,6 +1,6 @@
 # Abrechnung
 
-![](img/310_Abrechnung.png)
+![](../../../../assets/310_Abrechnung.png)
 
 ## Beitragsmodell
 

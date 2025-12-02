@@ -12,4 +12,4 @@ Neben den Mitgliedern können auch Nicht-Mitglieder ausgewertet werden.
 
 Die Funktionalität ist wie bei den [Mitgliedern](auswertung-mitglieder.md) allerdings mit weniger Filter Attributen.
 
-![](img/400_NichtMitgliederView.png)
+![](../../../assets/320_NichtMitgliederView.png)

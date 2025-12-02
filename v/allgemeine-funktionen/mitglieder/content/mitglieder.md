@@ -26,7 +26,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ## Liste der Mitglieder
 
-![](img/MitgliedListeView.png)
+![](../../../../assets/MitgliedListeView.png)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
@@ -54,17 +54,17 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](img/EigenschaftenFilterDialog.png)
+![](../../../../assets/EigenschaftenFilterDialog.png)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](img/ZusatzfelderFilterDialog.png)
+![](../../../../assets/ZusatzfelderFilterDialog.png)
 
 ## Kontextmenu
 
-![](img/MitgliedMenu.png)
+![](../../../../assets/MitgliedMenu.png)
 
 ### Bearbeiten
 
@@ -92,19 +92,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](img/EigenschaftenAuswahlDialog.png)
+![](../../../../assets/EigenschaftenAuswahlDialog.png)
 
 ### Arbeitseinsätze zuweisen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](img/ArbeitseinsatzDialog.png)
+![](../../../../assets/ArbeitseinsatzDialog.png)
 
 ### Zusatzbeträge zuweisen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](img/ZusatzbetragDialog.png)
+![](../../../../assets/ZusatzbetragDialog.png)
 
 ### Zu Nicht-Mitglied umwandeln
 

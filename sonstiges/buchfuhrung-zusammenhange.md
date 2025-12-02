@@ -65,7 +65,7 @@ Diese Liste stellt entsprechend auch die Basis für die Kassenprüfung dar. Die 
 
 Somit ist der Jahresendbestand definiert und im nächsten Schritt können die Einnahmen und Ausgaben kontrolliert werden. Dazu dient das Buchungsjournal \(siehe nächstes Kapitel\).
 
-![](img/640px-bf-listejahressaldo.png)
+![](../assets/640px-bf-listejahressaldo.png)
 
 Hinweis: Da auf der "Jahressaldo-Liste" die wichtigsten Zahlenwerte stehen und diese zur nächsten Kassenprüfung im Folgejahr wieder benötigt werden, ist es sinnvoll, am Ende der Kassenprüfung exakt auf dieser Liste die Kassenprüfer mit Unterschrift bestätigen zu lassen, dass die Kasse geprüft wurde und alles in Ordnung ist. Damit ist gewährleistet, dass die Kassenprüfer im Folgejahr auch die richtigen Anfangsbestände verwenden!
 
@@ -73,7 +73,7 @@ Hinweis: Da auf der "Jahressaldo-Liste" die wichtigsten Zahlenwerte stehen und d
 
 Das "Buchungsjournal" \(Navigation: Buchführung =&gt; Buchungen =&gt; PDF Buchungsjournal\) ist die zentrale Liste mit der die komplette Kasse überprüft werden kann, da die gesamte Arbeit damit abgebildet wird.
 
-![](img/640px-bf-listebuchungsjournal.png)
+![](../assets/640px-bf-listebuchungsjournal.png)
 
 Um die Vollständigkeit zu gewährleisten sind nur folgende Selektionen der Buchungen erlaubt, die entsprechend in der Überschrift der Liste erscheinen:
 
@@ -100,7 +100,7 @@ Am Ende der Liste stehen die Summen für Einnahmen, Ausgaben und Umbuchungen. Di
 
 Die "Buchungsartenliste-Summen" \(Navigation: Buchführung =&gt; Buchungen =&gt; PDF Summen\) dient dazu einen Gesamtüberblick über die finanzielle Situation zu erhalten, um z.B. einen Kassenbericht anzufertigen.
 
-Entsprechend wird auch am Ende dieser Liste die Summen getrennt nach Einnahmen, Ausgaben und Umbuchungen aufgeführt. ![](img/640px-bf-listebuchungsartensummen.png)
+Entsprechend wird auch am Ende dieser Liste die Summen getrennt nach Einnahmen, Ausgaben und Umbuchungen aufgeführt. ![](../assets/640px-bf-listebuchungsartensummen.png)
 
 ### Buchungsartenliste \(Einzelbuchungen\)
 
@@ -108,7 +108,7 @@ Die "Buchungsartenliste-Einzelbuchungen" \(Navigation: Buchführung =&gt; Buchun
 
 Deshalb werden entsprechend der Selektion nur die relevanten Buchungen gruppiert nach den Kostenarten und mit den gesamten Informationen \(Name, Zahlungsgrund, Zahlungsgrund2\) dargestellt.
 
-![](img/640px-bf-listebuchungen.png)
+![](../assets/640px-bf-listebuchungen.png)
 
 ### Buchungsklassenliste
 

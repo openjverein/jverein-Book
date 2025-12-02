@@ -2,7 +2,7 @@
 
 Allgemeine Einstellungen
 
-![](img/320_Allgemein.png)
+![](../../../../assets/320_Allgemein.png)
 
 ### Vereinsdaten
 

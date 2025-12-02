@@ -6,7 +6,7 @@ In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbeschein
 
 ## Liste der Formulare
 
-![](img/400_Formulare.png)
+![](../../../../assets/320_Formulare.png)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](img/400_Formular.png)
+![](../../../../assets/320_Formular.png)
 
 ## Formular Attribute
 
@@ -103,7 +103,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](img/400_Formularfeld.png)
+![](../../../../assets/400_Formularfeld.png)
 
 ### Name
 
@@ -157,14 +157,14 @@ Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter
 
 Einfache Standardrechnung:
 
-{% file src="img/400_rechnung-standard.xml" %}
+{% file src="../../../../assets/320_rechnung-standard.xml" %}
 Einfache Standardrechnung
 {% endfile %}
 
-![](img/400_rechnung-standard.png)
+![](../../../../assets/320_rechnung-standard.png)
 
 ## Beispiele
 
-![](img/400_Formularroh.jpg)
+![](../../../../assets/320_Formularroh.jpg)
 
-![](img/400_Formularausgefuellt.jpg)
+![](../../../../assets/320_Formularausgefuellt.jpg)

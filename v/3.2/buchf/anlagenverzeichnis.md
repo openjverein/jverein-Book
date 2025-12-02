@@ -19,7 +19,7 @@ Die Liste zeigt unter anderem:
 * Zugänge und Abgänge im Geschäftsjahr
 * Getätigte Abschreibungen im Geschäftsjahr
 
-![](img/320_AnlagenverzeichnisView.png)
+![](../../../assets/320_AnlagenverzeichnisView.png)
 
 Der Inhalt der Tabelle lässt sich über die entsprechenden Buttons als PDF und CSV exportieren.
 

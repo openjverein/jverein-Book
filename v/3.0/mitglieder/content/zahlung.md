@@ -1,6 +1,6 @@
 # Zahlung
 
-![](img/300_ZahlungTab.png)
+![](../../../../assets/300_ZahlungTab.png)
 
 Als Zahlungswege stehen
 

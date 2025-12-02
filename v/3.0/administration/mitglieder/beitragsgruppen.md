@@ -6,7 +6,7 @@ Es muss mindestens eine Beitragsgruppe erfasst werden.
 
 ## Liste der Beitragsgruppen
 
-![](img/300_Beitragsgruppen.png)
+![](../../../../assets/300_Beitragsgruppen.png)
 
 Mit Neu kann eine neue Beitragsgruppe eingerichtet werden.
 
@@ -19,7 +19,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Beitragsgruppe
 
-![](img/300_Beitragsgruppe.png)
+![](../../../../assets/300_Beitragsgruppe.png)
 
 ### Bezeichnung
 

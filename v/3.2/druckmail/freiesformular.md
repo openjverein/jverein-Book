@@ -2,7 +2,7 @@
 
 Um freie Formulare zu drucken oder per Mail zu verschicken wählen Sie im Navigations Baum dem Menü Eintrag "Freie Formulare" aus. Es öffnet sich folgender Dialog.
 
-![](img/320_FreieFormulareDruckMailView.png)
+![](../../../assets/320_FreieFormulareDruckMailView.png)
 
 Im Filter Bereich lässt sich einstellen für welche Mitglieder bzw. Nicht-Mitglieder freie Formulare gedruckt oder verschickt werden sollen.
 

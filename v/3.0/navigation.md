@@ -4,4 +4,4 @@ Das Navigationsmenü kann je nach aktivierten Programmfunktionen mehr oder wenig
 
 Beispiel für die Navigation:
 
-![](img/300_Navigation1.png) ![](img/300_Navigation2.png) ![](img/300_Navigation3.png)
+![](../../assets/300_Navigation1.png) ![](../../assets/300_Navigation2.png) ![](../../assets/300_Navigation3.png)

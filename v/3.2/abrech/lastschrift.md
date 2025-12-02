@@ -6,7 +6,7 @@ Entsprechend der Abbuchungsausgabe wurden diese entweder an Hibiscus übergeben 
 
 ## Liste der Lastschriften
 
-![](img/320_LastschriftenListeView.png)
+![](../../../assets/320_LastschriftenListeView.png)
 
 Die Lastschriften lassen sich in dem View nach verschiedenen Kriterien filtern. Mit dem Filter Mitgliedschaft lässt sich nach Mitglieder, Nicht-Mitglieder oder Kursteilnehmer filtern.
 
@@ -29,4 +29,4 @@ Auch sollten Lastschriften der letzten 3 Jahre nicht gelöscht werden, da für d
 
 ## Lastschrift
 
-![](img/320_LastschriftView.png)
+![](../../../assets/320_LastschriftView.png)

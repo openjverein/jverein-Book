@@ -12,6 +12,6 @@ Im Prinzip gibt es hier die gleichen Funktionen wie auch im Buchungen View, alle
 
 Ist unter Administration->Einstellungen->Anzeige eingestellt, dass die AfA Buchungen über den Button in diesem View erzeugt werden sollen, dann ist hier der entsprechende Button verfügbar.
 
-![](img/310_AnlagenbuchungenListeView.png)
+![](../../../assets/310_AnlagenbuchungenListeView.png)
 
 Für eine Beschreibung der Behandlung von Anlagenkonten siehe [Konten](konten.md).

@@ -25,8 +25,8 @@ Die Nicht-Mitglieder können erstellt werden
 
 Ein Nicht-Mitglied kann bei Bedarf später in ein Mitglied umgewandelt werden: In der Liste rechte Maustaste und dann "Zu Mitglied umwandeln".
 
-![](img/NichtMitgliedListeView.png)
+![](../../../assets/NichtMitgliedListeView.png)
 
 ## Nicht-Mitglied
 
-![](img/NichtMitgliedView.png)
+![](../../../assets/NichtMitgliedView.png)

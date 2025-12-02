@@ -12,7 +12,7 @@ Das Mittelverwendungssaldo zeigt Mittelzufluss und Mittelabfluss aller Buchungsk
 
 Während der Buchungsklassensaldo View eine Einnahmen/Überschussrechnung nach steuerlichen Vorgaben ist, ist dieser View als Unterstützung zum Zufluss basierten Mittelverwendungsreport gedacht. Im Zufluss basierten Mittelverwendungsreport steht die Summe der im GJ insgesamt zugeflossenen und verwendeten Mittel. Dieser View zeigt auf Buchungsart Ebene wie diese Summe zusammen gesetzt ist.
 
-![](img/320_MittelverwendungSaldoView.png)
+![](../../../assets/320_MittelverwendungSaldoView.png)
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 

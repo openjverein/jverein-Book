@@ -1,6 +1,6 @@
 # Mitglieder Spalten
 
-![](img/Mitgliederspalten.png)
+![](../../../../assets/Mitgliederspalten.png)
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
 

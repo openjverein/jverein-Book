@@ -25,7 +25,7 @@ Der Übersicht View für Lehrgänge zeigt alle vorhandenen Lehrgänge an.
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](img/400_LehrgaengeListeView.png)
+![](../../../assets/320_LehrgaengeListeView.png)
 
 Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
 
@@ -41,4 +41,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/400_LehrgangView.png)
+![](../../../assets/320_LehrgangView.png)

@@ -16,4 +16,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Jahresabschlüsse
 * Mails
 
-![](img/300_Bereinigung.png)
+![](../../../../assets/300_Bereinigung.png)
