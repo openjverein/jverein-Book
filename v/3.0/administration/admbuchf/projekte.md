@@ -12,7 +12,7 @@ Unter Administration->Buchführung->Projekte werden die Projekte angelegt bzw. b
 
 ## Liste der Projekte
 
-![](img/300_ProjekteListeView.png)
+![](../../../../assets/300_ProjekteListeView.png)
 
 Mit neu kann ein neues Projekt eingerichtet werden.
 
@@ -25,7 +25,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Projekt
 
-![](img/300_ProjektView.png)
+![](../../../../assets/300_ProjektView.png)
 
 ## Auswertung
 

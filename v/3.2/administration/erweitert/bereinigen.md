@@ -16,4 +16,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Abrechnungsläufe
 * Mails
 
-![](img/320_Bereinigung.png)
+![](../../../../assets/320_Bereinigung.png)

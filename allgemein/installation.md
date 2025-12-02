@@ -10,7 +10,7 @@ Beim ersten Start der neuen Version wird die Datenbank an die neuen Strukturen a
 
 Sofern noch keine Plugins installiert sind, erscheint folgende Meldung:
 
-![](img/install1.png)
+![](../assets/install1.png)
 
 ## Hibiscus-Installation
 
@@ -18,17 +18,17 @@ Datei \| Plugins online suchen
 
 Sofern Hibiscus erstmalig installiert wird und das Zertifikat bislang noch nicht akzeptiert wurde, erscheint folgende Meldung, die mit "ja" zu bestätigen ist:
 
-![](img/install2.png)
+![](../assets/install2.png)
 
-![](img/install3.png)
+![](../assets/install3.png)
 
 Passende Hibiscus-Version anklicken und "Herunterladen und installieren" anklicken.
 
-![](img/install4.png)
+![](../assets/install4.png)
 
 "Ja" anklicken
 
-![](img/install5.png)
+![](../assets/install5.png)
 
 Passenden Plugin-Ordner auswählen. Wichtig! Eine einmal getroffene Auswahl sollte beibehalten werden.
 
@@ -42,19 +42,19 @@ Wichtig! Wenn mit Jameica &lt; 2.10.3 gearbeitet wird, ist das aktuelle JVerein-
 
 Anschließend das neu angelgete OpenJVerein-Repository auswählen:
 
-![](img/install6.png)
+![](../assets/install6.png)
 
 Passende JVerein-Version auswählen und "Installieren..." anklicken.
 
-![](img/install7.png)
+![](../assets/install7.png)
 
 "Ja" anklicken.
 
-![](img/install8.png)
+![](../assets/install8.png)
 
 "Ja" anklicken.
 
-![](img/install9.png)
+![](../assets/install9.png)
 
 Passenden Plugin-Ordner auswählen. Wichtig! Eine einmal getroffene Auswahl sollte beibehalten werden.
 

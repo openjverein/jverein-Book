@@ -4,7 +4,7 @@ Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelösch
 
 ## Liste der Abrechnungsläufe
 
-![](img/300_AbrechnungslaufListeView.png)
+![](../../../assets/300_AbrechnungslaufListeView.png)
 
 Folgende Menü Einträge sind vorhanden:
 
@@ -25,4 +25,4 @@ Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
-![](img/300_AbrechnungslaufView.png)
+![](../../../assets/300_AbrechnungslaufView.png)

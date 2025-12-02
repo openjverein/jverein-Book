@@ -8,7 +8,7 @@
 
 Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigationsbaum angezeigt werden.
 
-![](img/BuchungsartenListeView.png)
+![](../../../../assets/BuchungsartenListeView.png)
 
 Über den Neu Button können neue Buchungsarten erzeugt werden.
 
@@ -16,13 +16,13 @@ Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigations
 
 Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
-![](img/Buchungsartenpdf.png)
+![](../../../../assets/Buchungsartenpdf.png)
 
 ## Buchungsart
 
 Mit Neu kann eine neue Buchungsart eingerichtet werden. Jeder Buchungsart wird eine Nummer zugeordnet. Diese Nummer dient der Sortierung in der Buchungsliste. Z. B. werden den Einnahmen die 1.000er Nummern, den Ausgaben die 2.000er und den Umbuchungen die 3.000er gegeben.
 
-![](img/Buchungsart.png)
+![](../../../../assets/Buchungsart.png)
 
 Eine Buchungsart hat folgende Parameter:
 

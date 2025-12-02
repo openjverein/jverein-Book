@@ -1,6 +1,6 @@
 # Buchführung
 
-![](img/320_Buchfuehrung.png)
+![](../../../../assets/320_Buchfuehrung.png)
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 

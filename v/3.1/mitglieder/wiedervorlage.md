@@ -23,7 +23,7 @@ Der Übersicht View für Wiedervorlagen zeigt alle vorhandenen Wiedervorlagen an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](img/310_WiedervorlageListeView.png)
+![](../../../assets/310_WiedervorlageListeView.png)
 
 Mit dem Button Neu kann eine neue Wiedervorlage eingerichtet werden.
 
@@ -41,6 +41,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](img/310_WiedervorlageView.png)
+![](../../../assets/310_WiedervorlageView.png)
 
 Die Wiedervorlage Termine werden auch im Jameica-Kalender angezeigt.

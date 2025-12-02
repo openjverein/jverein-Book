@@ -2,4 +2,4 @@
 
 Die Kursteilnehmer können nach Abbuchungsdatum selektiert werden. Die Ausgabe erfolgt im PDF-Format.
 
-![Auswertung Kursteilnehmer](img/310_AuswertungKursteilnehmerView.png)
+![Auswertung Kursteilnehmer](../../../assets/310_AuswertungKursteilnehmerView.png)

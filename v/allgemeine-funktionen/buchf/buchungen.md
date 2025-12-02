@@ -13,7 +13,7 @@ Die im System gespeicherten Buchungen können nach folgenden Kriterien selektier
 * Enthaltener Text
 * Mitglied zugeordnet
 
-![](img/BuchungenListeView.png)
+![](../../../assets/BuchungenListeView.png)
 
 Mit einem Doppelklick auf eine Buchung wird die Detailansicht zur Bearbeitung geöffnet. Mit einem rechten Mausklick öffnet sich ein Kontextmenü. Damit können Buchungen bearbeitet werden und bestehende Buchungen gelöscht werden. Der Export der Daten ins PDF oder CSV Format wird durch einen Klick auf PDF/CSV angestoßen.
 
@@ -49,7 +49,7 @@ Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie
 
 In der Ansicht Buchführung -> Buchungen gibt es den Button "Zuordnung", mit dem eine automatische Zuordnung von Buchungen zu Sollbuchungen vorgenommen werden kann. Diese kann auf Basis einer eindeutigen IBAN, der Mitgliedsnummer im Verwendungszweck und/oder den eindeutigen Vor- und Nachname im Verwendungszweck vorgenommen werden. Über das Start- und Enddatum kann der Suchbereich von aktiven Mitgliedern, Buchungen und Sollbuchungen eingeschränkt werden.
 
-![](img/AutomatischeSollbuchungZuordnung.png)
+![](../../../assets/AutomatischeSollbuchungZuordnung.png)
 
 Folgende Zuordnungsregeln bestehen:
 
@@ -61,10 +61,10 @@ Folgende Zuordnungsregeln bestehen:
 
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
-![](img/AutomatischeZuordnungBestaetigen.png)
+![](../../../assets/AutomatischeZuordnungBestaetigen.png)
 
 ## Buchung
 
-![](img/BuchungDialog.png)
+![](../../../assets/BuchungDialog.png)
 
 Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](../buchf/splittbuchungen.md)

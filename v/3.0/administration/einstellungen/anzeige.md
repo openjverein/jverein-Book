@@ -1,6 +1,6 @@
 # Anzeige
 
-![](img/300_Anzeige.png)
+![](../../../../assets/300_Anzeige.png)
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 
