@@ -57,6 +57,17 @@ Folgende Menü Einträge sind vorhanden:
 
 Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
 
+## Buchung
+
+Durch einen Klick auf auf den Button "Neu" kann eine neue Buchung erstellt werden.
+
+![](../../../assets/320_BuchungDialog.png)
+
+Falls es sich bei der Buchung um eine Geldspende um einen Verzicht auf Aufwendungen handelt, ist die entsprechende Checkbox zu selektieren.
+
+Handelt es sich bei der Buchung um eine Sachspende so sind die entsprechenden Angaben in der Buchung zu machen.
+
+
 ## Zuordnung einer Buchung zu einer Sollbuchung
 
 Durch einen Klick auf auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
@@ -101,9 +112,5 @@ Folgende Zuordnungsregeln bestehen:
 Nach der Suche wird ein Dialog angezeigt, der die Zuordnungen dem Nutzer präsentiert. Dieser kann diese Zuordnungen auf Wunsch dann persistieren lassen.
 
 ![](../../../assets/320_AutomatischeZuordnungBestaetigen.png)
-
-## Buchung
-
-![](../../../assets/320_BuchungDialog.png)
 
 Siehe auch [Sollbuchungen](../mitglieder/mitgliedskonto.md), [Splittbuchungen](splittbuchungen.md)

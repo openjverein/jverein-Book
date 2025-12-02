@@ -86,12 +86,13 @@ Die Konfiguration für den abweichenden Zahler wurde jetzt in der 4.0 neu implem
 * Der Dialog erlaubt es auch nur einzelne Attribute zu setzen und andere unmodifiziert zu lassen
 * Der extra Dialog zu setzen der Steuer wurde entfernt
 
-### Spalte Mandat-Id in Mitglieder Liste aufgenommen
+### 
 
-* Die Spalte Mandat-Id wurde in die Mitglieder Liste aufgenommen
+* 
 
 
 
 ## Sonstiges
 
-* 
+* Die Spalte Mandat-Id wurde in die Mitglieder Liste aufgenommen
+
