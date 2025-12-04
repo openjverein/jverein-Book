@@ -1,6 +1,6 @@
 # Spendenbescheinigungen
 
-![](../../../../assets/300_Spendenbescheinigungen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_Spendenbescheinigungen.png" alt="" /></picture>
 
 Hier können die Werte zur Erstellung von Spendenbescheinigungen eingestellt werden.
 

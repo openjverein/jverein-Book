@@ -10,7 +10,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Umsatzs
 
 Des Umsatzsteuer Voranmeldung View listet die nach Steuer Name angefallenen Beträge und Steuern für ein Geschäftsjahr oder einen frei wählbaren Zeitraum auf. Zusätzlich werden die steuerfreien Umsätze gelistet.
 
-![](../../../assets/320_UmsatzsteuerVoranmeldungView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_UmsatzsteuerVoranmeldungView.png" alt="" /></picture>
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 

@@ -6,7 +6,7 @@ In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbeschein
 
 ## Liste der Formulare
 
-![](../../../../assets/Formulare.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Formulare.png" alt="" /></picture>
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -25,7 +25,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](../../../../assets/Formular.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Formular.png" alt="" /></picture>
 
 ## Formular Attribute
 
@@ -86,7 +86,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](../../../../assets/Formularfeld.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Formularfeld.png" alt="" /></picture>
 
 ### Name
 
@@ -209,9 +209,9 @@ Folgende Formularfelder stehen für die PreNotification zur Verfügung:
 
 ## Beispiele
 
-![](../../../../assets/Formularroh.jpg)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Formularroh.jpg" alt="" /></picture>
 
-![](../../../../assets/Formularausgefuellt.jpg)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Formularausgefuellt.jpg" alt="" /></picture>
 
 ## Freie Formulare
 

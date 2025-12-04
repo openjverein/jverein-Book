@@ -14,13 +14,13 @@ Diese erscheinen beim Mitglied unter Reiter "Zusatzfelder".
 
 Zusätzlich lassen sie sich in der Tabelle der Mitgliederliste anzeigen. Dazu sind die entsprechenden Mitgliedern Spalten in den [Einstellungen](../einstellungen/spalten.md) zu aktivieren.
 
-![](../../../../assets/320_Mitgliedzusatzfelder.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Mitgliedzusatzfelder.png" alt="" /></picture>
 
 Eingerichtet werden solche Zusatzfelder unter JVerein->Administration->Zusatzfelder
 
 ### Liste der Zusatzfelder
 
-![](../../../../assets/320_Zusatzfelder.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Zusatzfelder.png" alt="" /></picture>
 
 Mit Neu kann ein neues Zusatzfeld eingerichtet werden.
 
@@ -35,7 +35,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Durch einen Klick auf neu öffnet sich folgendes Fenster:
 
-![](../../../../assets/320_Zusatzfeld.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Zusatzfeld.png" alt="" /></picture>
 
 Der Name des Feldes kann auch den Zeichen a-z und 0-9 und \_ (Unterstrich) bestehen. Er darf keine Leerzeichen enthalten und sich nicht mit existierenden Feldnamen überschneiden. Als Label kann ein beliebiger Begriff verwendet werden, der bei der Eingabe der Daten den Feld vorangestellt wird.
 

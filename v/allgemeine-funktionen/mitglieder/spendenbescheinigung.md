@@ -34,7 +34,7 @@ Der Filterbereich erlaubt es nach verschiedenen Kriterien zu filtern.
 
 Über den Filter "Mail" lassen sich z.B. Spendenbescheinigungen finden für deren Spender keine Mail Adressen hinterlegt sind. Diese können dann nicht per Mail verschickt werden sondern nur per Brief.
 
-![](../../../assets/SpendenbescheinigungenListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/SpendenbescheinigungenListeView.png" alt="" /></picture>
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -59,7 +59,7 @@ Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge a
 
 Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../assets/SpendenbescheinigungView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/SpendenbescheinigungView.png" alt="" /></picture>
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -74,10 +74,10 @@ Sachspendenbescheinigungen können auf verschiedene Art erzeugt werden:
 
 *   In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Sachspendenbescheinigung auswählen. Es wird das Spendenbescheinigung Formular mit den Daten des Mitglieds gefüllt.
 
-    ![](../../../assets/MitgliedMenue.png)
+    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MitgliedMenue.png" alt="" /></picture>
 *   Alternativ kann im Mitglieds View unter dem Tab Mitgliedskonto das Mitglied ausgewählt werden. Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigungen zu erstellen. Es wird das Spendenbescheinigung Formular mit den Daten des Mitglieds gefüllt.
 
-    ![](../../../assets/MitgliedskontoMenue.png)
+    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MitgliedskontoMenue.png" alt="" /></picture>
 * Als dritte Möglichkeit kann in der Liste Spendenbescheinigungen der Button "Neu (Sachspende)" gedrückt werden. Da hier kein Mitglied ausgewählt ist müssen die Daten des Spenders eingetragen werden. Es ist zu beachten, dass dabei kein Bezug zu einem Mitglied hergestellt wird und darum z.B. ein Versenden per Mail aus JVerein heraus später nicht möglich ist da keine Mail Adresse hinterlegt ist.
 
 ### Spendenbescheinigung für Aufwandsspenden, Vergütungsspenden (Rückspende) und Leistungsspenden erstellen
@@ -113,7 +113,7 @@ Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiedene Arten erz
 
 *   Im Mitglieds View unter dem Tab Mitgliedskonto eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Geldspendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum.
 
-    ![](../../../assets/MitgliedskontoMenue.png)
+    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MitgliedskontoMenue.png" alt="" /></picture>
 
 #### Geldspendenbescheinigung automatisch erstellen
 
@@ -130,13 +130,13 @@ Geldspendenbescheinigungen können automatisch auf mehrere Arten erzeugt werden:
 
 *   In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Geldspendenbescheinigung auswählen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die erste Buchung bestimmt das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen.
 
-    ![](../../../assets/MitgliedMenue.png)
+    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MitgliedMenue.png" alt="" /></picture>
 *   Alternativ kann im Mitglieds View unter dem Tab Mitgliedskonto das Mitglied ausgewählt werden. Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigungen zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die erste Buchung bestimmt das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen.
 
-    ![](../../../assets/MitgliedskontoMenue.png)
+    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MitgliedskontoMenue.png" alt="" /></picture>
 *   In der Übersicht über Spendenbescheinigungen können über den Button "Neu (Automatisch)" Geldspendenbescheinigungen generiert werden.
 
-    ![](../../../assets/SpendenbescheinigungAutoView.png)
+    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/SpendenbescheinigungAutoView.png" alt="" /></picture>
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen (Einzel / Sammel) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 

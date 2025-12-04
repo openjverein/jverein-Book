@@ -10,7 +10,7 @@ Beim ersten Start der neuen Version wird die Datenbank an die neuen Strukturen a
 
 Sofern noch keine Plugins installiert sind, erscheint folgende Meldung:
 
-![](../assets/install1.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install1.png" alt="" /></picture>
 
 ## Hibiscus-Installation
 
@@ -18,17 +18,17 @@ Datei \| Plugins online suchen
 
 Sofern Hibiscus erstmalig installiert wird und das Zertifikat bislang noch nicht akzeptiert wurde, erscheint folgende Meldung, die mit "ja" zu bestätigen ist:
 
-![](../assets/install2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install2.png" alt="" /></picture>
 
-![](../assets/install3.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install3.png" alt="" /></picture>
 
 Passende Hibiscus-Version anklicken und "Herunterladen und installieren" anklicken.
 
-![](../assets/install4.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install4.png" alt="" /></picture>
 
 "Ja" anklicken
 
-![](../assets/install5.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install5.png" alt="" /></picture>
 
 Passenden Plugin-Ordner auswählen. Wichtig! Eine einmal getroffene Auswahl sollte beibehalten werden.
 
@@ -42,19 +42,19 @@ Wichtig! Wenn mit Jameica &lt; 2.10.3 gearbeitet wird, ist das aktuelle JVerein-
 
 Anschließend das neu angelgete OpenJVerein-Repository auswählen:
 
-![](../assets/install6.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install6.png" alt="" /></picture>
 
 Passende JVerein-Version auswählen und "Installieren..." anklicken.
 
-![](../assets/install7.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install7.png" alt="" /></picture>
 
 "Ja" anklicken.
 
-![](../assets/install8.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install8.png" alt="" /></picture>
 
 "Ja" anklicken.
 
-![](../assets/install9.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install9.png" alt="" /></picture>
 
 Passenden Plugin-Ordner auswählen. Wichtig! Eine einmal getroffene Auswahl sollte beibehalten werden.
 

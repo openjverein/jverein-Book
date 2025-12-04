@@ -8,7 +8,7 @@
 
 Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigationsbaum angezeigt werden.
 
-![](../../../../assets/320_BuchungsartenListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_BuchungsartenListeView.png" alt="" /></picture>
 
 Über den Neu Button können neue Buchungsarten erzeugt werden.
 
@@ -16,13 +16,13 @@ Eine Liste der Buchungsarten kann über den Eintrag Buchungsarten im Navigations
 
 Mit einem Klick auf PDF-Ausgabe wird eine Buchungsarten-Liste erstellt.
 
-![](../../../../assets/320_Buchungsartenpdf.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Buchungsartenpdf.png" alt="" /></picture>
 
 ## Buchungsart
 
 Mit Neu kann eine neue Buchungsart eingerichtet werden. Jeder Buchungsart wird eine Nummer zugeordnet. Diese Nummer dient der Sortierung in der Buchungsliste. Z. B. werden den Einnahmen die 1.000er Nummern, den Ausgaben die 2.000er und den Umbuchungen die 3.000er gegeben.
 
-![](../../../../assets/320_buchungsarten.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_buchungsarten.png" alt="" /></picture>
 
 Eine Buchungsart hat folgende Parameter:
 

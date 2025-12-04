@@ -4,7 +4,7 @@ Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelösch
 
 ## Liste der Abrechnungsläufe
 
-![](../../../assets/310_AbrechnungslaufListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_AbrechnungslaufListeView.png" alt="" /></picture>
 
 Folgende Menü Einträge sind vorhanden:
 
@@ -25,4 +25,4 @@ Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
-![](../../../assets/310_AbrechnungslaufView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_AbrechnungslaufView.png" alt="" /></picture>

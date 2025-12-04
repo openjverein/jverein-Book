@@ -12,7 +12,7 @@ Anfangsbestände, die durch einen Jahresabschluss erfasst sind, können nicht me
 
 Der Filterbereich erlaubt es nach Anfangsbeständen in einem vorgegebenen Zeitraum zu filtern.
 
-![](../../../assets/320_AnfangsbestandsListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_AnfangsbestandsListeView.png" alt="" /></picture>
 
 Der Filterparameter "Nummer" erlaubt es nach der Kontonummer zu filtern.
 
@@ -29,4 +29,4 @@ Folgende Menü Einträge sind vorhanden:
 
 Über den Button Neu werden neue Anfangsbestände aufgenommen. Mit einem Doppelklick auf einen Anfangsbestand kann der Bestand bearbeitet werden. Ein Rechtsklick auf einen Anfangsbestand öffnet ein Kontextmenü. Damit kann ein Anfangsbestand gelöscht werden.
 
-![](../../../assets/320_AnfangsbestandView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_AnfangsbestandView.png" alt="" /></picture>

@@ -14,7 +14,7 @@ Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negat
 
 In dieser Ansicht sehen Sie die geleisteten Arbeitsstunden, die diesem Mitglied zu gebucht wurden.
 
-![](../../../../assets/320_ArbeitseinsatzTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ArbeitseinsatzTab.png" alt="" /></picture>
 
 Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -29,7 +29,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit dem Button Neuer Arbeitseinsatz kann ein neuer Arbeitseinsatz eingerichtet werden.
 
-![](../../../../assets/320_ArbeitseinsatzView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ArbeitseinsatzView.png" alt="" /></picture>
 
 Im Dialog können neue Stunden für das Mitglied erfasst werden. Sie geben das Datum ein, an dem die Stunden geleistet wurden, die Anzahl der Stunden und, im Feld Bemerkung, was geleistet wurde.
 

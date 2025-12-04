@@ -26,7 +26,7 @@ Der Übersicht View für Arbeitseinsätze zeigt alle vorhandenen Arbeitseinsätz
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../../assets/300_ArbeitseinsaetzeListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_ArbeitseinsaetzeListeView.png" alt="" /></picture>
 
 Mit dem Button Neu kann ein neuer Arbeitseinsatz eingerichtet werden.
 
@@ -44,7 +44,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../assets/300_ArbeitseinsatzView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_ArbeitseinsatzView.png" alt="" /></picture>
 
 Im Feld Mitglied lässt sich das Mitglied auswählen.
 

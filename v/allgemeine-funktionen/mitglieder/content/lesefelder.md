@@ -6,12 +6,12 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zu
 
 ## Lesefelder Liste beim Mitglied
 
-![](../../../../assets/LesefelderTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/LesefelderTab.png" alt="" /></picture>
 
 ## Lesefelder beim Mitglied bearbeiten
 
 Über den Button Bearbeiten lassen sich die Lesefelder bearbeiten.
 
-![](../../../../assets/Lesefeld.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Lesefeld.png" alt="" /></picture>
 
 Weitere Informationen dazu: [Lesefelder](../../administration/mitglieder/lesefelder.md)

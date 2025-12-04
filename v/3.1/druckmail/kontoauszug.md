@@ -4,7 +4,7 @@
 
 Der Kontoauszug ist eine Liste (PDF-Ausgabe) sämtlicher Buchungen auf einem Mitgliedskonto.
 
-![](../../../assets/310_Kontoauszug.jpg)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Kontoauszug.jpg" alt="" /></picture>
 
 Einen Kontoauszug kann in der Anzeige des Mitglieds (bzw. Nicht-Mitglied) abgerufen werden und auf einen Zeitraum eingegrenzt werden.
 
@@ -22,7 +22,7 @@ Alternativ kann in der Detailansicht eines Mitglieds über den Button "Kontoausz
 
 Im Info Feld wird angezeigt wieviele Mitglieder selektiert wurden und welche keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](../../../assets/310_KontoauszuegeDruckMailView1.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_KontoauszuegeDruckMailView1.png" alt="" /></picture>
 
 Der Filter Bereich bietet folgende Optionen:
 
@@ -54,7 +54,7 @@ Ist kein Mitgliedstyp ausgewählt werden die Kontoauszüge sowohl für alle Mitg
 
 Da der Filter hier eine Untermenge des Filters im Mitglied bzw. Nicht-Mitglied Dialog ist, hat man hier weniger Filter Möglichkeiten. Werden weitere Filter Optionen gebraucht muss über den selektiven Weg gegangen werden.
 
-![](../../../assets/310_KontoauszuegeDruckMailView2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_KontoauszuegeDruckMailView2.png" alt="" /></picture>
 
 Der View besitzt folgende Buttons:
 

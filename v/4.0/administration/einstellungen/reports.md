@@ -1,6 +1,6 @@
 # Reports
 
-![](../../../../assets/400_EinstellungenReports.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_EinstellungenReports.png" alt="" /></picture>
 
 Der Dialog enthält folgende Konfigurationsmöglichkeiten:
 * Wirtschaftsplan Ist-Beträge von laufendem Zeitraum ausgeben. Macht man z.B. einen Rechnungsabschluss für das letzte Jahr mit einem Plan für das aktuelle Jahr möchte man evtl. bereits aufgelaufene Ist-Werte des aktuellen Jahres nicht im Bericht haben

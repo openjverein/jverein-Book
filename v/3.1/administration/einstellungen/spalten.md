@@ -1,6 +1,6 @@
 # Mitglieder Spalten
 
-![](../../../../assets/310_Mitgliederspalten.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Mitgliederspalten.png" alt="" /></picture>
 
 Festlegung der Spalten, die in der Mitglieder Tabelle angezeigt werden sollen.
 

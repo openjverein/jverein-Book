@@ -25,7 +25,7 @@ Der Übersicht View für Lehrgänge zeigt alle vorhandenen Lehrgänge an.
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../../assets/300_LehrgaengeListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_LehrgaengeListeView.png" alt="" /></picture>
 
 Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
 
@@ -41,4 +41,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../assets/300_LehrgangView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_LehrgangView.png" alt="" /></picture>

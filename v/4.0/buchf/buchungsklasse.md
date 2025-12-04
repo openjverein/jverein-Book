@@ -6,7 +6,7 @@ Buchungsklassen können in den [Einstellungen](../administration/admbuchf/buchun
 
 Das Buchungsklassensaldo zeigt die Salden aller Buchungsklassen für ein Geschäftsjahr oder einen frei wählbaren Zeitraum.
 
-![](../../../assets/320_BuchungsklassenSaldoView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_BuchungsklassenSaldoView.png" alt="" /></picture>
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 

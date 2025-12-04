@@ -35,7 +35,7 @@ Der Übersicht View für Zusatzbeträge zeigt alle vorhandenen Zusatzbeträge an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../../assets/ZusatzBetraegeListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/ZusatzBetraegeListeView.png" alt="" /></picture>
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -58,7 +58,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../assets/ZusatzBetragView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/ZusatzBetragView.png" alt="" /></picture>
 
 ## Abrechnung
 

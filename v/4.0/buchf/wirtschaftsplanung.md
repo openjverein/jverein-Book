@@ -11,7 +11,7 @@ Damit die Änderung wirksam wird, starten Sie die Software anschließend neu.
 
 ## Liste der Wirtschaftspläne
 
-![](../../../assets/320_planung_list.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_planung_list.png" alt="" /></picture>
 
 In dieser Übersicht werden alle bestehenden Wirtschaftspläne sowie die folgenden Kenndaten angezeigt:
 - Bezeichnung
@@ -39,7 +39,7 @@ In der Übersicht sehen Sie die folgenden Kenndaten, die Sie bei Bedarf anpassen
 
 ## Baumansicht der Planungsdaten
 
-![](../../../assets/320_planung_tree.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_planung_tree.png" alt="" /></picture>
 
 Die Planungsdaten werden in einer Baumansicht angezeigt. Zur besseren Übersicht sind sie in Einnahmen und Ausgaben unterteilt. Die Zuordnung erfolgt gemäß der Definition der Buchungsarten. Da sich Umbuchungen gegenseitig aufheben, können sie nicht in die Planung aufgenommen werden.
 Die Baumansicht besteht aus drei Ebenen, die der Buchführungsstruktur von OpenJVerein entsprechen.

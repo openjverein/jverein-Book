@@ -26,7 +26,7 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ## Liste der Mitglieder
 
-![](../../../../assets/300_MitgliedListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_MitgliedListeView.png" alt="" /></picture>
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
@@ -54,17 +54,17 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-![](../../../../assets/300_EigenschaftenFilterDialog.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_EigenschaftenFilterDialog.png" alt="" /></picture>
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-![](../../../../assets/300_ZusatzfelderFilterDialog.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_ZusatzfelderFilterDialog.png" alt="" /></picture>
 
 ## Kontextmenu
 
-![](../../../../assets/300_MitgliedMenu.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_MitgliedMenu.png" alt="" /></picture>
 
 ### Bearbeiten
 
@@ -92,19 +92,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-![](../../../../assets/300_EigenschaftenAuswahlDialog.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_EigenschaftenAuswahlDialog.png" alt="" /></picture>
 
 ### Arbeitseinsätze zuweisen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-![](../../../../assets/300_ArbeitseinsatzDialog.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_ArbeitseinsatzDialog.png" alt="" /></picture>
 
 ### Zusatzbeträge zuweisen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-![](../../../../assets/300_ZusatzbetragDialog.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_ZusatzbetragDialog.png" alt="" /></picture>
 
 ### Zu Nicht-Mitglied umwandeln
 

@@ -6,4 +6,4 @@ Für die Abbuchung sind die Bankverbindung und Gläubiger-ID einzugeben.
 
 Die Pflichtfelder werden von der Abrechnung für die Erstellung der Lastschriften zwingend benötigt. Die weiteren Angaben werden überwiegend bei Spendenbescheinigungen eingesetzt.
 
-![](../../../../assets/310_Allgemein.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Allgemein.png" alt="" /></picture>

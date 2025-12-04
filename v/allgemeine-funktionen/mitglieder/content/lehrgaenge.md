@@ -8,7 +8,7 @@ Zur Nutzung sind die [Lehrgangsarten](../../administration/mitglieder/lehrgange.
 
 ## Lehrgänge Liste beim Mitglied
 
-![](../../../../assets/LehrgaengeTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/LehrgaengeTab.png" alt="" /></picture>
 
 Mit dem Button Neu kann ein neuer Lehrgang eingerichtet werden.
 
@@ -24,6 +24,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Durch Auswahl des Buttons "Neuer Lehrgang" kann ein neuer Lehrgang für das Mitglied angelegt werden.
 
-![](../../../../assets/LehrgangView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/LehrgangView.png" alt="" /></picture>
 
 Weitere Informationen dazu: [Lehrgänge](../lehrgange.md)

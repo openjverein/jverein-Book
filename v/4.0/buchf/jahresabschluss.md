@@ -4,7 +4,7 @@
 
 Zunächst wird eine Liste der bereits getätigten Jahresabschlüsse angezeigt:
 
-![](../../../assets/320_JahresAbschluesseView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_JahresAbschluesseView.png" alt="" /></picture>
 
 Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erfüllt sein:
 
@@ -20,7 +20,7 @@ Damit ein Jahresabschluss verbucht werden kann, müssen folgende Bedingungen erf
 
 Durch eine Klick auf Neu kann ein neuer Jahresabschluss vorgenommen werden:
 
-![](../../../assets/320_JahresabschlussView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_JahresabschlussView.png" alt="" /></picture>
 
 Der Jahresabschluss zeigt den Zeitraum des Jahresabschlusses an. Es ist das Geschäftsjahr nach dem letzten Abschluss.
 

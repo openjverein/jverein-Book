@@ -11,7 +11,7 @@ Der Mitgliederbestand kann nach verschiedenen Kriterien ausgewertet und das Erge
 
 Die Ausgabe erfolgt entweder im PDF- oder im CSV-Format. Nach der Erzeugung der Datei wird ein entsprechendes Anzeigeprogramm aufgerufen.
 
-![](../../../assets/310_MitgliederView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_MitgliederView.png" alt="" /></picture>
 
 ## Sortierung
 
@@ -70,7 +70,7 @@ Dazu ist zunächst unter [Einstellungen->Dateinamen](../administration/einstellu
 
 Jede der selbst erstellten Vorlagen ist ebenfalls eine CSV-Datei. Diese Dateien müssen mit einem externen Programm erstellt werden, also mit einem Texteditor oder mit einem Tabellenkalkulationsprogramm. Damit JVerein diese Vorlagendateien erkennt, müssen diese im gewählten Vorlagenverzeichnis gespeichert werden.
 
-![](../../../assets/310_Ausgabe.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Ausgabe.png" alt="" /></picture>
 
 Die Vorlagen kann man direkt in der Liste Ausgabe auswählen
 

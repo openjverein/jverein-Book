@@ -6,7 +6,7 @@ Zur Nutzung der Lehrgänge ist die Option in den Einstellungen (Administration->
 
 ## Liste der Lehrgangsarten
 
-![](../../../../assets/310_Lehrgangsarten.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Lehrgangsarten.png" alt="" /></picture>
 
 Mit Neu kann eine neue Lehrgangsart eingerichtet werden.
 
@@ -19,6 +19,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Lehrgangsart
 
-![](../../../../assets/310_Lehrgangsart.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Lehrgangsart.png" alt="" /></picture>
 
 Die Bezeichnung und Von/am des Lehrgangs muss ausgefüllt werden. Die restlichen Daten können leer gelassen werden. Diese Daten sind dann einzugeben, wenn beim Mitglied der Lehrgang angelegt wird.

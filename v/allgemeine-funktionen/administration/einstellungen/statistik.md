@@ -1,6 +1,6 @@
 # Statistik
 
-![](../../../../assets/Statistik.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Statistik.png" alt="" /></picture>
 
 Für statistische Zwecke können Altersgruppen angegeben werden. Erfassen Sie die Gruppen wie im folgendem Beispiel
 

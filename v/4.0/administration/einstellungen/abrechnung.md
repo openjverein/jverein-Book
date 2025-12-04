@@ -1,6 +1,6 @@
 # Abrechnung
 
-![](../../../../assets/320_Abrechnung.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Abrechnung.png" alt="" /></picture>
 
 ## Beitragsmodell
 
@@ -16,7 +16,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](../../../../assets/320_SepaSupportedVersions.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_SepaSupportedVersions.png" alt="" /></picture>
 
 ## Verrechnungskonto für Lastschriften
 

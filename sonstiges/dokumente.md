@@ -19,11 +19,11 @@ Zu Mitgliedern und Buchungen können Dokumente beliebiger Art und Anzahl gespeic
 
 ## Neue Dokument speichern
 
-![](../assets/dokumenteneu1.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/dokumenteneu1.png" alt="" /></picture>
 
 Mit einem Klick auf neu öffnet sich folgendes Formular:
 
-![](../assets/dokumenteneu2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/dokumenteneu2.png" alt="" /></picture>
 
 Es wird eine Datei ausgewählt. Standardmäßig wird das Tagesdatum vorgegeben. Es kann hier z. B. auch das Datum des Beleges eingetragen werden. Zusätzlich kann zu jedem Dokument ein Kommentar eingetragen werden.
 

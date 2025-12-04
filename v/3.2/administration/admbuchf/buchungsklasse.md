@@ -8,7 +8,7 @@ Die Buchungsklassen dienen dazu die einzelnen Buchungsarten entsprechend den ste
 
 Eine Liste der Buchungsklassen kann über den Eintrag Buchungsklassen im Navigationsbaum angezeigt werden.
 
-![](../../../../assets/320_BuchungsklassenListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_BuchungsklassenListeView.png" alt="" /></picture>
 
 Über den Neu Button können neue Buchungsklassen erzeugt werden.
 
@@ -18,4 +18,4 @@ Eine Liste der Buchungsklassen kann über den Eintrag Buchungsklassen im Navigat
 
 Bei der Erstellung einer neuen Buchungsklasse erscheint folgende Anzeige.
 
-![](../../../../assets/320_Buchungsklasse.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Buchungsklasse.png" alt="" /></picture>

@@ -1,6 +1,6 @@
 # Abrechnung
 
-![](../../../../assets/Abrechnung.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Abrechnung.png" alt="" /></picture>
 
 Beitragsmodell, siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md)
 
@@ -14,7 +14,7 @@ SEPA XML-Version welche für die Generierung einer 1ct Überweisung (pain.001...
 
 Unterstützte Versionen sind aus folgender Tabelle ersichtlich.
 
-![](../../../../assets/SepaSupportedVersions.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/SepaSupportedVersions.png" alt="" /></picture>
 
 ## Arbeitsstundenmodell
 

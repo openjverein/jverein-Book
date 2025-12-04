@@ -2,7 +2,7 @@
 
 In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen (Rechnersymbol), sowie die einzelnen zugeordneten Istbuchungen (Euro-Symbol) angezeigt.
 
-![](../../../../assets/MitgliedskontoTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MitgliedskontoTab.png" alt="" /></picture>
 
 Durch einen Doppelklick auf eine
 
@@ -23,4 +23,4 @@ Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spe
 
 Über den Menüpunkt "Neue Sollbuchung" können neue Sollbuchungen aufgenommen werden.
 
-![](../../../../assets/SollbuchungView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/SollbuchungView.png" alt="" /></picture>

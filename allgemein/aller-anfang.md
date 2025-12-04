@@ -10,11 +10,11 @@ Siehe [Installation](installation.md)
 
 Jameica und damit die gesamte Software wird mit "C:\Jameica\jameica-win64.exe" (Beispiel für die 64bit Version) gestartet. Bei jedem Start, bzw. solange nichts Gegenteiliges eingestellt wurde (z.B. "Künftig immer diesen Ordner verwenden"), wird der Benutzerordner abgefragt:
 
-![](../assets/aller_anfang_-_erster_start_-_anlegen_des_benutzerordners.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_anlegen_des_benutzerordners.png" alt="" /></picture>
 
 Dies bietet daher auch die Option mehrere Vereine zu verwalten: diese müssen lediglich verschiedene Benutzerordner haben. Nach der Bestätigung des Ordner wird ein "Master"Passwort benötigt:
 
-![](../assets/aller_anfang_-_erster_start_-_passwort_festlegen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_passwort_festlegen.png" alt="" /></picture>
 
 Anmerkung des "Aller Anfang" Erst-Autors:
 
@@ -28,31 +28,31 @@ Nach der Vergabe eines Masterpasswortes, gelangt man zur Hauptübersicht von Jam
 
 Zum Einrichten des Onlinebankings wird in der Hauptübersicht (Klick auf Jameica - über "Hibiscus" und Termine") der "Bank-Zugang einrichten" Knopf gedrückt.
 
-![](../assets/aller_anfang_-_erster_start_-_hauptuebersicht.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hauptuebersicht.png" alt="" /></picture>
 
 Es erscheint folgende Abfrage, bei der das HBCI Verfahren abgefragt wird. Aus dem Dropdownmenü (siehe Grafik) eine passende Variante auswählen und mit "Übernehmen" bestätigen.
 
-![](../assets/aller_anfang_-_erster_start_-_hibiscus_-_1_hbci_verfahren.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_1_hbci_verfahren.png" alt="" /></picture>
 
 **Im Folgenden wird das Verfahren für eine HBCI-Chipkarte beschrieben.**
 
 Das HBCI Lesegerät muss erfolgreich in Windows eingerichtet sein (Treiber usw.). Nach dem Klick auf "Kartenleser suchen..." erscheint folgend dargestellte Hinweis/Abfrage, die nach dem Durchlesen mit "Ja" zu beantworten ist.
 
-![](../assets/aller_anfang_-_erster_start_-_hibiscus_-_2_lesegeraet_suchen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_2_lesegeraet_suchen.png" alt="" /></picture>
 
 Im Idealfall wurde der Kartenleser auf Anhieb gefunden. Die Kontodaten werden danach durch einen Doppelklick auf die entsprechende Zeile (siehe Grafik) eingerichtet.
 
-![](../assets/aller_anfang_-_erster_start_-_hibiscus_-_3_lesegeraet_einrichten.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_3_lesegeraet_einrichten.png" alt="" /></picture>
 
 Im nächsten Fenster besteht die Möglichkeit, HBCI-Version und die einzurichtenden Konten auszuwählen. Anmerkung zur HBCI-Version. Hier sollte nach Möglichkeit 2.2 oder "höher" (z.B. FinTS3) ausgewählt werden. Die HBCI-Version 2.1 führt unter Umständen zu Fehlern bei SEPA Buchungen (Fehler in der Form: funktioniert nicht.). Die getroffenen Einstellungen sollten mit "Konfiguration testen" geprüft werden. Verläuft der Test erfolgreich, bietet einem die Software an, die verfügbaren Konten automatisch anzulegen. Dies kann / sollte man mit "Ja" bestätigen. Im letzten Schritt, muss man nur noch den "Speichern"-Knopf betätigen und die Einrichtung ist abgeschlossen.
 
-![](../assets/aller_anfang_-_erster_start_-_hibiscus_-_4_lesegeraet_einrichten_teil_2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_4_lesegeraet_einrichten_teil_2.png" alt="" /></picture>
 
 ### JVerein einrichten
 
 Nach dem Einrichten von Hibiscus, muss JVerein eingerichtet werden. Dazu wählt man entweder den Knopf "Einstellungen" oder Navigiert über die "Navigation" nach unten zu "JVerein" dort zu "Administration" und dort ebenfalls zu "Einstellungen".
 
-![](../assets/aller_anfang_-_erster_start_-_hauptuebersicht_2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hauptuebersicht_2.png" alt="" /></picture>
 
 Die vorzunehmenden Einstellungen sind selbsterklärend. Man sollte jeden Reiter sorgfältig prüfen und nach besten Wissen ausfüllen.
 
@@ -68,7 +68,7 @@ Die vorzunehmenden Einstellungen sind selbsterklärend. Man sollte jeden Reiter 
 10. Mail: alles ausfüllen - Tipp: die IMAP Funktion zur Speicherung von ausgehenden E-Mails ist hilfreich. Dies ist jedoch auch mit der "Immer Bcc an Adresse" ausreichend 'protokolliert'.
 11. Statistik: kann so bleiben (vorerst)
 
-![](../assets/aller_anfang_-_erster_start_-_jverein_-_1_einstellungen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_jverein_-_1_einstellungen.png" alt="" /></picture>
 
 ### Weitere Einstellungen
 

@@ -1,5 +1,5 @@
 # Mitglieder Ansicht
 
-![](../../../../assets/310_Mitgliederansicht.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Mitgliederansicht.png" alt="" /></picture>
 
 Festlegung der Ansicht der Mitglieder Daten. Es kann ausgewählt werden welche Daten direkt angezeigt werden oder innerhalb der Tabs.

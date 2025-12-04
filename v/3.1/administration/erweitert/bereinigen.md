@@ -16,4 +16,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Jahresabschlüsse
 * Mails
 
-![](../../../../assets/310_Bereinigung.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Bereinigung.png" alt="" /></picture>

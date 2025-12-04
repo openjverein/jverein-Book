@@ -1,6 +1,6 @@
 # Rechnungen
 
-![](../../../../assets/Rechnungen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Rechnungen.png" alt="" /></picture>
 
 Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden.
 

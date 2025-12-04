@@ -16,7 +16,7 @@ Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wähle
 
 Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](../../../assets/300_RechnungenDruckMailView1.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_RechnungenDruckMailView1.png" alt="" /></picture>
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob die Rechnungen als PDF gedruckt oder per Mail verschickt werden sollen.
 
@@ -32,7 +32,7 @@ Um automatisch Rechnungen zu erstellen wählen Sie im Navigations Baum dem Menü
 
 Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Rechnungen Dialog. Es werden dann Rechnungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
 
-![](../../../assets/300_RechnungenDruckMailView2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_RechnungenDruckMailView2.png" alt="" /></picture>
 
 Der Filter Bereich bietet folgende Optionen:
 
