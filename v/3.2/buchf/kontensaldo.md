@@ -2,7 +2,7 @@
 
 Hier können für alle Konten die Salden eines Geschäftsjahres angezeigt werden. Der Beginn des Geschäftsjahres wird unter Einstellungen eingegeben.
 
-![](../../../assets/320_KontenSaldoView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_KontenSaldoView.png" alt="" /></picture>
 
 Das jeweilige Geschäftsjahr lässt sich über die Schnellzugriff Buttons auswählen. Mit den Navigations Pfeilen lässt sich die Zeitachse um jeweils 5 Jahre verschieben. Mit dem Zurück Button kommt man zum aktuellen Geschäftsjahr zurück.
 

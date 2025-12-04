@@ -8,7 +8,7 @@ Neben den Mitgliedern können Nicht-Mitglieder gespeichert werden. Die Nicht-Mit
 
 ## Liste der Mitgliedstypen
 
-![](../../../../assets/300_Mitgliedstypen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_Mitgliedstypen.png" alt="" /></picture>
 
 Mit Neu kann ein neuer Mitgliedstyp eingerichtet werden.
 
@@ -21,4 +21,4 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Mitgliedstyp
 
-![](../../../../assets/300_Mitgliedstyp.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_Mitgliedstyp.png" alt="" /></picture>

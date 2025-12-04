@@ -1,6 +1,6 @@
 # Buchführung
 
-![](../../../../assets/320_Buchfuehrung.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Buchfuehrung.png" alt="" /></picture>
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 

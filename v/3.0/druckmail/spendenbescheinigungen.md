@@ -20,7 +20,7 @@ In der Liste können ein oder mehrere Einträge markiert werden. Über ein Konte
 
 Über den Menüpunkt "Druck und Mail" öffnet sich der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
-![](../../../assets/300_SpendenbescheinigungenDruckMailView1.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_SpendenbescheinigungenDruckMailView1.png" alt="" /></picture>
 
 Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spendenbescheinigungen ausgegeben.
 
@@ -50,4 +50,4 @@ Mit der Option Adressblatt lässt sich auswählen, ob eine zusätzliche Seite an
 
 Es werden hier alle Spendenbescheinigungen gedruckt bzw. versendet die die Filterkriterien erfüllen. Eine individuelle Auswahl aus den gefilterten Einträgen ist hier nicht möglich.
 
-![](../../../assets/300_SpendenbescheinigungenDruckMailView2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_SpendenbescheinigungenDruckMailView2.png" alt="" /></picture>

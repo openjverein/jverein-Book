@@ -6,7 +6,7 @@ Es muss mindestens eine Beitragsgruppe erfasst werden.
 
 ## Liste der Beitragsgruppen
 
-![](../../../../assets/320_Beitragsgruppen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Beitragsgruppen.png" alt="" /></picture>
 
 Mit Neu kann eine neue Beitragsgruppe eingerichtet werden.
 
@@ -19,7 +19,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Beitragsgruppe
 
-![](../../../../assets/320_Beitragsgruppe.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Beitragsgruppe.png" alt="" /></picture>
 
 ### Bezeichnung
 

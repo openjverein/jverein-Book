@@ -2,7 +2,7 @@
 
 In diesem Dialog sind die Daten für den Mailzugang einzurichten.
 
-![](../../../../assets/EinstellungenMail.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/EinstellungenMail.png" alt="" /></picture>
 
 Über die Option "Bei Mail Versand von Formularen Anhang in DB speichern" lässt sich einstellen, ob bei versendeten Formularen wie z.B. Rechnung, Mahnung etc. der Mailanhang zusammen mit der Mail in der Datenbank gespeichert werden sollen. Damit lässt sich später beim betrachten der Mail auch der Anhang sehen.
 

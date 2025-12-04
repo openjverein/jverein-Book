@@ -18,7 +18,7 @@ Unter Administration->Buchführung->Projekte werden die Projekte angelegt bzw. b
 
 ## Liste der Projekte
 
-![](../../../../assets/320_ProjekteListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ProjekteListeView.png" alt="" /></picture>
 
 Mit neu kann ein neues Projekt eingerichtet werden.
 
@@ -31,7 +31,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Projekt
 
-![](../../../../assets/320_ProjektView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ProjektView.png" alt="" /></picture>
 
 ## Auswertung
 

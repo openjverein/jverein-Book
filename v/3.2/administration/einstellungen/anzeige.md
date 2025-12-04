@@ -1,6 +1,6 @@
 # Anzeige
 
-![](../../../../assets/320_Anzeige.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Anzeige.png" alt="" /></picture>
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 

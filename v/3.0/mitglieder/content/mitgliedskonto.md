@@ -2,7 +2,7 @@
 
 In der Baumansicht werden die Summen pro Mitglied, die einzelnen Sollbuchungen (Rechnersymbol), sowie die einzelnen zugeordneten Istbuchungen (Euro-Symbol) angezeigt.
 
-![](../../../../assets/300_MitgliedskontoTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_MitgliedskontoTab.png" alt="" /></picture>
 
 Durch einen Doppelklick auf eine
 
@@ -24,4 +24,4 @@ Weitere Informationen zu Spendenbescheinigungen: [Spendenbescheinigungen](../spe
 
 Im Normalfall werden Sollbuchungen ausschließlich über den Abrechnungslauf erstellt. In manchen Situationen ist es jedoch sinnvol, manuell Sollbuchungen zu erstellen, dies kann über den Button "Neue Sollbuchung" erfolgen. Weiter Informationen zu [Sollbuchungen](../mitgliedskonto.md)
 
-![](../../../../assets/300_SollbuchungView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_SollbuchungView.png" alt="" /></picture>

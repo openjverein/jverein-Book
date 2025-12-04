@@ -1,6 +1,6 @@
 # Zahlung
 
-![](../../../../assets/300_ZahlungTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_ZahlungTab.png" alt="" /></picture>
 
 Als Zahlungswege stehen
 

@@ -4,4 +4,4 @@ Neben den Mitgliedern können auch Nicht-Mitglieder ausgewertet werden.
 
 Die Funktionalität ist wie bei den [Mitgliedern](auswertung-mitglieder.md) allerdings mit weniger Filter Attributen.
 
-![](../../../assets/300_NichtMitgliederView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_NichtMitgliederView.png" alt="" /></picture>

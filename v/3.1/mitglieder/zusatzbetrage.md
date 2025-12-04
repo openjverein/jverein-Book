@@ -55,7 +55,7 @@ In der Tabelle werden folgende Spalten angezeigt:
 * Zahlungsweg: Zahlungsweg für die Buchung
 * Buchungsart: Buchungsart
 
-![](../../../assets/310_ZusatzBetraegeListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_ZusatzBetraegeListeView.png" alt="" /></picture>
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -79,7 +79,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../assets/310_ZusatzBetragView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_ZusatzBetragView.png" alt="" /></picture>
 
 PS: Ab JVerein 3.0.0 lässt sich für den Zusatzbetrag ein von der Konfiguration beim Mitglied (Standard) abweichender Zahlungsweg konfigurieren.
 

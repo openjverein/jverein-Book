@@ -6,7 +6,7 @@ In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbeschein
 
 ## Liste der Formulare
 
-![](../../../../assets/300_Formulare.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_Formulare.png" alt="" /></picture>
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](../../../../assets/300_Formular.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_Formular.png" alt="" /></picture>
 
 ## Formular Attribute
 
@@ -147,10 +147,10 @@ Einfache Standardrechnung:
 Einfache Standardrechnung
 {% endfile %}
 
-![](../../../../assets/300_rechnung-standard.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_rechnung-standard.png" alt="" /></picture>
 
 ## Beispiele
 
-![](../../../../assets/300_Formularroh.jpg)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_Formularroh.jpg" alt="" /></picture>
 
-![](../../../../assets/300_Formularausgefuellt.jpg)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_Formularausgefuellt.jpg" alt="" /></picture>

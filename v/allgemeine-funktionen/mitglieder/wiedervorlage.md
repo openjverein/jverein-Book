@@ -23,7 +23,7 @@ Der Übersicht View für Wiedervorlagen zeigt alle vorhandenen Wiedervorlagen an
 
 Über den Filterbereich lässt sich nach verschiedenen Kriterien filtern.
 
-![](../../../assets/WiedervorlageListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/WiedervorlageListeView.png" alt="" /></picture>
 
 Mit dem Button Neu kann eine neue Wiedervorlage eingerichtet werden.
 
@@ -41,6 +41,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
-![](../../../assets/WiedervorlageView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/WiedervorlageView.png" alt="" /></picture>
 
 Die Wiedervorlage Termine werden auch im Jameica-Kalender angezeigt.

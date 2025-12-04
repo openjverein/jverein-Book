@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Tab "Zusatzbeträge
 
 ## Zusatzbeträge Liste beim Mitglied
 
-![](../../../../assets/310_ZusatzbetraegeTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_ZusatzbetraegeTab.png" alt="" /></picture>
 
 Durch einen Doppelklick wird die Bearbeitung eines Zusatzbetrag eingeleitet.
 
@@ -25,6 +25,6 @@ Das Kontextmenü bietet folgende Optionen:
 
 Ein Klick auf "Neuer Zusatzbetrag" öffnet folgendes Fenster:
 
-![](../../../../assets/310_ZusatzBetragView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_ZusatzBetragView.png" alt="" /></picture>
 
 Weitere Informationen dazu: [Zusatzbeiträge](../zusatzbetrage.md)

@@ -1,6 +1,6 @@
 # Zahlung
 
-![](../../../../assets/400_ZahlungTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_ZahlungTab.png" alt="" /></picture>
 
 Hier werden die Zahlungsdaten des Mitglieds konfiguriert
 
@@ -27,7 +27,7 @@ Falls der abweichende Zahler noch nicht als Mitglied oder Nicht-Mitglied existie
 
 PS: Es empfiehlt sich für diese Zahler einen eigenen Mitgliedstyp anzulegen. So kann später leicht nach Zahlern in der Liste der Nicht-Mitglieder gefiltert werden.
 
-![](../../../../assets/400_AbweichenderZahlerDialog.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_AbweichenderZahlerDialog.png" alt="" /></picture>
 
 Die Felder im Dialog zum Erzeugen eines neuen Nicht-Mitgliedes entsprechen den Feldern die sonst beim regulären Erzeugen eines Nicht-Mitgliedes verwendet werden. Allerdings werden nur die Basisdaten des Nicht-Mitglieds abgefragt. Das Nicht-Mitglied kann aber später jederzeit regulär editiert werden.
 

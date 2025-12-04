@@ -19,7 +19,7 @@ Die Liste zeigt unter anderem:
 * Zugänge und Abgänge im Geschäftsjahr
 * Getätigte Abschreibungen im Geschäftsjahr
 
-![](../../../assets/310_AnlagenverzeichnisView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_AnlagenverzeichnisView.png" alt="" /></picture>
 
 Der Inhalt der Tabelle lässt sich über die entsprechenden Buttons als PDF und CSV exportieren.
 

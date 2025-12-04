@@ -16,4 +16,4 @@ Aktuell können folgende Daten gelöscht werden:
 * Abrechnungsläufe
 * Mails
 
-![](../../../../assets/320_Bereinigung.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Bereinigung.png" alt="" /></picture>

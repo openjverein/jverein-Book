@@ -2,4 +2,4 @@
 
 Vermerke über das Mitglied (z. B. Funktionen ...) können in zwei Datenfeldern hinterlegt werden.
 
-![](../../../../assets/VermerkeTab.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/VermerkeTab.png" alt="" /></picture>

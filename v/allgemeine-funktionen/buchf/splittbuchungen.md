@@ -14,13 +14,13 @@ Beispiele:
 
 Rechtsklick auf die Buchung(en), dann Splitbuchung auswählen:
 
-![](../../../assets/Splitbuchung01.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Splitbuchung01.png" alt="" /></picture>
 
 Es können auch mehrere Buchungen gleichzeitig ausgewählt werden. Sie müssen allerdings den gleichen Betrag haben. Anschließend wird ein Buchungseintrag bearbeitet. Beim Speichern wird eine analoge Aufteilung der Beträge auch auf alle anderen selektierten Buchungen angewendet.
 
 Es erscheint dann:
 
-![](../../../assets/Splitbuchung02.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Splitbuchung02.png" alt="" /></picture>
 
 Als Info wird angezeigt wie viele Buchungen selektiert wurden und damit wie viele Splitbuchungen erzeugt werden.
 
@@ -28,7 +28,7 @@ Die angeklickte Buchung erscheint in der ersten Zeile. In der zweiten Zeile ersc
 
 Jetzt können über den "Neu"-Knopf die Splitbuchungen eingegeben werden:
 
-![](../../../assets/SplitbuchungSplitView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/SplitbuchungSplitView.png" alt="" /></picture>
 
 Das Betrag Feld wird automatisch mit dem noch übrigen Betrag gefüllt.
 
@@ -38,7 +38,7 @@ Mit Speichern und nächste kann man direkt zur Eingabe des nächsten Split Eintr
 
 Bei der letzten Buchung kann man mit Speichern zur Splitbuchung Anzeige zurück kehren. Bei Speichern und nächste kommt man bei einem Restbetrag von 0€ automatisch zurück.
 
-![](../../../assets/Splitbuchung04.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Splitbuchung04.png" alt="" /></picture>
 
 Das obige Bild zeigt den Stand, dass noch nicht alle Split Einträge erzeugt wurden.
 
@@ -53,19 +53,19 @@ Sind alle Bedingungen erfüllt (siehe Bild unten) muss die Splitbuchung über de
 
 Achtung: Das Speichern bitte nicht vergessen!
 
-![](../../../assets/Splitbuchung05.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Splitbuchung05.png" alt="" /></picture>
 
 ## Anzeige der Buchungen
 
 Die Splitbuchungen werden in der Liste der Buchungen "normal" angezeigt. Ein Doppelklick auf eine Haupt-, Gegen- oder Splitbuchung öffnet den Splitbuchungsdialog.
 
-![](../../../assets/Splitbuchung06.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Splitbuchung06.png" alt="" /></picture>
 
 ## Sammelüberweisung
 
 Mit einem Klick auf Sammelüberweisung erscheint folgendes Fenster:
 
-![](../../../assets/Splitbuchung07.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Splitbuchung07.png" alt="" /></picture>
 
 Es werden die in Hibiscus vorhandenen Sammelüberweisungen angezeigt. Mit einem Doppelklick auf eine Sammelüberweisung werden die Einzelposten der Sammelüberweisung in die Splitbuchungen übernommen.
 

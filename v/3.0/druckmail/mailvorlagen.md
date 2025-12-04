@@ -6,7 +6,7 @@ Für den Fall, dass immer ähnliche Mails versandt werden, kann die Tipparbeit d
 
 ## Liste der Mail-Vorlagen
 
-![](../../../assets/300_MailVorlagenListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_MailVorlagenListeView.png" alt="" /></picture>
 
 Über das Kontextmenü lassen sich Mail Vorlagen bearbeiten und löschen.
 
@@ -14,4 +14,4 @@ Durch einen Doppelklick auf den Betreff oder durch einen Klick auf Neu öffnet s
 
 ## Mail-Vorlage
 
-![](../../../assets/300_MailVorlagenView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_MailVorlagenView.png" alt="" /></picture>

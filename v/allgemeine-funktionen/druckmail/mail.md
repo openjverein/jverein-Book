@@ -18,23 +18,23 @@ In der Liste aller Mails wird der Betreff, das Bearbeitungs- und das Versanddatu
 
 Über das Kontextmenü lassen sich Mails bearbeiten oder löschen.
 
-![](../../../assets/MailsView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MailsView.png" alt="" /></picture>
 
 ## Mails
 
 Durch einen Klick auf neu öffnet sich ein Mail-Vorlagen-Auswahlfenster:
 
-![](../../../assets/MailVorlagenAuswahl.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MailVorlagenAuswahl.png" alt="" /></picture>
 
 Entweder wird eine Mailvorlage ausgewählt oder es geht ohne Vorlage weiter.
 
 Ein Doppelklick auf eine Mail öffnet das Bearbeitungsfenster.
 
-![](../../../assets/Mail.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Mail.png" alt="" /></picture>
 
 Durch einen Klick auf Hinzufügen öffnet sich folgendes Auswahlfenster:
 
-![](../../../assets/MailEmpfaengerAuswahl.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MailEmpfaengerAuswahl.png" alt="" /></picture>
 
 In diesem Fenster sind zunächst alle an- und abgemeldeten Mitglieder sowie alle weiteren Adressen aufgelistet, bei denen eine E-Mail-Adresse hinterlegt ist. Mail-Empfänger können nun einzeln durch Setzen des Häkchens vor der E-Mail-Adresse ausgewählt werden. Ferner stehen (ab Version 2.8.4) folgende Filter bzw. Selektoren zur Verfügung:
 
@@ -49,7 +49,7 @@ Die obigen Filter/Selektoren wirken additiv, mit keinen wird die komplette Auswa
 
 Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst werden:
 
-![](../../../assets/MitgliedMailversand.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/MitgliedMailversand.png" alt="" /></picture>
 
 ## Variablen
 

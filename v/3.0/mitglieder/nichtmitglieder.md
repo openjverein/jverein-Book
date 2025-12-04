@@ -25,8 +25,8 @@ Die Nicht-Mitglieder können erstellt werden
 
 Ein Nicht-Mitglied kann bei Bedarf später in ein Mitglied umgewandelt werden: In der Liste rechte Maustaste und dann "Zu Mitglied umwandeln".
 
-![](../../../assets/300_NichtMitgliedListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_NichtMitgliedListeView.png" alt="" /></picture>
 
 ## Nicht-Mitglied
 
-![](../../../assets/300_NichtMitgliedView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_NichtMitgliedView.png" alt="" /></picture>

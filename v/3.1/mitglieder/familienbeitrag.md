@@ -12,7 +12,7 @@ Dieser Dialog zeigt alle Familien Beziehungen an.
 
 Siehe auch [Familientarife](../../../allgemein/familientarife.md).
 
-![](../../../assets/310_FamilienBeitragView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_FamilienBeitragView.png" alt="" /></picture>
 
 Einträge können nach Mitgliedschaft gefiltert werden.
 

@@ -14,7 +14,7 @@ Jedes Skript muss als Rückgabe-Wert einen String zurückliefern.
 
 ## Liste der Lesefelder
 
-![](../../../../assets/320_Lesefelder.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Lesefelder.png" alt="" /></picture>
 
 Mit Neu kann ein neues Lesefeld eingerichtet werden.
 
@@ -24,7 +24,7 @@ Mit Löschen kann ein Lesefeld gelöscht werden.
 
 ## Lesefeld
 
-![](../../../../assets/320_Lesefeld.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Lesefeld.png" alt="" /></picture>
 
 ### Mitglied
 

@@ -2,7 +2,7 @@
 
 Um freie Formulare zu drucken oder per Mail zu verschicken wählen Sie im Navigations Baum dem Menü Eintrag "Freie Formulare" aus. Es öffnet sich folgender Dialog.
 
-![](../../../assets/300_FreieFormulareDruckMailView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_FreieFormulareDruckMailView.png" alt="" /></picture>
 
 Im Filter Bereich lässt sich einstellen für welche Mitglieder bzw. Nicht-Mitglieder freie Formulare gedruckt oder verschickt werden sollen.
 

@@ -10,7 +10,7 @@ Jeder Eigenschaft ist eine [Eigenschaftengruppe ](eigenschaften-gruppen.md)zuzuo
 
 ## Liste der Eigenschaften
 
-![](../../../../assets/310_Eigenschaften.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Eigenschaften.png" alt="" /></picture>
 
 Mit Neu kann eine neue Eigenschaft eingerichtet werden.
 
@@ -23,7 +23,7 @@ Das Kontextmenü bietet folgende Optionen:
 
 ## Eigenschaft
 
-![](../../../../assets/310_Eigenschaft.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Eigenschaft.png" alt="" /></picture>
 
 ### Bezeichnung
 

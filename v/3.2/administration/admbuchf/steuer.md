@@ -14,7 +14,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Steuer"
 
 Eine Liste der Steuern kann über den Eintrag Steuer im Navigationsbaum angezeigt werden.
 
-![](../../../../assets/320_SteuerListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_SteuerListeView.png" alt="" /></picture>
 
 Über den Neu Button können neue Steuern erzeugt werden.
 
@@ -24,7 +24,7 @@ Eine Liste der Steuern kann über den Eintrag Steuer im Navigationsbaum angezeig
 
 Mit Neu kann eine neue Steuer eingerichtet werden.
 
-![](../../../../assets/320_Steuer.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Steuer.png" alt="" /></picture>
 
 Eine Buchungsart hat folgende Parameter:
 

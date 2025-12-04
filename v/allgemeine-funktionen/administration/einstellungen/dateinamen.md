@@ -1,6 +1,6 @@
 # Dateinamen
 
-![](../../../../assets/Dateinamen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/Dateinamen.png" alt="" /></picture>
 
 Bei der Ausgabe von Dateien (Abbuchung, Auswertungen...) werden die Dateinamen nach dem vorgegebenen Muster aufgebaut. Es können zusätzliche, vom Betriebssystem unterstützte Zeichen, in das Muster aufgenommen werden. Bleibt das Muster leer, wird kein Vorschlag für den Dateinnamen angezeigt. Spendenbescheinigungen werden jeweils für den einzelnen Spender ausgestellt. Daher sollten zur leichteren Identifizierung Name und Vorname in den Dateinamen aufgenommen werden.
 
