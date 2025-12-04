@@ -4,4 +4,4 @@ Das Navigationsmenü kann je nach aktivierten Programmfunktionen mehr oder wenig
 
 Beispiel für die Navigation:
 
-<picture><img src="../../assets/310_Navigation1.png" alt="" /></picture> <picture><img src="../../assets/310_Navigation2.png" alt="" /></picture> <picture><img src="../../assets/310_Navigation3.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Navigation1.png" alt="" /></picture> <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Navigation2.png" alt="" /></picture> <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Navigation3.png" alt="" /></picture>
