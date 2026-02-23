@@ -104,7 +104,7 @@ Die folgenden Eingabefelder werden nur angezeigt wenn in den Einstellung die Rec
 
 Es existieren folgende Buttons:
 * Hilfe: Aufruf dieser Hilfe Seite
-* Verwendungszweck Variablen: Öffnet den Dialog der möglich Variablen für den Zahlungsgrund anzeigt
+* Verwendungszweck Variablen: Öffnet den Dialog der möglich Variablen für den Verwendungszweck anzeigt
 * Rechnungstext Variablen: Öffnet den Dialog der möglich Variablen für den Rechnungstext anzeigt
 * Auf Probleme prüfen: Prüft auf bestehende Probleme und zeigt diese in der Tabelle "Fehler/Warnungen/Hinweise" an
 * Erstellen: Startet das Erstellen
