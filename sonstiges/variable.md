@@ -115,7 +115,11 @@ Mails \(auch bei Druck & Mail\): Allgemein, Mitglied
 
 Die Daten des Kontoinhabers
 
-* mitglied\_kontoinhaber
+* mitglied\_kontoinhaber  Falls der optionale Kontoinhaber gesetzt ist, wird dieser genommen. Sonst wird er aus dem Namen und Vornamen des Mitglieds gebildet
+* mitglied\_konto_kontoinhaber Der optionale Kontoinhaber der Kontos wie er am GUI eingegeben wurde
+
+Diese Daten eines alternativen Kontoinhabers werden ab der Version 4.0 nicht mehr unterstützt
+
 * mitglied\_kontoinhaber\_personenart
 * mitglied\_kontoinhaber\_anrede
 * mitglied\_kontoinhaber\_titel
