@@ -21,7 +21,7 @@ Sofern vor dem Import Zusatzfelder definiert wurden, können diese auch importie
 
 Die Eingabedatei muss ISO-8859-1-codiert sein.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ImportMenüpunkt.JPG)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_MigrationView.png" alt="" /></picture>
 
 Vor jedem Import sollten Sie sich im klaren sein, welche Einstellungen sie vorgenommen haben. Z.B. wenn sie Eintrittsdatum als Pflichtfeld definieren, dann muss für jedes Mitglied das Eintrittsdatum auch definiert sein. Außerdem sollten sie die, in der Tabelle definierte, maximale Länge, die jeder Eintrag haben darf, berücksichtigen. Wenn Sie dann noch die unterstützten Formate berücksichtigen sollte einem Import nicht mehr viel im Weg stehen.
 
@@ -640,15 +640,15 @@ Eigenschaft eines Mitglieds. Diese Spalte kann mehrfach vorkommen. Anstatt von x
 ### **Mit den Pflichtfeldern**
 
 ```
-Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Straße;Plz;Ort;Geburtsdatum;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Zahlungsart;Telefon_privat;Telefon_dienstlich;Email;Eintritt;Beitragsart_1;Beitrag_1;Austritt;Kündigung;Sterbetag
-22;Herrn;Dr.;Meier;Hans;Ackerstr.1;12345;Testenhausen;22.02.1970;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;l;01234-56789;;hans.meier@web.de;01.01.2000;Erwachsene;22,00;;;
+Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Strasse;Plz;Ort;Geburtsdatum;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Zahlungsart;Telefon_privat;Telefon_dienstlich;Email;Eintritt;Beitragsart_1;Beitrag_1;Austritt;Kuendigung;Sterbetag
+22;Herrn;Dr.;Meier;Hans;Ackerstr.1;12345;Testenhausen;22.02.1970;m;NOLADE21KIE;DE68210501700012345678;21050170;12345678;01.01.2000;l;01234-56789;;hans.meier@web.de;01.01.2000;Erwachsene;22,00;;;
 ```
 
 ### Mit allen Feldern (außer Eigenschaften)
 
 ```
-Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Straße;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;Kontoinhaber;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kündigung;Vermerk1;Vermerk2
-22;Herrn;n;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;1;l;12;1201;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
+Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Strasse;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;Kontoinhaber;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kuendigung;Vermerk1;Vermerk2
+22;n;Herrn;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;NOLADE21KIE;DE68210501700012345678;21050170;12345678;01.01.2000;1;l;12;1201;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
 ```
 
 ## Vorbereiten einer Mitgliederdatei in Office
@@ -658,8 +658,6 @@ In LibreOffice/OpenOffice/Excel müssen in der ersten Zeile die Feld- bzw- Spalt
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Dateiaufbau.png" alt="" /></picture>
 
 Standardmäßig müssen "Geburtsdatum" und "Eintritt" (Eintrittsdatum) angegeben werden. Unter Administration->Einstellungen->Anzeige kann dies vorab geändert werden. Speichern nicht vergessen.
-
-In der Spalte "Beitragsart\_1" muss die Bezeichnung einer vorhandenen Beitragsgruppe eingetragen werden. Man kann sie unter Administration->Einstellungen->Beitragsgruppen nachschauen oder eine neue anlegen.
 
 Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisung oder l für Lastschrift oder Abbuchung oder Bankeinzug. b,u oder l müssen klein geschrieben sein. Wenn l angegeben wird muss auch die IBAN angegeben werden. Ein Feld kann auch leer bleiben, dann wird vom Programm "Barzahlung" angenommen. Keins der Felder darf einen Zeilenumbruch beinhalten. Dies führt zu einer nicht importierbaren CSV Datei.
 

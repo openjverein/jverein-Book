@@ -21,7 +21,7 @@ Sofern vor dem Import Zusatzfelder definiert wurden, können diese auch importie
 
 Die Eingabedatei muss ISO-8859-1-codiert sein.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ImportMenüpunkt.JPG)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_MigrationView.png" alt="" /></picture>
 
 Vor jedem Import sollten Sie sich im klaren sein, welche Einstellungen sie vorgenommen haben. Z.B. wenn sie Eintrittsdatum als Pflichtfeld definieren, dann muss für jedes Mitglied das Eintrittsdatum auch definiert sein. Außerdem sollten sie die, in der Tabelle definierte, maximale Länge, die jeder Eintrag haben darf, berücksichtigen. Wenn Sie dann noch die unterstützten Formate berücksichtigen sollte einem Import nicht mehr viel im Weg stehen.
 
@@ -658,8 +658,6 @@ In LibreOffice/OpenOffice/Excel müssen in der ersten Zeile die Feld- bzw- Spalt
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Dateiaufbau.png" alt="" /></picture>
 
 Standardmäßig müssen "Geburtsdatum" und "Eintritt" (Eintrittsdatum) angegeben werden. Unter Administration->Einstellungen->Anzeige kann dies vorab geändert werden. Speichern nicht vergessen.
-
-In der Spalte "Beitragsart\_1" muss die Bezeichnung einer vorhandenen Beitragsgruppe eingetragen werden. Man kann sie unter Administration->Einstellungen->Beitragsgruppen nachschauen oder eine neue anlegen.
 
 Gültige Werte für die Spalte "Zahlungsart" sind b für bar, u für Überweisung oder l für Lastschrift oder Abbuchung oder Bankeinzug. b,u oder l müssen klein geschrieben sein. Wenn l angegeben wird muss auch die IBAN angegeben werden. Ein Feld kann auch leer bleiben, dann wird vom Programm "Barzahlung" angenommen. Keins der Felder darf einen Zeilenumbruch beinhalten. Dies führt zu einer nicht importierbaren CSV Datei.
 
