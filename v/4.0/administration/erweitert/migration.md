@@ -640,15 +640,15 @@ Eigenschaft eines Mitglieds. Diese Spalte kann mehrfach vorkommen. Anstatt von x
 ### **Mit den Pflichtfeldern**
 
 ```
-Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Straße;Plz;Ort;Geburtsdatum;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Zahlungsart;Telefon_privat;Telefon_dienstlich;Email;Eintritt;Beitragsart_1;Beitrag_1;Austritt;Kündigung;Sterbetag
-22;Herrn;Dr.;Meier;Hans;Ackerstr.1;12345;Testenhausen;22.02.1970;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;l;01234-56789;;hans.meier@web.de;01.01.2000;Erwachsene;22,00;;;
+Mitglieds_Nr;Anrede;Titel;Nachname;Vorname;Strasse;Plz;Ort;Geburtsdatum;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Zahlungsart;Telefon_privat;Telefon_dienstlich;Email;Eintritt;Beitragsart_1;Beitrag_1;Austritt;Kuendigung;Sterbetag
+22;Herrn;Dr.;Meier;Hans;Ackerstr.1;12345;Testenhausen;22.02.1970;m;NOLADE21KIE;DE68210501700012345678;21050170;12345678;01.01.2000;l;01234-56789;;hans.meier@web.de;01.01.2000;Erwachsene;22,00;;;
 ```
 
 ### Mit allen Feldern (außer Eigenschaften)
 
 ```
-Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Straße;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;Kontoinhaber;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kündigung;Vermerk1;Vermerk2
-22;Herrn;n;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;MARKDEFF;DE68210501700012345678;12345678;12345;01.01.2000;1;l;12;1201;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
+Mitglieds_Nr;Personenart;Anrede;Titel;Nachname;Vorname;Adressierungszusatz;Strasse;Plz;Ort;Staat;Geburtsdatum;Sterbetag;Geschlecht;BIC;IBAN;Bankleitzahl;Kontonummer;Mandat_Datum;Mandat_Version;Zahlungsart;Zahlungsrhytmus;Zahlungstermin;Kontoinhaber;Telefon_privat;Telefon_dienstlich;Handy;Email;Eintritt;Beitragsart_1;Beitrag_1;individuellerbeitrag;Austritt;Kuendigung;Vermerk1;Vermerk2
+22;n;Herrn;Dr.;Meier;Hans;;Ackerstr.1;12345;Testenhausen;Deutschland;22.02.1970;;m;NOLADE21KIE;DE68210501700012345678;21050170;12345678;01.01.2000;1;l;12;1201;;01234-56789;;0170-1234567890;hans.meier@web.de;01.01.2000;Erwachsene;22,00;44,00;;;;
 ```
 
 ## Vorbereiten einer Mitgliederdatei in Office
