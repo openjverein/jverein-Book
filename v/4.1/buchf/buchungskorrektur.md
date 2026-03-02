@@ -29,9 +29,9 @@ PS: Es kann sein, dass eine Bank das SVWZ nicht enthält aber die anderen Tags. 
 
 ## Manuelle Buchungkorrektur
 
-Hat man die automatische Buchungskorrektur nicht aktiviert oder hat man bereits Buchungen die nicht korrigiert sind, kann man die manuelle Buchungskorrektur unter dem Menüpunkt Buchführung->Buchungskorrektur aufrufen.
+Hat man die automatische Buchungskorrektur nicht aktiviert oder hat man bereits Buchungen die nicht korrigiert sind, kann man die manuelle Buchungskorrektur unter Buchführung->Buchungen über den Button Buchungskorrektur aufrufen.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_BuchungskorrekturView.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_BuchungskorrekturView.png" alt="" /></picture>
 
 Der View zeigt alle nicht abgeschlossenen Buchungen in denen eines der Tags EREF, KREF, MREF, CRED, DBET, SVWZ, ABWA, IBAN+, IBAN:, BIC gefunden wurde.
 
