@@ -1,18 +1,17 @@
-# Freie Formulare
+# Personalbogen
 
-## Freie Formulare selektiv erstellen
+## Personalbogen selektiv erstellen
 
-Möchten Sie freie Formulare selektiv erstellen, so öffnen Sie den Dialog Mitglieder bzw. Nicht-Mitglieder. Wählen Sie den Filter so, dass die gewünschten Mitglieder angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Freie Formulare". Es öffnet sich hier der Dialog Freie Formulare, der Sie bei der Erstellung des freien Formulars unterstützt.
+Möchten Sie Personalbogen selektiv erstellen, so öffnen Sie den Dialog Mitglieder bzw. Nicht-Mitglieder. Wählen Sie den Filter so, dass die gewünschten Mitglieder angezeigt werden. Selektieren Sie einen oder mehrere Einträge und drücken die rechte Maustaste. Es öffnet sich ein Kontext-Menü. Wählen Sie hier den Menüpunkt "Personalbogen". Es öffnet sich hier der Dialog Personalbogen, der Sie bei der Erstellung des Personalbogens unterstützt.
 
 Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
 Im Info Feld wird angezeigt wie viele Mitglieder selektiert wurden und welche keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_FreieFormulareDruckMailView1.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_PersonalbogenDruckMailView1.png" alt="" /></picture>
 
 
 Im Parameter Feld gibt es folgende Optionen:
-* Formular: Im Parameter Feld "Formular" ist ein freies Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
 * Ausgabe: Es lässt sich wählen ob die Rechnungen als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
 
 Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
@@ -29,16 +28,15 @@ Der View besitzt folgende Buttons:
 Das drücken des Startknopf löst im Fall der Mail Ausgabe bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.
 
 
-## Freie Formulare automatisch erstellen
+## Personalbogen automatisch erstellen
 
-Um freie Formulare zu drucken oder per Mail zu verschicken wählen Sie im Navigations Baum dem Menü Eintrag "Freie Formulare" aus. Es öffnet sich folgender Dialog.
+Um Personalbögen zu drucken oder per Mail zu verschicken wählen Sie im Navigations Baum dem Menü Eintrag "Personalbogen" aus. Es öffnet sich folgender Dialog.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_FreieFormulareDruckMailView2.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_PersonalbogenDruckMailView2.png" alt="" /></picture>
 
 Im Filter Bereich lässt sich einstellen für welche Mitglieder bzw. Nicht-Mitglieder freie Formulare gedruckt oder verschickt werden sollen.
 
 Im Parameter Feld gibt es folgende Optionen:
-* Formular: Im Parameter Feld "Formular" ist ein freies Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
 * Ausgabe: Es lässt sich wählen ob die Rechnungen als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
 
 

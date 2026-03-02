@@ -629,6 +629,7 @@
     * [Mahnungen](v/4.1/druckmail/mahnungen.md)
     * [Kontoauszüge](v/4.1/druckmail/kontoauszug.md)
     * [Freie Formulare](v/4.1/druckmail/freiesformular.md)
+    * [Personalbogen](v/4.1/druckmail/personalbogen.md)
     * [Pre-Notification](v/4.1/druckmail/pre-notification.md)
     * [Spendenbescheinigungen](v/4.1/druckmail/spendenbescheinigungen.md)
     * [Mail](v/4.1/druckmail/mail.md)
