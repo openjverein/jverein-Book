@@ -626,7 +626,9 @@ Datum der Kündigung. Unterstützte Formate siehe Geburtsdatum
 <summary>Eigenschaft_xxxxx</summary>
 
 **Inhalt:**\
-Eigenschaft eines Mitglieds. Diese Spalte kann mehrfach vorkommen. Anstatt von xxxxx wird die Eigenschaftengruppe eingetragen. Die importieren Eigenschaften dieser Gruppe zugeordnet.
+Eigenschaft (Bezeichnung) eines Mitglieds. Diese Spalte kann mehrfach vorkommen. Anstatt von xxxxx wird die Bezeichnung der Eigenschaftengruppe eingetragen. Die importieren Eigenschaften dieser Gruppe zugeordnet.
+
+Achtung: Seit der Version 4.0 existiert bei Eigenschaft und Eigenschaftengruppe auch das Attribut Name. Dieses wird aus der eingegebenen Bezeichnung abgeleitet. Die Bezeichnung wird in Kleinbuchstaben umgewandelt und alle Zeichen außer a-z, 0-9 in ein \"_\" umgewandelt. Dadurch könnten sich gleiche Namen ergeben was nicht zulässig ist. Es ist also bei der Wahl der Bezeichnung darauf zu achten, dass keine gleichen Namen entstehen.
 
 **Max. Länge**\
 30
