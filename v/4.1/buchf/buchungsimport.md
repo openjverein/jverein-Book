@@ -16,17 +16,15 @@ Als Spaltennamen stehen die folgende Variablen zur Verfügung.
 * buchung_zweck1 (Verwendungszweck in der Buchung)
 * buchung_iban (optional)
 
-Beispel:
+Beispiel:
 
 ```
 buchung_betrag;buchung_buchungsart_nummer;buchung_datum;buchung_kontonummer;buchung_name;buchung_zweck1;buchung_iban
-80;2004;08.04.2012;1;Shop;"Mitgliedsbeitrag
-1. Halbjahr
-Hansi Müller";DE02100100100006820101
-35;2004;08.04.2012;1;Shop;zweck1;DE02100100100006820101
+80;2004;08.04.2012;2;Shop;"Mitgliedsbeitrag 1. Halbjahr Hansi Müller";DE02100100100006820101
+35;2004;08.04.2012;2;Shop;zweck1;DE02100100100006820101
 ```
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_tabellen_ansicht.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_tabellen_ansicht.png" alt="" /></picture>
 
 Die oberste Zeile dient der Zuordnung. Der Inhalt dieser Zeile muss exakt so geschrieben werden. In die Spalte "buchung\_kontonummer" kommt die (JVerein) Kontonummer zu der die Buchung zugeordnet werden soll. Bei einem Hibiscuskonto ist das die Bankkontonummer. Bei einem reinen JVereinkonto die entsprechende Nummer des Kontos. Man kann sie hier nachschauen bzw. vorab ein Konto anlegen. In diesem Beispiel hat das JVerein interne Konto die Bezeichnung "manuell" und die Nummer 2.
 

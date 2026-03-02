@@ -14,6 +14,12 @@ Die Version 4.1 ist eine Minor Version und rückwärts kompatibel mit eine 4.0.
 * Bei PDF Druck lässt sich auswählen ob das Versanddatum beim Druck gesetzt werden soll z.B. nicht bei Probeausdrucken
 * Bei Spendenbescheinigungen wird bei Mailversand auch eine Zip Datei erzeugt wie bei den anderen Einträgen. Der Dateipfad für die Ausgabe wird nicht mehr in den Einstellungen konfiguriert sondern es wird sich der letzte benutze Pfad gemerkt und jeweils abgefragt
 
+### Personalbogen in Druck & Mail
+
+* Bisher wurde der Personalbogen bei Selektion des entsprechenden Menüeintrages beim Mitglied direkt gedruckt
+* In 4.1 wird jetzt der Druck & Mail Dialog aufgerufen
+* Der Druck & Mail Dialog bietet dann auch die oben genannten Ausgabeoptionen
+
 ### Mail-Text-Vorschau Dialog Update in Druck & Mail
 
 * Im Mail-Text-Vorschau Dialog konnte man bisher in der Empfänger Auswahl alle Mitglieder auswählen. Es wurden in der Vorschau nur allgemeine und Mitglied Variablen ersetzt. Variablen aus den Anhängen wie z.B. Rechnungen wurden nicht ersetzt und mit dummy Daten angezeigt
@@ -61,5 +67,6 @@ Die Version 4.1 ist eine Minor Version und rückwärts kompatibel mit eine 4.0.
 * Im Mail View wurden einige Buttons verschoben
 * Bei Sollbuchungen mit negativem Betrag (Erstattung) lässt sich beim manuellen Erstellen einer Rechnung ein Erstattungsformular auswählen
 * Das Mitglied wird in der Lastschrift angezeigt
+* Der QR-Code wird nur bei Überweisung in der Rechnung angezeigt
 
 
