@@ -134,7 +134,8 @@ Mit einem Klick auf eine Buchung mit der rechten Maustaste öffnet sich ein Kont
    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_BuchungMenue.png" alt="" /></picture>
     
 *   Im Mitglieds View unter dem Tab Mitgliedskonto:  
-Eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
+Eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.  
+Es lassen sich auch mehrere Istbuchungen auswählen. In diesem Fall werden Sammelbescheinigungen für die selektierten Buchungen (nur Geldspenden) erzeugt. Istbuchungen für Sachspenden und selektierte Sollbuchungen werden bei dieser Auswahl ignoriert.
 
    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_MitgliedskontoMenue.png" alt="" /></picture>
 
@@ -144,7 +145,7 @@ Eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die re
 
 * Die Buchung muss einer Sollbuchung zugeordnet sein
 * Ein Mitglied wird nur berücksichtigt wenn Straße, Postleitzahl und Ort eingetragen ist
-* Der Betrag einer Geldspendenscheinigung muss gleich oder größer sein als der Mindestbetrag der unter Administration->Einstellungen->Spendenbescheinigungen eingetragen ist
+* Bei der Generierung aus der Übersicht über Spendenbescheinigungen (Button "Neu (Automatisch)" ) muss der Betrag einer Geldspendenscheinigung gleich oder größer sein als der Mindestbetrag der unter Administration->Einstellungen->Spendenbescheinigungen eingetragen ist
 
 Bei der automatischen Generierung werden nur die Buchungen erfasst, die noch keiner Spendenbescheinigung oder Sammelbestätigung zugewiesen wurden. Es werden niemals für eine Buchung mehrere Bescheinigungen generiert.
 
@@ -164,6 +165,7 @@ Spendenbescheinigungen können automatisch auf mehrere Arten erzeugt werden:
 
 *   In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Spendenbescheinigung auswählen. Es werden alle spendenberechtigte Buchungen gesucht bei denen das Mitglied als Zahler in der zugeordneten Sollbuchung eingetragen ist und für die noch keine Spendenbescheinigungen erstellt wurden. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen. Bei mehreren Geldspenden wird eine Sammelbestätigung generiert. In diesem Fall bestimmt die erste Buchung das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen. Bei Sachspenden wird für jede Buchung eine eigene Spendenbescheinigung generiert.  
 Falls genau eine Bescheinigung generiert wird, wird diese geöffnet und angezeigt. Sie muss dann explizit gespeichert werden.
+Bei Auswahl des Menüpunktes erfolgt eine Abfrage nach dem Jahr für welches die Buchungen gesucht werden sollen.
 
    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_MitgliedMenu.png" alt="" /></picture>
 

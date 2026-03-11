@@ -17,6 +17,8 @@ zur Verfügung. Die Standardwerte können unter Administration->Einstellungen->B
 ### Abweichender Zahler für Beiträge und Zusatzbeträge
 PS: Dies ist ein neues Konzept welches in der Version 4.0 eingeführt wurde.
 
+Zur Nutzung von abweichenden Zahlern ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
 Sollen die Beiträge oder Zusatzbeträge nicht vom Mitglied selbst, sondern von einer anderen Person bezahlt werden z.B. Eltern, dann kann in diesem Feld das entsprechende Mitglied oder Nicht-Mitglied ausgewählt werden.
 
 Dieses Feld wird ausschließlich während eine Abrechnungslaufes ausgewertet. Ist hier ein Mitglied/Nicht-Mitglied gesetzt, dann wird dieses als Zahler für den Beitrag bzw. Zusatzbetrag verwendet. Es wird dann sein Zahlungsweg verwendet und dieser Zahler als Zahler in der Sollbuchung eingetragen. Dieses stellt dann auch sicher, dass eine Spendenbescheinigung auf den Zahler ausgestellt wird.
@@ -39,3 +41,10 @@ Die Mandats-ID wird automatisch aus der Mitgliedsnummer oder optional aus der ex
 Bei Lastschriften wird von JVerein der Kontoinhaber aus dem Namen und Vornamen des Mitglieds zusammen gesetzt. Bei einem Gemeinschaftskonto könnte der Kontoinhaber aber auch anders lauten. In diesem Fall kann der genaue Wortlaut des Kontoinhaber hier eingetragen werden. Ist dieses Feld gefüllt wird dieser Name bei Lastschriften verwendet.
 
 Mit dem Button "Daten löschen" können die Einträge zur Bankverbindung gelöscht werden.
+
+## Zahlt Beiträge und Zusatzbeträge für
+
+Zahlt das Mitglied Beiträge oder Zusatzbeträge für andere Mitglieder oder Nicht-Mitglieder, dann wird eine Tabelle mit Mitgliedern bzw. Nicht-Mitgliedern angezeigt für die das Mitglied bezahlt.
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_WerZahltFuer.png" alt="" /></picture>
+

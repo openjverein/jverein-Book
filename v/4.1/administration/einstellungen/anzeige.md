@@ -1,6 +1,6 @@
 # Anzeige
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_EinstellungenAnzeige.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_EinstellungenAnzeige.png" alt="" /></picture>
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 
@@ -11,6 +11,7 @@ Folgende Einstellungen können vorgenommen werden:
 ### Mitglieder Feature Auswahl
 
 Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mitgliedern verfügbar sind:
+* Abweichende Zahler: Unterstützung von abweichenden Zahlern (siehe [Abweichende Zahler](../../mitglieder/abweichendezahler.md))
 * Arbeitseinsatz: Unterstützung von Arbeitsstunden (siehe [Arbeitseinsätze](../../mitglieder/arbeitseinsatz.md))
 * Familienbeitrag: Unterstützung von Familienbeitrag (siehe [Familienbeitrag](../../mitglieder/familienbeitrag.md))
 * Kursteilnehmer: Unterstützung von Kursteilnehmern (siehe [Kursteilnehmer](../../mitglieder/kursteilnehmer.md))

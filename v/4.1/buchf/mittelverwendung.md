@@ -22,7 +22,7 @@ Gemeinnützige Vereine müssen ihre Einnahmen (Finanzen und Sachen) im aktuellen
 
 **Ausnahme**
 
-Das Jahressteuergesetz 2020 für kleine und mittlere Vereine hat eine Erleichterung gebracht. Vereine, die mit ihren Bruttoeinnahmen unter 45.000 Euro pro Jahr bleiben, sind nicht mehr an die zeitnahe Mittelverwendung gebunden. Der § 55 Absatz 1 Nummer 5 der Abgabenordnung (AO) wurde dazu durch das Jahressteuergesetz (JStG) entsprechend ergänzt.
+Das Jahressteuergesetz 2020 für kleine und mittlere Vereine hat eine Erleichterung gebracht. Vereine, die mit ihren Bruttoeinnahmen unter 45.000 Euro (100.000 Euro ab 2026) pro Jahr bleiben, sind nicht mehr an die zeitnahe Mittelverwendung gebunden. Der § 55 Absatz 1 Nummer 5 der Abgabenordnung (AO) wurde dazu durch das Jahressteuergesetz (JStG) entsprechend ergänzt.
 
 Es gibt keine feste Vorgabe wie ein Mittelverwendung Nachweis auszuschauen hat. JVerein bietet zwei verschiedene Reports an:
 
