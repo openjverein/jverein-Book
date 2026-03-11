@@ -4,7 +4,7 @@
 
 Unter Administration->Einstellungen->Allgemein muss das Konto eingetragen sein, auf das die Lastschriften gutgeschrieben werden sollen. Bei Verwendung von Lastschriften muss die Gläubiger-ID eingetragen werden. Gläubiger-ID können unter [https://extranet.bundesbank.de/scp/](https://extranet.bundesbank.de/scp/) oder [http://www.oenb.at/idakilz/cid?lang=de](http://www.oenb.at/idakilz/cid?lang=de) beantragt werden. Zu Testzwecken kann DE98ZZZ09999999999 eingesetzt werden.
 
-Unter Abministration->Einstellungen->Abrechnung "Verechnungskonto für Lastschriften" muss das Konto augewählt werden auf das die Gegenbuchunge von Lastschriften gebucht werden.
+Unter Abministration->Einstellungen->Abrechnung "Verrechnungskonto für Lastschriften" muss das Konto ausgewählt werden auf das die Gegenbuchungen von Lastschriften gebucht werden.
 
 ## SEPA-Fehler
 

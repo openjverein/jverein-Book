@@ -19,6 +19,8 @@ Die Version 4.1 ist eine Minor Version und rückwärts kompatibel mit eine 4.0.
 * Bisher wurde der Personalbogen bei Selektion des entsprechenden Menüeintrages beim Mitglied direkt gedruckt
 * In 4.1 wird jetzt der Druck & Mail Dialog aufgerufen
 * Der Druck & Mail Dialog bietet dann auch die oben genannten Ausgabeoptionen
+* Zusätzlich lässt sich auswählen welche Informationen in den Report übernommen werden sollen
+* Es werden nun auch folgende Daten ausgegeben: Abweichender Zahler, Kontoinhaber, Mandat und Spendenbescheinigungen
 
 ### Mail-Text-Vorschau Dialog Update in Druck & Mail
 
@@ -40,6 +42,18 @@ Die Version 4.1 ist eine Minor Version und rückwärts kompatibel mit eine 4.0.
 * Ein fester Betrag kann auch bei der Auswahl von Mitgliedern an diese überwiesen werden
 * Siehe [Gutschrift](mitglieder/gutschrift.md)
 
+### Erweiterungen für Abweichende Zahler
+
+* Ähnlich wie beim Familienverband gibt es jetzt auch einen View der die Zahler Beziehungen anzeigt
+* Siehe [Abweichende Zahler](mitglieder/abweichendezahler.md)
+* In den Mitglied Details unter dem Tab Zahlung wird eine Tabelle angezeigt mit den Mitgliedern für den das selektierte Mitglied bezahlt
+* Der Support für abweichende Zahler lässt sich unter Administration->Einstellungen->Anzeige aktivieren bzw. deaktivieren
+
+### Abrechnungslauf View
+
+* Im Abrechnungslauf View werden in neuen Tabs,  die durch den Abrechnungslauf erzeugten Buchungen, Sollbuchungen und Lastschriften, sowie die abgerechneten Zusatzbeträge angezeigt.
+
+
 
 ## Kleinere Korrekturen und Erweiterungen
 
@@ -57,6 +71,10 @@ Die Version 4.1 ist eine Minor Version und rückwärts kompatibel mit eine 4.0.
 * Bei den Lehrgängen konnte man bisher nur eine Lehrgangsart eingeben
 * Mit einem neuen Feld lässt sich auch eine Bezeichnung für den Lehrgang eingeben und danach filtern
 
+### Spendenbescheinigungen
+
+* Bei der manuellen Erstellung von Spendenbescheinigungen aus dem Mitgliedskonto von Mitgliedern lassen sich jetzt auch Sammelbescheinigungen erstellen. Dafür können mehrere Istbuchungen selektiert werden
+* Bei der automatischen Generierung über das Mitgliedmenü wird jetzt über einen Dialog das Jahr abgefragt für welches die Buchungen berücksichtigt werden sollen. Auch wird hier die Prüfung auf den Mindestbetrag nicht mehr durchgeführt
 
 ## Sonstiges
 
@@ -68,5 +86,7 @@ Die Version 4.1 ist eine Minor Version und rückwärts kompatibel mit eine 4.0.
 * Bei Sollbuchungen mit negativem Betrag (Erstattung) lässt sich beim manuellen Erstellen einer Rechnung ein Erstattungsformular auswählen
 * Das Mitglied wird in der Lastschrift angezeigt
 * Der QR-Code wird nur bei Überweisung in der Rechnung angezeigt
+* Beim Anlegen eines neuen Kontos wird automatisch ein Anfangsbestand zum Eröffnungsdatum des Kontos mit Betrag 0€ erstellt
+* Bei neuen Mitgliedern und Buchungen können direkt auch Buchungsdokumente hinzugefügt werden
 
 

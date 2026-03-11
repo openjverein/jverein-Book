@@ -16,7 +16,7 @@ Durch Doppel Klick auf ein Konto werden die Daten der Kontos angezeigt.
 Über das Konto Menü lassen sich
 
 * Konten zum Bearbeiten anzeigen
-* Ein Anfangsbestand erzeugen
+* Ein Anfangsbestand erzeugen (Ab Version 4.1 wird beim Anlegen eines neuen Kontos automatisch ein Anfangsbestand zum Eröffnungsdatum des Kontos mit Betrag 0€ angelegt)
 * Das Konto löschen
 
 ## Kontenarten
@@ -80,7 +80,7 @@ Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
 
 ## Rücklagenkonten
 
-Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Dieses müssen sie dem Finanzamt nachweisen, siehe [Mittelverwendung](mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
+Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Vereine, die mit ihren Bruttoeinnahmen unter 45.000 Euro (100.000 Euro ab 2026) pro Jahr bleiben, sind nicht mehr an die zeitnahe Mittelverwendung gebunden. Dieses müssen sie dem Finanzamt nachweisen, siehe [Mittelverwendung](mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
 
 Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
 

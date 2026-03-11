@@ -6,6 +6,8 @@ Möchten Sie Personalbogen selektiv erstellen, so öffnen Sie den Dialog Mitglie
 
 Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wählen.
 
+Zusätzlich lässt sich auswählen welche Daten in den Report aufgenommen werden sollen.
+
 Im Info Feld wird angezeigt wie viele Mitglieder selektiert wurden und welche keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_PersonalbogenDruckMailView1.png" alt="" /></picture>
@@ -38,7 +40,7 @@ Im Filter Bereich lässt sich einstellen für welche Mitglieder bzw. Nicht-Mitgl
 
 Im Parameter Feld gibt es folgende Optionen:
 * Ausgabe: Es lässt sich wählen ob die Rechnungen als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
-
+* Es lässt sich auswählen welche Daten in den Report aufgenommen werden sollen
 
 Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
 

@@ -27,4 +27,6 @@ Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
 
 Die Bemerkung lässt sich editieren.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_AbrechnungslaufView.png" alt="" /></picture>
+In den Tabs werden die durch den Abrechnungslauf erzeugten Buchungen, Sollbuchungen und Lastschriften sowie die abgerechneten Zusatzbeträge angezeigt.
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_AbrechnungslaufView.png" alt="" /></picture>
