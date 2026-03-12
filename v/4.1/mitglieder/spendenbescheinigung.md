@@ -90,10 +90,10 @@ Das Kontextmenü bietet folgende Optionen:
 * Versanddatum setzen: Setzen bzw. Löschen des Versanddatum
 * Löschen: Damit kann eine Spendenbescheinigung(en) gelöscht werden
 * Mitglied anzeigen: Öffnet das Mitglied zur Spendenbescheinigung
-* Druck und Mail: Spendenbescheinigung(en) über den Druck und Mail Dialog drucken oder per Mail verschicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
+* Druck und Mail: Spendenbescheinigungen über den Druck und Mail Dialog drucken oder per Mail verschicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
 * Mail an Spender: Eine Mail an den Spender verschicken
 
-Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet. Das Drucken beschränkt sich darauf, die Dokumente in dem in den Einstellungen angegebenen Verzeichnis zu speichern.
+Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge angewendet.
 
 ## Spendenbescheinigung
 

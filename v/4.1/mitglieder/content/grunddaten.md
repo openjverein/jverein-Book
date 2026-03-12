@@ -6,7 +6,7 @@ Im oberen Teil des Mitglied Dialogs sind die allgemeinen Daten des Mitgliedes zu
 
 Name, Vorname und Geschlecht sind Pflichtfelder.
 
-In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Geburtsdatum ein Pflichfeld ist.
+In Administration->Einstellungen->Allgemein lässt sich einstellen, ob Geburtsdatum ein Pflichfeld ist.
 
 Hinweis zur E-Mail-Adresse: In JVerein kann aktuell je Mitglied nur eine E-Mail-Adresse gespeichert werden. Hat ein Mitglied aber mehrere E-Mail-Adressen, kann man sich derzeit mit der 'Group'-Notation behelfen, hierbei müssen die Mailadressen in folgender Form eingegeben werden: `GRUPE:empfaenger1@test.de,empfaender2@test.de;`.
 

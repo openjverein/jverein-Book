@@ -8,7 +8,17 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Kurstei
 
 ### Allgemeines
 
-Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglied des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die Zusatzabbuchungen an.
+Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglied des Vereins sind.
+
+Dies ist ein veraltetes Feature.
+
+Sofern Mitglieder an Kursen teilnehmen, bieten sich die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) an. Auch lassen sich Nicht-Mitglieder erstellen die über Zusatzbeträge abgerechnet werden können. Der Vorteil dabei ist, dass auch Mail Adressen eingegeben werden können und z.B. Pre-Notification oder Rechnungen an die Teilnehmer per Mail verschickt werden können. Für Kursteilnehmer lassen sich keine Rechnungen erzeugen weil es keine Sollbuchungseinträge gibt.
+
+Ab 4.1 lässt sich auch das Feature [Forderung](../mitglieder/forderung.md) nutzen um Mitglieder und Nicht-Mitglieder direkt abzurechnen ohne der Notwendigkeit Zusatzbeträge zu erzeugen.
+
+Eine weite Möglichkeit wäre das Feature [Lehrgänge](../mitglieder/lehrgange.md) zu verwenden.
+
+Es ist also abzuraten das Feature Kursteilnehmer zu verwenden.
 
 ## Liste der Kursteilnehmer
 

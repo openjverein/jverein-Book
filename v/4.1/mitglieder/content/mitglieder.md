@@ -165,14 +165,16 @@ Zeigt eine QR-Code mit den Daten des Mitgliedes an.
 
 Automatische Erstellung von Spendenbescheinigungen, die direkt dem Mitglied zugeordnet sind. Werden mehrere Buchungen gefunden, wird eine Sammelbestätigung erzeugt. Bei Sachspenden wird für jede Buchung eine eigene Sachspendenbescheinigung erzeugt.
 
+Beim Aufruf erscheint ein Dialog bei dem das Jahr ausgewählt werden muss. Es werden dann nur Buchungen des ausgewählten Jahres berücksichtigt.
+
 ### Kontoauszug
 
-Für einen vorgegebenen Zeitraum werden alle Buchungen des Mitgliedskontos ausgegeben.
+Für einen vorgegebenen Zeitraum werden alle Buchungen des Mitgliedskontos ausgegeben. Es wird in den Dialog [Kontoauszug](../../druckmail/kontoauszug.md) gewechselt.
 
 ### Personalbogen
 
-Ausgabe aller zu einem Mitglied gespeicherten Daten (Ausnahme: Ggfls. gespeicherte Dokumente)
+Ausgabe aller zu einem Mitglied gespeicherten Daten (Ausnahme: Ggfls. gespeicherte Dokumente). Es wird in den Dialog [Personalbogen](../../druckmail/personalbogen.md) gewechselt.
 
 ### Freie Formulare
 
-Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wird dieser Menüpunkt angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die ausgewählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../druckmail/freiesformular.md)
+Wenn unter Administration->Mitglieder->Formulare mindestens ein Formular vom Typ "Freies Formular" angelegt wurde, so wird dieser Menüpunkt angezeigt. Beim Auswählen eine Eintrags wird in den Dialog [Freie Formulare](../../druckmail/freiesformular.md) gewechselt.

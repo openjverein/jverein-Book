@@ -25,6 +25,6 @@ Mit dem Button Neu Wiedervorlage kann eine neue Wiedervorlage eingerichtet werde
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_WiedervorlageView.png" alt="" /></picture>
 
-Zusätzlich werden die Daten unter Jameica | Termine in einem Kalenderformat angezeigt.
+Zusätzlich werden die Daten unter Start->Termine in einem Kalenderformat angezeigt.
 
 Weitere Informationen dazu: [Wiedervorlagen](../wiedervorlage.md)

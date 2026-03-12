@@ -2,11 +2,11 @@
 
 Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](../../administration/mitglieder/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts (z. B. der 31.12. des jeweiligen Jahres) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
 
-Standardaussehen des Formulars:
+Standard Aussehen des Formulars:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedschaftTab.png" alt="" /></picture>
 
-In Administration->Einstellungen->Anzeige lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
+In Administration->Einstellungen->Allgemein lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
 
 ## Sekundäre Beitragsgruppen
 
@@ -17,8 +17,6 @@ Für ein Mitglied können auch Beiträge aus mehreren Beitragsgruppen abgerechne
 ## Familienverband
 
 Ein Mitglied kann einem Familienverband zugeordnet werden. Dazu muss unter Administration->Einstellungen->Anzeige das Häkchen bei "Familienbeitrag" gesetzt werden
-
-Sofern eine Beitragsgruppe ausgewählt wurde, die mit "Familienangehöriger" gekennzeichnet ist, wird folgendes Formular angezeigt.
 
 Die Person (ebenfalls ein Mitglied), die im Familienverband den vollen Beitrag zahlt, kann im Tab "Vollzahlendes Familienmitglied" aus einer Liste ausgewählt werden.
 

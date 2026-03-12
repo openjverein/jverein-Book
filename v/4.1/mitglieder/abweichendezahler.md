@@ -6,7 +6,7 @@ Zur Nutzung von abweichenden Zahlern ist die Option unter Administration->Einste
 
 Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Abweichende Zahler" zur Verfügung steht.
 
-## Tabelle der Familien Beziehungen
+## Tabelle der abweichenden Zahler
 
 Dieser Dialog zeigt einen Baum mit der Zahler Beziehung.
 

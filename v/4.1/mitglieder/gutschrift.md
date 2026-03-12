@@ -97,6 +97,7 @@ Es existieren folgende Eingabefelder:
 
 Die folgenden Eingabefelder werden nur angezeigt wenn in den Einstellung die Rechnung Option aktiviert ist.
 * Rechnung zur Gutschrift erzeugen: Erzeugt eine Rechnung falls für die Gutschrift eine Sollbuchung erzeugt wird. PS: Bei Lastschriften für Kursteilnehmer werden keine Sollbuchungen erzeugt weil diese keine Mitglieder bzw. Nicht-Mitglieder sind
+* Rechnung als Buchungsdokument speichern: Hier lässt sich auswählen ob für die generierte Rechnung als Buchungsdokument bei der Buchung gespeichert werden soll
 * Erstattungsformular: Formular für die Rechnung
 * Rechnungsdatum: Datum der Rechnung
 * Rechnungstext: Der Rechnungstext wird im Feld Zweck in der Sollbuchung eingetragen. Werden keine Rechnungen erstellt oder es ist nichts eingegeben wird der Zahlungsgrund verwendet

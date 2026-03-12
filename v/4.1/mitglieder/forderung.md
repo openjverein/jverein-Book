@@ -69,6 +69,6 @@ Falls bei einem Mitglied bzw. Zahler per Basislastschrift eingezogen wird muss b
 
 ## Problembehandlung
 
-Existiert in der Tabelle "Fehler/Warnungen/Hinweise" ein Eintrag für ein Mitglied kann durch einen Doppel-Klick auf den Eintrag das Mitglied angezeigt werden. Der Dialog bleibt dabei geöffnet.
+Existiert in der Tabelle "Fehler/Warnungen/Hinweise" ein Eintrag für ein Mitglied, kann durch einen Doppel-Klick auf den Eintrag das Mitglied angezeigt werden. Der Dialog bleibt dabei geöffnet.
 
 Jetzt kann beim Mitglied der Fehler behoben werden z.B. durch Eingabe der IBAN. Nach Speichern des Mitglieds kann erneut auf Probleme getestet werden.

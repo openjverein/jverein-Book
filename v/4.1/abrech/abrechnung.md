@@ -24,7 +24,7 @@ verarbeitet werden.
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhythmus eingezogen.
 
-Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die Beiträge eingezogen werden. Dazu wird das Eintrittsdatum eingetragen, ab dem die Beiträge für nachträglich eingetretene Mitglieder abgebucht werden sollen.
+Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die Beiträge eingezogen werden. Dazu wird das Eintrittsdatum bzw. Eingabedatum eingetragen, ab dem die Beiträge für nachträglich eingetretene Mitglieder abgebucht werden sollen. Es ist nur eines der beiden Datumseingaben nötig.
 
 Um nur Mitglieder abzurechnen, die sich schon abgemeldet haben, wird das maximale Austrittsdatum eingetragen. Dann werden Beiträge nur für die Mitglieder abgebucht, die bis dahin ausgetreten sind.
 
@@ -32,7 +32,7 @@ Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
 
 Es existieren folgende Buttons:
 * Hilfe: Aufruf dieser Hilfe Seite
-* Zahlungsgrund Variablen: Öffnet den Dialog der möglich Variablen für den Zahlungsgrund anzeigt
+* Zahlungsgrund Variablen: Öffnet den Dialog der möglich Variablen für den Zahlungsgrund für Beiträge anzeigt
 * Rechnungstext Variablen: Öffnet den Dialog der möglich Variablen für den Rechnungstext anzeigt
 * Auf Probleme prüfen: Prüft auf bestehende Probleme und zeigt diese in der Tabelle "Fehler/Warnungen/Hinweise" an
 * Starten: Startet das Erstellen
@@ -86,17 +86,21 @@ Für den Verwendungszeck können auch Variablen verwendet werden. Siehe [Variabl
 
 Mit dieser Option werden die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) abgerechnet. Diese Option kann zu allen Abrechnungsmodi zusätzlich gesetzt werden.
 
-Unter Administration->Einstellungen->Allgemein kann eingestellt werde, ob Zusatzbeträge auch von ausgetretenen Mitgliedern abgerechnet werden sollen.
+Unter Administration->Einstellungen->Abrechnung kann eingestellt werden, ob Zusatzbeträge auch von ausgetretenen Mitgliedern abgerechnet werden sollen.
 
 #### Kursteilnehmer
 
-Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind. Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) an.
+Teilnehmer von Kursen können abgerechnet werden. Kursteilnehmer sind Personen, die nicht Mitglieder des Vereins sind und es werden nur die Kontodaten für eine Lastschrift gespeichert. Dies ist ein veraltetes Feature.
 
-#### Sollbuchung(en) zusammenfassen
+Sofern Mitglieder an Kursen teilnehmen, die zusätzlich abgerechnet werden, bieten sich die [Zusatzbeträge](../mitglieder/zusatzbetrage.md) an. Auch lassen sich Nicht-Mitglieder erstellen die über Zusatzbeträge abgerechnet werden können. Ab 4.1 lässt sich auch das Feature [Forderung](../mitglieder/forderung.md) nutzen um Mitglieder und Nicht-Mitglieder direkt abzurechnen.
+
+Eine weite Möglichkeit wäre das Feature [Lehrgänge](../mitglieder/lehrgange.md) zu verwenden.
+
+#### Sollbuchungen zusammenfassen
 
 Alle Abbuchungen eines Mitgliedes (Beträge und Zusatzbeträge) werden in eine Sollbuchung zusammengefasst.
 
-#### Kompakte Abbuchung(en)
+#### Kompakte Abbuchungen
 
 Alle Abbuchungen eines Mitgliedes (Beträge und Zusatzbeträge) werden in eine Lastschrift zusammengefasst.
 
@@ -110,10 +114,6 @@ Wurden diese aber gelöscht oder ist man von einem anderen Tool nach JVerein gew
 
 Optional können die SEPA-Daten der Lastschriften in ein PDF-Dokument zum Ausdruck ausgegeben werden.
 
-#### Rechnun(en) erstellen
-
-Hier kann ausgewählt werden ob mit dem Abrechnungslauf auch gleich Rechnungen für die generierten Sollbuchungen erzeugt werden sollen.
-
 #### Abbuchungsausgabe
 
 Für die Lastschrift werden die Daten entweder in eine SEPA-XML-Datei geschrieben oder direkt zu Hibiscus ausgegeben.
@@ -122,19 +122,23 @@ Die IBAN in den Stammdaten (siehe [Einstellungen](../administration/einstellunge
 
 Alternativ kann auf eine Ausgabe verzichtet werden z.B. falls keiner der Mitglieder mit Lastschrift bezahlt oder der Lastschriften Einzug in einem anderen Tool erfolgt.
 
-#### Rechnung(en) erstellen
+#### Rechnung erstellen
 
 Hier lässt sich auswählen ob für die generierten Sollbuchungen auch gleich Rechnungen generiert werden sollen.
 
-#### Rechnung Formular
+#### Rechnung als Buchungsdokument speichern
+
+Hier lässt sich auswählen ob für die generierte Rechnung als Buchungsdokument bei der Buchung gespeichert werden soll.
+
+#### Rechnungsformular
 
 Formular für Rechnungen falls welche erstellt werden sollen. Gegebenenfalls ist ein solches zu erstellen.
 
-#### Rechnung Text
+#### Rechnungstext
 
-Text der bei der Lastschrift, der Rechnung und den zugehörigen Sollbuchungen als Zweck verwendet werden soll. AUch hier können Variablen verwendet werden. Siehe [Variablen](../../../sonstiges/variable.md).
+Text der bei der Lastschrift, der Rechnung und den zugehörigen Sollbuchungen als Zweck verwendet werden soll. Auch hier können Variablen verwendet werden. Siehe [Variablen](../../../sonstiges/variable.md).
 
-#### Rechnung Datum
+#### Rechnungsdatum
 
 Das Rechnungsdatum.
 
@@ -156,7 +160,7 @@ Es werden folgende allgemeine Prüfungen durchgeführt:
 * Die Fälligkeit muss in der Zukunft liegen
 
 Falls bei einem Mitglied bzw. Zahler per Basislastschrift eingezogen wird muss bei diesem folgendes erfüllt sein:
-* Beiträge beim Mitglied und der Beitragsgruppe müssen gesetzt sein
+* Beiträge beim Mitglied und der Beitragsgruppe müssen gesetzt sein falls das Mitglied über die Beitragsabrechnung ausgewählt wurde
 * Es muss ein Mandat Datum gesetzt sein
 * Das Mandat Datum darf nicht in der Zukunft liegen
 * Es muss eine gültige  IBAN konfiguriert sein
@@ -166,7 +170,7 @@ Falls bei einem Mitglied bzw. Zahler per Basislastschrift eingezogen wird muss b
 
 ## Problembehandlung
 
-Existiert in der Tabelle "Fehler/Warnungen/Hinweise" ein Eintrag für ein Mitglied kann durch einen Doppel-Klick auf den Eintrag das Mitglied angezeigt werden. Der Dialog bleibt dabei geöffnet.
+Existiert in der Tabelle "Fehler/Warnungen/Hinweise" ein Eintrag für ein Mitglied, kann durch einen Doppel-Klick auf den Eintrag das Mitglied angezeigt werden. Der Dialog bleibt dabei geöffnet.
 
 Jetzt kann beim Mitglied der Fehler behoben werden z.B. durch Eingabe der IBAN. Nach Speichern des Mitglieds kann erneut auf Probleme getestet werden.
 

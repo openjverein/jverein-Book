@@ -13,6 +13,8 @@ Die [Abrechnung](../abrech/abrechnung.md) schreibt Sollbuchungen zu Mitgliedsbei
 Die Sollbuchungen können erstellt werden
 
 * über einen Abrechnungslauf (siehe [Abrechnung](../abrech/abrechnung.md) )
+* über eine Forderung (siehe [Forderung](forderung.md))
+* bei Gutschriften (siehe [Gutschrift](gutschrift.md))
 * in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md))
 * implizit über die Zuordnung einer Sollbuchung zu eine Buchung (siehe [Buchungen](../buchf/buchungen.md))
 * aber auch in der Liste der Sollbuchungen
@@ -79,12 +81,12 @@ Folgende Buttons stehen zu Verfügung:
 Durch einen Rechtsklick auf eine Sollbuchungsposition öffnet sich ein Kontextmenü mit mehreren Optionen:
 
 * Bearbeiten: Bearbeiten der Sollbuchungsposition
-* Istbuchung von Sollbuchung lösen: Löst die Buchung von der Sollbuchung
 * Löschen: Löschen der Sollbuchungsposition
 
 Durch einen Rechtsklick auf eine zugeordnete Buchung öffnet sich ein Kontextmenü mit mehreren Optionen:
 
 * Bearbeiten: Bearbeiten der Buchung
+* Istbuchung von Sollbuchung lösen: Löst die Buchung von der Sollbuchung
 * Mitglied anzeigen: Öffnet das Mitglied zur Buchung
 
 Mit Version 3.0.0 wurde auch das Feld Zahler eingeführt. Hier kann ein vom Mitglied abweichender Zahler eingetragen werden. Eine Spendenbescheinigung wird dann auf den Zahler ausgestellt.
