@@ -63,7 +63,7 @@ Die Rechnung hat ab 4.1 drei neue Attribute. Diese werden bei Gutschriften mit D
 * Referenz Rechnung: Es ist eine Referenz auf die ursprüngliche Rechnung die mit dieser Rechnung storniert oder reduziert wurde
 * Erstattungsbetrag: Dies ist der Betrag der bei dieser Rechnung an das Mitglied überwiesen wurde
 
-Diese drei werte sind auch in den Variablen enthalten damit sie in Rechnungsformularen verwendet werden können. Bei der Referenz Rechnung ist die Rechnungsnummer der Referenz in den Variablen enthalten.
+Diese drei Werte sind auch in den Variablen enthalten damit sie in Rechnungsformularen verwendet werden können. Bei der Referenz Rechnung ist die Rechnungsnummer der Referenz in den Variablen enthalten.
 
 #### Abrechnungslauf Eintrag
 
@@ -117,6 +117,7 @@ Mit dem Button "Auf Probleme prüfen" wird auf mögliche Probleme getestet. Beim
 Da mit diesem Feature Überweisungen erstellt werden sind alle Prüfungen relevant.
 
 Es werden folgende allgemeine Prüfungen auf Fehler durchgeführt:
+* Die Eingabefelder müssen korrekt gefüllt sein
 * Es muss unter Administration->Einstellungen->Abrechnung ein Verrechnungskonto gesetzt sein
 * Es muss unter Administration->Einstellungen->Allgemein ein Vereinsname gesetzt sein
 * Es muss unter Administration->Einstellungen->Allgemein eine gültige IBAN gesetzt sein
