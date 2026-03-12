@@ -2,15 +2,11 @@
 
 ## Voraussetzungen
 
-Unter Administration->Einstellungen->Allgemein muss das Konto eingetragen sein, auf das die Lastschriften gutgeschrieben werden sollen. Bei Verwendung von Lastschriften muss die Gläubiger-ID eingetragen werden. Gläubiger-ID können unter [https://extranet.bundesbank.de/scp/](https://extranet.bundesbank.de/scp/) oder [http://www.oenb.at/idakilz/cid?lang=de](http://www.oenb.at/idakilz/cid?lang=de) beantragt werden. Zu Testzwecken kann DE98ZZZ09999999999 eingesetzt werden.
+Unter Administration->Einstellungen->Allgemein muss ein Vereinsname und das Konto eingetragen sein, auf das die Lastschriften gutgeschrieben werden sollen. 
 
-Unter Abministration->Einstellungen->Abrechnung "Verrechnungskonto für Lastschriften" muss das Konto ausgewählt werden auf das die Gegenbuchungen von Lastschriften gebucht werden.
+Bei Verwendung von Lastschriften muss die Gläubiger-ID eingetragen werden. Gläubiger-ID können unter [https://extranet.bundesbank.de/scp/](https://extranet.bundesbank.de/scp/) oder [http://www.oenb.at/idakilz/cid?lang=de](http://www.oenb.at/idakilz/cid?lang=de) beantragt werden. Zu Testzwecken kann DE98ZZZ09999999999 eingesetzt werden.
 
-## SEPA-Fehler
-
-Vor einer Abrechnung sollte die SEPA-Fehlerliste überprüft werden. In der Liste werden Mitglieder mit fehlenden oder ungültigen Bankverbindungen sowie Mandate angezeigt, die seit mehr als 36 Monaten nicht mehr genutzt wurden.
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_SepaFehlerView.png" alt="" /></picture>
+Unter Abministration->Einstellungen->Abrechnung "Verrechnungskonto für Lastschriften" muss das Konto ausgewählt werden auf das die Buchungen und die Gegenbuchung von Lastschriften gebucht werden.
 
 ## Abrechnung
 
@@ -24,7 +20,7 @@ Die Abrechnung wird mit dem "Neu" Button aus dem [Abrechnungsläufe View](abrech
 
 verarbeitet werden.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_AbrechnungView.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_AbrechnungDialog.png" alt="" /></picture>
 
 Sofern als Modus nicht 'Keine Beitragsabrechnung' ausgewählt wurde, werden für alle Mitglieder, die nicht ausgetreten sind oder deren Austrittsdatum nach dem Stichtag liegt, die Beiträge gemäß eingetragener Beitragsgruppe und Zahlungsrhythmus eingezogen.
 
@@ -33,6 +29,14 @@ Für Mitglieder, die im Laufe des Jahres eingetreten sind, können ebenfalls die
 Um nur Mitglieder abzurechnen, die sich schon abgemeldet haben, wird das maximale Austrittsdatum eingetragen. Dann werden Beiträge nur für die Mitglieder abgebucht, die bis dahin ausgetreten sind.
 
 Die Abrechnungsdaten werden in das Mitgliedskonto geschrieben.
+
+Es existieren folgende Buttons:
+* Hilfe: Aufruf dieser Hilfe Seite
+* Zahlungsgrund Variablen: Öffnet den Dialog der möglich Variablen für den Zahlungsgrund anzeigt
+* Rechnungstext Variablen: Öffnet den Dialog der möglich Variablen für den Rechnungstext anzeigt
+* Auf Probleme prüfen: Prüft auf bestehende Probleme und zeigt diese in der Tabelle "Fehler/Warnungen/Hinweise" an
+* Starten: Startet das Erstellen
+* Abbrechen: Schließt den Dialog ohne Aktion
 
 ### Parameter
 
@@ -133,6 +137,39 @@ Text der bei der Lastschrift, der Rechnung und den zugehörigen Sollbuchungen al
 #### Rechnung Datum
 
 Das Rechnungsdatum.
+
+## Probleme
+
+Mit dem Button "Auf Probleme prüfen" wird auf mögliche Probleme getestet. Beim Öffnen des Dialog passiert ein automatischer Test. Falls Fehler oder Warnungen gefunden werden kann die Erstellung nicht durchgeführt werden.
+
+Folgende Checks werden immer durchgeführt:
+* Die Eingabefelder müssen korrekt gefüllt sein
+* Es muss unter Administration->Einstellungen->Abrechnung ein Verrechnungskonto gesetzt sein
+
+Die folgenden Prüfungen sind nur relevant wenn bei einem Zahler der Zahlungsweg "Basislastschrift" eingetragen ist oder bei abzurechnenden Zusatzbeträgen der Zahlungsweg "Basislastschrift" selektiert ist.
+
+Es werden folgende allgemeine Prüfungen durchgeführt:
+* Es muss unter Administration->Einstellungen->Allgemein ein Vereinsname gesetzt sein
+* Es muss unter Administration->Einstellungen->Allgemein eine gültige IBAN gesetzt sein
+* Unter Administration->Einstellungen->Allgemein ist eine BIC optional, aber wenn sie gesetzt ist, muss sie gültig sein
+* Es muss unter Administration->Einstellungen->Allgemein eine Gläubiger-ID gesetzt sein
+* Die Fälligkeit muss in der Zukunft liegen
+
+Falls bei einem Mitglied bzw. Zahler per Basislastschrift eingezogen wird muss bei diesem folgendes erfüllt sein:
+* Beiträge beim Mitglied und der Beitragsgruppe müssen gesetzt sein
+* Es muss ein Mandat Datum gesetzt sein
+* Das Mandat Datum darf nicht in der Zukunft liegen
+* Es muss eine gültige  IBAN konfiguriert sein
+* Eine BIC kann optional gesetzt sein, aber wenn sie gesetzt ist, muss sie gültig sein
+* Wenn noch keine Lastschrift in JVerein existiert darf das Mandat Datum nicht älter als 36 Monate sein. Falls man neu mit JVerein startet kann man im Dialog den SEPA-Check temporär deaktivieren
+* Falls die letzte Lastschrift und das Mandat sind älter als 36 Monate muss ein neues Mandat angefordert werden
+
+## Problembehandlung
+
+Existiert in der Tabelle "Fehler/Warnungen/Hinweise" ein Eintrag für ein Mitglied kann durch einen Doppel-Klick auf den Eintrag das Mitglied angezeigt werden. Der Dialog bleibt dabei geöffnet.
+
+Jetzt kann beim Mitglied der Fehler behoben werden z.B. durch Eingabe der IBAN. Nach Speichern des Mitglieds kann erneut auf Probleme getestet werden.
+
 
 ### Weitere Informationen
 

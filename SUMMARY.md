@@ -615,7 +615,6 @@
     * [Abrechnung](v/4.1/abrech/abrechnung.md)
     * [Abrechnungsläufe](v/4.1/abrech/abrechnungslauf.md)
     * [Rücklastschrift](v/4.1/abrech/rucklastschrift.md)
-    * [SEPA-Bugs](v/4.1/abrech/sepa-bugs.md)
     * [Lastschriften](v/4.1/abrech/lastschrift.md)
   * [Auswertungen](v/4.1/auswertungen/README.md)
     * [Auswertung Mitglieder](v/4.1/auswertungen/auswertung-mitglieder.md)

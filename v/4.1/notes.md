@@ -53,6 +53,12 @@ Die Version 4.1 ist eine Minor Version und rückwärts kompatibel mit eine 4.0.
 
 * Im Abrechnungslauf View werden in neuen Tabs,  die durch den Abrechnungslauf erzeugten Buchungen, Sollbuchungen und Lastschriften, sowie die abgerechneten Zusatzbeträge angezeigt.
 
+### Abrechnung Dialog
+
+* Der View für die Abrechnung wurde in einen Dialog umgewandelt, analog zu den Dialogen für Forderungen und Gutschriften
+* Dabei wurde die bisher separate Tabelle für die SEPA Fehler in den Dialog integriert
+* Bevor ein Abrechnungslauf gestartet durchgeführt wird wird automatisch auf Fehler getestet
+
 
 
 ## Kleinere Korrekturen und Erweiterungen
