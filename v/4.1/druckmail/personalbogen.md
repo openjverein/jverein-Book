@@ -15,6 +15,7 @@ Im Info Feld wird angezeigt wie viele Mitglieder selektiert wurden und welche ke
 
 Im Parameter Feld gibt es folgende Optionen:
 * Ausgabe: Es lässt sich wählen ob die Rechnungen als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
+* Es lässt sich auswählen welche Daten in den Report aufgenommen werden sollen
 
 Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
 
@@ -24,7 +25,7 @@ Der View besitzt folgende Buttons:
 * Variablen anzeigen: Öffnet den Dialog der die Variablen anzeigt, die für den aktuellen Report geeignet sind. Diese lassen sich zum Kopieren in die Zwischenablage auswählen, um sie dann in den Text zu platzieren
 * Vorschau: Zeigt eine Vorschau des Mail Textes. Wird ein Mitglied ausgewählt, dann werden seine Daten verwendet
 * Als Vorlage übernehmen: Übernimmt den aktuellen Text als Vorlage. Eine bestehende Vorlage lässt sich überschreiben z.B. wenn sie geändert wurde
-* Empfänger Liste: Zeigt einen Dialog mit der Liste aller Empfänger für die Kontoauszüge generiert oder verschickt werden
+* Empfänger Liste: Zeigt einen Dialog mit der Liste aller Empfänger für die ein Personalbogen generiert oder verschickt wird
 * Starten: Startet die Ausgabe
 
 Das drücken des Startknopf löst im Fall der Mail Ausgabe bei korrekt eingestellten Mail-Server-Daten den Versand der Mails aus. Es ist daher ratsam, diese Funktion im Vorfeld zu testen, ohne mit echten Mitgliederdaten/Mails zu hantieren.

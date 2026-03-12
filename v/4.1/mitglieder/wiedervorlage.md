@@ -43,4 +43,4 @@ Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_WiedervorlageView.png" alt="" /></picture>
 
-Die Wiedervorlage Termine werden auch im Jameica-Kalender angezeigt.
+Die Wiedervorlage Termine werden auch im Jameica-Kalender unter Start->Termine angezeigt.

@@ -21,7 +21,7 @@ Zur Nutzung von abweichenden Zahlern ist die Option unter Administration->Einste
 
 Sollen die Beiträge oder Zusatzbeträge nicht vom Mitglied selbst, sondern von einer anderen Person bezahlt werden z.B. Eltern, dann kann in diesem Feld das entsprechende Mitglied oder Nicht-Mitglied ausgewählt werden.
 
-Dieses Feld wird ausschließlich während eine Abrechnungslaufes ausgewertet. Ist hier ein Mitglied/Nicht-Mitglied gesetzt, dann wird dieses als Zahler für den Beitrag bzw. Zusatzbetrag verwendet. Es wird dann sein Zahlungsweg verwendet und dieser Zahler als Zahler in der Sollbuchung eingetragen. Dieses stellt dann auch sicher, dass eine Spendenbescheinigung auf den Zahler ausgestellt wird.
+Dieses Feld wird ausschließlich während eine Abrechnungslaufes oder Forderung ausgewertet. Ist hier ein Mitglied/Nicht-Mitglied gesetzt, dann wird dieses als Zahler für den Beitrag bzw. Zusatzbetrag verwendet. Es wird dann sein Zahlungsweg verwendet und dieser Zahler als Zahler in der Sollbuchung eingetragen. Dieses stellt dann auch sicher, dass eine Spendenbescheinigung auf den Zahler ausgestellt wird.
 
 Sollen einzelne Zusatzbeträge abweichend davon vom Mitglied selbst bezahlt werden, dann lässt sich dieses als Schalter im Zusatzbetrag auswählen. In diesem Fall wird dann im Abrechnungslauf das Mitglied als Zahler verwendet. Dabei wird auch der Zahlungsweg des Mitglieds benutzt. Es ist dann also auch wichtig, dass der Zahlungsweg und die Kontodaten des Mitglieds korrekt eingegeben sind.
 
@@ -35,6 +35,8 @@ Die Felder im Dialog zum Erzeugen eines neuen Nicht-Mitgliedes entsprechen den F
 
 ### Bankverbindung des Mitglieds
 Beim Zahlungsweg Basislastschrift sind IBAN und Datum des Mandats anzugeben.
+
+Falls nur Überweisungen (Gutschriften) an das Mitglied geleistet werden sollen, ist die IBAN einzutragen. Ein Mandat Datum ist dann nicht nötig.
 
 Die Mandats-ID wird automatisch aus der Mitgliedsnummer oder optional aus der externen Mitgliedsnummer (siehe Einstellungen) gebildet. Zusätzlich wird ein Versionszähler geführt, der das 1., 2., 3. .... Mandat referenziert.
 

@@ -51,3 +51,12 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 * sekundaer\_NAME für sekundäre Beitragsgruppen (wird bei allem anderen als nein, false gesetzt)
 
 Felder mit anderem Namen werden ignoriert
+
+Ab Version 4.1 lassen sich auch Zugehörigkeit zu einem Familienverband und abweichende Zahler importieren. Der entsprechende Vollzahler bzw. Abweichende Zahler muss allerdings schon in JVerein existieren.
+
+Die entsprechenden Attribute sind:
+* zahlerid Id des Vollzahlenden Mitglieds
+* alternativer_zahlerid Id des abweichenden Zahlers
+
+Bei neuen Vollzahlern bzw. Abweichende Zahlern ist also erst ein Import durchzuführen bei dem nur die Mitglieder importiert werden. In einem zweiten Import kann dann die Mitglieder nochmals importiert werden, die einem Vollzahler zugewiesen werden sollen bzw. bei denen ein abweichender Zahler gesetzt werden soll.
+

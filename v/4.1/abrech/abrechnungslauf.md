@@ -10,7 +10,6 @@ Folgende Menü Einträge sind vorhanden:
 
 * Bearbeiten: Öffnet die Detailansicht für den selektierten Abrechnungslauf
 * Löschen: Löscht den Abrechnungslauf. Dies löscht auch alle vom Abrechnungslauf generierten Rechnungen, Sollbuchungen, Buchungen und Lastschriften
-* Sollbuchungen: Zeigt eine Liste der Sollbuchungen die von diesem Abrechnungslauf erzeugt wurden
 * Gutschrift erstellen: Öffnet den Dialog zum Erstellen von Gutschriften. Siehe [Gutschrift](../mitglieder/gutschrift.md)
 * Pre-Notification: Öffnet den Dialog zum Erzeugen von Pre-Notifications für den selektierten Abrechnungslauf
 
@@ -30,3 +29,5 @@ Die Bemerkung lässt sich editieren.
 In den Tabs werden die durch den Abrechnungslauf erzeugten Buchungen, Sollbuchungen und Lastschriften sowie die abgerechneten Zusatzbeträge angezeigt.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_AbrechnungslaufView.png" alt="" /></picture>
+
+Mit dem Button Abrechnungslaufliste wird eine Liste aller Sollbuchungen ausgegeben.

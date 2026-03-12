@@ -56,6 +56,9 @@ In der Tabelle werden folgende Spalten angezeigt:
 * Betrag: Betrag der zu zahlen ist
 * Zahlungsweg: Zahlungsweg für die Buchung
 * Buchungsart: Buchungsart
+* Buchungsklasse: Buchungsklasse (falls in Administration->Einstellungen->Buchführung die Option "Keine feste Zuordnung von Buchungsklasse zu Buchungsart" aktiviert ist)
+* Steuer : Steuer (falls in Administration->Einstellungen->Buchführung die Option "Steuer individuell pro Buchung setzen" aktiviert ist)
+* Mitglied zahlt selbst
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ZusatzBetraegeListeView.png" alt="" /></picture>
 
@@ -85,7 +88,7 @@ Mit einem Klick auf Neu oder Bearbeiten öffnet sich folgender Dialog:
 
 PS: Ab JVerein 3.0.0 lässt sich für den Zusatzbetrag ein von der Konfiguration beim Mitglied (Standard) abweichender Zahlungsweg konfigurieren.
 
-PS: Ab JVerein 4.0.0 lässt sich festlegen, dass das Mitglied den Zusatzbetrag selbst zahlen soll, auch wenn beim Mitglied ein abweichender zahler konfiguriert sein sollte.
+PS: Ab JVerein 4.0.0 lässt sich festlegen, dass das Mitglied den Zusatzbetrag selbst zahlen soll, auch wenn beim Mitglied ein abweichender Zahler konfiguriert sein sollte.
 
 ## Abrechnung
 
