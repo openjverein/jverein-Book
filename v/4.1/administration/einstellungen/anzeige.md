@@ -13,7 +13,7 @@ Folgende Einstellungen können vorgenommen werden:
 Hier können Feature aktiviert werden, die dann im Navigationsbaum unter den Mitgliedern verfügbar sind:
 * Abweichende Zahler: Unterstützung von abweichenden Zahlern (siehe [Abweichende Zahler](../../mitglieder/abweichendezahler.md))
 * Arbeitseinsatz: Unterstützung von Arbeitsstunden (siehe [Arbeitseinsätze](../../mitglieder/arbeitseinsatz.md))
-* Familienbeitrag: Unterstützung von Familienbeitrag (siehe [Familienbeitrag](../../mitglieder/familienbeitrag.md))
+* Familienverband: Unterstützung von Familienverband (siehe [Familienverband](../../mitglieder/familienbeitrag.md))
 * Kursteilnehmer: Unterstützung von Kursteilnehmern (siehe [Kursteilnehmer](../../mitglieder/kursteilnehmer.md))
 * Lehrgänge: Unterstützung von Lehrgängen (siehe [Lehrgänge](../../mitglieder/lehrgange.md))
 * Lesefelder: Unterstützung von Lesefeldern (siehe [Lesefelder](../mitglieder/lesefelder.md))
