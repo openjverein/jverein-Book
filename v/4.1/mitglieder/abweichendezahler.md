@@ -21,4 +21,4 @@ Es werden alle Mitglieder bzw. Nicht-Mitglieder aufgelistet, die als abweichende
 
 Mit einem Doppelklick auf ein Mitglied bzw. bei Auswahl des Menüpunktes "Mitglied anzeigen" lässt sich zu diesem Mitglied springen.
 
-Der Eintrag für den alternativen Zahler lässt sich bei einem Mitglied entfernen.
+Der Eintrag für den abweichender Zahler lässt sich bei einem Mitglied entfernen.

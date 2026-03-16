@@ -18,4 +18,4 @@ Die Familienmitglieder sind miteinander verknüpft. Tritt das voll zahlende Mitg
 
 ## Übersicht
 
-In der Übersicht [Familienbeitrag](../v/allgemeine-funktionen/mitglieder/familienbeitrag.md) werden alle Familienverbände in Form eines Baumes aufgelistet. Es werden jeweils der Zahler mit den Angehörigen dargestellt.
+In der Übersicht [Familienverband](../v/allgemeine-funktionen/mitglieder/familienbeitrag.md) werden alle Familienverbände in Form eines Baumes aufgelistet. Es werden jeweils der Zahler mit den Angehörigen dargestellt.
