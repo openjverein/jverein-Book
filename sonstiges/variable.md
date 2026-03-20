@@ -52,7 +52,7 @@ Das Format 3 wurde eingeführt und auch als Default bei Dateinamen verwendet. Da
 
 JVerein enthält Funktionen um zwischen den Formaten zu konvertieren. Hierzu gibt es zwei Formatter:
 * dateformat
-* udateformat (neu ab der Version 3.2.0 in den Vorlagen und ab 4.0 überall)
+* udateformat (neu ab der Version 3.2.0 in den Vorlagen und ab 4.1.0 überall)
 
 #### Date Formatter (dateformat)
 Das dateformat kann zwischen den Formaten 1 und 2 konvertieren. Hat man in den Variablen ein Datum im Format 2 so kann man es folgendermaßen in ein Format vom Typ 1 konvertieren:
