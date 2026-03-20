@@ -2,9 +2,11 @@
 
 ## Variablen
 
-Für folgende Zwecke gibt es Variablen, mit Nennung der verfügbaren Variablengruppen
+Für folgende Zwecke gibt es Variablen, mit Nennung der verfügbaren Variablengruppen.
 
-## Formulare
+Verfügbare Variablen werden jeweils im Variablen Dialog angezeigt. Dieser ist ab der Version 4.0 überall verfügbar wo auch Variablen verwendet werden können.
+
+#### Formulare
 
 Rechnungen, Mahnungen: Allgemein, Rechnung, Mitglied
 
@@ -14,9 +16,9 @@ Pre-Notification: Allgemein, Lastschrift
 
 Freie Formulare: Allgemein, Mitglied
 
-## Sonstige
+#### Sonstige
 
-Bei diesen Feldern muss die Variable jeweis in der Form $VARIABLENNAME angegeben werden, wenn direkt von einem Zeichen gefolgt muss die Form ${VARIABLENNAME} verwendet werden.
+Bei diesen Feldern muss die Variable jeweils in der Form $VARIABLENNAME angegeben werden, wenn direkt von einem Zeichen gefolgt muss die Form ${VARIABLENNAME} verwendet werden.
 
 Zahlungsgrund bei der Abrechnung, Zweck von Zusatzbeträgen: Allgemein, Mitglied, Abrechnung
 
@@ -25,6 +27,72 @@ Rechnung Text bei der Abrechnung: Allgemein, Rechnung, Mitglied
 1Ct Überweisung Zahlungsgrund: Allgemein, Lastschrift
 
 Mails \(auch bei Druck & Mail\): Allgemein, Mitglied
+
+
+## Variablenkonvertierung
+
+Bei Dezimalzahlen und Datum sind die Variablen meist bereits vorformatiert. Es kann aber sein, dass man ein anderes Format im Report oder der Mail verwenden möchte. Hierfür sind Formatierer verfügbar.
+
+### Dezimalzahlen
+
+Dezimalzahlen werden üblicherweise als Zahl mit Komma vorformatiert ausgegeben.
+
+Aus historischen Gründen gibt es aber auch noch unformatierte Zahlen. Diese sind daran zu erkennen, dass ein Punkt als Komma verwendet wird. In diesem Fall kann die Zahl wie folgt umgewandelt werden:
+
+$decimalformat.format(\$\<variable\>)
+
+### Datum
+
+In den Vorlagen sind Datum Variablen auf drei Arten codiert:
+* Als formatiertes Datum der Form DD.MM.YYYY z.B. 13.02.2025 (Format 1)
+* Als unformatiertes Datum z.B. Mon Jan 01 00:00:00 CET 2024. Ein solches Datum wird je nach System anders angezeigt und kann sich auch zwischen Vorschau und Mail unterscheiden (Format 2)
+* Neu in der Version 3.2.0 ein formatiertes Datum der Form YYYYMMDD z.B. 20250213 (Format 3)
+
+Das Format 3 wurde eingeführt und auch als Default bei Dateinamen verwendet. Damit lassen sich generierte Reports entsprechend sortieren. Variablen diesen Typs erkennt man an der Endung "_f".
+
+JVerein enthält Funktionen um zwischen den Formaten zu konvertieren. Hierzu gibt es zwei Formatter:
+* dateformat
+* udateformat (neu ab der Version 3.2.0 in den Vorlagen und ab 4.0 überall)
+
+#### Date Formatter (dateformat)
+Das dateformat kann zwischen den Formaten 1 und 2 konvertieren. Hat man in den Variablen ein Datum im Format 2 so kann man es folgendermaßen in ein Format vom Typ 1 konvertieren:
+* $dateformat.format($<Variable von Typ 2>) 
+
+Beispiel: 
+* mitglied_mandatdatum = Mon Jan 01 00:00:00 CET 2024
+* $dateformat.format($mitglied_mandatdatum) liefert in der Ausgabe 01.01.2024
+
+Dieser Formatter kann benutzt werden wenn man ein Datum welches in den Variablen vom Typ 2 ist als Typ 1 ausgeben möchte.
+
+PS: Mit $dateformat.parse($<Variable von Typ 1>) lässt sich ein Typ 1 Format in ein Typ 2 Format konvertieren.
+
+#### Universal Date Formatter (udateformat)
+
+Beim universal Date Formatter lässt sich das gewünschte Format explizit angeben wodurch es flexibler einsetzbar ist. Es kann folgendermaßen benutzt werden:
+* $udateformat.format(FORMAT, \$\<datum variable von Typ 2>)
+* $udateformat.parse(FORMAT, \$\<datum variable vom Format FORMAT>)
+
+Im FORMAT sind folgende Zeichen unter anderem möglich (weitere siehe https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html):
+* d: Eine Stelle von Tag (maximal 2 Stellen)
+* M: Eine Stelle von Monat (maximal 2 Stellen)
+* y: Eine Stelle von Jahr (maximal 4 Stellen)
+* Sonderzeichen wie z.B. .+-
+
+Beachte: d und y sind kleingeschrieben!
+
+Beispiele:
+* $udateformat.format("dd.MM.yyyy", $mitglied_mandatdatum) entspricht $dateformat.format($mitglied_mandatdatum) und ergibt 01.01.2024
+* $udateformat.format("yyyyMMdd", $mitglied_mandatdatum) ergibt 20240101
+* $udateformat.format("yyyy", $mitglied_mandatdatum) ergibt 2024
+* $udateformat.format("yy", $mitglied_mandatdatum) ergibt 24
+* $udateformat.format("dd-MM", $mitglied_mandatdatum) ergibt 01-01
+
+Da üblicherweise kein Typ 2 Format vorliegt kann man trotzdem zwischen den Formaten mit der Kombination von parse und format konvertieren. Man muss nur jeweils das Format angeben welches man nutzt.
+
+Hat man z.B. filter_datum_bis_f mit Wert 20240315 dann kann man wie folgt konvertieren:
+*  $udateformat.format("dd-MM-yyyy", $udateformat.parse("yyyyMMdd", $filter_datum_bis_f)) ergibt 15-03-2024
+*  $udateformat.format("yyyy-MM-dd", $udateformat.parse("yyyyMMdd", $filter_datum_bis_f)) ergibt 2024-03-15
+*  $udateformat.format("yyyy", $udateformat.parse("yyyyMMdd", $filter_datum_bis_f)) ergibt 2024
 
 ### Allgemeine Variablen
 
