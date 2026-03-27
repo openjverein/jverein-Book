@@ -1,6 +1,6 @@
 # Buchführung
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_Buchfuehrung.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_EinstellungBuchfuehrung.png" alt="" /></picture>
 
 Hier sind folgende Eingaben nötig bzw. möglich:
 

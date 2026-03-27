@@ -50,7 +50,6 @@ Ab JVerein 3.1.0 gibt es zusätzlich folgende Kontoarten (Die Option ist unter A
 * Verbindlichkeiten
 * Forderungen
 
-Diese Konten dienen nur zur Dokumentation, sie gehen nicht in das Buchungsklassensaldo ein weil in der einfachen Buchführung das Zuflussprinzip gilt, also immer so gebucht wird wie das Geld auf dem Bankkonto bewegt wird.
 
 ## Geldkonto und Fremdkapital
 
@@ -78,9 +77,19 @@ Folgende Daten können eingegeben werden:
 
 Die weiteren Felder unter Anlagenkonto Daten sind hier nicht relevant.
 
+## Verbindlichkeiten und Forderungen
+
+Verbindlichkeiten und Forderungen sind unter Administration->Einstellungen->Anzeige zu aktivieren.
+
+Diese Konten dienen nur zur Dokumentation, sie gehen nicht in das Buchungsklassensaldo ein weil in der einfachen Buchführung das Zuflussprinzip gilt, also immer so gebucht wird wie das Geld auf dem Bankkonto bewegt wird.
+
+Buchungen auf diesen Konten werden aber im Wirtschaftsplan berücksichtigt. Ist ein Wirtschaftsplan ohne diese Buchungen gewünscht, dann muss die Option in den Einstellungen temporär deaktiviert werden.
+
 ## Rücklagenkonten
 
 Gemeinnützige Vereine müssen ihre Einnahmen im aktuellen und den zwei folgenden Jahren ausgegeben haben (zeitnahe Verwendung). Vereine, die mit ihren Bruttoeinnahmen unter 45.000 Euro (100.000 Euro ab 2026) pro Jahr bleiben, sind nicht mehr an die zeitnahe Mittelverwendung gebunden. Dieses müssen sie dem Finanzamt nachweisen, siehe [Mittelverwendung](mittelverwendung.md). Sie dürfen aber Rücklagen bilden. Diese sind der zeitnahen Verwendung entzogen.
+
+Rücklagenkonten sind unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 Zur Dokumentation der eingestellten Rücklagen wurden die Kontoarten für Rücklagen eingeführt:
 
@@ -109,6 +118,8 @@ Diese Konten dienen nur zur Dokumentation der vorhanden Rücklagen. Sie werden a
 ## Anlagenkonten
 
 Anlagenkonten sind dazu gedacht Abschreibungen durchzuführen und ein Anlagenverzeichnis nach steuerlichen Gesichtspunkten zu erstellen siehe [Anlagenverzeichnis](anlagenverzeichnis.md).
+
+Anlagenkonten sind unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 Hierbei wird nach folgenden Anlagen unterschieden:
 

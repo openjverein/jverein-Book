@@ -4,7 +4,6 @@
 
 Zur Nutzung der Umsatzsteuer Voranmeldung ist die Option Umsatzsteuer Support unter Administration->Einstellungen->Buchführung zu aktivieren.
 
-Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Umsatzsteuer Voranmeldung" zur Verfügung steht.
 
 ## Allgemeines
 

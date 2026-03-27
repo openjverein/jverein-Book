@@ -2,9 +2,8 @@
 
 Zusätzliche Zahlungen (z. B. Eigenanteile für Fahrten, Strafgelder ...) können über Zusatzbeträge verarbeitet werden.
 
-Zur Nutzung der Zusatzbeträge ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+Zur Nutzung der Zusatzbeträge ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
-Anschließend sollte JVerein neu gestartet werden, damit der Tab "Zusatzbeträge" zur Verfügung steht.
 
 ## Zusatzbeträge Liste beim Mitglied
 

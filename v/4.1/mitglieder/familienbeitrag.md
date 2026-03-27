@@ -4,7 +4,6 @@
 
 Zur Nutzung von Familienverband ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
-Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Familienverband" zur Verfügung steht.
 
 ## Tabelle der Familien Beziehungen
 

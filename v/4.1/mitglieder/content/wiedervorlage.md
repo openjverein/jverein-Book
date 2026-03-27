@@ -1,8 +1,6 @@
 # Wiedervorlage
 
-Zur Nutzung der Wiedervorlage ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
-
-Anschließend sollte JVerein neu gestartet werden, damit der Tab "Wiedervorlagen" zur Verfügung steht.
+Zur Nutzung der Wiedervorlage ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 ## Wiedervorlage Liste beim Mitglied
 
