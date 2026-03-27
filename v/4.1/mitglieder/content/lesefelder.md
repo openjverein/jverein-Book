@@ -1,8 +1,7 @@
 # Lesefelder
 
-Zur Nutzung der Lesefelder ist die Option in den Einstellungen->Administration->Einstellungen zu aktivieren.
+Zur Nutzung der Lesefelder ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
-Anschließend sollte JVerein neu gestartet werden, damit der Tab "Lesefelder" zur Verfügung steht.
 
 ## Lesefelder Liste beim Mitglied
 

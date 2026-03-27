@@ -6,8 +6,9 @@ In vielen Vereinen ist es laut Satzung oder gelebter Praxis üblich, dass die Mi
 Weiterführende Informationen zur Erstellung eines Wirtschaftsplans sind hier zu finden: https://www.iww.de/vb/vereinsmanagement/vereinsfinanzen-der-haushaltsplan-ein-wichtiges-planungs-und-steuerungsinstrument-fuer-den-verein-f76581
 
 ## Aktivierung
-Um die Wirtschaftsplanung zu verwenden, aktivieren Sie die entsprechende Option unter Administration → Einstellungen → Anzeige.
-Damit die Änderung wirksam wird, starten Sie die Software anschließend neu.
+
+Um die Wirtschaftsplanung zu verwenden, aktivieren Sie die entsprechende Option unter Administration->Einstellungen->Anzeige.
+
 
 ## Liste der Wirtschaftspläne
 

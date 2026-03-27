@@ -4,7 +4,6 @@
 
 Zur Nutzung der Lehrgänge ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
-Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Lehrgänge" zur Verfügung steht.
 
 ### Allgemeines
 

@@ -4,7 +4,6 @@
 
 Zur Nutzung der Wiedervorlagen ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
-Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Wiedervorlagen" zur Verfügung steht.
 
 ### Allgemeines
 

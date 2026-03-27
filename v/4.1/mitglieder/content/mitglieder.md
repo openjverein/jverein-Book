@@ -123,11 +123,15 @@ Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ArbeitseinsatzDialog.png" alt="" /></picture>
 
+PS: Zur Nutzung der Arbeitseinsätze ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
+
 ### Zusatzbetrag zuordnen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_ZusatzbetragDialog.png" alt="" /></picture>
+
+PS: Zur Nutzung der Zusatzbeträge ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 ### Zu Nicht-Mitglied umwandeln
 
@@ -166,6 +170,8 @@ Zeigt eine QR-Code mit den Daten des Mitgliedes an.
 Automatische Erstellung von Spendenbescheinigungen, die direkt dem Mitglied zugeordnet sind. Werden mehrere Buchungen gefunden, wird eine Sammelbestätigung erzeugt. Bei Sachspenden wird für jede Buchung eine eigene Sachspendenbescheinigung erzeugt.
 
 Beim Aufruf erscheint ein Dialog bei dem das Jahr ausgewählt werden muss. Es werden dann nur Buchungen des ausgewählten Jahres berücksichtigt.
+
+PS: Zur Nutzung der Spendenbescheinigungen ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 ### Kontoauszug
 

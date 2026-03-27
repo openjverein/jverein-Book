@@ -2,7 +2,7 @@
 
 ### Aktivierung
 
-Zur Nutzung der Anlagenkonten ist die Option in den Einstellungen (Administration->Einstellungen->Anzeige) zu aktivieren.
+Zur Nutzung der Anlagenkonten ist die Option unter Administration->Einstellungen->Anzeige zu aktivieren.
 
 ### Buchungsliste
 
