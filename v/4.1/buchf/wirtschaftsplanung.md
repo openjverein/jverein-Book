@@ -7,7 +7,7 @@ Weiterführende Informationen zur Erstellung eines Wirtschaftsplans sind hier zu
 
 ## Aktivierung
 
-Um die Wirtschaftsplanung zu verwenden, aktivieren Sie die entsprechende Option unter Administration→Einstellungen→Anzeige.
+Um die Wirtschaftsplanung zu verwenden, aktivieren Sie die entsprechende Option unter Administration->Einstellungen->Anzeige.
 
 
 ## Liste der Wirtschaftspläne
