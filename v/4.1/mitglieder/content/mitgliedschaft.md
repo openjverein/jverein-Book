@@ -1,20 +1,27 @@
 # Mitgliedschaft
 
-Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](../../administration/mitglieder/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md). Beim Austrittsdatum wird das Datum des satzungsgemäßen Austritts (z. B. der 31.12. des jeweiligen Jahres) eingetragen. Unter Kündigung wird das Datum des Eingangs der Kündigung vermerkt.
 
-Standard Aussehen des Formulars:
+
+Aussehen des Formulars falls unter Administration->Einstellungen->Mitglieder Ansicht bei Anzahl Spalten Mitgliedschaft der Wert 2 konfiguriert wurde:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_MitgliedschaftTab.png" alt="" /></picture>
 
-In Administration->Einstellungen->Allgemein lässt sich einstellen, ob Eintrittsdatum ein Pflichfeld ist.
+Beitragsgruppe ist ein Pflichtfeld. Die Beitragsgruppen können unter [Beitragsgruppen](../../administration/mitglieder/beitragsgruppen.md) für jeden Verein individuell konfiguriert werden. Siehe auch [Beitragsmodelle](../../../../allgemein/beitragsmodelle.md). 
+
+Administration->Einstellungen->Allgemein lässt sich einstellen, ob Eintrittsdatum ein Pflichtfeld ist.
+
+Individueller Beitrag wird nur angezeigt wenn die Option unter Administration->Einstellungen->Anzeige aktiviert ist. Falls kein Wert eingetragen ist, wird der Beitrag aus der Beitragsgruppe genommen, ansonsten der hier eingegebene Wert (kann auch 0 sein).
+
+Sterbetag wird nur angezeigt wenn die Option unter Administration->Einstellungen->Anzeige aktiviert ist.
 
 Folgende Felder sind verfügbar:
 * Mitgliedsnummer bzw. externe Mitgliedsnummer je nachdem ob die Option für externe Mitgliedsnummer unter Administration->Einstellungen->Anzeige aktiviert ist
-* Eintrittsdatum
-* Austrittsdatum
-* Individueller Beitrag: Es wird nur angezeigt wenn die Option unter Administration->Einstellungen->Anzeige aktiviert ist. Falls kein Wert eingetragen ist, wird der Beitrag aus der Beitragsgruppe genommen, ansonsten der hier eingegebene Wert (kann auch 0 sein)
-* Kündigungsdatum
-* Sterbetag: Es wird nur angezeigt wenn die Option unter Administration->Einstellungen->Anzeige aktiviert ist
+* Beitragsgruppe: Auswahl der Beitragsgruppe
+* Eintrittsdatum: Datum des Eintritts
+* Austrittsdatum: Hier wird das Datum des satzungsgemäßen Austritts (z. B. der 31.12. des jeweiligen Jahres) eingetragen
+* Individueller Beitrag: Individueller Beitrag der Mitglieds unabhängig vom Beitrag der konfigurierten Beitragsgruppe
+* Kündigungsdatum: Hier wird das Datum des Eingangs der Kündigung vermerkt
+* Sterbetag: Datum des Sterbetags
 
 ## Sekundäre Beitragsgruppen
 
