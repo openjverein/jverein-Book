@@ -55,11 +55,15 @@ In diesem Fenster sind zunächst alle an- und abgemeldeten Mitglieder sowie alle
 * Keinen: Löscht alle selektierten Einträge
 * Aktive Mitglieder: Selektiert alle aktuell angemeldeten Mitglieder (Stichtag=Tagesdatum)
 * Inaktive Mitglieder: Es werden alle abgemeldeten Mitglieder ausgewählt
-* Nicht-Mitglieder: es werden alle Nicht-Mitglieder ausgewählt
+* Nicht-Mitglieder: Es werden alle Nicht-Mitglieder ausgewählt
 
-Die obigen Mitglieder/Nicht-Mitglieder Selektoren wirken additiv, mit keinen wird die komplette Auswahl rückgängig gemacht. Ein Klick auf übernehmen fügt die ausgewählten E-Mail-Adressen dann als Empfänger in die Mail ein.
+Die obigen Mitglieder/Nicht-Mitglieder Selektoren wirken additiv, mit keinen wird die komplette Auswahl rückgängig gemacht. 
 
 Die Eigenschaften sind ab der Version 4.2.0 nicht mehr additiv sondern mit der Mitglieder/Nicht-Mitglieder Selektion verundet. Ebenso lässt sich nun die Verknüpfung der Eigenschaften auswählen und auch die Nicht-Eigenschaft.
+
+Ein Klick auf Übernehmen fügt die ausgewählten E-Mail-Adressen dann als Empfänger in die Mail ein.
+
+## Maiversand über Menü
 
 Der Mailversand kann auch über einen Rechtsklick auf ein Mitglied ausgelöst werden:
 
