@@ -49,7 +49,7 @@ Folgende Menü Einträge sind vorhanden:
 * Löschen: Löscht die Buchung
 * Mitglied anzeigen: Für die selektierte Buchung wird das zugehörige Mitglied geöffnet, sofern der Buchung eine Sollbuchung zugeordnet wurde
 * Sollbuchung anzeigen: Für die selektierte Buchung wird die zugeordnete Sollbuchung angezeigt
-* Spendenbescheinigung anzeigen: Zeigt die Spendenbescheinigung für die Buchung. an, falls eine für die Buchung existiert. Diese Option ist nur verfügbar wenn "Spendenbescheinigungen anzeigen" in den Einstellungen aktiviert ist
+* Spendenbescheinigung anzeigen: Zeigt die Spendenbescheinigung für die Buchung an, falls eine für die Buchung existiert. Diese Option ist nur verfügbar wenn "Spendenbescheinigungen anzeigen" in den Einstellungen aktiviert ist
 * Spendenbescheinigung erstellen: Erstellt eine Spendenbescheinigung für die Buchung. Diese Option ist nur verfügbar wenn "Spendenbescheinigungen anzeigen" in den Einstellungen aktiviert ist
 * Neues Anlagenkonto: Für die selektierte Buchung wird ein Anlagenkonto erzeugt
 * Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart

@@ -58,7 +58,7 @@ Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negat
 
 ### Auswertung
 
-Der Auswertung Dialog wird üben den entsprechenden Button aufgerufen.
+Der Auswertung Dialog wird über den entsprechenden Button aufgerufen.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/402_ArbeitseinsaetzeAuswertungDialog.png" alt="" /></picture>
 
@@ -70,7 +70,7 @@ Die Listeneinträge lassen sich als PDF oder CSV exportieren. Die zu exportieren
 
 Über den Button Abrechnung (siehe unten) lassen sich nicht geleistete Arbeitsstunden direkt abrechnen. Sollen die Forderungen wegen der Arbeitsstunden mit weiteren Forderungen wie z.B. Mitgliedsbeiträgen gemeinsam abgerechnet werden, lassen sich Zusatzbeträge für die nicht geleisteten Arbeitsstunden generieren. Diese können dann in einem separaten Abrechnungslauf mit abgerechnet werden. 
 
-Der Dialog zum generieren von Zusatzbeträgen wird üben den entsprechenden Button aufgerufen.
+Der Dialog zum generieren von Zusatzbeträgen wird über den entsprechenden Button aufgerufen.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/402_ArbeitseinsaetzeZusatzbetraegeDialog.png" alt="" /></picture>
 
