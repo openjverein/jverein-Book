@@ -81,7 +81,7 @@ Der Dialog kann über folgende Kontextmenüs aufgerufen werden:
 
 ## Dialog
 
-Nach Auswahl der Menüeintrags "Forderung erstellen" öffnet sich folgender Dialog:
+Nach Auswahl der Menüeintrags "Gutschrift erstellen" öffnet sich folgender Dialog:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/401_GutschriftDialog.png" alt="" /></picture>
 
