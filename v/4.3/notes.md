@@ -1,0 +1,45 @@
+# Release Notes
+
+## Allgemeines
+
+Die Version 4.3 ist eine Minor Version und rückwärts kompatibel mit einer 4.2, 4.1 und 4.0.
+
+## The Big Ones
+
+### Allgemeiner Export bei Tabellen erweitert
+
+Beim Export der Tabellen über die Buttons im oberen Panel wurde ein weiterer Tab zur Konfiguration der Schriftarten hinzugefügt.
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_TabelleExportDialogSchriftart.png" alt="" /></picture>
+
+Für die Tabellen Header Zeile und den Tabelleninhalt lässt sich jeweils die Schriftart, Schriftgröße und Hintergrundfarbe (für spezielle Zellen) einstellen. Weiter kann festgelegt werden ob negative Zahlen in roter Farbe ausgegeben werden.
+
+### Konfigurierbarkeit von PDF Reports
+
+Für Saldenreports, PDF Reports die über die Export Buttons generiert werden, sowie für Kontoauszug und Personalbogen lässt sich der Report in ähnlicher Weise konfigurieren wie die Tabellenausgabe über die Panel Buttons. Es ist der gleiche Dialog verfügbar allerdings ohne die Spaltenauswahl.
+
+### Mail Dialog überarbeitet
+
+Im Mail Dialog wurde folgendes geändert:
+* "Speichern und Senden" wurde in "Senden" umbenannt, macht aber das gleiche wie bisher und sendet an Empfänger an die die Mail noch nicht versendet wurde
+* "Speichern und erneut senden" wurde entfernt. Diese Funktion macht keinen Sinn mehr, weil bereits versendete Mails nicht mehr editiert werden können. Als Alternative gibt es jetzt den Button "Duplizieren". Dieser erstellt eine Kopie der Mail welche sich wieder editieren lässt
+
+Eine bereits versendete Mail lässt sich nicht mehr ändern. Es lassen sich aber neue Empfänger hinzufügen und die gleiche Mail nochmals an die neu hinzugefügten Empfänger versenden, selbst an Empfänger an die sie schon einmal versendet wurde, falls der Empfänger neu hinzugefügt wurde. Beim Empfänger ist nach dem Versenden jeweils gespeichert wann sie an ihn versendet wurde.
+
+### Lokale Dokumentspeicherung
+
+Neben der Speicherung von Dokumenten über Jameica Messging lassen sich jetzt Dokumente auch lokal speichern. Siehe hierzu die Beschreibung unter [Dokumente](../../sonstiges/dokumente.md).
+
+## Kleinere Korrekturen und Erweiterungen
+
+### Auswertungen Menüeinträge gelöscht
+
+Die Einträge im Navigationsmenü für Auswertungen wurden entfernt. Die Reports sind jetzt über den Export Button in der Liste der Mitglieder bzw. Nicht-Mitglieder verfügbar. Damit ist für sie auch die Möglichkeit der individuellen Konfigurierbarkeit vorhanden, wie oben beschrieben.
+
+PS: Die Möglichkeit über externe CSV Files die zu exportierenden Spalten zu definieren wurde ebenfalls entfernt. Über die bestehende allgemeine Export Möglichkeit der Tabellen lässt sich ebenfalls festlegen welche Spalten exportiert werden sollen. Darum ist diese Möglichkeit hier nicht mehr nötig.
+
+
+## Sonstiges
+
+* Einige Fehlerkorrekturen
+* Carlito Schriftart (Calibri kompatibel) hinzugefügt
