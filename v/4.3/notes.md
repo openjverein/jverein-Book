@@ -30,6 +30,10 @@ Eine bereits versendete Mail lässt sich nicht mehr ändern. Es lassen sich aber
 
 Neben der Speicherung von Dokumenten über Jameica Messging lassen sich jetzt Dokumente auch lokal speichern. Siehe hierzu die Beschreibung unter [Dokumente](../../sonstiges/dokumente.md).
 
+### Konfigurierbare Rechnungsnummer
+
+Das Format der Rechnungsnummer lässt sich nun unter Administration->Einstellungen->Rechnungen festlegen. Für die Nummer werden Variablen unterstützt.
+
 ## Kleinere Korrekturen und Erweiterungen
 
 ### Auswertungen Menüeinträge gelöscht
@@ -43,3 +47,6 @@ PS: Die Möglichkeit über externe CSV Files die zu exportierenden Spalten zu de
 
 * Einige Fehlerkorrekturen
 * Carlito Schriftart (Calibri kompatibel) hinzugefügt
+* Falls Konten Buchungen abgeschlossener Geschäftsjahre zugeordnet haben, können nicht mehr alle Felder geändert werden
+* Falls Buchungsarten von Buchungen abgeschlossener Geschäftsjahre verwendet werden, können nicht mehr alle Felder geändert werden
+* Versanddatum von Rechnung, Spendenbescheinigung und Lastschrift lässt sich nicht mehr editieren bzw. explizit setzen
