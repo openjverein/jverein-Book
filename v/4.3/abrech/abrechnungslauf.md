@@ -34,5 +34,5 @@ In den Tabs werden die durch den Abrechnungslauf erzeugten Buchungen, Sollbuchun
 
 Über die CSV/PDF Panel Buttons wird des jeweils angezeigte Tab ausgegeben.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/402_AbrechnungslaufView.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_AbrechnungslaufView.png" alt="" /></picture>
 
