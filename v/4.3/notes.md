@@ -30,6 +30,27 @@ Das Format der Rechnungsnummer lässt sich nun unter Administration->Einstellung
 
 Über das Kontextmenü der Buchungen lassen sich Buchungsreports generieren z.B. Ersatzbeleg. Der Report basiert auf Nutzer definierten Formularen. Hierfür wurde eine neue Formularart "Buchungsreport" eingeführt. In den Formularen sind neben den allgemeinen Variablen auch die Buchung Variablen verfügbar.
 
+### Tastaturkürzel (Shortcuts)
+
+Einige Buttons sind jetzt mit Tastaturkürzel hinterlegt. Dies sind:
+* Löschen: Entf
+* Speichern: Ctrl+S
+* Speichern und Neu: Ctrl+Alt+S
+* Vor: Ctrl+->
+* Zurück: Ctrl+<-
+* Hilfe: F1
+* Neu: Ctrl +N
+* PDF: Ctrl+P
+* VerlassenDialog: Ohne Speichern Verlassen: Ctrl+SHIFT+W
+* Neues Mitglied: Alt+M
+* Neue Buchung: Alt+B
+* Neuer Abrechungslauf: Alt+A
+
+Zusätzlich gibt es im OpenJVerein folgende neue Einträge:
+* Neues Mitglied: Alt+M
+* Neue Buchung: Alt+B
+* Neuer Abrechungslauf: Alt+A
+
 ## Kleinere Korrekturen, Erweiterungen oder Modifikationen
 
 ### Auswertungen Menüeinträge gelöscht
@@ -51,16 +72,57 @@ Eine bereits versendete Mail lässt sich nicht mehr ändern. Es lassen sich aber
 * Die Menüeinträge haben Icons
 * Die Tabelle der Abrechnungsläufe hat eine Spalte für Abgeschlossen
 * In Abrechnungslauf Tabellenspalten bei Buchung, Sollbuchung und Lastschrift wird im Text ein Icon eingeblendet wenn der Abrechnungslauf abgeschlossen ist und es in den Einstellungen aktiviert ist
-* Abschließen und Aufschließen sind ausgegraut wenn das Fälligkeitsdatum in einem Jahresabschluß liegt
+* Abschließen und Aufschließen sind ausgegraut wenn das Fälligkeitsdatum in einem Jahresabschluss liegt
 * Prenotification wird nicht mehr blockiert
 * Löschen wird bei abgeschlossenen Abrechnungsläufen nicht ausgegraut, es gibt aber eine Fehlermeldung. Wenn man in den Einstellungen den Haken wieder weg macht, würde man sich sonst wundern, warum Löschen ausgegraut ist
 * Buchungen, Sollbuchungen und Lastschriften von abgeschlossenen Abrechnungsläufen können nicht mehr gelöscht oder editiert werden
 * Ein abgeschlossener Abrechnungslauf kann in DBBereinigen gelöscht werden
 
+### Natürliche Sortierung von Spalten mit Text
+
+Die Variablen für Kontonummer, Nummer der Buchungsart und externe Mitgliedsnummer sind als String implementiert. Es lassen sich neben Ziffern auch Buchstaben verwenden. Wurden Tabellen mit diesen Spalten sortiert, dann wurde lexikografisch sortiert, also so wie auch der Duden sortiert. Bei reinen Zahlen führt dies zu einer unnatürlichen Sortierung.
+
+In der neuen Implementierung werden Zahlenanteile in den Variablen nach Wert der Zahl sortiert. Damit werden reine Zahlenwerte wie erwartet sortiert.
+
+### HTML Mailvorschau
+
+Wird im Text Feld einer Mail der Text als HTML eingegeben, dann wird in der Vorschau dieser als HTML ausgegeben. Die HTML Anzeige in der Vorschau erfolgt falls im Text "<html" vorkommt.
+
+### Tooltip in Tabellen
+
+Wird in einer Tabelle ein Text nicht vollständig angezeigt weil er länger ist als die Spaltenbreite, dann wird der ganze Text als Tooltip angezeigt, wenn man mit der Maus darüber geht.
+
+### Spaltenauswahl über Menü
+
+Klickt man mit der rechten Maustaste auf die Kopfzeile in einer Tabelle, dann wird die Spaltenauswahl Liste angezeigt. Es kann dann direkt eine Spalte aktiviert oder deaktiviert werden.
+
+### Zugeordnete Buchungen im Abrechnungslauf
+
+Im Abrechnungslauf wird ein neuer Tab "Zugeordnete Buchungen" angezeigt. Im Tab "Buchungen" sind nur Buchungen aufgelistet, die durch den Abrechnungslauf erzeugt wurden, also im Falle von Lastschrift.
+
+Im neuen Tab "Zugeordnete Buchungen" werden alle Buchungen angezeigt die den Sollbuchungen des Abrechnungslaufes zugeordnet sind. Man sieht hier also auch die Buchungen die per Überweisung oder Barzahlung erzeugt wurden und später den Sollbuchungen zugeordnet wurden.
+
+### GoBD Konformität
+
+GoBD = Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff
+
+OpenJVerein ist nicht ohne weitere Maßnahmen GoBD konform. So wird z.B. in OpenJVerein keine Historie geführt, diese muss über externe Mechanismen sichergestellt werden. Es wurden mit dieser Version aber Änderungen durchgeführt um allgemein besser GoBD konform zu sein.
+
+Die einzelnen Änderungen sind:
+* Falls Konten Buchungen abgeschlossener Geschäftsjahre zugeordnet sind, können nicht mehr alle Felder der Konten geändert werden
+* Falls Buchungsarten von Buchungen abgeschlossener Geschäftsjahre verwendet werden, können nicht mehr alle Felder der Buchungsart geändert werden
+* Versanddatum von Rechnung, Spendenbescheinigung und Lastschrift lässt sich nicht mehr editieren und löschen
+* Bereits versendete versendete Rechnungen und Spendenbescheinigungen können nicht mehr gelöscht werden
+
+
 ## Sonstiges
 
 * Einige Fehlerkorrekturen
 * Carlito Schriftart (Calibri kompatibel) hinzugefügt
-* Falls Konten Buchungen abgeschlossener Geschäftsjahre zugeordnet haben, können nicht mehr alle Felder geändert werden
-* Falls Buchungsarten von Buchungen abgeschlossener Geschäftsjahre verwendet werden, können nicht mehr alle Felder geändert werden
-* Versanddatum von Rechnung, Spendenbescheinigung und Lastschrift lässt sich nicht mehr editieren
+* Kommentar bei Buchungen lässt sich in der Liste der Buchungen als optionale Spalte anzeigen (per Default wird sie nicht angezeigt)
+* Der Verwendungszweck für den QR Code in Rechnungen lässt sich jetzt mit Variablen anpassen
+* Fix für Zeilenumbruch in der Mailsignatur
+* Der Variablen Dialog zeigt unter Windows nur noch die erste Zeile des Textes an. Der Grund ist, dass mehrzeilige Texte unter Windows nicht umgebrochen werden
+* Bei Mailversand wird nun des Zip File nur temporär erzeugt und wieder gelöscht. Es erfolgt dann keine Abfrage für den Ordner mehr
+* Die Infobox bei Splitbuchungen wird nur noch angezeigt wenn mehr als eine Buchung selektiert wurde
+
