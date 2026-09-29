@@ -8,7 +8,7 @@ Die Version 4.3 ist eine Minor Version und rückwärts kompatibel mit einer 4.2,
 
 ### Allgemeiner Export bei Tabellen erweitert
 
-Beim Export der Tabellen über die Buttons im oberen Panel wurde ein weiterer Tab zur Konfiguration der Schriftarten hinzugefügt.
+Beim PDF Export der Tabellen über die Buttons im oberen Panel wurde ein weiterer Tab zur Konfiguration der Schriftarten hinzugefügt.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_TabelleExportDialogSchriftart.png" alt="" /></picture>
 
@@ -17,10 +17,6 @@ Für die Tabellen Header Zeile und den Tabelleninhalt lässt sich jeweils die Sc
 ### Konfigurierbarkeit von PDF Reports
 
 Für Saldenreports, PDF Reports die über die Export Buttons generiert werden, sowie für Kontoauszug und Personalbogen lässt sich der Report in ähnlicher Weise konfigurieren wie die Tabellenausgabe über die Panel Buttons. Es ist der gleiche Dialog verfügbar allerdings ohne die Spaltenauswahl.
-
-### Lokale Dokumentspeicherung
-
-Neben der Speicherung von Dokumenten über Jameica Messging lassen sich jetzt Dokumente auch lokal speichern. Siehe hierzu die Beschreibung unter [Dokumente](../../sonstiges/dokumente.md).
 
 ### Konfigurierbare Rechnungsnummer
 
@@ -50,6 +46,16 @@ Zusätzlich gibt es im OpenJVerein folgende neue Einträge:
 * Neues Mitglied: Alt+M
 * Neue Buchung: Alt+B
 * Neuer Abrechungslauf: Alt+A
+
+### Filter Profile
+
+Bisher wurden Filter Profile nur für die Mitglieder Liste unterstützt. Nun werden sie für alle Listen mit Filtern unterstützt.
+
+Die Funktionalität wurde wie folgt geändert:
+* Beim Aufruf für Filter Profile erscheint nun ein Dialog
+* Im Dialog können Profile erstellt, überschrieben, gelöscht und angewendet werden
+* Der Dialog zeigt auch die Werte der gesetzten Filter Felder an
+
 
 ## Kleinere Korrekturen, Erweiterungen oder Modifikationen
 
@@ -125,4 +131,6 @@ Die einzelnen Änderungen sind:
 * Der Variablen Dialog zeigt unter Windows nur noch die erste Zeile des Textes an. Der Grund ist, dass mehrzeilige Texte unter Windows nicht umgebrochen werden
 * Bei Mailversand wird nun des Zip File nur temporär erzeugt und wieder gelöscht. Es erfolgt dann keine Abfrage für den Ordner mehr
 * Die Infobox bei Splitbuchungen wird nur noch angezeigt wenn mehr als eine Buchung selektiert wurde
+* Der Spaltenauswahl Dialog und die beiden CSV und PDF Export Dialoge bieten eine Reset Funktion
+* Beim Mitglied Import lässt sich auch die Mandatid importieren
 

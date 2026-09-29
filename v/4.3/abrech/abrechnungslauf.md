@@ -32,6 +32,10 @@ Die Bemerkung lässt sich editieren.
 
 In den Tabs werden die durch den Abrechnungslauf erzeugten Buchungen, Sollbuchungen und Lastschriften sowie die abgerechneten Zusatzbeträge angezeigt.
 
+Im Tab "Zugeordnete Buchungen" werden alle Buchungen angezeigt, die einer Sollbuchung des Abrechnungslaufes zugeordnet sind. Während der Tab "Buchungen" nur die Buchungen anzeigt, die der Abrechnungslauf automatisch erzeugt hat, werden im Tab "Zugeordnete Buchungen" auch die angezeigt, die durch Überweisung oder Barzahlung erzeugt wurden und manuell den Sollbuchungen zugeordnet wurden.
+
+PS: Beim Löschen eines Abrechnungslaufes werden nur die Buchungen mit gelöscht die der Abrechnungslauf automatisch erzeugt hat, also alle die, die im Tab "Buchungen" aufgelistet sind.
+
 Über die CSV/PDF Panel Buttons wird des jeweils angezeigte Tab ausgegeben.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_AbrechnungslaufView.png" alt="" /></picture>
