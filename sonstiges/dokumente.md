@@ -20,15 +20,6 @@ Für den ArchiveService müssen folgende Jameica-Plugins zusätzlich installiert
 * jameica.xmlrpc
 
 
-## Voraussetzungen für die lokale Speicherung
-
-Für die lokale Speicherung muss der Dateipfad konfiguriert werden. Er besteht aus:
-* einem festen Root Anteil der unter Administration->Einstellungen->Verzeichnisse konfiguriert wird. Als Defaultwert sind hier Pfade in das Jameica Verzeichnis gesetzt
-* einem Pfad relativ zum Root Anteil. Dieser wird unter Administration->Einstellungen->Vorlagen konfiguriert und kann Variablen aus dem Mitglied bzw. der Buchung enthalten
-
-PS: Der relative Pfadanteil wird in der Datenbank zum Dokument gespeichert. Der Root Anteil wird lokal auf dem Rechner gespeichert. Wird z.B. der komplette Datensatz mit Datenbank und den gespeicherten Dokumenten auf einen anderen Rechner oder auch lokal in ein anderes Verzeichnis verschoben, muss nur der Root Anteil neu gesetzt werden.
-
-
 ## Neue Dokument speichern
 
 Liste er Dokumente:
@@ -39,8 +30,6 @@ Ab Version 4.3:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_DokumenteListe.png" alt="" /></picture>
 
-Bei lokalen Dokumenten wird in der Liste auch der lokale Pfad angezeigt.
-
 Über den Button "Neues Dokument" lässt sich ein Dokument hinzufügen. Es öffnet sich folgendes Formular:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/dokumenteneu2.png" alt="" /></picture>
@@ -50,8 +39,6 @@ Ab Version 4.3:
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_DokumenteNeuDialog.png" alt="" /></picture>
 
 Es wird eine Datei ausgewählt. Standardmäßig wird das Tagesdatum vorgegeben. Zusätzlich kann zu jedem Dokument ein Kommentar eingetragen werden.
-
-Ab 4.2 lässt sich das Datum nicht mehr konfigurieren, es ist immer das Datum an dem der Beleg hinzugefügt wurde.
 
 ## Dokumente anzeigen oder löschen
 
