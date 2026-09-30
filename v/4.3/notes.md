@@ -100,7 +100,7 @@ Wird in einer Tabelle ein Text nicht vollständig angezeigt weil er länger ist 
 
 ### Spaltenauswahl über Menü
 
-Klickt man mit der rechten Maustaste auf die Kopfzeile in einer Tabelle, dann wird die Spaltenauswahl Liste angezeigt. Es kann dann direkt eine Spalte aktiviert oder deaktiviert werden.
+Klickt man mit der rechten Maustaste auf die Kopfzeile in einer Tabelle, dann wird die Spaltenauswahl Liste angezeigt. Es kann dann direkt eine Spalte aktiviert oder deaktiviert werden. Das funktioniert zumindest unter Linux.
 
 ### Zugeordnete Buchungen im Abrechnungslauf
 
@@ -133,4 +133,6 @@ Die einzelnen Änderungen sind:
 * Die Infobox bei Splitbuchungen wird nur noch angezeigt wenn mehr als eine Buchung selektiert wurde
 * Der Spaltenauswahl Dialog und die beiden CSV und PDF Export Dialoge bieten eine Reset Funktion
 * Beim Mitglied Import lässt sich auch die Mandatid importieren
+* Das Kommentarfeld von Buchungen lässt sich optional in der Buchungsliste einblenden
+* Die QR-Code Größe lässt sich jetzt individuell einstellen
 
