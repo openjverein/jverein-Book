@@ -57,7 +57,10 @@ Ab Version 4.1 lassen sich auch Zugehörigkeit zu einem Familienverband und abwe
 
 Die entsprechenden Attribute sind:
 * zahlerid Id des Vollzahlenden Mitglieds
+* externezahlerid Externe Mitgliedsnummer des Vollzahlenden Mitglieds (nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist, nicht zusammen mit zahlerid)
 * alternativer_zahlerid Id des abweichenden Zahlers
+
+Mit externezahlerid kann ein Familienverband in einem einzigen Import angelegt werden. Der Vollzahler kann in derselben Datei stehen, die Reihenfolge der Zeilen spielt keine Rolle. Zeilen mit externezahlerid werden nach allen anderen Zeilen verarbeitet.
 
 Bei neuen Vollzahlern bzw. Abweichende Zahlern ist also erst ein Import durchzuführen bei dem nur die Mitglieder importiert werden. In einem zweiten Import kann dann die Mitglieder nochmals importiert werden, die einem Vollzahler zugewiesen werden sollen bzw. bei denen ein abweichender Zahler gesetzt werden soll.
 
