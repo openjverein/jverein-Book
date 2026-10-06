@@ -14,6 +14,10 @@ Beim PDF Export der Tabellen über die Buttons im oberen Panel wurde ein weitere
 
 Für die Tabellen Header Zeile und den Tabelleninhalt lässt sich jeweils die Schriftart, Schriftgröße und Hintergrundfarbe (für spezielle Zellen) einstellen. Weiter kann festgelegt werden ob negative Zahlen in roter Farbe ausgegeben werden.
 
+### Export Profile
+
+Für den CSV und PDF Tabellen Export über die Buttons im oberen Panel Buttons wurden Profile implementiert. Dialog Einstellungen lassen sich in Profilen speichern und später wieder anwenden.
+
 ### Konfigurierbarkeit von PDF Reports
 
 Für Saldenreports, PDF Reports die über die Export Buttons generiert werden, sowie für Kontoauszug und Personalbogen lässt sich der Report in ähnlicher Weise konfigurieren wie die Tabellenausgabe über die Panel Buttons. Es ist der gleiche Dialog verfügbar allerdings ohne die Spaltenauswahl.
@@ -56,6 +60,9 @@ Die Funktionalität wurde wie folgt geändert:
 * Im Dialog können Profile erstellt, überschrieben, gelöscht und angewendet werden
 * Der Dialog zeigt auch die Werte der gesetzten Filter Felder an
 
+### HTML Unterstützung in Formularfeldern
+
+Text in Formularfeldern lässt sich mit HTML Tags formatieren. Hier sind auch mehrseitige Ausgaben möglich.
 
 ## Kleinere Korrekturen, Erweiterungen oder Modifikationen
 
@@ -135,4 +142,5 @@ Die einzelnen Änderungen sind:
 * Beim Mitglied Import lässt sich auch die Mandatid importieren
 * Das Kommentarfeld von Buchungen lässt sich optional in der Buchungsliste einblenden
 * Die QR-Code Größe lässt sich jetzt individuell einstellen
+* Falls Externe Mitgliedsnummer aktiviert ist, lässt sich beim Mitglieder Import die Zuordnung in einem Familienverband über die externe Mitgliedsnummer Referenz erstellen. Dadurch ist kein zweiter Import mehr nötig
 

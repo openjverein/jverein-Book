@@ -61,3 +61,5 @@ Die entsprechenden Attribute sind:
 
 Bei neuen Vollzahlern bzw. Abweichende Zahlern ist also erst ein Import durchzuführen bei dem nur die Mitglieder importiert werden. In einem zweiten Import kann dann die Mitglieder nochmals importiert werden, die einem Vollzahler zugewiesen werden sollen bzw. bei denen ein abweichender Zahler gesetzt werden soll.
 
+Ab Version 4.3 lässt sich ein Familienverband auch mit einem einmaligen Import durchführen. Voraussetzung ist, dass Externe Mitgliedsnummer aktiv ist. Über das neue Attribut externezahlerid lässt sich das Mitglied welches diese externe Mitgliedsnummer besitzt referenzieren.
+
