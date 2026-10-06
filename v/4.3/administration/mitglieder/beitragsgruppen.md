@@ -74,7 +74,7 @@ Zu einer Beitragsgruppe kann eine interne Notiz erfasst werden.
 
 ### Altersstaffel
 
-Bei Benutzung der Altersstaffel können Altersabhängige Beiträge konfiguriert werden.
+Bei Benutzung der Altersstaffel können Altersabhängige Beiträge konfigurieert werden.
 
 Die angezeigten Altersbereiche können unter Administration->Einstellungen->Abrechnung konfiguriert werden.
 
@@ -82,6 +82,6 @@ Die Altersstaffel ist nur verfügbar wenn unter Administration->Einstellungen->A
 
 ### Arbeitseinsatz
 
-Hier lässt sich ein zu leistender Arbeitseinsatz konfiguriert werden.
+Hier lässt sich ein zu leistender Arbeitseinsatz konfigurieren.
 
 Die Anzeige von Arbeitseinsatz muss unter Administration->Einstellungen->Anzeige konfiguriert werden.
