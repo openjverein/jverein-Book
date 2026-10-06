@@ -16,13 +16,13 @@ Die Pre-Notification Funktion ist etwas versteckt und kann über die Liste der A
 
 Mit einem Rechtsklick auf den entsprechenden Abrechnungsverlauf öffnet sich ein Kontextmenü, mit dem man die Pre-Notifications erstellen kann.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_AbrechnungslaufListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_AbrechnungslaufListeView.png" alt="" /></picture>
 
 ## Dialog bei Aufruf über Abrechnungsläufe
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_PrenotificationDruckMailView3.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_PrenotificationDruckMailView3.png" alt="" /></picture>
 
 Der View besitzt folgende Buttons:
 
@@ -33,6 +33,7 @@ Der View besitzt folgende Buttons:
 * Empfänger Liste: Zeigt einen Dialog mit der Liste aller Empfänger für die Pre-Notifikationen generiert oder verschickt werden
 * Starten: Startet die Ausgabe
 
+
 ## Aufruf der Pre-Notification Funktion über Lastschriften
 
 Die Pre-Notification Funktion kann auch über die Liste der Lastschriften erreicht werden.
@@ -41,13 +42,14 @@ Mit einem Rechtsklick auf eine oder mehrere Lastschriften öffnet sich ein Konte
 
 Diese Option hat den Vorteil, dass man einzelne Lastschriften auswählen kann. Da bei wiederkehrenden Lastschriften eine Pre-Notification nur beim ersten Mal notwendig ist, kann man hier nur die Mitglieder auswählen die neu hinzugekommen sind oder bei denen sich etwas geändert hat.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_LastschriftenListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_LastschriftenListeView.png" alt="" /></picture>
+
 
 ## Dialog bei Aufruf über Lastschriften
 
 In diesem Fenster kann die Pre-Notification erstellt werden, und zwar auf der Karte Mail + PDF .
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_PrenotificationDruckMailView1.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_PrenotificationDruckMailView1.png" alt="" /></picture>
 
 Der View besitzt folgende Buttons:
 
@@ -66,7 +68,7 @@ Mit einem Rechtsklick auf den entsprechenden Eintrag öffnet sich der Dialog, mi
 
 In diesem Fall wählt man den Abrechnungslauf für den die Pre-Notifications erzeugt werden sollen im Dialog aus.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_PrenotificationDruckMailView2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_PrenotificationDruckMailView2.png" alt="" /></picture>
 
 Der View besitzt folgende Buttons:
 
@@ -77,9 +79,10 @@ Der View besitzt folgende Buttons:
 * Empfänger Liste: Zeigt einen Dialog mit der Liste aller Empfänger für die Pre-Notifikationen generiert oder verschickt werden
 * Starten: Startet die Ausgabe
 
+
 ### Schriftliche Pre-Notification an alle Mitglieder
 
-Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../../4.1/administration/mitglieder/formulare.md) dafür angelegt werden.
+Bevor Pre-Notifications gedruckt werden können muss zunächst ein [Formular](../administration/mitglieder/formulare.md) dafür angelegt werden.
 
 Im Block Parameter bei Ausgabe muss PDF (Alle) eingestellt werden und das Formular passend ausgewählt werden, dann den Startknopf drücken.
 
@@ -140,7 +143,7 @@ Die weitere Bedienung entspricht dem Vorgehen beim Senden der schriftlichen Pre-
 
 Durch eine Überweisung von einem Cent kann über den Verwendungszweck die Pre-Notification durchgeführt werden.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Prenotification1ctErstellung.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Prenotification1ctErstellung.png" alt="" /></picture>
 
 Auf der Karte 1ct-Überweisung müssen die Ausgabeart (Datei oder Hibiscus) und das Ausführungsdatum eingestellt werden.
 

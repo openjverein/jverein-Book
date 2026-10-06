@@ -6,7 +6,7 @@ In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbeschein
 
 ## Liste der Formulare
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formulare.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formulare.png" alt="" /></picture>
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formular.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formular.png" alt="" /></picture>
 
 ## Formular Attribute
 
@@ -89,7 +89,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularfeld.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularfeld.png" alt="" /></picture>
 
 ### Name
 
@@ -143,14 +143,14 @@ Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter
 
 Einfache Standardrechnung:
 
-{% file src="../../../../.gitbook/assets/320_rechnung-standard.xml" %}
+{% file src="../../../../assets/320_rechnung-standard.xml" %}
 Einfache Standardrechnung
 {% endfile %}
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_rechnung-standard.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_rechnung-standard.png" alt="" /></picture>
 
 ## Beispiele
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularroh.jpg)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularroh.jpg" alt="" /></picture>
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularausgefuellt.jpg)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularausgefuellt.jpg" alt="" /></picture>

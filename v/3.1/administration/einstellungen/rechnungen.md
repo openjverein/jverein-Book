@@ -8,8 +8,8 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Rechnun
 
 ### Konfiguration
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/310_Rechnungen.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/310_Rechnungen.png" alt="" /></picture>
 
-Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden. Außerdem sind weiter Variablen möglich. Siehe [Variablen](https://github.com/openjverein/jverein-Book/blob/master/v3.1.x/sonstiges/variable.md).
+Texte für die einzelnen Zahlungswege für den Rechnungsdruck. In den Text zur Abbuchung können die Variablen ${IBAN}, ${BIC}, ${MANDATID}, ${Konto} und ${BLZ} eingemischt werden. Außerdem sind weiter Variablen möglich. Siehe [Variablen](../../../../v3.1.x/sonstiges/variable.md).
 
 Es ist möglich einen QR Code mit den Rechnungsdaten auf die Rechnung zu platzieren. Dazu sind die entsprechenden Felder zu konfigurieren.

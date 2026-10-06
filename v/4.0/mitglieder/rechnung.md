@@ -18,14 +18,14 @@ Die Sollbuchungspositionen werden dann als Rechnungspositionen in die Rechnung a
 
 Beim versenden der Rechnung per Mail und wenn nur eine Rechnung als PDF erstellt wird, wird diese automatisch als E-Rechnung im ZUGFeRD Format erstellt.
 
-Um Rechnungen erstellen zu können muss erst ein Formuler erstellt werden. Siehe [Formulare](../../4.1/administration/mitglieder/formulare.md)
+Um Rechnungen erstellen zu können muss erst ein Formuler erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
 
 ### Erstellung
 
 Die Rechnungen können erstellt werden
 
-* direkt während eines Abrechnungslauf (siehe [Abrechnung](../../4.1/abrech/abrechnung.md) )
-* aber auch in der Liste der Sollbuchungen (siehe [Sollbuchungen](../../4.1/mitglieder/mitgliedskonto.md))
+* direkt während eines Abrechnungslauf (siehe [Abrechnung](../abrech/abrechnung.md) )
+* aber auch in der Liste der Sollbuchungen (siehe [Sollbuchungen](mitgliedskonto.md))
 
 ## Liste der Rechnungen
 
@@ -33,7 +33,7 @@ Es gibt eine zentrale Übersicht über alle Rechnungen. Die Rechnungen können �
 
 Zudem lässt sich filtern ob das Mitglied per Lastschrift zahlt oder eine Mail Adresse hat. Letzteres ist interessant wenn die Rechnungen per Mail versendet werden sollen.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_RechnungenListeView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_RechnungenListeView.png" alt="" /></picture>
 
 Durch einen Doppelklick auf die Rechnung wird die Rechnung angezeigt.
 
@@ -50,7 +50,7 @@ Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehr
 
 Mit einem Doppelklick auf die Rechnung oder Klick auf Anzeigen wird die Rechnung angezeigt.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_RechnungView.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_RechnungView.png" alt="" /></picture>
 
 Folgende Buttons stehen zu Verfügung:
 

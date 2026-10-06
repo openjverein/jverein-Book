@@ -20,9 +20,9 @@ Hier lässt sich bei der Ausgabe zwischen Drucken oder Versenden per Mail wähle
 
 Im Info Feld wird angezeigt wie viele Rechnungen selektiert wurden und ob zugehörige Mitglieder keine Mailadresse haben. Haben sie keine Mail Adresse werden sie beim Versand per Mail ignoriert.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_MahnungenDruckMailView1.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_MahnungenDruckMailView1.png" alt="" /></picture>
 
-Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../../4.1/administration/mitglieder/formulare.md).
+Im Parameter Feld "Formular" ist ein Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md).
 
 Im Parameter Feld "Ausgabe" lässt sich wählen ob die Mahnungen als PDF gedruckt oder per Mail verschickt werden sollen.
 
@@ -47,7 +47,7 @@ Um automatisch Mahnungen zu erstellen wählen Sie im Navigations Baum dem Menü 
 
 Im Gegensatz zum selektiven Erstellen wird hier der gleiche Filter Bereich angezeigt wie im Sollbuchungen Dialog. Es werden dann Mahnungen für alle Sollbuchungen die die Filter Kriterien erfüllen gedruckt bzw. per Mail versendet.
 
-![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_MahnungenDruckMailView2.png)
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_MahnungenDruckMailView2.png" alt="" /></picture>
 
 Der Filter Bereich bietet folgende Optionen:
 
@@ -57,7 +57,7 @@ Der Filter Bereich bietet folgende Optionen:
 * Ohne Abbucher: Schließt Mitglieder die per Lastschrift bezahlen aus
 * Datum von/bis: Es werden nur Mitgliedskonten Einträge im gewählten Zeitraum berücksichtigt
 * Mail: Hier lässt sich auswählen ob nur Mitglieder mit Mailadresse, ohne Mailadresse oder unabhängig von einer Mailadresse ausgewählt werden
-* Versand: Hier lässt sich auswählen ob alle, nur versendete oder nicht versendete Rechnungen berücksichtigt werden sollen
+* Versand: Hier lässt sich auswählen ob alle, nur versendete oder nicht versendete  Rechnungen berücksichtigt werden sollen
 
 Der View besitzt folgende Buttons:
 
