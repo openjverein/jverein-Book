@@ -50,10 +50,6 @@ Passende JVerein-Version auswählen und "Installieren..." anklicken.
 
 "Ja" anklicken.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install8.png" alt="" /></picture>
-
-"Ja" anklicken.
-
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install9.png" alt="" /></picture>
 
 Passenden Plugin-Ordner auswählen. Wichtig! Eine einmal getroffene Auswahl sollte beibehalten werden.
@@ -66,5 +62,5 @@ Die Installation muss immer auf dem oben beschriebenen Weg erfolgen. Das direkte
 
 ## MySQL
 
-JVerein unterstützt seit dem 29.1.2008 auch MySQL. Zur Installation siehe [MySQL-Support.](mysql-support.md)
+JVerein unterstützt auch MySQL. Zur Installation siehe [MySQL-Support.](mysql-support.md)
 
