@@ -23,6 +23,8 @@ Buttons:
 * Speichern: Übernimmt die Auswahl in die Tabelle
 * Abbrechen: Beendet den Dialog
 
+Außerdem kann die Auswahl der Spalten über einen Rechtsklick auf den Tabellenkopf der jeweiligen Tabelle erfolgen.
+
 ### Profile
 
 Für die CSV/PDF Export Dialoge lassen sich Profile erstellen.
@@ -100,4 +102,19 @@ Für die Tabellen Header Zeile und den Tabelleninhalt lässt sich jeweils die Sc
 Buttons:
 * Reset: Setzt die Werte auf Defaultwerte zurück
 
+## Tastaturkürzel (Shortcuts)
+
+Einige Buttons sind mit Tastaturkürzel hinterlegt. Dies sind:
+* Löschen: Entf
+* Speichern: Ctrl+S
+* Speichern und Neu: Ctrl+Alt+S
+* Vor: Ctrl+->
+* Zurück: Ctrl+<-
+* Hilfe: F1
+* Neu: Ctrl +N
+* PDF: Ctrl+P
+* VerlassenDialog: Ohne Speichern Verlassen: Ctrl+SHIFT+W
+* Neues Mitglied: Alt+M
+* Neue Buchung: Alt+B
+* Neuer Abrechungslauf: Alt+A
 
