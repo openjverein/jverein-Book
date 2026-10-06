@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+  <object type="de.jost_net.JVerein.server.FormularImpl" id="55">
+    <zaehler type="java.lang.Integer">0</zaehler>
+    <art type="java.lang.Integer">2</art>
+    <bezeichnung type="java.lang.String">Rechnung Standart</bezeichnung>
+    <inhalt type="[B">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
+PnjhIJfyr3LGR93O0davOW0ea4/aw/eocBj6lcS2/rIKX7BPdPah0K17a517W1c5iz1FPUoMWIGC
+et7JN/G7+Dj/MH+BV2s6/Q7nbryn/TN+TvRrdT79Lueuml38+blpMdJeita2J7aPb+e3+VY521rX
+OfWtztaa1ndbf9n6cauqrxWew3++l30XfLzoW1XjE32OUt/SNnuPxWPuMYK+x+DR93CAhfaQnhr9
+nJ7T6/v0R/T0qxHCjVtACefh5GR3l9vdfl4919kuafy3SvCQVNZFn+LuvZLqIYn07L21dxLgG4EH
+Tpwg3mXtUn1XrxRcFmiXwgiIFBhHwLBs0kK8gVQq7WYXuN0Ij+GTuMfcSNyfylLJPJ+4U5DCJSrF
+lMBNBbI44NNNeUigeoDa+1OEPijTnVWi2inZHFPOPhhg3f9/AYdhwScKZW5kc3RyZWFtCmVuZG9i
+agoKOSAwIG9iago3MjQ4CmVuZG9iagoKMTAgMCBvYmoKPDwvVHlwZS9Gb250RGVzY3JpcHRvci9G
+b250TmFtZS9CQUFBQUErTGliZXJhdGlvblNlcmlmCi9GbGFncyA0Ci9Gb250QkJveFstNTQzIC0z
+MDMgMTI3OCA5ODJdL0l0YWxpY0FuZ2xlIDAKL0FzY2VudCA4OTEKL0Rlc2NlbnQgLTIxNgovQ2Fw
+SGVpZ2h0IDk4MQovU3RlbVYgODAKL0ZvbnRGaWxlMiA4IDAgUgo+PgplbmRvYmoKCjExIDAgb2Jq
+Cjw8L0xlbmd0aCAzMTAvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFtCnicXZFNb4MwDIbv/Ioc
+u0MFobSsEkLqp8RhHxrbD6CJ6SKNEIX0wL9fbHebtAPRY/t1Yl6nh+bYWBPSVz+qFoLojdUepvHm
+FYgLXI1NZC60UeEe0amGziVp7G3nKcDQ2H6sqiR9i7Up+Fksdnq8wEOSvngN3tirWHwc2hi3N+e+
+YAAbRJbUtdDQx3ueOvfcDZBS17LRsWzCvIwtf4L32YHIKZY8iho1TK5T4Dt7haTKslpU53OdgNX/
+anLLLZdefXY+SmWUZtk6ryPnxJs18op5hVwwPyKvmU/IG+KS9CXnS+RH4jxD3hIXpN+xnt7as4by
+B9YUyEe+RyKfWE/5M+ePkWXGM++Qef4S35X3+ffIPH+Rkwn3v0U7cF8/Ngt18z5aTEslb9FVY+F3
+72502EXfN1m3l8EKZW5kc3RyZWFtCmVuZG9iagoKMTIgMCBvYmoKPDwvVHlwZS9Gb250L1N1YnR5
+cGUvVHJ1ZVR5cGUvQmFzZUZvbnQvQkFBQUFBK0xpYmVyYXRpb25TZXJpZgovRmlyc3RDaGFyIDAK
+L0xhc3RDaGFyIDE5Ci9XaWR0aHNbMCA2NjYgNDQzIDQ0MyA1MDAgNTAwIDUwMCA1MDAgMjUwIDcy
+MiAzMzMgMjUwIDcyMiA0NDMgMjc3IDc3Nwo2MTAgNzIyIDUwMCA2NjYgXQovRm9udERlc2NyaXB0
+b3IgMTAgMCBSCi9Ub1VuaWNvZGUgMTEgMCBSCj4+CmVuZG9iagoKMTMgMCBvYmoKPDwvRjEgMTIg
+MCBSCj4+CmVuZG9iagoKMTQgMCBvYmoKPDwKL0ZvbnQgMTMgMCBSCi9Qcm9jU2V0Wy9QREYvVGV4
+dF0KPj4KZW5kb2JqCgoxIDAgb2JqCjw8L1R5cGUvUGFnZS9QYXJlbnQgNyAwIFIvUmVzb3VyY2Vz
+IDE0IDAgUi9NZWRpYUJveFswIDAgNTk1LjMwMzkzNzAwNzg3NCA4NDEuODg5NzYzNzc5NTI4XS9U
+YWJzL1MKL1N0cnVjdFBhcmVudHMgMAovQ29udGVudHMgMiAwIFI+PgplbmRvYmoKCjUgMCBvYmoK
+PDwvVHlwZS9TdHJ1Y3RFbGVtCi9TL1N0YW5kYXJkCi9QIDQgMCBSCi9QZyAxIDAgUgovQSA8PC9P
+L0xheW91dC9QbGFjZW1lbnQvQmxvY2sKPj4KL0tbMCBdCj4+CmVuZG9iagoKNiAwIG9iago8PC9U
+eXBlL1N0cnVjdEVsZW0KL1MvU3RhbmRhcmQKL1AgNCAwIFIKL1BnIDEgMCBSCi9BIDw8L08vTGF5
+b3V0L1BsYWNlbWVudC9CbG9jawo+PgovS1sxIF0KPj4KZW5kb2JqCgo0IDAgb2JqCjw8L1R5cGUv
+U3RydWN0RWxlbQovUy9Eb2N1bWVudAovUCAxNSAwIFIKL1BnIDEgMCBSCi9LWzUgMCBSICA2IDAg
+UiAgXQo+PgplbmRvYmoKCjE1IDAgb2JqCjw8L1R5cGUvU3RydWN0VHJlZVJvb3QKL1BhcmVudFRy
+ZWUgMTYgMCBSCi9Sb2xlTWFwPDwvU3RhbmRhcmQvUAo+PgovS1s0IDAgUiAgXQo+PgplbmRvYmoK
+CjE2IDAgb2JqCjw8L051bXNbCjAgWyA1IDAgUiA2IDAgUiBdCl0+PgplbmRvYmoKCjcgMCBvYmoK
+PDwvVHlwZS9QYWdlcwovUmVzb3VyY2VzIDE0IDAgUgovS2lkc1sgMSAwIFIgXQovQ291bnQgMT4+
+CmVuZG9iagoKMTcgMCBvYmoKPDwvVHlwZS9DYXRhbG9nL1BhZ2VzIDcgMCBSCi9QYWdlTW9kZS9V
+c2VPdXRsaW5lcwovT3BlbkFjdGlvblsxIDAgUiAvWFlaIG51bGwgbnVsbCAwXQovU3RydWN0VHJl
+ZVJvb3QgMTUgMCBSCi9MYW5nKGRlLURFKQovTWFya0luZm88PC9NYXJrZWQgdHJ1ZT4+Cj4+CmVu
+ZG9iagoKMTggMCBvYmoKPDwvQ3JlYXRvcjxGRUZGMDA1NzAwNzIwMDY5MDA3NDAwNjUwMDcyPgov
+UHJvZHVjZXI8RkVGRjAwNEMwMDY5MDA2MjAwNzIwMDY1MDA0RjAwNjYwMDY2MDA2OTAwNjMwMDY1
+MDAyMDAwMzIwMDM0MDAyRTAwMzI+Ci9DcmVhdGlvbkRhdGUoRDoyMDI1MDIwNDIzNTYxNCswMScw
+MCcpPj4KZW5kb2JqCgp4cmVmCjAgMTkKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDA4NTY0IDAw
+MDAwIG4gCjAwMDAwMDAwMTkgMDAwMDAgbiAKMDAwMDAwMDI4OCAwMDAwMCBuIAowMDAwMDA4OTMz
+IDAwMDAwIG4gCjAwMDAwMDg3MTMgMDAwMDAgbiAKMDAwMDAwODgyMyAwMDAwMCBuIAowMDAwMDA5
+MTY5IDAwMDAwIG4gCjAwMDAwMDAzMDggMDAwMDAgbiAKMDAwMDAwNzY0MSAwMDAwMCBuIAowMDAw
+MDA3NjYyIDAwMDAwIG4gCjAwMDAwMDc4NTggMDAwMDAgbiAKMDAwMDAwODIzOCAwMDAwMCBuIAow
+MDAwMDA4NDc1IDAwMDAwIG4gCjAwMDAwMDg1MDggMDAwMDAgbiAKMDAwMDAwOTAyMiAwMDAwMCBu
+IAowMDAwMDA5MTIxIDAwMDAwIG4gCjAwMDAwMDkyNDMgMDAwMDAgbiAKMDAwMDAwOTQxMSAwMDAw
+MCBuIAp0cmFpbGVyCjw8L1NpemUgMTkvUm9vdCAxNyAwIFIKL0luZm8gMTggMCBSCi9JRCBbIDww
+NTcxNUQ2MjJBNjY2M0RFOEI0Mzc2MUZGMkIyMzQzNz4KPDA1NzE1RDYyMkE2NjYzREU4QjQzNzYx
+RkYyQjIzNDM3PiBdCi9Eb2NDaGVja3N1bSAvODFGOTRBMkRBRkY4RkVFMkYyMTNFRkU2NTVGRDYz
+RTkKPj4Kc3RhcnR4cmVmCjk1OTAKJSVFT0YK</inhalt>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="580">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">rechnung_empfaenger</name>
+    <x type="java.lang.Double">20.0</x>
+    <y type="java.lang.Double">250.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="581">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">rechnung_nummer</name>
+    <x type="java.lang.Double">45.0</x>
+    <y type="java.lang.Double">199.5</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="582">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_ort</name>
+    <x type="java.lang.Double">140.0</x>
+    <y type="java.lang.Double">210.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="583">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">tagesdatum</name>
+    <x type="java.lang.Double">160.0</x>
+    <y type="java.lang.Double">210.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="584">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">rechnung_zahlungsgrund</name>
+    <x type="java.lang.Double">43.0</x>
+    <y type="java.lang.Double">180.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="585">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">rechnung_betrag</name>
+    <x type="java.lang.Double">129.0</x>
+    <y type="java.lang.Double">180.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="586">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">rechnung_buchungsdatum</name>
+    <x type="java.lang.Double">20.0</x>
+    <y type="java.lang.Double">180.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="587">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">rechnung_zahlungsweg_text</name>
+    <x type="java.lang.Double">20.0</x>
+    <y type="java.lang.Double">70.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="588">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_name</name>
+    <x type="java.lang.Double">20.0</x>
+    <y type="java.lang.Double">30.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="589">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_strasse</name>
+    <x type="java.lang.Double">20.0</x>
+    <y type="java.lang.Double">25.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="590">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_plz</name>
+    <x type="java.lang.Double">20.0</x>
+    <y type="java.lang.Double">20.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="591">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_ort</name>
+    <x type="java.lang.Double">31.0</x>
+    <y type="java.lang.Double">20.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="592">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_iban</name>
+    <x type="java.lang.Double">120.0</x>
+    <y type="java.lang.Double">30.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="593">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_bic</name>
+    <x type="java.lang.Double">120.0</x>
+    <y type="java.lang.Double">25.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="594">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_steuer_nr</name>
+    <x type="java.lang.Double">120.0</x>
+    <y type="java.lang.Double">20.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="595">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_ust_id</name>
+    <x type="java.lang.Double">120.0</x>
+    <y type="java.lang.Double">15.0</y>
+    <fontsize type="java.lang.Integer">10</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+  <object type="de.jost_net.JVerein.server.FormularfeldImpl" id="596">
+    <formular type="java.lang.Integer">55</formular>
+    <name type="java.lang.String">verein_absender</name>
+    <x type="java.lang.Double">20.0</x>
+    <y type="java.lang.Double">255.0</y>
+    <fontsize type="java.lang.Integer">6</fontsize>
+    <seite type="java.lang.Integer">1</seite>
+    <font type="java.lang.String">PTSans-Regular</font>
+  </object>
+</objects>

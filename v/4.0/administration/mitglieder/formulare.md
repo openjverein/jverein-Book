@@ -2,11 +2,11 @@
 
 ## Allgemeines
 
-In JVerein werden für [Spendenbescheinigungen](../../mitglieder/spendenbescheinigung.md), [Mahnung](../../druckmail/mahnungen.md), [Rechnungen](../../druckmail/rechnungen.md), [Pre-Notification](../../druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../druckmail/freiesformular.md) hinterlegt.
+In JVerein werden für [Spendenbescheinigungen](/broken/pages/iqa8OFMIwHoNf9VOwtrn), [Mahnung](../../../4.1/druckmail/mahnungen.md), [Rechnungen](/broken/pages/EAp7i49ezyPebULJU9uu), [Pre-Notification](../../../4.1/druckmail/pre-notification.md) und diverse Zwecke [Freie Formulare](../../../4.1/druckmail/freiesformular.md) hinterlegt.
 
 ## Liste der Formulare
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formulare.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formulare.png)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -28,7 +28,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formular.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formular.png)
 
 ## Formular Attribute
 
@@ -103,7 +103,7 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_Formularfeld.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_Formularfeld.png)
 
 ### Name
 
@@ -148,21 +148,20 @@ Schriftgröße des Textes.
 
 * Speichert das Formularfeld und öffnet eine neues
 
-
-
-
 ## Vorlagen
 
 Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter geladen und als Formular importiert werden.
 
 Einfache Standardrechnung:
 
-{% file src="../../../../assets/400_rechnung-standard.xml" %} Einfache Standardrechnung {% endfile %}
+{% file src="../../../../.gitbook/assets/400_rechnung-standard.xml" %}
+Einfache Standardrechnung
+{% endfile %}
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_rechnung-standard.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_rechnung-standard.png)
 
 ## Beispiele
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularroh.jpg" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularroh.jpg)
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularausgefuellt.jpg" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularausgefuellt.jpg)

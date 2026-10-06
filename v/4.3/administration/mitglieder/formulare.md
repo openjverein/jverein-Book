@@ -12,7 +12,7 @@ Bei fest eingebauten Reports ohne Formular z.B. Kontoauszug oder Personalbogen k
 
 Eine Liste der Formulare kann über den Eintrag Administration->Mitglieder->Formulare im Navigationsbaum angezeigt werden.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/402_FormulareListeView.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/402_FormulareListeView.png)
 
 Mit Neu kann ein neues Formular eingerichtet werden.
 
@@ -34,7 +34,7 @@ Mit dem Button Importieren können vorher exportierte Formulare importiert werde
 
 Der Dialog beinhaltet die Formular Attribute und zeigt eine Liste der Formularfelder die auf die Datei Vorlage gedruckt werden sollen.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/402_FormularView.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/402_FormularView.png)
 
 ## Formular Attribute
 
@@ -112,18 +112,18 @@ Nun kommt die eigentliche Arbeit:
 
 Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende Datenfeld auszuwählen und zu positionieren: (Die spätere Reihenfolge Eurer Datenfelder ist egal! Ihr könnt auch erst hinten anfangen)
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_Formularfeld.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_Formularfeld.png)
 
 ### Name
 
-Unter "Name" könnt Ihr nun Text gemischt mit Variablen eingeben. Der Inhalt wird mit Velocity geparst, es können also auch alle Velocity Befehle verwendet werden (#if #else, #for etc.) Siehe auch [Velocity](https://velocity.apache.org/engine/1.7/user-guide.html) 
+Unter "Name" könnt Ihr nun Text gemischt mit Variablen eingeben. Der Inhalt wird mit Velocity geparst, es können also auch alle Velocity Befehle verwendet werden (#if #else, #for etc.) Siehe auch [Velocity](https://velocity.apache.org/engine/1.7/user-guide.html)
 
 Außerdem ist es in Formularfeldern möglich, HTML zu verwenden. So können auch komplexe Tabellen, Listen etc. mit unterschiedlichen Formatierungen in einem Feld erstellt werden. Es sind die meisten HTML Tags sowie Css-Styles möglich. (Das HTML wird mit iText XMLWorker geparst). Das Einbinden externer Resourcen (Bilder, css) ist aus Sicherheitsgründen nicht möglich.
 
-Es ist möglich, den Inhalt eines Feldes über mehrere Seiten verteilt auszugeben. Dafür ist das Feld [[newPage]] nötig. Dort wo dieses Feld ist, wird eine neue Seite erstellt (mit der gleichen Seite wie die Ursprungsseite als Vorlage), und der Folgende Text dort auf der gleichen Position ausgegeben. Bei der Nutzung von HTML zusammen mit [[newPage]] ist darauf zu achten, dass alle Tags vor [[newPage]] geschlossen sind. Es wird als komplett neues HTML geparst.
+Es ist möglich, den Inhalt eines Feldes über mehrere Seiten verteilt auszugeben. Dafür ist das Feld \[\[newPage]] nötig. Dort wo dieses Feld ist, wird eine neue Seite erstellt (mit der gleichen Seite wie die Ursprungsseite als Vorlage), und der Folgende Text dort auf der gleichen Position ausgegeben. Bei der Nutzung von HTML zusammen mit \[\[newPage]] ist darauf zu achten, dass alle Tags vor \[\[newPage]] geschlossen sind. Es wird als komplett neues HTML geparst.
 
-Zusammen mit Velocity, HTML und dem [[newPage]] Tag lassen sich komplexe Dokumente erstellen. Hier ein Beispiel:
-Rechnung mit vielen Positionen und ggf. mehreren Seiten, inkl Übertrag.
+Zusammen mit Velocity, HTML und dem \[\[newPage]] Tag lassen sich komplexe Dokumente erstellen. Hier ein Beispiel: Rechnung mit vielen Positionen und ggf. mehreren Seiten, inkl Übertrag.
+
 ```
 #set($positionenProSeite=10)
 #set($positionenProSeiteFolgeseiten=16)
@@ -246,23 +246,20 @@ Schriftgröße des Textes.
 
 * Speichert das Formularfeld und öffnet eine neues
 
-
-
-
 ## Vorlagen
 
 Hier einige Vorlagen zum so verwenden oder weiter anpassen. Sie können herunter geladen und als Formular importiert werden.
 
 Einfache Standardrechnung:
 
-{% file src="../../../../assets/320_rechnung-standard.xml" %}
+{% file src="../../../../.gitbook/assets/320_rechnung-standard.xml" %}
 Einfache Standardrechnung
 {% endfile %}
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_rechnung-standard.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_rechnung-standard.png)
 
 ## Beispiele
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularroh.jpg" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularroh.jpg)
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularausgefuellt.jpg" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Formularausgefuellt.jpg)

@@ -8,7 +8,7 @@ Anschließend sollte JVerein neu gestartet werden, damit der Menüpunkt "Spenden
 
 ### Allgemeines
 
-Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
+Mit JVerein können Spendenbescheinigungen ausgestellt und gespeichert werden. Vorbereitend können ein oder mehrere [Formulare](../../4.1/administration/mitglieder/formulare.md) für den individuellen Druck eingerichtet werden.
 
 JVerein unterstützt das Erstellen von Spendenbescheinigungen für:
 
@@ -42,8 +42,8 @@ Wird also z.B. ein Abrechnungslauf gemacht und die Mitglieder zahlen per Überwe
 Die Spendenbescheinigungen können erstellt werden
 
 * im Kontextmenü einer Buchung (neu ab Version 3.1.0)
-* in den Mitglied Details (siehe [Mitgliedskonto](content/mitgliedskonto.md))
-* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](content/mitglieder.md))
+* in den Mitglied Details (siehe [Mitgliedskonto](../../4.1/mitglieder/content/mitgliedskonto.md))
+* über das Kontextmenü eines Mitglieds (siehe [Mitglieder](../../4.1/mitglieder/content/mitglieder.md))
 * aber auch in der Liste der Spendenbescheinigungen
 
 Für Details zur Erstellung siehe weiter unten.
@@ -72,7 +72,7 @@ Möchte man also Spendenbescheinigungen per Mail verschicken geht das nur für e
 
 Mit der Option "Sachspende oder Geldspende mit Erstattungsverzicht" erhält man alle Spendenbescheinigungen für die keine Unterschrift gedruckt wird. Diese müssen ausgedruckt und per Hand unterschrieben werden.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_SpendenbescheinigungenListeView.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_SpendenbescheinigungenListeView.png)
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -100,7 +100,7 @@ Sind mehrere Einträge markiert, wird die Aktion auf alle markierten Einträge a
 
 Mit einem Klick auf Bearbeiten öffnet sich folgender Dialog:
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_SpendenbescheinigungView.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_SpendenbescheinigungView.png)
 
 Folgende Buttons stehen zu Verfügung:
 
@@ -114,30 +114,29 @@ Durch einen Rechtsklick auf eine Buchung öffnet sich ein Kontextmenü mit mehre
 
 ## Voraussetzungen für das Erstellen von Spendenbescheinigungen
 
-Um eine Spendenbescheinigung erstellen zu können muss  folgendes erfüllt sein:
+Um eine Spendenbescheinigung erstellen zu können muss folgendes erfüllt sein:
+
 * Es muss eine Buchung (Istbuchung) in einem Konto existieren
 * Die Buchungsart der Buchung muss vom Typ Spende sein. Siehe Administration->Buchführung->Buchungsart Checkbox Spende
-* Bei Aufwandsspenden, Vergütungsspenden (Rückspende) und Leistungsspenden muss die Checkbox "Erstattungsverzicht" in der Buchung selektiert werden.
+*   Bei Aufwandsspenden, Vergütungsspenden (Rückspende) und Leistungsspenden muss die Checkbox "Erstattungsverzicht" in der Buchung selektiert werden.
 
-    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Geldspende.png" alt="" /></picture>
+    ![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Geldspende.png)
+*   Bei Sachspenden müssen die betreffenden Felder in der Buchung ausgefüllt werden. JVerein erkennt Sachspenden daran, dass das Feld "Bezeichnung der Sachspende" nicht leer ist. Diese Option existiert seit der Version 3.2.0.
 
-* Bei Sachspenden müssen die betreffenden Felder in der Buchung ausgefüllt werden. JVerein erkennt Sachspenden daran, dass das Feld "Bezeichnung der Sachspende" nicht leer ist. Diese Option existiert seit der Version 3.2.0.
-
-    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_Sachspende.png" alt="" /></picture>
+    ![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_Sachspende.png)
 
 ## Spendenbescheinigungen manuell erstellen
 
 Eine Spendenbescheinigung kann manuell erzeugt werden:
 
-*   In der Liste der Buchungen:   
-Mit einem Klick auf eine Buchung mit der rechten Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall kann entweder ein Mitglied oder Nicht-Mitglied im Dialog als Spender ausgewählt werden oder auch nur die Adressdaten des Spenders eingegeben werden. Die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
+*   In der Liste der Buchungen:\
+    Mit einem Klick auf eine Buchung mit der rechten Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall kann entweder ein Mitglied oder Nicht-Mitglied im Dialog als Spender ausgewählt werden oder auch nur die Adressdaten des Spenders eingegeben werden. Die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
 
-    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_BuchungMenue.png" alt="" /></picture>
-    
-*   Im Mitglieds View unter dem Tab Mitgliedskonto:  
-Eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
+    ![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_BuchungMenue.png)
+*   Im Mitglieds View unter dem Tab Mitgliedskonto:\
+    Eine Istbuchung auswählen (Buchung mit Euro Symbol). Mit einem Klick auf die rechte Maustaste öffnet sich ein Kontextmenü um die Spendenbescheinigung zu erstellen. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen, die Buchung bestimmt den Betrag und das Spendendatum. Bei Sachspenden werden die entsprechenden Daten aus der Buchung übernommen.
 
-    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedskontoMenue.png" alt="" /></picture>
+    ![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedskontoMenue.png)
 
 ## Spendenbescheinigungen automatisch erstellen
 
@@ -156,22 +155,20 @@ Die Zuordnung einer Buchung zu einer Sollbuchung kann auf verschiedene Arten erz
 * Wird bei einem Abrechnungslauf bei Mitgliedern mit Lastschrift eine Sollbuchung erzeugt, wird automatisch auch eine Buchung erzeugt und diese der Sollbuchung zugeordnet.
 * Wird bei einem Abrechnungslauf bei Mitgliedern ohne Lastschrift eine Sollbuchung erzeugt muss die später erfolgte Buchung manuell der Sollbuchung zugeordnet werden. Siehe [Buchungen](../buchf/buchungen.md).
 * Wurde die Buchung ohne einen Abrechnungslauf erzeugt muss eine Sollbuchung erzeugt und die Buchung zugeordnet werden. Dies kann in einem Schritt erfolgen. Siehe zweite Option in [Buchungen](../buchf/buchungen.md).
-* Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen. Für das Erstellen einer Sollbuchung siehe [Mitgliedskonto](content/mitgliedskonto.md) oder [Sollbuchungen](mitgliedskonto.md).
-
+* Alternativ besteht natürlich die Möglichkeit manuell eine Sollbuchung zu erzeugen und ihr später die Buchung zuzuordnen. Für das Erstellen einer Sollbuchung siehe [Mitgliedskonto](../../4.1/mitglieder/content/mitgliedskonto.md) oder [Sollbuchungen](../../4.1/mitglieder/mitgliedskonto.md).
 
 ### Spendenbescheinigung automatisch erstellen
 
 Spendenbescheinigungen können automatisch auf mehrere Arten erzeugt werden:
 
-*   In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Spendenbescheinigung auswählen. Es werden alle spendenberechtigte Buchungen gesucht bei denen das Mitglied als Zahler in der zugeordneten Sollbuchung eingetragen ist und für die noch keine Spendenbescheinigungen erstellt wurden. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen. Bei mehreren Geldspenden wird eine Sammelbestätigung generiert. In diesem Fall bestimmt die erste Buchung das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen. Bei Sachspenden wird für jede Buchung eine eigene Spendenbescheinigung generiert.  
-Falls genau eine Bescheinigung generiert wird, wird diese geöffnet und angezeigt. Sie muss dann explizit gespeichert werden.
+*   In der Liste der Mitglieder kann man mit einem Klick auf die rechte Maustaste ein Kontextmenü öffnen. Darin den Menüpunkt Spendenbescheinigung auswählen. Es werden alle spendenberechtigte Buchungen gesucht bei denen das Mitglied als Zahler in der zugeordneten Sollbuchung eingetragen ist und für die noch keine Spendenbescheinigungen erstellt wurden. In diesem Fall werden die Mitgliedsdaten komplett in die Spendenbescheinigung übernommen. Bei mehreren Geldspenden wird eine Sammelbestätigung generiert. In diesem Fall bestimmt die erste Buchung das Spendendatum, der Betrag ist die Summe der Beträge aller Buchungen. Bei Sachspenden wird für jede Buchung eine eigene Spendenbescheinigung generiert.\
+    Falls genau eine Bescheinigung generiert wird, wird diese geöffnet und angezeigt. Sie muss dann explizit gespeichert werden.
 
-    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedMenu.png" alt="" /></picture>
+    ![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedMenu.png)
+*   In der Übersicht über Spendenbescheinigungen können über den Button "Neu (Automatisch)" Geldspendenbescheinigungen generiert werden.\
+    Nach Drücken des Buttons erscheint folgende Anzeige:
 
-*   In der Übersicht über Spendenbescheinigungen können über den Button "Neu (Automatisch)" Geldspendenbescheinigungen generiert werden.  
-Nach Drücken des Buttons erscheint folgende Anzeige:
-
-    <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_SpendenbescheinigungAutoView.png" alt="" /></picture>
+    ![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_SpendenbescheinigungAutoView.png)
 
 In der Übersicht werden zunächst alle Namen und Buchungen angezeigt, die schließlich als Spendenbescheinigung angelegt werden. Der Typ der Spendenbescheinigungen (Einzel / Sammel) macht sich an der Anzahl Buchungen fest, die erfasst wurden.
 
@@ -183,7 +180,7 @@ Es werden alle spendenberechtigte Buchungen im ausgewählten Jahr gesucht denen 
 
 ### Formulare
 
-Vorlagen von [Formularen](../administration/mitglieder/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden (siehe auch Formularfelder).
+Vorlagen von [Formularen](../../4.1/administration/mitglieder/formulare.md) können auch mehrere Seiten umfassen. Formularfelder können auch auf anderen Seiten als der ersten platziert werden (siehe auch Formularfelder).
 
 ### Formularfelder
 
@@ -201,4 +198,4 @@ Für eine korrekte Formatierung sollte eine Schriftart mit fester Zeichenbreite 
 
 ### Einstellungen
 
-Mögliche Einstellungen zu Spendenbescheinigungen siehe [Einstellungen](../administration/einstellungen/spendenbescheinigungen.md).
+Mögliche Einstellungen zu Spendenbescheinigungen siehe [Einstellungen](../../4.1/administration/einstellungen/spendenbescheinigungen.md).

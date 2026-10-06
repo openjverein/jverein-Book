@@ -4,8 +4,6 @@
 
 Im View Spendenbescheinigungen werden bereits erstellte Spendenbescheinigungen angezeigt.
 
-![](<../../../assets/300_SpendenbescheinigungenListeView (1).png>)
-
 JVerein wird also eine gedruckte Unterschrift nur bei reinen Geldspenden generieren falls gedruckte Unterschrift aktiviert ist.
 
 Möchte man also Spendenbescheinigungen per Mail verschicken geht das nur für echte Geldspenden. Dafür ist der Filter für Spendenart auf "Geldspende ohne Erstattungsverzicht" zu setzen. In diesem Fall erhält man alle echten Geldspenden für die auch eine Unterschrift generiert wurde.
@@ -20,7 +18,7 @@ In der Liste können ein oder mehrere Einträge markiert werden. Über ein Konte
 
 Über den Menüpunkt "Druck und Mail" öffnet sich der Dialog Spendenbescheinigungen der Sie beim Versenden der Spendenbescheinigungen unterstützt.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_SpendenbescheinigungenDruckMailView1.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/300_SpendenbescheinigungenDruckMailView1.png)
 
 Im Info Feld erfolgt eine Information über die Anzahl der ausgewählten Spendenbescheinigungen ausgegeben.
 
@@ -50,4 +48,4 @@ Mit der Option Adressblatt lässt sich auswählen, ob eine zusätzliche Seite an
 
 Es werden hier alle Spendenbescheinigungen gedruckt bzw. versendet die die Filterkriterien erfüllen. Eine individuelle Auswahl aus den gefilterten Einträgen ist hier nicht möglich.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/300_SpendenbescheinigungenDruckMailView2.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/300_SpendenbescheinigungenDruckMailView2.png)

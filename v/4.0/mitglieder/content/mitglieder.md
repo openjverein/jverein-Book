@@ -28,10 +28,9 @@ Im Erweitert Tab Mitgliedskonto:
 * Differenz Limit (Filter nach Fehlbetrag oder Überzahlung größer als das Limit)
 * Datum von/bis (Datumsbereich für die Sollbuchungen die betrachtet werden)
 
-
 Jeweils beim Verlassen eines Feldes mit pull down Menüs wird die Suche ausgelöst. Änderungen in Eingabefeldern für Text oder Datum lösen erst eine Suche aus wenn der Suchen Button gedrückt wird oder alternativ durch drücken des Enter auf der Tastatur.
 
-Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](../spendenbescheinigung.md) möglich.
+Nach einem Doppelklick auf das Mitglied werden die kompletten Daten angezeigt. Mit einem Rechtsklick auf ein Mitglied öffnet sich ein Kontextmenü. Damit kann das Mitglied bearbeitet oder gelöscht werden. Außerdem ist die Ausstellung einer [Spendenbescheinigung](/broken/pages/iqa8OFMIwHoNf9VOwtrn) möglich.
 
 Die Filterkriterien können für eine spätere Verwendung in einem [Suchprofil](suchprofil.md) gespeichert werden.
 
@@ -39,13 +38,13 @@ Mit dem Reset Button können die Filter Felder auf Defaultwerte zurückgesetzt w
 
 ## Liste der Mitglieder
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedListeView.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedListeView.png)
 
 Erweiterte Filter:
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedListeView2.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedListeView2.png)
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedListeView3.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedListeView3.png)
 
 Mit dem Button "Neu" lässt sich ein neues Mitglied anlegen. Siehe [Stammdaten](grunddaten.md)
 
@@ -77,17 +76,17 @@ Bedeutung des Symbols bei der Eigenschaften Gruppe:
 * "I": Bei der Eigenschaften Gruppe ist die Maximal 1 Eigenschaft Checkbox ausgewählt.
 * "PI": Bei der Eigenschaften Gruppe ist die Pflicht und die Maximal 1 Eigenschaft Checkbox ausgewählt.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_EigenschaftenFilterDialog.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_EigenschaftenFilterDialog.png)
 
 ### Filterung nach Zusatzfeldern
 
 Soll nach Zusatzfelder gefiltert werden, kommt es auf den Datentyp des jeweiligen Zusatzfeldes an. Bei einem Ja/Nein Feld kann nur nach Ja-Einträgen gefiltert werden. Bei einem Textfeld gelten zur Filterung die SQL-Regeln für einen Textvergleich: Hier können die Wildcards % (0...n beliebige Zeichen) und \_ (genau 1 beliebiges Zeichen) eingesetzt werden. Durch die Verwendung der Kombination \_% kann man nach allen nicht leeren Textfeldern filtern.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ZusatzfelderFilterDialog.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_ZusatzfelderFilterDialog.png)
 
 ## Kontextmenu
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedMenu.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_MitgliedMenu.png)
 
 ### Bearbeiten
 
@@ -115,19 +114,19 @@ Die Icons haben fünf Zustände:
 * Plus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gesetzt.
 * Minus Zeichen: Die Eigenschaft wird nach OK bei allen selektierten Mitgliedern gelöscht.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_EigenschaftenAuswahlDialog.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_EigenschaftenAuswahlDialog.png)
 
 ### Arbeitseinsatz zuordnen
 
 Für alle markierten Mitglieder werden Arbeitseinsätze erzeugt.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_ArbeitseinsatzDialog.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/320_ArbeitseinsatzDialog.png)
 
 ### Zusatzbetrag zuordnen
 
 Für alle markierten Mitglieder werden Zusatzbeiträge erzeugt.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/400_ZusatzbetragDialog.png" alt="" /></picture>
+![](https://github.com/openjverein/jverein-Book/raw/master/assets/400_ZusatzbetragDialog.png)
 
 ### Zu Nicht-Mitglied umwandeln
 
@@ -167,4 +166,4 @@ Generierung einer manuellen Lastschrift in Hibiscus.
 
 ## Freie Formulare
 
-Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wir ein Untermenü mit allen Freien Formularen angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die Ausgwählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../druckmail/freiesformular.md)
+Wenn unter Administration->Mitglieder->Formulare mindestens ein Forular vom Typ "Freies Formular" angelegt wurde, so wir ein Untermenü mit allen Freien Formularen angezeigt. Beim Auswählen eine Eintrags kann dieses Formular an die Ausgwählten Mitglieder Verschickt/Gedruckt werden siehe [Freie Formulare](../../../4.1/druckmail/freiesformular.md)
