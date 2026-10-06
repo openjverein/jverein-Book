@@ -14,4 +14,4 @@ In diesem Benutzerhandbuch werden folgende Themen beschrieben:
 
 ### Hinweise
 
-Dieses Handbuch steht unter [GPL V3](sonstiges/lizenzen/gpl-v3.md).
+Dieses Handbuch steht unter [GPL V3](/broken/pages/0DyHrtAI8AwZvq2qhygG).

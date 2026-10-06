@@ -1,2 +1,0 @@
-# Mozilla Public License
-
