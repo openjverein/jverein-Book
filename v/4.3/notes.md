@@ -107,7 +107,7 @@ Wird in einer Tabelle ein Text nicht vollständig angezeigt weil er länger ist 
 
 ### Spaltenauswahl über Menü
 
-Klickt man mit der rechten Maustaste auf die Kopfzeile in einer Tabelle, dann wird die Spaltenauswahl Liste angezeigt. Es kann dann direkt eine Spalte aktiviert oder deaktiviert werden. Das funktioniert zumindest unter Linux.
+Klickt man mit der rechten Maustaste auf die Kopfzeile in einer Tabelle, dann wird die Spaltenauswahl Liste angezeigt. Es kann dann direkt eine Spalte aktiviert oder deaktiviert werden.
 
 ### Zugeordnete Buchungen im Abrechnungslauf
 
