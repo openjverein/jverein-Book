@@ -23,6 +23,17 @@ Buttons:
 * Speichern: Übernimmt die Auswahl in die Tabelle
 * Abbrechen: Beendet den Dialog
 
+### Profile
+
+Für die CSV/PDF Export Dialoge lassen sich Profile erstellen.
+
+Buttons:
+* Neu: Erzeugt ein neues Profil mit den aktuellen Einstellungen des Dialogs
+* Speichern: Überschreibt das ausgewählte Profil mit den aktuellen Einstellungen des Dialogs
+* Löschen: Löscht das ausgewählte Profil 
+* Anwenden: Setzt die im Profil gespeicherten Daten im Dialog
+
+
 ### CSV Export Dialog
 
 Die im Dialog ausgewählten Spalten lassen sich als CSV exportieren.
