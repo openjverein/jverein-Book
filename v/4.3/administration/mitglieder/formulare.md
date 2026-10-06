@@ -116,7 +116,96 @@ Bei den Formularfelder Buttons klickt Ihr auf "Neu", um das erste einzufügende 
 
 ### Name
 
-Unter "Name" könnt Ihr nun Text gemischt mit Variablen eingeben.
+Unter "Name" könnt Ihr nun Text gemischt mit Variablen eingeben. Der Inhalt wird mit Velocity geparst, es können also auch alle Velocity Befehle verwendet werden (#if #else, #for etc.) Siehe auch [Velocity](https://velocity.apache.org/engine/1.7/user-guide.html) 
+
+Außerdem ist es in Formularfeldern möglich, HTML zu verwenden. So können auch komplexe Tabellen, Listen etc. mit unterschiedlichen Formatierungen in einem Feld erstellt werden. Es sind die meisten HTML Tags sowie Css-Styles möglich. (Das HTML wird mit iText XMLWorker geparst). Das Einbinden externer Resourcen (Bilder, css) ist aus Sicherheitsgründen nicht möglich.
+
+Es ist möglich, den Inhalt eines Feldes über mehrere Seiten verteilt auszugeben. Dafür ist das Feld [[newPage]] nötig. Dort wo dieses Feld ist, wird eine neue Seite erstellt (mit der gleichen Seite wie die Ursprungsseite als Vorlage), und der Folgende Text dort auf der gleichen Position ausgegeben. Bei der Nutzung von HTML zusammen mit [[newPage]] ist darauf zu achten, dass alle Tags vor [[newPage]] geschlossen sind. Es wird als komplett neues HTML geparst.
+
+Zusammen mit Velocity, HTML und dem [[newPage]] Tag lassen sich komplexe Dokumente erstellen. Hier ein Beispiel:
+Rechnung mit vielen Positionen und ggf. mehreren Seiten, inkl Übertrag.
+```
+#set($positionenProSeite=10)
+#set($positionenProSeiteFolgeseiten=16)
+#set($tageZahlungsziel=14)
+#set($versatzErsteSeite=100)
+#macro(kopf $first)
+<html>
+<head>
+    <style>
+        table{border-spacing:0px; }
+        td,th{padding:1px;vertical-align:top;}
+        th{border-bottom:1px solid black;}
+	tr.sum td{border-top:1px solid black;}
+	.betrag{text-align:right;}
+    </style>
+</head>
+#if($first)
+<div style="height:${versatzErsteSeite}mm"></div>
+#else
+#set($positionenProSeite=$positionenProSeiteFolgeseiten)
+<p><small>Rechnung: $rechnung_nummer vom $rechnung_datum | $rechnung_vorname $rechnung_name</small></p>
+#end
+<body>
+    <table>
+        <tr><th width="80">Datum</th><th width="350">Bezeichnung</th><th width="60" class="betrag">Betrag</th></tr>
+#end
+
+#macro(fuss $last)
+    </table>
+#if($last)
+    #set($date = $dateformat.parse($rechnung_datum))
+    #set($time = $date.getTime() + 1000*60*60*24*$tageZahlungsziel)
+    $date.setTime($time)
+    <p>Bitte überweisen Sie den Betrag bis zum $dateformat.format($date) auf das angegebene Konto.</p>
+    <p><br /><br />Mit freundlichen Grüßen</p>
+#end
+<table><tr><td style="height:100%;vertical-align:bottom;padding-bottom:10mm;padding-left:2px;">
+<table><tr><td width="350">
+<pre>$verein_name
+$verein_strasse
+$verein_plz $verein_ort</pre>
+</td><td width="300">
+<pre>$verein_bank_name
+IBAN: $verein_iban
+BIC: $verein_bic
+Steuernummer: $verein_steuer_nr</pre></td></tr></table>
+</td></tr></table>
+</body>
+</html>
+#end
+
+#set($daten=$rechnung_buchungsdatum.split("\n"))
+#set($betraege=$rechnung_betrag.split("\n"))
+#set($texte=$rechnung_zahlungsgrund.split("\n"))
+#set($n=0)
+#set($uebertrag=0.0)
+
+#kopf(true)
+#foreach($zeile in $texte)
+    #set($i=-1+$foreach.count)
+    #set($n=1+$n)
+    #if($n>$positionenProSeite && $texte.size()>1+$foreach.count)
+        <tr class="sum"><td></td><td></td><td>Übertrag</td><td></td><td></td><td class="betrag">$decimalformat.format($uebertrag)</td></tr>
+        #fuss(false)[[newPage]]#kopf(false)
+        <tr><td></td><td></td><td>Übertrag</td><td></td><td></td><td  class="betrag">$decimalformat.format($uebertrag)</td></tr>
+        #set($n=1)
+    #end
+    <tr #if($texte.size()==$foreach.count)class="sum"#{end}>
+        <td>#if($daten.size()>$i)$daten[$i]#{end}</td>
+        <td>$zeile</td>
+        <td class="betrag">
+            #set($betrag=$betraege[$i])
+            #if($betrag.length()>0)
+		$betrag
+                #if($betrag.contains(","))#set($betrag=$betrag.replace(".","").replace(",","."))#end
+                #set($uebertrag=$uebertrag + $uebertrag.parseDouble($betrag))
+            #end
+        </td>
+    </tr>
+#end
+#fuss(true)
+```
 
 ### Seite
 
