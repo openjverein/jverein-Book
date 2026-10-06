@@ -2,6 +2,8 @@
 
 JVerein steht unter der GPL V3:
 
+Alle aktuell in JVerein genutzten Komponeten inkl. Lizenz können im Menü über OpenJVerein->Lizensinformationen aufgerufen werden.
+
 ```text
                     GNU GENERAL PUBLIC LICENSE
 ```
