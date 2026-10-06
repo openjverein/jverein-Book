@@ -18,7 +18,7 @@ Beim Spaltenauswahl Dialog erfolgt eine Dialogabfrage in dem man die anzuzeigend
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_SpaltenauswahlDialog.png" alt="" /></picture>
 
 Buttons:
-* Help: Zeigt diese Hilfe an
+* Hilfe: Zeigt diese Hilfe an
 * Reset: Setzt die selektierten Spalten auf Defaultwerte zurück
 * Speichern: Übernimmt die Auswahl in die Tabelle
 * Abbrechen: Beendet den Dialog
@@ -43,7 +43,7 @@ Die im Dialog ausgewählten Spalten lassen sich als CSV exportieren.
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_TabelleExportDialogCSV.png" alt="" /></picture>
 
 Buttons:
-* Help: Zeigt diese Hilfe an
+* Hilfe: Zeigt diese Hilfe an
 * Reset: Setzt die selektierten Spalten auf Defaultwerte zurück
 * Starten: Startet den Export der Daten
 * Abbrechen: Beendet den Dialog
@@ -55,7 +55,7 @@ PS: Die Spaltenreihenfolge lässt sich durch Umsortieren (Drag & Drop) mit der M
 Die im Dialog ausgewählten Spalten lassen sich als PDF exportieren.
 
 Allgemeine Buttons:
-* Help: Zeigt diese Hilfe an
+* Hilfe: Zeigt diese Hilfe an
 * Starten: Startet den Export der Daten
 * Abbrechen: Beendet den Dialog
 

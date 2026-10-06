@@ -55,6 +55,8 @@ Felder mit anderem Namen werden ignoriert
 
 Ab Version 4.1 lassen sich auch Zugehörigkeit zu einem Familienverband und abweichende Zahler importieren. Der entsprechende Vollzahler bzw. Abweichende Zahler muss allerdings schon in JVerein existieren.
 
+Ab Version 4.3 lässt sich ein Familienverband auch mit einem einmaligen Import durchführen. Voraussetzung ist, dass Externe Mitgliedsnummer aktiv ist.
+
 Die entsprechenden Attribute sind:
 * zahlerid Id des Vollzahlenden Mitglieds
 * externezahlerid Externe Mitgliedsnummer des Vollzahlenden Mitglieds (nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist, nicht zusammen mit zahlerid)
@@ -62,7 +64,4 @@ Die entsprechenden Attribute sind:
 
 Mit externezahlerid kann ein Familienverband in einem einzigen Import angelegt werden. Der Vollzahler kann in derselben Datei stehen, die Reihenfolge der Zeilen spielt keine Rolle. Zeilen mit externezahlerid werden nach allen anderen Zeilen verarbeitet.
 
-Bei neuen Vollzahlern bzw. Abweichende Zahlern ist also erst ein Import durchzuführen bei dem nur die Mitglieder importiert werden. In einem zweiten Import kann dann die Mitglieder nochmals importiert werden, die einem Vollzahler zugewiesen werden sollen bzw. bei denen ein abweichender Zahler gesetzt werden soll.
-
-Ab Version 4.3 lässt sich ein Familienverband auch mit einem einmaligen Import durchführen. Voraussetzung ist, dass Externe Mitgliedsnummer aktiv ist. Über das neue Attribut externezahlerid lässt sich das Mitglied welches diese externe Mitgliedsnummer besitzt referenzieren.
-
+Im Falle eines  Abweichenden Zahlers bzw. wenn Externe Mitgliedsnummer nicht aktiv ist, auch bei Vollzahler, ist erst ein Import durchzuführen bei dem nur die Mitglieder importiert werden. In einem zweiten Import kann dann die Mitglieder nochmals importiert werden, die einem Vollzahler zugewiesen werden sollen bzw. bei denen ein abweichender Zahler gesetzt werden soll.
