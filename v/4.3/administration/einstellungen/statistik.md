@@ -13,5 +13,3 @@ Es kann eine Liste der Altersjubilare ausgegeben werden. Ohne Eingabe werden die
 Ab Version 2.5 gibt es das Feld Mindestalter für Mitgliedschaftsjubiläum
 
 Geben Sie hier eine Zahl ein, dann werden Mitgliedsjahre, die vor diesem Alter liegen beim Errechnen eines Mitglieds-Jubiläums nicht mit gerechnet.
-
-Für weitere technische Details siehe: [Für Entwickler](../../../../sonstiges/fur-entwickler.md)
