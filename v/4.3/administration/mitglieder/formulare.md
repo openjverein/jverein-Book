@@ -68,13 +68,13 @@ Bitte in der Textverarbeitungssoftware KEIN FORMULAR erstellen - nur einfach ein
 
 Nun muss aus dem Dokument noch ein PDF gemacht werden. Das geht mit einem virtuellen PDF-Drucker (z.B. FreePDF XP oder PDFCreator) oder mit Adobe Acrobat (nicht mit dem Reader, der kann halt nur lesen :-) ) oder einfach in Open-/LibreOffice mit dem PDF-Export. Das fertige PDF (mit den weißen/leeren Stellen für die späteren Daten aus jVerein) hat keinerlei Funktionen eingebaut (keine Formularfelder, nur weiße/leere Stellen im Text an der richtigen Stelle).
 
-Dann erstellt man in JVerein unter "Administration->Formulare" ein neues Formular. Dazu unten auf "neu" gehen, Bezeichnung und Art auswählen ("Art" gibt an, wann und wo dieses Formular in JVerein verfügbar sein wird).
+Dann erstellt man in JVerein unter "Administration->Mitglieder->Formulare" ein neues Formular. Dazu unten auf "neu" gehen, Bezeichnung und Art auswählen ("Art" gibt an, wann und wo dieses Formular in JVerein verfügbar sein wird).
 
 Nun noch die gerade erstellte PDF-Datei auswählen und auf "speichern" klicken.
 
 ### Fortlaufende Nummer
 
-Fortlaufende Nummer z.B. bei Rechnungen. Über das Feld lässt sich die Nummer zurücksetzen.
+Fortlaufende Nummer z.B. bei Rechnungen. Über das Feld lässt sich die Nummer zurücksetzen. Diese Nummer kann als Variable eingebaute werden $zaehler. Dieser Zähler wir bei JEDEM erstellen des eines Dokuments hochgezählt. Also auch, wenn das selbe Dokument mehrmals erstellt wird!
 
 ### Formularverknüpfung
 
