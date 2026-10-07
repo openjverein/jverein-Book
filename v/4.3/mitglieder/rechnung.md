@@ -41,7 +41,6 @@ Durch einen Doppelklick auf die Rechnung wird die Rechnung angezeigt.
 Durch einen Rechtsklick auf eine Rechnung öffnet sich ein Kontextmenü mit mehreren Optionen:
 
 * Bearbeiten: Zeigt die Rechnung an
-* Versanddatum setzen: Setzen bzw. Löschen des Versanddatum
 * Löschen: Löschen der selektierten Rechnungen
 * Mitglied anzeigen: Öffnet das Mitglied zur Rechnung
 * Referenzrechnung anzeigen: Falls die aktuelle Rechnung eine Gutschrift ist, wird hier zur Rechnung gewechselt welche gut geschrieben wird
