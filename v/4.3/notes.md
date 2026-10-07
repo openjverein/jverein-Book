@@ -12,19 +12,19 @@ Beim PDF Export der Tabellen über die Buttons im oberen Panel wurde ein weitere
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_TabelleExportDialogSchriftart.png" alt="" /></picture>
 
-Für die Tabellen Header Zeile und den Tabelleninhalt lässt sich jeweils die Schriftart, Schriftgröße und Hintergrundfarbe (für spezielle Zellen) einstellen. Weiter kann festgelegt werden ob negative Zahlen in roter Farbe ausgegeben werden.
+Für die Tabellen Header Zeile und den Tabelleninhalt lässt sich jeweils die Schriftart, Schriftgröße und Hintergrundfarbe (für spezielle Zellen) einstellen. Weiter kann festgelegt werden ob negative Zahlen in roter Farbe ausgegeben werden. [Allgemeines](allgemeines.md)
 
 ### Export Profile
 
-Für den CSV und PDF Tabellen Export über die Buttons im oberen Panel Buttons wurden Profile implementiert. Dialog Einstellungen lassen sich in Profilen speichern und später wieder anwenden.
+Für den CSV und PDF Tabellen Export über die Buttons im oberen Panel Buttons wurden Profile implementiert. Dialog Einstellungen lassen sich in Profilen speichern und später wieder anwenden. [Allgemeines](allgemeines.md)
 
 ### Konfigurierbarkeit von PDF Reports
 
-Für Saldenreports, PDF Reports die über die Export Buttons generiert werden, sowie für Kontoauszug und Personalbogen lässt sich der Report in ähnlicher Weise konfigurieren wie die Tabellenausgabe über die Panel Buttons. Es ist der gleiche Dialog verfügbar allerdings ohne die Spaltenauswahl.
+Für Saldenreports, PDF Reports die über die Export Buttons generiert werden, sowie für Kontoauszug und Personalbogen lässt sich der Report in ähnlicher Weise konfigurieren wie die Tabellenausgabe über die Panel Buttons. Es ist der gleiche Dialog verfügbar allerdings ohne die Spaltenauswahl. [Allgemeines](allgemeines.md)
 
 ### Konfigurierbare Rechnungsnummer
 
-Das Format der Rechnungsnummer lässt sich nun unter Administration->Einstellungen->Rechnungen festlegen. Für die Nummer werden Variablen unterstützt.
+Das Format der Rechnungsnummer lässt sich nun unter Administration->Einstellungen->Rechnungen festlegen. Für die Nummer werden Variablen unterstützt. [Rechnungen](administration/einstellungen/rechnungen.md)
 
 ### Buchungsreport
 
@@ -34,22 +34,19 @@ Das Format der Rechnungsnummer lässt sich nun unter Administration->Einstellung
 
 Einige Buttons sind jetzt mit Tastaturkürzel hinterlegt. Dies sind:
 * Löschen: Entf
-* Speichern: Ctrl+S
-* Speichern und Neu: Ctrl+Alt+S
-* Vor: Ctrl+->
-* Zurück: Ctrl+<-
+* Speichern: Ctrl + S
+* Speichern und Neu: Ctrl + Alt + S
+* Vor: Ctrl + Pfeil-Links
+* Zurück: Ctrl + Pfeil-Rechts
 * Hilfe: F1
-* Neu: Ctrl +N
-* PDF: Ctrl+P
-* VerlassenDialog: Ohne Speichern Verlassen: Ctrl+SHIFT+W
-* Neues Mitglied: Alt+M
-* Neue Buchung: Alt+B
-* Neuer Abrechungslauf: Alt+A
+* Neu: Ctrl + N
+* PDF: Ctrl + P
+* View ohne Speichern verlassen Dialog: Ohne Speichern Verlassen: Ctrl + SHIFT + W
+* Neues Mitglied: Alt + M
+* Neue Buchung: Alt + B
+* Neuer Abrechnungslauf: Alt + A
 
-Zusätzlich gibt es im OpenJVerein folgende neue Einträge:
-* Neues Mitglied: Alt+M
-* Neue Buchung: Alt+B
-* Neuer Abrechungslauf: Alt+A
+[Allgemeines](allgemeines.md)
 
 ### Filter Profile
 
@@ -62,7 +59,7 @@ Die Funktionalität wurde wie folgt geändert:
 
 ### HTML Unterstützung in Formularfeldern
 
-Text in Formularfeldern lässt sich mit HTML Tags formatieren. Hier sind auch mehrseitige Ausgaben möglich.
+Text in Formularfeldern lässt sich mit HTML Tags formatieren. Hier sind auch mehrseitige Ausgaben möglich. [Formulare](administration/mitglieder/formulare.md)
 
 ## Kleinere Korrekturen, Erweiterungen oder Modifikationen
 
