@@ -58,17 +58,17 @@ Folgende Menü Einträge sind vorhanden:
 * Spendenbescheinigung anzeigen: Zeigt die Spendenbescheinigung für die Buchung an, falls eine für die Buchung existiert. Diese Option ist nur verfügbar wenn "Spendenbescheinigungen" in den Einstellungen aktiviert ist
 * Spendenbescheinigung erstellen: Erstellt eine Spendenbescheinigung für die Buchung. Diese Option ist nur verfügbar wenn "Spendenbescheinigungen" in den Einstellungen aktiviert ist
 * Neues Anlagenkonto: Für die selektierte Buchung wird ein Anlagenkonto erzeugt. Diese Option ist nur verfügbar wenn "Anlagenkonten" in den Einstellungen aktiviert ist
-* Buchungsart zuordnen: Es öffnet ein Dialog zur Zuordnung einer Buchungsart
-* Sollbuchung zuordnen: Es öffnet ein Dialog zur Zuordnung einer Sollbuchung (siehe unten)
-* Projekt zuordnen: Es öffnet ein Dialog zur Zuordnung eine Projekts. Diese Option ist nur verfügbar wenn "Projekte" in den Einstellungen aktiviert ist
-* Kontoauszug zuordnen: Es öffnet ein Dialog zur Zuordnung eines Kontoauszugs
+* Buchungsart zuordnen: Es öffnet sich ein Dialog zur Zuordnung einer Buchungsart
+* Sollbuchung zuordnen: Es öffnet sich ein Dialog zur Zuordnung einer Sollbuchung (siehe unten)
+* Projekt zuordnen: Es öffnet sich ein Dialog zur Zuordnung eine Projekts. Diese Option ist nur verfügbar wenn "Projekte" in den Einstellungen aktiviert ist
+* Kontoauszug zuordnen: Es öffnet sich ein Dialog zur Zuordnung eines Kontoauszugs
 * Buchungsreport: Erzeugt ein Dokument mit Hilfe eines auswählbaren Formulars, z.B. Ersatzbeleg
 
 Buchungen können nur neu aufgenommen, geändert oder gelöscht werden, wenn sie nicht durch einen [Jahresabschluss](jahresabschluss.md) abgeschlossen wurden.
 
 ## Buchung
 
-Durch einen Klick auf auf den Button "Neu" kann eine neue Buchung erstellt werden.
+Durch einen Klick auf den Button "Neu" kann eine neue Buchung erstellt werden.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_BuchungDialog.png" alt="" /></picture>
 
@@ -81,7 +81,7 @@ Falls Dokumentspeicherung aktiviert ist, wird eine Liste angezeigt mit der sich 
 
 ## Zuordnung einer Buchung zu einer Sollbuchung
 
-Durch einen Klick auf auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
+Durch einen Klick auf den Menüeintrag "Sollbuchung zuordnen" öffnet sich folgender Dialog:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/320_SollbuchungZuordnungIst.png" alt="" /></picture>
 
