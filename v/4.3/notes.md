@@ -36,8 +36,8 @@ Einige Buttons sind jetzt mit Tastaturkürzel hinterlegt. Dies sind:
 * Löschen: Entf
 * Speichern: Ctrl + S
 * Speichern und Neu: Ctrl + Alt + S
-* Vor: Ctrl + Pfeil-Links
-* Zurück: Ctrl + Pfeil-Rechts
+* Vor: Ctrl + Pfeil-Rechts
+* Zurück: Ctrl + Pfeil-Links
 * Hilfe: F1
 * Neu: Ctrl + N
 * PDF: Ctrl + P
