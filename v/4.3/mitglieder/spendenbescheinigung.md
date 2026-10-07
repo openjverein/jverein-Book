@@ -84,7 +84,6 @@ In der Liste können ein oder mehrere Einträge markiert werden.
 Das Kontextmenü bietet folgende Optionen:
 
 * Bearbeiten: Der ausgewählte Eintrag wird zum Bearbeiten geöffnet
-* Versanddatum setzen: Setzen bzw. Löschen des Versanddatum
 * Löschen: Damit kann eine Spendenbescheinigung(en) gelöscht werden
 * Mitglied anzeigen: Öffnet das Mitglied zur Spendenbescheinigung
 * Druck und Mail: Spendenbescheinigungen über den Druck und Mail Dialog drucken oder per Mail verschicken. Eine Beschreibung zum Drucken und Verschicken siehe [Spendenbescheinigungen](../druckmail/spendenbescheinigungen.md)
