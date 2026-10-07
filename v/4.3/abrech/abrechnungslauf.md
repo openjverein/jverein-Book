@@ -22,7 +22,7 @@ Auch ein Doppelklick auf den Abrechnungslauf Eintrag zeigt den Abrechnungslauf a
 
 Über den "Neu" Button können neue Abrechnungsläufe erzeugt werden (siehe [Abrechnung](abrechnung.md)).
 
-Ein Abrechnungslauf kann abgeschlossen werden und ist damit vor versehentlichem Löschen geschützt. Damit diese Funktion genutzt werden kann, muss sie unter Einstellungen->Abrechnung aktiviert werden. Ein einmal abgeschlossener Lauf kann nicht wieder geöffnet werden!
+Ein Abrechnungslauf kann abgeschlossen werden und ist damit vor versehentlichem Löschen geschützt. Alle durch den Abrechnungslauf erstellten Buchungen, Sollbuchungen und Lastschriften können dann ebenfalls nicht mehr gelöscht werden. Damit diese Funktion genutzt werden kann, muss sie unter Einstellungen->Abrechnung aktiviert werden.
 
 ## Abrechnungslauf anzeigen
 
