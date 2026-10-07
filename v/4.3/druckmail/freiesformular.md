@@ -13,7 +13,7 @@ Im Info Feld wird angezeigt wie viele Mitglieder selektiert wurden und welche ke
 
 Im Parameter Feld gibt es folgende Optionen:
 * Formular: Im Parameter Feld "Formular" ist ein freies Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
-* Ausgabe: Es lässt sich wählen ob die Rechnungen als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
+* Ausgabe: Es lässt sich wählen ob das Dokument als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
 
 Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
 
@@ -39,7 +39,7 @@ Im Filter Bereich lässt sich einstellen für welche Mitglieder bzw. Nicht-Mitgl
 
 Im Parameter Feld gibt es folgende Optionen:
 * Formular: Im Parameter Feld "Formular" ist ein freies Formular auszuwählen. Dieses muss gegebenenfalls erstellt werden. Siehe [Formulare](../administration/mitglieder/formulare.md)
-* Ausgabe: Es lässt sich wählen ob die Rechnungen als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
+* Ausgabe: Es lässt sich wählen ob das Dokument als PDF (eine Datei oder einzelne Dateien) gedruckt oder per Mail verschickt werden sollen
 
 
 Im Falle des Mail Versand sind die Felder Betreff und Text auszufüllen.
