@@ -241,7 +241,7 @@ TT.MM.JJ\
 TT/MM/JJJJ\
 TT/MM/JJJJ
 
-JJ funktioniert für alle Mitglieder jünger 100.Ffür ältere Menschen muss es angepasst werden. Eine Warnung wird ausgegeben.
+JJ funktioniert für alle Mitglieder jünger 100.Für ältere Menschen muss es angepasst werden. Eine Warnung wird ausgegeben.
 
 **Max. Länge:**\
 10
