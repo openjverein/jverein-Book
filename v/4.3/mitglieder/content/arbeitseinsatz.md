@@ -5,7 +5,7 @@ Zur Nutzung der Arbeitseinsätze ist die Option unter Administration->Einstellun
 
 ## Allgemeines
 
-In den Einstellungen von JVerein auf der Ansicht Beiträge können Sie ab der Version 2.5 ein Arbeitsstunden Modell ändern und negative Stunden erlaubt einstellen.
+In den Einstellungen->Beiträge kann das Arbeitsstunden Modell geändert, und negative Stunden erlaubt werden.
 
 Danach kann hier beim Erfassen von Arbeitsstunden im Feld Stunden auch ein negativer Wert eingetragen und damit die Sollstunden des Mitglieds erhöht werden. Damit kann man Dienstleistungen des Vereins, die mit Arbeitsstunden gegengerechnet werden können, einfach erfassen und abrechnen.
 
