@@ -1,52 +1,14 @@
 # Aller Anfang
 
-Aller Anfang ist schwer. Damit das "schöne" Werkzeug JVerein nicht am Start scheitert, gibt es hier eine Einführung für eine Windows Installation.
-
 ## Installation
 
 Siehe [Installation](installation.md)
-
-## Der erste Start
-
-Jameica und damit die gesamte Software wird mit "C:\Jameica\jameica-win64.exe" (Beispiel für die 64bit Version) gestartet. Bei jedem Start, bzw. solange nichts Gegenteiliges eingestellt wurde (z.B. "Künftig immer diesen Ordner verwenden"), wird der Benutzerordner abgefragt:
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_anlegen_des_benutzerordners.png" alt="" /></picture>
-
-Dies bietet daher auch die Option mehrere Vereine zu verwalten: diese müssen lediglich verschiedene Benutzerordner haben. Nach der Bestätigung des Ordner wird ein "Master"Passwort benötigt:
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_passwort_festlegen.png" alt="" /></picture>
-
-Anmerkung des "Aller Anfang" Erst-Autors:
-
-Was und wie genau das Masterpasswort schützt ist 'nicht' eindeutig ersichtlich.Einen Zugang zu Software / diesem Benutzerordner hat man "nur" mit korrektem Masterpasswort, an die Daten in der Datenbank kommt man aber auch OHNE Kenntnis dieses Masterpasswortes. Siehe u.a. dazu: LibreOfficeDB .
-
-Nach der Vergabe eines Masterpasswortes, gelangt man zur Hauptübersicht von Jameica, mit den Plugins: Hibiscus und JVerein.
 
 ## Grundlagen einrichten
 
 ### Bankzugang einrichten
 
-Zum Einrichten des Onlinebankings wird in der Hauptübersicht (Klick auf Jameica - über "Hibiscus" und Termine") der "Bank-Zugang einrichten" Knopf gedrückt.
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hauptuebersicht.png" alt="" /></picture>
-
-Es erscheint folgende Abfrage, bei der das HBCI Verfahren abgefragt wird. Aus dem Dropdownmenü (siehe Grafik) eine passende Variante auswählen und mit "Übernehmen" bestätigen.
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_1_hbci_verfahren.png" alt="" /></picture>
-
-**Im Folgenden wird das Verfahren für eine HBCI-Chipkarte beschrieben.**
-
-Das HBCI Lesegerät muss erfolgreich in Windows eingerichtet sein (Treiber usw.). Nach dem Klick auf "Kartenleser suchen..." erscheint folgend dargestellte Hinweis/Abfrage, die nach dem Durchlesen mit "Ja" zu beantworten ist.
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_2_lesegeraet_suchen.png" alt="" /></picture>
-
-Im Idealfall wurde der Kartenleser auf Anhieb gefunden. Die Kontodaten werden danach durch einen Doppelklick auf die entsprechende Zeile (siehe Grafik) eingerichtet.
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_3_lesegeraet_einrichten.png" alt="" /></picture>
-
-Im nächsten Fenster besteht die Möglichkeit, HBCI-Version und die einzurichtenden Konten auszuwählen. Anmerkung zur HBCI-Version. Hier sollte nach Möglichkeit 2.2 oder "höher" (z.B. FinTS3) ausgewählt werden. Die HBCI-Version 2.1 führt unter Umständen zu Fehlern bei SEPA Buchungen (Fehler in der Form: funktioniert nicht.). Die getroffenen Einstellungen sollten mit "Konfiguration testen" geprüft werden. Verläuft der Test erfolgreich, bietet einem die Software an, die verfügbaren Konten automatisch anzulegen. Dies kann / sollte man mit "Ja" bestätigen. Im letzten Schritt, muss man nur noch den "Speichern"-Knopf betätigen und die Einrichtung ist abgeschlossen.
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hibiscus_-_4_lesegeraet_einrichten_teil_2.png" alt="" /></picture>
+Die Einrichtung der Bankzugänge etc. in Hibiscus ist hier beschrieben: [https://willuhn.de/wiki/doku.php?id=handbuch](https://willuhn.de/wiki/doku.php?id=handbuch)
 
 ### JVerein einrichten
 
@@ -56,7 +18,7 @@ Nach dem Einrichten von Hibiscus, muss JVerein eingerichtet werden. Dazu wählt 
 
 Die vorzunehmenden Einstellungen sind selbsterklärend. Man sollte jeden Reiter sorgfältig prüfen und nach besten Wissen ausfüllen. Am besten können dazu auch die entsprechenden Hilfeseiten kontaktiert werden.
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_jverein_-_1_einstellungen.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_einstellungen.png" alt="" /></picture>
 
 #### Allgemein
 
@@ -76,9 +38,11 @@ Kann so bleiben.
 
 ####  Abrechnung
 
-Hier sollte die Entscheidung über das Beitragsmodell getroffen werden.
+Hier sollte die Entscheidung über das [Beitragsmodell](beitragsmodelle.md) getroffen werden. 
 
 Entscheidung! Externe oder von JVerein vergebene Mitgliedsnummern für die Mandatsreferenznummer! Diese kann und sollte im Nachhinein nicht geändert werden.
+
+Bei Abbuchung der Mitgliedsbeiträge per Lastschirft, muss bei "Verrechnungskonto für Lastschriften" ein Konto ausgewählt werden. (Erst unter Buchführung->Konten anlegen).
 
 #### Verzeichnisse
 
@@ -90,7 +54,7 @@ Zum aktuellen Zeitpunkt weniger von Interesse.
 
 #### Spendenbescheinigung
 
-Falls unter Anzeige "Spendenbescheinigungen" aktiviert wurde, hier alles ausfüllen. Falls eigene Vorlagen für Spendenbescheinigungen benutzt werden sollen, müssen diese erst eingerichtet werden.
+Falls unter Anzeige "Spendenbescheinigungen" aktiviert wurde, hier alles ausfüllen. Falls eigene Vorlagen für Spendenbescheinigungen benutzt werden sollen, müssen diese erst unter "Administration->Mitglieder->Formulare" eingerichtet werden.
 
 #### Buchführung
 
@@ -98,7 +62,7 @@ Für Umsatzsteuer pflichtige Vereine sind hier die entsprechenden Optionen auszu
 
 #### Rechnungen
 
-Kann so bleiben.
+Bei der Verwendung von Rechnungen sollte hier die Form der Rechnungsnummer angegeben werden (Z.B. 2026-$rechnung_nummer).
 
 #### Mail
 
@@ -114,15 +78,21 @@ Kann so bleiben (vorerst).
 
 Kann so bleiben (vorerst).
 
-
 ### Weitere Einstellungen
 
 Folgende Einstellungen müssen noch vorgenommen werden, um JVerein produktiv zu machen:
 
-* [Konten](../v/allgemeine-funktionen/buchf/konten.md) aus Hibiscus "importieren" / übernehmen
-* [Buchungsklasse](../v/allgemeine-funktionen/administration/admbuchf/buchungsklasse.md) - hier mindestens den "Ideellen Bereich" einrichten
-* [Buchungsart](../v/allgemeine-funktionen/administration/admbuchf/buchungsart.md) - hier mindestens "Mitgliedsbeitrag" einrichten
-* [Beitragsgruppen](../v/allgemeine-funktionen/administration/mitglieder/beitragsgruppen.md) - hier mindesten eine Beitragsgruppe einrichten
+* Buchführung->Konten: Konten aus Hibiscus "importieren" / übernehmen
+* Administration->Mitglieder-Beitragsgruppen - hier mindesten eine Beitragsgruppe einrichten
+* Bei Verwendung von Rechnungen muss unter Administration->Mitglieder->Formulare ein  Rechnungsformular erstellt werden
+* Administration->Buchführung->Buchungsklassen: - hier mindestens den "Ideellen Bereich" einrichten
+* Administration->Buchführung->Buchungsart - hier mindestens "Mitgliedsbeitrag" einrichten
+* Administration->Buchführung->Steuer - Bei Umsatzzteuerpflicht hier die Steuersätze anlegen
+
+Buchungsklassen und Buchungsarten können alternativ auch als ganzer Kontenrahmen importiert werden. Administration->Buchführung->Kontenrahmen-Import
+
+* Download [SKR42](skr42.xml) (Kontenrahmen-Import XML V 2)
+* Download [SKR49](skr49.xml) (Kontenrahmen-Import XML V 1)
 
 An diesem Punkt sollte JVerein beendet werden um den Benutzerordner zu sichern. Der Sinn dahinter ist, dass das folgenden Ausprobieren Spuren in den Datenbanken hinterlässt. Einige Benutzer möchten mit einer "sauberen" Datenbank arbeiten. Sauber wird hierbei unter anderem so definiert, dass keine Testbuchungen oder Testkategorien existieren UND die Datenbankzähler (stetig fortlaufende Nummern) "richtig" bei 1 starten. Das Ausprobieren und Testen der Software treibt die Datenbankzähler jedoch in die Höhe. Funktionell dürfte sich bei der einen oder anderen Variante kein Unterschied ergeben.
 
