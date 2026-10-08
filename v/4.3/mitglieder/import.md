@@ -58,15 +58,17 @@ Felder mit anderem Namen werden ignoriert
 Ab Version 4.1 lassen sich auch die Zugehörigkeit zu einem Familienverband und abweichende Zahler importieren. Ab Version 4.3 kann ein Familienverband mit externezahlerid in einem einzigen Import angelegt werden. Ab Version 4.4 geht das auch ohne externe Mitgliedsnummer, und auch abweichende Zahler lassen sich im selben Import angeben (Verweise mit `#lfdnr`, `#key` und `^`). Die entsprechenden Attribute sind:
 
 * zahlerid Vollzahlendes Mitglied. Wird nur bei Mitgliedern in einer Beitragsgruppe der Art "Familienangehöriger" ausgewertet.
-* externezahlerid Externe Mitgliedsnummer des Vollzahlenden Mitglieds (nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist, nicht zusammen mit zahlerid). Ist die externe Mitgliedsnummer nicht aktiviert, wird die Spalte ignoriert und im Importprotokoll darauf hingewiesen.
+* externezahlerid Externe Mitgliedsnummer des Vollzahlenden Mitglieds (nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist, nicht zusammen mit zahlerid), oder `^` für den Vollzahlenden in der Zeile darüber. Ist die externe Mitgliedsnummer nicht aktiviert, wird die Spalte ignoriert und im Importprotokoll darauf hingewiesen.
 * alternativer_zahlerid Abweichender Zahler
 * lfdnr oder key Schlüssel, über den sich andere Zeilen der Datei auf diese Zeile beziehen können (siehe unten)
 
-### Inhalt von zahlerid und alternativer_zahlerid
+### Verweise in zahlerid, externezahlerid und alternativer_zahlerid
 
-* Eine Zahl ist die Id eines Mitglieds, das schon in JVerein existiert.
+* Eine Zahl in zahlerid oder alternativer_zahlerid ist die Id eines Mitglieds, das schon in JVerein existiert. In externezahlerid steht die externe Mitgliedsnummer.
 * `#wert` verweist auf die Zeile der Importdatei, in der die Spalte lfdnr bzw. key den Wert `wert` hat, z. B. `#12`. Das Mitglied muss nicht schon in JVerein existieren, es wird im selben Import angelegt.
-* `^` verweist auf die nächste Zeile darüber, bei der die Zelle in derselben Spalte leer ist. So können Familienmitglieder direkt unter dem Vollzahlenden stehen, ohne dass ein Schlüssel nötig ist. Bei zahlerid zählen Zeilen mit externezahlerid nicht als Vollzahler.
+* `^` verweist auf die nächste Zeile darüber, die selbst keinen Vollzahler angibt. So können Familienmitglieder direkt unter dem Vollzahlenden stehen, ohne dass ein Schlüssel nötig ist. `^` ist in zahlerid, externezahlerid und alternativer_zahlerid möglich. In externezahlerid steht `^` für die externe Mitgliedsnummer des Vollzahlenden darüber, ein `#wert` ist dort nicht nötig, weil die externe Mitgliedsnummer in der Datei bekannt ist.
+* Eine Zeile gilt als Vollzahler für `^` in zahlerid und externezahlerid, wenn weder zahlerid noch externezahlerid gefüllt sind. Für `^` in alternativer_zahlerid zählt nur, ob alternativer_zahlerid leer ist.
+* Jede Zeile ohne eigenen Vollzahler beginnt damit einen neuen Familienverband: Folgt auf ein Familienmitglied mit `^` ein weiterer Vollzahler (oder eine Einzelperson), verweist das nächste `^` darunter auf diese Zeile. Zeilen dazwischen, die selbst einen Verweis haben (`#wert`, Id oder externezahlerid), werden übersprungen und ändern nicht, worauf ein `^` weiter unten verweist.
 * Ist die Zelle leer, wird kein Vollzahler bzw. abweichender Zahler gesetzt. alternativer_zahlerid muss also nicht für alle Mitglieder gefüllt sein.
 
 Sind zahlerid und alternativer_zahlerid in derselben Zeile angegeben, wird eine Warnung im Importprotokoll ausgegeben, der Import läuft aber weiter.
@@ -105,6 +107,17 @@ lfdnr;name;vorname;beitragsgruppe;zahlerid;alternativer_zahlerid
 ;Mustermann;Tom;Familienangehöriger;^;
 2;Meier;Hans;Vollzahler;;
 ;Wichtig;Willi;Vollzahler;;#1
+```
+
+Mehrere Familien mit `^` in externezahlerid. Hans ist wieder ein Vollzahler und beginnt damit einen neuen Familienverband, Eva gehört zu Hans:
+
+```text
+externemitgliedsnummer;name;vorname;beitragsgruppe;externezahlerid
+1;Mustermann;Max;Vollzahler;
+2;Mustermann;Anna;Familienangehöriger;^
+3;Mustermann;Tom;Familienangehöriger;^
+4;Meier;Hans;Vollzahler;
+5;Meier;Eva;Familienangehöriger;^
 ```
 
 ### Bestehendes Vorgehen mit zwei Importen
