@@ -6,9 +6,23 @@ OpenJVerein ist ein Plugin innerhalb von Jameica, daher muss zuerst Jameica inst
 
 Die zum Betriebssystem passende Jameica-Version ist von [http://www.willuhn.de/products/jameica/download.php](http://www.willuhn.de/products/jameica/download.php) herunter zu laden. Sofern Jameica in einer älteren Version bereits installiert ist, ist das Verzeichnis entweder umzubenennen oder zu löschen. Die heruntergeladene ZIP-Datei ist an der gewünschten Stelle zu entpacken \(z. B. C:\Programme\). In dem entpackten Verzeichnis die zum verwendeten Betriebssystem passende Startdatei starten.
 
+- Linux ./jameica.sh
+- Windows jameica-win64.exe
+- MacOS Doppelklick auf das Jameica-Symbol
+
 Die Installation von Java ist nur noch bei Linux-Systemen notwendig, bei Windows und MacOS ist diese bereits in Jameica enthalten.
 
-Beim ersten Start der neuen Version wird die Datenbank an die neuen Strukturen angepasst und ist dann mit der alten Version nicht mehr kompatibel. Es gibt auch keinen Weg zurück. Daher ist es sinnvoll, das Datenverzeichnis vor dem Update als Sicherung zu kopieren. Falls etwas schief geht ist damit mit der alten Version noch immer ein lauffähiges System vorhanden.
+## Der erste Start
+
+Bei jedem Start, bzw. solange nichts Gegenteiliges eingestellt wurde (z.B. "Künftig immer diesen Ordner verwenden"), wird der Benutzerordner abgefragt:
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_anlegen_des_benutzerordners.png" alt="" /></picture>
+
+Dies bietet daher auch die Option mehrere Vereine zu verwalten: diese müssen lediglich verschiedene Benutzerordner haben. Nach der Bestätigung des Ordner wird ein "Master"Passwort benötigt:
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_passwort_festlegen.png" alt="" /></picture>
+
+Nach der Vergabe eines Masterpasswortes, gelangt man zur Hauptübersicht von Jameica.
 
 ## JVerein-Installation
 
