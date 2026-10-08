@@ -48,6 +48,12 @@ Q: Wie kann ich mit JVerein mehrere Vereine verwalten?
 
 A: Für jeden Verein wird ein separates Verzeichnis angelegt. Wie die Verzeichnisse beim Aufruf von Jameica zugeordnet werden, ist der vorherigen Antwort zu entnehmen.
 
+Damit man bei der Verwaltung mehrere Vereine nicht die Programmfenster verwechselt, kann ein Individueller Fenstertietel und Icon festgelgt werden. Dazu muss in der Datei ".jameica/cfg/de.willuhn.jameica.system.Customizing.properties" folgendes hinzugefügt werden
+```
+application.icon=ICON.png
+application.name=FENSTERTITEL
+```
+
 ## Kann JVerein über ein Netzwerk/Internet betrieben werden?
 
 Q: Kann JVerein übers Netzwerk/Internet betrieben werden?
