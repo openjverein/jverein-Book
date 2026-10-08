@@ -87,8 +87,12 @@ Folgende Einstellungen müssen noch vorgenommen werden, um JVerein produktiv zu 
 
 Buchungsklassen und Buchungsarten können alternativ auch als ganzer Kontenrahmen importiert werden. Administration->Buchführung->Kontenrahmen-Import
 
-* Download [SKR42](skr42.xml) (Kontenrahmen-Import XML V 2)
-* Download [SKR49](skr49.xml) (Kontenrahmen-Import XML V 1)
+{% file src="skr42.xml" %}
+Download SKR42 (Kontenrahmen-Import XML V 2)
+{% endfile %}
+{% file src="skr49.xml" %}
+Download SKR49 (Kontenrahmen-Import XML V 1)
+{% endfile %}
 
 An diesem Punkt sollte JVerein beendet werden um den Benutzerordner zu sichern. Der Sinn dahinter ist, dass das folgenden Ausprobieren Spuren in den Datenbanken hinterlässt. Einige Benutzer möchten mit einer "sauberen" Datenbank arbeiten. Sauber wird hierbei unter anderem so definiert, dass keine Testbuchungen oder Testkategorien existieren UND die Datenbankzähler (stetig fortlaufende Nummern) "richtig" bei 1 starten. Das Ausprobieren und Testen der Software treibt die Datenbankzähler jedoch in die Höhe. Funktionell dürfte sich bei der einen oder anderen Variante kein Unterschied ergeben.
 
