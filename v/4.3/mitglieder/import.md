@@ -53,15 +53,73 @@ Die Importdatei muss im CSV Format sein und kann folgende Spalten haben:
 
 Felder mit anderem Namen werden ignoriert
 
-Ab Version 4.1 lassen sich auch Zugehörigkeit zu einem Familienverband und abweichende Zahler importieren. Der entsprechende Vollzahler bzw. Abweichende Zahler muss allerdings schon in JVerein existieren.
+## Familienverband und abweichende Zahler
 
-Ab Version 4.3 lässt sich ein Familienverband auch mit einem einmaligen Import durchführen. Voraussetzung ist, dass Externe Mitgliedsnummer aktiv ist.
+Ab Version 4.1 lassen sich auch die Zugehörigkeit zu einem Familienverband und abweichende Zahler importieren. Ab Version 4.3 kann ein Familienverband mit externezahlerid in einem einzigen Import angelegt werden. Ab Version 4.4 geht das auch ohne externe Mitgliedsnummer, und auch abweichende Zahler lassen sich im selben Import angeben (Verweise mit `#lfdnr`, `#key` und `^`). Die entsprechenden Attribute sind:
 
-Die entsprechenden Attribute sind:
-* zahlerid Id des Vollzahlenden Mitglieds
-* externezahlerid Externe Mitgliedsnummer des Vollzahlenden Mitglieds (nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist, nicht zusammen mit zahlerid)
-* alternativer_zahlerid Id des abweichenden Zahlers
+* zahlerid Vollzahlendes Mitglied. Wird nur bei Mitgliedern in einer Beitragsgruppe der Art "Familienangehöriger" ausgewertet.
+* externezahlerid Externe Mitgliedsnummer des Vollzahlenden Mitglieds (nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist, nicht zusammen mit zahlerid), oder `^` für den Vollzahlenden in der Zeile darüber. Ist die externe Mitgliedsnummer nicht aktiviert, wird die Spalte ignoriert und im Importprotokoll darauf hingewiesen.
+* alternativer_zahlerid Abweichender Zahler
+* lfdnr oder key Schlüssel, über den sich andere Zeilen der Datei auf diese Zeile beziehen können (siehe unten)
 
-Mit externezahlerid kann ein Familienverband in einem einzigen Import angelegt werden. Der Vollzahler kann in derselben Datei stehen, die Reihenfolge der Zeilen spielt keine Rolle. Zeilen mit externezahlerid werden nach allen anderen Zeilen verarbeitet.
+### Verweise in zahlerid, externezahlerid und alternativer_zahlerid
 
-Im Falle eines  Abweichenden Zahlers bzw. wenn Externe Mitgliedsnummer nicht aktiv ist, auch bei Vollzahler, ist erst ein Import durchzuführen bei dem nur die Mitglieder importiert werden. In einem zweiten Import kann dann die Mitglieder nochmals importiert werden, die einem Vollzahler zugewiesen werden sollen bzw. bei denen ein abweichender Zahler gesetzt werden soll.
+* Eine Zahl in zahlerid oder alternativer_zahlerid ist die Id eines Mitglieds, das schon in JVerein existiert. In externezahlerid steht die externe Mitgliedsnummer.
+* `#wert` verweist auf die Zeile der Importdatei, in der die Spalte lfdnr bzw. key den Wert `wert` hat, z. B. `#12`. Das Mitglied muss nicht schon in JVerein existieren, es wird im selben Import angelegt.
+* `^` verweist auf die nächste Zeile darüber, die selbst keinen Vollzahler angibt. So können Familienmitglieder direkt unter dem Vollzahlenden stehen, ohne dass ein Schlüssel nötig ist. `^` ist in zahlerid, externezahlerid und alternativer_zahlerid möglich. In externezahlerid steht `^` für die externe Mitgliedsnummer des Vollzahlenden darüber, ein `#wert` ist dort nicht nötig, weil die externe Mitgliedsnummer in der Datei bekannt ist.
+* Eine Zeile gilt als Vollzahler für `^` in zahlerid und externezahlerid, wenn weder zahlerid noch externezahlerid gefüllt sind. Für `^` in alternativer_zahlerid zählt nur, ob alternativer_zahlerid leer ist.
+* Jede Zeile ohne eigenen Vollzahler beginnt damit einen neuen Familienverband: Folgt auf ein Familienmitglied mit `^` ein weiterer Vollzahler (oder eine Einzelperson), verweist das nächste `^` darunter auf diese Zeile. Zeilen dazwischen, die selbst einen Verweis haben (`#wert`, Id oder externezahlerid), werden übersprungen und ändern nicht, worauf ein `^` weiter unten verweist.
+* Ist die Zelle leer, wird kein Vollzahler bzw. abweichender Zahler gesetzt. alternativer_zahlerid muss also nicht für alle Mitglieder gefüllt sein.
+
+Sind zahlerid und alternativer_zahlerid in derselben Zeile angegeben, wird eine Warnung im Importprotokoll ausgegeben, der Import läuft aber weiter.
+
+### Schlüssel lfdnr und key
+
+* lfdnr ist eine eindeutige ganze Zahl, z. B. eine in Excel fortlaufend nummerierte Spalte. `01` und `1` sind derselbe Schlüssel.
+* key ist ein beliebiger eindeutiger Text, z. B. `mueller-1`.
+* Es darf nur eine der beiden Spalten vorhanden sein. Die Groß- und Kleinschreibung der Spaltenüberschrift spielt keine Rolle, die Dokumentation verwendet Kleinbuchstaben.
+* Die Spalten werden nicht in das Mitglied übernommen. Ältere JVerein-Versionen ignorieren sie wie alle unbekannten Spalten.
+* Mit lfdnr bzw. key spielt die Reihenfolge der Zeilen keine Rolle. Die Datei kann also in Excel beliebig sortiert werden.
+
+### Reihenfolge der Verarbeitung
+
+Der Import berücksichtigt die Verweise automatisch: Ein Vollzahler bzw. abweichender Zahler wird immer vor den Mitgliedern gespeichert, die auf ihn verweisen. Zeilen mit externezahlerid werden nach allen anderen Zeilen verarbeitet. Die Zeilennummern in Meldungen und Fehlermeldungen beziehen sich immer auf die Position in der Datei (ohne Kopfzeile), unabhängig von der Verarbeitungsreihenfolge.
+
+Der Import bricht ab und es wird nichts importiert, wenn ein Verweis nicht aufgelöst werden kann (unbekannter Schlüssel, `^` ohne Zeile darüber, doppelter Schlüssel, lfdnr keine ganze Zahl) oder Mitglieder sich gegenseitig als Zahler angeben.
+
+### Beispiele
+
+Familienverband über die externe Mitgliedsnummer. Anna steht vor ihrem Vollzahler Max, die Reihenfolge spielt keine Rolle:
+
+```text
+externemitgliedsnummer;name;vorname;beitragsgruppe;zahlerid;externezahlerid
+2;Mustermann;Anna;Familienangehöriger;;1
+1;Mustermann;Max;Vollzahler;;
+```
+
+Familienverband ohne externe Mitgliedsnummer. Eva verweist mit `#2` auf Hans, der weiter unten steht. Anna und Tom stehen mit `^` direkt unter Max. Willi hat Max als abweichenden Zahler (`#1`):
+
+```text
+lfdnr;name;vorname;beitragsgruppe;zahlerid;alternativer_zahlerid
+;Meier;Eva;Familienangehöriger;#2;
+1;Mustermann;Max;Vollzahler;;
+;Mustermann;Anna;Familienangehöriger;^;
+;Mustermann;Tom;Familienangehöriger;^;
+2;Meier;Hans;Vollzahler;;
+;Wichtig;Willi;Vollzahler;;#1
+```
+
+Mehrere Familien mit `^` in externezahlerid. Hans ist wieder ein Vollzahler und beginnt damit einen neuen Familienverband, Eva gehört zu Hans:
+
+```text
+externemitgliedsnummer;name;vorname;beitragsgruppe;externezahlerid
+1;Mustermann;Max;Vollzahler;
+2;Mustermann;Anna;Familienangehöriger;^
+3;Mustermann;Tom;Familienangehöriger;^
+4;Meier;Hans;Vollzahler;
+5;Meier;Eva;Familienangehöriger;^
+```
+
+### Bestehendes Vorgehen mit zwei Importen
+
+Wie bisher können auch zwei Importe nacheinander durchgeführt werden: Im ersten Import werden die Mitglieder ohne zahlerid und alternativer_zahlerid importiert. Im zweiten Import werden die Mitglieder importiert, bei denen mit der Id der bereits vorhandenen Mitglieder ein Vollzahler oder abweichender Zahler gesetzt werden soll.
