@@ -1,9 +1,5 @@
 # Aller Anfang
 
-## Installation
-
-Siehe [Installation](installation.md)
-
 ## Grundlagen einrichten
 
 ### Bankzugang einrichten
