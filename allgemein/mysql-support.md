@@ -4,6 +4,8 @@
 
 JVerein verwendet standardmäßig eine embedded Datenbank \(H2\), die beim ersten Start automatisch eingerichtet wird. Es wird auch MySQL/MariaDB unterstützt.
 
+Der Vorteil ist, dass so auch von mehreren Computern auf die gleiche Datenbank zugegriffen werden kann. Genaueres dazu unter [Multiuser](multiuser.md).
+
 ## Erstellung der MySQL-Datenbank
 
 Verwenden Sie Ihr bevorzugtes Administrationswerkzeug \(z.B. [PhpMyAdmin](https://www.phpmyadmin.net/) oder [MySQL-Workbench](https://dev.mysql.com/downloads/workbench/)\), um eine Datenbank mit dem Namen "jverein" sowie einen Benutzer anzulegen. Der angelegte Benutzer muss Lese- und Schreibrechte in dieser Datenbank besitzen. Sie können auch der nachfolgenden Anleitung für die Kommandozeile folgen, um Datenbank und Benutzer mit dem Linux Kommandozeilen-Werkzeug "mysql" \("mysql.exe" unter Windows\) anzulegen. 
@@ -20,13 +22,11 @@ Verwenden Sie Ihr bevorzugtes Administrationswerkzeug \(z.B. [PhpMyAdmin](https:
 
 Hinweis: Der Benutzer sollte nur Zugriff auf die JVerein Datenbank haben. Insbesondere wenn Hibiscus ebenfalls in einer MySQL Datenbank gespeichert ist, kommt es immer wieder zu Fehlern, wenn der JVerein Benutzer auch Zugriff auf die Hibiscus Datenbank hat (Und umgekehrt).
 
-## Erstellung eines Install-Bundles und der Datenbank
+## Konfigurieren von JVerein
 
-Damit JVerein auf eine MySQL/MariaDB-Datenbank zugreifen kann, muss eine Konfigurationdatei erstellt werden. Da diese beim ersten Start noch nicht existiert, würde JVerein auf jedem Arbeitsplatz eine H2-Datenbank anlegen, die anschliessend nicht gebraucht wird. Bereiten Sie daher mit den folgenden Schritten ein vorkonfiguriertes Install-Bundle vor, welches anschließend auf alle Arbeitsplatz-PCs kopiert wird.
-
-- Installieren sie wie beschrieben. Falls sie ein "heterogenes" Netz mit Windows- und Linux-Arbeitsplätzen nutzen, dann verwenden Sie die All-In-One-Version von Jameica, welche unter beiden Betriebssystemen lauffähig ist. Andernfalls können Sie die Windows- oder Linux-Version verwenden.
+Damit JVerein auf eine MySQL/MariaDB-Datenbank zugreifen kann, muss eine Konfigurationdatei erstellt werden. 
 - Erstellen Sie ein Verzeichnis "cfg" im Programm-Verzeichnis von Jameica (Ordner ".jameica").
-- Erstellen Sie im cfg-Verzeichnis eine Datei mit dem Namen "de.jost\_net.JVerein.rmi.JVereinDBService.properties". 
+- Erstellen Sie im cfg-Verzeichnis (Ordner ".jameica/cfg") eine Datei mit dem Namen "de.jost\_net.JVerein.rmi.JVereinDBService.properties". 
 - Öffnen Sie die Datei "de.jost\_net.JVerein.rmi.JVereinDBService.properties" mit einem Texteditor und tragen Sie folgende Inhalte ein:
 <!-- -->
     database.driver=de.jost_net.JVerein.server.DBSupportMySqlImpl
@@ -51,23 +51,7 @@ Beispiel für MySQL:
 
     database.driver.mysql.jdbcurl=jdbc:mysql://<ip>:<port>/<database>?useUnicode=Yes&characterEncoding=UTF-8&trustServerCertificate=true&allowPublicKeyRetrieval=true&useSSL=false
 
-## Test und Verteilung der Konfiguration auf die Arbeitsplätze
-
-**Wichtig:** Die soeben erstellte Konfigurationsdatei wird nur dann verwendet, wenn noch kein Jameica-Benutzerverzeichnis mit abweichenden Angaben existiert. Prüfen Sie also vor dem ersten Start, ob dieses existiert und benennen Sie es ggf. während des Tests um:
-
-### Linux
-
-    /home/<username>/.jameica
-
-### Windows
-
-    C:\Benutzer\<username>\.jameica
-
-- Verteilen Sie das vorkonfigurierte Install-Bundle samt Ordnerstruktur auf alle teilnehmenden Arbeitsplatz-PCs.
-- Starten Sie nun diese Jameica-Installation durch Aufruf von "jameica.sh" bzw. "jameica.bat". JVerein sollte nun keine H2-Datenbank erstellen sondern auf die MySQL/MariaDB Datenbank zugreifen.
-- Beachten Sie, dass auch auf den anderen Arbeitsplatz-PCs noch kein Jameica-Benutzerverzeichnis existieren darf, da sonst die dort angegebene Datenbank-Konfiguration \(welche auf die interne H2-Datenbank verweist\) verwendet wird.
-
-**Hinweis:** Auf allen Arbeitsplätzen muss die gleiche Version von JVerein im Einsatz sein. Durch neue Versionen wird unter Umständen die Datenbankstruktur so verändert, dass ältere Versionen damit nicht klar kommen.
+**Hinweis:** Auf allen Arbeitsplätzen muss die gleiche Version von OpenJVerein im Einsatz sein. Durch neue Versionen wird unter Umständen die Datenbankstruktur so verändert, dass ältere Versionen damit nicht klar kommen.
 
 ## Sicherheitshinweise
 
