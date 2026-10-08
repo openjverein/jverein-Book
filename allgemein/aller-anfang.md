@@ -83,7 +83,7 @@ Folgende Einstellungen müssen noch vorgenommen werden, um JVerein produktiv zu 
 * Bei Verwendung von Rechnungen muss unter Administration->Mitglieder->Formulare ein  Rechnungsformular erstellt werden
 * Administration->Buchführung->Buchungsklassen: - hier mindestens den "Ideellen Bereich" einrichten
 * Administration->Buchführung->Buchungsart - hier mindestens "Mitgliedsbeitrag" einrichten
-* Administration->Buchführung->Steuer - Bei Umsatzzteuerpflicht hier die Steuersätze anlegen
+* Administration->Buchführung->Steuer - Bei Umsatzsteuerpflicht hier die Steuersätze anlegen
 
 Buchungsklassen und Buchungsarten können alternativ auch als ganzer Kontenrahmen importiert werden. Administration->Buchführung->Kontenrahmen-Import
 
