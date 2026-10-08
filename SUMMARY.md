@@ -13,9 +13,16 @@
   * [Multiuser](allgemein/multiuser.md)
   * [Anleitung Jameica Portable](allgemein/anleitung-jameica-portable.md)
   * [Abhängigkeiten](allgemein/abhangigkeiten.md)
+  * [Buchführung Zusammenhänge](sonstiges/buchfuhrung-zusammenhange.md)
+  * [Buchführung Grundsätze](sonstiges/buchfuhrung-grundsatze.md)
+  * [Dokumente](sonstiges/dokumente.md)
+  * [Variable](sonstiges/variable.md)
+  * [FAQ](sonstiges/faq.md)
+  * [Für Entwickler](sonstiges/fur-entwickler.md)
   * [Datenbank öffnen](allgemein/datenbank-offnen.md)
   * [OpenOfficeDB](allgemein/openofficedb.md)
   * [LibreOfficeDB](allgemein/libreofficedb.md)
+  * [Lizenz](sonstiges/README.md)
 
 ## Versionen <a href="#v" id="v"></a>
 
@@ -885,13 +892,3 @@
       * [QIF Datei-Import](v/4.3/administration/erweitert/qif-import.md)
       * [Datenbank bereinigen](v/4.3/administration/erweitert/bereinigen.md)
       * [Diagnosebackup](v/4.3/administration/erweitert/diagnosebackup.md)
-
-## Sonstiges
-
-* [Allgemein](sonstiges/README.md)
-  * [Buchführung Zusammenhänge](sonstiges/buchfuhrung-zusammenhange.md)
-  * [Buchführung Grundsätze](sonstiges/buchfuhrung-grundsatze.md)
-  * [Dokumente](sonstiges/dokumente.md)
-  * [FAQ](sonstiges/faq.md)
-  * [Für Entwickler](sonstiges/fur-entwickler.md)
-  * [Variable](sonstiges/variable.md)
