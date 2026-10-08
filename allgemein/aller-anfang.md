@@ -8,7 +8,7 @@ Die Einrichtung der Bankzugänge etc. in Hibiscus ist hier beschrieben: [https:/
 
 ### JVerein einrichten
 
-Nach dem Einrichten von Hibiscus, muss JVerein eingerichtet werden. Dazu wählt man entweder den Knopf "Einstellungen" oder Navigiert über die "Navigation" nach unten zu "JVerein" dort zu "Administration" und dort ebenfalls zu "Einstellungen".
+Nach dem Einrichten von Hibiscus, muss JVerein eingerichtet werden. Dazu wählt man entweder den Knopf "Einstellungen" oder Navigiert über die "Navigation" nach unten zu "OpenJVerein" dort zu "Administration" und dort ebenfalls zu "Einstellungen".
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/aller_anfang_-_erster_start_-_hauptuebersicht_2.png" alt="" /></picture>
 
