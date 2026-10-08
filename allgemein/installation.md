@@ -1,5 +1,7 @@
 # Installation
 
+OpenJVerein ist ein Plugin innerhalb von Jameica, daher muss zuerst Jameica instaliiert werden.
+
 ## Jameica-Installation
 
 Die zum Betriebssystem passende Jameica-Version ist von [http://www.willuhn.de/products/jameica/download.php](http://www.willuhn.de/products/jameica/download.php) herunter zu laden. Sofern Jameica in einer älteren Version bereits installiert ist, ist das Verzeichnis entweder umzubenennen oder zu löschen. Die heruntergeladene ZIP-Datei ist an der gewünschten Stelle zu entpacken \(z. B. C:\Programme\). In dem entpackten Verzeichnis die zum verwendeten Betriebssystem passende Startdatei starten.
@@ -12,39 +14,18 @@ Sofern noch keine Plugins installiert sind, erscheint folgende Meldung:
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install1.png" alt="" /></picture>
 
-## Hibiscus-Installation
-
-Datei \| Plugins online suchen
-
-Sofern Hibiscus erstmalig installiert wird und das Zertifikat bislang noch nicht akzeptiert wurde, erscheint folgende Meldung, die mit "ja" zu bestätigen ist:
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install2.png" alt="" /></picture>
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install3.png" alt="" /></picture>
-
-Passende Hibiscus-Version anklicken und "Herunterladen und installieren" anklicken.
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install4.png" alt="" /></picture>
-
-"Ja" anklicken
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install5.png" alt="" /></picture>
-
-Passenden Plugin-Ordner auswählen. Wichtig! Eine einmal getroffene Auswahl sollte beibehalten werden.
-
-Jameica beenden und neu starten.
-
 ## JVerein-Installation
 
-Datei \| Plugins online suchen
-
-Wichtig! Wenn mit Jameica &lt; 2.10.3 gearbeitet wird, ist das aktuelle JVerein-Repositiory noch nicht eingetragen. "Repositories bearbeiten..." anklicken, rechter Mausklick auf das alte JVerein-Repository, löschen. "Neues Repository hinzufügen" anklicken, URL: https://openjverein.github.io/jameica-repository.
-
-Anschließend das neu angelgete OpenJVerein-Repository auswählen:
+Datei \| Plugins online suchen \| Verfügbare Plugins \| Im Select "https://openjverein.github.io/jameica-repository" auswahlen.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install6.png" alt="" /></picture>
 
 Passende JVerein-Version auswählen und "Installieren..." anklicken.
+
+Für die Nutzung von OpenJVerein ist das Banking-Plugin Hibiscus erforderlich. Wenn dieses noch nicht installiert ist, erscheint folgendes Fenster, dass mit OK bestätigt werden muss.
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install15.png" alt="" /></picture>
+
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install7.png" alt="" /></picture>
 
@@ -58,9 +39,9 @@ Jameica beenden und neu starten.
 
 ### Wichtig
 
-Die Installation muss immer auf dem oben beschriebenen Weg erfolgen. Das direkte entpacken in das Plugins-Verzeichnnis wird nicht empfohlen.
+Die Installation muss immer auf dem oben beschriebenen Weg erfolgen. Das direkte Entpacken in das Plugins-Verzeichnnis wird nicht empfohlen.
 
-## MySQL
+## MySQL/MariaDB
 
-JVerein unterstützt auch MySQL. Zur Installation siehe [MySQL-Support.](mysql-support.md)
+JVerein unterstützt auch MySQL/MariaDB. Zur Installation siehe [MySQL-Support.](mysql-support.md)
 
