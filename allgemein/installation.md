@@ -10,22 +10,17 @@ Die Instalalation von Java ist dur noch bei Linux-Systemen notwendig, bei Window
 
 Beim ersten Start der neuen Version wird die Datenbank an die neuen Strukturen angepasst und ist dann mit der alten Version nicht mehr kompatibel. Es gibt auch keinen Weg zurück. Daher ist es sinnvoll, das Datenverzeichnis vor dem Update als Sicherung zu kopieren. Falls etwas schief geht ist damit mit der alten Version noch immer ein lauffähiges System vorhanden.
 
-Sofern noch keine Plugins installiert sind, erscheint folgende Meldung:
-
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install1.png" alt="" /></picture>
-
 ## JVerein-Installation
 
-Datei \| Plugins online suchen \| Verfügbare Plugins \| Im Select "https://openjverein.github.io/jameica-repository" auswahlen.
+Oben im Hauptmenü auf "Datei" -> "Plugins online suchen", Tab "Verfügbare Plugins" -> Im Select "https://openjverein.github.io/jameica-repository" auswahlen.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install6.png" alt="" /></picture>
 
 Passende JVerein-Version auswählen und "Installieren..." anklicken.
 
-Für die Nutzung von OpenJVerein ist das Banking-Plugin Hibiscus erforderlich. Wenn dieses noch nicht installiert ist, erscheint folgendes Fenster, dass mit OK bestätigt werden muss.
+Für die Nutzung von OpenJVerein ist das Banking-Plugin Hibiscus erforderlich. Wenn dieses noch nicht installiert ist, erscheint folgendes Fenster, dass mit "Ja" bestätigt werden muss.
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install15.png" alt="" /></picture>
-
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/install7.png" alt="" /></picture>
 
@@ -35,7 +30,7 @@ Für die Nutzung von OpenJVerein ist das Banking-Plugin Hibiscus erforderlich. W
 
 Passenden Plugin-Ordner auswählen. Wichtig! Eine einmal getroffene Auswahl sollte beibehalten werden.
 
-Jameica beenden und neu starten.
+Nun werden OpenJVerein und ggf. Hibiscus heruntergeladen. Sobald das abgeschlossen ist, erscheint eine Erfolgsmeldung und Jameica muss beenden und neu gestartet werden.
 
 ### Wichtig
 
