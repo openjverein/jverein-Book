@@ -1,6 +1,6 @@
 # OpenJVerein
 
-[OpenJVerein](https://openjverein.github.io/) ist ein [github fork](https://github.com/openjverein/jverein) des [Jameica](https://www.willuhn.de/products/jameica/) Plugins [JVerein](https://www.jverein.de/). Jverein wird nichtmehr weiter entwickelt. Durch die Weiterentwicklung von OpenJVerein ist keine Kompatibilität zu JVerein gegeben. Wenn man sich für OpenJVerein entscheidet kann eine problemlose Rückkehr zu JVerein, aufgrund der Datenbankstruktur, nicht garantiert werden.
+[OpenJVerein](https://openjverein.github.io/) ist ein [github fork](https://github.com/openjverein/jverein) des [Jameica](https://www.willuhn.de/products/jameica/) Plugins [JVerein](https://www.jverein.de/). Das ursprüngliche Jverein wird nichtmehr weiter entwickelt. Durch die Weiterentwicklung von OpenJVerein ist keine Kompatibilität zu JVerein gegeben. Wenn man sich für OpenJVerein entscheidet kann eine problemlose Rückkehr zu JVerein, aufgrund der Datenbankstruktur, nicht garantiert werden.
 
 # Einführung
 
