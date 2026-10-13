@@ -71,7 +71,7 @@ Ab Version 4.1 lassen sich auch die Zugehörigkeit zu einem Familienverband und 
 * Jede Zeile ohne eigenen Vollzahler beginnt damit einen neuen Familienverband: Folgt auf ein Familienmitglied mit `^` ein weiterer Vollzahler (oder eine Einzelperson), verweist das nächste `^` darunter auf diese Zeile. Zeilen dazwischen, die selbst einen Verweis haben (`#wert`, Id oder externezahlerid), werden übersprungen und ändern nicht, worauf ein `^` weiter unten verweist.
 * Ist die Zelle leer, wird kein Vollzahler bzw. abweichender Zahler gesetzt. alternativer_zahlerid muss also nicht für alle Mitglieder gefüllt sein.
 
-Sind zahlerid und alternativer_zahlerid in derselben Zeile angegeben, wird eine Warnung im Importprotokoll ausgegeben, der Import läuft aber weiter.
+zahlerid und alternativer_zahlerid können gemeinsam angegeben werden, Familienzugehörigkeit und abweichender Zahler sind unabhängig voneinander. Der abweichende Zahler zahlt dann den Beitrag des Familienmitglieds. Sind abweichende Zahler unter Einstellungen nicht aktiviert, wird alternativer_zahlerid trotzdem importiert, bei Zahlungen aber nicht berücksichtigt. Darauf wird einmal im Importprotokoll hingewiesen.
 
 ### Schlüssel lfdnr und key
 
