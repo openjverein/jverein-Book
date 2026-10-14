@@ -63,7 +63,7 @@ Ab Version 4.1 lassen sich auch die Zugehörigkeit zu einem Familienverband und 
 | Abweichender Zahler | alternativer_zahlerid | externealternativer_zahlerid |
 
 * zahlerid bzw. externezahlerid werden nur bei Mitgliedern in einer Beitragsgruppe der Art "Familienangehöriger" ausgewertet.
-* Pro Rolle darf nur eine der beiden Spalten gefüllt sein.
+* Pro Rolle dürfen auch beide Spalten gefüllt sein, siehe "Id und externe Mitgliedsnummer gleichzeitig".
 * Eine leere Zelle setzt keinen Zahler. Die Spalten müssen also nicht für alle Mitglieder gefüllt sein.
 * Ab Version 4.4 können Zahler auch im selben Import angelegt werden, auf den sich andere Zeilen beziehen.
 
@@ -79,6 +79,16 @@ externezahlerid und externealternativer_zahlerid enthalten die externe Mitglieds
 2. Nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist: bei den vorhandenen Mitgliedern in JVerein.
 
 Ist die externe Mitgliedsnummer nicht aktiviert, werden die Nummern in der Spalte externemitgliedsnummer nicht gespeichert, sie dienen nur als Schlüssel innerhalb der Datei.
+
+### Id und externe Mitgliedsnummer gleichzeitig
+
+Sind in einer Rolle beide Spalten gefüllt (z. B. zahlerid und externezahlerid), gilt:
+
+* Findet die Id ein Mitglied, wird dieses verwendet. Die externe Nummer wird dann nur geprüft.
+* Verweist die externe Nummer auf ein anderes Mitglied als die Id, bricht der Import mit einer Meldung ab.
+* Findet die Id kein Mitglied, wird die externe Nummer verwendet.
+* Findet keine der beiden Angaben ein Mitglied, bricht der Import ab.
+* `^` kann nicht zusammen mit einer zweiten Angabe zur selben Rolle stehen.
 
 ### ^ für die Zeile darüber
 
