@@ -55,37 +55,53 @@ Felder mit anderem Namen werden ignoriert
 
 ## Familienverband und abweichende Zahler
 
-Ab Version 4.1 lassen sich auch die Zugehörigkeit zu einem Familienverband und abweichende Zahler importieren. Die entsprechenden Attribute sind:
+Ab Version 4.1 lassen sich auch die Zugehörigkeit zu einem Familienverband und abweichende Zahler importieren. Für jede der beiden Rollen gibt es zwei Spalten, eine für die Id und eine für die externe Mitgliedsnummer des Zahlers:
 
-* zahlerid Vollzahlendes Mitglied. Wird nur bei Mitgliedern in einer Beitragsgruppe der Art "Familienangehöriger" ausgewertet.
-* alternativer_zahlerid Abweichender Zahler
+| Rolle | Id des Zahlers | Externe Mitgliedsnummer des Zahlers |
+| --- | --- | --- |
+| Vollzahler | zahlerid | externezahlerid |
+| Abweichender Zahler | alternativer_zahlerid | externealternativer_zahlerid |
 
-Ab Version 4.4 können Vollzahler und abweichende Zahler auch im selben Import angelegt werden, auf den sich andere Zeilen beziehen. Die in Version 4.3 eingeführte Spalte externezahlerid gibt es nicht mehr, stattdessen steht in zahlerid die externe Mitgliedsnummer.
+* zahlerid bzw. externezahlerid werden nur bei Mitgliedern in einer Beitragsgruppe der Art "Familienangehöriger" ausgewertet.
+* Pro Rolle darf nur eine der beiden Spalten gefüllt sein.
+* Eine leere Zelle setzt keinen Zahler. Die Spalten müssen also nicht für alle Mitglieder gefüllt sein.
+* Ab Version 4.4 können Zahler auch im selben Import angelegt werden, auf den sich andere Zeilen beziehen.
 
-### Inhalt von zahlerid und alternativer_zahlerid
+### Id des Zahlers
 
-* Ist unter Einstellungen die externe Mitgliedsnummer nicht aktiviert, steht dort die Id eines Mitglieds, das schon in JVerein existiert.
-* Ist die externe Mitgliedsnummer aktiviert, steht dort die externe Mitgliedsnummer des Zahlers. Der Zahler kann schon in JVerein existieren oder in derselben Datei in der Spalte externemitgliedsnummer stehen. Die Reihenfolge der Zeilen spielt dabei keine Rolle.
-* `#17` steht immer für die Id 17, auch wenn die externe Mitgliedsnummer aktiviert ist. Das braucht man für Zahler ohne externe Mitgliedsnummer, z. B. Nicht-Mitglieder.
-* `^` verweist auf die nächste Zeile darüber, bei der die Zelle in derselben Spalte leer ist. So können Familienmitglieder direkt unter dem Vollzahlenden stehen, ohne dass eine Nummer nötig ist. `^` funktioniert mit und ohne externe Mitgliedsnummer.
-* Eine leere Zelle setzt keinen Zahler. alternativer_zahlerid muss also nicht für alle Mitglieder gefüllt sein.
+zahlerid und alternativer_zahlerid enthalten die Id eines Mitglieds, das schon in JVerein existiert. Die Id ist unabhängig von der Einstellung "Externe Mitgliedsnummer". Das ist auch der Weg für Zahler, die keine externe Mitgliedsnummer haben, z. B. Nicht-Mitglieder.
 
-Jede Zeile ohne eigenen Vollzahler beginnt einen neuen Familienverband: Folgt auf ein Familienmitglied mit `^` ein weiterer Vollzahler (oder eine Einzelperson), verweist das nächste `^` darunter auf diese Zeile. Zeilen dazwischen, die selbst einen Verweis haben (Nummer, `#17` oder `^`), werden übersprungen und ändern nicht, worauf ein `^` weiter unten verweist.
+### Externe Mitgliedsnummer des Zahlers
 
-zahlerid und alternativer_zahlerid können gemeinsam angegeben werden, Familienzugehörigkeit und abweichender Zahler sind unabhängig voneinander. Der abweichende Zahler zahlt dann den Beitrag des Familienmitglieds. Sind abweichende Zahler unter Einstellungen nicht aktiviert, wird alternativer_zahlerid trotzdem importiert, bei Zahlungen aber nicht berücksichtigt. Darauf wird einmal im Importprotokoll hingewiesen.
+externezahlerid und externealternativer_zahlerid enthalten die externe Mitgliedsnummer des Zahlers. Der Zahler wird in dieser Reihenfolge gesucht:
+
+1. In der Spalte externemitgliedsnummer einer Zeile derselben Datei. Die Reihenfolge der Zeilen spielt keine Rolle.
+2. Nur wenn unter Einstellungen die externe Mitgliedsnummer aktiviert ist: bei den vorhandenen Mitgliedern in JVerein.
+
+Ist die externe Mitgliedsnummer nicht aktiviert, werden die Nummern in der Spalte externemitgliedsnummer nicht gespeichert, sie dienen nur als Schlüssel innerhalb der Datei.
+
+### ^ für die Zeile darüber
+
+In jeder der vier Spalten verweist `^` auf die nächste Zeile darüber, die in dieser Rolle keinen Zahler angibt. So können Familienmitglieder direkt unter dem Vollzahlenden stehen, ohne dass Nummern nötig sind. `^` funktioniert mit und ohne externe Mitgliedsnummer.
+
+Jede Zeile ohne eigenen Vollzahler beginnt einen neuen Familienverband: Folgt auf ein Familienmitglied mit `^` ein weiterer Vollzahler (oder eine Einzelperson), verweist das nächste `^` darunter auf diese Zeile. Zeilen dazwischen, die selbst einen Zahler angeben (Id, externe Nummer oder `^`), werden übersprungen und ändern nicht, worauf ein `^` weiter unten verweist.
+
+### Vollzahler und abweichender Zahler zusammen
+
+Familienzugehörigkeit und abweichender Zahler sind unabhängig voneinander. Der abweichende Zahler zahlt dann den Beitrag des Familienmitglieds. Sind abweichende Zahler unter Einstellungen nicht aktiviert, wird der abweichende Zahler trotzdem importiert, bei Zahlungen aber nicht berücksichtigt. Darauf wird einmal im Importprotokoll hingewiesen.
 
 ### Reihenfolge der Verarbeitung
 
-Der Import berücksichtigt Verweise auf Zeilen derselben Datei automatisch: Ein Vollzahler bzw. abweichender Zahler wird immer vor den Mitgliedern gespeichert, die auf ihn verweisen. Die Zeilennummern in Meldungen und Fehlermeldungen beziehen sich immer auf die Position in der Datei (ohne Kopfzeile), unabhängig von der Verarbeitungsreihenfolge.
+Der Import berücksichtigt Verweise auf Zeilen derselben Datei automatisch: Ein Zahler wird immer vor den Mitgliedern gespeichert, die auf ihn verweisen. Die Zeilennummern in Meldungen und Fehlermeldungen beziehen sich immer auf die Position in der Datei (ohne Kopfzeile), unabhängig von der Verarbeitungsreihenfolge.
 
-Der Import bricht ab und es wird nichts importiert, wenn ein Zahler nicht gefunden wird, `^` keine Zeile darüber hat, eine externe Mitgliedsnummer mehrfach vorkommt oder Mitglieder sich gegenseitig als Zahler angeben.
+Der Import bricht ab und es wird nichts importiert, wenn ein Zahler nicht gefunden wird, `^` keine Zeile darüber hat, eine verwiesene externe Mitgliedsnummer in der Datei mehrfach vorkommt oder Mitglieder sich gegenseitig als Zahler angeben.
 
 ### Beispiele
 
 Mit externer Mitgliedsnummer. Anna steht vor ihrem Vollzahler Max, Eva gehört per `^` zu Hans, Willi hat Max als abweichenden Zahler:
 
 ```text
-externemitgliedsnummer;name;vorname;beitragsgruppe;zahlerid;alternativer_zahlerid
+externemitgliedsnummer;name;vorname;beitragsgruppe;externezahlerid;externealternativer_zahlerid
 M-2;Mustermann;Anna;Familienangehöriger;M-1;
 M-1;Mustermann;Max;Vollzahler;;
 M-3;Meier;Hans;Vollzahler;;
@@ -93,18 +109,23 @@ M-4;Meier;Eva;Familienangehöriger;^;
 M-5;Wichtig;Willi;Vollzahler;;M-1
 ```
 
-Ohne externe Mitgliedsnummer. Anna und Tom stehen mit `^` direkt unter Max, Eva unter Hans. Willi hat das schon vorhandene Mitglied mit der Id 1 als abweichenden Zahler:
+Ohne externe Mitgliedsnummer. Die Nummern in der Spalte externemitgliedsnummer sind nur Schlüssel dieser Datei und werden nicht gespeichert. Ben verweist auf Hans weiter unten, Tom auf Max, Anna und Eva stehen mit `^` unter ihrem Vollzahler. Willi hat das schon vorhandene Mitglied mit der Id 1 als abweichenden Zahler:
 
 ```text
-name;vorname;beitragsgruppe;zahlerid;alternativer_zahlerid
-Mustermann;Max;Vollzahler;;
-Mustermann;Anna;Familienangehöriger;^;
-Mustermann;Tom;Familienangehöriger;^;
-Meier;Hans;Vollzahler;;
-Meier;Eva;Familienangehöriger;^;
-Wichtig;Willi;Vollzahler;;1
+externemitgliedsnummer;name;vorname;beitragsgruppe;zahlerid;externezahlerid;alternativer_zahlerid
+;Meier;Ben;Familienangehöriger;;h;
+a;Mustermann;Max;Vollzahler;;;
+;Mustermann;Anna;Familienangehöriger;^;;
+;Mustermann;Tom;Familienangehöriger;;a;
+h;Meier;Hans;Vollzahler;;;
+;Meier;Eva;Familienangehöriger;;^;
+;Wichtig;Willi;Vollzahler;;;1
 ```
+
+### Umstellung auf externe Mitgliedsnummern
+
+Sollen alle Mitglieder von internen auf externe Mitgliedsnummern umgestellt werden, wird zuerst unter Einstellungen die externe Mitgliedsnummer aktiviert. Im Import wählt die Spalte id das vorhandene Mitglied (Id) und externemitgliedsnummer setzt die neue Nummer. Bestehende Zahler bleiben bei leeren Zellen unverändert.
 
 ### Bestehendes Vorgehen mit zwei Importen
 
-Wie bisher können auch zwei Importe nacheinander durchgeführt werden: Im ersten Import werden die Mitglieder ohne zahlerid und alternativer_zahlerid importiert. Im zweiten Import werden die Mitglieder importiert, bei denen mit der Id der bereits vorhandenen Mitglieder ein Vollzahler oder abweichender Zahler gesetzt werden soll.
+Wie bisher können auch zwei Importe nacheinander durchgeführt werden: Im ersten Import werden die Mitglieder ohne Zahler importiert. Im zweiten Import werden die Mitglieder importiert, bei denen mit zahlerid bzw. alternativer_zahlerid ein Vollzahler oder abweichender Zahler gesetzt werden soll.
