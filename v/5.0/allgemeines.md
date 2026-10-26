@@ -104,8 +104,8 @@ Für die Tabellen Header Zeile und den Tabelleninhalt lässt sich jeweils die Sc
 Die Lasche "Optionen" wird nur angezeigt wenn auch eine Option für den Report vorhanden ist.
 
 Dieser bietet folgende Schalter:
-* Filterparameter ausgeben: Für Reports die gefilterte Tabellen ausgeben, kann ausgewählt werden ob am Ende des Reports eine Tabelle mit den aktiven Filtern ausgegeben wird. Die Tabelle wird nur gezeichnet wenn auch mindesten ein Filter aktiv ist.
-* Zeige Kontonummer in Buchungsliste: Diese Option wird bei, Buchungsexport "PDF Einzelbuchungen" angeboten.
+* Filterparameter ausgeben: Für Reports die gefilterte Tabellen ausgeben, kann ausgewählt werden ob am Ende des Reports eine Tabelle mit den aktiven Filtern ausgegeben wird. Die Tabelle wird nur gezeichnet wenn auch mindesten ein Filter aktiv ist
+* Zeige Kontonummer in Buchungsliste: Diese Option wird bei, Buchungsexport "PDF Einzelbuchungen" angeboten
 * Wirtschaftsplan Ist-Beträge von laufendem Zeitraum ausgeben: Diese Option wird beim PDF Export der Wirtschaftspläne angeboten
 
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/500_TabelleExportDialogOptionen.png" alt="" /></picture>

@@ -23,8 +23,8 @@ Für den ArchiveService müssen folgende Jameica-Plugins zusätzlich installiert
 ## Voraussetzungen für die lokale Speicherung
 
 Für die lokale Speicherung muss der Dateipfad konfiguriert werden. Er besteht aus:
-* einem festen Root Anteil der unter Administration->Einstellungen->Belege konfiguriert wird. Als Defaultwert sind hier Pfade in das Jameica Verzeichnis gesetzt
-* einem Pfad relativ zum Wurzelverzeichnisse Anteil. Dieser wird unter Administration->Einstellungen->Vorlagen konfiguriert und kann Variablen aus dem Mitglied bzw. der Buchung enthalten
+* einem festen Wurzelverzeichnis Anteil der unter Administration->Einstellungen->Belege konfiguriert wird. Als Defaultwert sind hier Pfade in das Jameica Verzeichnis gesetzt
+* einem Pfad relativ zum Wurzelverzeichnisse Anteil. Dieser wird unter Administration->Einstellungen->Vorlagen konfiguriert und kann Variablen enthalten
 
 PS: Der relative Pfadanteil wird in der Datenbank zum Dokument gespeichert. Der Wurzelverzeichnisse Anteil wird lokal auf dem Rechner gespeichert. Wird z.B. der komplette Datensatz mit Datenbank und den gespeicherten Dokumenten auf einen anderen Rechner oder auch lokal in ein anderes Verzeichnis verschoben, muss nur der Wurzelverzeichnisse  Anteil neu gesetzt werden.
 
@@ -60,13 +60,13 @@ Ab Version 5.0:
 
 Folgende Buttons sind vorhanden:
 * Neu: Neues Dokument erzeugen
-* Beleg Zuordnen: Ordnet ein bestehendes Dokument zu
+* Beleg Zuordnen: Ordnet einen bestehenden Beleg zu
 
 Folgende Menü Einträge sind vorhanden:
-* Bearbeiten: Öffnet den Dokument Datensatz zum Bearbeiten
+* Bearbeiten: Öffnet den Beleg Datensatz zum Bearbeiten
 * Anzeigen: Öffnet das Dokument in einer externen Applikation und zeigt es an
-* Beleg aus Buchung entfernen: Löscht die Dokumentzuordnung, das Dokument selbst bleibt bestehen
-* Löschen: Löscht das Dokument
+* Beleg aus Buchung entfernen: Löscht die Dokumentzuordnung, der Beleg selbst bleibt bestehen
+* Löschen: Löscht den Beleg
 
 
 ## Neues Dokument
@@ -80,14 +80,13 @@ Ab Version 4.3:
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_DokumenteNeuDialog.png" alt="" /></picture>
 
 Folgende Eingabefelder sind vorhanden:
-* Belegart: Sie bestimmt welcher Pfad zum Speichern verwendet wird und wie die Belegnummer generiert wird
 * Datei: Hier wird die Datei ausgewählt, die als Beleg gespeichert wird
 * Datum: Hinterlegtes Datum
 * Bemerkung: Text zum Beleg
 
 Es wird eine Datei ausgewählt. Standardmäßig wird das Tagesdatum vorgegeben. Zusätzlich kann zu jedem Dokument ein Kommentar eingetragen werden.
 
-Ab 4.2 lässt sich das Datum nicht mehr konfigurieren, es ist immer das Datum an dem der Beleg hinzugefügt wurde.
+Ab 4.2 lässt sich das Datum nicht mehr nachträglich ändern.
 
 Ab Version 5.0:
 
