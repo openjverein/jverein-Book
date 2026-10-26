@@ -35,13 +35,13 @@ Belege (Dokumente) lassen sich bei den Buchungen und Mitgliedern erstellen aber 
 Im Export Dialog für PDF Reports gibt es einen neuen Reiter "Optionen". Er wird nur angezeigt wenn auch eine Option für den Report vorhanden ist.
 
 Dieser bietet folgende Schalter:
-* Filterparameter ausgeben: Für Reports die gefilterte Tabellen ausgeben, kann ausgewählt werden ob am Ende des Reports eine Tabelle mit den aktiven Filtern ausgegeben wird. Die Tabelle wird nur gezeichnet wenn auch mindesten ein Filter aktiv ist.
-* Zeige Kontonummer in Buchungsliste: Diese Option wird bei, Buchungsexport "PDF Einzelbuchungen" angeboten.
+* Filterparameter ausgeben: Für Reports die gefilterte Tabellen ausgeben, kann ausgewählt werden ob am Ende des Reports eine Tabelle mit den aktiven Filtern ausgegeben wird. Die Tabelle wird nur gezeichnet wenn auch mindesten ein Filter aktiv ist
+* Zeige Kontonummer in Buchungsliste: Diese Option wird bei, Buchungsexport "PDF Einzelbuchungen" angeboten
 * Wirtschaftsplan Ist-Beträge von laufendem Zeitraum ausgeben: Diese Option wird beim PDF Export der Wirtschaftspläne angeboten
 
 ### Gesperrt Spalte
 
-Bei Tabellen gibt es eine neue Spalte "Gesperrt" b.z.w. "Abgeschlossen". Sie ist standardmäßig ausgeblendet. Sie zeigt ein Schlosssymbol wenn der Eintrag nicht gelöscht werden kann. 
+Bei Tabellen gibt es eine neue Spalte "Gesperrt" bzw. "Abgeschlossen". Sie ist standardmäßig ausgeblendet. Sie zeigt ein Schlosssymbol wenn der Eintrag nicht gelöscht werden kann. 
 
 
 ## Sonstiges

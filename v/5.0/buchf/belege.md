@@ -9,7 +9,7 @@ Zur Nutzung der Beleg ist die Option unter Administration->Einstellungen->Anzeig
 
 Unter Administration->Einstellungen->Belege können die Wurzelverzeichnisse für die Dokumentspeicherung gesetzt werden. Diese können geändert werden wenn die Dokumente verschoben werden bzw. auf einen anderen Benutzer übertragen werden. Die Verzeichnisse stehen nicht in der Datenbank sondern sind lokal gespeichert.
 
-Unter Administration->Einstellungen->Vorlagen lassen sich die relativen Pfade für die Beleg mit Variablen definieren. Ein Beleg wird unter dem  Wurzelverzeichnis und dem relativen Pfad zusammengesetzt.
+Unter Administration->Einstellungen->Vorlagen lassen sich die relativen Pfade für die Belege mit Variablen definieren. Ein Beleg wird unter dem  Wurzelverzeichnis und dem relativen Pfad zusammengesetzt.
 
 
 ## Liste der Belege
@@ -24,7 +24,7 @@ Folgende Buttons sind vorhanden:
 
 Folgende Menü Einträge sind vorhanden:
 * Bearbeiten: Öffnet den Beleg zum Bearbeiten
-* Anzeigen: Zeigt den Beleg an
+* Anzeigen: Öffnet das Dokument in einer externen Applikation und zeigt es an
 * Löschen: Löscht den Beleg
 
 ## Neuer Beleg
@@ -43,7 +43,7 @@ Belege die hier erzeugt werden sind keiner Buchung oder keinem Mitglied zugeordn
 
 ## Neuer Beleg über Buchung und Mitglied erzeugen
 
-Im Dialog eine Buchung und Mitglied werden bei aktivierter Dokumentspeicherung die zugeordneten Dokumente in einer Tabelle angezeigt. Dort lassen sich Belege neu erstellen bzw. bestehende Belege zuordnen.
+Im Dialog einer Buchung oder eines Mitglied werden bei aktivierter Dokumentspeicherung die zugeordneten Belege in einer Tabelle angezeigt. Dort lassen sich Belege neu erstellen bzw. bestehende Belege zuordnen.
 
 Siehe hierzu [Dokumente](../../../sonstiges/dokumente.md)
 
