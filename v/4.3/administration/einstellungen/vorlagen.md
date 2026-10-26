@@ -10,11 +10,9 @@ In der Liste sind alle Dateien enthalten die aktuell von JVerein generiert werde
 
 Über einen Doppel Klick oder den Menüeintrag "Bearbeiten" lässt sich eine Vorlage bearbeiten.
 
-Ab Version 4.3 lassen sich hier auch die relativen Pfade für die lokale Dokumentspeicherung konfigurieren.
-
 Mit dem Filter lässt sich nach:
 * dem eingegebenen Text in den beiden Spalten filtern
-* der Vorlagenart "Dateiname", "Titel" und "Pfad" filtern
+* der Vorlagenart "Dateiname" und "Titel" filtern
 
 ## Vorlage
 

@@ -1,6 +1,6 @@
 # Anzeige
 
-<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_EinstellungenAnzeige.png" alt="" /></picture>
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/500_EinstellungenAnzeige.png" alt="" /></picture>
 
 Durch die Einstellungen kann das Verhalten von JVerein beeinflusst werden.
 

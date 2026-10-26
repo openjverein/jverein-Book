@@ -864,7 +864,6 @@
       * [Anzeige](v/4.3/administration/einstellungen/anzeige.md)
       * [Mitglieder Ansicht](v/4.3/administration/einstellungen/ansicht.md)
       * [Abrechnung](v/4.3/administration/einstellungen/abrechnung.md)
-      * [Verzeichnisse](v/4.3/administration/einstellungen/verzeichnisse.md)
       * [Vorlagen](v/4.3/administration/einstellungen/vorlagen.md)
       * [Spendenbescheinigungen](v/4.3/administration/einstellungen/spendenbescheinigungen.md)
       * [Buchführung](v/4.3/administration/einstellungen/buchfuehrung.md)
