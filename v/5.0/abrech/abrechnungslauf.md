@@ -1,0 +1,42 @@
+# Abrechnungsläufe
+
+Auflistung aller Abrechnungsläufe. Mit einem Rechtsklick kann ein Lauf gelöscht werden oder es können [Pre-Notification](../druckmail/pre-notification.md) ausgeben werden.
+
+## Liste der Abrechnungsläufe
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_AbrechnungslaufListeView.png" alt="" /></picture>
+
+Folgende Menü Einträge sind vorhanden:
+
+* Bearbeiten: Öffnet die Detailansicht für den selektierten Abrechnungslauf
+* Löschen: Löscht den Abrechnungslauf. Dies löscht auch alle vom Abrechnungslauf generierten Sollbuchungen, Buchungen und Lastschriften. Sind Rechnungen oder Spendenbescheinigungen zugeordnet werden diese auf Nachfrage mit gelöscht
+* Gutschrift erstellen: Öffnet den Dialog zum Erstellen von Gutschriften. Siehe [Gutschrift](../mitglieder/gutschrift.md)
+* Pre-Notification: Öffnet den Dialog zum Erzeugen von Pre-Notifications für den selektierten Abrechnungslauf
+* Abschließen: Markiert den Abrechnungslauf als abgeschlossen. Es lassen sich dann der Abrechnungslauf und die durch den Abrechnungslauf generierten Buchungen, Sollbuchungen und Lastschriften nicht mehr editieren und löschen
+* Aufschließen: Hebt die Abschließen Markierung wieder auf. Dies ist nur möglich solange das Jahr der Abrechnungslaufens noch keinen Jahresabschluss hat
+
+PS: Die Optionen Abschließen und Aufschließen sind nur verfügbar wenn dieses unter Administration->Einstellungen->Abrechnung aktiviert wurde.
+
+
+Auch ein Doppelklick auf den Abrechnungslauf Eintrag zeigt den Abrechnungslauf an.
+
+Über den "Neu" Button können neue Abrechnungsläufe erzeugt werden (siehe [Abrechnung](abrechnung.md)).
+
+Ein Abrechnungslauf kann abgeschlossen werden und ist damit vor versehentlichem Löschen geschützt. Alle durch den Abrechnungslauf erstellten Buchungen, Sollbuchungen und Lastschriften können dann ebenfalls nicht mehr gelöscht werden. Damit diese Funktion genutzt werden kann, muss sie unter Einstellungen->Abrechnung aktiviert werden.
+
+## Abrechnungslauf anzeigen
+
+Der Abrechnungslauf zeigt die Daten des Abrechnungslaufes an.
+
+Die Bemerkung lässt sich editieren.
+
+In den Tabs werden die durch den Abrechnungslauf erzeugten Buchungen, Sollbuchungen und Lastschriften sowie die abgerechneten Zusatzbeträge angezeigt.
+
+Im Tab "Zugeordnete Buchungen" werden alle Buchungen angezeigt, die einer Sollbuchung des Abrechnungslaufes zugeordnet sind. Während der Tab "Buchungen" nur die Buchungen anzeigt, die der Abrechnungslauf automatisch erzeugt hat, werden im Tab "Zugeordnete Buchungen" auch die angezeigt, die durch Überweisung oder Barzahlung erzeugt wurden und manuell den Sollbuchungen zugeordnet wurden.
+
+PS: Beim Löschen eines Abrechnungslaufes werden nur die Buchungen mit gelöscht die der Abrechnungslauf automatisch erzeugt hat, also alle die, die im Tab "Buchungen" aufgelistet sind.
+
+Über die CSV/PDF Panel Buttons wird des jeweils angezeigte Tab ausgegeben.
+
+<picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_AbrechnungslaufView.png" alt="" /></picture>
+
