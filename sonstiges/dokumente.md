@@ -59,7 +59,7 @@ Ab Version 5.0:
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/500_BelegeDetailListe.png" alt="" /></picture>
 
 Folgende Buttons sind vorhanden:
-* Neu: Neues Dokument erzeugen
+* Neu: Neuen Beleg erzeugen
 * Beleg Zuordnen: Ordnet einen bestehenden Beleg zu
 
 Folgende Menü Einträge sind vorhanden:
@@ -80,9 +80,9 @@ Ab Version 4.3:
 <picture><img src="https://github.com/openjverein/jverein-Book/raw/master/assets/403_DokumenteNeuDialog.png" alt="" /></picture>
 
 Folgende Eingabefelder sind vorhanden:
-* Datei: Hier wird die Datei ausgewählt, die als Beleg gespeichert wird
+* Datei: Hier wird die Datei ausgewählt, die als Dokument gespeichert wird
 * Datum: Hinterlegtes Datum
-* Bemerkung: Text zum Beleg
+* Bemerkung: Text zum Dokument
 
 Es wird eine Datei ausgewählt. Standardmäßig wird das Tagesdatum vorgegeben. Zusätzlich kann zu jedem Dokument ein Kommentar eingetragen werden.
 
