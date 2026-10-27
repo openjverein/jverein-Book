@@ -12,7 +12,7 @@ Als Zahlungswege stehen
 * Barzahlung
 * Überweisung
 
-zur Verfügung. Die Standardwerte können unter Administration->Einstellungen->Beiträge festgelegt werden.
+zur Verfügung. Die Standardwerte können unter Administration->Einstellungen->Abrechnung festgelegt werden.
 
 ### Abweichender Zahler für Beiträge und Zusatzbeträge
 PS: Dies ist ein neues Konzept welches in der Version 4.0 eingeführt wurde.
